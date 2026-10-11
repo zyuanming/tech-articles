@@ -42,3 +42,22 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+
+  verify-deployed:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright==1.55.0 Pillow==12.3.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python tools/browser_check.py
+        env:
+          ARTICLE_SITE_BASE_URL: https://zyuanming.github.io/tech-articles
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deployed-reading-site-qa
+          path: qa-artifacts

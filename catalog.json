@@ -852,6 +852,17 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-11-boids-local-rules",
+    "title": "天空里没有总指挥，一群鸟为什么能一起转弯？",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-boids-local-rules/read.md",
+    "public_sha256": "415ff2255f6c668597a82751d5166efa5ee13106359c86b670870462468914ae",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
+  },
+  {
     "id": "2026-10-11-cloth-constraint-projection",
     "title": "不让它变长，为什么一张网就会垂成布？",
     "date": "2026-10-11",
@@ -872,6 +883,17 @@
     "images": 7,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-11-cordic-turns-and-shifts",
+    "title": "不会乘法的机器，怎样算出 sin 30°？CORDIC 用一串小转弯回答",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-cordic-turns-and-shifts/read.md",
+    "public_sha256": "9662b045fcc9d026d89646f7a440e5fab7b2a5f6227736f9b6048ed04938749c",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
   },
   {
     "id": "2026-10-11-crdt-merge-without-loss",
@@ -905,6 +927,28 @@
     "images": 6,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-11-ecs-data-travel",
+    "title": "游戏里十万颗子弹，CPU 为什么可能忙着搬不需要的数据？",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-ecs-data-travel/read.md",
+    "public_sha256": "6ce17876905c8da12019289aba1fca4cc8c44af243a1ea393724d6db287a75a0",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
+  },
+  {
+    "id": "2026-10-11-gjk-origin-collision",
+    "title": "不逐条检查边，怎么知道两个形状撞上了？GJK 把问题搬到原点旁边",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-gjk-origin-collision/read.md",
+    "public_sha256": "b26168ae331afffc096c1ffc65c369410095e84154ad62a6817563158740ee74",
+    "images": 20,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
   },
   {
     "id": "2026-10-11-inverse-kinematics-reaching",
@@ -962,6 +1006,39 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-11-marching-squares-contours",
+    "title": "一张数字表，怎样长出海岸线？沿着方格走的 Marching Squares",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-marching-squares-contours/read.md",
+    "public_sha256": "554ab4fff642b720db6ddaaa0f34eee60bf3816efd1320e5213120efbcb61eef",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
+  },
+  {
+    "id": "2026-10-11-maxflow-reverse-promises",
+    "title": "路明明已经堵死，最大流为什么还要画一条“倒着走”的边？",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-maxflow-reverse-promises/read.md",
+    "public_sha256": "20351910826ea78a4f3754bc158e4ff0b6187628148c1ba23452bb717b1ee440",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
+  },
+  {
+    "id": "2026-10-11-mipmaps-prefiltered-textures",
+    "title": "远处的地板为什么在闪？Mipmap 把纹理提前变成一摞“小抄”",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-mipmaps-prefiltered-textures/read.md",
+    "public_sha256": "49faa63b9a99e101080724be58e0a4d8da573e31324752731d10b781a2fda792",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
+  },
+  {
     "id": "2026-10-11-mvcc-snapshots",
     "title": "两个人同时改数据库，为什么还能各自读到完整快照？",
     "date": "2026-10-11",
@@ -995,6 +1072,17 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-11-reservoir-fair-stream",
+    "title": "数据还没来完，怎样公平地抽出两条？",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-reservoir-fair-stream/read.md",
+    "public_sha256": "42a9ffbafc3ef923d9e00e289750c6bd43651b65b081171aa2e81b28cbd6e622",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
+  },
+  {
     "id": "2026-10-11-rsa-modular-keys",
     "title": "公开一把钥匙，为什么仍能保密？用55这个小整数走进RSA",
     "date": "2026-10-11",
@@ -1004,6 +1092,17 @@
     "images": 9,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-11-sampling-ambiguous-world",
+    "title": "车轮明明向前转，录像为什么能让它倒着走？",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-sampling-ambiguous-world/read.md",
+    "public_sha256": "ebdfd9c6cc8d462dad6899f0efcaf38dde8d88b8968f9f2673c778db283a14d7",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
   },
   {
     "id": "2026-10-11-shadow-map-light-camera",
@@ -1026,6 +1125,17 @@
     "images": 21,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-11-snapshot-messages-in-flight",
+    "title": "给奔跑中的系统拍合影：Chandy–Lamport 快照怎样找回路上的消息",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-snapshot-messages-in-flight/read.md",
+    "public_sha256": "0233bb0e8e35620c25d4bd82945f93b1c05a79d274e6fbe1d2fac56a8c1653cf",
+    "images": 20,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-2026-10-11"
   },
   {
     "id": "2026-10-11-tcp-congestion-feedback",
