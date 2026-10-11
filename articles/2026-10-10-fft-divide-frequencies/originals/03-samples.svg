@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>先把问题缩小到四个数</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">先把问题缩小到四个数</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">x = [1, 0, −1, 0]；样本编号 n 从 0 开始</text>
+<line x1="150" y1="360" x2="820" y2="360" stroke="#d2dbd8" stroke-width="3"/>
+<line x1="220" y1="360" x2="220" y2="235" stroke="#087f8c" stroke-width="4"/>
+<circle cx="220" cy="235" r="6" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="395" y1="360" x2="395" y2="360" stroke="#087f8c" stroke-width="4"/>
+<circle cx="395" cy="360" r="6" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="570" y1="360" x2="570" y2="485" stroke="#087f8c" stroke-width="4"/>
+<circle cx="570" cy="485" r="6" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="745" y1="360" x2="745" y2="360" stroke="#087f8c" stroke-width="4"/>
+<circle cx="745" cy="360" r="6" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="220" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">n=0</text>
+<text x="395" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">n=1</text>
+<text x="570" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">n=2</text>
+<text x="745" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">n=3</text>
+<text x="220" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">1</text>
+<text x="395" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">0</text>
+<text x="570" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">-1</text>
+<text x="745" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">0</text>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">输入是一段有限数字序列；DFT 为它计算四个复数系数。</text></svg>

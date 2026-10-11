@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1167" viewBox="0 0 960 700" role="img"><title>估得太高，会错过真正便宜的路</title><rect width="960" height="700" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">估得太高，会错过真正便宜的路</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">自设反例：目标第一次从最小 f 队列取出即停止</text>
+<line x1="150" y1="340" x2="480" y2="205" stroke="#087f8c" stroke-width="7"/>
+<text x="315.0" y="256.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">2</text>
+<line x1="480" y1="205" x2="810" y2="340" stroke="#087f8c" stroke-width="7"/>
+<text x="645.0" y="256.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">2</text>
+<line x1="150" y1="340" x2="480" y2="505" stroke="#e57735" stroke-width="7"/>
+<text x="315.0" y="406.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<line x1="480" y1="505" x2="810" y2="340" stroke="#e57735" stroke-width="7"/>
+<text x="645.0" y="406.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">8</text>
+<circle cx="150" cy="340" r="37" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="150" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">S</text>
+<circle cx="480" cy="205" r="37" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="480" y="217" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">A</text>
+<circle cx="480" cy="505" r="37" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="480" y="517" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">B</text>
+<circle cx="810" cy="340" r="37" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="810" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">T</text>
+<text x="480" y="143" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="middle">A：h=100，f=102</text>
+<text x="480" y="591" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="middle">B：h=0，f=1</text>
+<text x="42" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">最佳路线代价 4，却可能先取出代价 9 的目标。</text></svg>

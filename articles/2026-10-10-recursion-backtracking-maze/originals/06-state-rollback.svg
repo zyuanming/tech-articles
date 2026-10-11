@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>撤销选择，才能干净地试下一支</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">撤销选择，才能干净地试下一支</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">自设小问题：选两个不同数字，使总和等于 5</text>
+<text x="85" y="256" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">和为 3：失败</text>
+<rect x="510" y="210" width="98" height="72" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="559" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">1</text>
+<rect x="625" y="210" width="98" height="72" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="674" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<line x1="850" y1="275" x2="850" y2="349" stroke="#e57735" stroke-width="4"/>
+<polygon points="850,349 842.6055859201091,333.6923992600045 857.3944140798909,333.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="85" y="401" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">撤销最后的 2</text>
+<rect x="510" y="355" width="98" height="72" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="559" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">1</text>
+<line x1="850" y1="420" x2="850" y2="494" stroke="#e57735" stroke-width="4"/>
+<polygon points="850,494 842.6055859201091,478.6923992600045 857.3944140798909,478.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="85" y="546" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">改试 4：成功</text>
+<rect x="510" y="500" width="98" height="72" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="559" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">1</text>
+<rect x="625" y="500" width="98" height="72" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="674" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">4</text>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">共享列表不会因函数返回自动复原；回溯需要显式撤销。</text></svg>

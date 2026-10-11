@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>0.4 为什么会变成一黑、一白、一黑？</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">0.4 为什么会变成一黑、一白、一黑？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">阈值 0.5；输出黑 = 0、白 = 1；两行各有三个 0.4</text>
+<rect x="50" y="180" width="275" height="315" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">第 1 个像素</text>
+<text x="72" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">当前值 0.4000</text>
+<text x="72" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">输出 0</text>
+<text x="72" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">误差 +0.4000</text>
+<rect x="145" y="395" width="78" height="68" rx="0" fill="#183747" stroke="#183747" stroke-width="2"/>
+<rect x="355" y="180" width="275" height="315" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="377" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">第 2 个像素</text>
+<text x="377" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">当前值 0.5750</text>
+<text x="377" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">输出 1</text>
+<text x="377" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">误差 -0.4250</text>
+<rect x="450" y="395" width="78" height="68" rx="0" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<rect x="660" y="180" width="275" height="315" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="682" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">第 3 个像素</text>
+<text x="682" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">当前值 0.2141</text>
+<text x="682" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">输出 0</text>
+<text x="682" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">误差 +0.2141</text>
+<rect x="755" y="395" width="78" height="68" rx="0" fill="#183747" stroke="#183747" stroke-width="2"/>
+<text x="80" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="start">右邻居：0.4 + 0.4×7/16 = 0.575</text>
+<text x="80" y="639" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="start">再右边：0.4 − 0.425×7/16 = 0.2140625</text>
+<text x="42" y="752" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">第一行完整算完后再进入第二行；越界份额在本例中丢弃。</text></svg>

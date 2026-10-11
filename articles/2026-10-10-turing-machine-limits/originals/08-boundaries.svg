@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>边界让工具更诚实</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">边界让工具更诚实</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">实际检查器可以缩小范围，也可以回答未知</text>
+<rect x="55" y="175" width="850" height="130" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="85" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">有限状态空间</text>
+<text x="85" y="275" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">枚举或检测完整状态重复</text>
+<rect x="55" y="345" width="850" height="130" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="85" y="395" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">受限循环结构</text>
+<text x="85" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">证明每步离终点更近</text>
+<rect x="55" y="515" width="850" height="130" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="85" y="565" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">一般程序</text>
+<text x="85" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">允许回答“尚不能确定”</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">不可能全能，不意味着具体程序无法分析。</text></svg>

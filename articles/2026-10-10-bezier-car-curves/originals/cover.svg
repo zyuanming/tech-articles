@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>四个点，拉出一条曲线</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">四个点，拉出一条曲线</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">汽车造型里的几何，怎样走进屏幕</text>
+<path d="M 90 530 C 165 510 195 355 315 300 C 480 225 570 295 660 390 C 780 405 865 450 880 530 L 880 580 L 90 580 Z" fill="#d4e6df" stroke="#087f8c" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="270" cy="575" r="70" fill="#f7f4ed" stroke="#183747" stroke-width="7"/>
+<circle cx="270" cy="575" r="28" fill="#183747" stroke="#183747" stroke-width="3"/>
+<circle cx="725" cy="575" r="70" fill="#f7f4ed" stroke="#183747" stroke-width="7"/>
+<circle cx="725" cy="575" r="28" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="130" y1="515" x2="250" y2="220" stroke="#e57735" stroke-width="3" stroke-dasharray="10 7"/>
+<line x1="250" y1="220" x2="655" y2="215" stroke="#e57735" stroke-width="3" stroke-dasharray="10 7"/>
+<line x1="655" y1="215" x2="825" y2="480" stroke="#e57735" stroke-width="3" stroke-dasharray="10 7"/>
+<path d="M 130 515 C 250 220 655 215 825 480" fill="none" stroke="#e57735" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="130" cy="515" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="250" cy="220" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="655" cy="215" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="825" cy="480" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/></svg>

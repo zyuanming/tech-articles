@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>先预测，再让新证据纠正预测</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">先预测，再让新证据纠正预测</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">x̂ 是位置估计；P 是估计误差方差</text>
+<rect x="70" y="180" width="820" height="160" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="92" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">① 预测</text>
+<text x="92" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">x̂⁻ = x̂ + 1</text>
+<text x="92" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">P⁻ = P + Q：走了一步，也多了一份不确定性</text>
+<line x1="480" y1="345" x2="480" y2="390" stroke="#e57735" stroke-width="4"/>
+<polygon points="480,390 472.6055859201091,374.6923992600045 487.3944140798909,374.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="70" y="405" width="820" height="240" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="92" y="448" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">② 更新</text>
+<text x="92" y="491" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">K = P⁻ / (P⁻ + R)</text>
+<text x="92" y="531" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">x̂ = x̂⁻ + K × (测量 z − x̂⁻)</text>
+<text x="92" y="571" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">P = (1 − K)P⁻</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">结果带到下一轮；不需要每次重新处理全部历史读数。</text></svg>

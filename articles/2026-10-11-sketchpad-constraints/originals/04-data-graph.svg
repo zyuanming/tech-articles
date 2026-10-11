@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1217" viewBox="0 0 960 730" role="img"><title>屏幕下面，是会互相指向的数据</title><rect width="960" height="730" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">屏幕下面，是会互相指向的数据</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">两个线段共享同一个点；移动这个点，两条线都跟着变</text>
+<rect x="95" y="205" width="170" height="90" rx="14" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="180" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">点 A</text>
+<rect x="395" y="205" width="170" height="90" rx="14" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">点 B</text>
+<rect x="695" y="205" width="170" height="90" rx="14" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="780" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">点 C</text>
+<rect x="245" y="420" width="170" height="90" rx="14" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="330" y="477" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">线 AB</text>
+<rect x="555" y="420" width="170" height="90" rx="14" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="640" y="477" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">线 BC</text>
+<line x1="302" y1="420" x2="203" y2="302" stroke="#183747" stroke-width="4"/>
+<polygon points="203,302 218.50350878604414,308.97432543842433 207.17395881215958,318.4796258402427" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="360" y1="420" x2="455" y2="302" stroke="#183747" stroke-width="4"/>
+<polygon points="455,302 451.1602482126273,318.56068555982415 439.6407413723945,309.2865063240435" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="612" y1="420" x2="510" y2="302" stroke="#183747" stroke-width="4"/>
+<polygon points="510,302 525.604591586717,308.7451257521088 514.4163311706477,318.41633390837205" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="668" y1="420" x2="760" y2="302" stroke="#183747" stroke-width="4"/>
+<polygon points="760,302 756.4193543418249,318.6186334176608 744.756412208745,309.5254920935646" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="95" y="606" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">点 B 是一个对象，不是两条线各自保存的一份像素。</text>
+<text x="42" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">Sketchpad 使用 ring structure 组织关联；本图是简化关系图。</text></svg>

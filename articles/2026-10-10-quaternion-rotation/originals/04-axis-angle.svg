@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>四个数不是四根空间轴</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">四个数不是四根空间轴</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">单位轴 u 加旋转角 θ，被编码成单位四元数</text>
+<circle cx="300" cy="390" r="175" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<line x1="300" y1="390" x2="300" y2="185" stroke="#087f8c" stroke-width="7"/>
+<polygon points="300,185 307.3944140798909,200.3076007399955 292.6055859201091,200.3076007399955" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="300" y1="390" x2="460" y2="485" stroke="#5276bf" stroke-width="6"/>
+<polygon points="460,485 443.062551934838,483.5429986136108 450.61282183895185,470.82675456457696" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="300" y1="390" x2="140" y2="485" stroke="#c54c53" stroke-width="6"/>
+<polygon points="140,485 149.38717816104815,470.82675456457696 156.937448065162,483.5429986136108" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="315" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">旋转轴 u</text>
+<path d="M 190 400 A 130 90 0 0 0 405 460" fill="none" stroke="#e57735" stroke-width="7" stroke-linejoin="round"/>
+<line x1="390" y1="475" x2="410" y2="452" stroke="#e57735" stroke-width="6"/>
+<polygon points="410,452 405.5353439156973,468.4032571780393 394.37561251999875,458.69914292091016" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="280" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">角度 θ</text>
+<text x="555" y="275" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#183747" text-anchor="start">q = (w,x,y,z)</text>
+<text x="555" y="365" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">w = cos(θ/2)</text>
+<text x="555" y="435" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="start">(x,y,z)</text>
+<text x="555" y="485" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="start">= u sin(θ/2)</text>
+<text x="130" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#183747" text-anchor="start">w² + x² + y² + z² = 1</text>
+<text x="42" y="752" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">四个存储值受一个约束；三维姿态仍只有三个自由度。</text></svg>

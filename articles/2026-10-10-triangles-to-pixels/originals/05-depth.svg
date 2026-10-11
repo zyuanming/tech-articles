@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一格被画两次，留下哪一次？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一格被画两次，留下哪一次？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学约定：深度越小越近；深度缓冲最初为 1</text>
+<rect x="70" y="180" width="210" height="130" rx="15" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="175" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">远处墙面</text>
+<line x1="305" y1="245" x2="395" y2="245" stroke="#5276bf" stroke-width="4"/>
+<polygon points="395,245 379.6923992600045,252.3944140798909 379.6923992600045,237.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="425" y="257" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#5276bf" text-anchor="start">0.7 &lt; 1</text>
+<line x1="635" y1="245" x2="720" y2="245" stroke="#5276bf" stroke-width="4"/>
+<polygon points="720,245 704.6923992600045,252.3944140798909 704.6923992600045,237.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="750" y="180" width="140" height="130" rx="12" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="820" y="255" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#ffffff" text-anchor="middle">0.7</text>
+<rect x="70" y="375" width="210" height="130" rx="15" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="175" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">近处箱子</text>
+<line x1="305" y1="440" x2="395" y2="440" stroke="#e57735" stroke-width="4"/>
+<polygon points="395,440 379.6923992600045,447.3944140798909 379.6923992600045,432.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="425" y="452" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#e57735" text-anchor="start">0.3 &lt; 0.7</text>
+<line x1="635" y1="440" x2="720" y2="440" stroke="#e57735" stroke-width="4"/>
+<polygon points="720,440 704.6923992600045,447.3944140798909 704.6923992600045,432.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="750" y="375" width="140" height="130" rx="12" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="820" y="450" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#ffffff" text-anchor="middle">0.3</text>
+<text x="68" y="637" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">先写墙，再写箱子：箱子通过测试。</text>
+<text x="68" y="695" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">反过来画：墙的 0.7 无法胜过 0.3。</text></svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>画一条线，还是表达一种关系？</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">画一条线，还是表达一种关系？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">左边只记端点位置；右边额外记住“必须水平”</text>
+<rect x="65" y="170" width="390" height="350" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<circle cx="130" cy="320" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="380" cy="260" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="130" y1="320" x2="380" y2="260" stroke="#087f8c" stroke-width="6"/>
+<rect x="510" y="170" width="390" height="350" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<circle cx="575" cy="320" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="825" cy="260" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="575" y1="320" x2="825" y2="260" stroke="#087f8c" stroke-width="6"/>
+<text x="100" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">拖动后可以倾斜</text>
+<text x="545" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">约束会要求重新求解</text>
+<line x1="575" y1="400" x2="825" y2="400" stroke="#e57735" stroke-width="5"/>
+<circle cx="575" cy="400" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="825" cy="400" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="825" y1="284" x2="825" y2="380" stroke="#e57735" stroke-width="4"/>
+<polygon points="825,380 817.6055859201091,364.6923992600045 832.3944140798909,364.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">橙色线是满足水平关系的一个解，不是历史软件截图。</text></svg>

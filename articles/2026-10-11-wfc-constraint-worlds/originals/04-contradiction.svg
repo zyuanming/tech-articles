@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="388.8pt" viewBox="0 0 864 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T18:55:51.782154</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8 
+L 864 388.8 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f7f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 77.522625 257.928469 
+L 157.694273 257.928469 
+L 157.694273 177.75682 
+L 77.522625 177.75682 
+z
+" clip-path="url(#pac7be5d75c)" style="fill: #ffffff; stroke: #b7c5c8; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 166.602234 257.928469 
+L 246.773883 257.928469 
+L 246.773883 177.75682 
+L 166.602234 177.75682 
+z
+" clip-path="url(#pac7be5d75c)" style="fill: #ffffff; stroke: #b7c5c8; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 255.681844 257.928469 
+L 335.853492 257.928469 
+L 335.853492 177.75682 
+L 255.681844 177.75682 
+z
+" clip-path="url(#pac7be5d75c)" style="fill: #ffffff; stroke: #b7c5c8; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 27px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="117.608449" y="225.495457" transform="rotate(-0 117.608449 225.495457)">A</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 27px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="206.688059" y="225.495457" transform="rotate(-0 206.688059 225.495457)">A/B</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 27px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="295.767668" y="225.495457" transform="rotate(-0 295.767668 225.495457)">B</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 20px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #183747" x="77.522625" y="128.763035" transform="rotate(-0 77.522625 128.763035)">规则：相邻必须不同</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 15px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #087f8c" x="77.522625" y="320.284195" transform="rotate(-0 77.522625 320.284195)">左 A 要求中间 B</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 501.422625 257.928469 
+L 581.594273 257.928469 
+L 581.594273 177.75682 
+L 501.422625 177.75682 
+z
+" clip-path="url(#p819fae58ba)" style="fill: #ffffff; stroke: #b7c5c8; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 590.502234 257.928469 
+L 670.673883 257.928469 
+L 670.673883 177.75682 
+L 590.502234 177.75682 
+z
+" clip-path="url(#p819fae58ba)" style="fill: #ffffff; stroke: #c54c53; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 679.581844 257.928469 
+L 759.753492 257.928469 
+L 759.753492 177.75682 
+L 679.581844 177.75682 
+z
+" clip-path="url(#p819fae58ba)" style="fill: #ffffff; stroke: #b7c5c8; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 27px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="541.508449" y="225.495457" transform="rotate(-0 541.508449 225.495457)">A</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 27px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="630.588059" y="225.495457" transform="rotate(-0 630.588059 225.495457)">∅</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 27px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="719.667668" y="225.495457" transform="rotate(-0 719.667668 225.495457)">B</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 20px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #183747" x="501.422625" y="128.763035" transform="rotate(-0 501.422625 128.763035)">规则：相邻必须不同</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 15px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #c54c53" x="501.422625" y="320.284195" transform="rotate(-0 501.422625 320.284195)">右 B 又要求中间 A</text>
+   </g>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="432" y="23.03925" transform="rotate(-0 432 23.03925)">候选变成空集：此路不通，不是“终于确定”</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pac7be5d75c">
+   <rect x="50.798742" y="79.76925" width="338.502516" height="285.05475"/>
+  </clipPath>
+  <clipPath id="p819fae58ba">
+   <rect x="474.698742" y="79.76925" width="338.502516" height="285.05475"/>
+  </clipPath>
+ </defs>
+</svg>

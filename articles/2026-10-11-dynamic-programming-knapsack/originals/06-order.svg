@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1167" viewBox="0 0 960 700" role="img"><title>同一件 A，为什么被拿了两次？</title><rect width="960" height="700" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一件 A，为什么被拿了两次？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">A重2、值6；容量4；一维数组初始全0</text>
+<text x="50" y="195" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="start">容量升序：读到了本轮新值</text>
+<rect x="110" y="225" width="141" height="60" rx="5" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="180.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="180.5" y="312" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<rect x="255" y="225" width="141" height="60" rx="5" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="325.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="325.5" y="312" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="400" y="225" width="141" height="60" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="470.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">6</text>
+<text x="470.5" y="312" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="545" y="225" width="141" height="60" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="615.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">6</text>
+<text x="615.5" y="312" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="690" y="225" width="141" height="60" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="760.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">12</text>
+<text x="760.5" y="312" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<line x1="460" y1="350" x2="735" y2="350" stroke="#c54c53" stroke-width="4"/>
+<polygon points="735,350 719.6923992600045,357.3944140798909 719.6923992600045,342.6055859201091" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="480" y="395" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="middle">刚写入的6，再加6 → 12</text>
+<text x="50" y="475" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="start">容量降序：仍读取上一轮旧值</text>
+<rect x="110" y="505" width="141" height="60" rx="5" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="180.5" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="180.5" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<rect x="255" y="505" width="141" height="60" rx="5" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="325.5" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="325.5" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="400" y="505" width="141" height="60" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="470.5" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">6</text>
+<text x="470.5" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="545" y="505" width="141" height="60" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="615.5" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">6</text>
+<text x="615.5" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="690" y="505" width="141" height="60" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="760.5" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">6</text>
+<text x="760.5" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="21" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<text x="42" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">图中数组展示该轮结束值；箭头解释升序发生的重复使用。</text></svg>

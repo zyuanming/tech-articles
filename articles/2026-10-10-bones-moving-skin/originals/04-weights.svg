@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>权重像渐变，关节处才有过渡</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">权重像渐变，关节处才有过渡</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只显示前臂骨头的影响比例；另一根的权重为 1−w</text>
+<rect x="70" y="250" width="90" height="210" rx="0" fill="#cde1d8" stroke="#ffffff" stroke-width="2"/>
+<text x="115" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.00</text>
+<rect x="160" y="250" width="90" height="210" rx="0" fill="#b4d4ce" stroke="#ffffff" stroke-width="2"/>
+<rect x="250" y="250" width="90" height="210" rx="0" fill="#9cc8c5" stroke="#ffffff" stroke-width="2"/>
+<text x="295" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.25</text>
+<rect x="340" y="250" width="90" height="210" rx="0" fill="#84bcbb" stroke="#ffffff" stroke-width="2"/>
+<rect x="430" y="250" width="90" height="210" rx="0" fill="#6cb0b2" stroke="#ffffff" stroke-width="2"/>
+<text x="475" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.50</text>
+<rect x="520" y="250" width="90" height="210" rx="0" fill="#54a3a8" stroke="#ffffff" stroke-width="2"/>
+<rect x="610" y="250" width="90" height="210" rx="0" fill="#3c979f" stroke="#ffffff" stroke-width="2"/>
+<text x="655" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.75</text>
+<rect x="700" y="250" width="90" height="210" rx="0" fill="#248b95" stroke="#ffffff" stroke-width="2"/>
+<rect x="790" y="250" width="90" height="210" rx="0" fill="#0c7f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="835" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">1.00</text>
+<line x1="80" y1="355" x2="870" y2="355" stroke="#e57735" stroke-width="8"/>
+<circle cx="475" cy="355" r="15" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="72" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">上臂附近：前臂影响小</text>
+<text x="510" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">前臂附近：前臂影响大</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">图为权重分布示意；权重不是质量、拉力或肌肉强度。</text></svg>

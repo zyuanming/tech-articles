@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>删掉一个字之前，先记住它是谁</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">删掉一个字之前，先记住它是谁</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">命令必须保存恢复所需的信息</text>
+<rect x="80" y="200" width="350" height="110" rx="10" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="255" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="39" font-weight="400" fill="#183747" text-anchor="middle">红色的小猫</text>
+<line x1="450" y1="255" x2="540" y2="255" stroke="#e57735" stroke-width="5"/>
+<polygon points="540,255 524.6923992600045,262.3944140798909 524.6923992600045,247.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="565" y="200" width="315" height="110" rx="10" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="722" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="39" font-weight="400" fill="#183747" text-anchor="middle">红色的小</text>
+<rect x="180" y="390" width="600" height="175" rx="15" fill="#deebe6" stroke="#087f8c" stroke-width="2"/>
+<text x="215" y="450" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">删除位置：4（从 0 数起）</text>
+<text x="215" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">被删文字：“猫”</text>
+<line x1="540" y1="625" x2="420" y2="625" stroke="#5276bf" stroke-width="5"/>
+<polygon points="420,625 435.3076007399955,617.6055859201091 435.3076007399955,632.3944140798909" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="150" y="706" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">撤销时：把“猫”放回原来的位置。</text></svg>

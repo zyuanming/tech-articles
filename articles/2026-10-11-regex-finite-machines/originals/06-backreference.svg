@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 960 660" role="img"><title>“正则表达式”这个产品名，比数学概念更宽</title><rect width="960" height="660" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">“正则表达式”这个产品名，比数学概念更宽</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">带反向引用的引擎，可要求后半段复制前半段</text>
+<rect x="50" y="175" width="855" height="150" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="218" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">模式：([ab]+)\1</text>
+<text x="72" y="261" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">abab ✓（ab + ab）   aaaa ✓（aa + aa）</text>
+<text x="72" y="301" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">abba ×：第二半没有逐字复制第一半</text>
+<line x1="225" y1="380" x2="725" y2="380" stroke="#e57735" stroke-width="4"/>
+<polygon points="725,380 709.6923992600045,387.3944140798909 709.6923992600045,372.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="472" y="365" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="middle">长度没有预设上限</text>
+<rect x="50" y="430" width="855" height="130" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="473" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">关键区别</text>
+<text x="72" y="516" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">有限状态机只能记有限类别；任意长字符串复制超出这个范围。</text>
+<text x="42" y="622" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">不是每个带反向引用的特例都非正则；扩展本身能表达非正则语言。</text></svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>状态要纠正，画面可选择怎样过渡</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">状态要纠正，画面可选择怎样过渡</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">横轴是时间；纵轴是位置误差的大小，非实测曲线</text>
+<line x1="130" y1="605" x2="870" y2="605" stroke="#57727c" stroke-width="3"/>
+<polygon points="870,605 854.6923992600045,612.3944140798909 854.6923992600045,597.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="130" y1="605" x2="130" y2="190" stroke="#57727c" stroke-width="3"/>
+<polygon points="130,190 137.3944140798909,205.3076007399955 122.60558592010909,205.3076007399955" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="48" y="213" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="start">误差</text>
+<text x="800" y="656" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="start">时间</text>
+<path d="M 140 260 L 350 260 L 350 580 L 850 580" fill="none" stroke="#c54c53" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 140 260 L 350 260 C 470 400 535 535 650 570 L 850 580" fill="none" stroke="#087f8c" stroke-width="5" stroke-linejoin="round"/>
+<text x="420" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="start">直接改显示位置：跳一下</text>
+<text x="470" y="400" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">平滑视觉偏移：逐渐靠拢</text>
+<line x1="350" y1="220" x2="350" y2="620" stroke="#d2dbd8" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="350" y="671" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">校正抵达</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">视觉平滑不能继续把错误位置当成权威碰撞结果。</text></svg>

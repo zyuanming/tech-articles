@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>慢启动的“慢”，是相对突然灌满</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">慢启动的“慢”，是相对突然灌满</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">按 RTT 轮次观察两个理想化增长形状</text>
+<line x1="110" y1="625" x2="860" y2="625" stroke="#183747" stroke-width="4"/>
+<line x1="110" y1="625" x2="110" y2="190" stroke="#183747" stroke-width="4"/>
+<line x1="110" y1="601" x2="855" y2="601" stroke="#d2dbd8" stroke-width="2"/>
+<text x="91" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">1</text>
+<line x1="110" y1="529" x2="855" y2="529" stroke="#d2dbd8" stroke-width="2"/>
+<text x="91" y="538" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">4</text>
+<line x1="110" y1="433" x2="855" y2="433" stroke="#d2dbd8" stroke-width="2"/>
+<text x="91" y="442" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">8</text>
+<line x1="110" y1="337" x2="855" y2="337" stroke="#d2dbd8" stroke-width="2"/>
+<text x="91" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">12</text>
+<line x1="110" y1="241" x2="855" y2="241" stroke="#d2dbd8" stroke-width="2"/>
+<text x="91" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">16</text>
+<text x="160" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="315" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<text x="470" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<text x="625" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<text x="780" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<path d="M160,601 L315,577 L470,529 L625,433 L780,241" fill="none" stroke="#e57735" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="160" cy="601" r="7" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="315" cy="577" r="7" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="470" cy="529" r="7" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="625" cy="433" r="7" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="780" cy="241" r="7" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<path d="M160,601 L315,577 L470,553 L625,529 L780,505" fill="none" stroke="#5276bf" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="160" cy="601" r="7" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="315" cy="577" r="7" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="470" cy="553" r="7" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="625" cy="529" r="7" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="780" cy="505" r="7" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="520" y="230" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">近似倍增</text>
+<text x="550" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="start">每轮加一</text>
+<text x="770" y="700" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#57727c" text-anchor="start">RTT轮次</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">教学假设：充分供数、每段及时确认；初始值不是通用默认。</text></svg>

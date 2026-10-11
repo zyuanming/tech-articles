@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>空间够多，连续空间却未必够</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">空间够多，连续空间却未必够</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">每格等大；新对象需要连续 3 格</text>
+<rect x="112" y="240" width="112" height="90" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="168" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="238" y="240" width="112" height="90" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="294" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="364" y="240" width="112" height="90" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="420" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="490" y="240" width="112" height="90" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="546" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="616" y="240" width="112" height="90" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="672" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="742" y="240" width="112" height="90" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="798" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="112" y="480" width="112" height="90" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="168" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="238" y="480" width="112" height="90" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="294" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="364" y="480" width="112" height="90" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="420" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="490" y="480" width="112" height="90" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="546" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="616" y="480" width="112" height="90" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="672" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="742" y="480" width="112" height="90" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="798" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<text x="480" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="middle">清扫后：空格共 3 个，但分散</text>
+<text x="480" y="443" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">压缩后：留下连续空间，并更新所有相关引用</text>
+<line x1="480" y1="348" x2="480" y2="405" stroke="#e57735" stroke-width="4"/>
+<polygon points="480,405 472.6055859201091,389.6923992600045 487.3944140798909,389.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">对象搬动后，旧地址不能继续原封不动地使用。</text></svg>

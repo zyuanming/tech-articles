@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>纠错的几何：合法词要离得够远</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">纠错的几何：合法词要离得够远</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">这里用三位重复码说明距离；不是七位码空间的比例图</text>
+<circle cx="235" cy="355" r="175" fill="none" stroke="#087f8c" stroke-width="4"/>
+<rect x="160" y="310" width="150" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="235.0" y="364.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="middle">000</text>
+<text x="143" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">001</text>
+<text x="330" y="265" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">010</text>
+<text x="235" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">100</text>
+<circle cx="725" cy="355" r="175" fill="none" stroke="#5276bf" stroke-width="4"/>
+<rect x="650" y="310" width="150" height="85" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="725.0" y="364.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#5276bf" text-anchor="middle">111</text>
+<text x="633" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">110</text>
+<text x="820" y="265" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">101</text>
+<text x="725" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">011</text>
+<text x="480" y="596" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">相距 3：各改一位的邻域不会重叠。</text></svg>

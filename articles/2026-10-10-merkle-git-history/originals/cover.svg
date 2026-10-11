@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>改一个叶子，根也会改变</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">改一个叶子，根也会改变</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">Merkle 结构把内容的变化一路传向根</text>
+<rect x="55" y="500" width="160" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="135.0" y="555.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#087f8c" text-anchor="middle">10</text>
+<text x="135" y="627" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">A</text>
+<rect x="285" y="500" width="160" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="365.0" y="555.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#087f8c" text-anchor="middle">20</text>
+<text x="365" y="627" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">B</text>
+<rect x="515" y="500" width="160" height="85" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="595.0" y="555.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#c54c53" text-anchor="middle">31</text>
+<text x="595" y="627" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">C</text>
+<rect x="745" y="500" width="160" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="825.0" y="555.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#087f8c" text-anchor="middle">40</text>
+<text x="825" y="627" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">D</text>
+<line x1="135" y1="494" x2="250" y2="365" stroke="#087f8c" stroke-width="4"/>
+<polygon points="250,365 245.33326682358071,381.3469141265288 234.29413441359867,371.5058270943743" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="365" y1="494" x2="250" y2="365" stroke="#087f8c" stroke-width="4"/>
+<polygon points="250,365 265.70586558640133,371.5058270943743 254.66673317641929,381.3469141265288" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="595" y1="494" x2="710" y2="365" stroke="#c54c53" stroke-width="4"/>
+<polygon points="710,365 705.3332668235807,381.3469141265288 694.2941344135987,371.5058270943743" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<line x1="825" y1="494" x2="710" y2="365" stroke="#087f8c" stroke-width="4"/>
+<polygon points="710,365 725.7058655864013,371.5058270943743 714.6667331764193,381.3469141265288" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="165" y="280" width="170" height="80" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="250.0" y="333.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#087f8c" text-anchor="middle">27</text>
+<line x1="250" y1="275" x2="480" y2="208" stroke="#087f8c" stroke-width="4"/>
+<polygon points="480,208 467.3713380441023,219.3805490730308 463.23520750705234,205.1818920055459" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="625" y="280" width="170" height="80" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="710.0" y="333.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#c54c53" text-anchor="middle">92</text>
+<line x1="710" y1="275" x2="480" y2="208" stroke="#c54c53" stroke-width="4"/>
+<polygon points="480,208 496.76479249294766,205.1818920055459 492.6286619558977,219.3805490730308" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<rect x="390" y="140" width="180" height="70" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="480.0" y="188.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#c54c53" text-anchor="middle">20</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">玩具合并：H(a,b) = (31a+b) mod 101；不用于安全。</text></svg>

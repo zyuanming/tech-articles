@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1083" viewBox="0 0 960 650" role="img"><title>把重复的未来，合成一个问题</title><rect width="960" height="650" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把重复的未来，合成一个问题</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">状态同时记录：允许的装备前缀 i 与容量 c</text>
+<rect x="50" y="175" width="330" height="130" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="215.0" y="215" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">不同选择历史甲</text>
+<text x="215.0" y="254" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">只剩前2件、容量3</text>
+<rect x="50" y="370" width="330" height="130" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="215.0" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">不同选择历史乙</text>
+<text x="215.0" y="449" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">只剩前2件、容量3</text>
+<line x1="395" y1="240" x2="570" y2="320" stroke="#5276bf" stroke-width="4"/>
+<polygon points="570,320 553.0038280193395,320.3607464536374 559.152427669692,306.9106847184913" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="395" y1="435" x2="570" y2="340" stroke="#e57735" stroke-width="4"/>
+<polygon points="570,340 560.0746773475471,353.80173794290795 553.0190477706261,340.80452556436944" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="590" y="240" width="310" height="170" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="745.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">同一个子问题</text>
+<text x="745.0" y="319" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">F(2,3) = 10</text>
+<text x="745.0" y="358" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">只算一次，反复使用</text>
+<text x="42" y="612" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">只同容量还不够：可选装备不同，未来也不同。</text></svg>

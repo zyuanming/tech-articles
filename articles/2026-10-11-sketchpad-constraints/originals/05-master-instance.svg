@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>修改定义，可以同时改变所有实例</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">修改定义，可以同时改变所有实例</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">不只是复制几条线，而是保留“它来自哪个母版”</text>
+<rect x="110" y="230" width="182.0" height="98.0" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="201.0" y1="188.0" x2="201.0" y2="230" stroke="#087f8c" stroke-width="3"/>
+<line x1="201.0" y1="328.0" x2="201.0" y2="370.0" stroke="#087f8c" stroke-width="3"/>
+<text x="110" y="190" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="start">母版</text>
+<rect x="475" y="205" width="117.0" height="63.0" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="533.5" y1="178.0" x2="533.5" y2="205" stroke="#087f8c" stroke-width="3"/>
+<line x1="533.5" y1="268.0" x2="533.5" y2="295.0" stroke="#087f8c" stroke-width="3"/>
+<line x1="305" y1="300" x2="461" y2="235" stroke="#e57735" stroke-width="3"/>
+<polygon points="461,235 449.7139124245776,247.7131517429745 444.0259015938923,234.06192574932973" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="705" y="380" width="117.0" height="63.0" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="763.5" y1="353.0" x2="763.5" y2="380" stroke="#087f8c" stroke-width="3"/>
+<line x1="763.5" y1="443.0" x2="763.5" y2="470.0" stroke="#087f8c" stroke-width="3"/>
+<line x1="305" y1="300" x2="691" y2="410" stroke="#e57735" stroke-width="3"/>
+<polygon points="691,410 674.2519655345353,412.91604896111255 678.3050352062958,398.6934590220258" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="440" y="490" width="117.0" height="63.0" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="498.5" y1="463.0" x2="498.5" y2="490" stroke="#087f8c" stroke-width="3"/>
+<line x1="498.5" y1="553.0" x2="498.5" y2="580.0" stroke="#087f8c" stroke-width="3"/>
+<line x1="305" y1="300" x2="426" y2="520" stroke="#e57735" stroke-width="3"/>
+<polygon points="426,520 412.14387693722705,510.15074349662416 425.10208344151306,503.0237299192669" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="83" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">实例各有位置、比例等信息；内部形状由定义决定。</text>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">原创教学示意；现代组件与预制体可以借此理解，但不完全等同。</text></svg>

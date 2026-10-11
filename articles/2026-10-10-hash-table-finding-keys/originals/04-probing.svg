@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>开放寻址：首选格满了，就按规则继续探测</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">开放寻址：首选格满了，就按规则继续探测</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">例：cat、act 都从 0 号格开始，依次向右找</text>
+<text x="60" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">插入后</text>
+<rect x="85" y="245" width="145" height="105" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="157" y="313" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">cat</text>
+<text x="157" y="393" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<rect x="250" y="245" width="145" height="105" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="322" y="313" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">act</text>
+<text x="322" y="393" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="415" y="245" width="145" height="105" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<text x="487" y="313" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">空</text>
+<text x="487" y="393" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="580" y="245" width="145" height="105" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<text x="652" y="313" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">空</text>
+<text x="652" y="393" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="745" y="245" width="145" height="105" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<text x="817" y="313" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">空</text>
+<text x="817" y="393" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<text x="60" y="430" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">删掉 cat 后</text>
+<rect x="85" y="465" width="145" height="105" rx="10" fill="#e57735" stroke="#5276bf" stroke-width="3"/>
+<text x="157" y="533" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#ffffff" text-anchor="middle">DEL</text>
+<text x="157" y="613" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<rect x="250" y="465" width="145" height="105" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="322" y="533" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">act</text>
+<text x="322" y="613" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="415" y="465" width="145" height="105" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<text x="487" y="533" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">空</text>
+<text x="487" y="613" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="580" y="465" width="145" height="105" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<text x="652" y="533" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">空</text>
+<text x="652" y="613" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="745" y="465" width="145" height="105" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="3"/>
+<text x="817" y="533" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">空</text>
+<text x="817" y="613" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<line x1="155" y1="450" x2="320" y2="450" stroke="#e57735" stroke-width="3"/>
+<polygon points="320,450 304.6923992600045,457.3944140798909 304.6923992600045,442.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="510" y="688" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="middle">DEL：以前占过，继续找</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">不能随便改回“从未使用的空格”，否则查找可能过早停止。</text></svg>

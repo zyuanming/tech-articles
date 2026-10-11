@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>两个键进同一桶，不能只留下后来的</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">两个键进同一桶，不能只留下后来的</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">拉链法：桶里保留多条记录，逐个比较完整的键</text>
+<rect x="65" y="280" width="130" height="160" rx="10" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="130" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#ffffff" text-anchor="middle">桶 0</text>
+<rect x="320" y="275" width="205" height="170" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="423" y="343" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="44" font-weight="400" fill="#5276bf" text-anchor="middle">cat</text>
+<text x="423" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#57727c" text-anchor="middle">猫</text>
+<rect x="650" y="275" width="205" height="170" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="753" y="343" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="44" font-weight="400" fill="#5276bf" text-anchor="middle">act</text>
+<text x="753" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#57727c" text-anchor="middle">行动</text>
+<line x1="220" y1="360" x2="294" y2="360" stroke="#183747" stroke-width="4"/>
+<polygon points="294,360 278.6923992600045,367.3944140798909 278.6923992600045,352.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="550" y1="360" x2="625" y2="360" stroke="#183747" stroke-width="4"/>
+<polygon points="625,360 609.6923992600045,367.3944140798909 609.6923992600045,352.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="95" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="start">查 act：cat ≠ act，继续；act = act，找到。</text>
+<text x="95" y="650" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="start">相同哈希值，只表示“值得到这里找”。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">原始键随记录保存，用相等比较确认身份。</text></svg>

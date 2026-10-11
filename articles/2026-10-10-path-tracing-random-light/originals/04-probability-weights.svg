@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>多抽重要位置，但别多算它的份额</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">多抽重要位置，但别多算它的份额</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">四块等面积小格：先看一个离散版本</text>
+<rect x="70" y="190" width="200" height="270" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="125" y="396" width="90" height="24" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="170" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">值 1</text>
+<text x="170" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">概率 1/12</text>
+<text x="170" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="middle">值/概率 = 12</text>
+<rect x="295" y="190" width="200" height="270" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="350" y="396" width="90" height="24" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="395" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">值 1</text>
+<text x="395" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">概率 1/12</text>
+<text x="395" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="middle">值/概率 = 12</text>
+<rect x="520" y="190" width="200" height="270" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="575" y="372" width="90" height="48" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="620" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">值 2</text>
+<text x="620" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">概率 2/12</text>
+<text x="620" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="middle">值/概率 = 12</text>
+<rect x="745" y="190" width="200" height="270" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="800" y="228" width="90" height="192" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="845" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">值 8</text>
+<text x="845" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">概率 8/12</text>
+<text x="845" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="middle">值/概率 = 12</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">要估计总和12；若估计四格平均，还须再除以4。</text></svg>

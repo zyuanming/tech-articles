@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1167" viewBox="0 0 960 700" role="img"><title>最小的暂定距离，为何能定案？</title><rect width="960" height="700" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">最小的暂定距离，为何能定案？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">非负边权是这一步的关键</text>
+<rect x="55" y="175" width="330" height="330" rx="30" fill="#ddece7" stroke="#087f8c" stroke-width="2"/>
+<text x="220" y="220" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">已确定的区域</text>
+<circle cx="220" cy="340" r="50" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="220" y="353" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#ffffff" text-anchor="middle">S</text>
+<circle cx="525" cy="340" r="49" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="525" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#ffffff" text-anchor="middle">u</text>
+<circle cx="820" cy="340" r="49" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="820" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">v</text>
+<line x1="276" y1="340" x2="468" y2="340" stroke="#087f8c" stroke-width="4"/>
+<polygon points="468,340 452.6923992600045,347.3944140798909 452.6923992600045,332.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<path d="M 220 290 Q 515 110 820 287" fill="none" stroke="#57727c" stroke-width="4" stroke-linejoin="round"/>
+<text x="515" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">g(u) 最小</text>
+<text x="805" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">g(v) ≥ g(u)</text>
+<path d="M 815 390 Q 700 580 555 390" fill="none" stroke="#57727c" stroke-width="4" stroke-linejoin="round"/>
+<text x="694" y="564" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#57727c" text-anchor="middle">再绕回来也不能减价</text>
+<text x="42" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">任何尚未展开的绕路，都要先跨过边界。</text></svg>

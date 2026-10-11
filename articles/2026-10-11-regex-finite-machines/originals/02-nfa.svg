@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>状态机可以暂时保留两种可能</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">状态机可以暂时保留两种可能</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">状态编号只是标签；双圆圈是接受状态</text>
+<circle cx="100" cy="320" r="38" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="100" y="331" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">0</text>
+<circle cx="280" cy="320" r="38" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="280" y="331" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">1</text>
+<circle cx="570" cy="240" r="38" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="570" y="251" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">2</text>
+<circle cx="540" cy="450" r="38" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="540" y="461" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">3</text>
+<circle cx="820" cy="240" r="38" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="820" y="251" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">4</text>
+<circle cx="820" cy="240" r="46" fill="none" stroke="#087f8c" stroke-width="3"/>
+<line x1="40" y1="320" x2="58" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="58,320 42.69239926000449,327.3944140798909 42.69239926000449,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="140" y1="320" x2="238" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="238,320 222.6923992600045,327.3944140798909 222.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="189.0" y="304.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">a</text>
+<line x1="318" y1="306" x2="532" y2="250" stroke="#183747" stroke-width="4"/>
+<polygon points="532,250 519.0629995055216,261.02878135633597 515.3190903162938,246.7216998117871" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="425.0" y="262.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">b</text>
+<line x1="311" y1="341" x2="507" y2="431" stroke="#183747" stroke-width="4"/>
+<polygon points="507,431 490.0032437101948,431.3320777393429 496.1745214326744,417.8924062548317" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="409.0" y="426.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">b</text>
+<line x1="545" y1="412" x2="563" y2="279" stroke="#183747" stroke-width="4"/>
+<polygon points="563,279 568.2746216941389,295.1610137672028 553.6194004532233,293.17760036617665" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="554.0" y="341.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">b</text>
+<line x1="610" y1="240" x2="771" y2="240" stroke="#183747" stroke-width="4"/>
+<polygon points="771,240 755.6923992600045,247.3944140798909 755.6923992600045,232.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="690.5" y="224.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">c</text>
+<text x="58" y="580" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">在状态 1 读到 b：到达集合 {2, 3}</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">原创教学 NFA；省略未定义转移，它们意味着该条路径失败。</text></svg>

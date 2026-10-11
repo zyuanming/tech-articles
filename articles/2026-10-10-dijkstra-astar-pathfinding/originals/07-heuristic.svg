@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>让估计朝向终点，但不夸大</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">让估计朝向终点，但不夸大</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">四向网格：每步代价为 1；不许斜走</text>
+<rect x="200" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="267" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="334" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="468" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="535" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="602" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="669" y="170" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="200" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="267" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="334" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="468" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="535" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="602" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="669" y="237" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="200" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="267" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="334" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="468" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="535" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="602" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="669" y="304" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="200" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="267" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="334" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="468" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="535" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="602" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="669" y="371" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="200" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="267" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="334" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="468" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="535" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="602" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="669" y="438" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="200" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="267" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="334" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="468" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="535" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="602" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="669" y="505" width="67" height="67" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="401" y="237" width="67" height="67" rx="0" fill="#183747" stroke="#183747" stroke-width="2"/>
+<rect x="401" y="304" width="67" height="67" rx="0" fill="#183747" stroke="#183747" stroke-width="2"/>
+<rect x="401" y="371" width="67" height="67" rx="0" fill="#183747" stroke="#183747" stroke-width="2"/>
+<rect x="401" y="438" width="67" height="67" rx="0" fill="#183747" stroke="#183747" stroke-width="2"/>
+<path d="M 300.5 471.5 H 635.5 V 270.5" fill="none" stroke="#e57735" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="300.5" cy="471.5" r="25" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="300.5" y="481.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">n</text>
+<circle cx="635.5" cy="270.5" r="25" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="635.5" y="280.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">T</text>
+<text x="480" y="627" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">忽略墙：横 5 步 + 竖 3 步 = 8</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这条橙线穿墙，所以是下界示意，不是可走路线。</text></svg>

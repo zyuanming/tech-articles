@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>一次拖拽，可以包含很多小移动</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一次拖拽，可以包含很多小移动</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">撤销粒度应该对应用户理解的一次操作</text>
+<path d="M 100 490 L 185 455 L 270 450 L 355 370 L 440 385 L 525 290 L 610 320 L 695 230 L 810 250" fill="none" stroke="#087f8c" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="100" cy="490" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="185" cy="455" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="270" cy="450" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="355" cy="370" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="440" cy="385" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="525" cy="290" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="610" cy="320" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="695" cy="230" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="810" cy="250" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="65" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">按下鼠标</text>
+<text x="810" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="middle">松开鼠标</text>
+<line x1="810" y1="205" x2="810" y2="235" stroke="#e57735" stroke-width="3"/>
+<line x1="100" y1="650" x2="810" y2="650" stroke="#5276bf" stroke-width="8"/>
+<text x="480" y="713" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#5276bf" text-anchor="middle">合并成一次“移动对象”</text></svg>

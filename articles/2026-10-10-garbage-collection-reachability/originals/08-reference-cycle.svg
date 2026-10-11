@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1083" viewBox="0 0 960 650" role="img"><title>只数“有几条线指向我”，会漏掉什么？</title><rect width="960" height="650" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">只数“有几条线指向我”，会漏掉什么？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">简单引用计数：D 与 E 各保留一条来自对方的引用</text>
+<circle cx="315" cy="330" r="70" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="675" cy="330" r="70" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="315" y="345" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="50" font-weight="700" fill="#183747" text-anchor="middle">D</text>
+<text x="675" y="345" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="50" font-weight="700" fill="#183747" text-anchor="middle">E</text>
+<line x1="380" y1="300" x2="604" y2="300" stroke="#087f8c" stroke-width="4"/>
+<polygon points="604,300 588.6923992600045,307.3944140798909 588.6923992600045,292.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="610" y1="362" x2="387" y2="362" stroke="#e57735" stroke-width="4"/>
+<polygon points="387,362 402.3076007399955,354.6055859201091 402.3076007399955,369.3944140798909" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="315" y="485" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#087f8c" text-anchor="middle">计数 1</text>
+<text x="675" y="485" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#087f8c" text-anchor="middle">计数 1</text>
+<text x="480" y="190" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="middle">外部已没有根通向它们</text>
+<text x="42" y="612" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">两个计数都不为 0，但整个小岛已经与程序隔绝。</text></svg>

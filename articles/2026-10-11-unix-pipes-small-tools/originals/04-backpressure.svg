@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>读得慢，压力会向写者传回</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">读得慢，压力会向写者传回</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">内核中的管道缓冲区是有限的</text>
+<rect x="45" y="245" width="205" height="145" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="147.5" y="294" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">上游</text>
+<text x="147.5" y="339" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">写得快</text>
+<rect x="710" y="245" width="205" height="145" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="812.5" y="294" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">下游</text>
+<text x="812.5" y="339" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">读得慢</text>
+<rect x="305" y="240" width="350" height="150" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="320" y="260" width="42" height="110" rx="5" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="373" y="260" width="42" height="110" rx="5" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="426" y="260" width="42" height="110" rx="5" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="479" y="260" width="42" height="110" rx="5" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="532" y="260" width="42" height="110" rx="5" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="585" y="260" width="42" height="110" rx="5" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<line x1="255" y1="320" x2="291" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="291,320 275.6923992600045,327.3944140798909 275.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="666" y1="320" x2="700" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="700,320 684.6923992600045,327.3944140798909 684.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="480" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#e57735" text-anchor="middle">缓冲已满</text>
+<line x1="490" y1="510" x2="160" y2="510" stroke="#c54c53" stroke-width="4"/>
+<polygon points="160,510 175.3076007399955,502.6055859201091 175.3076007399955,517.3944140798909" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="480" y="583" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#c54c53" text-anchor="middle">阻塞式写入可能等待空位</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">更大缓冲只延后填满，不能消除长期速度差。</text></svg>

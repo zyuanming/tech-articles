@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1333" viewBox="0 0 960 800" role="img"><title>修改一行，只重建受影响的路径</title><rect width="960" height="800" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">修改一行，只重建受影响的路径</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">不变的 blob 与子树继续共享</text>
+<rect x="115" y="180" width="260" height="80" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="245.0" y="230.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">旧提交</text>
+<rect x="580" y="180" width="260" height="80" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="710.0" y="230.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">新提交</text>
+<rect x="90" y="355" width="290" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="235.0" y="408.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">旧根 tree</text>
+<rect x="565" y="355" width="290" height="85" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="710.0" y="408.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">新根 tree</text>
+<line x1="245" y1="265" x2="235" y2="349" stroke="#5276bf" stroke-width="4"/>
+<polygon points="235,349 229.46698924327794,332.925616902475 244.15212219502527,334.6738470157782" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="710" y1="265" x2="710" y2="349" stroke="#5276bf" stroke-width="4"/>
+<polygon points="710,349 702.6055859201091,333.6923992600045 717.3944140798909,333.6923992600045" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="30" y="610" width="265" height="85" rx="8" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="162.5" y="663.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">旧 README</text>
+<rect x="347" y="610" width="265" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="479.5" y="663.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">共享 src tree</text>
+<rect x="665" y="610" width="265" height="85" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="797.5" y="663.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">新 README</text>
+<line x1="195" y1="445" x2="150" y2="600" stroke="#e57735" stroke-width="4"/>
+<polygon points="150,600 147.16671748454067,583.2377653581751 161.36911280589487,587.3610414192135" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="325" y1="445" x2="435" y2="602" stroke="#087f8c" stroke-width="4"/>
+<polygon points="435,602 420.16038166739304,593.7062838400054 432.2722363680555,585.2202709924074" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="620" y1="445" x2="515" y2="602" stroke="#087f8c" stroke-width="4"/>
+<polygon points="515,602 517.3633281314734,585.1650755824985 529.6563176425921,593.3865016886607" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="750" y1="445" x2="800" y2="600" stroke="#c54c53" stroke-width="4"/>
+<polygon points="800,600 788.2631964157516,587.701730136935 802.3378516219958,583.161518780082" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="42" y="762" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">旧对象不被原地篡改；引用指向新的对象，构成新历史。</text></svg>

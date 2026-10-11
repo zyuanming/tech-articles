@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1383" viewBox="0 0 960 830" role="img"><title>输出卡住，内部积分还可能累加</title><rect width="960" height="830" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">输出卡住，内部积分还可能累加</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">不可达目标的概念示意；两幅图量纲不同</text>
+<line x1="115" y1="390" x2="860" y2="390" stroke="#57727c" stroke-width="2"/>
+<polygon points="860,390 844.6923992600045,397.3944140798909 844.6923992600045,382.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="115" y1="220" x2="115" y2="390" stroke="#57727c" stroke-width="2"/>
+<text x="120" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="start">实际泵命令</text>
+<line x1="115" y1="700" x2="860" y2="700" stroke="#57727c" stroke-width="2"/>
+<polygon points="860,700 844.6923992600045,707.3944140798909 844.6923992600045,692.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="115" y1="530" x2="115" y2="700" stroke="#57727c" stroke-width="2"/>
+<text x="120" y="495" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">累计误差</text>
+<path d="M 120 380 L 280 280 L 840 280" fill="none" stroke="#e57735" stroke-width="6" stroke-linejoin="round"/>
+<text x="590" y="245" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">上限 10</text>
+<path d="M 120 680 L 350 635 L 580 550 L 840 480" fill="none" stroke="#087f8c" stroke-width="6" stroke-linejoin="round"/>
+<text x="660" y="720" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">时间</text>
+<text x="42" y="792" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">只截断命令，不会自动限制积分状态。</text></svg>

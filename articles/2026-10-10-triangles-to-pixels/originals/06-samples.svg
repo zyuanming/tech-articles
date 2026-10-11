@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>边缘不是非黑即白</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">边缘不是非黑即白</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">同一个像素内，用 4 个位置估计几何覆盖</text>
+<rect x="65" y="220" width="220" height="220" rx="0" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<polygon points="65,220 175,220 65,440" fill="#9ecac5" stroke="none" stroke-width="3"/>
+<circle cx="120" cy="275" r="9" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<circle cx="230" cy="275" r="9" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<circle cx="120" cy="385" r="9" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<circle cx="230" cy="385" r="9" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="175" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">1/4 覆盖</text>
+<rect x="135" y="565" width="80" height="80" rx="0" fill="#bed9d5" stroke="#183747" stroke-width="2"/>
+<rect x="370" y="220" width="220" height="220" rx="0" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<polygon points="370,220 480,220 480,440 370,440" fill="#9ecac5" stroke="none" stroke-width="3"/>
+<circle cx="425" cy="275" r="9" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<circle cx="535" cy="275" r="9" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<circle cx="425" cy="385" r="9" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<circle cx="535" cy="385" r="9" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="480" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">2/4 覆盖</text>
+<rect x="440" y="565" width="80" height="80" rx="0" fill="#81b8b3" stroke="#183747" stroke-width="2"/>
+<rect x="675" y="220" width="220" height="220" rx="0" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<polygon points="675,220 895,220 895,315 770,440 675,440" fill="#9ecac5" stroke="none" stroke-width="3"/>
+<circle cx="730" cy="275" r="9" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<circle cx="840" cy="275" r="9" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<circle cx="730" cy="385" r="9" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<circle cx="840" cy="385" r="9" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="785" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">3/4 覆盖</text>
+<rect x="745" y="565" width="80" height="80" rx="0" fill="#42958f" stroke="#183747" stroke-width="2"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">仅示意覆盖率；真实 MSAA 的着色与合成细节由管线决定。</text></svg>

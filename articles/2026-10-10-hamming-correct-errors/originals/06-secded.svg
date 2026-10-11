@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1333" viewBox="0 0 960 800" role="img"><title>再加一位：让双错不再冒充单错</title><rect width="960" height="800" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">再加一位：让双错不再冒充单错</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">扩展 Hamming(8,4)：s 为原七位症状，q 为总奇偶</text>
+<rect x="40" y="190" width="350" height="83" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="215.0" y="242.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">s = 0，q = 0</text>
+<line x1="400" y1="232" x2="454" y2="232" stroke="#087f8c" stroke-width="4"/>
+<polygon points="454,232 438.6923992600045,239.3944140798909 438.6923992600045,224.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="475" y="243" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">无错（在至多两错假设下）</text>
+<rect x="40" y="322" width="350" height="83" rx="8" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="215.0" y="374.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">s ≠ 0，q = 1</text>
+<line x1="400" y1="364" x2="454" y2="364" stroke="#e57735" stroke-width="4"/>
+<polygon points="454,364 438.6923992600045,371.3944140798909 438.6923992600045,356.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="475" y="375" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#e57735" text-anchor="start">原七位发生单错，可按 s 修正</text>
+<rect x="40" y="454" width="350" height="83" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="215.0" y="506.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">s = 0，q = 1</text>
+<line x1="400" y1="496" x2="454" y2="496" stroke="#5276bf" stroke-width="4"/>
+<polygon points="454,496 438.6923992600045,503.3944140798909 438.6923992600045,488.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="475" y="507" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#5276bf" text-anchor="start">新增总校验位单错</text>
+<rect x="40" y="586" width="350" height="83" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="215.0" y="638.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">s ≠ 0，q = 0</text>
+<line x1="400" y1="628" x2="454" y2="628" stroke="#c54c53" stroke-width="4"/>
+<polygon points="454,628 438.6923992600045,635.3944140798909 438.6923992600045,620.6055859201091" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="475" y="639" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#c54c53" text-anchor="start">双错：报警，不擅自修正</text>
+<text x="42" y="762" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">三位及以上出错超出本判别承诺；不能宣称任意错误都可识别。</text></svg>

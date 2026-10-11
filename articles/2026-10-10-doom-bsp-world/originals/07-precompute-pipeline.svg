@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>把耗时工作挪到玩家进入之前</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把耗时工作挪到玩家进入之前</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">预处理不是免费午餐，是用准备时间换运行时间</text>
+<rect x="90" y="180" width="780" height="90" rx="18" fill="#ffffff" stroke="#5276bf" stroke-width="4"/>
+<text x="480" y="238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="middle">编辑关卡：区域、墙线、高度</text>
+<line x1="480" y1="274" x2="480" y2="303" stroke="#183747" stroke-width="4"/>
+<polygon points="480,303 472.6055859201091,287.6923992600045 487.3944140798909,287.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="90" y="310" width="780" height="90" rx="18" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="480" y="368" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="middle">构建 BSP：选线、切段、存树</text>
+<line x1="480" y1="404" x2="480" y2="433" stroke="#183747" stroke-width="4"/>
+<polygon points="480,433 472.6055859201091,417.6923992600045 487.3944140798909,417.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="90" y="440" width="780" height="90" rx="18" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="480" y="498" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="middle">每帧：判侧、近侧、包围盒检查</text>
+<line x1="480" y1="534" x2="480" y2="563" stroke="#183747" stroke-width="4"/>
+<polygon points="480,563 472.6055859201091,547.6923992600045 487.3944140798909,547.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="90" y="570" width="780" height="90" rx="18" fill="#ffffff" stroke="#183747" stroke-width="4"/>
+<text x="480" y="628" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">墙 → 地板天花板 → 精灵等阶段</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">本图概括原版软件渲染思路；BSP 不独自完成整幅画面。</text></svg>

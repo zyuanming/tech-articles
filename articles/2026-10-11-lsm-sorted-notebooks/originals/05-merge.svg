@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>按键归并，按版本决定谁仍有用</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">按键归并，按版本决定谁仍有用</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">完整覆盖所有相关版本，且没有旧快照</text>
+<rect x="45" y="210" width="260" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="65" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A:10 @1</text>
+<rect x="45" y="275" width="260" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="65" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">B:20 @3</text>
+<rect x="45" y="340" width="260" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="65" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">C:30 @2</text>
+<text x="45" y="178" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="start">S1：旧</text>
+<rect x="355" y="210" width="260" height="58" rx="6" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="375" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A:15 @4</text>
+<rect x="355" y="275" width="260" height="58" rx="6" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="375" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">C:删除 @5</text>
+<text x="355" y="178" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">S2：新</text>
+<line x1="310" y1="470" x2="380" y2="545" stroke="#183747" stroke-width="4"/>
+<polygon points="380,545 364.14961927720316,538.8546415122964 374.96107001455016,528.7639541574392" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="487" y1="365" x2="487" y2="545" stroke="#183747" stroke-width="4"/>
+<polygon points="487,545 479.6055859201091,529.6923992600045 494.3944140798909,529.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="680" y="515" width="225" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="700" y="555" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A:15</text>
+<rect x="680" y="580" width="225" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="700" y="620" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">B:20</text>
+<line x1="505" y1="575" x2="663" y2="575" stroke="#183747" stroke-width="4"/>
+<polygon points="663,575 647.6923992600045,582.3944140798909 647.6923992600045,567.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="55" y="580" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">A：保留新值</text>
+<text x="55" y="632" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="start">C：旧值与墓碑</text>
+<text x="55" y="674" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#c54c53" text-anchor="start">满足条件才一起丢弃</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">部分归并或历史快照可能要求保留墓碑、旧版本。</text></svg>

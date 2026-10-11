@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>多数派为何必须相交</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">多数派为何必须相交</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">固定的五节点集群中，多数派至少有三台</text>
+<circle cx="125" cy="285" r="47" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="125" y="295" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<circle cx="300" cy="285" r="47" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="300" y="295" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<circle cx="475" cy="285" r="47" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="475" y="295" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<circle cx="650" cy="285" r="47" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="650" y="295" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
+<circle cx="825" cy="285" r="47" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="825" y="295" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">E</text>
+<path d="M 65 222 Q 300 140 520 222" fill="none" stroke="#5276bf" stroke-width="7" stroke-linejoin="round"/>
+<text x="300" y="178" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="middle">投票组：A B C</text>
+<path d="M 425 345 Q 670 445 895 345" fill="none" stroke="#e57735" stroke-width="7" stroke-linejoin="round"/>
+<text x="670" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">另一组：C D E</text>
+<circle cx="475" cy="285" r="66" fill="none" stroke="#c54c53" stroke-width="5"/>
+<text x="480" y="559" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">C 不能在同一任期投给两名候选人。</text>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">“任期 + 每期一票 + 多数相交”共同约束选举。</text></svg>

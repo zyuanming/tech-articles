@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>一次最小调整，可以亲手算出来</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一次最小调整，可以亲手算出来</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学例：A = (0,0)，B = (4,1)，要求 yA = yB</text>
+<line x1="110" y1="455" x2="825" y2="455" stroke="#d2dbd8" stroke-width="2"/>
+<line x1="150" y1="520" x2="150" y2="170" stroke="#d2dbd8" stroke-width="2"/>
+<line x1="150" y1="455" x2="790" y2="255" stroke="#087f8c" stroke-width="5"/>
+<line x1="150" y1="355" x2="790" y2="355" stroke="#e57735" stroke-width="5"/>
+<circle cx="150" cy="455" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="168" y="442" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">A</text>
+<circle cx="790" cy="255" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="808" y="242" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">B</text>
+<circle cx="150" cy="355" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="168" y="342" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">A′</text>
+<circle cx="790" cy="355" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="808" y="342" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">B′</text>
+<line x1="150" y1="439" x2="150" y2="372" stroke="#e57735" stroke-width="4"/>
+<polygon points="150,372 157.3944140798909,387.3076007399955 142.6055859201091,387.3076007399955" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="790" y1="272" x2="790" y2="338" stroke="#e57735" stroke-width="4"/>
+<polygon points="790,338 782.6055859201091,322.6923992600045 797.3944140798909,322.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="235" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#e57735" text-anchor="start">新高度 = (0 + 1)/2 = 0.5</text>
+<text x="130" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="start">若 A 被固定，则只能把 B 的高度改成 0。</text>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是最小二乘几何直觉示例，并非复原 Sketchpad 的完整求解器。</text></svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>等待确认，会让按键像踩在棉花上</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">等待确认，会让按键像踩在棉花上</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学网络：去程 50 ms，回程 50 ms；忽略处理时间</text>
+<text x="235" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">你的电脑</text>
+<text x="725" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#5276bf" text-anchor="middle">服务器</text>
+<line x1="235" y1="220" x2="235" y2="650" stroke="#087f8c" stroke-width="4"/>
+<polygon points="235,650 227.6055859201091,634.6923992600045 242.3944140798909,634.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="725" y1="220" x2="725" y2="650" stroke="#5276bf" stroke-width="4"/>
+<polygon points="725,650 717.6055859201091,634.6923992600045 732.3944140798909,634.6923992600045" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="52" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="start">0 ms</text>
+<text x="52" y="440" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="start">50 ms</text>
+<text x="52" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="start">100 ms</text>
+<circle cx="235" cy="260" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="250" y1="265" x2="710" y2="422" stroke="#e57735" stroke-width="5"/>
+<polygon points="710,422 693.124487169337,424.0535497807775 697.9014122012378,410.0574637000492" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="450" y="310" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">发送输入</text>
+<circle cx="725" cy="430" r="12" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="710" y1="442" x2="250" y2="592" stroke="#5276bf" stroke-width="5"/>
+<polygon points="250,592 262.26097210593656,580.2242383253802 266.8458134828285,594.2844185478486" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="475" y="553" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="start">返回状态</text>
+<text x="265" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">预测：现在就动</text>
+<text x="265" y="650" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="start">等确认：此时才动</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">预测缩短可感知的输入等待，网络传输仍需时间。</text></svg>

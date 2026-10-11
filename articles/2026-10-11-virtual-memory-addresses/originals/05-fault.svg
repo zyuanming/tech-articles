@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>缺页异常之后，可能走不同路线</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">缺页异常之后，可能走不同路线</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">操作系统检查合法性与当前页面状态</text>
+<rect x="310" y="170" width="340" height="90" rx="16" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="480.0" y="219" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">触发异常</text>
+<rect x="40" y="370" width="435" height="125" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="257.5" y="419" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">首次匿名分配</text>
+<text x="257.5" y="464" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">建立清零页</text>
+<line x1="480" y1="275" x2="257" y2="355" stroke="#087f8c" stroke-width="3"/>
+<polygon points="257,355 268.9115916255549,342.87094459794946 273.90537957720306,356.79112851316876" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="515" y="370" width="435" height="125" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="732.5" y="419" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">文件页 / 换出页</text>
+<text x="732.5" y="464" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">取得所需内容</text>
+<line x1="480" y1="275" x2="732" y2="355" stroke="#5276bf" stroke-width="3"/>
+<polygon points="732,355 715.1725588658524,357.41603494941506 719.6473496600487,343.3204439476964" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="40" y="550" width="435" height="125" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="257.5" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">写时复制</text>
+<text x="257.5" y="644" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">创建可写副本</text>
+<path d="M 480,275 L 20,310 L 20,530 L 257,530" fill="none" stroke="#087f8c" stroke-width="3" stroke-linejoin="round"/>
+<line x1="257" y1="530" x2="257" y2="540" stroke="#087f8c" stroke-width="3"/>
+<polygon points="257,540 249.6055859201091,524.6923992600045 264.3944140798909,524.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="515" y="550" width="435" height="125" rx="16" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="732.5" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">非法地址或权限</text>
+<text x="732.5" y="644" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">报告错误</text>
+<path d="M 480,275 L 945,310 L 945,530 L 732,530" fill="none" stroke="#c54c53" stroke-width="3" stroke-linejoin="round"/>
+<line x1="732" y1="530" x2="732" y2="540" stroke="#c54c53" stroke-width="3"/>
+<polygon points="732,540 724.6055859201091,524.6923992600045 739.3944140798909,524.6923992600045" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">合法缺页可处理后重试；是否有磁盘 I/O 取决于具体状态。</text></svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 960 690" role="img"><title>从秘密质数，造出配对指数</title><rect width="960" height="690" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">从秘密质数，造出配对指数</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">本例只是可手算玩具，55没有保密能力</text>
+<rect x="45" y="190" width="250" height="150" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="170.0" y="232" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">p = 5，q = 11</text>
+<text x="170.0" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">两个不同质数</text>
+<rect x="355" y="190" width="250" height="150" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="480.0" y="232" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">n = 55</text>
+<text x="480.0" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">φ(n) = 40</text>
+<rect x="665" y="190" width="250" height="150" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="790.0" y="232" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">e = 3，d = 27</text>
+<text x="790.0" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">3×27 = 1 + 2×40</text>
+<line x1="303" y1="265" x2="345" y2="265" stroke="#183747" stroke-width="4"/>
+<polygon points="345,265 329.6923992600045,272.3944140798909 329.6923992600045,257.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="613" y1="265" x2="655" y2="265" stroke="#183747" stroke-width="4"/>
+<polygon points="655,265 639.6923992600045,272.3944140798909 639.6923992600045,257.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="105" y="445" width="310" height="120" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="260.0" y="487" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">公开：(55,3)</text>
+<rect x="535" y="445" width="325" height="120" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="697.5" y="487" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">保密：d与质因数</text>
+<text x="42" y="652" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">求d是模40下的乘法逆元问题，不是普通的1/3。</text></svg>

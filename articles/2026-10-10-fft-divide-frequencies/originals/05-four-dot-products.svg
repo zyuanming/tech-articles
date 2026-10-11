@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1383" viewBox="0 0 960 830" role="img"><title>四个频率，各做一次“乘后求和”</title><rect width="960" height="830" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">四个频率，各做一次“乘后求和”</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">权重依次乘输入 [1, 0, −1, 0]；采用负指数约定</text>
+<rect x="55" y="190" width="845" height="105" rx="13" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="90" y="255" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#087f8c" text-anchor="start">k=0</text>
+<text x="240" y="255" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">[1,   1,    1,    1]</text>
+<text x="810" y="255" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">= 0</text>
+<rect x="55" y="323" width="845" height="105" rx="13" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="90" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#087f8c" text-anchor="start">k=1</text>
+<text x="240" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">[1,  −i,  −1,    i]</text>
+<text x="810" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">= 2</text>
+<rect x="55" y="456" width="845" height="105" rx="13" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="90" y="521" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#087f8c" text-anchor="start">k=2</text>
+<text x="240" y="521" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">[1,  −1,   1,   −1]</text>
+<text x="810" y="521" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">= 0</text>
+<rect x="55" y="589" width="845" height="105" rx="13" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="90" y="654" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#087f8c" text-anchor="start">k=3</text>
+<text x="240" y="654" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">[1,   i,  −1,   −i]</text>
+<text x="810" y="654" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">= 2</text>
+<text x="42" y="792" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">例如 k=1：1×1 + 0×(−i) + (−1)×(−1) + 0×i = 2。</text></svg>

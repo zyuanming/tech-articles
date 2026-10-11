@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1550" viewBox="0 0 960 930" role="img"><title>造一个专门“反着来”的程序D</title><rect width="960" height="930" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">造一个专门“反着来”的程序D</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">把程序P同时当作待测程序和输入</text>
+<rect x="245" y="175" width="470" height="100" rx="12" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#ffffff" text-anchor="middle">询问 H(P, P)</text>
+<line x1="350" y1="300" x2="230" y2="405" stroke="#183747" stroke-width="4"/>
+<polygon points="230,405 236.65088782470235,389.3550106697631 246.3893993128944,400.4847380848397" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="610" y1="300" x2="730" y2="405" stroke="#183747" stroke-width="4"/>
+<polygon points="730,405 713.6106006871056,400.4847380848397 723.3491121752976,389.35501066976315" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="135" y="375" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="middle">预测会停</text>
+<text x="825" y="375" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="middle">预测不停</text>
+<rect x="65" y="440" width="340" height="125" rx="12" fill="#ffffff" stroke="#c54c53" stroke-width="2"/>
+<text x="235" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#c54c53" text-anchor="middle">D故意永远循环</text>
+<rect x="555" y="440" width="340" height="125" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="725" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="middle">D立刻停机</text>
+<text x="480" y="680" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#183747" text-anchor="middle">现在把P换成D自己</text>
+<text x="480" y="755" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#c54c53" text-anchor="middle">两种预测，都会被D推翻</text>
+<text x="42" y="892" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是现代教学证明，不是1936论文的原图。</text></svg>

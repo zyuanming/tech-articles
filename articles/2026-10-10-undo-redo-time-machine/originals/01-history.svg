@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>按下撤销，究竟回到哪里？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">按下撤销，究竟回到哪里？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">一个只编辑文字的玩具应用</text>
+<rect x="50" y="240" width="240" height="190" rx="16" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="170" y="355" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="45" font-weight="400" fill="#087f8c" text-anchor="middle">猫</text>
+<line x1="298" y1="325" x2="346" y2="325" stroke="#e57735" stroke-width="5"/>
+<polygon points="346,325 330.6923992600045,332.3944140798909 330.6923992600045,317.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="360" y="240" width="240" height="190" rx="16" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="480" y="355" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="45" font-weight="400" fill="#087f8c" text-anchor="middle">猫跑</text>
+<line x1="608" y1="325" x2="656" y2="325" stroke="#e57735" stroke-width="5"/>
+<polygon points="656,325 640.6923992600045,332.3944140798909 640.6923992600045,317.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="670" y="240" width="240" height="190" rx="16" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="790" y="355" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="45" font-weight="400" fill="#087f8c" text-anchor="middle">猫跑了</text>
+<text x="480" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">输入“跑” → 输入“了”</text>
+<line x1="805" y1="610" x2="485" y2="610" stroke="#5276bf" stroke-width="5"/>
+<polygon points="485,610 500.3076007399955,602.6055859201091 500.3076007399955,617.3944140798909" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="530" y="675" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="start">撤销最后一次输入</text></svg>

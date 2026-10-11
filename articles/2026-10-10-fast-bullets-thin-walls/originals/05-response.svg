@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>找到接触点，才轮到决定怎么动</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">找到接触点，才轮到决定怎么动</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">同样的接触，可对应不同游戏规则</text>
+<rect x="230" y="235" width="28" height="280" rx="0" fill="#aab5bb" stroke="#183747" stroke-width="2"/>
+<line x1="75" y1="300" x2="210" y2="375" stroke="#087f8c" stroke-width="5"/>
+<polygon points="210,375 193.02770450506273,374.02985277790856 200.20979436127627,361.1020910367242" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="213" cy="375" r="14" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="185" y="605" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">停止</text>
+<rect x="540" y="235" width="28" height="280" rx="0" fill="#aab5bb" stroke="#183747" stroke-width="2"/>
+<line x1="385" y1="300" x2="520" y2="375" stroke="#e57735" stroke-width="5"/>
+<polygon points="520,375 503.02770450506273,374.02985277790856 510.20979436127624,361.1020910367242" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="523" cy="375" r="14" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="515" y1="385" x2="420" y2="450" stroke="#e57735" stroke-width="5"/>
+<polygon points="420,450 428.45796734689026,435.25338044299855 436.8089807391729,447.45870770864246" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="495" y="605" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="middle">反弹</text>
+<rect x="850" y="235" width="28" height="280" rx="0" fill="#aab5bb" stroke="#183747" stroke-width="2"/>
+<line x1="695" y1="300" x2="830" y2="375" stroke="#5276bf" stroke-width="5"/>
+<polygon points="830,375 813.0277045050627,374.02985277790856 820.2097943612763,361.1020910367242" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="833" cy="375" r="14" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="833" y1="400" x2="833" y2="500" stroke="#5276bf" stroke-width="5"/>
+<polygon points="833,500 825.6055859201091,484.6923992600045 840.3944140798909,484.6923992600045" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="805" y="605" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#5276bf" text-anchor="middle">沿墙滑动</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">检测回答“何时碰到”；响应回答“接下来怎样运动”。</text></svg>

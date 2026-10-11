@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 960 640" role="img"><title>先标记，再扫过全部受管理对象</title><rect width="960" height="640" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">先标记，再扫过全部受管理对象</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">本例只回收 D、E、F，不搬动 A、B、C</text>
+<rect x="120" y="230" width="110" height="95" rx="10" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="175" y="291" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="245" y="230" width="110" height="95" rx="10" fill="#eee5db" stroke="#d2dbd8" stroke-width="2"/>
+<text x="300" y="291" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#57727c" text-anchor="middle">D</text>
+<rect x="370" y="230" width="110" height="95" rx="10" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="425" y="291" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="495" y="230" width="110" height="95" rx="10" fill="#eee5db" stroke="#d2dbd8" stroke-width="2"/>
+<text x="550" y="291" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#57727c" text-anchor="middle">E</text>
+<rect x="620" y="230" width="110" height="95" rx="10" fill="#eee5db" stroke="#d2dbd8" stroke-width="2"/>
+<text x="675" y="291" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#57727c" text-anchor="middle">F</text>
+<rect x="745" y="230" width="110" height="95" rx="10" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="800" y="291" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="120" y="420" width="110" height="95" rx="10" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="175" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="245" y="420" width="110" height="95" rx="10" fill="#eee5db" stroke="#d2dbd8" stroke-width="2"/>
+<text x="300" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="370" y="420" width="110" height="95" rx="10" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="425" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="495" y="420" width="110" height="95" rx="10" fill="#eee5db" stroke="#d2dbd8" stroke-width="2"/>
+<text x="550" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="620" y="420" width="110" height="95" rx="10" fill="#eee5db" stroke="#d2dbd8" stroke-width="2"/>
+<text x="675" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#57727c" text-anchor="middle">空</text>
+<rect x="745" y="420" width="110" height="95" rx="10" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="800" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<text x="65" y="288" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">前</text>
+<text x="65" y="478" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">后</text>
+<line x1="480" y1="340" x2="480" y2="401" stroke="#e57735" stroke-width="4"/>
+<polygon points="480,401 472.6055859201091,385.6923992600045 487.3944140798909,385.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="42" y="602" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">回收到分配器的可用空间，不一定立刻归还操作系统。</text></svg>

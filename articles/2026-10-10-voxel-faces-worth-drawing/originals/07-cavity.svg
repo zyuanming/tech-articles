@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>“内部不画”，指的是什么内部？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">“内部不画”，指的是什么内部？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">下面是切开的截面：岩石贴岩石，与岩石贴空气不同</text>
+<rect x="120" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="212" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="304" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="396" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="488" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="580" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="672" y="190" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="120" y="282" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="212" y="282" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="304" y="282" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="396" y="282" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="488" y="282" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="580" y="282" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="672" y="282" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="120" y="374" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="212" y="374" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="304" y="374" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="396" y="374" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="488" y="374" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="580" y="374" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="672" y="374" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="120" y="466" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="212" y="466" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="304" y="466" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="396" y="466" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="488" y="466" width="92" height="92" rx="0" fill="#f7f4ed" stroke="#ffffff" stroke-width="2"/>
+<rect x="580" y="466" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="672" y="466" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="120" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="212" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="304" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="396" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="488" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="580" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="672" y="558" width="92" height="92" rx="0" fill="#b5c9a4" stroke="#ffffff" stroke-width="2"/>
+<rect x="304" y="282" width="276" height="276" rx="7" fill="none" stroke="#e57735" stroke-width="2"/>
+<text x="442" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">洞穴空气</text>
+<text x="75" y="725" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="start">洞穴墙仍是“实体—空气”的边界，应该生成。</text></svg>

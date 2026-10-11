@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>数据与错误提示，走不同通道</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">数据与错误提示，走不同通道</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">普通 A | B 只连接标准输出与标准输入</text>
+<rect x="160" y="245" width="240" height="150" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="280.0" y="294" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">程序 A</text>
+<rect x="610" y="245" width="240" height="150" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="730.0" y="294" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">程序 B</text>
+<line x1="45" y1="320" x2="145" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="145,320 129.6923992600045,327.3944140798909 129.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="65" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#087f8c" text-anchor="start">stdin</text>
+<line x1="417" y1="320" x2="593" y2="320" stroke="#087f8c" stroke-width="8"/>
+<polygon points="593,320 577.6923992600045,327.3944140798909 577.6923992600045,312.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="500" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#087f8c" text-anchor="middle">stdout → stdin</text>
+<line x1="868" y1="320" x2="928" y2="320" stroke="#5276bf" stroke-width="4"/>
+<polygon points="928,320 912.6923992600045,327.3944140798909 912.6923992600045,312.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="280" y1="413" x2="280" y2="575" stroke="#c54c53" stroke-width="4"/>
+<polygon points="280,575 272.6055859201091,559.6923992600045 287.3944140798909,559.6923992600045" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="300" y="490" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#c54c53" text-anchor="start">stderr</text>
+<rect x="100" y="597" width="420" height="85" rx="16" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="310.0" y="646" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">错误说明：通常不进管道</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">常见编号：stdin 0、stdout 1、stderr 2。</text></svg>

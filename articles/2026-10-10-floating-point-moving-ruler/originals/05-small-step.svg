@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>想移动 1 厘米，却还留在原来的刻度</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">想移动 1 厘米，却还留在原来的刻度</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">binary32：位置 1,048,576 m；相邻刻度间隔 0.125 m</text>
+<line x1="100" y1="400" x2="860" y2="400" stroke="#183747" stroke-width="4"/>
+<line x1="150" y1="360" x2="150" y2="440" stroke="#087f8c" stroke-width="6"/>
+<text x="150" y="505" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="middle">原位置</text>
+<line x1="750" y1="360" x2="750" y2="440" stroke="#087f8c" stroke-width="6"/>
+<text x="750" y="505" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="middle">下一个刻度</text>
+<circle cx="198" cy="400" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="200" y1="340" x2="154" y2="340" stroke="#e57735" stroke-width="5"/>
+<polygon points="154,340 169.3076007399955,332.6055859201091 169.3076007399955,347.3944140798909" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="270" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">舍入回原位置</text>
+<text x="180" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="start">目标只前进 0.01 m</text>
+<text x="120" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">最近的可表示位置，仍然是原位置。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">若每步都把小位移加到同一个大数再舍入，移动可能反复丢失。</text></svg>

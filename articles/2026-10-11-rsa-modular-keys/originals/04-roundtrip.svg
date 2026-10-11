@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>把7送成13，再带回7</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把7送成13，再带回7</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">加密 c = 7³ mod 55；解密 m = 13²⁷ mod 55</text>
+<circle cx="130" cy="240" r="48" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="130" y="249" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#087f8c" text-anchor="middle">7</text>
+<circle cx="480" cy="240" r="48" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="480" y="249" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#e57735" text-anchor="middle">13</text>
+<circle cx="830" cy="240" r="48" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="830" y="249" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#087f8c" text-anchor="middle">7</text>
+<line x1="195" y1="240" x2="410" y2="240" stroke="#5276bf" stroke-width="4"/>
+<polygon points="410,240 394.6923992600045,247.3944140798909 394.6923992600045,232.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="545" y1="240" x2="760" y2="240" stroke="#5276bf" stroke-width="4"/>
+<polygon points="760,240 744.6923992600045,247.3944140798909 744.6923992600045,232.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="305" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#5276bf" text-anchor="middle">公开指数3</text>
+<text x="655" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#5276bf" text-anchor="middle">私有指数27</text>
+<rect x="40" y="365" width="205" height="115" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="142.5" y="407" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#087f8c" text-anchor="middle">13^2 mod 55</text>
+<text x="142.5" y="447" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="middle">= 4</text>
+<rect x="272" y="365" width="205" height="115" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="374.5" y="407" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#5276bf" text-anchor="middle">13^4 mod 55</text>
+<text x="374.5" y="447" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="middle">= 16</text>
+<rect x="504" y="365" width="205" height="115" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="606.5" y="407" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#e57735" text-anchor="middle">13^8 mod 55</text>
+<text x="606.5" y="447" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="middle">= 36</text>
+<rect x="736" y="365" width="205" height="115" rx="12" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="838.5" y="407" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#c54c53" text-anchor="middle">13^16 mod 55</text>
+<text x="838.5" y="447" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="middle">= 31</text>
+<text x="480" y="565" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">27 = 16 + 8 + 2 + 1</text>
+<text x="480" y="618" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">31 × 36 × 4 × 13 mod 55 = 7</text></svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同时运行，不等于立即产生结果</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同时运行，不等于立即产生结果</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">算法的信息需求，决定什么时候能输出</text>
+<rect x="45" y="210" width="250" height="130" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="170.0" y="259" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">逐行过滤</text>
+<line x1="315" y1="275" x2="410" y2="275" stroke="#087f8c" stroke-width="4"/>
+<polygon points="410,275 394.6923992600045,282.3944140798909 394.6923992600045,267.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="435" y="210" width="480" height="130" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="675" y="287" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#087f8c" text-anchor="middle">看到一行 → 可以判断这一行</text>
+<rect x="45" y="460" width="250" height="130" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="170.0" y="509" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">完整排序</text>
+<line x1="315" y1="525" x2="410" y2="525" stroke="#5276bf" stroke-width="4"/>
+<polygon points="410,525 394.6923992600045,532.3944140798909 394.6923992600045,517.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="435" y="460" width="480" height="130" rx="14" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="675" y="537" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#5276bf" text-anchor="middle">没到输入结束 → 还可能遇到更小的行</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">用户态输出缓冲也会影响可见时机；先逐段检查真实数据。</text></svg>

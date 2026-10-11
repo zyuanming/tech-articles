@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1417" viewBox="0 0 960 850" role="img"><title>停在八厘米，也是一种平衡</title><rect width="960" height="850" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">停在八厘米，也是一种平衡</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">目标 10 cm；Kp = 2；本篇自设水箱模型</text>
+<rect x="190" y="220" width="350" height="430" rx="0" fill="#ffffff" stroke="#183747" stroke-width="5"/>
+<rect x="194" y="325" width="342" height="321" rx="0" fill="#acd2cb" stroke="none" stroke-width="2"/>
+<line x1="150" y1="250" x2="580" y2="250" stroke="#c54c53" stroke-width="4" stroke-dasharray="12 9"/>
+<text x="610" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#c54c53" text-anchor="start">目标 10</text>
+<line x1="150" y1="325" x2="580" y2="325" stroke="#087f8c" stroke-width="4"/>
+<text x="610" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">实际 8</text>
+<line x1="310" y1="145" x2="310" y2="275" stroke="#5276bf" stroke-width="7"/>
+<polygon points="310,275 302.6055859201091,259.6923992600045 317.3944140798909,259.6923992600045" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="410" y="172" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#5276bf" text-anchor="start">补水 0.8</text>
+<line x1="525" y1="595" x2="745" y2="595" stroke="#e57735" stroke-width="7"/>
+<polygon points="745,595 729.6923992600045,602.3944140798909 729.6923992600045,587.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="605" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#e57735" text-anchor="start">漏水 0.8</text>
+<text x="70" y="740" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="start">误差 2 → 命令 4 → 补水与漏水相等</text>
+<text x="42" y="812" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">增减量单位：cm/s；不是实际孔口流量公式。</text></svg>

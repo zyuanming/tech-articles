@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>64 个方块，真的要画 384 张小面吗？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">64 个方块，真的要画 384 张小面吗？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">4 × 4 × 4 个不透明实心方块；每块有 6 个面</text>
+<polygon points="215,290 471,162.0 727,290 471,418.0" fill="#b1d6c6" stroke="#183747" stroke-width="3"/>
+<polygon points="215,290 471,418.0 471,674.0 215,546" fill="#419694" stroke="#183747" stroke-width="3"/>
+<polygon points="471,418.0 727,290 727,546 471,674.0" fill="#e3ad76" stroke="#183747" stroke-width="3"/>
+<line x1="279.0" y1="258.0" x2="535.0" y2="386.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="279.0" y1="322.0" x2="535.0" y2="194.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="279.0" y1="322.0" x2="279.0" y2="578.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="215.0" y1="354.0" x2="471.0" y2="482.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="535.0" y1="386.0" x2="535.0" y2="642.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="471.0" y1="482.0" x2="727.0" y2="354.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="343.0" y1="226.0" x2="599.0" y2="354.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="343.0" y1="354.0" x2="599.0" y2="226.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="343.0" y1="354.0" x2="343.0" y2="610.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="215.0" y1="418.0" x2="471.0" y2="546.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="599.0" y1="354.0" x2="599.0" y2="610.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="471.0" y1="546.0" x2="727.0" y2="418.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="407.0" y1="194.0" x2="663.0" y2="322.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="407.0" y1="386.0" x2="663.0" y2="258.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="407.0" y1="386.0" x2="407.0" y2="642.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="215.0" y1="482.0" x2="471.0" y2="610.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="663.0" y1="322.0" x2="663.0" y2="578.0" stroke="#183747" stroke-width="1.5"/>
+<line x1="471.0" y1="610.0" x2="727.0" y2="482.0" stroke="#183747" stroke-width="1.5"/>
+<text x="480" y="745" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">内部方块依然存在，但内部界面可以不生成。</text></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>删掉一个名字，不等于删掉对象</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">删掉一个名字，不等于删掉对象</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">x 与 y 是两份引用，指向同一个对象</text>
+<rect x="125" y="203" width="120" height="90" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="185" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="41" font-weight="700" fill="#087f8c" text-anchor="middle">x</text>
+<line x1="250" y1="250" x2="650" y2="365" stroke="#57727c" stroke-width="5"/>
+<polygon points="650,365 633.245203299066,367.8769406511732 637.3314663248858,353.663851865713" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="125" y="443" width="120" height="90" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="185" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="41" font-weight="700" fill="#087f8c" text-anchor="middle">y</text>
+<line x1="250" y1="490" x2="650" y2="365" stroke="#57727c" stroke-width="5"/>
+<polygon points="650,365 637.5947703908439,376.62369469420616 633.1836327729962,362.50805431709375" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="650" y="305" width="200" height="130" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="750" y="364" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="middle">对象 A</text>
+<text x="750" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#57727c" text-anchor="middle">数据仍在</text>
+<line x1="350" y1="245" x2="430" y2="335" stroke="#c54c53" stroke-width="8"/>
+<line x1="350" y1="335" x2="430" y2="245" stroke="#c54c53" stroke-width="8"/>
+<text x="480" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="middle">x = 空引用之后，y 仍然能找到 A。</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">引用是寻找对象的线索；变量名不是对象本体。</text></svg>

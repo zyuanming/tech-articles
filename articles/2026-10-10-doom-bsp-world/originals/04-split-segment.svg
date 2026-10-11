@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>跨过分割线的墙段，需要切开</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">跨过分割线的墙段，需要切开</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">原墙 C→D 在 x=4 处被分成两段</text>
+<line x1="100" y1="180" x2="100" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="180" y1="180" x2="180" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="260" y1="180" x2="260" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="340" y1="180" x2="340" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="420" y1="180" x2="420" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="500" y1="180" x2="500" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="580" y1="180" x2="580" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="660" y1="180" x2="660" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="740" y1="180" x2="740" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="820" y1="180" x2="820" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="100" y1="180" x2="860" y2="180" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="100" y1="260" x2="860" y2="260" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="100" y1="340" x2="860" y2="340" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="100" y1="420" x2="860" y2="420" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="100" y1="500" x2="860" y2="500" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="100" y1="580" x2="860" y2="580" stroke="#d2dbd8" stroke-width="1"/>
+<line x1="480" y1="155" x2="480" y2="610" stroke="#e57735" stroke-width="5" stroke-dasharray="14 9"/>
+<line x1="190" y1="500" x2="480" y2="340" stroke="#087f8c" stroke-width="12"/>
+<line x1="480" y1="340" x2="770" y2="180" stroke="#5276bf" stroke-width="12"/>
+<circle cx="190" cy="500" r="8" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="190" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">C=(1,1)</text>
+<circle cx="770" cy="180" r="8" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="605" y="160" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="start">D=(7,5)</text>
+<circle cx="480" cy="340" r="8" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="500" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">M=(4,3)</text>
+<text x="130" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="start">C + ½(D−C) = (4,3)</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">切的是数据中的线段，不是在游戏里锯开一道门。</text></svg>

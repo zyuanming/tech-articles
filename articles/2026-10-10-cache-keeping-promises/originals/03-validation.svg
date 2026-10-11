@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>过期后，先拿版本标签问一句</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">过期后，先拿版本标签问一句</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">客户端已有正文 V1，标签 ETag: &quot;v1&quot;</text>
+<text x="155" y="200" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#087f8c" text-anchor="middle">客户端</text>
+<text x="765" y="200" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#5276bf" text-anchor="middle">服务器</text>
+<line x1="155" y1="230" x2="155" y2="650" stroke="#087f8c" stroke-width="4"/>
+<line x1="765" y1="230" x2="765" y2="650" stroke="#5276bf" stroke-width="4"/>
+<line x1="180" y1="270" x2="740" y2="335" stroke="#183747" stroke-width="4"/>
+<polygon points="740,335 723.941928945526,340.5801750877068 725.6470416547066,325.8899732855345" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="305" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">If-None-Match: &quot;v1&quot;</text>
+<line x1="740" y1="425" x2="180" y2="455" stroke="#087f8c" stroke-width="4"/>
+<polygon points="180,455 194.89012015956345,446.79729790655773 195.68124440138362,461.5649504205344" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="330" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">未变：304，无新正文</text>
+<line x1="740" y1="575" x2="180" y2="615" stroke="#e57735" stroke-width="4"/>
+<polygon points="180,615 194.7418693420626,606.5337559507445 195.7955297212252,621.2850012590206" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="315" y="554" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">已变：200，带 V2 正文</text>
+<text x="85" y="687" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">下面两条是二选一的结果，不会在一次请求中同时发生。</text></svg>

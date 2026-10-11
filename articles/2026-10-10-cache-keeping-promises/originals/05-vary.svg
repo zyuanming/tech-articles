@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一个地址，也可能有两种正确答案</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一个地址，也可能有两种正确答案</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">例：/guide 根据请求语言返回不同正文</text>
+<text x="240" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">语言：zh-CN</text>
+<line x1="240" y1="240" x2="240" y2="325" stroke="#087f8c" stroke-width="4"/>
+<polygon points="240,325 232.6055859201091,309.6923992600045 247.3944140798909,309.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="120" y="350" width="260" height="160" rx="13" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="250" y="448" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#087f8c" text-anchor="middle">欢迎</text>
+<text x="250" y="578" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">/guide</text>
+<text x="685" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="middle">语言：en</text>
+<line x1="685" y1="240" x2="685" y2="325" stroke="#5276bf" stroke-width="4"/>
+<polygon points="685,325 677.6055859201091,309.6923992600045 692.3944140798909,309.6923992600045" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="565" y="350" width="260" height="160" rx="13" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="695" y="448" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#5276bf" text-anchor="middle">Welcome</text>
+<text x="695" y="578" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">/guide</text>
+<line x1="480" y1="210" x2="480" y2="605" stroke="#d2dbd8" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="480" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#e57735" text-anchor="middle">Vary: Accept-Language</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">缓存必须把影响响应的相关请求头纳入区分条件。</text></svg>

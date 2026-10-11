@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1217" viewBox="0 0 960 730" role="img"><title>四个网页，构成一个很小的互联网</title><rect width="960" height="730" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">四个网页，构成一个很小的互联网</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">A→B、C；B→C；C→A；D 没有出链</text>
+<circle cx="180" cy="300" r="54" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="180" y="311" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">A</text>
+<circle cx="730" cy="260" r="54" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="730" y="271" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">B</text>
+<circle cx="550" cy="540" r="54" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="550" y="551" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">C</text>
+<circle cx="150" cy="540" r="54" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="150" y="551" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">D</text>
+<line x1="238" y1="297" x2="670" y2="264" stroke="#183747" stroke-width="4"/>
+<polygon points="670,264 655.3000769042245,272.5388676637061 654.1736564521248,257.7929999271283" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="454.0" y="264.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">1/2</text>
+<line x1="225" y1="337" x2="500" y2="507" stroke="#183747" stroke-width="4"/>
+<polygon points="500,507 483.09129161623144,505.2405737319582 490.86758425933033,492.6612768092982" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="362.5" y="402.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">1/2</text>
+<line x1="704" y1="313" x2="587" y2="490" stroke="#183747" stroke-width="4"/>
+<polygon points="587,490 589.2725543986062,473.15258190388283 601.6096784200446,481.30762998585055" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="645.5" y="421.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<path d="M 500 553 C 320 600,260 440,186 360" fill="none" stroke="#e57735" stroke-width="4" stroke-linejoin="round"/>
+<line x1="195" y1="376" x2="186" y2="360" stroke="#e57735" stroke-width="4"/>
+<polygon points="186,360 199.94951373799273,369.71653572388595 187.05993289118823,376.9669249502135" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="328" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#e57735" text-anchor="start">1</text>
+<text x="80" y="645" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="start">D：悬挂节点</text>
+<text x="42" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">沿出链选择时等概率；这是教学网络，不是真实网站数据。</text></svg>

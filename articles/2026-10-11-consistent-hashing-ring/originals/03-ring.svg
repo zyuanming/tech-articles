@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一条环，寻找顺时针后继</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一条环，寻找顺时针后继</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">服务器A=10，B=40，C=80；键的范围0—99</text>
+<circle cx="470" cy="440" r="230" fill="none" stroke="#d2dbd8" stroke-width="5"/>
+<circle cx="605.1906080272688" cy="253.92609129376208" r="27" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="605.1906080272688" y="262.92609129376206" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#087f8c" text-anchor="middle">A</text>
+<text x="633.9920853896" y="222.28425856938966" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#087f8c" text-anchor="middle">10</text>
+<circle cx="605.1906080272688" cy="626.073908706238" r="27" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="605.1906080272688" y="635.073908706238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#5276bf" text-anchor="middle">B</text>
+<text x="633.9920853896" y="673.7157414306104" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#5276bf" text-anchor="middle">40</text>
+<circle cx="251.25700125211466" cy="368.9260912937621" r="27" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="251.25700125211466" y="377.9260912937621" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#e57735" text-anchor="middle">C</text>
+<text x="204.6552319536521" y="361.7842585693897" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#e57735" text-anchor="middle">80</text>
+<circle cx="527.1681439593652" cy="264.0545444853966" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="518.5156681168668" y="297.6841269416609" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<circle cx="645.9454555146034" cy="382.83185604063476" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="619.3158730583391" y="398.4843318831333" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">20</text>
+<circle cx="596.6412145968075" cy="574.8591960729611" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="577.4738956308041" y="561.4480745051616" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">38</text>
+<circle cx="470.0" cy="625.0" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="470.0" y="604.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">50</text>
+<circle cx="294.0545444853966" cy="497.1681439593653" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="320.6841269416609" y="495.5156681168668" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">70</text>
+<circle cx="361.25972832589247" cy="290.33185604063476" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="377.7177153900817" y="319.9843318831333" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">90</text>
+<text x="470" y="440" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" font-weight="400" fill="#57727c" text-anchor="middle">顺时针 →</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">例如50、70归C；90跨过99，再绕回A。</text></svg>

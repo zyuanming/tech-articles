@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>遇到环，必须知道谁已经来过</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">遇到环，必须知道谁已经来过</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">静态图中寻找任意一条路：可保留全局 visited</text>
+<line x1="160" y1="345" x2="400" y2="205" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="400" y1="205" x2="650" y2="345" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="650" y1="345" x2="400" y2="505" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="400" y1="505" x2="160" y2="345" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="650" y1="345" x2="830" y2="345" stroke="#d2dbd8" stroke-width="6"/>
+<circle cx="160" cy="345" r="40" fill="#087f8c" stroke="#183747" stroke-width="3"/>
+<text x="160" y="358" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+<circle cx="400" cy="205" r="40" fill="#087f8c" stroke="#183747" stroke-width="3"/>
+<text x="400" y="218" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<circle cx="400" cy="505" r="40" fill="#087f8c" stroke="#183747" stroke-width="3"/>
+<text x="400" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<circle cx="650" cy="345" r="40" fill="#087f8c" stroke="#183747" stroke-width="3"/>
+<text x="650" y="358" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<circle cx="830" cy="345" r="40" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="830" y="358" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#183747" text-anchor="middle">T</text>
+<path d="M 160 295 Q 400 15 650 295" fill="none" stroke="#e57735" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 650 395 Q 400 675 160 395" fill="none" stroke="#e57735" stroke-width="5" stroke-linejoin="round"/>
+<text x="480" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="middle">不作标记，会沿环反复走回来。</text>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">如果钥匙、已选数字等会改变未来，节点就必须包含这些状态。</text></svg>

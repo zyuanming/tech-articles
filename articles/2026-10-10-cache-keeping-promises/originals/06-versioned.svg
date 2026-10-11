@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>让文件名携带版本，就不必原地换内容</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">让文件名携带版本，就不必原地换内容</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">入口 HTML 引用新名字；旧名字继续对应旧内容</text>
+<rect x="80" y="195" width="240" height="130" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="200" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#087f8c" text-anchor="middle">旧 HTML</text>
+<line x1="350" y1="260" x2="555" y2="260" stroke="#087f8c" stroke-width="5"/>
+<polygon points="555,260 539.6923992600045,267.3944140798909 539.6923992600045,252.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="595" y="195" width="280" height="130" rx="12" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="735" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#ffffff" text-anchor="middle">app.a1.js</text>
+<rect x="80" y="435" width="240" height="130" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="200" y="512" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#e57735" text-anchor="middle">新 HTML</text>
+<line x1="350" y1="500" x2="555" y2="500" stroke="#e57735" stroke-width="5"/>
+<polygon points="555,500 539.6923992600045,507.3944140798909 539.6923992600045,492.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="595" y="435" width="280" height="130" rx="12" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="735" y="512" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#ffffff" text-anchor="middle">app.b2.js</text>
+<text x="85" y="680" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">先让新资源可访问，再更新入口对它的引用。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">a1、b2 是简写标识；实际常使用足够长的内容指纹。</text></svg>

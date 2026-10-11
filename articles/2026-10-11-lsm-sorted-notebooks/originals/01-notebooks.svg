@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>把许多小修改，攒成有序的大动作</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把许多小修改，攒成有序的大动作</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">写入优化，把一部分工作推迟给整理与读取</text>
+<rect x="65" y="220" width="210" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="85" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A → 10</text>
+<rect x="65" y="285" width="210" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="85" y="325" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">C → 30</text>
+<rect x="65" y="350" width="210" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="85" y="390" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">B → 20</text>
+<text x="65" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">到达次序</text>
+<rect x="370" y="290" width="200" height="110" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="470.0" y="339" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">内存中整理</text>
+<line x1="288" y1="330" x2="350" y2="330" stroke="#183747" stroke-width="4"/>
+<polygon points="350,330 334.6923992600045,337.3944140798909 334.6923992600045,322.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="587" y1="330" x2="655" y2="330" stroke="#183747" stroke-width="4"/>
+<polygon points="655,330 639.6923992600045,337.3944140798909 639.6923992600045,322.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="680" y="220" width="210" height="58" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="700" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A → 10</text>
+<rect x="680" y="285" width="210" height="58" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="700" y="325" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">B → 20</text>
+<rect x="680" y="350" width="210" height="58" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="700" y="390" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">C → 30</text>
+<text x="680" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="start">按键有序</text>
+<rect x="60" y="575" width="840" height="115" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="90" y="624" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#e57735" text-anchor="start">先接住变化，再批量写出。</text>
+<text x="90" y="666" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">不要求每次修改都原地找到旧磁盘页。</text></svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>一个顶点，听两根骨头的建议</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一个顶点，听两根骨头的建议</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">肩侧建议 A = (3, 0)；前臂建议 B = (2, 1)</text>
+<line x1="150" y1="565" x2="810" y2="565" stroke="#57727c" stroke-width="3"/>
+<polygon points="810,565 794.6923992600045,572.3944140798909 794.6923992600045,557.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="150" y1="565" x2="150" y2="170" stroke="#57727c" stroke-width="3"/>
+<polygon points="150,170 157.3944140798909,185.3076007399955 142.6055859201091,185.3076007399955" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="150" y1="559" x2="150" y2="571" stroke="#57727c" stroke-width="2"/>
+<text x="150" y="609" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<line x1="305" y1="559" x2="305" y2="571" stroke="#57727c" stroke-width="2"/>
+<text x="305" y="609" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<line x1="460" y1="559" x2="460" y2="571" stroke="#57727c" stroke-width="2"/>
+<text x="460" y="609" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<line x1="615" y1="559" x2="615" y2="571" stroke="#57727c" stroke-width="2"/>
+<text x="615" y="609" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<line x1="770" y1="559" x2="770" y2="571" stroke="#57727c" stroke-width="2"/>
+<text x="770" y="609" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<line x1="143" y1="410" x2="157" y2="410" stroke="#57727c" stroke-width="2"/>
+<text x="126" y="420" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">1</text>
+<line x1="143" y1="255" x2="157" y2="255" stroke="#57727c" stroke-width="2"/>
+<text x="126" y="265" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">2</text>
+<line x1="615" y1="565" x2="460" y2="410" stroke="#d2dbd8" stroke-width="7"/>
+<circle cx="615" cy="565" r="12" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="460" cy="410" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="498.75" cy="448.75" r="12" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="635" y="549" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">A：25%</text>
+<text x="425" y="375" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">B：75%</text>
+<text x="530.75" y="447.75" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#c54c53" text-anchor="start">P′ (2.25, 0.75)</text>
+<text x="70" y="683" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="start">P′ = 0.25 A + 0.75 B</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">每根骨头先给出完整建议，再把建议位置加权。</text></svg>

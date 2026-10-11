@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1283" viewBox="0 0 960 770" role="img"><title>少算了多少重复工作？</title><rect width="960" height="770" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">少算了多少重复工作？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只比较复数乘法槽位；包含乘以 1 等可优化项</text>
+<text x="80" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="start">N = 8</text>
+<text x="450" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#57727c" text-anchor="middle">64</text>
+<text x="775" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#087f8c" text-anchor="middle">12</text>
+<text x="80" y="390" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="start">N = 64</text>
+<text x="450" y="390" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#57727c" text-anchor="middle">4,096</text>
+<text x="775" y="390" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#087f8c" text-anchor="middle">192</text>
+<text x="80" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="start">N = 1024</text>
+<text x="450" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#57727c" text-anchor="middle">1,048,576</text>
+<text x="775" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#087f8c" text-anchor="middle">5,120</text>
+<text x="450" y="171" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">直接公式 N²</text>
+<text x="775" y="171" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">基 2 FFT</text>
+<text x="42" y="732" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">FFT 乘法槽位 = (N/2)log₂N；这不是耗时测量。</text></svg>

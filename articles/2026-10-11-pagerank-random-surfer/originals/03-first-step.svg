@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>手算第一轮：概率总量仍然是 1</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">手算第一轮：概率总量仍然是 1</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">初始 A = B = C = D = 0.25；D 向每页贡献 0.0625</text>
+<rect x="48" y="180" width="862" height="95" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="74" y="236" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#087f8c" text-anchor="start">A</text>
+<text x="132" y="236" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="start">0.05 + 0.8 × (0.25 + 0.0625)</text>
+<text x="843" y="236" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="end">0.30</text>
+<rect x="48" y="296" width="862" height="95" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="74" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#087f8c" text-anchor="start">B</text>
+<text x="132" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="start">0.05 + 0.8 × (0.125 + 0.0625)</text>
+<text x="843" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="end">0.20</text>
+<rect x="48" y="412" width="862" height="95" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="74" y="468" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#087f8c" text-anchor="start">C</text>
+<text x="132" y="468" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="start">0.05 + 0.8 × (0.125 + 0.25 + 0.0625)</text>
+<text x="843" y="468" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="end">0.40</text>
+<rect x="48" y="528" width="862" height="95" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="74" y="584" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#087f8c" text-anchor="start">D</text>
+<text x="132" y="584" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="start">0.05 + 0.8 × 0.0625</text>
+<text x="843" y="584" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="end">0.10</text>
+<text x="95" y="690" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#e57735" text-anchor="start">0.30 + 0.20 + 0.40 + 0.10 = 1.00</text>
+<text x="42" y="752" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是同一轮旧值同步更新，不应边算边覆盖供别人使用的旧值。</text></svg>

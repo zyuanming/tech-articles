@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>链接结构，只回答排序中的一类问题</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">链接结构，只回答排序中的一类问题</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">PageRank 本身不需要知道这一次用户输入了什么</text>
+<rect x="50" y="180" width="410" height="315" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">这个模型能表达</text>
+<text x="72" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">谁被更多地指向</text>
+<text x="72" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">指向者的结构分量</text>
+<text x="72" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">概率在网络中的流动</text>
+<text x="72" y="386" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">个性化跳转的偏好</text>
+<rect x="500" y="180" width="410" height="315" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="522" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">它不能单独保证</text>
+<text x="522" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">页面说的事情是真的</text>
+<text x="522" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">内容与查询高度相关</text>
+<text x="522" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">页面没有作弊或过时</text>
+<text x="522" y="386" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">某网站一定值得信任</text>
+<text x="90" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">原始 PageRank ≠ 当前 Google 排序系统的全部</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">链接是一个信号，不是对知识、质量或道德的最终裁决。</text></svg>

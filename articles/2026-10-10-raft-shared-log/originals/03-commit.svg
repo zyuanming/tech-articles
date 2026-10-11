@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>复制与提交是两件事</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">复制与提交是两件事</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">假设本项日志由当前任期的领导者创建</text>
+<rect x="78" y="230" width="135" height="110" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="145.5" y="296.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="middle">A</text>
+<text x="145" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">落盘</text>
+<rect x="253" y="230" width="135" height="110" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="320.5" y="296.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="middle">B</text>
+<text x="320" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">落盘</text>
+<rect x="428" y="230" width="135" height="110" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="495.5" y="296.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="middle">C</text>
+<text x="495" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">落盘</text>
+<rect x="603" y="230" width="135" height="110" rx="10" fill="#ffffff" stroke="#57727c" stroke-width="3"/>
+<text x="670.5" y="296.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#57727c" text-anchor="middle">D</text>
+<text x="670" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">尚未到达</text>
+<rect x="778" y="230" width="135" height="110" rx="10" fill="#ffffff" stroke="#57727c" stroke-width="3"/>
+<text x="845.5" y="296.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#57727c" text-anchor="middle">E</text>
+<text x="845" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">尚未到达</text>
+<line x1="320" y1="230" x2="145" y2="182" stroke="#e57735" stroke-width="4"/>
+<polygon points="145,182 161.7183047264984,178.91807088466632 157.80642288018328,193.18014011602352" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="495" y1="230" x2="145" y2="182" stroke="#e57735" stroke-width="4"/>
+<polygon points="145,182 161.17033306139018,176.75401785327935 159.16095920416845,191.4057022288544" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="65" y1="457" x2="578" y2="457" stroke="#087f8c" stroke-width="7"/>
+<text x="320" y="512" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="middle">A 已知道有 3 份</text>
+<line x1="480" y1="545" x2="480" y2="590" stroke="#087f8c" stroke-width="4"/>
+<polygon points="480,590 472.6055859201091,574.6923992600045 487.3944140798909,574.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="480" y="639" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">推进 commitIndex，再按序执行</text>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">收到客户端请求 / 本地写入 / 提交 / 执行，不能混为一谈。</text></svg>

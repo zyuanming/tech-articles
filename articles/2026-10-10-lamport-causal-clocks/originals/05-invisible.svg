@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>电脑没看见的那条因果线</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">电脑没看见的那条因果线</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">系统边界决定了哪些事件会被逻辑钟捕捉</text>
+<rect x="65" y="190" width="340" height="100" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="235.0" y="251.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="middle">A：提交预约  [12]</text>
+<rect x="555" y="420" width="340" height="100" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="725.0" y="481.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#5276bf" text-anchor="middle">B：提交预约  [4]</text>
+<line x1="410" y1="240" x2="550" y2="468" stroke="#e57735" stroke-width="4"/>
+<polygon points="550,468 535.6887914937531,458.8245266557672 548.2914053136242,451.0860795733902" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="420" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">人打电话</text>
+<text x="480" y="603" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">把 [12] 一起传给 B，B 才能记成 ≥13。</text>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">隐形的外部沟通，不会自动进入计算机的消息图。</text></svg>

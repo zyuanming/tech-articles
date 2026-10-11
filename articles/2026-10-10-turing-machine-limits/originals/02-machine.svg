@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>机器一次只看一格</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">机器一次只看一格</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">当前状态与当前符号，共同决定下一步</text>
+<rect x="70" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="120.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="170" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="220.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<rect x="270" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="320.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<rect x="370" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="420.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<rect x="470" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="520.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="570" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="620.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="670" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="720.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="770" y="220" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="820.0" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<line x1="320.0" y1="385" x2="320.0" y2="325" stroke="#e57735" stroke-width="4"/>
+<polygon points="320.0,325 327.3944140798909,340.3076007399955 312.6055859201091,340.3076007399955" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="320.0" y="435" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="middle">读写头</text>
+<rect x="70" y="570" width="820" height="100" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="110" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">读到1：保持1，向右，仍是扫描状态</text></svg>

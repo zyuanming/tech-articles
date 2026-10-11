@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 960 660" role="img"><title>改写的是“目前最好”，不是已经定案</title><rect width="960" height="660" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">改写的是“目前最好”，不是已经定案</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">从 B 出发，尝试让 A 的账本更便宜</text>
+<circle cx="150" cy="270" r="46" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="150" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#183747" text-anchor="middle">S</text>
+<circle cx="470" cy="270" r="46" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="470" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#183747" text-anchor="middle">B</text>
+<circle cx="790" cy="270" r="46" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="790" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#183747" text-anchor="middle">A</text>
+<line x1="200" y1="270" x2="420" y2="270" stroke="#087f8c" stroke-width="4"/>
+<polygon points="420,270 404.6923992600045,277.3944140798909 404.6923992600045,262.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="520" y1="270" x2="740" y2="270" stroke="#087f8c" stroke-width="4"/>
+<polygon points="740,270 724.6923992600045,277.3944140798909 724.6923992600045,262.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="310" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#e57735" text-anchor="middle">1</text>
+<text x="635" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#e57735" text-anchor="middle">2</text>
+<path d="M 150 220 Q 470 20 790 220" fill="none" stroke="#d2dbd8" stroke-width="5" stroke-linejoin="round"/>
+<text x="470" y="164" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#57727c" text-anchor="middle">旧路线：4</text>
+<rect x="155" y="410" width="650" height="120" rx="20" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="459" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">候选值 = g(B) + 2 = 1 + 2 = 3</text>
+<text x="480" y="505" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">3 &lt; 4：更新 g(A)，并记前驱为 B</text>
+<text x="42" y="622" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这个“更小才替换”的动作叫松弛。</text></svg>

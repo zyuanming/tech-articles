@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>把线变成面：先横着混，再竖着混</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把线变成面：先横着混，再竖着混</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">一个格子的四个角；取 t = 0.25，u = 0.5</text>
+<rect x="150" y="235" width="610" height="300" rx="0" fill="#e0ece6" stroke="#087f8c" stroke-width="3"/>
+<circle cx="150" cy="235" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="150" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">0.2</text>
+<circle cx="760" cy="235" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="760" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">0.8</text>
+<circle cx="150" cy="535" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="150" y="590" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">0.4</text>
+<circle cx="760" cy="535" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="760" y="590" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">0.6</text>
+<line x1="302.5" y1="235" x2="302.5" y2="535" stroke="#e57735" stroke-width="5"/>
+<circle cx="302.5" cy="385.0" r="13" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="380" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">上边 → 0.29375</text>
+<text x="380" y="420" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#c54c53" text-anchor="start">中间 → 0.3625</text>
+<text x="380" y="505" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">下边 → 0.43125</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">横向使用 s(0.25)=0.15625；纵向 s(0.5)=0.5。</text></svg>

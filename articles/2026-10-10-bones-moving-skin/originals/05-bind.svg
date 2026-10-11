@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>为什么不能直接把点绕原点转？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">为什么不能直接把点绕原点转？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">绕肘 C(2, 0) 旋转：先换到肘的坐标，再换回来</text>
+<circle cx="100" cy="200" r="29" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="100" y="211" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text x="160" y="188" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">原始点</text>
+<text x="620" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#087f8c" text-anchor="start">(3, 0)</text>
+<line x1="100" y1="234" x2="100" y2="274" stroke="#57727c" stroke-width="3"/>
+<polygon points="100,274 92.60558592010909,258.6923992600045 107.39441407989091,258.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="333" r="29" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="100" y="344" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#ffffff" text-anchor="middle">2</text>
+<text x="160" y="321" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#5276bf" text-anchor="start">减去肘的位置</text>
+<text x="620" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#5276bf" text-anchor="start">(1, 0)</text>
+<line x1="100" y1="367" x2="100" y2="407" stroke="#57727c" stroke-width="3"/>
+<polygon points="100,407 92.60558592010909,391.6923992600045 107.39441407989091,391.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="466" r="29" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="100" y="477" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#ffffff" text-anchor="middle">3</text>
+<text x="160" y="454" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="start">转 90°</text>
+<text x="620" y="471" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#e57735" text-anchor="start">(0, 1)</text>
+<line x1="100" y1="500" x2="100" y2="540" stroke="#57727c" stroke-width="3"/>
+<polygon points="100,540 92.60558592010909,524.6923992600045 107.39441407989091,524.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="599" r="29" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="100" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#ffffff" text-anchor="middle">4</text>
+<text x="160" y="587" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#c54c53" text-anchor="start">加回肘的位置</text>
+<text x="620" y="604" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#c54c53" text-anchor="start">(2, 1)</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">三维对应：当前关节变换 × 逆绑定变换 × 绑定时的点。</text></svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>偶尔的一次搬家，不等于每次都搬家</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">偶尔的一次搬家，不等于每次都搬家</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">示例：初始容量 1，装不下时翻倍；连续插入 32 次</text>
+<rect x="80" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<text x="89" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="105" y="572" width="18" height="28" rx="0" fill="#e57735" stroke="none" stroke-width="2"/>
+<text x="114" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="130" y="558" width="18" height="42" rx="0" fill="#e57735" stroke="none" stroke-width="2"/>
+<text x="139" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="155" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="180" y="530" width="18" height="70" rx="0" fill="#e57735" stroke="none" stroke-width="2"/>
+<text x="189" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<rect x="205" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="230" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="255" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="280" y="474" width="18" height="126" rx="0" fill="#e57735" stroke="none" stroke-width="2"/>
+<text x="289" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">9</text>
+<rect x="305" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="330" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="355" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="380" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="405" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="430" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="455" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="480" y="362" width="18" height="238" rx="0" fill="#e57735" stroke="none" stroke-width="2"/>
+<text x="489" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">17</text>
+<rect x="505" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="530" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="555" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="580" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="605" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="630" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="655" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="680" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="705" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="730" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="755" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="780" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="805" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="830" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<rect x="855" y="586" width="18" height="14" rx="0" fill="#087f8c" stroke="none" stroke-width="2"/>
+<text x="864" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">32</text>
+<text x="110" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">橙柱：插入成本 + 搬迁成本</text>
+<text x="110" y="246" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">搬迁总数 = 1+2+4+8+16 = 31</text>
+<text x="110" y="310" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="start">32 次插入 + 31 次搬迁 = 63 单位</text>
+<text x="710" y="688" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="start">第几次插入</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是计数模型，不是运行时间；哈希和比较成本另有假设。</text></svg>

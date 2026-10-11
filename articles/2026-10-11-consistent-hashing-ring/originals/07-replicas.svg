@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1117" viewBox="0 0 960 670" role="img"><title>三个位置，不一定是三份容错</title><rect width="960" height="670" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">三个位置，不一定是三份容错</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">副本应跨物理机器，必要时还要跨机架或地区</text>
+<rect x="90" y="230" width="210" height="95" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="195.0" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">A1</text>
+<rect x="375" y="230" width="210" height="95" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">A2</text>
+<rect x="660" y="230" width="210" height="95" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="765.0" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">A3</text>
+<text x="480" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#c54c53" text-anchor="middle">全落在同一台A</text>
+<rect x="90" y="450" width="210" height="95" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="195.0" y="492" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">A1</text>
+<rect x="375" y="450" width="210" height="95" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="480.0" y="492" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">B2</text>
+<rect x="660" y="450" width="210" height="95" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="765.0" y="492" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">C3</text>
+<text x="480" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">跨A、B、C三台机器</text>
+<text x="42" y="632" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">独立故障域是部署属性，不能只由圆环上的位置数推断。</text></svg>

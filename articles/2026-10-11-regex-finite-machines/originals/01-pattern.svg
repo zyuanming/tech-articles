@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1117" viewBox="0 0 960 670" role="img"><title>一行模式，怎样变成一台机器？</title><rect width="960" height="670" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一行模式，怎样变成一台机器？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">全文匹配：a(b|bb)c；括号内有两种选择</text>
+<rect x="55" y="180" width="240" height="190" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="77" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">先读 a</text>
+<text x="77" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">只认字符 a</text>
+<text x="77" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">不是任意字符</text>
+<rect x="355" y="180" width="245" height="190" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="377" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">再读 b 或 bb</text>
+<text x="377" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">| 表示二选一</text>
+<text x="377" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">不是读竖线本身</text>
+<rect x="660" y="180" width="240" height="190" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="682" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">最后读 c</text>
+<text x="682" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">此时输入要结束</text>
+<text x="682" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">才能全文匹配成功</text>
+<line x1="297" y1="270" x2="350" y2="270" stroke="#183747" stroke-width="4"/>
+<polygon points="350,270 334.6923992600045,277.3944140798909 334.6923992600045,262.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="603" y1="270" x2="655" y2="270" stroke="#183747" stroke-width="4"/>
+<polygon points="655,270 639.6923992600045,277.3944140798909 639.6923992600045,262.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="90" y="450" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#087f8c" text-anchor="start">abc ✓    abbc ✓</text>
+<text x="90" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#c54c53" text-anchor="start">ac ×     abbbc ×     xabc ×</text>
+<text x="42" y="632" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">先限定“全文匹配”，避免把搜索与识别混为一谈。</text></svg>

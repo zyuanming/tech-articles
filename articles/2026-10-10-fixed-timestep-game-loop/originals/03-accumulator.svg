@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1367" viewBox="0 0 960 820" role="img"><title>累积器：零头留下，下帧继续用</title><rect width="960" height="820" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">累积器：零头留下，下帧继续用</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">固定步长 h=20 ms；三帧分别经过 16、25、19 ms</text>
+<text x="60" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">第1帧</text>
+<text x="60" y="265" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">可用 16 ms</text>
+<rect x="310" y="172" width="120.0" height="85" rx="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="715" y="290" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="start">剩 16 ms</text>
+<text x="60" y="390" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">第2帧</text>
+<text x="60" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">可用 41 ms</text>
+<rect x="310" y="352" width="150" height="85" rx="9" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="385" y="406" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">20 ms</text>
+<rect x="480" y="352" width="150" height="85" rx="9" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="555" y="406" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">20 ms</text>
+<rect x="650" y="352" width="7.5" height="85" rx="9" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="715" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="start">剩 1 ms</text>
+<text x="60" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">第3帧</text>
+<text x="60" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">可用 20 ms</text>
+<rect x="310" y="532" width="150" height="85" rx="9" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="385" y="586" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">20 ms</text>
+<text x="715" y="650" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="start">剩 0 ms</text>
+<text x="42" y="782" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">累计现实时间60ms = 已模拟60ms + 余数0ms。</text></svg>

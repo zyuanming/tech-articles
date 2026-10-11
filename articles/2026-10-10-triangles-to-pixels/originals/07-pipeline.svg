@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>把“画一个三角形”拆成可检查的问题</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把“画一个三角形”拆成可检查的问题</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">各步骤职责示意；实际 GPU 可以并行与重排部分工作</text>
+<circle cx="100" cy="190" r="34" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="100" y="202" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text x="170" y="187" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#183747" text-anchor="start">顶点在哪里？</text>
+<text x="170" y="230" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">模型与相机变换</text>
+<line x1="100" y1="230" x2="100" y2="277" stroke="#57727c" stroke-width="3"/>
+<polygon points="100,277 92.60558592010909,261.6923992600045 107.39441407989091,261.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="320" r="34" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="100" y="332" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#ffffff" text-anchor="middle">2</text>
+<text x="170" y="317" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#183747" text-anchor="start">覆盖了哪些格？</text>
+<text x="170" y="360" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">光栅化与采样</text>
+<line x1="100" y1="360" x2="100" y2="407" stroke="#57727c" stroke-width="3"/>
+<polygon points="100,407 92.60558592010909,391.6923992600045 107.39441407989091,391.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="450" r="34" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="100" y="462" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#ffffff" text-anchor="middle">3</text>
+<text x="170" y="447" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#183747" text-anchor="start">这一处是什么颜色？</text>
+<text x="170" y="490" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">插值、纹理与着色</text>
+<line x1="100" y1="490" x2="100" y2="537" stroke="#57727c" stroke-width="3"/>
+<polygon points="100,537 92.60558592010909,521.6923992600045 107.39441407989091,521.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="580" r="34" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="100" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#ffffff" text-anchor="middle">4</text>
+<text x="170" y="577" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#183747" text-anchor="start">它被挡住了吗？</text>
+<text x="170" y="620" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">深度、混合与写入</text></svg>

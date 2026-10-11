@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1417" viewBox="0 0 960 850" role="img"><title>快起来，就收小蒸汽阀</title><rect width="960" height="850" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">快起来，就收小蒸汽阀</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">结构与作用方向示意；不是设备工程测绘</text>
+<line x1="245" y1="180" x2="245" y2="520" stroke="#183747" stroke-width="9"/>
+<circle cx="245" cy="190" r="9" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="245" y1="190" x2="163" y2="390" stroke="#183747" stroke-width="7"/>
+<circle cx="163" cy="390" r="34" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="163" y1="390" x2="245" y2="470" stroke="#087f8c" stroke-width="5"/>
+<line x1="245" y1="190" x2="327" y2="390" stroke="#183747" stroke-width="7"/>
+<circle cx="327" cy="390" r="34" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="327" y1="390" x2="245" y2="470" stroke="#087f8c" stroke-width="5"/>
+<rect x="225" y="448" width="40" height="50" rx="0" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="245" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">较慢：球靠近轴</text>
+<line x1="245" y1="480" x2="425" y2="480" stroke="#087f8c" stroke-width="6"/>
+<line x1="425" y1="480" x2="425" y2="722" stroke="#087f8c" stroke-width="6"/>
+<line x1="425" y1="722" x2="367" y2="722" stroke="#087f8c" stroke-width="4"/>
+<polygon points="367,722 382.3076007399955,714.6055859201091 382.3076007399955,729.3944140798909" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="145" y="690" width="220" height="65" rx="0" fill="#acd2cb" stroke="#183747" stroke-width="2"/>
+<rect x="220" y="690" width="50" height="65" rx="0" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="245" y="810" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">阀门较开</text>
+<line x1="715" y1="180" x2="715" y2="520" stroke="#183747" stroke-width="9"/>
+<circle cx="715" cy="190" r="9" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="715" y1="190" x2="565" y2="325" stroke="#183747" stroke-width="7"/>
+<circle cx="565" cy="325" r="34" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="565" y1="325" x2="715" y2="470" stroke="#087f8c" stroke-width="5"/>
+<line x1="715" y1="190" x2="865" y2="325" stroke="#183747" stroke-width="7"/>
+<circle cx="865" cy="325" r="34" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="865" y1="325" x2="715" y2="470" stroke="#087f8c" stroke-width="5"/>
+<rect x="695" y="448" width="40" height="50" rx="0" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="715" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">较快：球向外张</text>
+<line x1="715" y1="480" x2="895" y2="480" stroke="#087f8c" stroke-width="6"/>
+<line x1="895" y1="480" x2="895" y2="722" stroke="#087f8c" stroke-width="6"/>
+<line x1="895" y1="722" x2="837" y2="722" stroke="#087f8c" stroke-width="4"/>
+<polygon points="837,722 852.3076007399955,714.6055859201091 852.3076007399955,729.3944140798909" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="615" y="690" width="220" height="65" rx="0" fill="#acd2cb" stroke="#183747" stroke-width="2"/>
+<rect x="690" y="690" width="12" height="65" rx="0" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="715" y="810" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">阀门收小</text></svg>

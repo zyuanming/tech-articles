@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>0x2345 怎样变成 0x9345？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">0x2345 怎样变成 0x9345？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">每页 4096 字节，低 12 位是偏移</text>
+<rect x="120" y="195" width="300" height="115" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<rect x="420" y="195" width="430" height="115" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="270" y="265" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="middle">虚拟页 2</text>
+<text x="635" y="265" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">偏移 0x345</text>
+<rect x="120" y="485" width="300" height="115" rx="9" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<rect x="420" y="485" width="430" height="115" rx="9" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="270" y="555" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#5276bf" text-anchor="middle">物理页框 9</text>
+<text x="635" y="555" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#5276bf" text-anchor="middle">偏移 0x345</text>
+<line x1="270" y1="325" x2="270" y2="468" stroke="#e57735" stroke-width="4"/>
+<polygon points="270,468 262.6055859201091,452.6923992600045 277.3944140798909,452.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="285" y="407" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">查页表</text>
+<line x1="635" y1="325" x2="635" y2="468" stroke="#087f8c" stroke-width="4"/>
+<polygon points="635,468 627.6055859201091,452.6923992600045 642.3944140798909,452.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="650" y="407" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">原样保留</text>
+<text x="480" y="670" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">9 × 4096 + 837 = 37701</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">四位十六进制数为便于教学，不是限定实际地址位数。</text></svg>

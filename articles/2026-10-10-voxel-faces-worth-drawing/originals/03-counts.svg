@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一只实心方块，三种网格规模</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一只实心方块，三种网格规模</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只比较四边形个数；不是帧率或耗时测试</text>
+<text x="55" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#e57735" text-anchor="start">每个体素六面</text>
+<rect x="55" y="233" width="768" height="45" rx="2" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="865" y="205" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="44" font-weight="400" fill="#e57735" text-anchor="end">384</text>
+<text x="55" y="330" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="start">64 × 6</text>
+<text x="55" y="395" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#5276bf" text-anchor="start">只留外表面</text>
+<rect x="55" y="423" width="192" height="45" rx="2" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="865" y="395" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="44" font-weight="400" fill="#5276bf" text-anchor="end">96</text>
+<text x="55" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="start">6 × 4 × 4</text>
+<text x="55" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="start">每侧合成一面</text>
+<rect x="55" y="613" width="12" height="45" rx="2" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="865" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="44" font-weight="400" fill="#087f8c" text-anchor="end">6</text>
+<text x="55" y="710" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="start">6 × 1</text></svg>

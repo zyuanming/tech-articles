@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1283" viewBox="0 0 960 770" role="img"><title>连接两段：接上，还要接得顺</title><rect width="960" height="770" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">连接两段：接上，还要接得顺</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">共同端点 P；红线让两侧切线方向对齐</text>
+<path d="M 80 550 C 200 580 300 360 470 360 C 620 360 730 190 870 230" fill="none" stroke="#087f8c" stroke-width="8" stroke-linejoin="round"/>
+<line x1="300" y1="360" x2="620" y2="360" stroke="#c54c53" stroke-width="4" stroke-dasharray="10 7"/>
+<circle cx="300" cy="360" r="11" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="300" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="middle">前段倒数第二点</text>
+<circle cx="470" cy="360" r="11" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="470" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="middle">P</text>
+<circle cx="620" cy="360" r="11" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="620" y="430" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="middle">后段第二点</text>
+<text x="105" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">同方向：几何切线连续（G¹）</text>
+<text x="105" y="690" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">同次数、同参数尺度下，还要等长才有 C¹</text></svg>

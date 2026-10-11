@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "2026-10-08-asml-larger-masks",
+    "title": "芯片越做越小，ASML 和台积电为什么要把“底片”做大？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-asml-larger-masks/read.md",
+    "public_sha256": "b35d5cf18d826c4f563ec9330ed3603b608f147beb249ed2bbe403f39d9aaf89",
+    "images": 3,
+    "status": "archived_article",
+    "related_versions": [],
+    "edition_notes": "ASML原图保留编辑用途与署名限制。"
+  },
+  {
+    "id": "2026-10-08-icecube-nobel-2026",
+    "title": "今年的诺贝尔物理学奖，为什么把我们带到南极冰下？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-icecube-nobel-2026/read.md",
+    "public_sha256": "86882b7c4eae256902f11e2791e82e0b90b708077a76127a42770ff565a7f179",
+    "images": 3,
+    "status": "archived_article",
+    "related_versions": [],
+    "edition_notes": "第三方图片保留相应诺奖报道与非商业教育用途边界。"
+  },
+  {
+    "id": "2026-10-08-jpeg-what-we-lose",
+    "title": "JPEG 把照片里的什么扔掉了？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-jpeg-what-we-lose/read.md",
+    "public_sha256": "692d934ad8d45a0ba89fae8aab33c044d2e28eae5d9d4ba01d027bf5ad467221",
+    "images": 3,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-08-passkeys-trust-boundary",
+    "title": "通行密钥为什么不怕假登录页，却还得认真对待“找回账号”？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-passkeys-trust-boundary/read.md",
+    "public_sha256": "87d0be855d19fb68eea785a2592b8fa9343638297441c2abfe83197af5e99d5e",
+    "images": 3,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-08-python-315-lazy-import-trial",
+    "title": "Python 3.15 的 lazy import：启动省下的时间，后来谁来付？",
+    "date": "2026-10-08",
+    "collection": "technical-trial",
+    "path": "articles/2026-10-08-python-315-lazy-import-trial/read.md",
+    "public_sha256": "98ece6b7041f123ec20f2e9a5359c1995a749e29727804b694b3e91ab5eb87b8",
+    "images": 1,
+    "status": "archived_trial",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-08-sodium-battery-tradeoffs",
+    "title": "钠电池为什么先盯上寒冬与储能电站？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-sodium-battery-tradeoffs/read.md",
+    "public_sha256": "9d7a17267bdaa890ce79a98a287c3bbc7fd6a464aa4204a92f53c32d94c4fbe5",
+    "images": 3,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-08-undersea-cable-routes",
+    "title": "海底光缆断了，互联网为什么有时还能绕路？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-undersea-cable-routes/read.md",
+    "public_sha256": "511c466905d3b923eb72903bba25afb9c110cb29a458caa8c98e15302d85e314",
+    "images": 5,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-08-voyager-power-budget",
+    "title": "旅行者号怎样从电力预算里，再挤出一年？",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-voyager-power-budget/read.md",
+    "public_sha256": "3e18c2fc0a51dcef9c427e26824210f8e37052f3b59260df0ef5b53402b9bb7d",
+    "images": 4,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-08-web-open-choice",
+    "title": "万维网的起点：别让知识跟着同事一起离开",
+    "date": "2026-10-08",
+    "collection": "features",
+    "path": "articles/2026-10-08-web-open-choice/read.md",
+    "public_sha256": "fba6f8b5fd520bdd18a5aa56863218a691b5a817db89ffc47154168540227e44",
+    "images": 1,
+    "status": "archived_article",
+    "related_versions": [],
+    "edition_notes": "CERN照片受许可限制，公开版提供官方查看链接。"
+  },
+  {
+    "id": "2026-10-09-aerogel-catching-comet-dust",
+    "title": "一块几乎空的“玻璃”，怎么接住每秒6公里的彗星尘？",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-aerogel-catching-comet-dust/read.md",
+    "public_sha256": "4b722cd7af5e5dad7b6db9cc6aab50e5e0782f3d579f5d2bcd7f7a601c37af22",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-antikythera-gears-of-time",
+    "title": "沉船里有一台两千年前的计算机：它用齿轮，把时间推向未来",
+    "date": "2026-10-09",
+    "collection": "visual-stories",
+    "path": "articles/2026-10-09-antikythera-gears-of-time/read.md",
+    "public_sha256": "131097e68b3b1b43818daee684bdd9463629d959be36bba5017a099c8e23f20a",
+    "images": 13,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-argo-ocean-profiling-floats",
+    "title": "十天才露一次面，这些海洋机器人怎样给地球量体温？",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-argo-ocean-profiling-floats/read.md",
+    "public_sha256": "0d6878aa4169cc1d98c48cb9dbb48b7fb67f085a8f9811b6800bbe1534b8f03a",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-astar-promises-cost",
+    "title": "A* 为什么敢猜前面的路，还能保证找到最短路？",
+    "date": "2026-10-09",
+    "collection": "explainers",
+    "path": "articles/2026-10-09-astar-promises-cost/read.md",
+    "public_sha256": "30bcf727e588fd4c031933748dc1040b10efb804cf363eac6be58a130ea76990",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-10-dijkstra-astar-pathfinding"
+    ]
+  },
+  {
+    "id": "2026-10-09-bezier-from-lerp",
+    "title": "鼠标拖的那根“把手”，为什么能拽弯一条线？",
+    "date": "2026-10-09",
+    "collection": "explainers",
+    "path": "articles/2026-10-09-bezier-from-lerp/read.md",
+    "public_sha256": "c5a9b914734dfae2927da4064b964110761467deb79c8da809f351f48f1f5a6f",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-10-bezier-car-curves"
+    ]
+  },
+  {
+    "id": "2026-10-09-core-memory-woven-bits",
+    "title": "计算机的内存，曾经是一张穿满小铁环的网",
+    "date": "2026-10-09",
+    "collection": "visual-stories",
+    "path": "articles/2026-10-09-core-memory-woven-bits/read.md",
+    "public_sha256": "53f91cc13811017e76b67d1e86387196e8568291551e59641e5af4b4d87c4352",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-ct-reconstructing-shadows",
+    "title": "不把身体切开，CT 怎么算出里面的一片？",
+    "date": "2026-10-09",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-09-ct-reconstructing-shadows/read.md",
+    "public_sha256": "ca50a3cd7b79d1b847cb1f34b002c680d69ef8e9b2f0148a33f748d92b7c0fe1",
+    "images": 12,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-dart-asteroid-deflection",
+    "title": "撞偏小行星，先拨快它的钟：DART 的一撞究竟改变了什么",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-dart-asteroid-deflection/read.md",
+    "public_sha256": "5aabb3a86d22ce4508a935b3ae772dcb8755873be3a182e3aaa75c774d3b4c57",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-doom-bsp-visibility",
+    "title": "《Doom》怎样少画一堵墙：把空间切成一棵树",
+    "date": "2026-10-09",
+    "collection": "explainers",
+    "path": "articles/2026-10-09-doom-bsp-visibility/read.md",
+    "public_sha256": "31625ef5a5b67fa48d0748d5ceb4805793d57dc0ec9ff23d83fe283c6aeb8228",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-10-doom-bsp-world"
+    ]
+  },
+  {
+    "id": "2026-10-09-fft-reuse-symmetry",
+    "title": "一百万次计算，怎样变成五千次？FFT 没有删掉任何声音",
+    "date": "2026-10-09",
+    "collection": "explainers",
+    "path": "articles/2026-10-09-fft-reuse-symmetry/read.md",
+    "public_sha256": "c64835222211f4661de11c70b8a8e4accd4f40b4535000858dc8d29b177c1732",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-10-fft-divide-frequencies"
+    ]
+  },
+  {
+    "id": "2026-10-09-fixed-timestep-two-clocks",
+    "title": "画面变成 144 帧，球为什么不该跳得更高？",
+    "date": "2026-10-09",
+    "collection": "explainers",
+    "path": "articles/2026-10-09-fixed-timestep-two-clocks/read.md",
+    "public_sha256": "cf42575b43a4864fa8baaba79798f0f1ab857af809d1e23a74320d0d9a3e68fc",
+    "images": 5,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-10-fixed-timestep-game-loop"
+    ]
+  },
+  {
+    "id": "2026-10-09-foucault-turning-earth",
+    "title": "地球正在转，为什么博物馆里的一颗摆球能把它“抓现行”？",
+    "date": "2026-10-09",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-09-foucault-turning-earth/read.md",
+    "public_sha256": "81017ed0bf4ca0f96b456b424b25a9a98b4c0ce2afb0a577e39962dfe8e65ccd",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-gecko-gripper-directional-adhesion",
+    "title": "壁虎脚底的“开关”，为什么适合太空抓手？",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-gecko-gripper-directional-adhesion/read.md",
+    "public_sha256": "0da71fe7d9df27054c818f64773726e7c4a470a2b05414c7ec75839e43faa739",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-hat-aperiodic-tiles",
+    "title": "能铺满整个平面，却铺不出周期花纹：这顶“帽子”到底怪在哪里？",
+    "date": "2026-10-09",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-09-hat-aperiodic-tiles/read.md",
+    "public_sha256": "4e0262a17f31833eb0e6f1427ae08b7df32079c9c8a86a7fcc4e268eae2f5ec9",
+    "images": 11,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-heat-pump-energy-ledger",
+    "title": "一度电，怎么搬来三度热？热泵没有和物理定律讨价还价",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-heat-pump-energy-ledger/read.md",
+    "public_sha256": "4fd0f73611310863f0bbe5c094838da9c401f22867249a6ff1053d90f9907364",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-hubble-corrective-vision",
+    "title": "一面不能换的坏镜子，怎样在太空里被“修好”？",
+    "date": "2026-10-09",
+    "collection": "visual-stories",
+    "path": "articles/2026-10-09-hubble-corrective-vision/read.md",
+    "public_sha256": "74ba0cc175ce5cebae28d29e2cca713cc86af94a8910e0cf37fb12b9c290d30a",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-ingenuity-thin-air-flight",
+    "title": "火星空气这么稀薄，机智号为什么还能飞？",
+    "date": "2026-10-09",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-09-ingenuity-thin-air-flight/read.md",
+    "public_sha256": "5e8e7c6268591702111329a0d73ddf275e17c62170d588d645d5cf981cdeaf25",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-life-rules-growing-machines",
+    "title": "四条规则，怎么在方格纸上造出一台计算机？",
+    "date": "2026-10-09",
+    "collection": "visual-stories",
+    "path": "articles/2026-10-09-life-rules-growing-machines/read.md",
+    "public_sha256": "9764637c52e2ab54de1bd676bec5bc815e10054fe878f2f0c6479c0d6887192c",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-10-cellular-automata-life"
+    ]
+  },
+  {
+    "id": "2026-10-09-ligo-measuring-space",
+    "title": "两条四公里的光路，怎样量出比质子还小的伸缩？",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-ligo-measuring-space/read.md",
+    "public_sha256": "72529e8833ceebd03fa72c67f7725cb465278a26385268fe351b651c06d9d9e7",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-moxie-mars-oxygen",
+    "title": "火星上那122克氧气，真正想解决的是返航",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-moxie-mars-oxygen/read.md",
+    "public_sha256": "1ac47833d68b59c66b1fc8ec6a0a82cc73f954adc40b94a6a43f4f62be259666",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-nisar-reading-earth-motion",
+    "title": "地面只挪了一厘米，七百多公里外的卫星怎么看见？",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-nisar-reading-earth-motion/read.md",
+    "public_sha256": "122af47e2fb85cd155d54837581be8c57e0724682c5435932adf18995f7a5386",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-optical-clock-height",
+    "title": "光学原子钟究竟在数什么？当钟足够准，时间就成了一把测高尺",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-optical-clock-height/read.md",
+    "public_sha256": "530107e31f580ba7c3c610cccd87ded0c4e23a0d416796b090d5657a02182239",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-qr-repairing-information",
+    "title": "二维码被蹭掉一块，手机为什么还能读出来？",
+    "date": "2026-10-09",
+    "collection": "visual-stories",
+    "path": "articles/2026-10-09-qr-repairing-information/read.md",
+    "public_sha256": "0d567b1ebf287ff59e31f654256cd5d90e322ebbf5d8f34b6053f874c811b5fe",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-quantum-randomness-beacon",
+    "title": "抽签前，连造机器的人也不知道答案：一座量子随机数工厂",
+    "date": "2026-10-09",
+    "collection": "features",
+    "path": "articles/2026-10-09-quantum-randomness-beacon/read.md",
+    "public_sha256": "bfb3267887312942239bcfa0b41e0e8735195cd650fdc400df848f4091660d74",
+    "images": 5,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-09-rail-wheels-self-steering",
+    "title": "火车没有方向盘，两个绑在一起的轮子怎么拐弯？",
+    "date": "2026-10-09",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-09-rail-wheels-self-steering/read.md",
+    "public_sha256": "91a4be635bd031cb4e945d78ec080c1c745c253e2febef12c2a122b60e711d88",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-apollo-priority-restart",
+    "title": "登月时电脑突然报警，为什么还能继续下降",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-apollo-priority-restart/read.md",
+    "public_sha256": "72f1e72d29df5b6238c11f90e547a61c929ab23789e69379848c2721848253a8",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-bezier-car-curves",
+    "title": "汽车的曲线，怎样走进屏幕：四个点里的贝塞尔世界",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-bezier-car-curves/read.md",
+    "public_sha256": "0986e843640fce62fef8bdaedbb80964cb1f3aa6da05fcbb36423eb45d1541af",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-09-bezier-from-lerp"
+    ]
+  },
+  {
+    "id": "2026-10-10-bones-moving-skin",
+    "title": "动画角色抬起一只手，成千上万个皮肤顶点为什么会跟着走？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-bones-moving-skin/read.md",
+    "public_sha256": "32f3b6c4fc5bfb694859814b3489671c547b8aa755061c785ff9bdfa363e888f",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-btree-disk-pages",
+    "title": "为什么数据库的树长得又矮又宽？B 树把“少比较”改成了“少跑磁盘”",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-btree-disk-pages/read.md",
+    "public_sha256": "b9d14f322462d836d70961f5873bcffb2373200dc86587e26d585bbed7965461",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-butterfly-color-without-blue-paint",
+    "title": "没涂蓝色颜料，蝴蝶的翅膀为什么蓝得发亮？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-butterfly-color-without-blue-paint/read.md",
+    "public_sha256": "15153177a1941eff7751d370a6e1163ee4244e4d93e38ce78efa9df37e2539f7",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-cache-keeping-promises",
+    "title": "网页明明更新了，为什么你的浏览器还在认真显示旧版？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-cache-keeping-promises/read.md",
+    "public_sha256": "0ba9d3df71a4ab16c957105f64aebf78f297ef0e557307371b3a02f0cc534ccc",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-cellular-automata-life",
+    "title": "没有玩家的游戏，为什么能长出“会走路”的图案？",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-cellular-automata-life/read.md",
+    "public_sha256": "133c4b777c6409941a28fc89f69bb8a5530c5cdb70485dcfd2546d61a9786747",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-09-life-rules-growing-machines"
+    ]
+  },
+  {
+    "id": "2026-10-10-dijkstra-astar-pathfinding",
+    "title": "从地图到 A*：电脑怎样知道哪条路值得先找",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-dijkstra-astar-pathfinding/read.md",
+    "public_sha256": "e04eedd5e7f0647f46f6059f3bdbf269b100e71315a9b73c26497ebe926bae83",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-09-astar-promises-cost"
+    ]
+  },
+  {
+    "id": "2026-10-10-doom-bsp-world",
+    "title": "Doom 怎样组织世界：先把地图切开，再决定看哪里",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-doom-bsp-world/read.md",
+    "public_sha256": "e4f1b49eac67f9739cd830589e73aa710710a44126dca6813654d86d54f6d9e4",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-09-doom-bsp-visibility"
+    ]
+  },
+  {
+    "id": "2026-10-10-fast-bullets-thin-walls",
+    "title": "墙明明在那里，游戏里的高速子弹为什么会穿过去？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-fast-bullets-thin-walls/read.md",
+    "public_sha256": "79e16e34f17adfea556e14347509e27cfb47a470dbae154c67be094cb10d6f88",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-fft-divide-frequencies",
+    "title": "同一个答案，为什么能少算那么多？从四个数走进 FFT",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-fft-divide-frequencies/read.md",
+    "public_sha256": "76c7e9288e96da1cd583df90985e05176291254063478f581fe846f15b8ac28c",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-09-fft-reuse-symmetry"
+    ]
+  },
+  {
+    "id": "2026-10-10-fiber-guiding-light",
+    "title": "光明明走直线，为什么一根弯弯的光纤能把它送到远方？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-fiber-guiding-light/read.md",
+    "public_sha256": "0b33a5b2d56f985ac84833d4aa0615aaf78382c46789b8190409c259adcdb144",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-fixed-timestep-game-loop",
+    "title": "屏幕变快了，世界不能乱跑：游戏循环与固定时间步",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-fixed-timestep-game-loop/read.md",
+    "public_sha256": "a013208fdc985b7fefd67e65dbae9fc5a588c891846918ee59d3f4023f26c1c9",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": [
+      "2026-10-09-fixed-timestep-two-clocks"
+    ]
+  },
+  {
+    "id": "2026-10-10-floating-point-moving-ruler",
+    "title": "0.1＋0.2为什么不正好等于0.3？这件事还会让游戏角色抖动",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-floating-point-moving-ruler/read.md",
+    "public_sha256": "b6b6bd05491785fe09acede16113ae3a8480484ae01f3e3442f1a2f5e252c5c0",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-garbage-collection-reachability",
+    "title": "谁还找得到这个对象？从 LISP 到垃圾回收的可达性",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-garbage-collection-reachability/read.md",
+    "public_sha256": "c261b7c009054a8a81a8ad3b486ec7e761953da69beff1fbd9139840258287f1",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-governor-pid-feedback",
+    "title": "机器怎样自己稳住：从旋转的铁球到 PID 控制",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-governor-pid-feedback/read.md",
+    "public_sha256": "5b51f461b77a27bd8f35304d8c926d5272151db02c18c4b005e70710cd8d10cc",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-gps-solving-time",
+    "title": "手机怎样从几声“报时”，算出你站在地球哪里？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-gps-solving-time/read.md",
+    "public_sha256": "6d35f22b686c6eb808a280ef36bdef4e270801dd7b1cfdd9e040d49f8dda8e27",
+    "images": 12,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-hamming-correct-errors",
+    "title": "错了一位，机器为什么能自己找回来？跟 Hamming 做七张纸牌实验",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-hamming-correct-errors/read.md",
+    "public_sha256": "19f68529cebb8ba99967f829dd4691aa439fc3e201b77b405666436db0d32240",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-hash-table-finding-keys",
+    "title": "字典里有一百万个键，电脑为什么不用挨个看，就能找到那一个？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-hash-table-finding-keys/read.md",
+    "public_sha256": "f7026e1cde743a308c724719da03bf3f154986151dc7e3816183001c3d7500a8",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-hopper-compilers",
+    "title": "把指令写给谁看：从霍珀的子程序库到编译器",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-hopper-compilers/read.md",
+    "public_sha256": "97cbb76fc60abf29e575739eda52cdc9975acf96f8b345efca8a24b6c9fc4cd6",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-lamport-causal-clocks",
+    "title": "消息明明先发，为什么排在后面？Lamport 给分布式世界造了一种钟",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-lamport-causal-clocks/read.md",
+    "public_sha256": "ac3fb8a0a89e07dc3858f8d3fe43f796f7e06fe7eb2ca0f1a3587fab87935186",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-merkle-git-history",
+    "title": "一个短编号，为什么能牵动整部代码历史？从 Merkle 树走进 Git",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-merkle-git-history/read.md",
+    "public_sha256": "30879f8f4cd9c792955472a55e5c7afad0e147f835b6b7cab30ebaf6682f6504",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-multiplayer-shared-time",
+    "title": "联机游戏里，你明明已经跑过门口，为什么突然被拉了回来？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-multiplayer-shared-time/read.md",
+    "public_sha256": "59d682480b8721d2c9c19bfbcde4d2d955ad076c6aeeacf6b4af86d447da3673",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-noise-canceling-waves",
+    "title": "降噪耳机明明在发声，为什么你反而听得更安静？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-noise-canceling-waves/read.md",
+    "public_sha256": "2f9d998cc97f54dec614615820cb5d9945e33d54d9edb90853f0660e9d042f0c",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-noise-growing-mountains",
+    "title": "一串随机数，怎样长成游戏里连绵的山？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-noise-growing-mountains/read.md",
+    "public_sha256": "bf4694f484488e557140b3fcb56becc89bef121f9094b4c0dcc9b346e56a8e5f",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-path-tracing-random-light",
+    "title": "用随机小路追问光：路径追踪怎样把噪点变成画面",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-path-tracing-random-light/read.md",
+    "public_sha256": "a4dc63ca5cb8330258db31deab40376ce6a230ee4a09b03eaee873ac2b666b11",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-pencil-leaving-carbon-layers",
+    "title": "铅笔写下一个字时，到底把什么留在了纸上？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-pencil-leaving-carbon-layers/read.md",
+    "public_sha256": "512108d1667fc0d6d5a05c2a605601c1d9ae7840a2f28a571b76841605b51ff0",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-pinecone-without-muscles",
+    "title": "掉在地上的松果，为什么还会“看天气”？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-pinecone-without-muscles/read.md",
+    "public_sha256": "a942dee1b00577fd324908f861d5d4266ac28551dfcb20ace74b858940b03c90",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-quaternion-rotation",
+    "title": "旋转为什么要用四个数：从一座桥到虚拟相机",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-quaternion-rotation/read.md",
+    "public_sha256": "11fd88b5ee1457a9a32f54fec1a51a4abdb2f287d3b88a38eeab7e2a925c6cc3",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-raft-shared-log",
+    "title": "五台机器怎样守住同一本账？Raft 的难题藏在“多数同意”之后",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-raft-shared-log/read.md",
+    "public_sha256": "25718072fb2bbbc4858553c273b3c36ca94ed2210403d7ed5003dce11ad24ed5",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-recursion-backtracking-maze",
+    "title": "迷宫里的回头路：递归和回溯为什么不是同一件事",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-recursion-backtracking-maze/read.md",
+    "public_sha256": "219093860ff5455458f594bed722559a174884a81eda51a25d359c2e0017d490",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-shannon-information-compression",
+    "title": "一条消息究竟有多重？从香农的信息熵，走到一棵压缩树",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-shannon-information-compression/read.md",
+    "public_sha256": "41ad7ca257bfd98a94f3a37f3e7347431e315fbaca8444ebdcc7e5ca187a8287",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-soap-film-shortest-networks",
+    "title": "肥皂水不会做几何题，怎么能画出一张更省材料的路网？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-soap-film-shortest-networks/read.md",
+    "public_sha256": "32de72b455091451aceab5aae5fe25565244e515f231021a0ef84035b1ea4c9b",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-solar-sail-photon-push",
+    "title": "阳光明明没有“重量”，怎么能推着一艘飞船走？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-solar-sail-photon-push/read.md",
+    "public_sha256": "91770c2f82247f37ac44557738d57063242311aa16b91da7956a3d6d8fad185d",
+    "images": 11,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-sonar-measuring-echoes",
+    "title": "不把海水抽干，我们怎样“看见”海底的山、沟和沉船？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-sonar-measuring-echoes/read.md",
+    "public_sha256": "363aad4234af6285ce6df145f167e839d45dd005c6b0119ed5f3985d7823b81b",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-triangles-to-pixels",
+    "title": "游戏里的一只箱子，怎样变成屏幕上的几千个像素？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-triangles-to-pixels/read.md",
+    "public_sha256": "a17b7a143d5c6e33e7817533b8c7d6125f9874b4cd58f007b9adb64c50c4cfd3",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-turing-machine-limits",
+    "title": "一条纸带，能算多远？图灵机与一个无法万能回答的问题",
+    "date": "2026-10-10",
+    "collection": "technology-history-explorations",
+    "path": "articles/2026-10-10-turing-machine-limits/read.md",
+    "public_sha256": "4a727895eb198826c95c85fa0ab8237c740b550e3692ff1ba1a54f1179277aa5",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-undo-redo-time-machine",
+    "title": "按一下Ctrl＋Z，程序怎样把“过去”找回来？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-undo-redo-time-machine/read.md",
+    "public_sha256": "64cef05d1cecaa77cb143bbc6fb2a5abff003b08298cfd4a5fc806aec51b4b72",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-voxel-faces-worth-drawing",
+    "title": "一座方块山有几百万块石头，为什么不必把每一块都画出来？",
+    "date": "2026-10-10",
+    "collection": "computing-explorations",
+    "path": "articles/2026-10-10-voxel-faces-worth-drawing/read.md",
+    "public_sha256": "ad54f31cfb4cfa5e492c64be8cb1810086221925020195bf84339f216077ac6c",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-10-webb-five-layer-sunshield",
+    "title": "五层比头发还薄的“毯子”，怎样让韦布望远镜冷下来？",
+    "date": "2026-10-10",
+    "collection": "student-explorations",
+    "path": "articles/2026-10-10-webb-five-layer-sunshield/read.md",
+    "public_sha256": "c9f592e2e99079302e7d5556e45fe0c3ae93a81780b68da1edab02681994005a",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-bloom-filter-maybe",
+    "title": "它不记住名单，却能说“你肯定不在”：Bloom过滤器的巧妙偏心",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-bloom-filter-maybe/read.md",
+    "public_sha256": "afaabeffb616a839367f6518678f137eb9fa68c8ace6dffad822f920ed9b7f0a",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-cloth-constraint-projection",
+    "title": "不让它变长，为什么一张网就会垂成布？",
+    "date": "2026-10-11",
+    "collection": "exploration-trio",
+    "path": "articles/2026-10-11-cloth-constraint-projection/read.md",
+    "public_sha256": "efda7afa4f7cb9714af1faabd4715fcc2d16070f4bae73a4bd787617399af183",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-consistent-hashing-ring",
+    "title": "多加一台服务器，为什么数据要搬家？一致性哈希把“大洗牌”缩成一段圆弧",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-consistent-hashing-ring/read.md",
+    "public_sha256": "45d2b461428a9fcb944ad1e8780342ca869f448dc3af19241f406f19c6fd8205",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-crdt-merge-without-loss",
+    "title": "两部手机都离线时，谁的修改算数？CRDT 把争论藏进数据结构",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-crdt-merge-without-loss/read.md",
+    "public_sha256": "730f1d203e4b35931f6e37e308c7524a54d9b78bac3f1651cb0d3acc35fab09d",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-dithering-spread-error",
+    "title": "只有黑白两色，为什么还能看见灰？把误差分给邻居的抖动术",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-dithering-spread-error/read.md",
+    "public_sha256": "ca8727387ef6f36958559e5fd8154f616e509749da7fadc6dc0c63bf4ad9b192",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-dynamic-programming-knapsack",
+    "title": "背包只剩七格：动态规划怎样把“所有可能”折成一张表",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-dynamic-programming-knapsack/read.md",
+    "public_sha256": "fc52e49e6ff199ef3ed654083e65562e36291ed17b22fe4a55413c57950d0e41",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-inverse-kinematics-reaching",
+    "title": "手知道要去哪，关节却不知道怎么转：从两根杆理解逆运动学",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-inverse-kinematics-reaching/read.md",
+    "public_sha256": "c277b909d3cddda34c83e3873c166503f649b3353883adcbf435f39c604f12d3",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-kalman-trusting-noise",
+    "title": "两把不准的尺子，怎样量得更准？亲手算一次卡尔曼滤波",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-kalman-trusting-noise/read.md",
+    "public_sha256": "4e732afed67f3029daee989e915ce0d58352aa1eece3f9a8e3071f595d7fb324",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-karplus-strong-plucked-string",
+    "title": "把一小段噪声放进回路，为什么会听起来像拨弦？",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-karplus-strong-plucked-string/read.md",
+    "public_sha256": "0d5403f4dea95924a120203a957d3b914ee7d71396b1c72a17e0a302ce0dbf00",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-lsm-sorted-notebooks",
+    "title": "数据库为什么先记小本本，过一会儿才整理？走进 LSM 树",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-lsm-sorted-notebooks/read.md",
+    "public_sha256": "eb06831b01874f91e4af7fcc8d97717d6e5e6565c358d66c8162a515e4876eb3",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-mandelbrot-infinite-boundary",
+    "title": "一行公式，为什么能长出看不完的边界？走进 Mandelbrot 集合",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-mandelbrot-infinite-boundary/read.md",
+    "public_sha256": "745ee40117e3bf64c67be5d9b5ec61173004b6bb8202aab0c4cf9b348d5b8880",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-mvcc-snapshots",
+    "title": "两个人同时改数据库，为什么还能各自读到完整快照？",
+    "date": "2026-10-11",
+    "collection": "exploration-trio",
+    "path": "articles/2026-10-11-mvcc-snapshots/read.md",
+    "public_sha256": "8cd0341bd323a506770ec2faca8e33344af96d25103ab86e643006951ce9f7a8",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-pagerank-random-surfer",
+    "title": "网页的“重要性”怎样绕一圈算回来？跟随机冲浪者理解 PageRank",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-pagerank-random-surfer/read.md",
+    "public_sha256": "8df972fbf975ecc471a22a8de425ba302a45d4720d19cdd240bced4ca3a8f22b",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-regex-finite-machines",
+    "title": "一行正则，为什么能让程序卡住？把符号拆成一台小机器",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-regex-finite-machines/read.md",
+    "public_sha256": "9cf9f00de8577282a203d7e25a4730a00e29d97bc45cea3a61109ebaefa67c09",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-rsa-modular-keys",
+    "title": "公开一把钥匙，为什么仍能保密？用55这个小整数走进RSA",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-rsa-modular-keys/read.md",
+    "public_sha256": "ef1954c4c165536e32eac2c85f26b597e3586767bc43e350314b39e6999683d0",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-shadow-map-light-camera",
+    "title": "给光源装一台“相机”：阴影贴图怎样知道哪里照不到光",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-shadow-map-light-camera/read.md",
+    "public_sha256": "80d0799c68838985ac07b438ecde4f331466945802fbd70e86bb22016d4c5a56",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-sketchpad-constraints",
+    "title": "1963年，一支光笔怎样让线条“记住关系”？走进 Sketchpad",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-sketchpad-constraints/read.md",
+    "public_sha256": "28dce69992ac74045de2a2ada3cb9723b36cb8d3fe7b9eb5fb9ba4f322a8ffde",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-tcp-congestion-feedback",
+    "title": "网线没有“还剩多少车道”的路牌，TCP 怎样决定发多快？",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-tcp-congestion-feedback/read.md",
+    "public_sha256": "4c31e8de5ad0be34b2c4ad0a707c0dd1415b981d67f11d88c2218ac09983e519",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-union-find-connected-world",
+    "title": "两个岛已经连通了吗？并查集为什么只记“你归谁管”",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-union-find-connected-world/read.md",
+    "public_sha256": "f2b3ee8dfcccfb4bd8972a038cfcb8a442b1385fcd3f813bd9d3b3530f5850bd",
+    "images": 8,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-unix-pipes-small-tools",
+    "title": "一根竖线，为什么能拼出新程序？Unix 管道的组合魔法",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-unix-pipes-small-tools/read.md",
+    "public_sha256": "77efbec102c1cba7783ac39aa08a886bf322048b79ca0abe6da336fa3b56e4c5",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-virtual-memory-addresses",
+    "title": "两个程序用了同一个地址，为什么没有打起来？虚拟内存的翻译术",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-virtual-memory-addresses/read.md",
+    "public_sha256": "f9e69b7ae28ac86114658e870ac845bb208975eaf2ab5712197e161db0698640",
+    "images": 7,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-voronoi-nearest-neighbor",
+    "title": "四座补给站，为什么会把地图切成多边形？",
+    "date": "2026-10-11",
+    "collection": "exploration-trio",
+    "path": "articles/2026-10-11-voronoi-nearest-neighbor/read.md",
+    "public_sha256": "247825c172eddbc8a326e0453349b612f47df69539fea96c33697c8541dc0159",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-11-wfc-constraint-worlds",
+    "title": "世界不是一格格乱填出来的：WFC怎样用“排除不可能”拼地图",
+    "date": "2026-10-11",
+    "collection": "student-depth",
+    "path": "articles/2026-10-11-wfc-constraint-worlds/read.md",
+    "public_sha256": "9ecd59cfb6eb389947b2ea1fa137d6d994372b01814e2925c40551496225f487",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": []
+  }
+]

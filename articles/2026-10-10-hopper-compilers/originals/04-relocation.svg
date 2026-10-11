@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>把一个子程序搬家，地址也要改</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把一个子程序搬家，地址也要改</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">简化模型；不是 UNIVAC 实际机器码</text>
+<text x="250" y="181" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">相对地址</text>
+<rect x="80" y="225" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="108" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">0</text>
+<text x="210" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">入口</text>
+<rect x="80" y="303" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="108" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">1</text>
+<text x="210" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">读取参数</text>
+<rect x="80" y="381" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="108" y="424" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">2</text>
+<text x="210" y="424" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">加法</text>
+<rect x="80" y="459" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="108" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">3</text>
+<text x="210" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">返回</text>
+<text x="705" y="181" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">放到地址 200 之后</text>
+<rect x="535" y="225" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="563" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">200</text>
+<text x="665" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">入口</text>
+<rect x="535" y="303" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="563" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">201</text>
+<text x="665" y="346" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">读取参数</text>
+<rect x="535" y="381" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="563" y="424" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">202</text>
+<text x="665" y="424" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">加法</text>
+<rect x="535" y="459" width="350" height="66" rx="8" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="563" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">203</text>
+<text x="665" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">返回</text>
+<line x1="435" y1="360" x2="525" y2="360" stroke="#e57735" stroke-width="4"/>
+<polygon points="525,360 509.6923992600045,367.3944140798909 509.6923992600045,352.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="480" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="middle">重定位</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">常量 7 仍是 7；只有被标识为地址的位置应随搬迁修改。</text></svg>

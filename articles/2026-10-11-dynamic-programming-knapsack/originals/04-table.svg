@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 960 690" role="img"><title>让答案一行一行长出来</title><rect width="960" height="690" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">让答案一行一行长出来</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">F(i,c)：只用前 i 件，容量最多为 c 的最大价值</text>
+<text x="234" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="320" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<text x="406" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<text x="492" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<text x="578" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<text x="664" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<text x="750" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">6</text>
+<text x="836" y="183" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">7</text>
+<text x="45" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">无装备</text>
+<rect x="195" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="235" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="281" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="321" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="367" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="407" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="453" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="493" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="539" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="579" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="625" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="665" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="711" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="751" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="797" y="215" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="837" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<text x="45" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">A</text>
+<rect x="195" y="280" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="235" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="281" y="280" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="321" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="367" y="280" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="407" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="453" y="280" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="493" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="539" y="280" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="579" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="625" y="280" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="665" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="711" y="280" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="751" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="797" y="280" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="837" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<text x="45" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">A B</text>
+<rect x="195" y="345" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="235" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="281" y="345" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="321" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="367" y="345" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="407" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="453" y="345" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="493" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">10</text>
+<rect x="539" y="345" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="579" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">10</text>
+<rect x="625" y="345" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="665" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">16</text>
+<rect x="711" y="345" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="751" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">16</text>
+<rect x="797" y="345" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="837" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">16</text>
+<text x="45" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">A B C</text>
+<rect x="195" y="410" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="235" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="281" y="410" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="321" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="367" y="410" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="407" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="453" y="410" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="493" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">10</text>
+<rect x="539" y="410" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="579" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">12</text>
+<rect x="625" y="410" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="665" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">16</text>
+<rect x="711" y="410" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="751" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">18</text>
+<rect x="797" y="410" width="83" height="62" rx="4" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="837" y="453" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#ffffff" text-anchor="middle">22</text>
+<text x="45" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">A B C D</text>
+<rect x="195" y="475" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="235" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="281" y="475" width="83" height="62" rx="4" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="321" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<rect x="367" y="475" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="407" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">6</text>
+<rect x="453" y="475" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="493" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">10</text>
+<rect x="539" y="475" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="579" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">12</text>
+<rect x="625" y="475" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="665" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">16</text>
+<rect x="711" y="475" width="83" height="62" rx="4" fill="#e7efe9" stroke="#d2dbd8" stroke-width="2"/>
+<text x="751" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">18</text>
+<rect x="797" y="475" width="83" height="62" rx="4" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="837" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#ffffff" text-anchor="middle">22</text>
+<text x="195" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">容量 →</text>
+<text x="525" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">最后一格：22</text></svg>

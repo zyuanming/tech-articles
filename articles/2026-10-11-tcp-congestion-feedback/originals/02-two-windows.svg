@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一发送端，面对两种不同限制</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一发送端，面对两种不同限制</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">接收缓存与途中网络，不能混成一个概念</text>
+<rect x="50" y="220" width="360" height="150" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="230.0" y="269" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">cwnd = 12 KB</text>
+<text x="230.0" y="314" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">拥塞控制限制</text>
+<rect x="550" y="220" width="360" height="150" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="730.0" y="269" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">rwnd = 8 KB</text>
+<text x="730.0" y="314" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">接收端通告</text>
+<line x1="230" y1="390" x2="400" y2="485" stroke="#183747" stroke-width="4"/>
+<polygon points="400,485 383.0301765912722,483.9875309996873 390.2444828224505,471.07771984915775" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="730" y1="390" x2="560" y2="485" stroke="#183747" stroke-width="4"/>
+<polygon points="560,485 569.7555171775495,471.07771984915775 576.9698234087278,483.9875309996873" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="225" y="510" width="510" height="120" rx="16" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="480.0" y="559" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">在途上限约 min(12,8) = 8 KB</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">若已有 6 KB 在途，余量约 2 KB；省略其他协议约束。</text></svg>

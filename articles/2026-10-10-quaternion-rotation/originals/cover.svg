@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>旋转，为什么要用四个数？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">旋转，为什么要用四个数？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">从一座桥上的公式，到会转弯的虚拟相机</text>
+<ellipse cx="480" cy="460" rx="295" ry="110" fill="none" stroke="#087f8c" stroke-width="7" transform="rotate(-25 480 460)"/>
+<ellipse cx="480" cy="460" rx="295" ry="110" fill="none" stroke="#e57735" stroke-width="7" transform="rotate(50 480 460)"/>
+<polygon points="390,390 490,330 600,390 600,515 495,580 390,515" fill="#d3e5e0" stroke="#183747" stroke-width="4"/>
+<line x1="390" y1="390" x2="495" y2="455" stroke="#183747" stroke-width="4"/>
+<line x1="600" y1="390" x2="495" y2="455" stroke="#183747" stroke-width="4"/>
+<line x1="495" y1="455" x2="495" y2="580" stroke="#183747" stroke-width="4"/>
+<line x1="495" y1="455" x2="800" y2="455" stroke="#c54c53" stroke-width="5"/>
+<polygon points="800,455 784.6923992600045,462.3944140798909 784.6923992600045,447.6055859201091" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<line x1="495" y1="455" x2="495" y2="180" stroke="#087f8c" stroke-width="5"/>
+<polygon points="495,180 502.3944140798909,195.3076007399955 487.6055859201091,195.3076007399955" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="495" y1="455" x2="285" y2="650" stroke="#5276bf" stroke-width="5"/>
+<polygon points="285,650 291.18577300484395,634.1653477356608 301.2488473845213,645.0025047599287" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="795" y="420" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#c54c53" text-anchor="start">x</text>
+<text x="510" y="190" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">z</text>
+<text x="255" y="670" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="start">y</text></svg>

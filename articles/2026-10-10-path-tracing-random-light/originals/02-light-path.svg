@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1250" viewBox="0 0 960 750" role="img"><title>从眼睛倒着找：相机 → 表面 → 光源</title><rect width="960" height="750" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">从眼睛倒着找：相机 → 表面 → 光源</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">方向是计算的追问顺序，不是光在现实中的传播方向</text>
+<rect x="70" y="490" width="130" height="110" rx="15" fill="#183747" stroke="#183747" stroke-width="2"/>
+<circle cx="155" cy="535" r="27" fill="#ffffff" stroke="#ffffff" stroke-width="3"/>
+<line x1="310" y1="620" x2="875" y2="620" stroke="#183747" stroke-width="7"/>
+<rect x="380" y="205" width="180" height="40" rx="0" fill="#fff0a3" stroke="#e57735" stroke-width="2"/>
+<circle cx="675" cy="475" r="85" fill="#cde2db" stroke="#087f8c" stroke-width="4"/>
+<line x1="180" y1="535" x2="605" y2="440" stroke="#087f8c" stroke-width="6"/>
+<polygon points="605,440 591.6741267531453,450.5556194611572 588.4480035821317,436.12296316978086" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="605" y1="440" x2="470" y2="240" stroke="#e57735" stroke-width="6"/>
+<polygon points="470,240 484.69303739490556,248.55071062028807 472.43533678353776,256.82465853296134" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="85" y="680" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">相机</text>
+<text x="570" y="385" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">表面采样点</text>
+<text x="405" y="180" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">面光源</text>
+<line x1="550" y1="270" x2="625" y2="400" stroke="#c54c53" stroke-width="3"/>
+<polygon points="625,400 610.9455133078942,390.43593162814994 623.7553830944469,383.04562213590805" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="640" y="280" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="start">真实来光</text></svg>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="504pt" viewBox="0 0 720 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T18:55:47.533255</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 720 504 
+L 720 0 
+L 0 0 
+z
+" style="fill: #f7f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 313.962353 454.701176 
+C 350.590333 454.701176 385.723057 440.148726 411.62295 414.248833 
+C 437.522843 388.348939 452.075294 353.216215 452.075294 316.588235 
+C 452.075294 279.960255 437.522843 244.827531 411.62295 218.927638 
+C 385.723057 193.027745 350.590333 178.475294 313.962353 178.475294 
+C 277.334373 178.475294 242.201649 193.027745 216.301756 218.927638 
+C 190.401863 244.827531 175.849412 279.960255 175.849412 316.588235 
+C 175.849412 353.216215 190.401863 388.348939 216.301756 414.248833 
+C 242.201649 440.148726 277.334373 454.701176 313.962353 454.701176 
+L 313.962353 454.701176 
+z
+" clip-path="url(#p6009aaae45)" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #087f8c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 452.075294 316.588235 
+C 476.493948 316.588235 499.915764 306.886601 517.182359 289.620006 
+C 534.448954 272.353411 544.150588 248.931595 544.150588 224.512941 
+C 544.150588 200.094288 534.448954 176.672472 517.182359 159.405876 
+C 499.915764 142.139281 476.493948 132.437647 452.075294 132.437647 
+C 427.656641 132.437647 404.234825 142.139281 386.968229 159.405876 
+C 369.701634 176.672472 360 200.094288 360 224.512941 
+C 360 248.931595 369.701634 272.353411 386.968229 289.620006 
+C 404.234825 306.886601 427.656641 316.588235 452.075294 316.588235 
+L 452.075294 316.588235 
+z
+" clip-path="url(#p6009aaae45)" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #e57735; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 313.962353 316.588235 
+L 452.075294 316.588235 
+L 452.075294 224.512941 
+" clip-path="url(#p6009aaae45)" style="fill: none; stroke: #087f8c; stroke-width: 7; stroke-linecap: square"/>
+    <defs>
+     <path id="m22cbee81c2" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #087f8c"/>
+    </defs>
+    <g clip-path="url(#p6009aaae45)">
+     <use xlink:href="#m22cbee81c2" x="313.962353" y="316.588235" style="fill: #087f8c; stroke: #087f8c"/>
+     <use xlink:href="#m22cbee81c2" x="452.075294" y="316.588235" style="fill: #087f8c; stroke: #087f8c"/>
+     <use xlink:href="#m22cbee81c2" x="452.075294" y="224.512941" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <path d="M 313.962353 316.588235 
+L 367.082715 189.099367 
+L 452.075294 224.512941 
+" clip-path="url(#p6009aaae45)" style="fill: none; stroke: #e57735; stroke-width: 7; stroke-linecap: square"/>
+    <defs>
+     <path id="me5ba74363c" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #e57735"/>
+    </defs>
+    <g clip-path="url(#p6009aaae45)">
+     <use xlink:href="#me5ba74363c" x="313.962353" y="316.588235" style="fill: #e57735; stroke: #e57735"/>
+     <use xlink:href="#me5ba74363c" x="367.082715" y="189.099367" style="fill: #e57735; stroke: #e57735"/>
+     <use xlink:href="#me5ba74363c" x="452.075294" y="224.512941" style="fill: #e57735; stroke: #e57735"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 15px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #183747" x="300.151059" y="341.908941" transform="rotate(-0 300.151059 341.908941)">肩 S</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 15px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #183747" x="456.679059" y="213.003529" transform="rotate(-0 456.679059 213.003529)">手 T=(3,2)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 22px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #183747" x="175.849412" y="146.248941" transform="rotate(-0 175.849412 146.248941)">肘必须同时落在两个圆上</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 20px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: start; fill: #183747" x="175.849412" y="454.701176" transform="rotate(-0 175.849412 454.701176)">圆 S：半径 3       圆 T：半径 2</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'Noto Sans CJK JP', 'DejaVu Sans'; text-anchor: middle; fill: #183747" x="360" y="24.19125" transform="rotate(-0 360 24.19125)">两杆逆运动学：找两个圆的交点</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6009aaae45">
+   <rect x="152.830588" y="86.4" width="414.338824" height="391.32"/>
+  </clipPath>
+ </defs>
+</svg>

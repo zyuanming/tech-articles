@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>收到确认，窗口才腾出位置</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">收到确认，窗口才腾出位置</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">时间向下；间隔仅作示意</text>
+<line x1="170" y1="185" x2="170" y2="655" stroke="#087f8c" stroke-width="4"/>
+<line x1="780" y1="185" x2="780" y2="655" stroke="#5276bf" stroke-width="4"/>
+<text x="170" y="162" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="middle">发送端</text>
+<text x="780" y="162" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#5276bf" text-anchor="middle">接收端</text>
+<line x1="180" y1="230" x2="770" y2="305" stroke="#087f8c" stroke-width="4"/>
+<polygon points="770,305 753.8821349897795,310.4050372350529 755.7470633286505,295.734267635934" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="770" y1="340" x2="180" y2="400" stroke="#e57735" stroke-width="4"/>
+<polygon points="180,400 194.48093913925354,391.09481040936043 195.97717076056333,405.80775468557346" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="180" y1="420" x2="770" y2="495" stroke="#087f8c" stroke-width="4"/>
+<polygon points="770,495 753.8821349897795,500.4050372350529 755.7470633286505,485.734267635934" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="770" y1="530" x2="180" y2="590" stroke="#e57735" stroke-width="4"/>
+<polygon points="180,590 194.48093913925354,581.0948104093604 195.97717076056333,595.8077546855734" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="460" y="237" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">数据</text>
+<text x="460" y="343" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">新 ACK</text>
+<text x="460" y="427" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">继续发送</text>
+<text x="460" y="533" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">新 ACK</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">确认可能累计、延迟或成簇；不是每个包必有单独 ACK。</text></svg>

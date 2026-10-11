@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>平均两次旋转，圆可能缩小</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">平均两次旋转，圆可能缩小</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">横截面上的同一点：分别旋转 +60° 与 −60°</text>
+<circle cx="310" cy="420" r="185" fill="none" stroke="#d2dbd8" stroke-width="3"/>
+<circle cx="310" cy="420" r="92.5" fill="none" stroke="#c54c53" stroke-width="4"/>
+<line x1="310" y1="420" x2="402.5" y2="259.7853002998788" stroke="#087f8c" stroke-width="4"/>
+<polygon points="402.5,259.7853002998788 401.2499500692891,276.73927845164985 388.44244919071537,269.34486437175894" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="402.5" cy="259.7853002998788" r="10" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="424.5" y="269.7853002998788" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">+60°</text>
+<line x1="310" y1="420" x2="402.5" y2="580.2146997001212" stroke="#5276bf" stroke-width="4"/>
+<polygon points="402.5,580.2146997001212 388.44244919071537,570.655135628241 401.2499500692891,563.2607215483501" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="402.5" cy="580.2146997001212" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="424.5" y="590.2146997001212" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="start">−60°</text>
+<line x1="402.5" y1="259.78999999999996" x2="402.5" y2="580.21" stroke="#d2dbd8" stroke-width="4"/>
+<circle cx="402.5" cy="420" r="13" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="575" y="330" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">两份权重各为 1/2</text>
+<text x="575" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">平均点离圆心：</text>
+<text x="575" y="467" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#c54c53" text-anchor="start">原半径 × 0.5</text>
+<text x="70" y="680" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">一整圈顶点都这样平均，截面就会变瘦。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是线性混合的几何结果，不是模拟到了肌肉收缩。</text></svg>

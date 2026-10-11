@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1367" viewBox="0 0 960 820" role="img"><title>标记不是猜测，而是有终点的遍历</title><rect width="960" height="820" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">标记不是猜测，而是有终点的遍历</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">待处理表不断加入新发现的对象；已标记的不重复加入</text>
+<text x="75" y="231" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">第 0 步</text>
+<rect x="220" y="180" width="210" height="88" rx="13" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="325" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">A</text>
+<text x="490" y="233" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">已处理：无</text>
+<line x1="326" y1="270" x2="326" y2="315" stroke="#e57735" stroke-width="4"/>
+<polygon points="326,315 318.6055859201091,299.6923992600045 333.3944140798909,299.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="75" y="373" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">第 1 步</text>
+<rect x="220" y="322" width="210" height="88" rx="13" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="325" y="377" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">B</text>
+<text x="490" y="375" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">已处理：A</text>
+<line x1="326" y1="412" x2="326" y2="457" stroke="#e57735" stroke-width="4"/>
+<polygon points="326,457 318.6055859201091,441.6923992600045 333.3944140798909,441.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="75" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">第 2 步</text>
+<rect x="220" y="464" width="210" height="88" rx="13" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="325" y="519" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">C</text>
+<text x="490" y="517" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">已处理：A、B</text>
+<line x1="326" y1="554" x2="326" y2="599" stroke="#e57735" stroke-width="4"/>
+<polygon points="326,599 318.6055859201091,583.6923992600045 333.3944140798909,583.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="75" y="657" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">第 3 步</text>
+<rect x="220" y="606" width="210" height="88" rx="13" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="325" y="661" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">空</text>
+<text x="490" y="659" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">已处理：A、B、C</text>
+<text x="325" y="155" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">待处理</text>
+<text x="42" y="782" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">本图按先进先出展示；使用栈也能得到相同的可达集合。</text></svg>

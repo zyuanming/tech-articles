@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>第一秒：不是在两个位置之间随意折中</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">第一秒：不是在两个位置之间随意折中</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学设定：上次 x̂ = 0，P = 4；Q = 1，R = 9</text>
+<rect x="50" y="175" width="410" height="185" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="218" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">预测</text>
+<text x="72" y="261" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">位置：1.000 m</text>
+<text x="72" y="301" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">误差方差：5.000 m²</text>
+<rect x="500" y="175" width="410" height="185" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="522" y="218" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">测量</text>
+<text x="522" y="261" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">位置：2.200 m</text>
+<text x="522" y="301" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">误差方差：9.000 m²</text>
+<line x1="257" y1="370" x2="385" y2="444" stroke="#183747" stroke-width="4"/>
+<polygon points="385,444 368.0467508037261,442.740102508519 375.4486029134688,429.93689885923436" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="705" y1="370" x2="580" y2="444" stroke="#183747" stroke-width="4"/>
+<polygon points="580,444 589.40552261022,429.8389214948635 596.9393204737287,442.5649313994388" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="125" y="450" width="710" height="180" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="147" y="493" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">更新后</text>
+<text x="147" y="536" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">K = 5/14 ≈ 0.357；向测量挪 0.429 m</text>
+<text x="147" y="576" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">位置 ≈ 1.429 m；方差 ≈ 3.214 m²</text>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">位置的单位是 m，方差的单位是 m²；不能互相混加。</text></svg>

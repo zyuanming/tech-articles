@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一张图，A* 改变排队顺序</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一张图，A* 改变排队顺序</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">各节点旁写 g + h = f；h 为自设的一致下界</text>
+<line x1="130" y1="375" x2="365" y2="220" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="130" y1="375" x2="355" y2="540" stroke="#087f8c" stroke-width="8"/>
+<line x1="355" y1="540" x2="365" y2="220" stroke="#087f8c" stroke-width="8"/>
+<line x1="365" y1="220" x2="600" y2="340" stroke="#087f8c" stroke-width="8"/>
+<line x1="355" y1="540" x2="600" y2="340" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="600" y1="340" x2="835" y2="220" stroke="#087f8c" stroke-width="8"/>
+<line x1="365" y1="220" x2="835" y2="220" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="355" y1="540" x2="670" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="670" y1="570" x2="835" y2="220" stroke="#d2dbd8" stroke-width="4"/>
+<circle cx="130" cy="375" r="32" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="130" y="386" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="middle">S</text>
+<circle cx="365" cy="220" r="32" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="365" y="231" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="middle">A</text>
+<circle cx="355" cy="540" r="32" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="355" y="551" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="middle">B</text>
+<circle cx="600" cy="340" r="32" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="600" y="351" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="middle">C</text>
+<circle cx="670" cy="570" r="32" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="670" y="581" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="middle">D</text>
+<circle cx="835" cy="220" r="32" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="835" y="231" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#183747" text-anchor="middle">T</text>
+<text x="130" y="450" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">0+6=6</text>
+<text x="365" y="150" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">3+4=7</text>
+<text x="355" y="630" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">1+5=6</text>
+<text x="600" y="420" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">4+3=7</text>
+<text x="670" y="650" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">3+7=10</text>
+<text x="835" y="150" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">7+0=7</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">取出顺序 S → B → A → C → T；D 已发现，但未展开。</text></svg>

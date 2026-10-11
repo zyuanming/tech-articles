@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>顺序藏在树里，不藏在空格里</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">顺序藏在树里，不藏在空格里</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">两棵树都由同样的数字组成，结果却不同</text>
+<line x1="245" y1="270" x2="130" y2="410" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="245" y1="270" x2="365" y2="410" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="365" y1="410" x2="285" y2="540" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="365" y1="410" x2="425" y2="540" stroke="#d2dbd8" stroke-width="5"/>
+<circle cx="245" cy="270" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="245" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">+</text>
+<circle cx="130" cy="410" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="130" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<circle cx="365" cy="410" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="365" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">×</text>
+<circle cx="285" cy="540" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="285" y="552" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">3</text>
+<circle cx="425" cy="540" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="425" y="552" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">4</text>
+<text x="245" y="188" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="middle">2 + 3 × 4</text>
+<text x="245" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#e57735" text-anchor="middle">结果 14</text>
+<line x1="715" y1="270" x2="600" y2="410" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="715" y1="270" x2="835" y2="410" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="600" y1="410" x2="535" y2="540" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="600" y1="410" x2="675" y2="540" stroke="#d2dbd8" stroke-width="5"/>
+<circle cx="715" cy="270" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="715" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">×</text>
+<circle cx="600" cy="410" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="600" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">+</text>
+<circle cx="835" cy="410" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="835" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">4</text>
+<circle cx="535" cy="540" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="535" y="552" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<circle cx="675" cy="540" r="33" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="675" y="552" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">3</text>
+<text x="715" y="188" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="middle">(2 + 3) × 4</text>
+<text x="715" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#e57735" text-anchor="middle">结果 20</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">括号改变结构；抽象语法树通常不必再保留括号节点。</text></svg>

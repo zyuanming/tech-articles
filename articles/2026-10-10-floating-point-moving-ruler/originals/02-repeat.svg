@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>0.1 的二进制展开，没有最后一位</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">0.1 的二进制展开，没有最后一位</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">反复乘 2：取出整数位，把小数余量留给下一轮</text>
+<text x="70" y="195" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">0.1 × 2 = 0.2</text>
+<rect x="530" y="153" width="72" height="58" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="566" y="195" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">0</text>
+<text x="70" y="283" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">0.2 × 2 = 0.4</text>
+<rect x="530" y="241" width="72" height="58" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="566" y="283" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">0</text>
+<text x="70" y="371" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">0.4 × 2 = 0.8</text>
+<rect x="530" y="329" width="72" height="58" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="566" y="371" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">0</text>
+<text x="70" y="459" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">0.8 × 2 = 1.6</text>
+<rect x="530" y="417" width="72" height="58" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="566" y="459" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text x="70" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">0.6 × 2 = 1.2</text>
+<rect x="530" y="505" width="72" height="58" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="566" y="547" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<path d="M 640 538 L 790 538 L 790 250 L 650 250" fill="none" stroke="#e57735" stroke-width="5" stroke-linejoin="round"/>
+<line x1="690" y1="250" x2="635" y2="250" stroke="#e57735" stroke-width="4"/>
+<polygon points="635,250 650.3076007399955,242.6055859201091 650.3076007399955,257.3944140798909" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="672" y="414" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="start">余量 0.2</text>
+<text x="672" y="462" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="start">又回来了</text>
+<text x="70" y="705" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#183747" text-anchor="start">0.0001100110011…₂</text></svg>

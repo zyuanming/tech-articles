@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>给每份增加保留作者</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">给每份增加保留作者</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">向量每一格，只由所属设备增加</text>
+<text x="65" y="257" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">甲的状态</text>
+<rect x="330" y="195" width="240" height="100" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<rect x="570" y="195" width="240" height="100" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="450" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">2</text>
+<text x="690" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<text x="65" y="387" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="start">乙的状态</text>
+<rect x="330" y="325" width="240" height="100" rx="9" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<rect x="570" y="325" width="240" height="100" rx="9" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="450" y="392" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<text x="690" y="392" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">3</text>
+<text x="65" y="572" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">逐格 max</text>
+<rect x="330" y="510" width="240" height="100" rx="9" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<rect x="570" y="510" width="240" height="100" rx="9" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="450" y="577" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">2</text>
+<text x="690" y="577" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">3</text>
+<text x="450" y="167" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="middle">甲累计</text>
+<text x="690" y="167" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#5276bf" text-anchor="middle">乙累计</text>
+<line x1="450" y1="437" x2="450" y2="495" stroke="#183747" stroke-width="4"/>
+<polygon points="450,495 442.6055859201091,479.6923992600045 457.3944140798909,479.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="690" y1="437" x2="690" y2="495" stroke="#183747" stroke-width="4"/>
+<polygon points="690,495 682.6055859201091,479.6923992600045 697.3944140798909,479.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">界面显示：2 + 3 = 5；重发 [0,3] 仍得到 [2,3]。</text></svg>

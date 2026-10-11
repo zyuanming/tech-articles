@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>有联系，不等于仍然有用</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">有联系，不等于仍然有用</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">沿程序手里还握着的线，寻找需要保留的对象</text>
+<line x1="129.71106140499396" y1="319.67137903868837" x2="260.2889385950061" y2="230.32862096131166" stroke="#57727c" stroke-width="4"/>
+<polygon points="260.2889385950061,230.32862096131166 251.83097124811582,245.07524051831314 243.47995785583313,232.8699132526692" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="319.1844522223957" y1="231.0776599383969" x2="440.8155477776043" y2="318.9223400616031" stroke="#57727c" stroke-width="4"/>
+<polygon points="440.8155477776043,318.9223400616031 424.07663422606146,315.95438232707 432.73535341604116,303.96538652555967" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="443.8275265082066" y1="364.71844718669377" x2="316.1724734917934" y2="485.28155281330623" stroke="#57727c" stroke-width="4"/>
+<polygon points="316.1724734917934,485.28155281330623 322.22412184402015,469.39515762053225 332.3784792834828,480.14683020349275" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="700.788729942565" y1="289.39096302224715" x2="804.211270057435" y2="435.60903697775285" stroke="#57727c" stroke-width="4"/>
+<polygon points="804.211270057435,435.60903697775285 789.334755372834,427.3816855911368 801.4085859724595,418.84165906945054" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<path d="M 791 465 Q 595 470 665 303" fill="none" stroke="#57727c" stroke-width="4" stroke-linejoin="round"/>
+<line x1="665" y1="303" x2="668" y2="295" stroke="#57727c" stroke-width="4"/>
+<polygon points="668,295 669.548748199741,311.92930533169624 655.7015368916825,306.73660109117435" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="100" cy="340" r="34" fill="#e57735" stroke="#183747" stroke-width="2"/>
+<text x="100" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">R</text>
+<circle cx="290" cy="210" r="34" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="290" y="222" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<circle cx="470" cy="340" r="34" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="470" y="352" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<circle cx="290" cy="510" r="34" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="290" y="522" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<circle cx="680" cy="260" r="34" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="680" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">D</text>
+<circle cx="825" cy="465" r="34" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="825" y="477" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">E</text>
+<circle cx="680" cy="580" r="34" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="680" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#183747" text-anchor="middle">F</text>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">R 为根；A、B、C 可达；D、E 即使互相引用，也可能是垃圾。</text></svg>

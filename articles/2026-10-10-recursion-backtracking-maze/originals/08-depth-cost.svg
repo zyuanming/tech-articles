@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>调用次数与同时占用的深度不同</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">调用次数与同时占用的深度不同</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">这是一棵深度为 3 的二叉调用树</text>
+<line x1="480" y1="185" x2="260" y2="315" stroke="#087f8c" stroke-width="5"/>
+<line x1="480" y1="185" x2="700" y2="315" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="260" y1="315" x2="145" y2="445" stroke="#087f8c" stroke-width="5"/>
+<line x1="260" y1="315" x2="370" y2="445" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="700" y1="315" x2="590" y2="445" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="700" y1="315" x2="815" y2="445" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="145" y1="445" x2="90" y2="565" stroke="#087f8c" stroke-width="5"/>
+<line x1="145" y1="445" x2="200" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="370" y1="445" x2="315" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="370" y1="445" x2="425" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="590" y1="445" x2="535" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="590" y1="445" x2="645" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="815" y1="445" x2="760" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<line x1="815" y1="445" x2="870" y2="565" stroke="#d2dbd8" stroke-width="5"/>
+<circle cx="480" cy="185" r="20" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="260" cy="315" r="20" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="700" cy="315" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="145" cy="445" r="20" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="370" cy="445" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="590" cy="445" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="815" cy="445" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="90" cy="565" r="20" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="200" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="315" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="425" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="535" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="645" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="760" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<circle cx="870" cy="565" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">总共 15 次调用；沿最深路线同时等待的栈帧只有 4 层。</text></svg>

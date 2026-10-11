@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 960 690" role="img"><title>“信谁更多”由相对不确定性决定</title><rect width="960" height="690" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">“信谁更多”由相对不确定性决定</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">固定预测误差方差 P⁻ = 5；下面改变测量方差 R</text>
+<text x="50" y="224" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">R = 1</text>
+<rect x="220" y="190" width="630" height="52" rx="8" fill="#dce7ea" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="220" y="190" width="525.0" height="52" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="220" y="287" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">K = 0.833：本轮测量权重</text>
+<text x="50" y="359" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">R = 5</text>
+<rect x="220" y="325" width="630" height="52" rx="8" fill="#dce7ea" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="220" y="325" width="315.0" height="52" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="220" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">K = 0.500：本轮测量权重</text>
+<text x="50" y="494" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">R = 20</text>
+<rect x="220" y="460" width="630" height="52" rx="8" fill="#dce7ea" stroke="#d2dbd8" stroke-width="2"/>
+<rect x="220" y="460" width="126.0" height="52" rx="8" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="220" y="557" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">K = 0.200：本轮测量权重</text>
+<text x="42" y="652" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">K 小不会证明传感器错了；只是你给它的噪声模型更不可信。</text></svg>

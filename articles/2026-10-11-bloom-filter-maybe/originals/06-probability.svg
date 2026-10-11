@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1167" viewBox="0 0 960 700" role="img"><title>哈希次数并非越多越好</title><rect width="960" height="700" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">哈希次数并非越多越好</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">m=10,000位；n=1,000个成员；按近似公式计算</text>
+<line x1="120" y1="550" x2="850" y2="550" stroke="#183747" stroke-width="4"/>
+<polygon points="850,550 834.6923992600045,557.3944140798909 834.6923992600045,542.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="120" y1="550" x2="120" y2="185" stroke="#183747" stroke-width="4"/>
+<polygon points="120,185 127.39441407989091,200.3076007399955 112.60558592010909,200.3076007399955" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="120" y1="550.0" x2="820" y2="550.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="100" y="558.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="end">0%</text>
+<line x1="120" y1="465.0" x2="820" y2="465.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="100" y="473.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="end">2.5%</text>
+<line x1="120" y1="380.0" x2="820" y2="380.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="100" y="388.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="end">5%</text>
+<line x1="120" y1="295.0" x2="820" y2="295.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="100" y="303.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="end">7.5%</text>
+<line x1="120" y1="210.0" x2="820" y2="210.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="100" y="218.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="end">10%</text>
+<path d="M 120.0,226.44722132226235 L 166.66666666666666,438.280964409103 L 213.33333333333331,490.80400591248963 L 260.0,509.83487891749417 L 306.66666666666663,517.9348406311835 L 353.3333333333333,521.3168884873089 L 400.0,522.1413449760678 L 446.6666666666667,521.2513940580393 L 493.3333333333333,518.9682236068464 L 540.0,515.3679602911424 L 586.6666666666666,510.3916879141117 L 633.3333333333333,503.894064414572 L 680.0,495.6673173624468 L 726.6666666666667,485.45508386167626 L 773.3333333333334,472.9623836398465 L 820.0,457.86466776443615" fill="none" stroke="#087f8c" stroke-width="5" stroke-linejoin="round"/>
+<text x="120.0" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<text x="260.0" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<text x="400.0" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">7</text>
+<text x="540.0" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">10</text>
+<text x="680.0" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">13</text>
+<text x="820.0" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">16</text>
+<circle cx="400.0" cy="522.1413449760678" r="9" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="440" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">k=7：约0.82%</text>
+<text x="780" y="627" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">哈希次数k</text>
+<text x="42" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">假设均匀、近似独立；曲线不是产品实测。</text></svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>一条消息，究竟有多重？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一条消息，究竟有多重？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">从香农的信息熵，到能亲手解码的压缩树</text>
+<text x="75" y="258" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="start">A</text>
+<rect x="170" y="210" width="400" height="65" rx="8" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="640" y="256" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#183747" text-anchor="start">0</text>
+<text x="75" y="358" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="start">B</text>
+<rect x="170" y="310" width="200" height="65" rx="8" fill="#5276bf" stroke="#d2dbd8" stroke-width="2"/>
+<text x="640" y="356" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#183747" text-anchor="start">10</text>
+<text x="75" y="458" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="start">C</text>
+<rect x="170" y="410" width="100" height="65" rx="8" fill="#e57735" stroke="#d2dbd8" stroke-width="2"/>
+<text x="640" y="456" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#183747" text-anchor="start">110</text>
+<text x="75" y="558" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="start">D</text>
+<rect x="170" y="510" width="100" height="65" rx="8" fill="#c54c53" stroke="#d2dbd8" stroke-width="2"/>
+<text x="640" y="556" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#183747" text-anchor="start">111</text>
+<text x="75" y="690" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">常见的消息，能不能少写几位？</text></svg>

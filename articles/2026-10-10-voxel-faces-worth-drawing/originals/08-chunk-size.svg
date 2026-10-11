@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>区块大小，也是一次取舍</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">区块大小，也是一次取舍</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">同一片可编辑世界；线框表示独立重建的区域</text>
+<rect x="70.0" y="240.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="155.0" y="240.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="240.0" y="240.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="325.0" y="240.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="70.0" y="325.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="155.0" y="325.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="240.0" y="325.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="325.0" y="325.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="70.0" y="410.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="155.0" y="410.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="240.0" y="410.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="325.0" y="410.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="70.0" y="495.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="155.0" y="495.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="240.0" y="495.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="325.0" y="495.0" width="85.0" height="85.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="155.0" y="325.0" width="85.0" height="85.0" rx="0" fill="#efc49a" stroke="#e57735" stroke-width="4"/>
+<rect x="525.0" y="240.0" width="170.0" height="170.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="695.0" y="240.0" width="170.0" height="170.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="525.0" y="410.0" width="170.0" height="170.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="695.0" y="410.0" width="170.0" height="170.0" rx="0" fill="#e4ece3" stroke="#183747" stroke-width="2"/>
+<rect x="695.0" y="410.0" width="170.0" height="170.0" rx="0" fill="#efc49a" stroke="#e57735" stroke-width="4"/>
+<text x="225" y="645" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">小区块：局部改动小</text>
+<text x="705" y="645" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">大区块：管理项更少</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">真实成本还受调度、网格提交、材质和可见性等影响，须测量。</text></svg>

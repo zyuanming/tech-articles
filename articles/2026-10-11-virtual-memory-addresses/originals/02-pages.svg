@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>连续的虚拟页，可以分散放置</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">连续的虚拟页，可以分散放置</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">每页与每个页框大小相同：本例 4 KiB</text>
+<rect x="70" y="190" width="270" height="90" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="205.0" y="239" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">虚拟页 0</text>
+<rect x="630" y="190" width="270" height="90" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="765.0" y="239" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">物理页框 1</text>
+<rect x="70" y="305" width="270" height="90" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="205.0" y="354" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">虚拟页 1</text>
+<rect x="630" y="305" width="270" height="90" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="765.0" y="354" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">物理页框 2</text>
+<rect x="70" y="420" width="270" height="90" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="205.0" y="469" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">虚拟页 2</text>
+<rect x="630" y="420" width="270" height="90" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="765.0" y="469" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">物理页框 5</text>
+<rect x="70" y="535" width="270" height="90" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="205.0" y="584" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">虚拟页 3</text>
+<rect x="630" y="535" width="270" height="90" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="765.0" y="584" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">物理页框 9</text>
+<line x1="355" y1="235" x2="613" y2="465" stroke="#087f8c" stroke-width="4"/>
+<polygon points="613,465 596.6530858734711,460.33326682358074 606.4941729056258,449.29413441359867" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="355" y1="350" x2="613" y2="235" stroke="#5276bf" stroke-width="4"/>
+<polygon points="613,235 602.0288908018506,247.98594482362688 596.0080091321597,234.47822768640728" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="355" y1="465" x2="613" y2="580" stroke="#e57735" stroke-width="4"/>
+<polygon points="613,580 596.0080091321597,580.5217723135927 602.0288908018506,567.0140551763732" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="355" y1="580" x2="613" y2="350" stroke="#c54c53" stroke-width="4"/>
+<polygon points="613,350 606.4941729056258,365.70586558640133 596.6530858734711,354.66673317641926" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">整页换位置，页内偏移不变；箭头仅表示映射关系。</text></svg>

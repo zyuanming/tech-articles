@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>尺子在抖，小车也不完全听话</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">尺子在抖，小车也不完全听话</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">一维位置估计：模型和测量都可能出错</text>
+<line x1="80" y1="340" x2="880" y2="340" stroke="#183747" stroke-width="6"/>
+<line x1="80" y1="325" x2="80" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="180" y1="325" x2="180" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="280" y1="325" x2="280" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="380" y1="325" x2="380" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="480" y1="325" x2="480" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="580" y1="325" x2="580" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="680" y1="325" x2="680" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="780" y1="325" x2="780" y2="355" stroke="#183747" stroke-width="3"/>
+<line x1="880" y1="325" x2="880" y2="355" stroke="#183747" stroke-width="3"/>
+<rect x="275" y="245" width="160" height="75" rx="15" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<circle cx="310" cy="325" r="23" fill="#183747" stroke="#183747" stroke-width="3"/>
+<circle cx="400" cy="325" r="23" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="480" y1="275" x2="665" y2="275" stroke="#e57735" stroke-width="4"/>
+<polygon points="665,275 649.6923992600045,282.3944140798909 649.6923992600045,267.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="475" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">每秒预计前进 1 m</text>
+<rect x="52" y="430" width="410" height="178" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="74" y="473" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">运动模型</text>
+<text x="74" y="516" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">下一秒在哪里？</text>
+<text x="74" y="556" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">模型误差方差 Q</text>
+<rect x="497" y="430" width="410" height="178" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="519" y="473" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">位置传感器</text>
+<text x="519" y="516" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">这次读数是多少？</text>
+<text x="519" y="556" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">测量误差方差 R</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">估计器还要带着 P：它对自己当前误差大小的判断。</text></svg>

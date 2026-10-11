@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>高度图很擅长山坡，却装不下所有洞穴</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">高度图很擅长山坡，却装不下所有洞穴</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">普通高度图：一个水平位置，只能返回一个地表高度</text>
+<polygon points="100,610 100,365 220,280 320,305 430,220 565,340 760,370 850,470 850,610" fill="#bbceaa" stroke="#087f8c" stroke-width="4"/>
+<polygon points="340,610 340,470 450,440 650,440 680,500 680,610" fill="#f7f4ed" stroke="#087f8c" stroke-width="4"/>
+<line x1="500" y1="160" x2="500" y2="650" stroke="#e57735" stroke-width="5" stroke-dasharray="10 8"/>
+<circle cx="500" cy="282" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="500" cy="440" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="580" y="230" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">地表</text>
+<text x="580" y="425" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">洞顶</text>
+<text x="105" y="710" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">同一列存在多层边界，需要更丰富的体积表示。</text></svg>

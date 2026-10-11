@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1217" viewBox="0 0 960 730" role="img"><title>这一次舍掉的误差，交给后面的像素</title><rect width="960" height="730" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">这一次舍掉的误差，交给后面的像素</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">从左到右、从上到下扫描；只改尚未输出的位置</text>
+<rect x="365" y="200" width="210" height="140" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="470" y="281" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#e57735" text-anchor="middle">当前像素</text>
+<rect x="605" y="200" width="210" height="140" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="710" y="281" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#087f8c" text-anchor="middle">7/16</text>
+<rect x="125" y="400" width="210" height="140" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="230" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#087f8c" text-anchor="middle">3/16</text>
+<rect x="365" y="400" width="210" height="140" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="470" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#087f8c" text-anchor="middle">5/16</text>
+<rect x="605" y="400" width="210" height="140" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="710" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#087f8c" text-anchor="middle">1/16</text>
+<line x1="582" y1="270" x2="600" y2="270" stroke="#e57735" stroke-width="4"/>
+<polygon points="600,270 584.6923992600045,277.3944140798909 584.6923992600045,262.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="425" y1="347" x2="265" y2="393" stroke="#e57735" stroke-width="4"/>
+<polygon points="265,393 277.66853367511413,381.663851865713 281.754796700934,395.8769406511732" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="470" y1="347" x2="470" y2="393" stroke="#e57735" stroke-width="4"/>
+<polygon points="470,393 462.6055859201091,377.6923992600045 477.3944140798909,377.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="515" y1="347" x2="675" y2="393" stroke="#e57735" stroke-width="4"/>
+<polygon points="675,393 658.245203299066,395.8769406511732 662.3314663248858,381.663851865713" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="112" y="620" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">量化误差 e = 调整后的输入 − 本次输出</text>
+<text x="42" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">7 + 3 + 5 + 1 = 16；图中左下格属于下一行，尚未处理。</text></svg>

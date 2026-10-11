@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1350" viewBox="0 0 960 810" role="img"><title>约束不是越多越好</title><rect width="960" height="810" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">约束不是越多越好</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">两端点共有四个标量坐标；独立约束才减少自由度</text>
+<rect x="48" y="170" width="862" height="160" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="70" y="213" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">欠约束：还有许多解</text>
+<text x="70" y="256" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">只说“水平”，仍可移动整条线、改变长度。</text>
+<text x="70" y="296" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">软件需要保留拖动意图，或选择离当前图形较近的解。</text>
+<rect x="48" y="355" width="862" height="160" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="70" y="398" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">适度约束：明确想保持什么</text>
+<text x="70" y="441" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">固定 A，指定水平，再指定长度 4。</text>
+<text x="70" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">还需区分 B 在 A 的左边还是右边。</text>
+<rect x="48" y="540" width="862" height="160" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="70" y="583" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">冲突：没有完全满足的解</text>
+<text x="70" y="626" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">同时要求长度 4 和长度 5。</text>
+<text x="70" y="666" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">求解器可报告冲突；最小误差折中不等于精确满足。</text>
+<text x="42" y="772" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">单纯数方程会误判：重复、相关与非线性约束需要另外判断。</text></svg>

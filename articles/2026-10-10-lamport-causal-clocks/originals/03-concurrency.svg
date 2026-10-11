@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1117" viewBox="0 0 960 670" role="img"><title>编号较小，不等于因果在先</title><rect width="960" height="670" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">编号较小，不等于因果在先</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">单向蕴含：a → b，则 C(a) &lt; C(b)</text>
+<text x="55" y="256" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#183747" text-anchor="start">A</text>
+<line x1="130" y1="245" x2="890" y2="245" stroke="#57727c" stroke-width="4"/>
+<polygon points="890,245 874.6923992600045,252.3944140798909 874.6923992600045,237.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="55" y="481" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#183747" text-anchor="start">C</text>
+<line x1="130" y1="470" x2="890" y2="470" stroke="#57727c" stroke-width="4"/>
+<polygon points="890,470 874.6923992600045,477.3944140798909 874.6923992600045,462.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="420" cy="245" r="38" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="420" y="255" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<circle cx="700" cy="470" r="38" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="700" y="480" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<line x1="450" y1="275" x2="675" y2="440" stroke="#c54c53" stroke-width="5" stroke-dasharray="12 10"/>
+<text x="565" y="336" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#c54c53" text-anchor="middle">没有消息路径</text>
+<text x="480" y="577" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#183747" text-anchor="middle">3 &lt; 5，仍可能并发</text>
+<text x="42" y="632" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">并发是“互不构成 happened-before”，不要求同时发生。</text></svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>从 4 个桶变成 8 个桶，要重新决定位置</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">从 4 个桶变成 8 个桶，要重新决定位置</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">相同hash值的cat与act仍在一起；dog与bug可以分开</text>
+<rect x="85" y="245" width="245" height="55" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="65" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">0</text>
+<text x="207" y="282" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">cat / act</text>
+<rect x="85" y="345" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="65" y="382" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">1</text>
+<text x="207" y="382" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle"></text>
+<rect x="85" y="445" width="245" height="55" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="65" y="482" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">2</text>
+<text x="207" y="482" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">dog / bug</text>
+<rect x="85" y="545" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="65" y="582" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">3</text>
+<text x="207" y="582" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle"></text>
+<rect x="620" y="170" width="245" height="55" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="600" y="207" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">0</text>
+<text x="742" y="207" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle">cat / act</text>
+<rect x="620" y="235" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="600" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">1</text>
+<text x="742" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle"></text>
+<rect x="620" y="300" width="245" height="55" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="600" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">2</text>
+<text x="742" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle">dog</text>
+<rect x="620" y="365" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="600" y="402" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">3</text>
+<text x="742" y="402" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle"></text>
+<rect x="620" y="430" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="600" y="467" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">4</text>
+<text x="742" y="467" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle"></text>
+<rect x="620" y="495" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="600" y="532" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">5</text>
+<text x="742" y="532" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle"></text>
+<rect x="620" y="560" width="245" height="55" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="600" y="597" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">6</text>
+<text x="742" y="597" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle">bug</text>
+<rect x="620" y="625" width="245" height="55" rx="6" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="600" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="end">7</text>
+<text x="742" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle"></text>
+<line x1="355" y1="272" x2="575" y2="197" stroke="#087f8c" stroke-width="3"/>
+<polygon points="575,197 562.8971845778752,208.93825191801457 558.1252153081746,194.94047539355938" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="355" y1="472" x2="575" y2="327" stroke="#e57735" stroke-width="3"/>
+<polygon points="575,327 566.2880380424565,341.59800393376827 558.1495482958276,329.24995052508996" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="355" y1="482" x2="575" y2="587" stroke="#c54c53" stroke-width="3"/>
+<polygon points="575,587 558.0001876812573,587.0798819599405 564.370173515124,573.733244974696" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="435" y="325" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#e57735" text-anchor="middle">314 % 8 = 2</text>
+<text x="435" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#c54c53" text-anchor="middle">318 % 8 = 6</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">图中链表只展示键；实际迁移要连同值一起保存。</text></svg>

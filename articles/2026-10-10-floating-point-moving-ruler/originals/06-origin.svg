@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>保留世界地址，让附近计算用小坐标</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">保留世界地址，让附近计算用小坐标</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">概念方案：大区域编号 + 区域内偏移</text>
+<rect x="75" y="190" width="810" height="300" rx="0" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<line x1="277.5" y1="190" x2="277.5" y2="490" stroke="#d2dbd8" stroke-width="3"/>
+<line x1="480.0" y1="190" x2="480.0" y2="490" stroke="#d2dbd8" stroke-width="3"/>
+<line x1="682.5" y1="190" x2="682.5" y2="490" stroke="#d2dbd8" stroke-width="3"/>
+<circle cx="530" cy="350" r="17" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="475" y="295" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#e57735" text-anchor="start">玩家</text>
+<line x1="480" y1="420" x2="530" y2="420" stroke="#087f8c" stroke-width="4"/>
+<polygon points="530,420 514.6923992600045,427.3944140798909 514.6923992600045,412.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="520" y="560" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#087f8c" text-anchor="middle">附近偏移：很小</text>
+<text x="70" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">远方位置 = 区域信息 + 局部位置</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">移动原点时，相机、物理、粒子与联网状态也要保持一致。</text></svg>

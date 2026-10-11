@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同样多的有效位，越往远处刻度越疏</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同样多的有效位，越往远处刻度越疏</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">玩具格式：只留 4 位二进制有效数字，含开头的 1</text>
+<text x="60" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#087f8c" text-anchor="start">区间 [1, 2)：间隔 0.125</text>
+<line x1="80" y1="285" x2="860" y2="285" stroke="#183747" stroke-width="3"/>
+<line x1="80" y1="267" x2="80" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="175" y1="267" x2="175" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="270" y1="267" x2="270" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="365" y1="267" x2="365" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="460" y1="267" x2="460" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="555" y1="267" x2="555" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="650" y1="267" x2="650" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="745" y1="267" x2="745" y2="303" stroke="#087f8c" stroke-width="4"/>
+<line x1="840" y1="267" x2="840" y2="303" stroke="#087f8c" stroke-width="4"/>
+<text x="80" y="350" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">1</text>
+<text x="840" y="350" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">2.0</text>
+<text x="60" y="425" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#e57735" text-anchor="start">区间 [8, 16)：间隔 1</text>
+<line x1="80" y1="500" x2="860" y2="500" stroke="#183747" stroke-width="3"/>
+<line x1="80" y1="482" x2="80" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="175" y1="482" x2="175" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="270" y1="482" x2="270" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="365" y1="482" x2="365" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="460" y1="482" x2="460" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="555" y1="482" x2="555" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="650" y1="482" x2="650" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="745" y1="482" x2="745" y2="518" stroke="#e57735" stroke-width="4"/>
+<line x1="840" y1="482" x2="840" y2="518" stroke="#e57735" stroke-width="4"/>
+<text x="80" y="565" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">8</text>
+<text x="840" y="565" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">16</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">两行各放 8 个等分；下行每一步代表的数值大 8 倍。</text></svg>

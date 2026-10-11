@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>0.625，正好能写进三个二进制小格</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">0.625，正好能写进三个二进制小格</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">小数点右边，每往后一位，单位就减半</text>
+<text x="185" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#087f8c" text-anchor="middle">1/2</text>
+<rect x="75" y="285" width="220" height="160" rx="16" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="185" y="392" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="70" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text x="485" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#5276bf" text-anchor="middle">1/4</text>
+<rect x="375" y="285" width="220" height="160" rx="16" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="485" y="392" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="70" font-weight="400" fill="#ffffff" text-anchor="middle">0</text>
+<text x="785" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#e57735" text-anchor="middle">1/8</text>
+<rect x="675" y="285" width="220" height="160" rx="16" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="785" y="392" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="70" font-weight="400" fill="#ffffff" text-anchor="middle">1</text>
+<text x="85" y="565" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="start">0.101₂ = 1/2 + 0/4 + 1/8</text>
+<text x="85" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#087f8c" text-anchor="start">= 0.625₁₀</text></svg>

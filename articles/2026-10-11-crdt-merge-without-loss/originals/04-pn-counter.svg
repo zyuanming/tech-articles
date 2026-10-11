@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>可减的显示值，不必依靠倒退的状态</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">可减的显示值，不必依靠倒退的状态</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">P 与 N 都只增长；显示 P 的和减 N 的和</text>
+<rect x="65" y="210" width="350" height="150" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="240.0" y="259" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">P：增加</text>
+<text x="240.0" y="304" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">[2,3] → 合计 5</text>
+<rect x="545" y="210" width="350" height="150" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="720.0" y="259" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">N：减少</text>
+<text x="720.0" y="304" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">[0,1] → 合计 1</text>
+<text x="480" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="58" font-weight="400" fill="#183747" text-anchor="middle">−</text>
+<line x1="240" y1="385" x2="400" y2="480" stroke="#183747" stroke-width="4"/>
+<polygon points="400,480 383.062551934838,478.5429986136108 390.61282183895185,465.82675456457696" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="720" y1="385" x2="560" y2="480" stroke="#183747" stroke-width="4"/>
+<polygon points="560,480 569.3871781610482,465.82675456457696 576.937448065162,478.5429986136108" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="325" y="500" width="310" height="120" rx="16" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="480.0" y="549" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">显示：5 − 1 = 4</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">它能正确合并减少，却不自动保证库存永不为负。</text></svg>

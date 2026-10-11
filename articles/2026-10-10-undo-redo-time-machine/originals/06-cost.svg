@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>存整份状态，还是存一次变化？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">存整份状态，还是存一次变化？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">假设：文档 10 MB，编辑 100 次；仅比较载荷量</text>
+<text x="65" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="start">100 份完整快照</text>
+<rect x="65" y="260" width="800" height="60" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="65" y="425" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">100 次小改动记录</text>
+<rect x="65" y="460" width="40" height="60" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="65" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#e57735" text-anchor="start">10 × 100 = 1,000 MB</text>
+<text x="65" y="605" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">小改动能更省；大修改未必。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">图中小记录长度仅示意；不宣称通用压缩比或实际内存测量。</text></svg>

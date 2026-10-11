@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>局部坐标，跟着父关节一起转</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">局部坐标，跟着父关节一起转</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">肩膀转 90°，肘部的局部坐标仍为 (2, 0)</text>
+<line x1="110" y1="485" x2="320" y2="485" stroke="#087f8c" stroke-width="12"/>
+<line x1="320" y1="485" x2="320" y2="360" stroke="#087f8c" stroke-width="12"/>
+<circle cx="110" cy="485" r="13" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="130" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">肩</text>
+<circle cx="320" cy="485" r="13" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="340" y="467" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">肘</text>
+<circle cx="320" cy="360" r="13" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="340" y="342" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">手</text>
+<line x1="635" y1="535" x2="635" y2="325" stroke="#087f8c" stroke-width="12"/>
+<line x1="635" y1="325" x2="510" y2="325" stroke="#087f8c" stroke-width="12"/>
+<circle cx="635" cy="535" r="13" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="655" y="570" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">肩</text>
+<circle cx="635" cy="325" r="13" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="655" y="307" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">肘</text>
+<circle cx="510" cy="325" r="13" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="530" y="307" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">手</text>
+<line x1="415" y1="415" x2="515" y2="415" stroke="#e57735" stroke-width="4"/>
+<polygon points="515,415 499.6923992600045,422.3944140798909 499.6923992600045,407.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="70" y="630" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">肘的整体坐标 (2, 0)</text>
+<text x="555" y="630" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">肘的整体坐标 (0, 2)</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">每一级先使用自己的局部变换，再继承父级变换。</text></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>三份权重，确定一个内部位置</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">三份权重，确定一个内部位置</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">A(0,0)，B(4,0)，C(0,4)；P(1,1)</text>
+<polygon points="150,580 630,580 150,190" fill="#e5efeb" stroke="#183747" stroke-width="3"/>
+<polygon points="270,482.5 630,580 150,190" fill="#acd2cb" stroke="#183747" stroke-width="3"/>
+<polygon points="150,580 270,482.5 150,190" fill="#ebc18e" stroke="#183747" stroke-width="3"/>
+<polygon points="150,580 630,580 270,482.5" fill="#b4c4e5" stroke="#183747" stroke-width="3"/>
+<circle cx="150" cy="580" r="9" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="166" y="568" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">A</text>
+<circle cx="630" cy="580" r="9" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="646" y="568" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">B</text>
+<circle cx="150" cy="190" r="9" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="166" y="178" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">C</text>
+<circle cx="270" cy="482.5" r="9" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="286" y="470.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">P</text>
+<text x="635" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">A：1/2</text>
+<text x="635" y="340" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="start">B：1/4</text>
+<text x="635" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#5276bf" text-anchor="start">C：1/4</text>
+<text x="80" y="675" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">P = 1/2 A + 1/4 B + 1/4 C</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">权重相加为 1；这里使用屏幕平面的线性插值。</text></svg>

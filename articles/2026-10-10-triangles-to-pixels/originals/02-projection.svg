@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同样高，越远看起来越小</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同样高，越远看起来越小</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学相机：投影平面距离为 1；只画侧视截面</text>
+<circle cx="120" cy="560" r="14" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="64" y="617" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">相机</text>
+<line x1="300" y1="190" x2="300" y2="600" stroke="#5276bf" stroke-width="5"/>
+<text x="238" y="167" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="start">屏幕</text>
+<line x1="480" y1="560" x2="480" y2="260" stroke="#087f8c" stroke-width="12"/>
+<line x1="120" y1="560" x2="480" y2="260" stroke="#087f8c" stroke-width="3"/>
+<line x1="120" y1="560" x2="480" y2="560" stroke="#57727c" stroke-width="2"/>
+<circle cx="300" cy="410.0" r="8" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="840" y1="560" x2="840" y2="260" stroke="#e57735" stroke-width="12"/>
+<line x1="120" y1="560" x2="840" y2="260" stroke="#e57735" stroke-width="3"/>
+<line x1="120" y1="560" x2="840" y2="560" stroke="#57727c" stroke-width="2"/>
+<circle cx="300" cy="485.0" r="8" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="426" y="220" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">高 2</text>
+<text x="785" y="220" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">高 2</text>
+<text x="413" y="620" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">距离 2</text>
+<text x="742" y="620" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">距离 4</text>
+<text x="64" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">屏幕高度：2 ÷ 2 = 1；2 ÷ 4 = 0.5</text></svg>

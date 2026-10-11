@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>假设存在一个万能停机判定器</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">假设存在一个万能停机判定器</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">每个程序、每份输入，都必须给出正确答案</text>
+<rect x="65" y="200" width="830" height="110" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="480" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#183747" text-anchor="middle">程序P + 输入x</text>
+<line x1="480" y1="330" x2="480" y2="400" stroke="#183747" stroke-width="4"/>
+<polygon points="480,400 472.6055859201091,384.6923992600045 487.3944140798909,384.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="290" y="420" width="380" height="110" rx="12" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="489" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="44" font-weight="400" fill="#ffffff" text-anchor="middle">H(P, x)</text>
+<line x1="380" y1="555" x2="230" y2="655" stroke="#183747" stroke-width="4"/>
+<polygon points="230,655 238.63501076023337,640.3563464541579 246.83837664240554,652.6613952774162" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="580" y1="555" x2="730" y2="655" stroke="#183747" stroke-width="4"/>
+<polygon points="730,655 713.1616233575944,652.6613952774162 721.3649892397666,640.3563464541579" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="230" y="720" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#183747" text-anchor="middle">会停</text>
+<text x="730" y="720" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#183747" text-anchor="middle">不会停</text></svg>

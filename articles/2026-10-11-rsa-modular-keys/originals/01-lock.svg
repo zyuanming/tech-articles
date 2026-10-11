@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1083" viewBox="0 0 960 650" role="img"><title>公开的入口，私有的出口</title><rect width="960" height="650" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">公开的入口，私有的出口</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">公钥密码的角色示意；不是物理锁的安全证明</text>
+<rect x="40" y="235" width="220" height="170" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="150.0" y="277" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">发送者</text>
+<text x="150.0" y="317" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">消息 m</text>
+<rect x="360" y="235" width="240" height="170" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="277" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">公开的 (n,e)</text>
+<text x="480.0" y="317" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">计算密文 c</text>
+<rect x="700" y="235" width="220" height="170" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="810.0" y="277" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">接收者</text>
+<text x="810.0" y="317" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">私钥 d → 消息 m</text>
+<line x1="270" y1="320" x2="350" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="350,320 334.6923992600045,327.3944140798909 334.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="610" y1="320" x2="690" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="690,320 674.6923992600045,327.3944140798909 674.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="480" y="485" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle">旁观者可以知道算法与公钥</text>
+<text x="480" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">秘密不是程序，而是私钥材料</text></svg>

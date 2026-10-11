@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>“足够接近”，要有和任务匹配的尺度</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">“足够接近”，要有和任务匹配的尺度</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">绝对误差看距离；相对误差看相对于数值有多大</text>
+<text x="65" y="200" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#087f8c" text-anchor="start">靠近零</text>
+<line x1="350" y1="275" x2="850" y2="275" stroke="#d2dbd8" stroke-width="9"/>
+<circle cx="490" cy="275" r="12" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="550" cy="275" r="12" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="470" y="340" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="end">0</text>
+<text x="590" y="340" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="start">1e-10</text>
+<text x="65" y="435" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#e57735" text-anchor="start">数值很大</text>
+<line x1="350" y1="510" x2="850" y2="510" stroke="#d2dbd8" stroke-width="9"/>
+<circle cx="490" cy="510" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="550" cy="510" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="470" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="end">1000000.0</text>
+<text x="590" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">1000000.1</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">容差是问题的约定；不存在适合所有计算的万能 0.00001。</text></svg>

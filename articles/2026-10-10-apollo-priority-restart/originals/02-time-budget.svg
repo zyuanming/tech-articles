@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1450" viewBox="0 0 960 870" role="img"><title>优先级不会凭空增加时间</title><rect width="960" height="870" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">优先级不会凭空增加时间</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学预算：每轮只有 100 ms</text>
+<text x="65" y="190" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">正常</text>
+<rect x="65" y="235" width="105" height="105" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="117.5" y="299" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">15</text>
+<rect x="170" y="235" width="280" height="105" rx="0" fill="#5276bf" stroke="#ffffff" stroke-width="2"/>
+<text x="310.0" y="299" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">40</text>
+<rect x="450" y="235" width="140" height="105" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<text x="520.0" y="299" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">20</text>
+<line x1="765" y1="220" x2="765" y2="370" stroke="#183747" stroke-width="4" stroke-dasharray="9 7"/>
+<text x="765" y="409" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">100 ms 边界</text>
+<text x="65" y="495" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">过载</text>
+<rect x="65" y="540" width="245" height="105" rx="0" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="187.5" y="604" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">35</text>
+<rect x="310" y="540" width="105" height="105" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="362.5" y="604" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">15</text>
+<rect x="415" y="540" width="280" height="105" rx="0" fill="#5276bf" stroke="#ffffff" stroke-width="2"/>
+<text x="555.0" y="604" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">40</text>
+<rect x="695" y="540" width="140" height="105" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<text x="765.0" y="604" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">20</text>
+<line x1="765" y1="525" x2="765" y2="675" stroke="#183747" stroke-width="4" stroke-dasharray="9 7"/>
+<text x="765" y="714" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">100 ms 边界</text>
+<rect x="65" y="729" width="24" height="24" rx="0" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="104" y="750" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">测量</text>
+<rect x="495" y="729" width="24" height="24" rx="0" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="534" y="750" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="start">控制</text>
+<rect x="65" y="782" width="24" height="24" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="104" y="803" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="start">显示</text>
+<rect x="495" y="782" width="24" height="24" rx="0" fill="#c54c53" stroke="#c54c53" stroke-width="2"/>
+<text x="534" y="803" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#c54c53" text-anchor="start">额外中断</text></svg>

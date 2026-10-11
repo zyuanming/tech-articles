@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>相同负载率，不代表分布一样好</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">相同负载率，不代表分布一样好</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">8 条记录，8 个桶：两边 α 都是 1</text>
+<line x1="65" y1="590" x2="435" y2="590" stroke="#183747" stroke-width="3"/>
+<rect x="65" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="81" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<rect x="109" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="125" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="153" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="169" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="197" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="213" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="241" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="257" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<rect x="285" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="301" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<rect x="329" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="345" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">6</text>
+<rect x="373" y="547" width="33" height="43" rx="3" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="389" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">7</text>
+<text x="245" y="690" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="middle">均匀一些</text>
+<line x1="530" y1="590" x2="900" y2="590" stroke="#183747" stroke-width="3"/>
+<rect x="530" y="246" width="33" height="344" rx="3" fill="#c54c53" stroke="#c54c53" stroke-width="2"/>
+<text x="546" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="590" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<text x="634" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<text x="678" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<text x="722" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<text x="766" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<text x="810" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">6</text>
+<text x="854" y="633" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">7</text>
+<text x="710" y="690" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#c54c53" text-anchor="middle">全部挤在一个桶</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">负载率只看总量；坏哈希仍可能造成很长的链。</text></svg>

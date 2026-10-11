@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>删掉记录，别把树掏成空架子</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">删掉记录，别把树掏成空架子</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">最少占用约束，让低矮结构在删除后仍有意义</text>
+<rect x="80" y="220" width="330" height="85" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="245.0" y="274.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#c54c53" text-anchor="middle">删除后：20</text>
+<rect x="550" y="220" width="330" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="715.0" y="274.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="middle">邻叶：25  27</text>
+<line x1="245" y1="320" x2="385" y2="485" stroke="#e57735" stroke-width="4"/>
+<polygon points="385,485 369.45801924860234,478.11183374741984 380.73463582189436,468.5437954428084" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="710" y1="320" x2="570" y2="485" stroke="#e57735" stroke-width="4"/>
+<polygon points="570,485 574.2653641781056,468.5437954428084 585.5419807513977,478.11183374741984" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="165" y="500" width="630" height="100" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="562.95" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#087f8c" text-anchor="middle">合并：20   25   27</text>
+<text x="480" y="658" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">父页少一个分隔键；不足时可能继续向上调整。</text>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">若邻页有余量，也可先借记录并更新分隔键；根页有例外。</text></svg>

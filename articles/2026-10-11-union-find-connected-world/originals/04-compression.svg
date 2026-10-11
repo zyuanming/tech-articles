@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>找完根，顺手把路压短</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">找完根，顺手把路压短</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">展示整条路径压缩；程序采用的减半法有相同目标</text>
+<circle cx="90" cy="240" r="29" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="90" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">0</text>
+<line x1="123" y1="240" x2="242" y2="240" stroke="#5276bf" stroke-width="4"/>
+<polygon points="242,240 226.6923992600045,247.3944140798909 226.6923992600045,232.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="280" cy="240" r="29" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="280" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">1</text>
+<line x1="313" y1="240" x2="432" y2="240" stroke="#5276bf" stroke-width="4"/>
+<polygon points="432,240 416.6923992600045,247.3944140798909 416.6923992600045,232.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="470" cy="240" r="29" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="470" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">2</text>
+<line x1="503" y1="240" x2="622" y2="240" stroke="#5276bf" stroke-width="4"/>
+<polygon points="622,240 606.6923992600045,247.3944140798909 606.6923992600045,232.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="660" cy="240" r="29" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="660" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">3</text>
+<line x1="693" y1="240" x2="812" y2="240" stroke="#5276bf" stroke-width="4"/>
+<polygon points="812,240 796.6923992600045,247.3944140798909 796.6923992600045,232.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="850" cy="240" r="29" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="850" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">4</text>
+<text x="470" y="180" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="middle">之前：0 → 1 → 2 → 3 → 4</text>
+<circle cx="480" cy="450" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">4</text>
+<line x1="100" y1="570" x2="469.5" y2="485" stroke="#087f8c" stroke-width="4"/>
+<polygon points="469.5,485 456.2397493014587,495.63793924648166 452.92431190926726,481.2255378768967" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="100" cy="605" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="100" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">0</text>
+<line x1="350" y1="570" x2="476.5" y2="485" stroke="#087f8c" stroke-width="4"/>
+<polygon points="476.5,485 467.91834418317757,499.674984955413 459.6702465860418,487.3998750020285" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="350" cy="605" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="350" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">1</text>
+<line x1="600" y1="570" x2="483.5" y2="485" stroke="#087f8c" stroke-width="4"/>
+<polygon points="483.5,485 500.2243505392038,488.048950482024 491.5076980493309,499.995891835791" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="600" cy="605" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="600" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">2</text>
+<line x1="850" y1="570" x2="490.5" y2="485" stroke="#087f8c" stroke-width="4"/>
+<polygon points="490.5,485 507.09828895078704,481.3262003448499 503.6954479985053,495.7182159018534" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="850" cy="605" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="850" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">3</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">之后：每个非根节点都直接指向4，集合成员不变。</text></svg>

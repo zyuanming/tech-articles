@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1167" viewBox="0 0 960 700" role="img"><title>读的是一页，不是一个比较结果</title><rect width="960" height="700" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">读的是一页，不是一个比较结果</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">把多个键与子页指针放进同一块可读取区域</text>
+<rect x="75" y="200" width="810" height="380" rx="12" fill="#ffffff" stroke="#183747" stroke-width="4"/>
+<rect x="75" y="200" width="810" height="70" rx="12" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="480" y="248" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">一个 4096 字节页（教学设定）</text>
+<rect x="245" y="305" width="120" height="65" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="305.0" y="348.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">20</text>
+<rect x="420" y="305" width="120" height="65" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="348.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">40</text>
+<rect x="595" y="305" width="120" height="65" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="655.0" y="348.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">60</text>
+<line x1="178" y1="395" x2="178" y2="468" stroke="#e57735" stroke-width="4"/>
+<polygon points="178,468 170.6055859201091,452.6923992600045 185.3944140798909,452.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="178" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#57727c" text-anchor="middle">&lt;20</text>
+<line x1="378" y1="395" x2="378" y2="468" stroke="#e57735" stroke-width="4"/>
+<polygon points="378,468 370.6055859201091,452.6923992600045 385.3944140798909,452.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="378" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#57727c" text-anchor="middle">20–39</text>
+<line x1="578" y1="395" x2="578" y2="468" stroke="#e57735" stroke-width="4"/>
+<polygon points="578,468 570.6055859201091,452.6923992600045 585.3944140798909,452.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="578" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#57727c" text-anchor="middle">40–59</text>
+<line x1="778" y1="395" x2="778" y2="468" stroke="#e57735" stroke-width="4"/>
+<polygon points="778,468 770.6055859201091,452.6923992600045 785.3944140798909,452.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="778" y="515" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#57727c" text-anchor="middle">≥60</text>
+<text x="480" y="559" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">3 个分隔键 → 4 个子页区间</text>
+<text x="42" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">真实页面还需页头、槽位和指针；可放多少键取决于字节预算。</text></svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>两张“照片”都没撞，途中却穿过了墙</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">两张“照片”都没撞，途中却穿过了墙</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学例子：圆弹半径 0.05 m；每步移动 2 m</text>
+<rect x="450" y="210" width="44" height="330" rx="0" fill="#b5bcc1" stroke="#183747" stroke-width="2"/>
+<text x="405" y="175" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">薄墙</text>
+<text x="380" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">x = 1～1.1 m</text>
+<circle cx="90" cy="370" r="20" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="850" cy="370" r="20" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="125" y1="370" x2="815" y2="370" stroke="#087f8c" stroke-width="6"/>
+<polygon points="815,370 799.6923992600045,377.3944140798909 799.6923992600045,362.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="55" y="490" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">起点 0 m</text>
+<text x="695" y="490" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">终点 2 m</text>
+<text x="80" y="675" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">端点检测：都不重叠。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">漏掉的是两次检测之间的运动，不是墙“没有碰撞体”。</text></svg>

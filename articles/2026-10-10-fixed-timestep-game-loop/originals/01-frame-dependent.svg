@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>每帧走 1 米，会把机器速度当成跑步速度</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">每帧走 1 米，会把机器速度当成跑步速度</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">都运行一秒，但画面帧数不同</text>
+<text x="80" y="195" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">30 帧/秒</text>
+<line x1="100" y1="255" x2="460" y2="255" stroke="#087f8c" stroke-width="9"/>
+<polygon points="460,255 444.6923992600045,262.3944140798909 444.6923992600045,247.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="460" y="325" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">30 米</text>
+<text x="80" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="start">60 帧/秒</text>
+<line x1="100" y1="465" x2="820" y2="465" stroke="#e57735" stroke-width="9"/>
+<polygon points="820,465 804.6923992600045,472.3944140798909 804.6923992600045,457.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="820" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="middle">60 米</text>
+<text x="80" y="680" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">应先定义：每秒几米，再决定这一小步走多少。</text></svg>

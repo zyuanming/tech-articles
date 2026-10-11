@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>两个相邻方块，中间那两张面藏起来了</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">两个相邻方块，中间那两张面藏起来了</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只画二维截面；“两个面”在三维中是两张重合的正方形</text>
+<rect x="165" y="250" width="300" height="300" rx="0" fill="#c3dfd3" stroke="#087f8c" stroke-width="4"/>
+<rect x="465" y="250" width="300" height="300" rx="0" fill="#efc49a" stroke="#e57735" stroke-width="4"/>
+<line x1="465" y1="250" x2="465" y2="550" stroke="#c54c53" stroke-width="9"/>
+<line x1="300" y1="190" x2="452" y2="280" stroke="#c54c53" stroke-width="4"/>
+<polygon points="452,280 435.06079143030416,278.5636111138195 442.5955811656962,265.8381884496018" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<line x1="635" y1="190" x2="479" y2="280" stroke="#c54c53" stroke-width="4"/>
+<polygon points="479,280 488.56406837185006,265.94551330789426 495.95437786409195,278.7553830944469" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="480" y="155" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#c54c53" text-anchor="middle">共享界面：不向网格输出</text>
+<text x="480" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="middle">12 个面 − 2 个内部面 = 10 个外露面</text></svg>

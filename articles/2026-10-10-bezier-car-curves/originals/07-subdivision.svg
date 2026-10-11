@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>同一次计算，也能把曲线分成两段</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一次计算，也能把曲线分成两段</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">橙、蓝控制折线描述原曲线的左右两半</text>
+<line x1="130" y1="600" x2="130" y2="400" stroke="#e57735" stroke-width="4"/>
+<line x1="130" y1="400" x2="305" y2="300" stroke="#e57735" stroke-width="4"/>
+<line x1="305" y1="300" x2="480" y2="300" stroke="#e57735" stroke-width="4"/>
+<circle cx="130" cy="600" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="130" cy="400" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="305" cy="300" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="480" cy="300" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="480" y1="300" x2="655" y2="300" stroke="#5276bf" stroke-width="4"/>
+<line x1="655" y1="300" x2="830" y2="400" stroke="#5276bf" stroke-width="4"/>
+<line x1="830" y1="400" x2="830" y2="600" stroke="#5276bf" stroke-width="4"/>
+<circle cx="480" cy="300" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="655" cy="300" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="830" cy="400" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="830" cy="600" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<path d="M 130 600 C 130 400 305 300 480 300" fill="none" stroke="#e57735" stroke-width="8" stroke-linejoin="round"/>
+<path d="M 480 300 C 655 300 830 400 830 600" fill="none" stroke="#5276bf" stroke-width="8" stroke-linejoin="round"/>
+<text x="430" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">t=½</text>
+<text x="130" y="690" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">分段后形状不变；方便局部编辑与自适应绘制。</text></svg>

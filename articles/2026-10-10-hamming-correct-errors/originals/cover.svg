@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1217" viewBox="0 0 960 730" role="img"><title>一位翻转，三次提问把它找出来</title><rect width="960" height="730" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一位翻转，三次提问把它找出来</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">Hamming(7,4)：四位数据，三位校验</text>
+<text x="100" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<rect x="52" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="100.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#087f8c" text-anchor="middle">0</text>
+<text x="226" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<rect x="178" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="226.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#087f8c" text-anchor="middle">1</text>
+<text x="352" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<rect x="304" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="352.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#087f8c" text-anchor="middle">1</text>
+<text x="478" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<rect x="430" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="478.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#087f8c" text-anchor="middle">0</text>
+<text x="604" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<rect x="556" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="604.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#087f8c" text-anchor="middle">0</text>
+<text x="730" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">6</text>
+<rect x="682" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="730.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#c54c53" text-anchor="middle">0</text>
+<text x="856" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">7</text>
+<rect x="808" y="270" width="96" height="95" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="856.0" y="332.55" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#087f8c" text-anchor="middle">1</text>
+<text x="480" y="430" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#183747" text-anchor="middle">校验结果：s₄ s₂ s₁ = 1 1 0</text>
+<line x1="480" y1="463" x2="480" y2="532" stroke="#e57735" stroke-width="4"/>
+<polygon points="480,532 472.6055859201091,516.6923992600045 487.3944140798909,516.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="480" y="597" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#c54c53" text-anchor="middle">二进制 110 = 6：翻回第 6 位</text>
+<text x="42" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">前提：这一组七位中，至多有一位发生翻转。</text></svg>

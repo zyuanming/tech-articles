@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>同一对中间结果，一加一减得到两项</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一对中间结果，一加一减得到两项</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">k = 1：E = −2，O = −2，W = −i，所以 W×O = 2i</text>
+<rect x="35" y="212" width="270" height="96" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="170" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">E = −2</text>
+<rect x="35" y="442" width="270" height="96" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="170" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">W×O = 2i</text>
+<rect x="615" y="212" width="270" height="96" rx="14" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="750" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">X[1] = −2+2i</text>
+<rect x="615" y="442" width="270" height="96" rx="14" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="750" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">X[3] = −2−2i</text>
+<line x1="310" y1="260" x2="590" y2="260" stroke="#57727c" stroke-width="4"/>
+<polygon points="590,260 574.6923992600045,267.3944140798909 574.6923992600045,252.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="310" y1="490" x2="590" y2="490" stroke="#57727c" stroke-width="4"/>
+<polygon points="590,490 574.6923992600045,497.3944140798909 574.6923992600045,482.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="310" y1="260" x2="590" y2="490" stroke="#57727c" stroke-width="4"/>
+<polygon points="590,490 573.4778888852604,485.9975202296327 582.8649411435707,474.5698044369072" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<line x1="310" y1="490" x2="590" y2="260" stroke="#57727c" stroke-width="4"/>
+<polygon points="590,260 582.8649411435707,275.4301955630928 573.4778888852604,264.0024797703673" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<circle cx="570" cy="260" r="23" fill="#f7f4ed" stroke="#f7f4ed" stroke-width="3"/>
+<text x="570" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#087f8c" text-anchor="middle">+</text>
+<circle cx="570" cy="490" r="23" fill="#f7f4ed" stroke="#f7f4ed" stroke-width="3"/>
+<text x="570" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#e57735" text-anchor="middle">−</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">上路 E + W×O，下路 E − W×O；连线像一只蝴蝶。</text></svg>

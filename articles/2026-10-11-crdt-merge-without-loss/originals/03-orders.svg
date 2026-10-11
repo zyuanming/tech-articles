@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>走不同路线，抵达同一状态</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">走不同路线，抵达同一状态</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">合并不怕乱序、重复和分组</text>
+<text x="42" y="197" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">路线一</text>
+<rect x="48" y="230" width="180" height="92" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="138.0" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">[0,0]</text>
+<line x1="235" y1="276" x2="268" y2="276" stroke="#183747" stroke-width="4"/>
+<polygon points="268,276 252.6923992600045,283.3944140798909 252.6923992600045,268.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="276" y="230" width="180" height="92" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="366.0" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">[2,0]</text>
+<line x1="463" y1="276" x2="496" y2="276" stroke="#183747" stroke-width="4"/>
+<polygon points="496,276 480.6923992600045,283.3944140798909 480.6923992600045,268.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="504" y="230" width="180" height="92" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="594.0" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">[2,3]</text>
+<line x1="691" y1="276" x2="724" y2="276" stroke="#183747" stroke-width="4"/>
+<polygon points="724,276 708.6923992600045,283.3944140798909 708.6923992600045,268.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="732" y="230" width="180" height="92" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="822.0" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">[3,3]</text>
+<text x="42" y="417" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">路线二</text>
+<rect x="48" y="450" width="180" height="92" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="138.0" y="499" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">[0,0]</text>
+<line x1="235" y1="496" x2="268" y2="496" stroke="#183747" stroke-width="4"/>
+<polygon points="268,496 252.6923992600045,503.3944140798909 252.6923992600045,488.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="276" y="450" width="180" height="92" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="366.0" y="499" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">[0,3]</text>
+<line x1="463" y1="496" x2="496" y2="496" stroke="#183747" stroke-width="4"/>
+<polygon points="496,496 480.6923992600045,503.3944140798909 480.6923992600045,488.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="504" y="450" width="180" height="92" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="594.0" y="499" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">[3,3]</text>
+<line x1="691" y1="496" x2="724" y2="496" stroke="#183747" stroke-width="4"/>
+<polygon points="724,496 708.6923992600045,503.3944140798909 708.6923992600045,488.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="732" y="450" width="180" height="92" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="822.0" y="499" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">[3,3]</text>
+<text x="480" y="647" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="700" fill="#e57735" text-anchor="middle">交换律 + 结合律 + 幂等性</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">最后到来的旧状态，不会把已有信息冲掉。</text></svg>

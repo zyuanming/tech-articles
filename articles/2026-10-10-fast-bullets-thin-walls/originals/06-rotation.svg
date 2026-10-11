@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>中心没动，边缘也可能扫过障碍</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">中心没动，边缘也可能扫过障碍</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只投射圆心的一条线，抓不到所有旋转运动</text>
+<rect x="390" y="175" width="80" height="490" rx="0" fill="#adc9e5" stroke="#5276bf" stroke-width="2"/>
+<rect x="185" y="380" width="490" height="80" rx="0" fill="#efbd91" stroke="#e57735" stroke-width="2"/>
+<path d="M 440 185 A 235 235 0 0 1 665 410" fill="none" stroke="#e57735" stroke-width="6" stroke-linejoin="round"/>
+<line x1="650" y1="340" x2="665" y2="407" stroke="#e57735" stroke-width="5"/>
+<polygon points="665,407 654.4399243156495,393.67765780574643 668.8715008289395,390.44670784008446" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="430" cy="420" r="15" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="640" y="250" width="55" height="90" rx="0" fill="#c54c53" stroke="#c54c53" stroke-width="2"/>
+<text x="640" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#c54c53" text-anchor="start">障碍</text>
+<text x="50" y="707" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">旋转长杆：中心轨迹为一个点，外端却扫过圆弧。</text></svg>

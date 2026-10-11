@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>把 x 方向转成 y 方向</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把 x 方向转成 y 方向</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">绕 z 轴转 90°：s = √2 / 2，q = s + s k</text>
+<line x1="185" y1="480" x2="430" y2="480" stroke="#c54c53" stroke-width="6"/>
+<polygon points="430,480 414.6923992600045,487.3944140798909 414.6923992600045,472.6055859201091" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<line x1="185" y1="480" x2="185" y2="225" stroke="#5276bf" stroke-width="6"/>
+<polygon points="185,225 192.3944140798909,240.3076007399955 177.6055859201091,240.3076007399955" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<path d="M 365 480 A 180 180 0 0 0 185 300" fill="none" stroke="#e57735" stroke-width="7" stroke-linejoin="round"/>
+<line x1="205" y1="303" x2="185" y2="300" stroke="#e57735" stroke-width="6"/>
+<polygon points="185,300 201.23513358074,294.958131535281 199.04135211321042,309.5833413188116" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="410" y="530" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#c54c53" text-anchor="start">i</text>
+<text x="140" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#5276bf" text-anchor="start">j</text>
+<text x="275" y="350" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#e57735" text-anchor="start">90°</text>
+<text x="505" y="245" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">p = i</text>
+<text x="505" y="325" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">q p = s i + s j</text>
+<text x="505" y="405" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">q⁻¹ = s − s k</text>
+<text x="505" y="485" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#087f8c" text-anchor="start">q p q⁻¹ = j</text>
+<text x="125" y="645" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#183747" text-anchor="start">结果：(1,0,0) → (0,1,0)</text>
+<text x="42" y="752" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">乘法按 i j = k、j k = i、k i = j，反向则变号。</text></svg>

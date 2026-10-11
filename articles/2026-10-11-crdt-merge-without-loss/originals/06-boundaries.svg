@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>收敛有条件，不是让差异瞬间消失</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">收敛有条件，不是让差异瞬间消失</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">状态型 CRDT 的直觉边界</text>
+<rect x="70" y="185" width="240" height="305" rx="30" fill="#ffffff" stroke="#087f8c" stroke-width="5"/>
+<rect x="94" y="237" width="192" height="185" rx="5" fill="#f7f4ed" stroke="#d2dbd8" stroke-width="2"/>
+<text x="190" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">甲</text>
+<text x="190" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#183747" text-anchor="middle">[3,0]</text>
+<circle cx="190" cy="458" r="12" fill="#d2dbd8" stroke="#d2dbd8" stroke-width="3"/>
+<rect x="620" y="185" width="240" height="305" rx="30" fill="#ffffff" stroke="#5276bf" stroke-width="5"/>
+<rect x="644" y="237" width="192" height="185" rx="5" fill="#f7f4ed" stroke="#d2dbd8" stroke-width="2"/>
+<text x="740" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">乙</text>
+<text x="740" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#183747" text-anchor="middle">[0,3]</text>
+<circle cx="740" cy="458" r="12" fill="#d2dbd8" stroke="#d2dbd8" stroke-width="3"/>
+<line x1="340" y1="350" x2="610" y2="350" stroke="#c54c53" stroke-width="5" stroke-dasharray="12 12"/>
+<text x="480" y="310" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="middle">断网期间</text>
+<text x="480" y="409" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">允许不同</text>
+<line x1="345" y1="580" x2="610" y2="580" stroke="#087f8c" stroke-width="4"/>
+<polygon points="610,580 594.6923992600045,587.3944140798909 594.6923992600045,572.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="480" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">更新最终传播 + 合并规则正确</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">永久失联不能传播；收敛也不等于保住所有业务约束。</text></svg>

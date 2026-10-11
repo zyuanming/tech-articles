@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>二维相撞，需要两个方向同时重叠</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">二维相撞，需要两个方向同时重叠</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">以下时间区间为独立教学例子；整步记为 0～1</text>
+<line x1="255" y1="250" x2="865" y2="250" stroke="#d2dbd8" stroke-width="12"/>
+<line x1="438.0" y1="250" x2="621.0" y2="250" stroke="#087f8c" stroke-width="22"/>
+<text x="55" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">x 方向</text>
+<text x="438.0" y="222" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.3</text>
+<text x="621.0" y="222" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.6</text>
+<line x1="255" y1="390" x2="865" y2="390" stroke="#d2dbd8" stroke-width="12"/>
+<line x1="499.0" y1="390" x2="743.0" y2="390" stroke="#5276bf" stroke-width="22"/>
+<text x="55" y="402" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">y 方向</text>
+<text x="499.0" y="362" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="middle">0.4</text>
+<text x="743.0" y="362" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="middle">0.8</text>
+<line x1="255" y1="530" x2="865" y2="530" stroke="#d2dbd8" stroke-width="12"/>
+<line x1="499.0" y1="530" x2="621.0" y2="530" stroke="#e57735" stroke-width="22"/>
+<text x="55" y="542" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">共同区间</text>
+<text x="499.0" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="middle">0.4</text>
+<text x="621.0" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="middle">0.6</text>
+<text x="65" y="650" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="start">进入：max(0.3, 0.4) = 0.4</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">离开：min(0.6, 0.8) = 0.6；进入不晚于离开。</text></svg>

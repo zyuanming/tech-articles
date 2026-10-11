@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1117" viewBox="0 0 960 670" role="img"><title>一张地图，两种线</title><rect width="960" height="670" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一张地图，两种线</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">左：真实连接；右：只用于识别集合的父指针</text>
+<line x1="120" y1="280" x2="330" y2="280" stroke="#087f8c" stroke-width="6"/>
+<line x1="330" y1="280" x2="330" y2="480" stroke="#087f8c" stroke-width="6"/>
+<line x1="330" y1="480" x2="120" y2="480" stroke="#087f8c" stroke-width="6"/>
+<circle cx="120" cy="280" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="120" y="290" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">0</text>
+<circle cx="330" cy="280" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="330" y="290" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">1</text>
+<circle cx="120" cy="480" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="120" y="490" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">2</text>
+<circle cx="330" cy="480" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="330" y="490" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">3</text>
+<line x1="650" y1="465" x2="830" y2="320" stroke="#e57735" stroke-width="4"/>
+<polygon points="830,320 822.7178804526193,335.36133896825584 813.4404117174654,323.8444812280648" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="830" y1="465" x2="830" y2="320" stroke="#e57735" stroke-width="4"/>
+<polygon points="830,320 837.3944140798909,335.3076007399955 822.6055859201091,335.3076007399955" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="650" y1="265" x2="830" y2="320" stroke="#e57735" stroke-width="4"/>
+<polygon points="830,320 813.1997671292402,322.59849485053184 817.5213368373171,308.4551758059162" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="650" cy="490" r="29" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="650" y="500" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">0</text>
+<circle cx="830" cy="490" r="29" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="830" y="500" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">1</text>
+<circle cx="650" cy="290" r="29" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="650" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">2</text>
+<circle cx="830" cy="290" r="29" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="830" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">3</text>
+<text x="820" y="220" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#e57735" text-anchor="middle">根3指向自己</text>
+<text x="220" y="560" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">存在桥1—3</text>
+<text x="735" y="560" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#e57735" text-anchor="middle">父指针0→3 ≠ 存在桥0—3</text></svg>

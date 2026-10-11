@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1083" viewBox="0 0 960 650" role="img"><title>重复 union 不会减少组数</title><rect width="960" height="650" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">重复 union 不会减少组数</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">8个节点，六次操作</text>
+<text x="80" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">union(0,1)</text>
+<rect x="340" y="178" width="399" height="37" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="754" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">7组</text>
+<text x="80" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">union(2,3)</text>
+<rect x="340" y="236" width="342" height="37" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="697" y="268" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">6组</text>
+<text x="80" y="326" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">union(4,5)</text>
+<rect x="340" y="294" width="285" height="37" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="640" y="326" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">5组</text>
+<text x="80" y="384" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">union(1,3)</text>
+<rect x="340" y="352" width="228" height="37" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="583" y="384" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">4组</text>
+<text x="80" y="442" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">union(0,2)</text>
+<rect x="340" y="410" width="228" height="37" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="583" y="442" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#e57735" text-anchor="start">4组</text>
+<text x="80" y="500" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">union(5,6)</text>
+<rect x="340" y="468" width="171" height="37" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="526" y="500" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">3组</text>
+<text x="42" y="612" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">终态：{0,1,2,3}  {4,5,6}  {7}</text></svg>

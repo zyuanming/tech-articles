@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>让一次磁盘读取，多带回路标</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">让一次磁盘读取，多带回路标</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">B 树家族：宽一些，层数就能少一些</text>
+<rect x="365" y="180" width="230" height="70" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="480.0" y="225.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">根页</text>
+<line x1="480" y1="255" x2="190" y2="333" stroke="#087f8c" stroke-width="4"/>
+<polygon points="190,333 202.86165896057932,321.883447981422 206.70282975681965,336.1647240187258" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="80" y="340" width="220" height="70" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="190.0" y="385.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">索引页</text>
+<line x1="190" y1="416" x2="102" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="102,512 106.89289987017509,495.71935103073463 117.79454577687557,505.71252644521013" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="67" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="79" y1="544" x2="125" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="79" y1="568" x2="125" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="79" y1="592" x2="125" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="190" y1="416" x2="190" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="190,512 182.6055859201091,496.6923992600045 197.3944140798909,496.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="155" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="167" y1="544" x2="213" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="167" y1="568" x2="213" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="167" y1="592" x2="213" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="190" y1="416" x2="278" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="278,512 262.20545422312443,505.7125264452101 273.1071001298249,495.71935103073463" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="243" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="255" y1="544" x2="301" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="255" y1="568" x2="301" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="255" y1="592" x2="301" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="480" y1="255" x2="480" y2="333" stroke="#087f8c" stroke-width="4"/>
+<polygon points="480,333 472.6055859201091,317.6923992600045 487.3944140798909,317.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="370" y="340" width="220" height="70" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="385.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">索引页</text>
+<line x1="480" y1="416" x2="392" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="392,512 396.8928998701751,495.71935103073463 407.79454577687557,505.71252644521013" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="357" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="369" y1="544" x2="415" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="369" y1="568" x2="415" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="369" y1="592" x2="415" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="480" y1="416" x2="480" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="480,512 472.6055859201091,496.6923992600045 487.3944140798909,496.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="445" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="457" y1="544" x2="503" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="457" y1="568" x2="503" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="457" y1="592" x2="503" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="480" y1="416" x2="568" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="568,512 552.2054542231244,505.7125264452101 563.107100129825,495.71935103073463" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="533" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="545" y1="544" x2="591" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="545" y1="568" x2="591" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="545" y1="592" x2="591" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="480" y1="255" x2="770" y2="333" stroke="#087f8c" stroke-width="4"/>
+<polygon points="770,333 753.2971702431804,336.1647240187258 757.1383410394207,321.883447981422" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="660" y="340" width="220" height="70" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="770.0" y="385.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">索引页</text>
+<line x1="770" y1="416" x2="682" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="682,512 686.892899870175,495.71935103073463 697.7945457768756,505.71252644521013" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="647" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="659" y1="544" x2="705" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="659" y1="568" x2="705" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="659" y1="592" x2="705" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="770" y1="416" x2="770" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="770,512 762.6055859201091,496.6923992600045 777.3944140798909,496.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="735" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="747" y1="544" x2="793" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="747" y1="568" x2="793" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="747" y1="592" x2="793" y2="592" stroke="#087f8c" stroke-width="3"/>
+<line x1="770" y1="416" x2="858" y2="512" stroke="#087f8c" stroke-width="4"/>
+<polygon points="858,512 842.2054542231244,505.7125264452101 853.107100129825,495.71935103073463" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="823" y="520" width="70" height="105" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<line x1="835" y1="544" x2="881" y2="544" stroke="#087f8c" stroke-width="3"/>
+<line x1="835" y1="568" x2="881" y2="568" stroke="#087f8c" stroke-width="3"/>
+<line x1="835" y1="592" x2="881" y2="592" stroke="#087f8c" stroke-width="3"/>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">每个框是一页；叶页保持同深，增删通过局部调整维持结构。</text></svg>

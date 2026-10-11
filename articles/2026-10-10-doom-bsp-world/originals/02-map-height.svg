@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>平面里记边界，另存地板与天花板</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">平面里记边界，另存地板与天花板</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">这是教学房间，不是 Doom 原版关卡</text>
+<rect x="70" y="210" width="320" height="330" rx="0" fill="#e2efeb" stroke="#183747" stroke-width="6"/>
+<line x1="250" y1="210" x2="250" y2="350" stroke="#e57735" stroke-width="8"/>
+<line x1="250" y1="410" x2="250" y2="540" stroke="#e57735" stroke-width="8"/>
+<text x="115" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">区域 A</text>
+<text x="275" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">B</text>
+<text x="82" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">俯视图：线段划分区域</text>
+<polygon points="530,480 720,570 890,465 700,380" fill="#d9e4d2" stroke="#183747" stroke-width="4"/>
+<polygon points="530,240 700,140 700,380 530,480" fill="#bbccce" stroke="#183747" stroke-width="4"/>
+<polygon points="700,140 890,225 890,465 700,380" fill="#e2c4a6" stroke="#183747" stroke-width="4"/>
+<line x1="530" y1="240" x2="720" y2="330" stroke="#183747" stroke-width="4"/>
+<line x1="720" y1="330" x2="890" y2="225" stroke="#183747" stroke-width="4"/>
+<line x1="720" y1="330" x2="720" y2="570" stroke="#d2dbd8" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="540" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">高度把平面区域“立起来”</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">基本地图约束 ≠ 所有现代 Doom 衍生引擎的能力</text></svg>

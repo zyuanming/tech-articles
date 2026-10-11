@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>误差被搬走，不是从世界上消失</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">误差被搬走，不是从世界上消失</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">抖动用细碎纹理，换掉人眼更容易察觉的大块色阶</text>
+<rect x="50" y="190" width="405" height="290" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="233" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">需要留意的代价</text>
+<text x="72" y="276" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">边界会丢弃扩散份额</text>
+<text x="72" y="316" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">扫描方向会留下纹理</text>
+<text x="72" y="356" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">放大后黑白点更明显</text>
+<text x="72" y="396" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">彩色调色板需要选距离</text>
+<rect x="495" y="190" width="405" height="290" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="517" y="233" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">工程里还要问</text>
+<text x="517" y="276" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">输入是否在线性光域？</text>
+<text x="517" y="316" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">透明度要怎样处理？</text>
+<text x="517" y="356" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">视频帧间会不会闪烁？</text>
+<text x="517" y="396" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">设备能否真的表现灰度？</text>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">抖动不是“恢复丢失细节”的魔法，也不保证逐像素误差更小。</text></svg>

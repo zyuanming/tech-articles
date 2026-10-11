@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>能还原，不等于能安全保密</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">能还原，不等于能安全保密</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">直接做 mᵉ mod n，仍缺少完整加密方案</text>
+<rect x="110" y="185" width="740" height="120" rx="12" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="480.0" y="227" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#c54c53" text-anchor="middle">裸RSA</text>
+<text x="480.0" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">确定的消息 → 确定的密文</text>
+<line x1="480" y1="307" x2="480" y2="332" stroke="#c54c53" stroke-width="4"/>
+<polygon points="480,332 472.6055859201091,316.6923992600045 487.3944140798909,316.6923992600045" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<rect x="110" y="335" width="740" height="120" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="480.0" y="377" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#e57735" text-anchor="middle">完整加密方案</text>
+<text x="480.0" y="417" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">编码、随机化与RSA原语</text>
+<line x1="480" y1="457" x2="480" y2="482" stroke="#e57735" stroke-width="4"/>
+<polygon points="480,482 472.6055859201091,466.6923992600045 487.3944140798909,466.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="110" y="485" width="740" height="120" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="527" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#087f8c" text-anchor="middle">完整应用协议</text>
+<text x="480.0" y="567" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="middle">身份验证、密钥管理、可靠实现</text>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">RSAES-OAEP 与 RSASSA-PSS 分别服务加密和签名，不可混用。</text></svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1183" viewBox="0 0 960 710" role="img"><title>一台玩具栈机器怎样算出 14？</title><rect width="960" height="710" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一台玩具栈机器怎样算出 14？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">栈顶在上；MUL 和 ADD 取出两个数再压回结果</text>
+<text x="114" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#087f8c" text-anchor="middle">PUSH 2</text>
+<rect x="50" y="550" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="114" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<line x1="187" y1="440" x2="222" y2="440" stroke="#e57735" stroke-width="3"/>
+<polygon points="222,440 206.6923992600045,447.3944140798909 206.6923992600045,432.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="298" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#087f8c" text-anchor="middle">PUSH 3</text>
+<rect x="234" y="550" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="298" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<rect x="234" y="464" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="298" y="513" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">3</text>
+<line x1="371" y1="440" x2="406" y2="440" stroke="#e57735" stroke-width="3"/>
+<polygon points="406,440 390.6923992600045,447.3944140798909 390.6923992600045,432.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="482" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#087f8c" text-anchor="middle">PUSH 4</text>
+<rect x="418" y="550" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="482" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<rect x="418" y="464" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="482" y="513" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">3</text>
+<rect x="418" y="378" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="482" y="427" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">4</text>
+<line x1="555" y1="440" x2="590" y2="440" stroke="#e57735" stroke-width="3"/>
+<polygon points="590,440 574.6923992600045,447.3944140798909 574.6923992600045,432.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="666" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#087f8c" text-anchor="middle">MUL</text>
+<rect x="602" y="550" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="666" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<rect x="602" y="464" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="666" y="513" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">12</text>
+<line x1="739" y1="440" x2="774" y2="440" stroke="#e57735" stroke-width="3"/>
+<polygon points="774,440 758.6923992600045,447.3944140798909 758.6923992600045,432.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="850" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#087f8c" text-anchor="middle">ADD</text>
+<rect x="786" y="550" width="128" height="72" rx="9" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="850" y="599" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="middle">14</text>
+<text x="42" y="672" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">只有 MUL 完成后，栈顶才是 12；最后 ADD 得 14。</text></svg>

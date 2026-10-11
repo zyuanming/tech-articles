@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 960 640" role="img"><title>总排序，多加一条约定</title><rect width="960" height="640" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">总排序，多加一条约定</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">先比逻辑时间；相同再比进程名 A &lt; B &lt; C</text>
+<rect x="45" y="250" width="195" height="100" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="142.5" y="311.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="middle">2,A</text>
+<line x1="245" y1="300" x2="265" y2="300" stroke="#57727c" stroke-width="4"/>
+<polygon points="265,300 249.6923992600045,307.3944140798909 249.6923992600045,292.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="270" y="250" width="195" height="100" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="367.5" y="311.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#5276bf" text-anchor="middle">2,C</text>
+<line x1="470" y1="300" x2="490" y2="300" stroke="#57727c" stroke-width="4"/>
+<polygon points="490,300 474.6923992600045,307.3944140798909 474.6923992600045,292.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="495" y="250" width="195" height="100" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="592.5" y="311.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="middle">3,A</text>
+<line x1="695" y1="300" x2="715" y2="300" stroke="#57727c" stroke-width="4"/>
+<polygon points="715,300 699.6923992600045,307.3944140798909 699.6923992600045,292.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="720" y="250" width="195" height="100" rx="10" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="817.5" y="311.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#e57735" text-anchor="middle">3,B</text>
+<text x="480" y="444" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">这个次序兼容因果，但额外排定了并发事件。</text>
+<text x="480" y="501" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#57727c" text-anchor="middle">各节点还得确认：更早的请求不会随后到达。</text>
+<text x="42" y="602" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">排序键解决“怎么比”；通信协议解决“何时可以执行”。</text></svg>

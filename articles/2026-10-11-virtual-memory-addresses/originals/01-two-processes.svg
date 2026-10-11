@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>地址相同，地址空间可以不同</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">地址相同，地址空间可以不同</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">虚拟地址不是唯一的物理位置</text>
+<rect x="50" y="215" width="315" height="130" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="207.5" y="264" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">进程甲：0x2345</text>
+<text x="207.5" y="309" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">页 2 → 页框 9</text>
+<rect x="50" y="465" width="315" height="130" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="207.5" y="514" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">进程乙：0x2345</text>
+<text x="207.5" y="559" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">页 2 → 页框 4</text>
+<rect x="615" y="215" width="285" height="130" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="757.5" y="264" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">物理 0x9345</text>
+<rect x="615" y="465" width="285" height="130" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="757.5" y="514" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">物理 0x4345</text>
+<line x1="383" y1="280" x2="595" y2="280" stroke="#087f8c" stroke-width="4"/>
+<polygon points="595,280 579.6923992600045,287.3944140798909 579.6923992600045,272.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="383" y1="530" x2="595" y2="530" stroke="#5276bf" stroke-width="4"/>
+<polygon points="595,530 579.6923992600045,537.3944140798909 579.6923992600045,522.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">映射由上下文决定；系统也可有意建立共享映射。</text></svg>

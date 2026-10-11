@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1083" viewBox="0 0 960 650" role="img"><title>只确认“不在”的门口小板</title><rect width="960" height="650" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">只确认“不在”的门口小板</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">用很小的内存，减少无效的昂贵查找</text>
+<rect x="40" y="225" width="200" height="130" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="140.0" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">查询书名</text>
+<rect x="350" y="225" width="255" height="130" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="477.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">Bloom过滤器</text>
+<rect x="720" y="140" width="200" height="130" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="820.0" y="182" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">完整目录</text>
+<text x="820.0" y="222" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">最后确认</text>
+<rect x="720" y="405" width="200" height="130" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="820.0" y="447" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">直接返回</text>
+<text x="820.0" y="487" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">肯定不在</text>
+<line x1="250" y1="290" x2="335" y2="290" stroke="#5276bf" stroke-width="4"/>
+<polygon points="335,290 319.6923992600045,297.3944140798909 319.6923992600045,282.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="610" y1="270" x2="705" y2="215" stroke="#e57735" stroke-width="4"/>
+<polygon points="705,215 695.4572696053872,229.06898349617813 688.0475302985279,216.27034287523946" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="610" y1="315" x2="705" y2="465" stroke="#087f8c" stroke-width="4"/>
+<polygon points="705,465 690.5626942988878,456.02424353646825 703.056578433365,448.1114502512993" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="675" y="175" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#e57735" text-anchor="middle">可能在</text>
+<text x="665" y="420" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#087f8c" text-anchor="middle">遇到0</text>
+<text x="42" y="612" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">放行只是“值得再查”；不是集合成员的最终证明。</text></svg>

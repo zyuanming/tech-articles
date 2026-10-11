@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>留一点播放缓冲，换取前后都有数据</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">留一点播放缓冲，换取前后都有数据</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">假设此刻估计服务器时间为 1140 ms，缓冲为 100 ms</text>
+<line x1="85" y1="330" x2="870" y2="330" stroke="#183747" stroke-width="4"/>
+<polygon points="870,330 854.6923992600045,337.3944140798909 854.6923992600045,322.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<circle cx="295.0" cy="330" r="12" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="295.0" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">快照 A</text>
+<text x="295.0" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1000</text>
+<circle cx="443.0" cy="330" r="12" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="443.0" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="middle">显示目标</text>
+<text x="443.0" y="463" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="middle">1040</text>
+<circle cx="665.0" cy="330" r="12" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="665.0" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">快照 B</text>
+<text x="665.0" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">1100</text>
+<circle cx="813.0" cy="330" r="12" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="813.0" y="422" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="middle">估计现在</text>
+<text x="813.0" y="463" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="middle">1140</text>
+<line x1="443.0" y1="525" x2="813.0" y2="525" stroke="#e57735" stroke-width="6"/>
+<line x1="443.0" y1="511" x2="443.0" y2="539" stroke="#e57735" stroke-width="4"/>
+<line x1="813.0" y1="511" x2="813.0" y2="539" stroke="#e57735" stroke-width="4"/>
+<text x="628.0" y="575" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">100 ms 的历史窗口</text>
+<text x="65" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">前提：快照 A 和 B 都已收到，才能夹住目标时间。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">缓冲不足会断粮；缓冲太大则增加看到他人的延迟。</text></svg>

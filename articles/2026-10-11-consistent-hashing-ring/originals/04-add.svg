@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>D加入，只切走C的一段</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">D加入，只切走C的一段</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">D位于60；区间(40,60]改归D</text>
+<circle cx="245" cy="380" r="160" fill="none" stroke="#d2dbd8" stroke-width="5"/>
+<circle cx="339.04564036679574" cy="250.5572809000084" r="27" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="339.04564036679574" y="259.55728090000844" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#087f8c" text-anchor="middle">A</text>
+<text x="367.84711772912686" y="218.915448175636" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#087f8c" text-anchor="middle">10</text>
+<circle cx="339.04564036679574" cy="509.44271909999156" r="27" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="339.04564036679574" y="518.4427190999916" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#5276bf" text-anchor="middle">B</text>
+<text x="367.84711772912686" y="557.084551824364" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#5276bf" text-anchor="middle">40</text>
+<circle cx="92.83095739277542" cy="330.55728090000844" r="27" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="92.83095739277542" y="339.55728090000844" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#e57735" text-anchor="middle">C</text>
+<text x="46.22918809431289" y="323.415448175636" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#e57735" text-anchor="middle">80</text>
+<circle cx="245.0" cy="495.0" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="245.0" y="474.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">50</text>
+<circle cx="135.62850062605736" cy="415.536954353119" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="162.25808308232166" y="413.88447851062045" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">70</text>
+<text x="245" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" font-weight="400" fill="#57727c" text-anchor="middle">顺时针 →</text>
+<circle cx="715" cy="380" r="160" fill="none" stroke="#d2dbd8" stroke-width="5"/>
+<circle cx="809.0456403667957" cy="250.5572809000084" r="27" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="809.0456403667957" y="259.55728090000844" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#087f8c" text-anchor="middle">A</text>
+<text x="837.8471177291269" y="218.915448175636" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#087f8c" text-anchor="middle">10</text>
+<circle cx="809.0456403667957" cy="509.44271909999156" r="27" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="809.0456403667957" y="518.4427190999916" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#5276bf" text-anchor="middle">B</text>
+<text x="837.8471177291269" y="557.084551824364" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#5276bf" text-anchor="middle">40</text>
+<circle cx="620.9543596332044" cy="509.4427190999917" r="27" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="620.9543596332044" y="518.4427190999917" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#c54c53" text-anchor="middle">D</text>
+<text x="592.1528822708732" y="557.0845518243641" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#c54c53" text-anchor="middle">60</text>
+<circle cx="562.8309573927754" cy="330.55728090000844" r="27" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="562.8309573927754" y="339.55728090000844" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#e57735" text-anchor="middle">C</text>
+<text x="516.2291880943129" y="323.415448175636" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#e57735" text-anchor="middle">80</text>
+<circle cx="715.0" cy="495.0" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="715.0" y="474.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">50</text>
+<circle cx="605.6285006260573" cy="415.536954353119" r="7" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="632.2580830823216" y="413.88447851062045" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="middle">70</text>
+<text x="715" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" font-weight="400" fill="#57727c" text-anchor="middle">顺时针 →</text>
+<line x1="440" y1="380" x2="515" y2="380" stroke="#183747" stroke-width="4"/>
+<polygon points="515,380 499.6923992600045,387.3944140798909 499.6923992600045,372.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="245" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#e57735" text-anchor="middle">之前：50与70都归C</text>
+<text x="715" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#087f8c" text-anchor="middle">之后：50归D，70仍归C</text></svg>

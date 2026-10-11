@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1883" viewBox="0 0 960 1130" role="img"><title>三种放大，分别在数什么？</title><rect width="960" height="1130" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">三种放大，分别在数什么？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">以下三组数相互独立，均为教学构造</text>
+<text x="42" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="start">1  写放大：本例把 WAL 也计入</text>
+<text x="45" y="248" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">逻辑写入</text>
+<rect x="270" y="207" width="140" height="68" rx="5" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="340" y="253" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">100 MB</text>
+<text x="45" y="336" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">累计实写</text>
+<rect x="270" y="294" width="140" height="68" rx="4" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<text x="340" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#ffffff" text-anchor="middle">WAL 100</text>
+<rect x="410" y="294" width="140" height="68" rx="4" fill="#5276bf" stroke="#ffffff" stroke-width="2"/>
+<text x="480" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#ffffff" text-anchor="middle">SST 100</text>
+<rect x="550" y="294" width="140" height="68" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="620" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#ffffff" text-anchor="middle">整理①100</text>
+<rect x="690" y="294" width="140" height="68" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="760" y="337" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#ffffff" text-anchor="middle">整理②100</text>
+<text x="480" y="412" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#087f8c" text-anchor="middle">(100 + 100 + 100 + 100) ÷ 100 = 4 倍</text>
+<text x="42" y="500" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#5276bf" text-anchor="start">2  读放大：一个查询检查 3 个候选文件</text>
+<rect x="65" y="545" width="245" height="113" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="187" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#5276bf" text-anchor="middle">F1</text>
+<text x="187" y="628" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle">没有 Z</text>
+<line x1="322" y1="600" x2="345" y2="600" stroke="#5276bf" stroke-width="4"/>
+<polygon points="345,600 329.6923992600045,607.3944140798909 329.6923992600045,592.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="360" y="545" width="245" height="113" rx="10" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="482" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#5276bf" text-anchor="middle">F2</text>
+<text x="482" y="628" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#5276bf" text-anchor="middle">没有 Z</text>
+<line x1="617" y1="600" x2="640" y2="600" stroke="#5276bf" stroke-width="4"/>
+<polygon points="640,600 624.6923992600045,607.3944140798909 624.6923992600045,592.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="655" y="545" width="245" height="113" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="777" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="700" fill="#087f8c" text-anchor="middle">F3</text>
+<text x="777" y="628" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">找到 Z</text>
+<text x="480" y="712" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">候选检查 ≠ 磁盘 I/O：缓存、范围和过滤器都会影响它。</text>
+<text x="42" y="800" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#e57735" text-anchor="start">3  空间放大：看同一个时刻的占用</text>
+<rect x="100" y="851" width="350" height="85" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="275.0" y="905" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">有效 100 MB</text>
+<rect x="450" y="851" width="140" height="85" rx="4" fill="#5276bf" stroke="#ffffff" stroke-width="2"/>
+<text x="520.0" y="905" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">旧 40</text>
+<rect x="590" y="851" width="210" height="85" rx="4" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<text x="695.0" y="905" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">临时 60</text>
+<text x="480" y="1005" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#e57735" text-anchor="middle">(100 + 40 + 60) ÷ 100 = 2 倍</text>
+<text x="42" y="1092" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这些不是产品默认值或实测；比较前先对齐分母、口径和时刻。</text></svg>

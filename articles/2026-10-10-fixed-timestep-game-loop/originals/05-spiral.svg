@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>追赶需要余力，不能越追越欠</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">追赶需要余力，不能越追越欠</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">假设每模拟10 ms，就花掉15 ms现实时间</text>
+<rect x="100" y="500" width="180" height="110" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="190" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">落后</text>
+<rect x="360" y="440" width="180" height="170" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="450" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">补算</text>
+<rect x="620" y="360" width="180" height="250" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="710" y="330" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="middle">更落后</text>
+<line x1="255" y1="390" x2="340" y2="320" stroke="#c54c53" stroke-width="5"/>
+<polygon points="340,320 332.88428281528843,335.4391246172573 323.48291749279866,324.02318101137683" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<line x1="515" y1="320" x2="600" y2="230" stroke="#c54c53" stroke-width="5"/>
+<polygon points="600,230 594.8652773901865,246.2060057916894 584.113604807226,236.0516483522267" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">真实开销大于模拟推进时间时，单靠补步追不上时钟。</text></svg>

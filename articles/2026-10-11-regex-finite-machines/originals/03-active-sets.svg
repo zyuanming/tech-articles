@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>不保留走过的路，只保留可能所在的地方</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">不保留走过的路，只保留可能所在的地方</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">输入 abbc；每个字符只向前读一次</text>
+<rect x="48" y="170" width="862" height="86" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="73" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">开始</text>
+<text x="245" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">{0}</text>
+<text x="437" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">尚未消耗字符</text>
+<rect x="48" y="273" width="862" height="86" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="73" y="326" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">读 a</text>
+<text x="245" y="326" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">{1}</text>
+<text x="437" y="326" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">唯一合法去处</text>
+<rect x="48" y="376" width="862" height="86" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="73" y="429" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">读 b</text>
+<text x="245" y="429" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">{2, 3}</text>
+<text x="437" y="429" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">短分支与长分支都活着</text>
+<rect x="48" y="479" width="862" height="86" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="73" y="532" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">读 b</text>
+<text x="245" y="532" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">{2}</text>
+<text x="437" y="532" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">状态 2 无 b 边；状态 3 可走</text>
+<rect x="48" y="582" width="862" height="86" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="73" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">读 c</text>
+<text x="245" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#087f8c" text-anchor="start">{4}</text>
+<text x="437" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="start">输入结束，并且到达接受状态</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">同一轮到达同一状态多次，也只放进集合一次。</text></svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1217" viewBox="0 0 960 730" role="img"><title>随机冲浪者，不会永远困在链接里</title><rect width="960" height="730" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#183747" text-anchor="start">随机冲浪者，不会永远困在链接里</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">本文取跟随概率 d = 0.8；随机跳转到四页时各占 1/4</text>
+<rect x="50" y="180" width="860" height="155" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">每一步先掷一枚“偏心硬币”</text>
+<text x="72" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">80%：沿当前页出链随机选一条。</text>
+<text x="72" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">20%：不管当前位置，随机跳到 A、B、C、D。</text>
+<rect x="50" y="365" width="860" height="155" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="72" y="408" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">如果当前页没有出链</text>
+<text x="72" y="451" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">本文把它的“沿链接”分支也均匀分到四页。</text>
+<text x="72" y="491" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">这样一份概率不会因为走到 D 而凭空消失。</text>
+<text x="80" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="start">任何一页都收到基础跳转量：0.2 / 4 = 0.05</text>
+<text x="42" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">模型规则必须说清楚；不同的跳转分布会得到不同的 PageRank。</text></svg>

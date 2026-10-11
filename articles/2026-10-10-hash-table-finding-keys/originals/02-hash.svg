@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>给单词算一个数，再取余数</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">给单词算一个数，再取余数</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只用于观察碰撞的玩具规则：字符编码相加</text>
+<circle cx="155" cy="270" r="57" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="155" y="285" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="50" font-weight="400" fill="#ffffff" text-anchor="middle">c</text>
+<text x="155" y="398" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="400" fill="#087f8c" text-anchor="middle">99</text>
+<text x="298" y="398" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="400" fill="#183747" text-anchor="middle">+</text>
+<circle cx="440" cy="270" r="57" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="440" y="285" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="50" font-weight="400" fill="#ffffff" text-anchor="middle">a</text>
+<text x="440" y="398" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="400" fill="#5276bf" text-anchor="middle">97</text>
+<text x="583" y="398" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="400" fill="#183747" text-anchor="middle">+</text>
+<circle cx="725" cy="270" r="57" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="725" y="285" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="50" font-weight="400" fill="#ffffff" text-anchor="middle">t</text>
+<text x="725" y="398" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="43" font-weight="400" fill="#e57735" text-anchor="middle">116</text>
+<text x="480" y="518" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="41" font-weight="400" fill="#183747" text-anchor="middle">99 + 97 + 116 = 312</text>
+<text x="480" y="616" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="45" font-weight="400" fill="#c54c53" text-anchor="middle">312 % 8 = 0</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这个规则故意很弱：调换字母顺序，和不变。</text></svg>

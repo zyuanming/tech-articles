@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1367" viewBox="0 0 960 820" role="img"><title>同一个函数，保存不同的一次调用</title><rect width="960" height="820" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一个函数，保存不同的一次调用</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">走到 C 时，前三层没有消失，只是在等待</text>
+<rect x="135" y="185" width="685" height="112" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="165" y="228" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="start">visit(C)</text>
+<text x="165" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">没有新邻居：准备返回失败</text>
+<rect x="135" y="322" width="685" height="112" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="165" y="365" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="start">visit(B)</text>
+<text x="165" y="409" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">等待 C；失败后结束</text>
+<rect x="135" y="459" width="685" height="112" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="165" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="start">visit(A)</text>
+<text x="165" y="546" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">等待 B；之后尝试 D</text>
+<rect x="135" y="596" width="685" height="112" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="165" y="639" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#087f8c" text-anchor="start">visit(S)</text>
+<text x="165" y="683" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">等待 A 的结果</text>
+<line x1="90" y1="725" x2="90" y2="200" stroke="#e57735" stroke-width="4"/>
+<polygon points="90,200 97.39441407989091,215.3076007399955 82.60558592010909,215.3076007399955" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="73" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#e57735" text-anchor="middle">栈顶</text>
+<text x="42" y="782" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">栈帧保存参数、局部进度和返回位置；不是复制整份函数代码。</text></svg>

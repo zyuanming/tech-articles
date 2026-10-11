@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1333" viewBox="0 0 960 800" role="img"><title>插值：沿单位球面的弧走</title><rect width="960" height="800" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">插值：沿单位球面的弧走</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">画的是四维单位球面的一个二维截面</text>
+<circle cx="380" cy="410" r="225" fill="#ffffff" stroke="#d2dbd8" stroke-width="4"/>
+<path d="M 605 410 A 225 225 0 0 0 380 185" fill="none" stroke="#087f8c" stroke-width="9" stroke-linejoin="round"/>
+<line x1="605" y1="410" x2="380" y2="185" stroke="#e57735" stroke-width="5"/>
+<circle cx="605.0" cy="410.0" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="587.8728948150396" cy="323.8962277178548" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="539.0990257669732" cy="250.90097423302683" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="466.1037722821452" cy="202.12710518496047" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="380.0" cy="185.0" r="9" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="635" y="420" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#087f8c" text-anchor="start">q₀</text>
+<text x="355" y="165" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#087f8c" text-anchor="start">q₁</text>
+<text x="625" y="530" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">弧：Slerp</text>
+<text x="540" y="605" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">弦：线性混合</text>
+<text x="90" y="705" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">直接沿弦走会离开单位球面，通常要再归一化。</text>
+<text x="42" y="762" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">Slerp 的等参数间隔对应等角间隔；先处理 q 与 −q 的符号。</text></svg>

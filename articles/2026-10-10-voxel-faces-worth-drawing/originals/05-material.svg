@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>相邻，不一定能够合并</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">相邻，不一定能够合并</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">同一平面还要检查材质、朝向、光照与纹理规则</text>
+<rect x="80" y="240" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="162" y="240" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="244" y="240" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="326" y="240" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="80" y="322" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="162" y="322" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="244" y="322" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="326" y="322" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="80" y="404" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="162" y="404" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="244" y="404" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="326" y="404" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="80" y="486" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="162" y="486" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="244" y="486" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="326" y="486" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="245" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">同一合并条件</text>
+<rect x="530" y="240" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="612" y="240" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="694" y="240" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="776" y="240" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="530" y="322" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="612" y="322" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="694" y="322" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="776" y="322" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="530" y="404" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="612" y="404" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="694" y="404" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="776" y="404" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="530" y="486" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="612" y="486" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<rect x="694" y="486" width="82" height="82" rx="0" fill="#e57735" stroke="#ffffff" stroke-width="2"/>
+<rect x="776" y="486" width="82" height="82" rx="0" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="695" y="640" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">棋盘格材质变化</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">右侧若每个大面只能用一种材质，就不能直接整片合并。</text></svg>

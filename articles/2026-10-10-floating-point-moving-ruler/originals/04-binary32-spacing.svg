@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>32 位浮点数的“尺子”，具体有多疏？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">32 位浮点数的“尺子”，具体有多疏？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">下列间隔指从该正数往上，到下一个可表示数</text>
+<text x="55" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#087f8c" text-anchor="start">1</text>
+<line x1="370" y1="198" x2="485" y2="198" stroke="#57727c" stroke-width="3"/>
+<polygon points="485,198 469.6923992600045,205.3944140798909 469.6923992600045,190.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="530" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">约 0.000000119</text>
+<text x="55" y="340" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#5276bf" text-anchor="start">1,024</text>
+<line x1="370" y1="328" x2="485" y2="328" stroke="#57727c" stroke-width="3"/>
+<polygon points="485,328 469.6923992600045,335.3944140798909 469.6923992600045,320.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="530" y="340" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">0.0001220703125</text>
+<text x="55" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#e57735" text-anchor="start">1,048,576</text>
+<line x1="370" y1="458" x2="485" y2="458" stroke="#57727c" stroke-width="3"/>
+<polygon points="485,458 469.6923992600045,465.3944140798909 469.6923992600045,450.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="530" y="470" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">0.125</text>
+<text x="55" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="700" fill="#c54c53" text-anchor="start">16,777,216</text>
+<line x1="370" y1="588" x2="485" y2="588" stroke="#57727c" stroke-width="3"/>
+<polygon points="485,588 469.6923992600045,595.3944140798909 469.6923992600045,580.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="530" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">2</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">标准 binary32，有限正常数；图中没有把不同间隔画成同比例。</text></svg>

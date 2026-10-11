@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>旧回信抵达时，先问它确认到了哪一步</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">旧回信抵达时，先问它确认到了哪一步</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">输入 #1、#2、#3 都向右走 1；本地先预测到了 3</text>
+<rect x="110" y="205" width="170" height="105" rx="12" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="195" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">#1  +1</text>
+<line x1="297" y1="255" x2="367" y2="255" stroke="#57727c" stroke-width="4"/>
+<polygon points="367,255 351.6923992600045,262.3944140798909 351.6923992600045,247.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="395" y="205" width="170" height="105" rx="12" fill="#5276bf" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">#2  +1</text>
+<line x1="582" y1="255" x2="652" y2="255" stroke="#57727c" stroke-width="4"/>
+<polygon points="652,255 636.6923992600045,262.3944140798909 636.6923992600045,247.6055859201091" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<rect x="680" y="205" width="170" height="105" rx="12" fill="#e57735" stroke="#d2dbd8" stroke-width="2"/>
+<text x="765" y="270" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">#3  +1</text>
+<text x="72" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#c54c53" text-anchor="start">服务器回信：已处理 #1，位置是 0.8</text>
+<line x1="110" y1="430" x2="850" y2="430" stroke="#d2dbd8" stroke-width="3"/>
+<circle cx="175" cy="525" r="37" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="175" y="537" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#ffffff" text-anchor="middle">0.8</text>
+<circle cx="460" cy="525" r="37" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="460" y="537" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#ffffff" text-anchor="middle">1.8</text>
+<circle cx="745" cy="525" r="37" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="745" y="537" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#ffffff" text-anchor="middle">2.8</text>
+<line x1="230" y1="525" x2="405" y2="525" stroke="#5276bf" stroke-width="4"/>
+<polygon points="405,525 389.6923992600045,532.3944140798909 389.6923992600045,517.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="515" y1="525" x2="690" y2="525" stroke="#e57735" stroke-width="4"/>
+<polygon points="690,525 674.6923992600045,532.3944140798909 674.6923992600045,517.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="315" y="480" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">重放 #2</text>
+<text x="603" y="480" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="middle">重放 #3</text>
+<text x="75" y="646" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="start">丢弃 #1 的记录，保留并重放 #2、#3。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">0.8 为假设的校正结果；两条后续输入仍需重新模拟。</text></svg>

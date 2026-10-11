@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 960 690" role="img"><title>光笔不是把一束光“写进”屏幕</title><rect width="960" height="690" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">光笔不是把一束光“写进”屏幕</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">它检测屏幕发出的光；系统把检测时刻与显示位置联系起来</text>
+<rect x="90" y="185" width="420" height="330" rx="20" fill="#183747" stroke="#183747" stroke-width="2"/>
+<rect x="120" y="215" width="360" height="265" rx="8" fill="#183e37" stroke="#087f8c" stroke-width="2"/>
+<polygon points="185,405 355,275 425,420" fill="none" stroke="#a1df95" stroke-width="4"/>
+<circle cx="355" cy="275" r="10" fill="#f7ffac" stroke="#f7ffac" stroke-width="3"/>
+<line x1="359" y1="283" x2="660" y2="450" stroke="#e57735" stroke-width="28"/>
+<circle cx="355" cy="279" r="18" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<line x1="520" y1="260" x2="808" y2="260" stroke="#e57735" stroke-width="4"/>
+<polygon points="808,260 792.6923992600045,267.3944140798909 792.6923992600045,252.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="554" y="231" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="start">检测亮点</text>
+<text x="585" y="510" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="start">光笔 + 按键</text>
+<text x="110" y="590" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">指向哪个对象？对它执行什么命令？</text>
+<text x="42" y="652" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">原理示意，不是 TX-2 的电路图；真实光笔见论文原图。</text></svg>

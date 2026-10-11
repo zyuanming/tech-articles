@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1533" viewBox="0 0 960 920" role="img"><title>编译系统把难题分成不同层</title><rect width="960" height="920" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">编译系统把难题分成不同层</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">一条常见路线；现实系统可能合并、重复或跳过某层</text>
+<rect x="80" y="165" width="800" height="87" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="105" y="219" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="start">源代码</text>
+<text x="285" y="219" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">result = 2 + 3 * 4</text>
+<line x1="480" y1="253" x2="480" y2="273" stroke="#e57735" stroke-width="3"/>
+<polygon points="480,273 472.6055859201091,257.6923992600045 487.3944140798909,257.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="80" y="275" width="800" height="87" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="105" y="329" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="start">前端</text>
+<text x="285" y="329" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">词法 → 语法 → 名字与类型检查</text>
+<line x1="480" y1="363" x2="480" y2="383" stroke="#e57735" stroke-width="3"/>
+<polygon points="480,383 472.6055859201091,367.6923992600045 487.3944140798909,367.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="80" y="385" width="800" height="87" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="105" y="439" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="start">中间表示</text>
+<text x="285" y="439" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">t1 = 3 * 4；t2 = 2 + t1</text>
+<line x1="480" y1="473" x2="480" y2="493" stroke="#e57735" stroke-width="3"/>
+<polygon points="480,493 472.6055859201091,477.6923992600045 487.3944140798909,477.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="80" y="495" width="800" height="87" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="105" y="549" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="start">优化</text>
+<text x="285" y="549" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">在语义允许时：t2 = 14</text>
+<line x1="480" y1="583" x2="480" y2="603" stroke="#e57735" stroke-width="3"/>
+<polygon points="480,603 472.6055859201091,587.6923992600045 487.3944140798909,587.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="80" y="605" width="800" height="87" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="105" y="659" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="start">后端</text>
+<text x="285" y="659" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">选择指令、分配寄存器</text>
+<line x1="480" y1="693" x2="480" y2="713" stroke="#e57735" stroke-width="3"/>
+<polygon points="480,713 472.6055859201091,697.6923992600045 487.3944140798909,697.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="80" y="715" width="800" height="87" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="105" y="769" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="start">链接</text>
+<text x="285" y="769" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">把目标文件与库的符号接起来</text>
+<text x="42" y="882" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">生成程序与运行程序是不同阶段；JIT 会在运行时进行编译。</text></svg>

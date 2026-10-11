@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1517" viewBox="0 0 960 910" role="img"><title>结果回到起点，形成闭环</title><rect width="960" height="910" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">结果回到起点，形成闭环</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">r：目标　y：测量　e：误差　u：控制命令</text>
+<rect x="60" y="220" width="250" height="95" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="185.0" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">比较</text>
+<text x="185.0" y="296" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">e = r − y</text>
+<rect x="535" y="220" width="340" height="95" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="705.0" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">控制器</text>
+<text x="705.0" y="296" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">把 e 变成 u</text>
+<rect x="535" y="485" width="340" height="95" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="705.0" y="525" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">水泵与水箱</text>
+<text x="705.0" y="561" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">输入改变水位</text>
+<rect x="60" y="485" width="250" height="95" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="185.0" y="525" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#183747" text-anchor="middle">传感器</text>
+<text x="185.0" y="561" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="middle">读出 y</text>
+<line x1="320" y1="265" x2="520" y2="265" stroke="#087f8c" stroke-width="4"/>
+<polygon points="520,265 504.6923992600045,272.3944140798909 504.6923992600045,257.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="420" y="237" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">e</text>
+<line x1="705" y1="330" x2="705" y2="470" stroke="#e57735" stroke-width="4"/>
+<polygon points="705,470 697.6055859201091,454.6923992600045 712.3944140798909,454.6923992600045" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="746" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="start">u</text>
+<line x1="520" y1="530" x2="325" y2="530" stroke="#087f8c" stroke-width="4"/>
+<polygon points="325,530 340.3076007399955,522.6055859201091 340.3076007399955,537.3944140798909" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="185" y1="475" x2="185" y2="330" stroke="#087f8c" stroke-width="4"/>
+<polygon points="185,330 192.3944140798909,345.3076007399955 177.6055859201091,345.3076007399955" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="137" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">y</text>
+<line x1="185" y1="135" x2="185" y2="208" stroke="#5276bf" stroke-width="4"/>
+<polygon points="185,208 177.6055859201091,192.6923992600045 192.3944140798909,192.6923992600045" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="220" y="178" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#5276bf" text-anchor="start">目标 r</text>
+<line x1="705" y1="745" x2="705" y2="590" stroke="#c54c53" stroke-width="4"/>
+<polygon points="705,590 712.3944140798909,605.3076007399955 697.6055859201091,605.3076007399955" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="705" y="800" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#c54c53" text-anchor="middle">漏孔变化：外部扰动</text></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1333" viewBox="0 0 960 800" role="img"><title>Git 的三类对象怎样接起来</title><rect width="960" height="800" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">Git 的三类对象怎样接起来</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">箭头：对象内容里保存另一个对象的标识</text>
+<rect x="55" y="175" width="300" height="110" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="205.0" y="240.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">commit 提交</text>
+<rect x="570" y="175" width="320" height="110" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="730.0" y="240.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">parent 父提交</text>
+<line x1="358" y1="230" x2="564" y2="230" stroke="#5276bf" stroke-width="4"/>
+<polygon points="564,230 548.6923992600045,237.3944140798909 548.6923992600045,222.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<rect x="55" y="380" width="300" height="110" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="205.0" y="445.5" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">tree 目录快照</text>
+<line x1="205" y1="292" x2="205" y2="371" stroke="#087f8c" stroke-width="4"/>
+<polygon points="205,371 197.6055859201091,355.6923992600045 212.3944140798909,355.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="520" y="385" width="370" height="85" rx="8" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="705.0" y="438.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">blob：hello\n</text>
+<rect x="520" y="565" width="370" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="705.0" y="618.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">tree：src 目录</text>
+<line x1="360" y1="423" x2="513" y2="423" stroke="#087f8c" stroke-width="4"/>
+<polygon points="513,423 497.6923992600045,430.3944140798909 497.6923992600045,415.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="360" y1="455" x2="513" y2="604" stroke="#087f8c" stroke-width="4"/>
+<polygon points="513,604 496.8745536047823,598.6176233358337 507.19242225671087,588.0227649214373" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="92" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">记录名字、模式、对象ID</text>
+<text x="555" y="520" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="start">内容，不含文件名</text>
+<text x="42" y="762" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">合并提交可以有多个父提交；共享对象使整体成为 DAG。</text></svg>

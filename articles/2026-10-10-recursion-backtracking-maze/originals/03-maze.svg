@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1233" viewBox="0 0 960 740" role="img"><title>先沿走廊走，再把岔路简化成节点</title><rect width="960" height="740" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">先沿走廊走，再把岔路简化成节点</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">S 是入口，T 是出口；黑色格子不能走</text>
+<rect x="150" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="242" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="334" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="426" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="518" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="610" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="702" y="155" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="150" y="247" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="242" y="247" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="334" y="247" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="426" y="247" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="518" y="247" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="610" y="247" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="702" y="247" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="150" y="339" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="242" y="339" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="334" y="339" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="426" y="339" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="518" y="339" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="610" y="339" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="702" y="339" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="150" y="431" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="242" y="431" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="334" y="431" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="426" y="431" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="518" y="431" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="610" y="431" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="702" y="431" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="150" y="523" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="242" y="523" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="334" y="523" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="426" y="523" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="518" y="523" width="92" height="92" rx="2" fill="#ffffff" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="610" y="523" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<rect x="702" y="523" width="92" height="92" rx="2" fill="#183747" stroke="#f7f4ed" stroke-width="3"/>
+<circle cx="196.0" cy="201.0" r="23" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="196.0" y="211.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+<circle cx="380.0" cy="201.0" r="23" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="380.0" y="211.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#183747" text-anchor="middle">A</text>
+<circle cx="564.0" cy="201.0" r="23" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="564.0" y="211.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#183747" text-anchor="middle">B</text>
+<circle cx="748.0" cy="201.0" r="23" fill="#e57735" stroke="#183747" stroke-width="2"/>
+<text x="748.0" y="211.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<circle cx="380.0" cy="385.0" r="23" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="380.0" y="395.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#183747" text-anchor="middle">D</text>
+<circle cx="564.0" cy="385.0" r="23" fill="#ffffff" stroke="#183747" stroke-width="2"/>
+<text x="564.0" y="395.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#183747" text-anchor="middle">E</text>
+<circle cx="564.0" cy="569.0" r="23" fill="#087f8c" stroke="#183747" stroke-width="2"/>
+<text x="564.0" y="579.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="700" fill="#ffffff" text-anchor="middle">T</text>
+<text x="42" y="702" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">只记录岔路与端点时，可把中间的直走廊合并成边。</text></svg>

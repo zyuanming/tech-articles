@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>每层处理 N 个量，一共 log₂N 层</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">每层处理 N 个量，一共 log₂N 层</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">N = 8；由单个样本向上合并，每一对贡献一个蝶形</text>
+<line x1="480.0" y1="260" x2="310.0" y2="320" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="480.0" y1="260" x2="650.0" y2="320" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="310.0" y1="385" x2="243.0" y2="445" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="310.0" y1="385" x2="401.0" y2="445" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="650.0" y1="385" x2="559.0" y2="445" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="650.0" y1="385" x2="717.0" y2="445" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="243.0" y1="510" x2="214.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="243.0" y1="510" x2="290.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="401.0" y1="510" x2="366.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="401.0" y1="510" x2="442.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="559.0" y1="510" x2="518.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="559.0" y1="510" x2="594.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="717.0" y1="510" x2="670.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="717.0" y1="510" x2="746.0" y2="570" stroke="#d2dbd8" stroke-width="4"/>
+<rect x="130.0" y="195" width="700" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="480.0" y="239" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">8点</text>
+<rect x="152.5" y="320" width="315" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="310.0" y="364" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">4点</text>
+<rect x="492.5" y="320" width="315" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="650.0" y="364" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">4点</text>
+<rect x="176.5" y="445" width="133" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="243.0" y="489" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">2点</text>
+<rect x="334.5" y="445" width="133" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="401.0" y="489" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">2点</text>
+<rect x="492.5" y="445" width="133" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="559.0" y="489" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">2点</text>
+<rect x="650.5" y="445" width="133" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="717.0" y="489" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">2点</text>
+<rect x="188.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="214.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="264.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="290.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="340.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="366.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="416.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="442.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="492.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="518.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="568.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="594.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="644.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="670.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<rect x="720.5" y="570" width="51" height="65" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="746.0" y="614" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">1点</text>
+<text x="480" y="708" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="middle">合并 3 层，每层 4 个蝶形：共 12 个。</text></svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>缓慢试探，明显退让</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">缓慢试探，明显退让</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">AIMD 离散模型：到 8 收到信号，减至 4</text>
+<line x1="75" y1="620" x2="905" y2="620" stroke="#183747" stroke-width="4"/>
+<line x1="75" y1="620" x2="75" y2="190" stroke="#183747" stroke-width="4"/>
+<line x1="75" y1="545" x2="905" y2="545" stroke="#d2dbd8" stroke-width="2"/>
+<text x="58" y="554" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">4</text>
+<line x1="75" y1="470" x2="905" y2="470" stroke="#d2dbd8" stroke-width="2"/>
+<text x="58" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">5</text>
+<line x1="75" y1="395" x2="905" y2="395" stroke="#d2dbd8" stroke-width="2"/>
+<text x="58" y="404" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">6</text>
+<line x1="75" y1="320" x2="905" y2="320" stroke="#d2dbd8" stroke-width="2"/>
+<text x="58" y="329" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">7</text>
+<line x1="75" y1="245" x2="905" y2="245" stroke="#d2dbd8" stroke-width="2"/>
+<text x="58" y="254" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="end">8</text>
+<path d="M100,545 L164,470 L228,395 L292,320 L356,245 L420,545 L484,470 L548,395 L612,320 L676,245 L740,545 L804,470 L868,395" fill="none" stroke="#087f8c" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="100" cy="545" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="100" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<circle cx="164" cy="470" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="164" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">1</text>
+<circle cx="228" cy="395" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="228" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">2</text>
+<circle cx="292" cy="320" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="292" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">3</text>
+<circle cx="356" cy="245" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="356" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">4</text>
+<circle cx="420" cy="545" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="420" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">5</text>
+<circle cx="484" cy="470" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="484" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">6</text>
+<circle cx="548" cy="395" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="548" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">7</text>
+<circle cx="612" cy="320" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="612" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">8</text>
+<circle cx="676" cy="245" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="676" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">9</text>
+<circle cx="740" cy="545" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="740" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">10</text>
+<circle cx="804" cy="470" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="804" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">11</text>
+<circle cx="868" cy="395" r="7" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="868" y="660" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="400" fill="#57727c" text-anchor="middle">12</text>
+<text x="470" y="185" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#087f8c" text-anchor="middle">窗口（段）</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">真实超时、快速恢复与在途量处理更复杂；本图不是抓包。</text></svg>

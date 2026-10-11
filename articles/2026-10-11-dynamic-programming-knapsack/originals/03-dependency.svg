@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>一个格子，比较两条路</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一个格子，比较两条路</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">目标：前3件 A、B、C，最多7格</text>
+<rect x="320" y="170" width="340" height="110" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="490.0" y="210" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">F(3,7) = 22</text>
+<rect x="55" y="405" width="350" height="150" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="230.0" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">不拿 C</text>
+<text x="230.0" y="484" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">F(2,7) = 16</text>
+<rect x="530" y="405" width="375" height="150" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="717.5" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">拿 C：占4格、值12</text>
+<text x="717.5" y="484" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">F(2,3) + 12 = 22</text>
+<line x1="425" y1="290" x2="235" y2="395" stroke="#5276bf" stroke-width="4"/>
+<polygon points="235,395 244.82127258103583,381.12402778580923 251.9744233700941,394.0678244517242" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="560" y1="290" x2="710" y2="395" stroke="#e57735" stroke-width="4"/>
+<polygon points="710,395 693.2191068137873,392.2794074408464 701.6999428806822,380.1639273452823" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="270" y="350" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#5276bf" text-anchor="middle">容量仍为7</text>
+<text x="690" y="350" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#e57735" text-anchor="middle">容量变为3</text>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">两条路都退到上一行，确保 C 不会再选一次。</text></svg>

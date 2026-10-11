@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>为什么不可能把所有文件都压短？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">为什么不可能把所有文件都压短？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">要求无损：不同输入，必须能区分</text>
+<rect x="80" y="190" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="152" y="238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">000</text>
+<rect x="255" y="190" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="327" y="238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">001</text>
+<rect x="430" y="190" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="502" y="238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">010</text>
+<rect x="605" y="190" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="677" y="238" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">011</text>
+<rect x="80" y="290" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="152" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">100</text>
+<rect x="255" y="290" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="327" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">101</text>
+<rect x="430" y="290" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="502" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">110</text>
+<rect x="605" y="290" width="145" height="70" rx="0" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="677" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">111</text>
+<text x="100" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="start">3位输入：8种</text>
+<text x="100" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="400" fill="#183747" text-anchor="start">不足3位的输出：1+2+4=7种</text>
+<text x="100" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="start">至少两个输入会挤进同一个位置。</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这里把空串也算进去；仍然不够。</text></svg>

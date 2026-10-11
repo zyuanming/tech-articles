@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>1%的假阳性率，分母是谁？</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">1%的假阳性率，分母是谁？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">教学估算：10,000次查询里，10次真的存在</text>
+<rect x="45" y="185" width="385" height="150" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="237.5" y="227" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">真正存在：10次</text>
+<text x="237.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">全部被放行</text>
+<rect x="525" y="185" width="385" height="150" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="717.5" y="227" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">实际不存在：9,990次</text>
+<text x="717.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">约1% ≈ 100次被放行</text>
+<line x1="235" y1="350" x2="420" y2="445" stroke="#087f8c" stroke-width="4"/>
+<polygon points="420,445 403.00506026032076,444.5852431499406 409.76066624926,431.42958938200627" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="715" y1="350" x2="550" y2="445" stroke="#e57735" stroke-width="4"/>
+<polygon points="550,445 559.5763608456547,430.9538861974633 566.9554602786328,443.7702167915833" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="180" y="460" width="600" height="120" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="480.0" y="502" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="700" fill="#5276bf" text-anchor="middle">约110次“可能在”</text>
+<text x="480.0" y="542" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">约10次真的有；约100次要继续排除</text>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">误判率约1%，不代表放行结果的准确率约99%。</text></svg>

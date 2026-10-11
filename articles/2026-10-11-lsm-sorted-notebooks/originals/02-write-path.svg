@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一批变化，两种排列</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一批变化，两种排列</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">WAL 便于恢复；SST 便于查找与归并</text>
+<rect x="55" y="210" width="245" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="75" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">1. A = 10</text>
+<rect x="55" y="275" width="245" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="75" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">2. C = 30</text>
+<rect x="55" y="340" width="245" height="58" rx="6" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="75" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">3. B = 20</text>
+<text x="55" y="175" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">操作</text>
+<rect x="365" y="210" width="240" height="58" rx="6" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="385" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A:10 @1</text>
+<rect x="365" y="275" width="240" height="58" rx="6" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="385" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">C:30 @2</text>
+<rect x="365" y="340" width="240" height="58" rx="6" fill="#ffffff" stroke="#e57735" stroke-width="2"/>
+<text x="385" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">B:20 @3</text>
+<text x="365" y="175" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#e57735" text-anchor="start">WAL：追加顺序</text>
+<rect x="675" y="210" width="240" height="58" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="695" y="250" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">A:10 @1</text>
+<rect x="675" y="275" width="240" height="58" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="695" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">B:20 @3</text>
+<rect x="675" y="340" width="240" height="58" rx="6" fill="#ffffff" stroke="#5276bf" stroke-width="2"/>
+<text x="695" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#183747" text-anchor="start">C:30 @2</text>
+<text x="675" y="175" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#5276bf" text-anchor="start">SST：键顺序</text>
+<line x1="305" y1="300" x2="351" y2="300" stroke="#183747" stroke-width="4"/>
+<polygon points="351,300 335.6923992600045,307.3944140798909 335.6923992600045,292.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="610" y1="300" x2="658" y2="300" stroke="#183747" stroke-width="4"/>
+<polygon points="658,300 642.6923992600045,307.3944140798909 642.6923992600045,292.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="295" y="520" width="370" height="120" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="569" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">内存表 → 写出 S1</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是生命周期示意；不将图中横向位置当作并发时序。</text></svg>

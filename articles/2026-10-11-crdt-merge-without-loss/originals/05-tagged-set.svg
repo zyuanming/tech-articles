@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>删除你见过的添加，保留未见的并发添加</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">删除你见过的添加，保留未见的并发添加</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">一种 observed-remove / 添加优先的语义</text>
+<rect x="60" y="190" width="360" height="130" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="240.0" y="239" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">双方原先都见过</text>
+<text x="240.0" y="284" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">喜鹊，标签 a1</text>
+<rect x="540" y="190" width="360" height="130" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="720.0" y="239" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">乙离线再次添加</text>
+<text x="720.0" y="284" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">喜鹊，标签 b1</text>
+<line x1="235" y1="339" x2="235" y2="416" stroke="#183747" stroke-width="4"/>
+<polygon points="235,416 227.6055859201091,400.6923992600045 242.3944140798909,400.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="60" y="435" width="360" height="140" rx="16" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="240.0" y="484" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">甲删除喜鹊</text>
+<text x="240.0" y="529" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">移除已见标签 a1</text>
+<line x1="720" y1="339" x2="720" y2="416" stroke="#183747" stroke-width="4"/>
+<polygon points="720,416 712.6055859201091,400.6923992600045 727.3944140798909,400.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="540" y="435" width="360" height="140" rx="16" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="720.0" y="484" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">合并后 b1 仍在</text>
+<text x="720.0" y="529" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">喜鹊仍存在</text>
+<line x1="437" y1="505" x2="523" y2="505" stroke="#183747" stroke-width="4"/>
+<polygon points="523,505 507.6923992600045,512.3944140798909 507.6923992600045,497.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">删除规则是产品语义，不是所有集合唯一正确的答案。</text></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>两条流：先同加，再同乘</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">两条流：先同加，再同乘</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">理想同步反馈下，差距为何可能缩小</text>
+<text x="50" y="230" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">起点</text>
+<rect x="255" y="200" width="144" height="43" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="409" y="233" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">2</text>
+<rect x="255" y="257" width="432" height="43" rx="4" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="697" y="290" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#5276bf" text-anchor="start">6</text>
+<text x="50" y="385" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">各加 1</text>
+<rect x="255" y="355" width="216" height="43" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="481" y="388" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">3</text>
+<rect x="255" y="412" width="504" height="43" rx="4" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="769" y="445" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#5276bf" text-anchor="start">7</text>
+<text x="50" y="540" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">各乘 ½</text>
+<rect x="255" y="510" width="108.0" height="43" rx="4" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="373.0" y="543" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#087f8c" text-anchor="start">1.5</text>
+<rect x="255" y="567" width="252.0" height="43" rx="4" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="517.0" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#5276bf" text-anchor="start">3.5</text>
+<text x="665" y="650" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">差：4 → 4 → 2</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">不同 RTT、路径或算法下，现实公平性需要另行分析。</text></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>q 和 −q，描述同一个姿态</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">q 和 −q，描述同一个姿态</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">看似相反的四维点，旋转效果却相同</text>
+<circle cx="480" cy="385" r="190" fill="#ffffff" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="310" y1="480" x2="650" y2="290" stroke="#d2dbd8" stroke-width="3" stroke-dasharray="12 8"/>
+<circle cx="650" cy="290" r="14" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="310" cy="480" r="14" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="675" y="285" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#087f8c" text-anchor="start">q</text>
+<text x="235" y="525" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="400" fill="#e57735" text-anchor="start">−q</text>
+<text x="125" y="665" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="start">(−q) p (−q)⁻¹ = q p q⁻¹</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是单位四元数球面的二维示意，不能把它当作三维实物球。</text></svg>

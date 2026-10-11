@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>第一次接触，发生在这一步的中途</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">第一次接触，发生在这一步的中途</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">速度 100 m/s；整步 0.02 s；从 x = 0 开始</text>
+<line x1="90" y1="350" x2="870" y2="350" stroke="#183747" stroke-width="5"/>
+<polygon points="870,350 854.6923992600045,357.3944140798909 854.6923992600045,342.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<circle cx="90" cy="350" r="13" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="90" y="415" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0</text>
+<circle cx="446.25" cy="350" r="13" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="446.25" y="415" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="middle">0.0095 s</text>
+<circle cx="840" cy="350" r="13" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="840" y="415" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="middle">0.0200 s</text>
+<line x1="446.25" y1="250" x2="446.25" y2="550" stroke="#e57735" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="90" y="215" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="start">t = 0.95 ÷ 100 = 0.0095 s</text>
+<text x="90" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="start">已走：47.5% 的时间</text>
+<text x="90" y="625" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="start">剩余：0.0105 s，仍要继续处理</text></svg>

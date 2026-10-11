@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>110010111，怎么拆？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">110010111，怎么拆？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">每到叶子立即输出：C A B D</text>
+<rect x="45" y="220" width="195" height="110" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="142" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">110</text>
+<line x1="142" y1="355" x2="142" y2="465" stroke="#183747" stroke-width="4"/>
+<polygon points="142,465 134.6055859201091,449.6923992600045 149.3944140798909,449.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="142" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#087f8c" text-anchor="middle">C</text>
+<rect x="275" y="220" width="195" height="110" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="372" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">0</text>
+<line x1="372" y1="355" x2="372" y2="465" stroke="#183747" stroke-width="4"/>
+<polygon points="372,465 364.6055859201091,449.6923992600045 379.3944140798909,449.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="372" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#087f8c" text-anchor="middle">A</text>
+<rect x="505" y="220" width="195" height="110" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="602" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">10</text>
+<line x1="602" y1="355" x2="602" y2="465" stroke="#183747" stroke-width="4"/>
+<polygon points="602,465 594.6055859201091,449.6923992600045 609.3944140798909,449.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="602" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#087f8c" text-anchor="middle">B</text>
+<rect x="735" y="220" width="195" height="110" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="832" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="48" font-weight="400" fill="#183747" text-anchor="middle">111</text>
+<line x1="832" y1="355" x2="832" y2="465" stroke="#183747" stroke-width="4"/>
+<polygon points="832,465 824.6055859201091,449.6923992600045 839.3944140798909,449.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="832" y="550" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#087f8c" text-anchor="middle">D</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">码表是A=0，B=10，C=110，D=111。</text></svg>

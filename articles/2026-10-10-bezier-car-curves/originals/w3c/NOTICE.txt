@@ -1,0 +1,6 @@
+cubic01.svg and cubic02.svg are copied from the W3C SVG 2 specification examples.
+Source: https://www.w3.org/TR/SVG2/paths.html#PathDataCubicBezierCommands
+Status: W3C Candidate Recommendation Snapshot, 06 October 2026.
+Copyright © 2026 World Wide Web Consortium.
+https://www.w3.org/copyright/document-license-2023/
+The original SVG geometry and labels are unmodified. PNG compatibility versions render the original examples on white. No endorsement is implied.

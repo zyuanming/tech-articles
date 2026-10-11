@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>清掉 CDN 副本，不会遥控擦掉浏览器</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">清掉 CDN 副本，不会遥控擦掉浏览器</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">清理范围要和想解决的问题一致</text>
+<text x="170" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="middle">浏览器</text>
+<rect x="60" y="285" width="220" height="170" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<text x="170" y="389" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="56" font-weight="400" fill="#087f8c" text-anchor="middle">V1</text>
+<text x="475" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#5276bf" text-anchor="middle">CDN</text>
+<rect x="365" y="285" width="220" height="170" rx="15" fill="#ffffff" stroke="#5276bf" stroke-width="4"/>
+<text x="475" y="389" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="56" font-weight="400" fill="#5276bf" text-anchor="middle">V1</text>
+<text x="780" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="middle">源站</text>
+<rect x="670" y="285" width="220" height="170" rx="15" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<text x="780" y="389" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="56" font-weight="400" fill="#e57735" text-anchor="middle">V2</text>
+<line x1="390" y1="303" x2="560" y2="432" stroke="#c54c53" stroke-width="9"/>
+<line x1="560" y1="303" x2="390" y2="432" stroke="#c54c53" stroke-width="9"/>
+<text x="170" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">仍可能保留</text>
+<text x="475" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#c54c53" text-anchor="middle">已被清理</text>
+<text x="780" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">新版仍在</text>
+<line x1="650" y1="617" x2="480" y2="617" stroke="#e57735" stroke-width="5"/>
+<polygon points="480,617 495.3076007399955,609.6055859201091 495.3076007399955,624.3944140798909" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="600" y="684" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="middle">后续 CDN 请求再取源站内容</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">要让浏览器取新版，还需新请求、新URL或重新验证等机制。</text></svg>

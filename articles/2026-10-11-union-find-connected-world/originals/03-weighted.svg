@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1033" viewBox="0 0 960 620" role="img"><title>让小树挂到大树下面</title><rect width="960" height="620" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">让小树挂到大树下面</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">根上保存组大小，不必给整组重新写标签</text>
+<circle cx="270" cy="250" r="29" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="270" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">根</text>
+<circle cx="700" cy="250" r="29" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="700" y="260" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">根</text>
+<line x1="100" y1="420" x2="270" y2="280" stroke="#087f8c" stroke-width="4"/>
+<circle cx="100" cy="450" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="100" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">●</text>
+<line x1="210" y1="420" x2="270" y2="280" stroke="#087f8c" stroke-width="4"/>
+<circle cx="210" cy="450" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="210" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">●</text>
+<line x1="330" y1="420" x2="270" y2="280" stroke="#087f8c" stroke-width="4"/>
+<circle cx="330" cy="450" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="330" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">●</text>
+<line x1="440" y1="420" x2="270" y2="280" stroke="#087f8c" stroke-width="4"/>
+<circle cx="440" cy="450" r="20" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="440" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">●</text>
+<line x1="820" y1="420" x2="700" y2="280" stroke="#e57735" stroke-width="4"/>
+<circle cx="820" cy="450" r="20" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="820" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">●</text>
+<text x="270" y="195" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#087f8c" text-anchor="middle">5个节点</text>
+<text x="710" y="195" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#e57735" text-anchor="middle">2个节点</text>
+<line x1="660" y1="250" x2="310" y2="250" stroke="#e57735" stroke-width="4"/>
+<polygon points="310,250 325.3076007399955,242.6055859201091 325.3076007399955,257.3944140798909" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="470" y="345" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#e57735" text-anchor="middle">只改变小树根的父指针</text>
+<text x="42" y="582" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">一个节点每次变深，所在组至少翻倍；深度增长受到限制。</text></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1033" viewBox="0 0 960 620" role="img"><title>从22分倒着找回装备</title><rect width="960" height="620" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">从22分倒着找回装备</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">跳过 D → 选 C → 选 B</text>
+<rect x="45" y="205" width="265" height="220" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="177.5" y="245" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#5276bf" text-anchor="middle">F(4,7)=22</text>
+<text x="177.5" y="284" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">等于上一行</text>
+<text x="177.5" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">不选 D</text>
+<line x1="317" y1="315" x2="343" y2="315" stroke="#183747" stroke-width="4"/>
+<polygon points="343,315 327.6923992600045,322.3944140798909 327.6923992600045,307.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="355" y="205" width="265" height="220" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="487.5" y="245" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#e57735" text-anchor="middle">F(3,7)=22</text>
+<text x="487.5" y="284" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">高于 F(2,7)=16</text>
+<text x="487.5" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">选 C，容量7→3</text>
+<line x1="627" y1="315" x2="653" y2="315" stroke="#183747" stroke-width="4"/>
+<polygon points="653,315 637.6923992600045,322.3944140798909 637.6923992600045,307.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="665" y="205" width="265" height="220" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="797.5" y="245" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="700" fill="#087f8c" text-anchor="middle">F(2,3)=10</text>
+<text x="797.5" y="284" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">高于 F(1,3)=6</text>
+<text x="797.5" y="323" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#183747" text-anchor="middle">选 B，容量3→0</text>
+<text x="42" y="582" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">相等时可以跳过；若存在多套最优解，这给出其中一套。</text></svg>

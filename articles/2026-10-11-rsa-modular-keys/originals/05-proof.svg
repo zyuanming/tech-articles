@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1133" viewBox="0 0 960 680" role="img"><title>两个小钟面，拼回同一个结果</title><rect width="960" height="680" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">两个小钟面，拼回同一个结果</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">m 加密再解密，变成 m⁸¹</text>
+<rect x="40" y="185" width="405" height="265" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="242.5" y="227" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#5276bf" text-anchor="middle">模5来看</text>
+<text x="242.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">m为5倍数 → 两边都余0</text>
+<text x="242.5" y="307" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">否则 m⁴ 余1</text>
+<text x="242.5" y="347" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">81 = 1 + 20×4</text>
+<rect x="515" y="185" width="405" height="265" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="717.5" y="227" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="700" fill="#e57735" text-anchor="middle">模11来看</text>
+<text x="717.5" y="267" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">m为11倍数 → 两边都余0</text>
+<text x="717.5" y="307" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">否则 m¹⁰ 余1</text>
+<text x="717.5" y="347" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="middle">81 = 1 + 8×10</text>
+<line x1="250" y1="465" x2="420" y2="540" stroke="#5276bf" stroke-width="4"/>
+<polygon points="420,540 403.0101207568893,540.5865179490145 408.97948641032497,527.055955801227" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="715" y1="465" x2="540" y2="540" stroke="#e57735" stroke-width="4"/>
+<polygon points="540,540 551.157102733913,527.1735017021438 556.9827075494221,540.7665796049984" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="480" y="585" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="middle">两个余数都相同 → 模55也相同</text>
+<text x="42" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">依据费马小定理与中国剩余定理；覆盖0—54的所有消息。</text></svg>

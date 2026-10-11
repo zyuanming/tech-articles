@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1217" viewBox="0 0 960 730" role="img"><title>想让随机误差减半，通常要四倍样本</title><rect width="960" height="730" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">想让随机误差减半，通常要四倍样本</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">独立同分布、有限方差时：标准误差 ∝ 1/√N</text>
+<rect x="120" y="250" width="120" height="320" rx="0" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="180" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">1 样本</text>
+<text x="180" y="225" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">1.0</text>
+<rect x="330" y="410" width="120" height="160" rx="0" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="390" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">4 样本</text>
+<text x="390" y="385" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.5</text>
+<rect x="540" y="490" width="120" height="80" rx="0" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="600" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">16 样本</text>
+<text x="600" y="465" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.25</text>
+<rect x="750" y="530" width="120" height="40" rx="0" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="810" y="635" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">64 样本</text>
+<text x="810" y="505" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#087f8c" text-anchor="middle">0.125</text>
+<text x="42" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">这是统计尺度，不保证每次加样本、每个像素都单调更好。</text></svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>输入很快，不代表整条路径都快</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">输入很快，不代表整条路径都快</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">缓冲只能吸收短暂突发</text>
+<rect x="45" y="230" width="170" height="95" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="130.0" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">发送端</text>
+<line x1="225" y1="278" x2="362" y2="353" stroke="#087f8c" stroke-width="4"/>
+<polygon points="362,353 345.02199955828047,352.1354185978336 352.1235555620038,339.1632429643658" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="45" y="350" width="170" height="95" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="130.0" y="399" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">发送端</text>
+<line x1="225" y1="398" x2="362" y2="353" stroke="#087f8c" stroke-width="4"/>
+<polygon points="362,353 349.7643731308616,364.8020945225506 345.1493141406222,350.75180381893284" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="45" y="470" width="170" height="95" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="130.0" y="519" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">发送端</text>
+<line x1="225" y1="518" x2="362" y2="353" stroke="#087f8c" stroke-width="4"/>
+<polygon points="362,353 357.9104060571607,369.5007642666239 346.53237495948565,360.0535505673422" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="385" y="225" width="295" height="260" rx="10" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="530" y="203" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#5276bf" text-anchor="middle">路由器队列</text>
+<rect x="410" y="248" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="470" y="248" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="530" y="248" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="590" y="248" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="410" y="313" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="470" y="313" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="530" y="313" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="590" y="313" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="410" y="378" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="470" y="378" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="530" y="378" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<rect x="590" y="378" width="46" height="48" rx="4" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<line x1="695" y1="355" x2="875" y2="355" stroke="#5276bf" stroke-width="13"/>
+<polygon points="875,355 859.6923992600045,362.3944140798909 859.6923992600045,347.6055859201091" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="785" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#5276bf" text-anchor="middle">慢出口</text>
+<text x="785" y="410" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="middle">容量有限</text>
+<text x="65" y="615" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#c54c53" text-anchor="start">输入长期大于输出 → 排队增长 → 可能丢包</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">重传更多，并不自动让有效吞吐更高。</text></svg>

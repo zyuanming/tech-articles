@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>程序也能变成输入数据</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">程序也能变成输入数据</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">通用机器读取“规则描述 + 初始纸带”</text>
+<rect x="60" y="180" width="350" height="120" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="235" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">规则表</text>
+<text x="235" y="278" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">有限字符串</text>
+<rect x="540" y="180" width="350" height="120" rx="10" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="715" y="235" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#183747" text-anchor="middle">初始纸带</text>
+<text x="715" y="278" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="middle">输入内容</text>
+<line x1="240" y1="320" x2="400" y2="440" stroke="#183747" stroke-width="4"/>
+<polygon points="400,440 383.31727096006904,436.7309708199154 392.1905678559381,424.89990829208995" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="720" y1="320" x2="560" y2="440" stroke="#183747" stroke-width="4"/>
+<polygon points="560,440 567.8094321440618,424.89990829208995 576.6827290399309,436.73097081991546" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="260" y="450" width="440" height="130" rx="14" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="530" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="400" fill="#ffffff" text-anchor="middle">通用模拟器</text>
+<line x1="480" y1="600" x2="480" y2="665" stroke="#183747" stroke-width="4"/>
+<polygon points="480,665 472.6055859201091,649.6923992600045 487.3944140798909,649.6923992600045" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="480" y="725" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">一步一步模拟被描述的机器</text></svg>

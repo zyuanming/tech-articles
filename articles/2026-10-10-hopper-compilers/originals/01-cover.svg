@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1167" viewBox="0 0 960 700" role="img"><title>一句表达式，怎样变成动作？</title><rect width="960" height="700" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一句表达式，怎样变成动作？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">同一含义经过多种表示</text>
+<text x="480" y="190" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="65" font-weight="700" fill="#087f8c" text-anchor="middle">(2 + 3) × 4</text>
+<line x1="480" y1="300" x2="300" y2="410" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="480" y1="300" x2="650" y2="410" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="300" y1="410" x2="220" y2="530" stroke="#d2dbd8" stroke-width="6"/>
+<line x1="300" y1="410" x2="380" y2="530" stroke="#d2dbd8" stroke-width="6"/>
+<circle cx="480" cy="300" r="40" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480" y="314" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#183747" text-anchor="middle">×</text>
+<circle cx="300" cy="410" r="40" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="300" y="424" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#183747" text-anchor="middle">+</text>
+<circle cx="650" cy="410" r="40" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="650" y="424" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#183747" text-anchor="middle">4</text>
+<circle cx="220" cy="530" r="40" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="220" y="544" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#183747" text-anchor="middle">2</text>
+<circle cx="380" cy="530" r="40" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="380" y="544" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#183747" text-anchor="middle">3</text>
+<line x1="740" y1="480" x2="865" y2="480" stroke="#e57735" stroke-width="4"/>
+<polygon points="865,480 849.6923992600045,487.3944140798909 849.6923992600045,472.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<rect x="760" y="555" width="120" height="52" rx="8" fill="#183747" stroke="#183747" stroke-width="2"/>
+<text x="820" y="592" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#ffffff" text-anchor="middle">20</text>
+<text x="42" y="662" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">先看清结构，才能生成保持含义的指令。</text></svg>

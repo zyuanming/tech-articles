@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1083" viewBox="0 0 960 650" role="img"><title>位置算出来，数据还没搬过去</title><rect width="960" height="650" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">位置算出来，数据还没搬过去</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">一般迁移思路；具体协议因系统而异</text>
+<rect x="40" y="220" width="265" height="200" rx="12" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="172.5" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="700" fill="#5276bf" text-anchor="middle">确定新映射</text>
+<text x="172.5" y="302" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">版本v2：50→D</text>
+<line x1="310" y1="310" x2="340" y2="310" stroke="#183747" stroke-width="4"/>
+<polygon points="340,310 324.6923992600045,317.3944140798909 324.6923992600045,302.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="350" y="220" width="265" height="200" rx="12" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="482.5" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="700" fill="#e57735" text-anchor="middle">复制与追赶</text>
+<text x="482.5" y="302" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">处理迁移期间写入</text>
+<line x1="620" y1="310" x2="650" y2="310" stroke="#183747" stroke-width="4"/>
+<polygon points="650,310 634.6923992600045,317.3944140798909 634.6923992600045,302.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="660" y="220" width="265" height="200" rx="12" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="792.5" y="262" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="700" fill="#087f8c" text-anchor="middle">切换与清理</text>
+<text x="792.5" y="302" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#183747" text-anchor="middle">路由兼容旧请求</text>
+<text x="480" y="510" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#c54c53" text-anchor="middle">客户端的成员视图不同时，需要明确过渡规则</text>
+<text x="42" y="612" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">缓存可以重新回源，持久数据则必须保证迁移期间的正确性。</text></svg>

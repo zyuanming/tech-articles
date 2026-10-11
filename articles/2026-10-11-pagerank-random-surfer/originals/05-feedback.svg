@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 960 720" role="img"><title>为什么“重要网页投出的票”更有分量？</title><rect width="960" height="720" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">为什么“重要网页投出的票”更有分量？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">这里的票，是随机冲浪模型里的概率质量</text>
+<rect x="60" y="180" width="835" height="150" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="82" y="223" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">A 有 0.35967</text>
+<text x="82" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">A 有两条出链，沿链接的份额先平分。</text>
+<text x="82" y="306" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">B 从 A 获得：0.8 × 0.35967 / 2 ≈ 0.14387</text>
+<rect x="60" y="360" width="835" height="150" rx="15" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="82" y="403" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#183747" text-anchor="start">C 有 0.37146</text>
+<text x="82" y="446" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">C 只有一条出链，沿链接的份额全部给 A。</text>
+<text x="82" y="486" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="26" font-weight="400" fill="#183747" text-anchor="start">A 从 C 获得：0.8 × 0.37146 ≈ 0.29717</text>
+<text x="90" y="590" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="400" fill="#087f8c" text-anchor="start">排序是相互依赖的方程，不是一遍数完入链。</text>
+<text x="42" y="682" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">每页还收到跳转和悬挂节点分配；“一条链接”并没有固定票值。</text></svg>

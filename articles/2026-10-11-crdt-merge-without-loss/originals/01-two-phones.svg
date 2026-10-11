@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>同一对数字，可能有不同来历</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">同一对数字，可能有不同来历</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">先问：独立增加，还是重复传输？</text>
+<rect x="85" y="200" width="240" height="305" rx="30" fill="#ffffff" stroke="#087f8c" stroke-width="5"/>
+<rect x="109" y="252" width="192" height="185" rx="5" fill="#f7f4ed" stroke="#d2dbd8" stroke-width="2"/>
+<text x="205" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">甲离线</text>
+<text x="205" y="395" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#183747" text-anchor="middle">2</text>
+<circle cx="205" cy="473" r="12" fill="#d2dbd8" stroke="#d2dbd8" stroke-width="3"/>
+<rect x="635" y="200" width="240" height="305" rx="30" fill="#ffffff" stroke="#5276bf" stroke-width="5"/>
+<rect x="659" y="252" width="192" height="185" rx="5" fill="#f7f4ed" stroke="#d2dbd8" stroke-width="2"/>
+<text x="755" y="315" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">乙离线</text>
+<text x="755" y="395" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="54" font-weight="400" fill="#183747" text-anchor="middle">3</text>
+<circle cx="755" cy="473" r="12" fill="#d2dbd8" stroke="#d2dbd8" stroke-width="3"/>
+<text x="480" y="305" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">独立新增</text>
+<text x="480" y="380" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="40" font-weight="700" fill="#087f8c" text-anchor="middle">2 + 3 = 5</text>
+<text x="480" y="460" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="middle">max 只留下 3</text>
+<rect x="65" y="555" width="830" height="130" rx="12" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="90" y="605" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="start">但若把同一份「3」重复加两次……</text>
+<text x="90" y="651" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#c54c53" text-anchor="start">传输次数，不应该改变鸟的数量。</text></svg>

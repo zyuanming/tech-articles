@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>一条纸带，能算多远？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">一条纸带，能算多远？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">图灵机：从机械规则，到计算的边界</text>
+<rect x="70" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="120.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="170" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="220.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<rect x="270" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="320.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<rect x="370" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="420.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">1</text>
+<rect x="470" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="520.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="570" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="620.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="670" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="720.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<rect x="770" y="260" width="100" height="90" rx="0" fill="#ffffff" stroke="#d2dbd8" stroke-width="2"/>
+<text x="820.0" y="320" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#183747" text-anchor="middle">□</text>
+<line x1="420.0" y1="425" x2="420.0" y2="365" stroke="#e57735" stroke-width="4"/>
+<polygon points="420.0,365 427.3944140798909,380.3076007399955 412.6055859201091,380.3076007399955" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="420.0" y="475" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#e57735" text-anchor="middle">读写头</text>
+<rect x="335" y="555" width="290" height="100" rx="14" fill="#087f8c" stroke="#d2dbd8" stroke-width="2"/>
+<text x="480" y="617" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#ffffff" text-anchor="middle">状态 + 规则</text></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1033" viewBox="0 0 960 620" role="img"><title>字符先被分成有角色的小块</title><rect width="960" height="620" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">字符先被分成有角色的小块</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">自设表达式：result = 2 + 3 * 4</text>
+<rect x="40" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="98" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">result</text>
+<text x="98" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">名字</text>
+<rect x="170" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="228" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">=</text>
+<text x="228" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">赋值</text>
+<rect x="300" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="358" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">2</text>
+<text x="358" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">整数</text>
+<rect x="430" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="488" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">+</text>
+<text x="488" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">加号</text>
+<rect x="560" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="618" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">3</text>
+<text x="618" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">整数</text>
+<rect x="690" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="748" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">*</text>
+<text x="748" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">乘号</text>
+<rect x="820" y="240" width="116" height="120" rx="14" fill="#ffffff" stroke="#087f8c" stroke-width="2"/>
+<text x="878" y="292" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">4</text>
+<text x="878" y="338" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#57727c" text-anchor="middle">整数</text>
+<text x="480" y="435" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#183747" text-anchor="middle">“result”整体是一个名字，不是六个变量。</text>
+<text x="42" y="582" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">分词保留种类与值；语法结构还要下一步决定。</text></svg>

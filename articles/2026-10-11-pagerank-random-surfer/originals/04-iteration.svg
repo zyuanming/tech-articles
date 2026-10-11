@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1333" viewBox="0 0 960 800" role="img"><title>反复更新，直到“流入”与“留下”相容</title><rect width="960" height="800" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">反复更新，直到“流入”与“留下”相容</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">横轴为迭代轮次；均匀初始值；这里只画前 16 轮</text>
+<line x1="95" y1="610" x2="885" y2="610" stroke="#d2dbd8" stroke-width="2"/>
+<line x1="95" y1="190" x2="95" y2="610" stroke="#d2dbd8" stroke-width="2"/>
+<line x1="95" y1="610.0" x2="885" y2="610.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="85" y="618.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="end">0.0</text>
+<line x1="95" y1="505.0" x2="885" y2="505.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="85" y="513.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="end">0.11</text>
+<line x1="95" y1="400.0" x2="885" y2="400.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="85" y="408.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="end">0.23</text>
+<line x1="95" y1="295.0" x2="885" y2="295.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="85" y="303.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="end">0.34</text>
+<line x1="95" y1="190.0" x2="885" y2="190.0" stroke="#d2dbd8" stroke-width="1"/>
+<text x="85" y="198.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="22" font-weight="400" fill="#57727c" text-anchor="end">0.45</text>
+<path d="M 95.0,376.66666666666663 L 144.375,330.0 L 193.75,245.99999999999994 L 243.125,288.93333333333334 L 292.5,273.62666666666667 L 341.875,270.5653333333333 L 391.25,277.5989333333333 L 440.625,272.88895999999994 L 490.0,274.39364266666666 L 539.375,274.6945791999999 L 588.75,273.97182975999993 L 638.125,274.4536292693333 L 687.5,274.2994494122666 L 736.875,274.26861344085336 L 786.25,274.3426189694293 L 835.625,274.2932818968576 L 885.0,274.309069753658" fill="none" stroke="#087f8c" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 95.0,376.66666666666663 L 144.375,423.3333333333333 L 193.75,432.66666666666663 L 243.125,404.66666666666663 L 292.5,422.96 L 341.875,417.0613333333333 L 391.25,415.88159999999993 L 440.625,418.70399999999995 L 490.0,416.8218026666666 L 539.375,417.4240341333333 L 588.75,417.5444804266666 L 638.125,417.2553949866666 L 687.5,417.4481176576 L 736.875,417.3864462882133 L 786.25,417.374112014336 L 835.625,417.403714248704 L 885.0,417.38397942426275" fill="none" stroke="#e57735" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 95.0,376.66666666666663 L 144.375,236.66666666666663 L 193.75,283.3333333333333 L 243.125,262.79999999999995 L 292.5,258.69333333333327 L 341.875,267.4293333333333 L 391.25,261.5306666666666 L 440.625,263.4092799999999 L 490.0,263.7850026666666 L 539.375,262.8814762666666 L 588.75,263.48370773333323 L 638.125,263.2909793279999 L 687.5,263.2524336469333 L 736.875,263.3449404142933 L 786.25,263.2832690449066 L 835.625,263.3030038601728 L 885.0,263.306950823226" fill="none" stroke="#5276bf" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 95.0,376.66666666666663 L 144.375,516.6666666666666 L 193.75,544.6666666666666 L 243.125,550.2666666666667 L 292.5,551.3866666666667 L 341.875,551.6106666666667 L 391.25,551.6554666666667 L 440.625,551.6644266666667 L 490.0,551.6662186666666 L 539.375,551.6665770666666 L 588.75,551.6666487466666 L 638.125,551.6666630826667 L 687.5,551.6666659498667 L 736.875,551.6666665233066 L 786.25,551.6666666379947 L 835.625,551.6666666609323 L 885.0,551.6666666655198" fill="none" stroke="#c54c53" stroke-width="4" stroke-linejoin="round"/>
+<line x1="95" y1="658" x2="125" y2="658" stroke="#087f8c" stroke-width="5"/>
+<text x="137" y="668" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#087f8c" text-anchor="start">A</text>
+<line x1="315" y1="658" x2="345" y2="658" stroke="#e57735" stroke-width="5"/>
+<text x="357" y="668" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#e57735" text-anchor="start">B</text>
+<line x1="535" y1="658" x2="565" y2="658" stroke="#5276bf" stroke-width="5"/>
+<text x="577" y="668" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#5276bf" text-anchor="start">C</text>
+<line x1="755" y1="658" x2="785" y2="658" stroke="#c54c53" stroke-width="5"/>
+<text x="797" y="668" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#c54c53" text-anchor="start">D</text>
+<text x="95" y="720" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#183747" text-anchor="start">稳定值：A 0.35967，B 0.20637，C 0.37146，D 0.06250</text>
+<text x="42" y="762" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">本地实际迭代得到；收敛判据是相邻向量 L1 差小于 10⁻¹²。</text><!-- AXES_PATCH -->
+<text x="95" y="165" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" fill="#57727c" text-anchor="start">概率</text>
+<line x1="95.0" x2="95.0" y1="610" y2="618" stroke="#57727c" stroke-width="2"/>
+<text x="95.0" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" fill="#57727c" text-anchor="middle">0</text>
+<line x1="292.5" x2="292.5" y1="610" y2="618" stroke="#57727c" stroke-width="2"/>
+<text x="292.5" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" fill="#57727c" text-anchor="middle">4</text>
+<line x1="490.0" x2="490.0" y1="610" y2="618" stroke="#57727c" stroke-width="2"/>
+<text x="490.0" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" fill="#57727c" text-anchor="middle">8</text>
+<line x1="687.5" x2="687.5" y1="610" y2="618" stroke="#57727c" stroke-width="2"/>
+<text x="687.5" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" fill="#57727c" text-anchor="middle">12</text>
+<line x1="885.0" x2="885.0" y1="610" y2="618" stroke="#57727c" stroke-width="2"/>
+<text x="885.0" y="642" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" fill="#57727c" text-anchor="middle">16</text>
+<text x="885" y="692" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" fill="#57727c" text-anchor="end">迭代轮次 k</text></svg>

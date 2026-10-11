@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1367" viewBox="0 0 960 820" role="img"><title>把“连线取中点”连续做三层</title><rect width="960" height="820" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">把“连线取中点”连续做三层</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">P₀=(0,0)  P₁=(0,4)  P₂=(4,4)  P₃=(4,0)</text>
+<line x1="220" y1="680" x2="220" y2="220" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="220" y1="220" x2="740" y2="220" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="740" y1="220" x2="740" y2="680" stroke="#d2dbd8" stroke-width="4"/>
+<path d="M 220 680 C 220 220 740 220 740 680" fill="none" stroke="#087f8c" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="220" cy="680" r="8" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="158" y="715" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">P0</text>
+<circle cx="220" cy="220" r="8" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="158" y="202" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">P1</text>
+<circle cx="740" cy="220" r="8" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="758" y="202" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">P2</text>
+<circle cx="740" cy="680" r="8" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="758" y="715" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">P3</text>
+<line x1="220.0" y1="450.0" x2="480.0" y2="220.0" stroke="#5276bf" stroke-width="5"/>
+<line x1="480.0" y1="220.0" x2="740.0" y2="450.0" stroke="#5276bf" stroke-width="5"/>
+<circle cx="220.0" cy="450.0" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="480.0" cy="220.0" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<circle cx="740.0" cy="450.0" r="10" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="350.0" y1="335.0" x2="610.0" y2="335.0" stroke="#e57735" stroke-width="5"/>
+<circle cx="350.0" cy="335.0" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="610.0" cy="335.0" r="10" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<circle cx="480.0" cy="335.0" r="10" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="475" y="300" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="37" font-weight="400" fill="#c54c53" text-anchor="start">(2,3)</text>
+<text x="100" y="760" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#183747" text-anchor="start">3 个中点 → 2 个中点 → 1 个曲线点</text></svg>

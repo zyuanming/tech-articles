@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>屏幕画了很多帧，网络可能只送来一点点</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">屏幕画了很多帧，网络可能只送来一点点</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">图中频率均为教学设定，不代表某款游戏</text>
+<text x="60" y="272" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">绘制画面</text>
+<line x1="275" y1="260" x2="865" y2="260" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="275.0" y1="239" x2="275.0" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="307.50065" y1="239" x2="307.50065" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="340.0013" y1="239" x2="340.0013" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="372.50195" y1="239" x2="372.50195" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="405.00260000000003" y1="239" x2="405.00260000000003" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="437.50325000000004" y1="239" x2="437.50325000000004" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="470.00390000000004" y1="239" x2="470.00390000000004" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="502.50455" y1="239" x2="502.50455" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="535.0052000000001" y1="239" x2="535.0052000000001" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="567.50585" y1="239" x2="567.50585" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="600.0065000000001" y1="239" x2="600.0065000000001" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="632.50715" y1="239" x2="632.50715" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="665.0078000000001" y1="239" x2="665.0078000000001" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="697.50845" y1="239" x2="697.50845" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="730.0091" y1="239" x2="730.0091" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="762.5097499999999" y1="239" x2="762.5097499999999" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="795.0104" y1="239" x2="795.0104" y2="281" stroke="#087f8c" stroke-width="5"/>
+<line x1="827.5110500000001" y1="239" x2="827.5110500000001" y2="281" stroke="#087f8c" stroke-width="5"/>
+<text x="60" y="417" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#5276bf" text-anchor="start">模拟步进</text>
+<line x1="275" y1="405" x2="865" y2="405" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="275.0" y1="384" x2="275.0" y2="426" stroke="#5276bf" stroke-width="5"/>
+<line x1="372.5" y1="384" x2="372.5" y2="426" stroke="#5276bf" stroke-width="5"/>
+<line x1="470.0" y1="384" x2="470.0" y2="426" stroke="#5276bf" stroke-width="5"/>
+<line x1="567.5" y1="384" x2="567.5" y2="426" stroke="#5276bf" stroke-width="5"/>
+<line x1="665.0" y1="384" x2="665.0" y2="426" stroke="#5276bf" stroke-width="5"/>
+<line x1="762.5" y1="384" x2="762.5" y2="426" stroke="#5276bf" stroke-width="5"/>
+<line x1="860.0" y1="384" x2="860.0" y2="426" stroke="#5276bf" stroke-width="5"/>
+<text x="60" y="562" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">发送快照</text>
+<line x1="275" y1="550" x2="865" y2="550" stroke="#d2dbd8" stroke-width="4"/>
+<line x1="275.0" y1="529" x2="275.0" y2="571" stroke="#e57735" stroke-width="5"/>
+<line x1="470.0" y1="529" x2="470.0" y2="571" stroke="#e57735" stroke-width="5"/>
+<line x1="665.0" y1="529" x2="665.0" y2="571" stroke="#e57735" stroke-width="5"/>
+<line x1="860.0" y1="529" x2="860.0" y2="571" stroke="#e57735" stroke-width="5"/>
+<text x="275" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">0</text>
+<text x="860" y="655" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="29" font-weight="400" fill="#57727c" text-anchor="middle">300 ms</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">绘制频率、模拟频率、发包频率是三个不同的量。</text></svg>

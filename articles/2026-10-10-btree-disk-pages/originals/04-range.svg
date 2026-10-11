@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 960 690" role="img"><title>查找 18 到 32：先下树，再横走</title><rect width="960" height="690" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">查找 18 到 32：先下树，再横走</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">插入 25、27 后，根页分隔键是 25、30</text>
+<rect x="310" y="185" width="340" height="80" rx="8" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="480.0" y="237.25" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#5276bf" text-anchor="middle">25        30</text>
+<line x1="480" y1="270" x2="170" y2="400" stroke="#087f8c" stroke-width="4"/>
+<polygon points="170,400 181.2569662217607,387.26105532305996 186.9762005816355,400.89922956583837" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="35" y="410" width="270" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="170.0" y="464.05" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">10  20</text>
+<line x1="480" y1="270" x2="480" y2="400" stroke="#087f8c" stroke-width="4"/>
+<polygon points="480,400 472.6055859201091,384.6923992600045 487.3944140798909,384.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="345" y="410" width="270" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="480.0" y="464.05" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">25  27</text>
+<line x1="480" y1="270" x2="790" y2="400" stroke="#087f8c" stroke-width="4"/>
+<polygon points="790,400 773.0237994183644,400.89922956583837 778.7430337782392,387.26105532305996" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<rect x="655" y="410" width="270" height="85" rx="8" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="790.0" y="464.05" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="33" font-weight="700" fill="#087f8c" text-anchor="middle">30  40</text>
+<line x1="310" y1="452" x2="338" y2="452" stroke="#e57735" stroke-width="4"/>
+<polygon points="338,452 322.6923992600045,459.3944140798909 322.6923992600045,444.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="620" y1="452" x2="648" y2="452" stroke="#e57735" stroke-width="4"/>
+<polygon points="648,452 632.6923992600045,459.3944140798909 632.6923992600045,444.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="480" y="582" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#183747" text-anchor="middle">结果：20、25、27、30；看到 40 就停止。</text>
+<text x="42" y="652" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">叶链服务范围扫描；这些页在磁盘上的物理位置未必连续。</text></svg>

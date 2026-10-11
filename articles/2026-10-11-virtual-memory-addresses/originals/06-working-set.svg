@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>三只页框，能留住多大的工作集？</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">三只页框，能留住多大的工作集？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">简化 LRU 模型；只演示容量与访问局部性</text>
+<text x="48" y="200" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">四页循环</text>
+<rect x="47" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="81.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="120" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="154.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="193" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="227.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="266" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="300.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
+<rect x="339" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="373.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="412" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="446.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="485" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="519.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="558" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="592.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
+<rect x="631" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="665.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="704" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="738.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="777" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="811.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="850" y="230" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="884.5" y="279" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">D</text>
+<text x="480" y="353" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#c54c53" text-anchor="middle">12 次缺页</text>
+<text x="48" y="400" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">三页循环</text>
+<rect x="47" y="430" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="81.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="120" y="430" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="154.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="193" y="430" width="69" height="73" rx="4" fill="#c54c53" stroke="#ffffff" stroke-width="2"/>
+<text x="227.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="266" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="300.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="339" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="373.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="412" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="446.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="485" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="519.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="558" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="592.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="631" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="665.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<rect x="704" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="738.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+<rect x="777" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="811.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">B</text>
+<rect x="850" y="430" width="69" height="73" rx="4" fill="#087f8c" stroke="#ffffff" stroke-width="2"/>
+<text x="884.5" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">C</text>
+<text x="480" y="553" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="middle">3 次缺页，9 次命中</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">红色为缺页，绿色为命中；不是实际操作系统测量。</text></svg>

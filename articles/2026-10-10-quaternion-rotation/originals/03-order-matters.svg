@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>交换顺序，结果就变了</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">交换顺序，结果就变了</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">起点都是 v=(1,0,0)；绕世界坐标轴按右手方向转 90°</text>
+<line x1="260" y1="280" x2="145" y2="365" stroke="#087f8c" stroke-width="6"/>
+<polygon points="145,365 152.91483366715727,349.95488757033587 161.70518092923606,361.8477103366778" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="80" y="240" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">先绕 z</text>
+<text x="95" y="415" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#087f8c" text-anchor="start">(0,1,0)</text>
+<line x1="400" y1="320" x2="525" y2="320" stroke="#183747" stroke-width="4"/>
+<polygon points="525,320 509.6923992600045,327.3944140798909 509.6923992600045,312.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="405" y="275" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">再绕 x</text>
+<line x1="695" y1="340" x2="695" y2="210" stroke="#087f8c" stroke-width="7"/>
+<polygon points="695,210 702.3944140798909,225.3076007399955 687.6055859201091,225.3076007399955" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="610" y="415" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#087f8c" text-anchor="start">(0,0,1)</text>
+<line x1="110" y1="580" x2="305" y2="580" stroke="#e57735" stroke-width="6"/>
+<polygon points="305,580 289.6923992600045,587.3944140798909 289.6923992600045,572.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="80" y="500" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">先绕 x</text>
+<text x="95" y="675" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="32" font-weight="400" fill="#e57735" text-anchor="start">(1,0,0)</text>
+<line x1="400" y1="580" x2="525" y2="580" stroke="#183747" stroke-width="4"/>
+<polygon points="525,580 509.6923992600045,587.3944140798909 509.6923992600045,572.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<text x="405" y="535" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="start">再绕 z</text>
+<line x1="750" y1="530" x2="635" y2="615" stroke="#e57735" stroke-width="7"/>
+<polygon points="635,615 642.9148336671573,599.9548875703359 651.705180929236,611.8477103366778" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<text x="610" y="675" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="36" font-weight="400" fill="#e57735" text-anchor="start">(0,1,0)</text>
+<text x="42" y="752" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">固定坐标轴下的主动旋转；坐标约定不同，乘法顺序也会不同。</text></svg>

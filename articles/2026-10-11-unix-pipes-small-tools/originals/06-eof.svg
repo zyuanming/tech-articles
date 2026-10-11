@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>暂时没数据，与永远没数据，是两件事</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">暂时没数据，与永远没数据，是两件事</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">EOF 是读接口返回的结束状态，不是特殊字节</text>
+<rect x="45" y="220" width="400" height="125" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="245.0" y="269" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">缓冲已读空</text>
+<rect x="45" y="430" width="400" height="125" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="245.0" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">所有写端已关闭</text>
+<line x1="245" y1="362" x2="245" y2="413" stroke="#087f8c" stroke-width="4"/>
+<polygon points="245,413 237.6055859201091,397.6923992600045 252.3944140798909,397.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="245" y="645" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#087f8c" text-anchor="middle">读者获得 EOF</text>
+<rect x="515" y="220" width="400" height="125" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="715.0" y="269" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">缓冲已读空</text>
+<rect x="515" y="430" width="400" height="125" rx="16" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="715.0" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#c54c53" text-anchor="middle">仍有写端打开</text>
+<line x1="715" y1="362" x2="715" y2="413" stroke="#c54c53" stroke-width="4"/>
+<polygon points="715,413 707.6055859201091,397.6923992600045 722.3944140798909,397.6923992600045" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="715" y="645" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="middle">可能还有未来输入</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">忘记关闭多余的写端副本，可能让下游一直等待。</text></svg>

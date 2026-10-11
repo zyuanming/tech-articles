@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>用随机小路，追问光从哪里来</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">用随机小路，追问光从哪里来</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">路径追踪：把看不完的可能性，变成可计算的平均</text>
+<polygon points="100,610 450,730 855,580 485,430" fill="#e4d9c7" stroke="#183747" stroke-width="4"/>
+<polygon points="100,240 485,120 485,430 100,610" fill="#c97973" stroke="#183747" stroke-width="4"/>
+<polygon points="485,120 855,255 855,580 485,430" fill="#bacbc1" stroke="#183747" stroke-width="4"/>
+<circle cx="590" cy="460" r="100" fill="#e8dfc5" stroke="#183747" stroke-width="4"/>
+<rect x="380" y="180" width="200" height="35" rx="0" fill="#fff1aa" stroke="#e57735" stroke-width="2"/>
+<line x1="800" y1="680" x2="595" y2="440" stroke="#e57735" stroke-width="5"/>
+<polygon points="595,440 610.564587911979,446.8369293641429 599.3195522479557,456.4420639938294" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="595" y1="440" x2="300" y2="395" stroke="#e57735" stroke-width="5"/>
+<polygon points="300,395 316.2476149645734,389.99849942887437 314.0174894084824,404.6182114076935" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="300" y1="395" x2="460" y2="210" stroke="#e57735" stroke-width="5"/>
+<polygon points="460,210 455.5793658792781,226.41517572159097 444.3936408954959,216.74103519507662" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="800" y1="680" x2="460" y2="545" stroke="#087f8c" stroke-width="5"/>
+<polygon points="460,545 476.9559162706202,543.7765199536904 471.49835141864685,557.5214980994009" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="460" y1="545" x2="590" y2="440" stroke="#087f8c" stroke-width="5"/>
+<polygon points="590,440 582.7377717658071,455.37075278164644 573.445402262674,443.86591434919575" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="590" y1="440" x2="530" y2="210" stroke="#087f8c" stroke-width="5"/>
+<polygon points="530,210 541.0189364025154,222.9453868446378 526.7090108366017,226.67841090531093" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="800" y1="680" x2="750" y2="390" stroke="#5276bf" stroke-width="5"/>
+<polygon points="750,390 759.8877673958938,403.82866790130925 745.3139670858319,406.3413920926992" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="750" y1="390" x2="515" y2="510" stroke="#5276bf" stroke-width="5"/>
+<polygon points="515,510 525.2702192025505,496.45294875142326 531.9958404217429,509.62395697234183" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<line x1="515" y1="510" x2="410" y2="210" stroke="#5276bf" stroke-width="5"/>
+<polygon points="410,210 422.0361519257614,222.00545904245195 408.07759288629023,226.89095470626685" fill="#5276bf" stroke="#5276bf" stroke-width="3"/></svg>

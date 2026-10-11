@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1267" viewBox="0 0 960 760" role="img"><title>两位错了，地址可能冒充第三位</title><rect width="960" height="760" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">两位错了，地址可能冒充第三位</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">症状相加也按异或：位置 1 ⊕ 位置 2 = 位置 3</text>
+<text x="60" y="242" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="start">真实翻转</text>
+<rect x="390" y="195" width="490" height="88" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="635.0" y="252.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#c54c53" text-anchor="middle">001 ⊕ 010</text>
+<line x1="635" y1="290" x2="635" y2="339" stroke="#57727c" stroke-width="4"/>
+<polygon points="635,339 627.6055859201091,323.6923992600045 642.3944140798909,323.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="60" y="394" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#e57735" text-anchor="start">收到的症状</text>
+<rect x="390" y="347" width="490" height="88" rx="8" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="635.0" y="404.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#e57735" text-anchor="middle">011</text>
+<line x1="635" y1="442" x2="635" y2="491" stroke="#57727c" stroke-width="4"/>
+<polygon points="635,491 627.6055859201091,475.6923992600045 642.3944140798909,475.6923992600045" fill="#57727c" stroke="#57727c" stroke-width="3"/>
+<text x="60" y="546" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#c54c53" text-anchor="start">错误的单错判断</text>
+<rect x="390" y="499" width="490" height="88" rx="8" fill="#ffffff" stroke="#c54c53" stroke-width="3"/>
+<text x="635.0" y="556.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="700" fill="#c54c53" text-anchor="middle">“第 3 位翻转”</text>
+<text x="42" y="722" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">Hamming(7,4) 不能同时保证单错纠正、双错单独报警。</text></svg>

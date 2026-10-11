@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>先查翻译速查册，不必每次走页表</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">先查翻译速查册，不必每次走页表</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">TLB 保存翻译，不是保存目标数据本身</text>
+<rect x="50" y="250" width="215" height="110" rx="16" fill="#ffffff" stroke="#087f8c" stroke-width="3"/>
+<text x="157.5" y="299" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#087f8c" text-anchor="middle">虚拟页号</text>
+<rect x="360" y="250" width="215" height="110" rx="16" fill="#ffffff" stroke="#e57735" stroke-width="3"/>
+<text x="467.5" y="299" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#e57735" text-anchor="middle">TLB</text>
+<rect x="685" y="250" width="230" height="110" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="800.0" y="299" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">物理页框</text>
+<line x1="280" y1="305" x2="343" y2="305" stroke="#183747" stroke-width="4"/>
+<polygon points="343,305 327.6923992600045,312.3944140798909 327.6923992600045,297.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<line x1="590" y1="305" x2="670" y2="305" stroke="#087f8c" stroke-width="4"/>
+<polygon points="670,305 654.6923992600045,312.3944140798909 654.6923992600045,297.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<text x="625" y="266" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#087f8c" text-anchor="middle">命中</text>
+<rect x="360" y="505" width="330" height="120" rx="16" fill="#ffffff" stroke="#5276bf" stroke-width="3"/>
+<text x="525.0" y="554" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="700" fill="#5276bf" text-anchor="middle">访问页表取得翻译</text>
+<line x1="460" y1="376" x2="460" y2="489" stroke="#c54c53" stroke-width="4"/>
+<polygon points="460,489 452.6055859201091,473.6923992600045 467.3944140798909,473.6923992600045" fill="#c54c53" stroke="#c54c53" stroke-width="3"/>
+<text x="475" y="440" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#c54c53" text-anchor="start">未命中</text>
+<line x1="705" y1="565" x2="800" y2="380" stroke="#5276bf" stroke-width="4"/>
+<polygon points="800,380 799.5852431499405,396.99493973967924 786.4295893820063,390.23933375074" fill="#5276bf" stroke="#5276bf" stroke-width="3"/>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">TLB 未命中 ≠ 缺页 ≠ 一定访问磁盘。</text></svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1300" viewBox="0 0 960 780" role="img"><title>你打开的网页，可能来自中途的一份副本</title><rect width="960" height="780" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">你打开的网页，可能来自中途的一份副本</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">只画三层：浏览器私有缓存、CDN共享缓存、源站</text>
+<rect x="60" y="260" width="220" height="170" rx="15" fill="#ffffff" stroke="#087f8c" stroke-width="4"/>
+<rect x="78" y="278" width="184" height="24" rx="0" fill="#087f8c" stroke="#087f8c" stroke-width="2"/>
+<text x="170" y="362" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#087f8c" text-anchor="middle">浏览器</text>
+<text x="170" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">你的设备</text>
+<line x1="297" y1="345" x2="345" y2="345" stroke="#183747" stroke-width="4"/>
+<polygon points="345,345 329.6923992600045,352.3944140798909 329.6923992600045,337.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="365" y="260" width="220" height="170" rx="15" fill="#ffffff" stroke="#5276bf" stroke-width="4"/>
+<rect x="383" y="278" width="184" height="24" rx="0" fill="#5276bf" stroke="#5276bf" stroke-width="2"/>
+<text x="475" y="362" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#5276bf" text-anchor="middle">CDN</text>
+<text x="475" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">附近节点</text>
+<line x1="602" y1="345" x2="650" y2="345" stroke="#183747" stroke-width="4"/>
+<polygon points="650,345 634.6923992600045,352.3944140798909 634.6923992600045,337.6055859201091" fill="#183747" stroke="#183747" stroke-width="3"/>
+<rect x="670" y="260" width="220" height="170" rx="15" fill="#ffffff" stroke="#e57735" stroke-width="4"/>
+<rect x="688" y="278" width="184" height="24" rx="0" fill="#e57735" stroke="#e57735" stroke-width="2"/>
+<text x="780" y="362" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="38" font-weight="400" fill="#e57735" text-anchor="middle">源站</text>
+<text x="780" y="479" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="31" font-weight="400" fill="#57727c" text-anchor="middle">部署新版处</text>
+<text x="80" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#087f8c" text-anchor="start">旧版 V1</text>
+<text x="391" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#5276bf" text-anchor="start">旧版 V1</text>
+<text x="696" y="600" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="34" font-weight="400" fill="#e57735" text-anchor="start">新版 V2</text>
+<text x="42" y="742" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">源站更新完成，不会自动把每一层已有副本都改掉。</text></svg>

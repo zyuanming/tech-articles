@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1317" viewBox="0 0 960 790" role="img"><title>递归调用怎样一层层展开？</title><rect width="960" height="790" fill="#f7f4ed"/>
+<text x="42" y="68" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="42" font-weight="700" fill="#183747" text-anchor="start">递归调用怎样一层层展开？</text>
+<text x="42" y="114" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="27" font-weight="400" fill="#57727c" text-anchor="start">固定顺序：先走右支，右支失败后再走下支</text>
+<line x1="146.0" y1="230.0" x2="254.0" y2="230.0" stroke="#087f8c" stroke-width="6"/>
+<polygon points="254.0,230.0 238.6923992600045,237.3944140798909 238.6923992600045,222.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="326.0" y1="230.0" x2="449.0" y2="230.0" stroke="#e57735" stroke-width="6"/>
+<polygon points="449.0,230.0 433.6923992600045,237.3944140798909 433.6923992600045,222.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="521.0" y1="230.0" x2="684.0" y2="230.0" stroke="#e57735" stroke-width="6"/>
+<polygon points="684.0,230.0 668.6923992600045,237.3944140798909 668.6923992600045,222.6055859201091" fill="#e57735" stroke="#e57735" stroke-width="3"/>
+<line x1="290.0" y1="266.0" x2="290.0" y2="424.0" stroke="#087f8c" stroke-width="6"/>
+<polygon points="290.0,424.0 282.6055859201091,408.6923992600045 297.3944140798909,408.6923992600045" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="326.0" y1="460.0" x2="464.0" y2="460.0" stroke="#087f8c" stroke-width="6"/>
+<polygon points="464.0,460.0 448.6923992600045,467.3944140798909 448.6923992600045,452.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<line x1="536.0" y1="460.0" x2="694.0" y2="460.0" stroke="#087f8c" stroke-width="6"/>
+<polygon points="694.0,460.0 678.6923992600045,467.3944140798909 678.6923992600045,452.6055859201091" fill="#087f8c" stroke="#087f8c" stroke-width="3"/>
+<circle cx="110" cy="230" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="110" y="242" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">S</text>
+<circle cx="290" cy="230" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="290" y="242" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">A</text>
+<circle cx="485" cy="230" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="485" y="242" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">B</text>
+<circle cx="720" cy="230" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="720" y="242" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">C</text>
+<circle cx="290" cy="460" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="290" y="472" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">D</text>
+<circle cx="500" cy="460" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="500" y="472" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">E</text>
+<circle cx="730" cy="460" r="34" fill="#ffffff" stroke="#183747" stroke-width="3"/>
+<text x="730" y="472" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="35" font-weight="700" fill="#183747" text-anchor="middle">T</text>
+<path d="M 720 273 Q 605 375 494 273" fill="none" stroke="#e57735" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 485 273 Q 389 375 300 273" fill="none" stroke="#e57735" stroke-width="4" stroke-linejoin="round"/>
+<text x="685" y="363" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#e57735" text-anchor="middle">失败返回</text>
+<text x="475" y="610" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#183747" text-anchor="middle">首次到访：S A B C（退回）D E T</text>
+<text x="42" y="752" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#57727c" text-anchor="start">返回 A 时，不重走 B，而是继续 A 尚未尝试的下一支。</text></svg>
