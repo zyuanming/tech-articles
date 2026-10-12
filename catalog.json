@@ -1386,6 +1386,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-ssa-phi-control-flow",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编译器里的隐形账本",
+    "series_order": 3,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "变量只能赋值一次，循环怎么还能转？SSA给每个值一个清楚的来处",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-ssa-phi-control-flow/read.md",
+    "public_sha256": "246971de642fa9b3029ca7c03c814900309512ba12434a28c46e65b91f30f916",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-type-inference-unification",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",

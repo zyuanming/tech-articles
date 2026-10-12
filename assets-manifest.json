@@ -9320,6 +9320,146 @@
     "sha256": "6572458b6dbdc44bc929232b303db3f9ab31b04e4f7b46f2ba0c673043c31799"
   },
   {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/01-same-name.png",
+    "bytes": 52384,
+    "sha256": "9e6776fa28fd21e76c107dba44e1060d9d14c77d543e975a264503b4498063d1"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/02-renamed-values.png",
+    "bytes": 51372,
+    "sha256": "d40836ce69cf3fe9d3b85a637c6878672ef924aa686cbf2448af8c0cd9a8c1dd"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/03-def-use.png",
+    "bytes": 55193,
+    "sha256": "51d96af922d53e431754d3e004e33ae83b7afbe7477aa55b6b59658a5ed72002"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/04-history-questions.png",
+    "bytes": 99235,
+    "sha256": "4bfdba377464d5c0bc09d203f13e40a374aab9a8b81e033b71c913f1150090af"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/05-branch-puzzle.png",
+    "bytes": 58160,
+    "sha256": "cf8825a239f26cb78bf2966ded3c8fee6f16531dddce7718e64de912856f8f53"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/06-phi-arrival.png",
+    "bytes": 69258,
+    "sha256": "7068bb09b2caaed70052ebc8f89bbf9eec604c7bfd691cb197452cabe1004fb9"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/07-two-executions.png",
+    "bytes": 51464,
+    "sha256": "a3dfe9e63d341eb88f32e70ae0d1b254b8937f1a67ebaa010c30c72ca81ab759"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/08-cfg-blocks.png",
+    "bytes": 49964,
+    "sha256": "5dc6b7e0d593d3701001decf1f79870d3b37023124c9eb9fc0483fbdd5141d99"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/09-two-kinds-arrows.png",
+    "bytes": 80377,
+    "sha256": "d7d4bcdd7891203fc254e7871bb8db6a0a1c49e41bcd78545f30e61552685a9f"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/10-dominance.png",
+    "bytes": 56727,
+    "sha256": "6c73c6f880df9d10c33ea451cfcf8adbcd1c19c1a63e10e1522770de12d3bcd8"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/11-edge-use.png",
+    "bytes": 65660,
+    "sha256": "088809f4eb3e92e8e018f6a575b24318f7c9e62141e833caaac8dd901e8be391"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/12-loop-incoming.png",
+    "bytes": 80308,
+    "sha256": "ec7d27f353907f195af235dc3ef6380bc02ece41ecae0b46232f66392cddde63"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/13-loop-ssa.png",
+    "bytes": 83879,
+    "sha256": "bf2b59459791768f3baf37230591121933ae1bfd5396a21b8c4c341cd9193817"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/14-static-dynamic.png",
+    "bytes": 71384,
+    "sha256": "1a20b822b1ae24c1abbd907feac96cbd0c97894af7cd05082b2bdc0738747635"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/15-loop-trace.png",
+    "bytes": 70607,
+    "sha256": "a83c04d1a54d080ba177ea14f18d27c0773d503976f8c579ddc685a03c6643a8"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/16-parallel-phi.png",
+    "bytes": 54323,
+    "sha256": "ae151af39d2d43deb7f38801e93b7cd5395cf518e7dd31cc2cb8af49dc935428"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/17-swap-pitfall.png",
+    "bytes": 53318,
+    "sha256": "643f9ad5a9f5c6430e72c555011bfdef564fb263f828c1cff9869aea3a46f51a"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/18-dominance-frontier.png",
+    "bytes": 68181,
+    "sha256": "344fb3cef1e96140340b1f5412d96c95806bf249e0af4423e27eca86e585eb4e"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/19-loop-frontier.png",
+    "bytes": 79787,
+    "sha256": "55c0225025b025e830b59616511ba10372601d984ca29749c788b58e972f0cd4"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/20-constant-propagation.png",
+    "bytes": 66166,
+    "sha256": "8057311167c33a761ff6c0cae1a373be2cf2aa44770d241b5ff62fae6d2152f0"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/21-sparse-notifications.png",
+    "bytes": 55843,
+    "sha256": "65a8c329c09cd86c1a0ce53f46f06b5466a0bcaaa8f325bb43ea90a6eb8ae403"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/22-out-of-ssa.png",
+    "bytes": 71569,
+    "sha256": "162042f520b21a469a03daebfe559c9c4549ef820b89f1290e28dfdec110add9"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/23-memory-boundary.png",
+    "bytes": 42850,
+    "sha256": "236a22031290bb28222fe8863e746a8081386ede9a5cc781d1a70ca4e1c398f1"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/24-llvm-pairs.png",
+    "bytes": 60545,
+    "sha256": "6c64bf0b57cbeddc53dbc0dafb62ef00ccbb4947454a3f70ab2ab2f5deb8dabf"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/25-invalid-programs.png",
+    "bytes": 70772,
+    "sha256": "e4818d2a67230556130932ef60350afcee4b44bb65ee89709d9d97258172da10"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/assets/26-loop-execution.gif",
+    "bytes": 474098,
+    "sha256": "ec750530afaba6dab2f36dc92f32bae846fc2a607d6268bc3ed525a52c0289ed"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/examples/bonus.ll",
+    "bytes": 360,
+    "sha256": "a888fe91cad0ca6c40acea47d338a874c868bf9d44235ef4050fb4ea148913b1"
+  },
+  {
+    "path": "articles/2026-10-12-ssa-phi-control-flow/examples/ssa_lab.py",
+    "bytes": 11205,
+    "sha256": "41eef919dcd1b083b0714af4970a1dc3bf385211a45c04761ccde508c8605ed0"
+  },
+  {
     "path": "articles/2026-10-12-type-inference-unification/assets/01-identity-puzzle.png",
     "bytes": 61384,
     "sha256": "96f9aa1d3ce7bd8d7b5ce4f0f77773e290a94ffbe7cc8944ace7b74308acb6cd"
