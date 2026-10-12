@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<rect width="210" height="297" fill="white"/>
+<g fill="#173743" font-family="sans-serif">
+<text x="15" y="22" font-size="7">Nomogram: addition</text>
+<text x="15" y="34" font-size="4">Original teaching chart. Join two known marks.</text>
+<text x="15" y="42" font-size="4">Use the specified ranges and units.</text>
+<text x="30" y="73" text-anchor="middle" font-size="4.2">a</text>
+<path d="M 30 88 V 240" fill="none" stroke="#173743" stroke-width="0.4"/>
+<path d="M 28 235.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="236.30000000" font-size="3.8">0</text>
+<path d="M 28 225.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="226.30000000" font-size="3.8">1</text>
+<path d="M 28 215.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="216.30000000" font-size="3.8">2</text>
+<path d="M 28 205.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="206.30000000" font-size="3.8">3</text>
+<path d="M 28 195.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="196.30000000" font-size="3.8">4</text>
+<path d="M 28 185.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="186.30000000" font-size="3.8">5</text>
+<path d="M 28 175.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="176.30000000" font-size="3.8">6</text>
+<path d="M 28 165.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="166.30000000" font-size="3.8">7</text>
+<path d="M 28 155.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="156.30000000" font-size="3.8">8</text>
+<path d="M 28 145.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="146.30000000" font-size="3.8">9</text>
+<path d="M 28 135.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="136.30000000" font-size="3.8">10</text>
+<text x="105" y="73" text-anchor="middle" font-size="4.2">c = a + b</text>
+<path d="M 105 88 V 240" fill="none" stroke="#173743" stroke-width="0.4"/>
+<path d="M 103 235.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="236.30000000" font-size="3.8">0</text>
+<path d="M 103 225.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="226.30000000" font-size="3.8">2</text>
+<path d="M 103 215.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="216.30000000" font-size="3.8">4</text>
+<path d="M 103 205.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="206.30000000" font-size="3.8">6</text>
+<path d="M 103 195.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="196.30000000" font-size="3.8">8</text>
+<path d="M 103 185.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="186.30000000" font-size="3.8">10</text>
+<path d="M 103 175.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="176.30000000" font-size="3.8">12</text>
+<path d="M 103 165.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="166.30000000" font-size="3.8">14</text>
+<path d="M 103 155.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="156.30000000" font-size="3.8">16</text>
+<path d="M 103 145.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="146.30000000" font-size="3.8">18</text>
+<path d="M 103 135.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="136.30000000" font-size="3.8">20</text>
+<text x="180" y="73" text-anchor="middle" font-size="4.2">b</text>
+<path d="M 180 88 V 240" fill="none" stroke="#173743" stroke-width="0.4"/>
+<path d="M 178 235.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="236.30000000" font-size="3.8">0</text>
+<path d="M 178 225.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="226.30000000" font-size="3.8">1</text>
+<path d="M 178 215.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="216.30000000" font-size="3.8">2</text>
+<path d="M 178 205.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="206.30000000" font-size="3.8">3</text>
+<path d="M 178 195.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="196.30000000" font-size="3.8">4</text>
+<path d="M 178 185.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="186.30000000" font-size="3.8">5</text>
+<path d="M 178 175.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="176.30000000" font-size="3.8">6</text>
+<path d="M 178 165.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="166.30000000" font-size="3.8">7</text>
+<path d="M 178 155.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="156.30000000" font-size="3.8">8</text>
+<path d="M 178 145.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="146.30000000" font-size="3.8">9</text>
+<path d="M 178 135.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="136.30000000" font-size="3.8">10</text>
+<text x="15" y="265" font-size="4">Print the whole sheet together. Do not move one axis.</text>
+<text x="15" y="273" font-size="4">Finite printed marks require interpolation; not exact arithmetic.</text>
+<text x="15" y="281" font-size="3.5">zyuanming / tech-articles. CC BY 4.0.</text>
+</g></svg>

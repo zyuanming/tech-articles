@@ -1316,6 +1316,20 @@
     "images": 23
   },
   {
+    "id": "2026-10-12-nomogram-straightedge-equations",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "无芯片的计算",
+    "series_order": 2,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "不移动刻度，一条直线为什么会算题？d’Ocagne 与印在纸上的方程",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/read.md",
+    "public_sha256": "66e0daa55a5d72d6c04660b8fbf8498c77bd8994a833df68e58801fbb6cae291",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-perspective-correct-interpolation",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把世界画出来",

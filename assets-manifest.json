@@ -8565,6 +8565,156 @@
     "sha256": "7ffe7d3c01f3ce350c8ecefd15ba0a0d7ab29b723d611dceac307fad9a5aa727"
   },
   {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/01-first-line.png",
+    "bytes": 54855,
+    "sha256": "2bd15d1872ac8dde8bf36afd71bf4d3b2f7e25f2f36fdad5738f0e364e3fabb1"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/02-history.png",
+    "bytes": 101297,
+    "sha256": "d85642170336043fa164a657599d85a6dc891510ad48186735f0047ea34c0a9b"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/03-grid-to-alignment.png",
+    "bytes": 68965,
+    "sha256": "daffb3ff9f737de1a6c6573a088fdb85e3991f839339f893a650e2e0fc887ea2"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/04-wrong-middle.png",
+    "bytes": 52378,
+    "sha256": "c5c557f7a514b50c146fea436823c7857f838302f9f873952822b7ffa02e0a7c"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/05-midpoint-proof.png",
+    "bytes": 40403,
+    "sha256": "01ba62b3634f7e506f4f848846710851e24d3ad96320a2893225a3b9776b474b"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/06-relabel-center.png",
+    "bytes": 66568,
+    "sha256": "b3c0f914bc13ba571cd35de63d3c15e02adcf95f3b03c52e05c3ff59391ba44a"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/07-addition-correct.png",
+    "bytes": 53641,
+    "sha256": "e8d9ba2c698f0e4e831bcbfa9e92ee38f2a2ca12152cc1f37c6e644f880ae005"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/08-reverse-solve.png",
+    "bytes": 57085,
+    "sha256": "6c881073ab929fca36e255426a951c6a4a788b0527bc802148394ccbe6573539"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/09-off-center.png",
+    "bytes": 66941,
+    "sha256": "89008a65eef530b8b1481421c30a33f63c9be4f623bf6329d5e78634da625f92"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/10-function-scales.png",
+    "bytes": 60295,
+    "sha256": "81d96644ea144e6db92948179caf656b460f830bda8c7ab1208399e254e60451"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/11-log-scales.png",
+    "bytes": 44717,
+    "sha256": "7da817c7662a21a0cfcdb66fb2b9a65c6f3dce24e7c7eaef8557e256016c954d"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/12-multiplication.png",
+    "bytes": 45857,
+    "sha256": "8200ac6ba996bbc53bbc704002e5e5acfb239ef56661402267d037eda65f6f81"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/13-log-proof.png",
+    "bytes": 68733,
+    "sha256": "cda4aad616333a78eb35a55b10aa8b0319d748f708d1d186010d378b0226d777"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/14-parallel-circuit.png",
+    "bytes": 59170,
+    "sha256": "dfdbe439f6de941ffa5070ab2b32c0c1e0c64f993e9ab2c6af3bd665366bd35f"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/15-conductance.png",
+    "bytes": 50954,
+    "sha256": "cbaf4ff04824880886986608c857b42afdc342ab2216bb8a55c9f2ccc93005c9"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/16-reciprocal-scales.png",
+    "bytes": 52244,
+    "sha256": "c9ccb763a9e63f00d3f783bfba4842f3a326d6df3b188860491a158cf7bbe8a9"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/17-parallel-result.png",
+    "bytes": 53905,
+    "sha256": "fb3346b693f145cfd98c76a0d0aa06597a8c7b3a5d28fb3a7f4e96d3108d371e"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/18-parallel-limits.png",
+    "bytes": 69133,
+    "sha256": "4d2617c143af88f562c57ea55058c0ba6132c35baea65680c4b779035480dd5c"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/19-reading-error.png",
+    "bytes": 70371,
+    "sha256": "3acef12930b1e6853c50bc6267257a43914315846d5ff8ae15984405ab41c44a"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/20-reciprocal-spacing.png",
+    "bytes": 69925,
+    "sha256": "31cb3495da58f65e35aa5d6ae3065ed4b3ec44ea10c267837cc3f762b685ef2a"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/21-domains-units.png",
+    "bytes": 71819,
+    "sha256": "6e39a51085e550e9bf9c991b101e3289e9f3f1ff840bb4df95f0a0b27787e523"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/22-print-transform.png",
+    "bytes": 69938,
+    "sha256": "a2f83714258265ec38f8764b538398e1c6f0895803abb1c0aa0b37cc291f7abe"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/23-two-instruments.png",
+    "bytes": 78806,
+    "sha256": "6fdbef9a6d4002f6507cc03bdc020308a66290d18adb53f75d8669fa8d5f8480"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/24-paper-sheet.png",
+    "bytes": 86938,
+    "sha256": "11027b161e11d42d15d1a937d3fb2c1d4057fb538349a13456b0ed524a510309"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/25-experiment-checks.png",
+    "bytes": 113710,
+    "sha256": "29a3691413aad31e2d858460105e890b189914fab93cd748587175a1e405fcfd"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/26-moving-straightedge.gif",
+    "bytes": 220352,
+    "sha256": "a143a412dea14aaedfb77c6f0d1ba5853582f1b4dd44e64074edfc17cef2c24c"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/examples/nomogram_lab.py",
+    "bytes": 5908,
+    "sha256": "cf23660e9a2f3e3aa3e93d19f7ab95f35e4de6153833489fe008283514a50c1a"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/examples/paper-addition.svg",
+    "bytes": 5368,
+    "sha256": "894f9f21603fbda5c80c62bd845dbe692bb89a7a692534445c014011bc087c64"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/examples/paper-parallel.svg",
+    "bytes": 3990,
+    "sha256": "2810cde2c9b3a6461e3aa1615348131e8a77b5c3ec19579bf0c5e1c16883a034"
+  },
+  {
+    "path": "articles/2026-10-12-nomogram-straightedge-equations/examples/paper-product.svg",
+    "bytes": 4482,
+    "sha256": "e01e8cb7be42e1022fcc9231ff1fb415f980c5e150defc0fcc045a6a81ab5622"
+  },
+  {
     "path": "articles/2026-10-12-perspective-correct-interpolation/assets/01-two-mappings.png",
     "bytes": 222181,
     "sha256": "4bdf0ec33ce80cce1f45f5235c273bc6f6c026fcfe0853e46ce5a6a6897524c6"

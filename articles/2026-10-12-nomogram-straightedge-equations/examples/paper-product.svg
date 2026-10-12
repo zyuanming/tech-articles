@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<rect width="210" height="297" fill="white"/>
+<g fill="#173743" font-family="sans-serif">
+<text x="15" y="22" font-size="7">Nomogram: product</text>
+<text x="15" y="34" font-size="4">Original teaching chart. Join two known marks.</text>
+<text x="15" y="42" font-size="4">Use the specified ranges and units.</text>
+<text x="30" y="73" text-anchor="middle" font-size="4.2">a > 0</text>
+<path d="M 30 88 V 240" fill="none" stroke="#173743" stroke-width="0.4"/>
+<path d="M 28 235.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="236.30000000" font-size="3.8">1</text>
+<path d="M 28 204.89700043 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="206.19700043" font-size="3.8">2</text>
+<path d="M 28 187.28787453 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="188.58787453" font-size="3.8">3</text>
+<path d="M 28 174.79400087 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="176.09400087" font-size="3.8">4</text>
+<path d="M 28 165.10299957 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="166.40299957" font-size="3.8">5</text>
+<path d="M 28 157.18487496 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="158.48487496" font-size="3.8">6</text>
+<path d="M 28 144.69100130 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="145.99100130" font-size="3.8">8</text>
+<path d="M 28 135.00000000 H 32" stroke="#173743" stroke-width="0.3"/>
+<text x="33" y="136.30000000" font-size="3.8">10</text>
+<text x="105" y="73" text-anchor="middle" font-size="4.2">c = a * b</text>
+<path d="M 105 88 V 240" fill="none" stroke="#173743" stroke-width="0.4"/>
+<path d="M 103 235.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="236.30000000" font-size="3.8">1</text>
+<path d="M 103 219.94850022 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="221.24850022" font-size="3.8">2</text>
+<path d="M 103 211.14393726 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="212.44393726" font-size="3.8">3</text>
+<path d="M 103 200.05149978 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="201.35149978" font-size="3.8">5</text>
+<path d="M 103 185.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="186.30000000" font-size="3.8">10</text>
+<path d="M 103 181.04093770 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="182.34093770" font-size="3.8">12</text>
+<path d="M 103 169.94850022 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="171.24850022" font-size="3.8">20</text>
+<path d="M 103 161.14393726 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="162.44393726" font-size="3.8">30</text>
+<path d="M 103 150.05149978 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="151.35149978" font-size="3.8">50</text>
+<path d="M 103 135.00000000 H 107" stroke="#173743" stroke-width="0.3"/>
+<text x="108" y="136.30000000" font-size="3.8">100</text>
+<text x="180" y="73" text-anchor="middle" font-size="4.2">b > 0</text>
+<path d="M 180 88 V 240" fill="none" stroke="#173743" stroke-width="0.4"/>
+<path d="M 178 235.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="236.30000000" font-size="3.8">1</text>
+<path d="M 178 204.89700043 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="206.19700043" font-size="3.8">2</text>
+<path d="M 178 187.28787453 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="188.58787453" font-size="3.8">3</text>
+<path d="M 178 174.79400087 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="176.09400087" font-size="3.8">4</text>
+<path d="M 178 165.10299957 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="166.40299957" font-size="3.8">5</text>
+<path d="M 178 157.18487496 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="158.48487496" font-size="3.8">6</text>
+<path d="M 178 144.69100130 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="145.99100130" font-size="3.8">8</text>
+<path d="M 178 135.00000000 H 182" stroke="#173743" stroke-width="0.3"/>
+<text x="183" y="136.30000000" font-size="3.8">10</text>
+<text x="15" y="265" font-size="4">Print the whole sheet together. Do not move one axis.</text>
+<text x="15" y="273" font-size="4">Finite printed marks require interpolation; not exact arithmetic.</text>
+<text x="15" y="281" font-size="3.5">zyuanming / tech-articles. CC BY 4.0.</text>
+</g></svg>
