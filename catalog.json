@@ -1244,5 +1244,19 @@
     "path": "articles/2026-10-12-kmp-remember-the-match/read.md",
     "public_sha256": "ca3f1efb1aa48b255c8f7a103d664480e19a775ad249de279a59bff0dbbdbb9b",
     "images": 24
+  },
+  {
+    "id": "2026-10-12-little-law-customer-time",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "系统故障时的真话",
+    "series_order": 1,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "队伍有多长，等待有多久？Little 定律把两本账变成同一张图",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-little-law-customer-time/read.md",
+    "public_sha256": "d657c5f0760ea689a65a76facff21b3b6a4b9c0a8b3d0274f425e9f2735e7bfd",
+    "images": 23
   }
 ]

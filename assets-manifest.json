@@ -7920,6 +7920,126 @@
     "sha256": "2a70250c6bf4b57dfbf6d12104d140e50862ac63b41249e201426fd294323967"
   },
   {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/01-two-notebooks.png",
+    "bytes": 52517,
+    "sha256": "53b47c45661d453690aca49e8bd37e959c4c3d59d18cfe327f9607b69ecba9a7"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/02-system-boundary.png",
+    "bytes": 42923,
+    "sha256": "7266b931062c1725b614bab2e7f6d30dc652df9695ef1c039db11b63fc3ee3e6"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/03-five-residences.png",
+    "bytes": 45328,
+    "sha256": "f0c50d37b58ad26685d109451cec21e7f35e9df28b3ddd336d7d63c5e56a81fe"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/04-person-minutes.png",
+    "bytes": 58256,
+    "sha256": "483720558bed90bd17a30907fd15e189503a4e122c2e2e205ab5c71905574267"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/05-unit-area.png",
+    "bytes": 43727,
+    "sha256": "e2352361e36cad03e3efaddff70caf402eca9358391314da824b3dc8a7c768a4"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/06-occupancy-steps.png",
+    "bytes": 51245,
+    "sha256": "dce71aaaa5250fe6e631eafbcbe43c37e7c7a84e0a8d7d9028a9f05e4b546891"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/07-same-area.gif",
+    "bytes": 355555,
+    "sha256": "46b4162fffb03c832b44454940d7a705df067b7993fabe7f1627a1acd67ce74a"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/08-three-averages.png",
+    "bytes": 42449,
+    "sha256": "9c5a35f7c83669289d4ca84f5adef733bd988c20bce46108345637795e792cb5"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/09-cancellation.png",
+    "bytes": 50025,
+    "sha256": "bf5b7dbcb9dd7e93bd4d8a5c5627cf919bf0a9070b3442cfebc005f1d99e0f00"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/10-wait-service-split.png",
+    "bytes": 51191,
+    "sha256": "fd92cb45e974dea56c4c121b55e98950fa9bf7b803fb67433bc67e9952828cfc"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/11-two-boundaries.png",
+    "bytes": 68396,
+    "sha256": "ed4a61d37568f10475f708794fee6458a332e7300d08411e835559869834d1bf"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/12-non-fifo.png",
+    "bytes": 40776,
+    "sha256": "7e21202053a996f48d6123eb75cb14ad698d2df166d9217d79630410ff88f802"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/13-clipped-window.png",
+    "bytes": 47550,
+    "sha256": "12919679bd8065ca10edc77ff3b1d429aef32ab6f6213606045b605486253be6"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/14-mixed-window-error.png",
+    "bytes": 64654,
+    "sha256": "264e25260dd3324ea20b004bd2048e06acfff57b1f353ecca5701c3cc8951a1c"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/15-interval-overlap.png",
+    "bytes": 51115,
+    "sha256": "cd91f4fd6b9b018465dbb923c5c686913536a4d77a50c743bba102a6c2d49cbb"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/16-proof-layers.png",
+    "bytes": 74240,
+    "sha256": "df2dff3940650aefc2ef6486cfa7909769c38698ced2a6a23aa1d3fc3b88e7a8"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/17-request-units.png",
+    "bytes": 54062,
+    "sha256": "ce6d0883b53b32ad9503f51c57e6db18f27f05017d3ab539b753441e33e2997b"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/18-concurrency-not-cause.png",
+    "bytes": 69423,
+    "sha256": "9e117b1e6b6bae67d796c4f9c8fd6b07217c4334d73052e911dc6ab50c6a3ef3"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/19-same-mean-different-tail.png",
+    "bytes": 73311,
+    "sha256": "0d60b87ee0a4c964b79c6dee3a69471427bc6c2613e8636f1351c8d2936793dd"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/20-admitted-flow.png",
+    "bytes": 65016,
+    "sha256": "50d2ce75076f7cc98521652166cb2a26b752e905eb2cac1793122c72c53cd5a1"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/21-request-or-attempt.png",
+    "bytes": 66326,
+    "sha256": "95e837999c5030cf515b594516fb4fbc4669cd152b6461ec2847079c504ca7c2"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/22-two-calculations.png",
+    "bytes": 59705,
+    "sha256": "e585f44489184340f71709327ad80347d357c577626378afd16915b0444e79b6"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/assets/23-stretch-time.png",
+    "bytes": 86262,
+    "sha256": "b00ef707decfe6bbf6026c05213bf3860c9b922e5432e69d1ae980befacf1c66"
+  },
+  {
+    "path": "articles/2026-10-12-little-law-customer-time/examples/customer_time.py",
+    "bytes": 2954,
+    "sha256": "7ffe7d3c01f3ce350c8ecefd15ba0a0d7ab29b723d611dceac307fad9a5aa727"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
