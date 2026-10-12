@@ -1344,6 +1344,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-sphere-tracing-safe-steps",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把世界画出来",
+    "series_order": 3,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "不知道表面在哪，光线为什么还敢向前迈步？Sphere Tracing 的安全圆",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/read.md",
+    "public_sha256": "02e09de6862ff400b9cadb0444f28d176c4dcd5fabd4bf91aa1cb002de56ec3d",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-type-inference-unification",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",

@@ -1,0 +1,28 @@
+Third-party source material
+
+Automatic Step Size Relaxation in Sphere Tracing
+Róbert Bán and Gábor Valasek
+Eurographics 2023 Short Papers, pages 57–60
+DOI: https://doi.org/10.2312/egs.20231014
+Source record: https://diglib.eg.org/items/56b3a5fa-9c27-4036-a21f-7287dd83af11
+Source PDF: https://diglib.eg.org/server/api/core/bitstreams/314cba73-d250-463a-a40a-b24e77e71fcb/content
+
+Copyright © 2023 The Authors.
+Proceedings published by Eurographics – The European Association for Computer Graphics.
+Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+A complete legal text accompanies this notice.
+
+The publisher record explicitly declares CC BY 4.0 and the original PDF
+contains its own attribution and open-access notice. The PDF is unchanged.
+PNG files are lossless decoded representations of embedded PDF images at
+their original pixel dimensions; alpha masks were preserved. They are not
+screenshots and are not claimed to be the authors' pre-publication PNG bytes.
+The original PDF retains all figure captions, vector elements, algorithms,
+references and attribution. No performance data was independently reproduced.
+
+The scene renderings use the Girl and Temple models from the SDF dataset
+cited as Takikawa, Glassner and McGuire (2022) in the original paper.
+No 3-D model files or shader code from that dataset are redistributed here.
+Authorship and licensing of these materials are distinct from the original
+Chinese article by zyuanming. Inclusion does not imply endorsement.

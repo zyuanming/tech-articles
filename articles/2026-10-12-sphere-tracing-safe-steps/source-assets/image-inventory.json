@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "xref": 31,
+    "mask_xref": 0,
+    "file": "ban-page-1-image-1-1920x1017.png",
+    "width": 1920,
+    "height": 1017,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 1 top-left: enhanced, mean step count, omega 0.88"
+  },
+  {
+    "page": 1,
+    "xref": 32,
+    "mask_xref": 0,
+    "file": "ban-page-1-image-2-1920x1017.png",
+    "width": 1920,
+    "height": 1017,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 1 top-center: relaxed, mean step count, omega 1.5"
+  },
+  {
+    "page": 1,
+    "xref": 33,
+    "mask_xref": 0,
+    "file": "ban-page-1-image-3-1920x1017.png",
+    "width": 1920,
+    "height": 1017,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 1 top-right: auto-relaxed, mean step count, beta 0.3"
+  },
+  {
+    "page": 1,
+    "xref": 34,
+    "mask_xref": 0,
+    "file": "ban-page-1-image-4-1920x1017.png",
+    "width": 1920,
+    "height": 1017,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 1 bottom-left: enhanced, fallback count"
+  },
+  {
+    "page": 1,
+    "xref": 35,
+    "mask_xref": 0,
+    "file": "ban-page-1-image-5-1920x1017.png",
+    "width": 1920,
+    "height": 1017,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 1 bottom-center: relaxed, fallback count"
+  },
+  {
+    "page": 1,
+    "xref": 36,
+    "mask_xref": 0,
+    "file": "ban-page-1-image-6-1920x1017.png",
+    "width": 1920,
+    "height": 1017,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 1 bottom-right: auto-relaxed, fallback count"
+  },
+  {
+    "page": 3,
+    "xref": 4,
+    "mask_xref": 7,
+    "file": "ban-page-3-image-1-1068x557.png",
+    "width": 1068,
+    "height": 557,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 2: ratio of non-converged pixels"
+  },
+  {
+    "page": 3,
+    "xref": 5,
+    "mask_xref": 8,
+    "file": "ban-page-3-image-2-1074x594.png",
+    "width": 1074,
+    "height": 594,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 3: relative render times by hyperparameter"
+  },
+  {
+    "page": 4,
+    "xref": 10,
+    "mask_xref": 14,
+    "file": "ban-page-4-image-1-818x970.png",
+    "width": 818,
+    "height": 970,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 4 left: Girl test scene"
+  },
+  {
+    "page": 4,
+    "xref": 11,
+    "mask_xref": 15,
+    "file": "ban-page-4-image-2-1740x1018.png",
+    "width": 1740,
+    "height": 1018,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 4 right: Temple test scene"
+  },
+  {
+    "page": 4,
+    "xref": 12,
+    "mask_xref": 0,
+    "file": "ban-page-4-image-3-1920x1055.png",
+    "width": 1920,
+    "height": 1055,
+    "conversion": "decoded embedded PDF image, source pixel dimensions and alpha preserved; PDF retains original bytes",
+    "figure_context": "Figure 5: mean step size multiplier"
+  }
+]

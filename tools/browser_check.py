@@ -1,11 +1,12 @@
 """Actual Chromium desktop/mobile checks for generated Pages output in CI."""
 from pathlib import Path
-import io, json, math, threading, os
+import io, json, math, threading, os, html, hashlib
+from urllib.parse import quote
 from PIL import Image, ImageStat
 from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from playwright.sync_api import sync_playwright
-from exploration_scope import exploration_articles
+from exploration_scope import exploration_articles, supplementary_visuals
 ROOT=Path(__file__).resolve().parents[1]
 ART=ROOT/'qa-artifacts';ART.mkdir(exist_ok=True)
 server=None
@@ -97,7 +98,36 @@ try:
      if href.startswith(url+'/articles/'+item['id']+'/'):
       linked=page.request.get(href)
       assert linked.ok,(item['id'],href,linked.status)
-    exploration.append({'id':item['id'],'images':item['images'],'decoded':'PASS','overflow':'PASS','local_links':'PASS'})
+    supplemental=supplementary_visuals(ROOT,item)
+    appendix_results=[]
+    for appendix in supplemental['pages']:
+     response=page.goto(url+'/'+quote(appendix['path'].replace('.md','.html'),safe='/'),wait_until='networkidle')
+     assert response and response.ok,appendix['path']
+     decode_images(page)
+     assert page.locator('img').count()==appendix['images'],appendix['path']
+     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),appendix['path']
+     for edge,index in [('first',0),('last',appendix['images']-1)]:
+      im=page.locator('img').nth(index);im.scroll_into_view_if_needed();settle_paint(page)
+      im.screenshot(path=str(ART/(label+'-'+item['id']+'-appendix-'+edge+'.png')))
+     appendix_results.append({'path':appendix['path'],'images':appendix['images'],'decoded':'PASS','overflow':'PASS'})
+    # Some notes offer downloadable originals rather than embedding all of them.
+    # Inspect these actual public image bytes in an explicitly QA-only layout.
+    extras=supplemental['unembedded_images']
+    if extras:
+     for path in extras:
+      response=page.request.get(url+'/'+quote(path,safe='/'))
+      assert response.ok,(path,response.status)
+      assert hashlib.sha256(response.body()).digest()==hashlib.sha256((ROOT/path).read_bytes()).digest(),path
+     markup='<html><meta charset="utf-8"><body style="margin:0;padding:18px;box-sizing:border-box;overflow-wrap:anywhere"><p>QA-only original-image layout, not a published article page</p>'
+     markup+=''.join('<figure style="margin:0 0 24px"><img style="display:block;max-width:100%;height:auto" src="'+html.escape(url+'/'+quote(path,safe='/'),quote=True)+'"><figcaption>'+html.escape(Path(path).name)+'</figcaption></figure>' for path in extras)
+     page.set_content(markup+'</body></html>',wait_until='networkidle')
+     decode_images(page)
+     assert page.locator('img').count()==len(extras)
+     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
+     for edge,index in [('first',0),('last',len(extras)-1)]:
+      im=page.locator('img').nth(index);im.scroll_into_view_if_needed();settle_paint(page)
+      im.screenshot(path=str(ART/(label+'-'+item['id']+'-qa-original-'+edge+'.png')))
+    exploration.append({'id':item['id'],'images':item['images'],'decoded':'PASS','overflow':'PASS','local_links':'PASS','source_figure_pages':appendix_results,'unembedded_original_images':{'count':len(extras),'paths':extras,'exact_bytes_and_decode':'PASS','layout_identity':'QA_ONLY_NOT_PUBLISHED_PAGE'}})
    assert [a['id'] for a in exploration]==[a['id'] for a in expected_exploration]
    assert not errors,errors
    results.append({'viewport':label,'width':width,'height':height,'status':'PASS','search':'PASS','date_filter':'PASS','back_reload':'PASS','mvcc_images':{'expected':expected_mvcc_images,'status':'PASS'},'figure_pixels_stddev':figure_variation,'raft_16_images':'PASS','page_errors':errors,'new_exploration_articles':exploration,'base_url':url})

@@ -8845,6 +8845,216 @@
     "sha256": "42ccae8283c3deaa51d38a6ad1bf432b47534482199db721dda7af2202b20506"
   },
   {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/01-rendered-scene.png",
+    "bytes": 84636,
+    "sha256": "696edeadc4d3b864bb9e7d4bfd7216afc2d007ac89cc0565652d7a2f3ac16690"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/02-a-function-not-a-mesh.png",
+    "bytes": 56723,
+    "sha256": "5d9405a76208bfa0d4011ffdb25da82038b8fe7b9298869d3af6c983b18e64d9"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/03-circle-distance.png",
+    "bytes": 53035,
+    "sha256": "bd022311e472479a5677faeb6b664d847abcb4a5386cddca4349265a18d2e33a"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/04-first-safe-disk.png",
+    "bytes": 52984,
+    "sha256": "f2bb6f292f06e93d263274111c9944a0fac36a179e550054d7cf2f65e3d702e2"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/05-next-safe-disk.png",
+    "bytes": 49861,
+    "sha256": "24eac4e6de47adf1c8b1a9d310d0af375891fdb38d774573a03a331178afd4c1"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/06-main-step-ledger.png",
+    "bytes": 86854,
+    "sha256": "c69e3cd1db3eb5d985bb28b93d78692c243528af042c17830e6b365e7c2b955c"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/07-box-corner-distance.png",
+    "bytes": 48371,
+    "sha256": "d0b65832fffcd2c57c20caee5f23b2addc020b81c12884adb2141acaf11f042a"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/08-box-inside-outside.png",
+    "bytes": 52503,
+    "sha256": "5ecf9ef1e1e35a6f9869afd7d84f59757153e4b5206386452b93721e1e0328df"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/09-union-nearest.png",
+    "bytes": 48651,
+    "sha256": "68b41867710c134489653d10d54460f1011a694884687dc80f94572e0d4b9bf2"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/10-underestimate-cost.png",
+    "bytes": 71600,
+    "sha256": "126d9c0642dad705ed776f53c13364b2174c22929de7293c63ecd9122f8ea237"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/11-too-large-skips.png",
+    "bytes": 69869,
+    "sha256": "6c39f25bee176c040107a047f5f5e7d066102caa1d43fc086ea390e7550d1815"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/12-same-zero-not-distance.png",
+    "bytes": 83220,
+    "sha256": "5df49af70fc2ed1dd91e3a607b5ba3dc5b10fc3f8e159064ad99a90beb741160"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/13-lipschitz-speed-limit.png",
+    "bytes": 52290,
+    "sha256": "16b2d11234181f9eeba9e151f7ba0f28a6496f6b83feef6dbe58150e55c34ed8"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/14-polynomial-bound.png",
+    "bytes": 50736,
+    "sha256": "4bd4f992cbaed5a11577a9abecce09debd8636754f399719849dde7a723b307c"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/15-epsilon-shell.png",
+    "bytes": 55013,
+    "sha256": "002adc738d886206737183cad98613a8bf959fc7e253f8d6fac647d5ed5af994"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/16-small-bound-false-near.png",
+    "bytes": 71639,
+    "sha256": "d1c8a74d024cde0d2b078ebd03194079126f59c4bd77044743acdf3ba1a498ad"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/17-tangent-is-slow.png",
+    "bytes": 57093,
+    "sha256": "258515018ed621051abe94c525b5d4b7a77732b87a0c3c7d8872ef825bfd1bce"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/18-near-is-not-hit.png",
+    "bytes": 78093,
+    "sha256": "5f48444e9f114f9469dae8a7a87cb7aeeaf2849f64f58a41dcfa155c2bd68bcf"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/19-distinct-stop-states.png",
+    "bytes": 89768,
+    "sha256": "9b2757edb49b268b69f564e312b20726d5dcff0ce1a1a81c48c40d75e5917daf"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/20-starting-inside.png",
+    "bytes": 53649,
+    "sha256": "648fa611ea491124c5af040cb9c8f02923de151e6f08db66bd856376af537dac"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/21-independent-checks.png",
+    "bytes": 127675,
+    "sha256": "a801b153f9d326e8d90caadd202f48fdfec748e00046dd3b9800641a1d9aca37"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/22-render-step-counts.png",
+    "bytes": 8659,
+    "sha256": "4376f427e8f1018c56fbfd74dfaf90b96d326019bd4d99434cdb3f7b2c149cb7"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/23-normal-and-shading.png",
+    "bytes": 54624,
+    "sha256": "d4924dc4096626f355191039a05165eb3d6520d2bfd08e7406992b394aca42e9"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/24-infinite-not-exact.png",
+    "bytes": 68894,
+    "sha256": "5ad2d2182c7ea2305234018db754011f1b7ad2843c796da43519e569120851d6"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/25-ban-enhanced-step-heatmap.png",
+    "bytes": 588159,
+    "sha256": "977d2619f6a776a7c53302a4f29b16345b5627665f80252197abd783540307cf"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/examples/render_scene.py",
+    "bytes": 4186,
+    "sha256": "d4f79d9a37ee3af573ce3f4a1e58c062c5a8b91a50719ef9e70b7e1e34f42464"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/examples/sphere_lab.py",
+    "bytes": 7986,
+    "sha256": "18807faea09dbe188b9052ef9cae85fb70272acf88ffc869fe8ad4eb0c670411"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/CC-BY-4.0-legalcode.txt",
+    "bytes": 18657,
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/NOTICE.txt",
+    "bytes": 1535,
+    "sha256": "9c0c80cf67026521accbb6357324d45c2df670617832348fe6b05999d2dd7490"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-1-image-1-1920x1017.png",
+    "bytes": 588159,
+    "sha256": "977d2619f6a776a7c53302a4f29b16345b5627665f80252197abd783540307cf"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-1-image-2-1920x1017.png",
+    "bytes": 398663,
+    "sha256": "b45ff727a1dfebbc94ba5fe6874cd356a1601c8077537e231794720c9ac85640"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-1-image-3-1920x1017.png",
+    "bytes": 421564,
+    "sha256": "376d2d54e3b4a6cfa496d618e110e24362cb81ef1c1e0ff909d1bb4070de98f8"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-1-image-4-1920x1017.png",
+    "bytes": 466367,
+    "sha256": "c8b14c752684b5f6e9c0f125ffd295364f5c5404572d1faba8094c2b75936080"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-1-image-5-1920x1017.png",
+    "bytes": 264888,
+    "sha256": "1dbecd66eb83b5119d03b0ca2fd64b3db4e246fc4f16acbbcddb31633a3f896c"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-1-image-6-1920x1017.png",
+    "bytes": 243957,
+    "sha256": "9b0e6d6871954ebcc67843c22516bb3b89563c4c7ab7ba721c33b243b468d84c"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-3-image-1-1068x557.png",
+    "bytes": 59760,
+    "sha256": "9037d92c90a5645c8a9b1805178917f9b9f4a345e1315943e106c04aff57565c"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-3-image-2-1074x594.png",
+    "bytes": 55156,
+    "sha256": "1c3c71ea3c6149131a22838ecd03c0cfa36346fc89a014b758ce3e4fc5775b7c"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-4-image-1-818x970.png",
+    "bytes": 406472,
+    "sha256": "2f37b7de1622a1ed6ab08e7b802c742e82cec005626ec56fa3f58716465d00bf"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-4-image-2-1740x1018.png",
+    "bytes": 1152465,
+    "sha256": "8a71db66bb61aa9c6482049241ab51b9f43f426267bbc9216b419140b5f7ff5e"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-page-4-image-3-1920x1055.png",
+    "bytes": 865282,
+    "sha256": "de8553ee40382887fd5de001640e5d345b6d20cc07ab4912434910f8e3eed202"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/ban-valasek-2023-original.pdf",
+    "bytes": 4667297,
+    "sha256": "8f53995829c609f236a69b8bb360f2fd84f04f01289efd861a62d41edbc73bac"
+  },
+  {
+    "path": "articles/2026-10-12-sphere-tracing-safe-steps/source-assets/image-inventory.json",
+    "bytes": 3719,
+    "sha256": "6572458b6dbdc44bc929232b303db3f9ab31b04e4f7b46f2ba0c673043c31799"
+  },
+  {
     "path": "articles/2026-10-12-type-inference-unification/assets/01-identity-puzzle.png",
     "bytes": 61384,
     "sha256": "96f9aa1d3ce7bd8d7b5ce4f0f77773e290a94ffbe7cc8944ace7b74308acb6cd"
