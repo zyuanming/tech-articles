@@ -9265,6 +9265,136 @@
     "sha256": "0c1192fea03ca526cc0a3c72febb82df4c9eed0c3e225a1c513e70d692af47ea"
   },
   {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/01-position-is-not-enough.png",
+    "bytes": 49469,
+    "sha256": "91dfb76c964a71b0a4bf42d6fa8633f8edf888d3cc4835219cb976bcea303308"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/02-response-has-memory.png",
+    "bytes": 60647,
+    "sha256": "2c68c12ac672fc549470ab43769ebc3d2c4237bdcdf91b544e82db22a64d71e6"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/03-history-and-loop.png",
+    "bytes": 95365,
+    "sha256": "7d7ba626098ee9f90f0e8706b778b330ac4fe3ab5432b01236ed3e6033f73fe4"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/04-one-beat-model.png",
+    "bytes": 57654,
+    "sha256": "f998c4f332d9eab6112e8fa2a130cbde22ce09020670248db294211dc5ebd7da"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/05-hard-constraints.png",
+    "bytes": 54415,
+    "sha256": "264e195ddf2f17eeb2b32de13ed706194ebdc2fab7d32c5f2702086a62e0e389"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/06-three-next-states.png",
+    "bytes": 59287,
+    "sha256": "d9cee0cc967cb36832cbb476772e18e2f6a17007813eca22d37f1297ee373004"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/07-too-late-to-brake.png",
+    "bytes": 72714,
+    "sha256": "ed51fbd63de7d24e4ff204ccb8e7d8bfbeb2962e2b8df7155878ef437744bb2f"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/08-score-and-reject.png",
+    "bytes": 74331,
+    "sha256": "7c11dfe861fa22a321527d7ccba248de09532266b51e4b35f05c6538302547ee"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/09-greedy-cost.png",
+    "bytes": 54714,
+    "sha256": "02a7e0b8b5670b4b10a83c0eb24107b24578bb3927be0f2f28a71aa5237ebcd7"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/10-three-step-window.png",
+    "bytes": 63701,
+    "sha256": "84cf68f501a0f4d715a76ff684caf4394e8c8c9f14a1a22c39428ba0fc61d047"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/11-three-feasible-plans.png",
+    "bytes": 79828,
+    "sha256": "65db2d9fb9d999856ba3bfcb6f0418cb08713aa515480de27ea224be40a00d03"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/12-check-112.png",
+    "bytes": 53214,
+    "sha256": "743288da0df6bc5b43f97b1474b333d0bbf2adb9e02856328895c1a1623364a8"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/13-receding-window.png",
+    "bytes": 65571,
+    "sha256": "c69665974fa5e7449e8e69bf0f4ece3f3eb78ee1d8de2f6b3199b4633a92ba12"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/14-old-tail-new-plan.png",
+    "bytes": 62357,
+    "sha256": "fe109d79daed59bd32ab04c602f504a92de7aa41b0e1aea1f543ee39af34f1bf"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/15-executed-trajectory.png",
+    "bytes": 62758,
+    "sha256": "abee7e80e74956dfe1d9691f2238c2dd912d28d10866d49fc118949f5163d062"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/16-measurement-changes-plan.png",
+    "bytes": 99346,
+    "sha256": "7d731bdd7d238975817212278f72d77f3bb5a6d4d269bb4e2632eae949018359"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/17-shift-tail-proof.png",
+    "bytes": 71013,
+    "sha256": "88e96dd9725bdfb09f63be173619a39766c785f205ae9e663a9bcde557db3f90"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/18-terminal-set.png",
+    "bytes": 82478,
+    "sha256": "1b3436aa915366ae69180641d01f749c69dc53c24f6bec65f4d8c4703ea93a68"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/19-feasible-but-stuck.png",
+    "bytes": 52337,
+    "sha256": "dac9100d4f62e780153929944329842c1f3eddaa6a15efd54112a917c35ef96b"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/20-short-horizon-failure.png",
+    "bytes": 91660,
+    "sha256": "975bfd8d769a82162eacd8e4d3f4d7de8079f4dbacc1008b25bbda6b4b854d71"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/21-replan-from-rest.gif",
+    "bytes": 254486,
+    "sha256": "5d54c1393a914de5c92891d2b2f68792683631a69dda997ae757aa2952e9484c"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/22-search-cost.png",
+    "bytes": 83588,
+    "sha256": "4422582dfe2e35feb32eec750f1b0929a47bb2c5ad2b18097ec5cb1ae37195ba"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/23-four-parts.png",
+    "bytes": 92706,
+    "sha256": "6ba113958144ad5aba78dfc9a70df030b08e887754de15ab5a7e2781c47c24b8"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/assets/24-check-the-model.png",
+    "bytes": 91987,
+    "sha256": "46b52b74d84fa3c80b8b7a8c3f8cc8b690f25518e96d4e44843e3081d09a3d62"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/examples/LICENSE.txt",
+    "bytes": 1097,
+    "sha256": "953c2e054fa0dddb00cae0ce4d2d2ec559908670dbb034a3a705c7b0a4de8420"
+  },
+  {
+    "path": "articles/2026-10-12-mpc-plan-then-replan/examples/cart_mpc.py",
+    "bytes": 6034,
+    "sha256": "4c6c4606cacd0b9a6bf943882532afb966d30f03ce2fbac7f041df417b2961fa"
+  },
+  {
     "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/01-first-line.png",
     "bytes": 54855,
     "sha256": "2bd15d1872ac8dde8bf36afd71bf4d3b2f7e25f2f36fdad5738f0e364e3fabb1"

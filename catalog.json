@@ -1386,6 +1386,20 @@
     "images": 26
   },
   {
+    "id": "2026-10-12-mpc-plan-then-replan",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "让运动听话",
+    "series_order": 5,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "计划了三步，为什么只走一步？MPC 怎样给未来留一条退路",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-mpc-plan-then-replan/read.md",
+    "public_sha256": "c337187d2487b8cb89a80813566d1ddc4decf26b878c5feee575f94fe9274a58",
+    "images": 24
+  },
+  {
     "id": "2026-10-12-nomogram-straightedge-equations",
     "collection": "student-exploration-series-2026-10-11",
     "series": "无芯片的计算",
