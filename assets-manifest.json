@@ -7915,6 +7915,131 @@
     "sha256": "31f733101b279a050036b39724ee46c8a2a7b78f8fb912bcb7fbb304ce46bc49"
   },
   {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/01-paper-question.png",
+    "bytes": 67403,
+    "sha256": "407999c4b1668fdf6e70b67d736e4277762b01b9d2a0c999560600827b68f89c"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/02-possible-tile.png",
+    "bytes": 58596,
+    "sha256": "1d1c6d6fe03bc87e16813ab203606c152b3d63599a2e08e5b0ef950c2e5e8084"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/03-first-remainder.png",
+    "bytes": 35757,
+    "sha256": "9d35c6780a856f46bf786f56aada4fa5cd167128d022b150232d9a5181eace03"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/04-second-remainder.png",
+    "bytes": 37725,
+    "sha256": "7e2c3e3c88b1540b9f784a3a7322e3bbb40da9aa466e01c5aaf53584664d2967"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/05-exact-last-step.png",
+    "bytes": 44095,
+    "sha256": "0f53e4031357c95c0d86cde18249047e1b6c68587055cb29fb511b2c24f9e9ba"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/06-common-divisor-set.png",
+    "bytes": 60151,
+    "sha256": "b38d03678d43e76e87c10792aedcf4f9fc740514b41abef39bee8e4ac63b2f87"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/07-two-way-proof.png",
+    "bytes": 71371,
+    "sha256": "8f8aaa23806f84a544037da9253ef9e4ad07b81f86a039564ac22902d92f44d1"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/08-descending-integers.png",
+    "bytes": 51757,
+    "sha256": "7c9b57fda53923e9c1cf15953bb931123002f81665851a686d78de2664c33ad6"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/09-final-uniform-grid.png",
+    "bytes": 52433,
+    "sha256": "e3ecc128df6bcd4e29f6e1064609d1abf7a2507742f10d715345e7cf6ec08caf"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/10-loop-state.png",
+    "bytes": 68457,
+    "sha256": "98e76195c560c19dc20d783987e28cd13c729e999fc124fa50abfc85572b4621"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/11-update-order.png",
+    "bytes": 80265,
+    "sha256": "d3c613b9d5332ff312644670f9c50d3152f93fd0545811683fcae94e36d295ec"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/12-back-substitution.png",
+    "bytes": 50401,
+    "sha256": "7d14d87c15fa0144c6a42ff8667e1afe694f4e319cfa156f81512f5737d96403"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/13-signed-combination.png",
+    "bytes": 43691,
+    "sha256": "128fe706e01c8df352d9411628d7d285481e8af2dffb37f61309216abe73eca8"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/14-coefficient-ledger.png",
+    "bytes": 46241,
+    "sha256": "cfc0333d66c47cbe271bfd942ae9784440116785a6ec4e4d60e054576d91e360"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/15-quotients-to-ratio.png",
+    "bytes": 51157,
+    "sha256": "c224fd9bce71f37f2f098e37a4f464aa98b3f601ba29e32b2aec045f58c9fea7"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/16-nested-fraction.png",
+    "bytes": 55766,
+    "sha256": "f6bc70392c8e3e6236d568991694e7db62c2b2ac42bb8479cedf2b3f62f42389"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/17-convergents.png",
+    "bytes": 72509,
+    "sha256": "ed20c4b4556dee0f97317ccca0259a259728b5224967ffc293e69564c1ba646a"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/18-approximation-error.png",
+    "bytes": 65772,
+    "sha256": "f286989d3b1e1fbdfd3828e1494338b5c0915bb075801d16277840f1e9a96fbe"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/19-denominator-budget.png",
+    "bytes": 81018,
+    "sha256": "da7cac79ab8a78cc72c0644739767468bf49efe5474a850404749e1ee9320424"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/20-fibonacci-slow-chain.png",
+    "bytes": 58941,
+    "sha256": "e5d8b5ef68a1e2be1663b5674c8be51a6643c6b2ea8ffd0a433bd52eceddcdbe"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/21-backward-growth.png",
+    "bytes": 66440,
+    "sha256": "fbef8bc6e445fdf575f7922b950daf78623046610eca7db03d0d6255436213ec"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/22-division-count.png",
+    "bytes": 63104,
+    "sha256": "c0d8ae60e89ff5f7f432f6822c275ed92fde4a8757c99b2d9c4fe7acfe1c787e"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/23-measurement-boundary.png",
+    "bytes": 65399,
+    "sha256": "916a6b9dd4d48d49b1b43bc35fbbf9b5bd678de156397d8aff6e1920d3c7e156"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/assets/elements-1482-folger.jpg",
+    "bytes": 590865,
+    "sha256": "7730a209142b4382d8e3f95488a502ea045da6210afd598300ae054db65615ce"
+  },
+  {
+    "path": "articles/2026-10-12-euclid-continued-fractions/examples/euclid_lab.py",
+    "bytes": 3681,
+    "sha256": "65283aab9ec72335b7cee6bd47f9a2be60a8958925943f10c3059dbed8a72d89"
+  },
+  {
     "path": "articles/2026-10-12-kmp-remember-the-match/assets/01-search-contract.png",
     "bytes": 56970,
     "sha256": "a9904322f0561d3f0396495b30f5307b38c4fb4929f426cd68f62a4aa35f7e5b"

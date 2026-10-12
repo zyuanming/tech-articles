@@ -1246,6 +1246,20 @@
     "images": 23
   },
   {
+    "id": "2026-10-12-euclid-continued-fractions",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把重复劳动折起来",
+    "series_order": 1,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "把大数换成余数，为什么答案没有变？欧几里得的一本小账",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-euclid-continued-fractions/read.md",
+    "public_sha256": "640dbefbe90975ce06ddc204330e1904aa375304289d8b2127d8f6fff9835a37",
+    "images": 24
+  },
+  {
     "id": "2026-10-12-kmp-remember-the-match",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动变聪明",
@@ -1276,7 +1290,7 @@
   {
     "id": "2026-10-12-verlet-borrowed-energy",
     "collection": "student-exploration-series-2026-10-11",
-    "series": "让运动听话",
+    "series": "把重复劳动变聪明",
     "series_order": 1,
     "batch": "student-exploration-30",
     "status": "archived_article",
