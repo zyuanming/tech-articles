@@ -1246,6 +1246,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-bvh-boxes-before-triangles",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把世界画出来",
+    "series_order": 4,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "一束光面对百万个三角形，怎样少问很多问题？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/read.md",
+    "public_sha256": "b8cacc04db6ee04d6c987861eb3810eb273f14375d9463d6e2a743840be67837",
+    "images": 28
+  },
+  {
     "id": "2026-10-12-cache-coherence-false-sharing",
     "collection": "student-exploration-series-2026-10-11",
     "series": "系统故障时的真话",

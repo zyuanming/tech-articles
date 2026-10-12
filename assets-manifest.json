@@ -7925,6 +7925,181 @@
     "sha256": "7b29d292c5c954e38b2d29d242dfba474c075106b39fea4d0e1112a48cd3a4d7"
   },
   {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/01-actual-render.png",
+    "bytes": 29856,
+    "sha256": "cbbd0f633ce0190d2c92c4827f16f5fd5c42bbc0d8802eb331692e50f2d3f842"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/02-twelve-triangles.png",
+    "bytes": 62015,
+    "sha256": "7e3630b640bc17c73a68da9c95cd669e7241bcf9873e9de657f830847527c6a6"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/03-safe-rejection.png",
+    "bytes": 45340,
+    "sha256": "3ded276eab04162b067733387e8a3bfbe26b3ca9b07cd8e4164e679a08743ca8"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/04-box-is-not-hit.png",
+    "bytes": 45132,
+    "sha256": "62f20dae080bf7db7d72c3c8b2ca5ebe92cc0a8a2b2b2b7d1c5bd593e7a19532"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/05-minmax-box.png",
+    "bytes": 58070,
+    "sha256": "9b58d5bfe2630af506b41677429c6e2b06fdb5be8087fa0ab84d9dce2c879b63"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/06-tree-map.png",
+    "bytes": 53662,
+    "sha256": "b27d751d2fd63220212908544e5bd84440033b4bb72ae5d44018bb8f236839c2"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/07-object-space.png",
+    "bytes": 64446,
+    "sha256": "84cd54b65c0c8dc58837975eaf44f95a8b50e10ab39f786504e86c84297f514a"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/08-ray-parameter.png",
+    "bytes": 51294,
+    "sha256": "a8449314b9ad9061cd0588121c673189685d468f73b583b8ed735fa94b917f9c"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/09-slabs-space.png",
+    "bytes": 43058,
+    "sha256": "928c7a1851d659cf9505a2102c777e4ff811fcb1de79043c0b5ca70dea70f755"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/10-interval-overlap.png",
+    "bytes": 49523,
+    "sha256": "6d04c25d2d54fb417c6e6a9e7d1595956f730437c6710d114769ecbb4fa46c8d"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/11-parallel-zero.png",
+    "bytes": 47252,
+    "sha256": "02005b25747c4bf3321a066728dd33866e153de4621dd65e3faf871b486812b4"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/12-interval-boundaries.png",
+    "bytes": 69130,
+    "sha256": "3f2b3fad7da82df3069b32148511ccb73197b6153e289acd1ecedd46f2782913"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/13-traversal-ledger.png",
+    "bytes": 79664,
+    "sha256": "e16fc0fbf3ea1ddd18232b846187e289870ad89f47fe2bb8196759de2e8b01c9"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/14-nearest-pruning.png",
+    "bytes": 72205,
+    "sha256": "60639be2fb1b5a2bf7f37d89d12c7521b586b29649341c5ca9005ca01a35146c"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/15-any-versus-closest.png",
+    "bytes": 59172,
+    "sha256": "12c4c9b427d161fa9a409a1ed26bf8acb3583ab2bade017115d266893533be5e"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/16-median-builder.png",
+    "bytes": 62858,
+    "sha256": "f871c2057d9b8770e25c142c7a1fa5c50f19c4f58c342b71a9705e1c2780fe19"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/17-overlapping-bad-case.png",
+    "bytes": 67357,
+    "sha256": "b9f1bbfcd6c7400a6939008c396244a7e981900ac2975706235a329165d15899"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/18-surface-area.png",
+    "bytes": 47272,
+    "sha256": "f7fbc6e413914ae27e247d452fabdf9c6d631c2bb9016b4ffab28553d5796686"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/19-sah-ledger.png",
+    "bytes": 87790,
+    "sha256": "309c79365f2eba96f36a6a7efe59554c883dddefddd698d90e6a25399c546781"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/20-leaf-size.png",
+    "bytes": 57914,
+    "sha256": "ce30a018c12ae12a37f0ab4a6fb63c65a4cd1b248160d03f2743d518624bd06b"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/21-scaling-counts.png",
+    "bytes": 133250,
+    "sha256": "9ce12dbec287280a825fd6caafc94e825fdeef905c729ab7e486462adf96191d"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/22-refit-overlap.png",
+    "bytes": 60966,
+    "sha256": "9710b7d0dd16d47e16a3baa69eb62788f24cf8f6577be0bf1b9ae569267f2a00"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/23-refit-counts.png",
+    "bytes": 81158,
+    "sha256": "4523acfd07c4f49dae720ff9b919d5a99074c0ccc9d6b83b0c3cec85c09ced0c"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/24-total-cost.png",
+    "bytes": 78700,
+    "sha256": "8416cf0d6750f47e2f977f025443fdcd485b707a4eb19d4f96233d0be9922aab"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/25-dont-shrink-box.png",
+    "bytes": 64798,
+    "sha256": "5d6b65505b6a3d67ae49452ec870b868276ba06dcb09665217aa055a33dca245"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/26-history.png",
+    "bytes": 116279,
+    "sha256": "a11f24444bbf36c83512cdd69217753bb5f95bcd77b997663c89cc14e412b913"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/27-morton-order.png",
+    "bytes": 86711,
+    "sha256": "d5bca0863a748779be42dda7cc6fe118aae741a46975ca343f5616f10294a21f"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/28-checks-and-limits.png",
+    "bytes": 108560,
+    "sha256": "ce36b461078d0d1c64a70dd34b35c0f65dd8d00b8e5fdb205d931f7c24b7824a"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/source/fig-2.01-bvol-hierarchy.jpg",
+    "bytes": 54296,
+    "sha256": "408bd10eccf0fae2cd2394c78959a89367d4368177b046f185ba8306367a19db"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/source/fig-2.02-2d-aabb.jpg",
+    "bytes": 86857,
+    "sha256": "12b2d842336d017b6c848677f4acbc27180b9dd004e7d3cd53ab46df03408035"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/source/fig-2.03-ray-slab.jpg",
+    "bytes": 32952,
+    "sha256": "4d992801b7d105199eba61452dfb301d350f3b5dfbb42435d44467900a973557"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/source/fig-2.04-ray-slab-interval.jpg",
+    "bytes": 67401,
+    "sha256": "6b00e3d99fb6b7c994fe5462a8d820b0c169b2ab8d48b6dff89b194852f87f98"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/assets/source/rt-COPYING.txt",
+    "bytes": 7169,
+    "sha256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/examples/LICENSE",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-12-bvh-boxes-before-triangles/examples/bvh_lab.py",
+    "bytes": 14809,
+    "sha256": "59c6eb08429b5ce0898398f0496daae091b6a42205b4dcc4c293e2427d628c4f"
+  },
+  {
     "path": "articles/2026-10-12-cache-coherence-false-sharing/assets/01-two-counters.png",
     "bytes": 70277,
     "sha256": "5a61362e308757e180bbd61687c4f1b040636e314f3c39f2c91ff8bc32ed252f"
