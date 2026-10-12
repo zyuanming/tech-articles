@@ -1232,6 +1232,20 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-12-bode-delay-feedback",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "让运动听话",
+    "series_order": 2,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "方向明明是纠偏，控制器为什么越帮越忙？Bode 图里藏着一张时间账单",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-bode-delay-feedback/read.md",
+    "public_sha256": "db7faead61288c4b2ae9fae5c7cfe0a25ff8b5e34d24cacd2b2755f822b7d224",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-closures-remember-environments",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",

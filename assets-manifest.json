@@ -7795,6 +7795,136 @@
     "sha256": "6cc3ddae965ebe8db5bda5b723019c6b094cf1108f8d51a53650fa433543a0d3"
   },
   {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/01-old-measurement.png",
+    "bytes": 76873,
+    "sha256": "6c4e0d9e58b37ceab50b81be8147f7aed7def9099f8859be0cb11cd2ec9f124f"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/02-naca1958-original.jpg",
+    "bytes": 3063086,
+    "sha256": "dc8f60778c287f64c58ee786e1779e58612b4841e399b11715949560d8f426f8"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/03-loop-model.png",
+    "bytes": 60032,
+    "sha256": "bac7073ece9365811373027dc78174f16318f65a4a506c3885f4e9b21a7f3c41"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/04-plant-step.png",
+    "bytes": 58301,
+    "sha256": "0bb6c6572c2c92f4af0618cbc002f793f37f59b22617ed20869e884520d8d300"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/05-three-sines.png",
+    "bytes": 110186,
+    "sha256": "4b6992358f152bb77eba405f6c62305aa841ca27947573901206407eb6f3cac2"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/06-amplitude-phase.png",
+    "bytes": 62686,
+    "sha256": "bad99a463088f8c393ccf810087bd491fcae6ceffa61937543a782d4fd88bb20"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/07-same-delay.png",
+    "bytes": 82400,
+    "sha256": "fd2916f2b221981cfd1b6c1cee66251fe54ff378de778d16f8ad4b548a3d88e6"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/08-log-axis.png",
+    "bytes": 38926,
+    "sha256": "55875e95cde500d7da8ccc5c3f769bf97a8877a09d30090de11333d167fc815d"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/09-decibel-ledger.png",
+    "bytes": 49144,
+    "sha256": "a5705e91410cdeb7026d126630856025dad74288bf847b776bea6079c7f0a64a"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/10-plant-magnitude.png",
+    "bytes": 61080,
+    "sha256": "78020ad813e662e2d02dda273587a92c0fb3b97b2cd1a9d30a035d508e06c381"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/11-plant-phase.png",
+    "bytes": 55985,
+    "sha256": "4809bdf646bf36a6bcd7f69d9f4f590ee7e79f52d2e0fc0298acfcab3bb0b174"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/12-three-stage-ledger.png",
+    "bytes": 70592,
+    "sha256": "0773a4896dd9acd61b10deed6995fe3532918eeaa4debf8ed64cf99983de8e3a"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/13-loop-magnitude.png",
+    "bytes": 62926,
+    "sha256": "f540d0dfbcdd6a4e0f5057b48d509887067544aba1e7691cc77d5f6e70ded246"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/14-loop-phase.png",
+    "bytes": 67293,
+    "sha256": "b8d757f10f53500add9a7b8f4602440c6a9b51e3d831e99a55dea4bf79001d4f"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/15-crossover-calculation.png",
+    "bytes": 62674,
+    "sha256": "4c9018e679502eb97a226fcbeb3647d16a63905cf0e4f1a0b3eaaeacf3cc463b"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/16-two-sign-flips.png",
+    "bytes": 69530,
+    "sha256": "b754a9f13e8ebf22d778614a03c26aef09998fded36da646accf1437d2901be4"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/17-phase-margin.png",
+    "bytes": 58878,
+    "sha256": "9c7fe779e50cf9c82c89798b33d6707f7a364e64bc6383c377180d174aea7206"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/18-three-margins.png",
+    "bytes": 61595,
+    "sha256": "ed85666898b7b2eaddddae3ce3d5600b6f67677a7358e909960dd244cd57c61c"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/19-delay-rotation.gif",
+    "bytes": 391965,
+    "sha256": "0971f7a9c49e15394b0f08b910df34866bd88ab893e20c994fd532edd6c8d1cb"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/20-delay-budget.png",
+    "bytes": 62014,
+    "sha256": "380065a35909b96f5629027e3f1f5240f9a061ba6da121b3ee4cda8f9a7b9f43"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/21-three-trajectories.png",
+    "bytes": 61024,
+    "sha256": "24d061c0bb22344961d1099311737ef519bdb09e046555c595e78007f3c8aa6f"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/22-growing-oscillation.png",
+    "bytes": 61043,
+    "sha256": "38c5760c6582f1570ccbf80f179b224c681d265125ddabe82744d6e4cd858e82"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/23-reduced-gain.png",
+    "bytes": 60123,
+    "sha256": "78974553930e66da499f3a2dbf1b075a12900d698cc78ef620c7412d8b6f9622"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/24-stability-versus-accuracy.png",
+    "bytes": 68395,
+    "sha256": "49ac8055b68397fd2615f299cebbb0af06e559620a6ddf85ea24878de1561583"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/assets/25-numerical-check.png",
+    "bytes": 97590,
+    "sha256": "cd048fb2bdd7813630c5a042080482b6d64762325aaad589a798789f07079a86"
+  },
+  {
+    "path": "articles/2026-10-12-bode-delay-feedback/examples/delay_lab.py",
+    "bytes": 4768,
+    "sha256": "7b29d292c5c954e38b2d29d242dfba474c075106b39fea4d0e1112a48cd3a4d7"
+  },
+  {
     "path": "articles/2026-10-12-closures-remember-environments/assets/01-two-scorers.png",
     "bytes": 68886,
     "sha256": "e43535f1ff90b733f693eb51ad161e7cefb911161bb83f7e811f8a323fcfb0e8"
