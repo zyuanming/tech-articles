@@ -1344,6 +1344,20 @@
     "images": 24
   },
   {
+    "id": "2026-10-12-fenwick-binary-ledger",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把重复劳动变聪明",
+    "series_order": 4,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "改一个数，为什么不用重算后面的总和？Fenwick树把账本折成二进制",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-fenwick-binary-ledger/read.md",
+    "public_sha256": "5d287952db6352cc541d0d3e3b62e2e82402c071b41f4029697efb86149f82d5",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-heap-smallest-at-top",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动变聪明",

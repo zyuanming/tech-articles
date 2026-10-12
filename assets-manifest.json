@@ -8865,6 +8865,136 @@
     "sha256": "65283aab9ec72335b7cee6bd47f9a2be60a8958925943f10c3059dbed8a72d89"
   },
   {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/01-two-ledgers.png",
+    "bytes": 101971,
+    "sha256": "180c3fba625b09e90b16f91a6a513fe5d17aba3d70f808e021519fbdd6a59289"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/02-prefix-update.png",
+    "bytes": 64224,
+    "sha256": "422a244e76248396f0032f58db12ce970dcebccd6b61c8aabfdae09c8ff74b08"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/03-compression-origin.png",
+    "bytes": 73475,
+    "sha256": "bf2613acff36c4214f1eb5a5d5a7114ef5aa739599e388e6d9c2f691f2fc4a28"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/04-history-dates.png",
+    "bytes": 110209,
+    "sha256": "ba12b2c91b018b5bce49c8e85d7f5d45ffe6afb28d4d597f83ff17e60199f1c4"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/05-responsibility-blocks.png",
+    "bytes": 85223,
+    "sha256": "3d0adcd1f498364815f3c3ef372a972fd115a062e20d22a7642f0a5cb3105b8f"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/06-lowest-one.png",
+    "bytes": 53179,
+    "sha256": "f447fbda6abf340e491875803b59cc5e2c8b2a9c4e935981594d23d44521de37"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/07-original-values.png",
+    "bytes": 58341,
+    "sha256": "32908b369f3d0bf749ea7950161da2c25d1ab0f533a4bc4ebc35e252f7f3fca7"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/08-key-stored-sums.png",
+    "bytes": 79051,
+    "sha256": "62d5a20c1f8147577b94e56b0250c34c3366eef8b1c6856984f71286b6d103e8"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/09-query-thirteen.png",
+    "bytes": 65301,
+    "sha256": "f4bffed76c73675ed1018a53c98258d8566f81d2a6e9cb6564f813af2d50fb68"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/10-query-bits.png",
+    "bytes": 50830,
+    "sha256": "88b476c5d8a9998fd0cdca336141f10dbbf10d97d6ff49c7e71db86a1e0bf406"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/11-query-invariant.png",
+    "bytes": 74391,
+    "sha256": "304e326d1d3a65edddc59c941321aad2603bd4d0ec1789be05f9baacdc231557"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/12-update-membership.png",
+    "bytes": 62825,
+    "sha256": "fee7d7f2ee700368aedb660ba2da401a82cd414be2feb6c9ff2f2b78b54ea0ec"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/13-update-bits.png",
+    "bytes": 53740,
+    "sha256": "a9f38ac90de165d3daf18ae04fee6d0d8f61ba215e32eeb400089d0ef2964d2f"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/14-why-skip.png",
+    "bytes": 69210,
+    "sha256": "900e45535cc9ad4d4997e7ee832ae41ca7f5dda3eee209877518e93b1dc52320"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/15-query-after-update.png",
+    "bytes": 64891,
+    "sha256": "593dfcb4fedf7d305e52f55b009ada7aeda2e6dbdee2302a4169b0b3f930e481"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/16-two-paths.png",
+    "bytes": 60755,
+    "sha256": "ba44c16311c16619e77dc6696415fbced92665ffd8d8a0d28637f3a98024927e"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/17-and-negative.png",
+    "bytes": 64904,
+    "sha256": "af264838606ae13c5bfa596342d54e83598802d84d73b09989e414796be9ff16"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/18-add-or-set.png",
+    "bytes": 65295,
+    "sha256": "b9fcaf932b217d42a366581d1938e2fd60b4c584231328ac839299462775526f"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/19-zero-boundary.png",
+    "bytes": 76204,
+    "sha256": "45e17d48f841933d8b8f2e8c8a1c13d1fad9ceacc87703e12ddd9f98edfefea0"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/20-range-difference.png",
+    "bytes": 63181,
+    "sha256": "d3f137b647480f6efd5cee1259a84674b06764f0301d47c4355de8e7d233b458"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/21-work-tradeoff.png",
+    "bytes": 100465,
+    "sha256": "0f8429bc7a93483fa1ba172d48e296075f51fc4823e4d1de2cef8c213d673197"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/22-test-scope.png",
+    "bytes": 142939,
+    "sha256": "3b7f077c012fecc3fc05d6f08b40548dacffa84ee91ac15fdb0646b54be7f809"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/23-zero-frequency.png",
+    "bytes": 58707,
+    "sha256": "7f044c8984ae9364f7d160db51ef58e36ac78385701fbb01caaf0d4bce2cffa8"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/24-correction-and-boundary.png",
+    "bytes": 126905,
+    "sha256": "8a4644c62243633dc3b01b66cc01db94a2c3914a46e3594a693d48d08079c0f3"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/assets/25-ledger-animation.gif",
+    "bytes": 95184,
+    "sha256": "ce1442f1548b45b1cdd4c31000142e0b6a843ebe07128bf9b1c33178daaa53b3"
+  },
+  {
+    "path": "articles/2026-10-12-fenwick-binary-ledger/examples/fenwick_lab.py",
+    "bytes": 5928,
+    "sha256": "b6a9c125bd2a45dc157add91e9f27197b1cafa19b49f4d92e8ff4187996f3cd3"
+  },
+  {
     "path": "articles/2026-10-12-heap-smallest-at-top/assets/01-event-list.png",
     "bytes": 81720,
     "sha256": "62c48ff59fb954529636d741a0d9aa325e69bb9c94b35b026a1e121e9aece3df"
