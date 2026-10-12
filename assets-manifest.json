@@ -8040,6 +8040,136 @@
     "sha256": "7ffe7d3c01f3ce350c8ecefd15ba0a0d7ab29b723d611dceac307fad9a5aa727"
   },
   {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/01-motion-comparison.gif",
+    "bytes": 859537,
+    "sha256": "608327c85c8e1e1926fe8aec4cc4633899dcd445e84339a690e53fcb7aea23b4"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/02-spring-model.png",
+    "bytes": 45663,
+    "sha256": "6f847751dd8219044539380fbeaff9bebbdf987bc19f47d18e51b567339790ad"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/03-energy-exchange.png",
+    "bytes": 57561,
+    "sha256": "88bd45a4aaf033918e0396d9901665cc1808c02422fae9c774ab3012ef8bda3a"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/04-euler-first-step.png",
+    "bytes": 69963,
+    "sha256": "c26d1894ab1efbe6340ae2843468e8bd143d986224e50670891002056854beaf"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/05-euler-energy-algebra.png",
+    "bytes": 48291,
+    "sha256": "26d006149e21adc31c66a80a0c2ae2ef356c1fa6bed654eab18a6950450eadce"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/06-smaller-steps.png",
+    "bytes": 59800,
+    "sha256": "bff89d6ceca9c9c68cbad70fed16606e64287b5e2a35ad29f0d62c8ccfa5f910"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/07-phase-plane.png",
+    "bytes": 65711,
+    "sha256": "f37228a0d5f6f4293dad797e8a1384e1de4e043f1eb23605844b76f551188737"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/08-tangent-outward.png",
+    "bytes": 55841,
+    "sha256": "f12b7d4c41ff98fa683b1819ec7604743258e7d53905edf0f98819dabbfc520e"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/09-order-matters.png",
+    "bytes": 69985,
+    "sha256": "d1182cb24f1bf97ed90bccc4eae8166bf03d388eb84536856603c25db9ff32c2"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/10-semi-ellipse.png",
+    "bytes": 65079,
+    "sha256": "58a29fe7c131507d960153556babeb568e6313f24fab013b4f362775403e1e94"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/11-two-sided-time.png",
+    "bytes": 59146,
+    "sha256": "bd31c65cb1ce545b118e8281f79db1e4e647960269a622cee1f18e73529ce137"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/12-position-memory.png",
+    "bytes": 50702,
+    "sha256": "9cb8f155e04250b6a2ccc86afbda3384b2b2b52602fe1c35afc5c8535ca1bafc"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/13-initialization.png",
+    "bytes": 69738,
+    "sha256": "b447a2b50b9c99b6d42fc01b25b7205816a27238773c326fb5160b66aeba6373"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/14-kick-drift-kick.png",
+    "bytes": 61989,
+    "sha256": "2ca9fbb8df436fec81ec1f13adff8dfdb0d5b9a63d77d696292c6004a6754fe9"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/15-verlet-first-step.png",
+    "bytes": 58170,
+    "sha256": "8f75177c4b18c9a5ebb5947939d93bfc620488efb1ac52c054bee8ef2a772e99"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/16-energy-long-log.png",
+    "bytes": 60921,
+    "sha256": "6890c42c929e03bae774b3ad8a959ed05a20198606a7199e2af918e85fff385d"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/17-energy-closeup.png",
+    "bytes": 66973,
+    "sha256": "e457fe3d60905f0f617a2a88017efc644ef8d0231e38d15837e308438e240a69"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/18-nearby-ledger.png",
+    "bytes": 70345,
+    "sha256": "f24c07f0119db39ec3b02234378e148d6f6ecc25392a389985f64e661acc753b"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/19-phase-clock.png",
+    "bytes": 60655,
+    "sha256": "348cef33926d669c6ada85a34b10f574f22f19edd0d9cd3e7520e6bea2e9009e"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/20-phase-error.png",
+    "bytes": 63513,
+    "sha256": "3869e14a8111dcd9e8c80a844fa6f36685b3d37ba30e5fb41bea65f6b3d020e0"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/21-stability-scale.png",
+    "bytes": 67994,
+    "sha256": "2798045f8dee6d84dd8c72f72b94ed5dff5952ab9534ee47d2d785acc10ada97"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/22-boundary-counterexample.png",
+    "bytes": 76025,
+    "sha256": "76acb2a82fd0fce910d8ab4bb844a602272a877f43b43d6f47c316cad35955c8"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/23-check-the-experiment.png",
+    "bytes": 75034,
+    "sha256": "9e2da97fb9992c0c1a119a8ef0708bdcc708009d4c8c8f4bed83672d97dac0f8"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/24-try-half-step.png",
+    "bytes": 67519,
+    "sha256": "5252b8f6d5cdd451f324963ab9970407209ab0a02b85e7a851926110dbc18fd2"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/assets/cdc-6600-chassis-original.jpg",
+    "bytes": 862545,
+    "sha256": "c06c24b9c7f6ee73f6264537578614f8b8b52eec79714df46f441958c31dc16b"
+  },
+  {
+    "path": "articles/2026-10-12-verlet-borrowed-energy/examples/oscillator.py",
+    "bytes": 3915,
+    "sha256": "a5820529464e482b3dcbe6b58eb3dc7b31b7dcaddd74180e849d4e1ae937f5c2"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

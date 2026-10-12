@@ -1258,5 +1258,19 @@
     "path": "articles/2026-10-12-little-law-customer-time/read.md",
     "public_sha256": "d657c5f0760ea689a65a76facff21b3b6a4b9c0a8b3d0274f425e9f2735e7bfd",
     "images": 23
+  },
+  {
+    "id": "2026-10-12-verlet-borrowed-energy",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "让运动听话",
+    "series_order": 1,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "没有发动机，小球为什么越荡越高？Verlet 与模拟中的“假能量”",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-verlet-borrowed-energy/read.md",
+    "public_sha256": "fde59103af4327416ec91a0082569e39e29c1049f27585b5308cd0ef63c740c3",
+    "images": 25
   }
 ]
