@@ -1274,6 +1274,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-catmull-clark-subdivision",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把世界画出来",
+    "series_order": 5,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "一只方盒子，反复切几刀为什么会变圆？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-catmull-clark-subdivision/read.md",
+    "public_sha256": "dd15c0e5f23f29e3776bcda4b7b79593356a8788e5fc4df9973376e0a599d045",
+    "images": 18
+  },
+  {
     "id": "2026-10-12-closures-remember-environments",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",

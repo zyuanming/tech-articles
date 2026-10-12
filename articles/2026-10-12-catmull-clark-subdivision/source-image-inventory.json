@@ -1,0 +1,587 @@
+[
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Overview",
+    "file": "images/tetra.0.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/tetra.0.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Overview",
+    "file": "images/tetra.1.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/tetra.1.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Overview",
+    "file": "images/tetra.2.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/tetra.2.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Overview",
+    "file": "images/tetra.3.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/tetra.3.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Parametric Patches",
+    "file": "images/patch_bspline.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/patch_bspline.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Parametric Patches",
+    "file": "images/patch_bezier.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/patch_bezier.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Parametric Patches",
+    "file": "images/param_uv.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/param_uv.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Parametric Patches",
+    "file": "images/param_uv2xyz.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/param_uv2xyz.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Parametric Patches",
+    "file": "images/basis_bspline.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/basis_bspline.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Parametric Patches",
+    "file": "images/basis_bezier.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/basis_bezier.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Piecewise Surfaces",
+    "file": "images/surface_bspline.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Piecewise Surfaces",
+    "file": "images/surface_bezier.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bezier.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Piecewise Surfaces",
+    "file": "images/surface_bspline_complex.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline_complex.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val6_cage.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val6_cage.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val6_surface.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val6_surface.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val5_iso_cage.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val5_iso_cage.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val5_iso_sub1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val5_iso_sub1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val5_iso_sub2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val5_iso_sub2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val6_regular.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val6_regular.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Regular versus Irregular Features",
+    "file": "images/val6_irregular.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/val6_irregular.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Non-manifold Topology",
+    "file": "images/walk_interior.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/walk_interior.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Non-manifold Topology",
+    "file": "images/walk_boundary.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/walk_boundary.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Non-manifold Topology",
+    "file": "images/nonman_fan_cage.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/nonman_fan_cage.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Non-manifold Topology",
+    "file": "images/nonman_vert_cage.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/nonman_vert_cage.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Non-manifold Topology",
+    "file": "images/nonman_fan_surface.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/nonman_fan_surface.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Non-manifold Topology",
+    "file": "images/nonman_vert_surface.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/nonman_vert_surface.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision",
+    "file": "images/surface_bspline_cage.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline_cage.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision",
+    "file": "images/surface_bspline_sub1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline_sub1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision",
+    "file": "images/surface_bspline_sub2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline_sub2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Tessellation",
+    "file": "images/surface_bspline_tess1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline_tess1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Tessellation",
+    "file": "images/surface_bspline_tess2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/surface_bspline_tess2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Tessellation",
+    "file": "images/tess_snap1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/tess_snap1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Tessellation",
+    "file": "images/tess_snap2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/tess_snap2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Mesh Data and Topology",
+    "file": "images/data_top_shape.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_top_shape.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_patch_top.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_patch_top.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_patch_1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_patch_1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_patch_2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_patch_2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_mesh_top.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_mesh_top.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_mesh_1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_mesh_1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_mesh_2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_mesh_2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_pose_1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_pose_1.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_pose_2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_pose_2.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Separating Data from Topology",
+    "file": "images/data_pose_3.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_pose_3.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Vertex and Varying Data",
+    "file": "images/data_vertex_uv.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_vertex_uv.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Vertex and Varying Data",
+    "file": "images/data_varying_uv.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_varying_uv.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Face-Varying Data and Topology",
+    "file": "images/data_top_vertex.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_top_vertex.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Face-Varying Data and Topology",
+    "file": "images/data_top_fvary.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_top_fvary.png",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Face-Varying Data and Topology",
+    "file": "images/data_fvar_xyz.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/data_fvar_xyz.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision Schemes",
+    "file": "images/loop_cage.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/loop_cage.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision Schemes",
+    "file": "images/loop_sub1.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/loop_sub1.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision Schemes",
+    "file": "images/loop_sub2.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/loop_sub2.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Subdivision Schemes",
+    "file": "images/loop_surface.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/loop_surface.jpg",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Boundary Interpolation Rules",
+    "file": "images/vertex_boundary.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/vertex_boundary.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Face-varying Interpolation Rules",
+    "file": "images/fvar_boundaries.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/fvar_boundaries.png",
+    "relation": "adjacent_topic_not_expanded",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Semi-Sharp Creases",
+    "file": "images/gtruck.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/gtruck.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "Chaikin Rule",
+    "file": "images/chaikin.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/chaikin.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "subdivision_surfaces.rst",
+    "section": "\"Triangle Subdivision\" Rule",
+    "file": "images/smoothtriangles.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/smoothtriangles.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Use Fewer Spans",
+    "file": "images/mod_notes.0.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/mod_notes.0.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Avoid High Valence vertices",
+    "file": "images/mod_notes.2.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/mod_notes.2.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Avoid High Valence vertices",
+    "file": "images/mod_notes.1.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/mod_notes.1.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Edge-Loop Transitions",
+    "file": "images/edge_loops.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/edge_loops.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Practical Topology Primer",
+    "file": "images/mod_notes.3.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/mod_notes.3.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Practical Topology Primer",
+    "file": "images/mod_notes.4.jpg",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/mod_notes.4.jpg",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Triangles and N-Gons",
+    "file": "images/mod_notes.5.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/mod_notes.5.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  },
+  {
+    "source_document": "mod_notes.rst",
+    "section": "Use crease sets",
+    "file": "images/crease_editor.png",
+    "url": "https://github.com/PixarAnimationStudios/OpenSubdiv/blob/v3_6_0/documentation/images/crease_editor.png",
+    "relation": "direct",
+    "decision": "LINK_ONLY_NO_IMAGE_LICENSE_CONFIRMED",
+    "reason": "The source RST has a code/document license header; no separate image-specific open grant was established. No extrapolation from code licensing."
+  }
+]

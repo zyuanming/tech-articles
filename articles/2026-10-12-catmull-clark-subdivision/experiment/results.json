@@ -1,0 +1,162 @@
+{
+  "status": "AUTHOR_SELF_CHECK",
+  "implementation": "original Python; not OpenSubdiv output",
+  "tests": [
+    "cube face, edge, vertex: exact Fraction assertions",
+    "independent limit stencil: P∞=(1/2)^3; face-axis z=68/81; invariant after refinement",
+    "asymmetric regular 4-quad fan: updated z=19/16 via independent 9/16,3/32,1/64 stencil",
+    "exact nonuniform scale and translation covariance",
+    "open cube: boundary P=(3/4,3/4,1), boundary edges 4→8, chi=1",
+    "infinite top-rim crease: P=(3/4,3/4,1); three incident sharp edges pin cube corner",
+    "isolated quad: edge-only corner moves; edge-and-corner option pins it",
+    "rejected duplicate-oriented face, 3-face edge and bow-tie vertex",
+    "levels 0–5: oriented closed 2-manifold, vertex fans, Euler=2, V/E/F counts, eight valence-3 vertices, positive volume"
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "V": 8,
+      "E": 12,
+      "F": 6,
+      "chi": 2,
+      "boundary_edges": 0,
+      "valences": {
+        "3": 8
+      },
+      "tracked_P": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "volume": 8.0,
+      "min_radius": 1.7320508075688772,
+      "max_radius": 1.7320508075688772
+    },
+    {
+      "level": 1,
+      "V": 26,
+      "E": 48,
+      "F": 24,
+      "chi": 2,
+      "boundary_edges": 0,
+      "valences": {
+        "3": 8,
+        "4": 18
+      },
+      "tracked_P": [
+        0.5555555555555555,
+        0.5555555555555555,
+        0.5555555555555555
+      ],
+      "volume": 3.3333333333333366,
+      "min_radius": 0.9622504486493761,
+      "max_radius": 1.0606601717798212
+    },
+    {
+      "level": 2,
+      "V": 98,
+      "E": 192,
+      "F": 96,
+      "chi": 2,
+      "boundary_edges": 0,
+      "valences": {
+        "3": 8,
+        "4": 90
+      },
+      "tracked_P": [
+        0.5092592592592591,
+        0.5092592592592591,
+        0.5092592592592591
+      ],
+      "volume": 2.800937647355113,
+      "min_radius": 0.8784722222222222,
+      "max_radius": 0.9096634112139439
+    },
+    {
+      "level": 3,
+      "V": 386,
+      "E": 768,
+      "F": 384,
+      "chi": 2,
+      "boundary_edges": 0,
+      "valences": {
+        "3": 8,
+        "4": 378
+      },
+      "tracked_P": [
+        0.501543209876543,
+        0.501543209876543,
+        0.501543209876543
+      ],
+      "volume": 2.6646247896794604,
+      "min_radius": 0.8491753472222222,
+      "max_radius": 0.873832370978037
+    },
+    {
+      "level": 4,
+      "V": 1538,
+      "E": 3072,
+      "F": 1536,
+      "chi": 2,
+      "boundary_edges": 0,
+      "valences": {
+        "3": 8,
+        "4": 1530
+      },
+      "tracked_P": [
+        0.5002572016460903,
+        0.5002572016460903,
+        0.5002572016460903
+      ],
+      "volume": 2.631410356270773,
+      "min_radius": 0.8419189453125,
+      "max_radius": 0.8669494797707112
+    },
+    {
+      "level": 5,
+      "V": 6146,
+      "E": 12288,
+      "F": 6144,
+      "chi": 2,
+      "boundary_edges": 0,
+      "valences": {
+        "3": 8,
+        "4": 6138
+      },
+      "tracked_P": [
+        0.5000428669410149,
+        0.5000428669410149,
+        0.5000428669410149
+      ],
+      "volume": 2.6231629456826018,
+      "min_radius": 0.8401090833875868,
+      "max_radius": 0.8661802982051622
+    }
+  ],
+  "limit": {
+    "corner": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "corner_radius": 0.8660254037844386,
+    "axis": [
+      0,
+      0,
+      0.8395061728395061
+    ],
+    "axis_radius": 0.8395061728395061
+  },
+  "independent_example": {
+    "center_before": [
+      0,
+      0,
+      2
+    ],
+    "center_after": [
+      0,
+      0,
+      1.1875
+    ]
+  }
+}

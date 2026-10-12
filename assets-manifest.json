@@ -8230,6 +8230,131 @@
     "sha256": "c52908e220dc07ef4dd07970f756deff96a8777e303ed47be14322cdab26782c"
   },
   {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/03-cube-levels.png",
+    "bytes": 61024,
+    "sha256": "25d8c616090d772f5834cd0865ab96b45b53cf8739f7837acfe972952f0e0f18"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/04-control-cube.png",
+    "bytes": 52801,
+    "sha256": "3fa552cbaf6285db11a7f53fa6b2f880dcbb3510669e1492bf62a5c20fcd5aae"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/05-connectivity.png",
+    "bytes": 50656,
+    "sha256": "1c8a48ca31e3988854732f328afb944051990e86faf4e730f47658b0380cbfde"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/06-face-point.png",
+    "bytes": 37436,
+    "sha256": "c0afe40600057487fbed60e2ae312cf07a2561edcdfb075379c38d325b8e950f"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/07-edge-point.png",
+    "bytes": 49873,
+    "sha256": "b444a03a09285c6eed326ee46d302b0b5d958377980445bec37ab0b0a748bd5a"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/08-vertex-rule.png",
+    "bytes": 70427,
+    "sha256": "fadfee90e106b875b78019829c7107b7cfa958b1cab6a7a854d5febe35015792"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/09-first-round.png",
+    "bytes": 50585,
+    "sha256": "2f7bbe665f388d0d98cdf9fe6de7b6939eb95f2c766d134f03af1412be88f70a"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/10-two-rules.png",
+    "bytes": 47207,
+    "sha256": "b8fa73d10f2618e1877340fd1c3f81f7403b6cbba2d413257d70a44ebef5b652"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/11-subdivision.gif",
+    "bytes": 111884,
+    "sha256": "9045c97cf3ddc3579563cffc21ebf792deeb970617b7a77a16a768805d582e1c"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/12-extraordinary.png",
+    "bytes": 60619,
+    "sha256": "0a48227ac0734a44d2c52b24b134ab363ceae28c0bb313b1ce078ddf67e48b0e"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/13-boundary.png",
+    "bytes": 71854,
+    "sha256": "5e3f56522f3b37daf4b0d1d07da1d1cf1e28377cc93abb44b54474df4ecaeadc"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/14-crease.png",
+    "bytes": 67697,
+    "sha256": "7bae3599af6fe8c0fdbe104ccbd4f8fac6d95edf0a0d81ba7659b30f2b38034f"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/15-boundary-corners.png",
+    "bytes": 47413,
+    "sha256": "897146ae4b2c801c58d4a167036974efc2d0455015b8068a5dd13df9eb033c31"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/16-limit.png",
+    "bytes": 77463,
+    "sha256": "78d7807a0a65d00ca60c09804b6fd2d63b02b15ec068881d4f131246f57db306"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/17-not-sphere.png",
+    "bytes": 103634,
+    "sha256": "341885506197777f1cdea9e4ca05daa479dbea93ba2d00523e4e31be32ef4bf9"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/assets/18-independent-stencil.png",
+    "bytes": 65253,
+    "sha256": "91366da3edab4188fafc2d7a7383390964a92de8dddfcfab200411673a04571c"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/experiment/LICENSE.txt",
+    "bytes": 1097,
+    "sha256": "953c2e054fa0dddb00cae0ce4d2d2ec559908670dbb034a3a705c7b0a4de8420"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/experiment/catmull_clark.py",
+    "bytes": 9106,
+    "sha256": "30a6a34119da94d24065c5bf0d05ead85355bd5c777fe466ecb9b2a376399420"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/experiment/cube-level-0.json",
+    "bytes": 702,
+    "sha256": "d1a8999d0d73b11c598768bfc2e33126f6c22219162977f96ef1ad87fef9cfdc"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/experiment/cube-level-1.json",
+    "bytes": 2551,
+    "sha256": "505ea61d89e3e2bd4404ca310bf84384f982ced6f12eaac273592bc6ad3fe521"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/experiment/cube-level-2.json",
+    "bytes": 10795,
+    "sha256": "3d84bd3db6c21fa4108372d9ea77b8dc012bb017c972b1f76fc41d1c8025f9fe"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/experiment/results.json",
+    "bytes": 3616,
+    "sha256": "6f28f2896868d34fe25b0bf3aa39fc4c0d7c653d5c1fcfccb44e109574fad156"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/originals/01-ed-catmull.jpg",
+    "bytes": 2067406,
+    "sha256": "81b3b9b304a0a74eee8e00d0f1192764e8d104624ad6208ed29bcbb7998991cc"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/originals/02-james-clark.jpg",
+    "bytes": 17056,
+    "sha256": "74ec71ebd73ce172db016d3eb3244a35dad271bf4e09fc66e565b3dac9fc154c"
+  },
+  {
+    "path": "articles/2026-10-12-catmull-clark-subdivision/source-image-inventory.json",
+    "bytes": 32563,
+    "sha256": "0f1996978feca9c534bc68ba61231ae21755b0a1b30a4d401606631957239c3c"
+  },
+  {
     "path": "articles/2026-10-12-closures-remember-environments/assets/01-two-scorers.png",
     "bytes": 68886,
     "sha256": "e43535f1ff90b733f693eb51ad161e7cefb911161bb83f7e811f8a323fcfb0e8"
