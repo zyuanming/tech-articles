@@ -8610,6 +8610,136 @@
     "sha256": "4eb194542afbab3c33316d2853b9d09e6f5f259bcad935ddf101b8078f935c51"
   },
   {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/01-game-pauses.png",
+    "bytes": 87711,
+    "sha256": "726597d8a5664337a69379fb0dc7e66a80484ae89c9e9b70d8ab2dd1972c1058"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/02-restart-or-resume.png",
+    "bytes": 86440,
+    "sha256": "d17d473a16235ac5e53ac26ef52927572976f55b4206d3883b0ce9b6f438606e"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/03-history.png",
+    "bytes": 87461,
+    "sha256": "0ffb5bbb9bd0e2ef4396b4e98074a8eff6468ae0123f467ef3478227599e8837"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/04-data-and-control.png",
+    "bytes": 66328,
+    "sha256": "87924eb3930d1a046740a8587d6412deeff7ef5551427c61afacc4944c1f97f8"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/05-stream-or-batch.png",
+    "bytes": 87798,
+    "sha256": "5ac2fb2208818a300db2cda983b4968b9df258d33329bbf0b6b0f4538eb88e4a"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/06-two-way-window.png",
+    "bytes": 77334,
+    "sha256": "6ea7caf49111c5b48fda8793b59df48036ccf6e02fc0287c6f25e160b0120951"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/07-created-and-first-next.png",
+    "bytes": 77525,
+    "sha256": "24708fa3e7281696d2bea735f73917d0d2ca21496f8d396ebd20d59c4a145ba4"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/08-send-three.png",
+    "bytes": 76842,
+    "sha256": "269fd5e50db6a841a7df62f17c58a6b5c1a33d9baf83be44a8b4697aaf631289"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/09-return-eighteen.png",
+    "bytes": 78214,
+    "sha256": "3e9814afe3b11d97438b0c43c6c12818df25a570f0e7439a238050000e647a83"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/10-yield-versus-return.png",
+    "bytes": 67026,
+    "sha256": "c323b9337e09822d2c62f8bef66de8c03e4bcb5ed43fcfdbfe052e7276049ddf"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/11-saved-card.png",
+    "bytes": 78532,
+    "sha256": "e9bc955ea1a44cb078ec43b2976eb4b4d414656e9688147eb0509c10a790e392"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/12-two-instances.png",
+    "bytes": 79096,
+    "sha256": "6d1f71041fadcb4d1785704fceed1418a322ced1854f742ed2084de6391178c5"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/13-lifecycle.png",
+    "bytes": 73675,
+    "sha256": "f3ce5318514ccbecf94e48dc6fabc39c7ab61e2bd2a3ce2580906c3c19ca9083"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/14-two-type-errors.png",
+    "bytes": 101317,
+    "sha256": "afd85b00ddd1216656559a6db187a82d8622ac1db5157669477b2cf978ebe6fd"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/15-manual-phases.png",
+    "bytes": 62340,
+    "sha256": "616dc49e491ac4f414db0f5237c3f1ae98ba5e29baa5da6c5e530dce8abb7879"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/16-transition-ledger.png",
+    "bytes": 88419,
+    "sha256": "844751ead592910252893ae46350ddfb5fa2514544dade594ecedd194b8420fa"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/17-test-scope.png",
+    "bytes": 105108,
+    "sha256": "64e20f0803e39fbacca56e2c4207e8b2189f461abb1cae3f2177c019c320013c"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/18-round-robin.png",
+    "bytes": 42691,
+    "sha256": "bee8949b7e1910714eec287199c358b1bc796968175cd73f1fe5138e3b0cc16d"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/19-no-preemption.png",
+    "bytes": 50456,
+    "sha256": "ab1656eb09be958b3fe2372a48c11c996eab9a2bd460997e2cfde4b13b04e3d0"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/20-interleave-and-parallel.png",
+    "bytes": 67886,
+    "sha256": "fc0fc994dec723020fbda143d73aea8723a49f5c4be889f2256a159947fbeeb0"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/21-throw-and-finally.png",
+    "bytes": 82605,
+    "sha256": "fa73b866df62f10920a444c29ebf371865e5984fffa1d65a0224a40d6b696723"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/22-close-before-or-after.png",
+    "bytes": 99938,
+    "sha256": "a40957b252c5847480fb2dd3c3d61b8e3b9bd0b5a54bd5571c00fe5ddfe186bb"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/23-mechanism-map.png",
+    "bytes": 115242,
+    "sha256": "8010ebe96a015253d2cd5b81a853d08d4cbdd82f131d2fe1513497549b30a2fe"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/24-exercise.png",
+    "bytes": 71976,
+    "sha256": "d0e559b2a03323f0db6874d13173e425e43cac2c9928c3dbbdc2e35d5c7398ca"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/assets/25-resume-trace.gif",
+    "bytes": 109171,
+    "sha256": "0b4bcaa834dcee5b2bc65820334b6f5cc057395aae0cd396280690c15a93a107"
+  },
+  {
+    "path": "articles/2026-10-12-coroutines-save-continuations/examples/coroutine_lab.py",
+    "bytes": 5365,
+    "sha256": "ded6afeecc4f9e1ea7aee53c99d9f6b60b1db1d2e93c456b532bb92be1e3ea05"
+  },
+  {
     "path": "articles/2026-10-12-euclid-continued-fractions/assets/01-paper-question.png",
     "bytes": 67403,
     "sha256": "407999c4b1668fdf6e70b67d736e4277762b01b9d2a0c999560600827b68f89c"

@@ -1316,6 +1316,20 @@
     "images": 26
   },
   {
+    "id": "2026-10-12-coroutines-save-continuations",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编译器里的隐形账本",
+    "series_order": 5,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "函数停在半路，下次怎么接着跑？协程保存的不只是一个数字",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-coroutines-save-continuations/read.md",
+    "public_sha256": "872a50a36f9a49fc6956ba6410a203d827dbd84a3a5138d618572b75412c9484",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-euclid-continued-fractions",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动折起来",
