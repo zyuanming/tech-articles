@@ -1246,6 +1246,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-cache-coherence-false-sharing",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "系统故障时的真话",
+    "series_order": 2,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "两个线程改不同变量，为什么还会互相拖慢？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-cache-coherence-false-sharing/read.md",
+    "public_sha256": "5f08b488071258ac0c085d4b9d46296d5a0cc561e6cc3a258b3aa4ddd92f9018",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-closures-remember-environments",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",
