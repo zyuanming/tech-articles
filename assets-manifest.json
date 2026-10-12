@@ -7130,6 +7130,141 @@
     "sha256": "cb341634b66c130f2fa3726fec93ba9dd556fc458541f22fd300e6e6d5104d1b"
   },
   {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/01-linear-addition.png",
+    "bytes": 42580,
+    "sha256": "7284df12fb7eda03617737b447bdb08d6098451db280b14d997eec83217e2eec"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/02-equal-ratios.png",
+    "bytes": 39790,
+    "sha256": "598b983a984ca4d849ca75d50411e8388c6ad29e4a3ab42c6e38941ceef75bc2"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/03-log-address.png",
+    "bytes": 61115,
+    "sha256": "013cdc59c069bf051cbcf20096bc8c6467bb686c925e1e775ce4edb8b5bafe3a"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/04-align-index.png",
+    "bytes": 45835,
+    "sha256": "c869256d5990ff961d2639f1456309c552b98a71d5410ce715563aef5e91eed9"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/05-read-product.png",
+    "bytes": 47907,
+    "sha256": "3155b170eecc1677f70bb05b311f51f9d4a48849f4bc2dcd06c343602a124779"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/06-length-proof.png",
+    "bytes": 46797,
+    "sha256": "0ad7994fc33587ec42700d31aa9e3d7ef00cfc338f8818d2e85473aa665031dc"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/07-off-scale.png",
+    "bytes": 45295,
+    "sha256": "4a43d88622cfdf0ecf865cbb0ce34edd7ef2bc729f4a10e156b8e7f851cfa466"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/08-right-index.png",
+    "bytes": 51312,
+    "sha256": "6931bcee21f514bb2ec7474dd851e2a8b48d5b7a51abe5a3de74e5fff3e3e544"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/09-magnitude.png",
+    "bytes": 75978,
+    "sha256": "56e8093009cb1044d3cc96582d33131daabee16e9c97a8d745d4c2c650086d4e"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/10-division.png",
+    "bytes": 56255,
+    "sha256": "517531e9e345787c9621ed96e03b4a59a3972edd082fa0de5b238436da770afd"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/11-cursor-chain.png",
+    "bytes": 74569,
+    "sha256": "d647dd14184dfa5d617c784853970a397fde0adbcd6e516cf95f14d717d1b7b1"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/12-square-scale.png",
+    "bytes": 43748,
+    "sha256": "1a0f5be89097f05376a53d0e8b68e618add04f6316b79a9deef25f24aa4f53ff"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/13-root-halves.png",
+    "bytes": 54189,
+    "sha256": "41b61f9b80b4284a87a657fe59adbea12c614760093b032bcc063f97c5ef9fd0"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/14-read-subdivisions.png",
+    "bytes": 73711,
+    "sha256": "51b930b245a6bf354caf0c8b4a37c1c108ad1b96c7dd0dc233b8bbf503b6d606"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/15-relative-error.png",
+    "bytes": 77392,
+    "sha256": "b2f7d825ef2e23484cdda65d26b12b25bf76bb31dfe8a39ec48a6a9adbbb2836"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/16-long-scale.png",
+    "bytes": 55438,
+    "sha256": "f8f0700bb0fda3fb36e0173db3388f3aa62ff7773f54717a4a1b1c881d2c004b"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/17-circular-wrap.png",
+    "bytes": 67050,
+    "sha256": "32d0ed30261d05ac74c0e2161ff6d07a6d5bbd855d1fe945fc9b405524606d30"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/18-zero-domain.png",
+    "bytes": 57413,
+    "sha256": "09ce371b51c24cf63cefb4e56d8af8535b84020d69f3c327beef63d8f6033995"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/19-not-addition.png",
+    "bytes": 61983,
+    "sha256": "4345432b25844e365ef720e2f320f6e1d0efb46c2b57447c73684df0b3e9ba58"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/20-paper-experiment.png",
+    "bytes": 56019,
+    "sha256": "00bb60d1fe1a97abd72e80b117b9f37cb8d0ab824276b152c4f7c38979b8d48a"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/21-dividers.png",
+    "bytes": 53485,
+    "sha256": "1f4a272c2686006dada480286ba4aca5d3c687ed8d6458c3e1a80657d5be2d67"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/circular-rule-original.jpg",
+    "bytes": 720105,
+    "sha256": "df7c4dc76c8ed47badd18fc9f31f3ed997abecbfec1aba0d6f641798c0cc9194"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/napier-freeman-1835-original.jpg",
+    "bytes": 2138804,
+    "sha256": "a36be9cd8399dc91b40c14a99632b6232015e632e2645850b4c878f1bb313552"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/pickett-n4es-original.jpg",
+    "bytes": 6891835,
+    "sha256": "75099ecc63766c670ee42ca816cff84327003f1ec610bdbdc803b30f3575888a"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/assets/thacher-original.jpg",
+    "bytes": 1697956,
+    "sha256": "8ffa95ed2581023f22597baeafc91d8e4bf2636d244e1cf83e3cfdbf9616bfa9"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/examples/log_distance.py",
+    "bytes": 2892,
+    "sha256": "11e6f4cd39383c9ee553a968e4ad712a6abfac11f27b14f29d9dd24e7e58d008"
+  },
+  {
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/examples/paper-slide-rule.svg",
+    "bytes": 14753,
+    "sha256": "c44479d402477594d4ec5e26872f4673bbc0089eda2468e67dab6f75533abe32"
+  },
+  {
     "path": "articles/2026-10-11-snapshot-messages-in-flight/assets/01-eight-tokens.png",
     "bytes": 49483,
     "sha256": "e28b40ebe32e90a245e985d158fd5e0862fc805124b561b2a2277cfd7ce3eadd"

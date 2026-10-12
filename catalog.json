@@ -1141,6 +1141,20 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-11-slide-rule-logarithmic-distance",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "无芯片的计算",
+    "series_order": 1,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "不用电，两把尺子为什么会算乘法？把对数拿在手里的计算尺",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-slide-rule-logarithmic-distance/read.md",
+    "public_sha256": "a61bc04cc5693aa399f29aabebb10523ff39a24c2b4103b80bd53f9cc99d9bf5",
+    "images": 25
+  },
+  {
     "id": "2026-10-11-snapshot-messages-in-flight",
     "title": "给奔跑中的系统拍合影：Chandy–Lamport 快照怎样找回路上的消息",
     "date": "2026-10-11",
