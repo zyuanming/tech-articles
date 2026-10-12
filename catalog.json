@@ -1316,6 +1316,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-type-inference-unification",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编译器里的隐形账本",
+    "series_order": 2,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "没有试跑一次，它怎么知道类型错了？Hindley–Milner 把代码变成等式",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-type-inference-unification/read.md",
+    "public_sha256": "d479ef3df7f50de8dfbb3f45b84e122c343750bd1cb95d7dee0ba6d8e33fc412",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-verlet-borrowed-energy",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动变聪明",

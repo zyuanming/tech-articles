@@ -8545,6 +8545,141 @@
     "sha256": "42ccae8283c3deaa51d38a6ad1bf432b47534482199db721dda7af2202b20506"
   },
   {
+    "path": "articles/2026-10-12-type-inference-unification/assets/01-identity-puzzle.png",
+    "bytes": 61384,
+    "sha256": "96f9aa1d3ce7bd8d7b5ce4f0f77773e290a94ffbe7cc8944ace7b74308acb6cd"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/02-history-questions.png",
+    "bytes": 98791,
+    "sha256": "7d8f876f0944b231a814a0117ed55a5e06ad1730f32f3472af2d14003813c625"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/03-value-and-type.png",
+    "bytes": 81681,
+    "sha256": "5b63c414ba0cc5c6898edf5838f3ecf2ccaab04993bc7a00bc5c68243233a5e6"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/04-same-letter.png",
+    "bytes": 44827,
+    "sha256": "6177478bf646d51066d9b6542f46fd311ff00a70fe0ed415275b7785595e39a7"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/05-application-rule.png",
+    "bytes": 57663,
+    "sha256": "826038de37ef2ea95192373b01ebce3091a0cbe0d43ecd1429e0e215110b98c4"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/06-twice-flow.png",
+    "bytes": 48857,
+    "sha256": "2cc5c524ec3abe6f280e366fc67a2639db76878c265a12f430731df513f9de7a"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/07-unknown-labels.png",
+    "bytes": 82127,
+    "sha256": "f51f2e80d8d27142c676149ac356bbe68b869c88974d9bcb29b3b726e4a03b27"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/08-two-equations.png",
+    "bytes": 43243,
+    "sha256": "a31ab991a5423664970fd1d88da8f228440f3cad136d0d6940407812083288ad"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/09-decompose-arrows.png",
+    "bytes": 47069,
+    "sha256": "9af0410d51fab72c817504c1068bcc6fb6036ea4bb9e52ea4e2e30cddce6b8c5"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/10-twice-solved.png",
+    "bytes": 47736,
+    "sha256": "eb41a775e0c56c91f52b2e03fe2104dadd012d91ddb2e3bd51881652c185e5e4"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/11-constraint-ledger.gif",
+    "bytes": 164446,
+    "sha256": "565173fdd44c074acc0cd23c94dd6bca9781c14e33c143851f0ecfec16cfb1dd"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/12-principal-family.png",
+    "bytes": 55485,
+    "sha256": "9aa449d7cec4ffcc9ccc9e6090251c96fdeafd4ade221db88b79be7826772752"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/13-unification-actions.png",
+    "bytes": 68734,
+    "sha256": "2a5bf942c2e1b091fc078b76f2ae8bf5bc96b5bbb4693664517359378b72b2cb"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/14-substitution-order.png",
+    "bytes": 50428,
+    "sha256": "2517c70ee5c13f55d13b699c5a5e2e0bad21e0f1cad0ab8f0da4c37b2180a6c4"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/15-let-instances.png",
+    "bytes": 71982,
+    "sha256": "393d3ba7242ff243b70bef8ad79c0276f9cadae27f2a072ea6d5f80a704169a5"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/16-parameter-shared.png",
+    "bytes": 81141,
+    "sha256": "ad6d677604b55e8ed988f43d29f0e34860de5decfbaa19b27d10583261b93988"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/17-captured-type.png",
+    "bytes": 70042,
+    "sha256": "2538c81932e3c855f00773007908916e9c13c560d81e3dfb2ee2106cb759daef"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/18-generalize-set.png",
+    "bytes": 62836,
+    "sha256": "c97ac69f2a85a558329d5ac0c05cb4144617f6086fb386fb208164ed10fe3599"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/19-occurs-check.png",
+    "bytes": 58832,
+    "sha256": "883211b2797d78839cf04c332e49b1b6ebc89a08396500680f8459d38449d886"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/20-id-id.png",
+    "bytes": 53869,
+    "sha256": "f53fee6dcab2b1293ed8c9efcfef840e76ea3d0401e668ed991de162cb921a07"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/21-w-walk.png",
+    "bytes": 89672,
+    "sha256": "d76ae35e6be1541396c117c536bd7473a63cb9daa4957fc56879aa59da356316"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/22-lab-results.png",
+    "bytes": 70325,
+    "sha256": "3a75e8a6d31f6d93ca3ef85b2c1292146d301af6ab22676d0e6a880a2cf9618c"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/23-compose-pipeline.png",
+    "bytes": 51952,
+    "sha256": "3aae65f372c790ec8a70c0f45544b6f3c77683a256a74642417567e7b196ec5c"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/24-conflicting-evidence.png",
+    "bytes": 57589,
+    "sha256": "08ebe34545f1f18e5b68693317fa8ca83f61505f7c52f803aa9230e7921b4dba"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/assets/25-boundaries.png",
+    "bytes": 97744,
+    "sha256": "cbdfc34c6d3ac521fab926dfabc8c9d171ca27530b742fc2a35a0041eab2fbc1"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/examples/check_lab.py",
+    "bytes": 6268,
+    "sha256": "11cf9fdf797633f86ac3c059037fca2677af1ca817da62f59cc203b9f0ffb27b"
+  },
+  {
+    "path": "articles/2026-10-12-type-inference-unification/examples/infer_lab.py",
+    "bytes": 7247,
+    "sha256": "2273d82799360b74ee8ded69b7c8775932095ff1507755e9f911274be71a077d"
+  },
+  {
     "path": "articles/2026-10-12-verlet-borrowed-energy/assets/01-motion-comparison.gif",
     "bytes": 859537,
     "sha256": "608327c85c8e1e1926fe8aec4cc4633899dcd445e84339a690e53fcb7aea23b4"
