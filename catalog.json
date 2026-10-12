@@ -863,6 +863,20 @@
     "collection": "student-exploration-2026-10-11"
   },
   {
+    "id": "2026-10-11-bresenham-error-ledger",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把世界画出来",
+    "series_order": 1,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "画一条直线，为什么只要加减法？从绘图仪走到 Bresenham 的误差账本",
+    "date": "2026-10-11",
+    "path": "articles/2026-10-11-bresenham-error-ledger/read.md",
+    "public_sha256": "a2068618da3d51498024722853595e74ab9926c185dac86813c2f080e2d12c34",
+    "images": 24
+  },
+  {
     "id": "2026-10-11-cloth-constraint-projection",
     "title": "不让它变长，为什么一张网就会垂成布？",
     "date": "2026-10-11",

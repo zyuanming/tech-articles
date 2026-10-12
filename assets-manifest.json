@@ -4900,6 +4900,131 @@
     "sha256": "089e46ee324207649cffb6b92e07dde25f329d4a48fc06e22cd52235174d5677"
   },
   {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/01-continuous-discrete.png",
+    "bytes": 54523,
+    "sha256": "9bbfe425d99ade2cb238ec2c8c7538ed13203ddeaa31064ceaf23939dd30a8d6"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/02-plotter-mechanism.png",
+    "bytes": 59292,
+    "sha256": "7edfbe47cf99c9e2c10a871a3a79b8560ae681a42a4ccf000e163c183704997e"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/03-eight-moves.png",
+    "bytes": 32174,
+    "sha256": "b602273f43e4c6776926a1e92150927eb82d929af27a625eeed31e989ec0fcd0"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/04-two-choices.png",
+    "bytes": 44423,
+    "sha256": "2b05202c97d439d4c2c51da43b342ae4a8332f674edd8fbabca84d4ae09824aa"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/05-nearest-height.png",
+    "bytes": 30574,
+    "sha256": "cfe365713328f529e3ad4468c930bb5ed30f3ca0cdea82c8e9717e62df637c0c"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/06-midpoint.png",
+    "bytes": 45351,
+    "sha256": "feceeef76d52281012271a58298bdd26bab931032bf3884e0fdc117e83615513"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/07-integer-decision.png",
+    "bytes": 54461,
+    "sha256": "83c37e2402814ea0e729e387b0745739ebe7a78f134572bf3b8b9dbf1f598a2f"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/08-two-updates.png",
+    "bytes": 40269,
+    "sha256": "78c6a884181d2e1c75033404dbcdf5ef42b0e4f3da9b99c9544b54d047410165"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/09-walk-ledger.gif",
+    "bytes": 136953,
+    "sha256": "35c9e63999286c1d3b449b8b90d6dc900c101fe4ee78a426da07dfa79c7aa12f"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/10-bounded-error.png",
+    "bytes": 55468,
+    "sha256": "bb415b2d4e970e75e9501b899dc31f1313c6c71403a96a0858a317e8f4e991b3"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/11-not-just-endpoint.png",
+    "bytes": 54941,
+    "sha256": "05d131a00e7511a063a70f3efa95a1574a65ee4a519a6f4ef4865fb09fc67038"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/12-distance-ratio.png",
+    "bytes": 51671,
+    "sha256": "4dabb916472ad22547e5e949b596894af12e4426f6922ae6342c30001e219c48"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/13-steep-swap.png",
+    "bytes": 55520,
+    "sha256": "c97893752bb171ad0263026ecca2b10365250979b6a1a3699970d6dde9e8e3f3"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/14-eight-octants.png",
+    "bytes": 40072,
+    "sha256": "3bb54fa1c86d5a56db3bd8bab6573c1fa3fe0d46181245d8987af52a9694df16"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/15-edge-cases.png",
+    "bytes": 29436,
+    "sha256": "5036e71845aecbe554a22e207ba601770e12dbecf828a026eec7539b2d0891a5"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/16-exact-tie.png",
+    "bytes": 43396,
+    "sha256": "1c21508b0a978de6db0fc85f5d7645805cf922dc19932d757fae3758e9125ea4"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/17-reverse-ties.png",
+    "bytes": 58617,
+    "sha256": "63180cf8d8aa43f1bb009ee10faab12bdda3378f6c8eec0e88a7b946a75304ce"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/18-canonical-orientation.png",
+    "bytes": 56459,
+    "sha256": "fcae337ed61aa4e2e3e1822a30a4c42aa151c8ffb7593fa344ab96ff217bb19d"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/19-supercover-boundary.png",
+    "bytes": 66570,
+    "sha256": "52a54e9069852f50d1f302ef1a3100655ccb42099e4428a94cdeccc83a7e2a5f"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/20-antialiasing-is-extra.png",
+    "bytes": 54443,
+    "sha256": "d18eec94ed69fc6fca06de455d4dafee269a259f40c11624def7783252b35100"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/21-subpixel-contract.png",
+    "bytes": 57816,
+    "sha256": "73fdd44c844047683e9e76bc3407bdd19591d8180f98e20571c2c3d990b9a4c3"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/22-curve-before-line.png",
+    "bytes": 52508,
+    "sha256": "399e27d3f1b00ccbc37aed7069725584ffab0194f8322a2d8ed05b427faa396b"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/23-your-grid.png",
+    "bytes": 52688,
+    "sha256": "b36da8ce24cc93940aeefea511f76b15949d4a7c3981b302a973955a877753f5"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/assets/calcomp-565-original.jpg",
+    "bytes": 2573390,
+    "sha256": "f05238f34c9452548e3ec2737143c6f80293a2dd25afbc2dcec2545ca6b98ab6"
+  },
+  {
+    "path": "articles/2026-10-11-bresenham-error-ledger/examples/line_experiment.py",
+    "bytes": 2874,
+    "sha256": "9713faab5be191d609d124be9351b047ad09ed440ec519b1b74d1baebc289c34"
+  },
+  {
     "path": "articles/2026-10-11-cloth-constraint-projection/images/01-pair-correction.png",
     "bytes": 57731,
     "sha256": "1e739733bb4cc8236be1a131fcbc27965f4aab8161a66b56769150be0799d304"

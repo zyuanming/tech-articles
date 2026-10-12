@@ -5,6 +5,7 @@ from PIL import Image, ImageStat
 from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from playwright.sync_api import sync_playwright
+from exploration_scope import exploration_articles
 ROOT=Path(__file__).resolve().parents[1]
 ART=ROOT/'qa-artifacts';ART.mkdir(exist_ok=True)
 server=None
@@ -75,7 +76,8 @@ try:
    decode_images(page)
    assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
    exploration=[]
-   for item in (a for a in catalog if a.get('collection')=='student-exploration-2026-10-11'):
+   expected_exploration=exploration_articles(catalog)
+   for item in expected_exploration:
     response=page.goto(url+'/'+item['path'].replace('.md','.html'),wait_until='networkidle')
     assert response and response.ok,item['id']
     assert page.locator('h1').inner_text()==item['title']
@@ -96,7 +98,7 @@ try:
       linked=page.request.get(href)
       assert linked.ok,(item['id'],href,linked.status)
     exploration.append({'id':item['id'],'images':item['images'],'decoded':'PASS','overflow':'PASS','local_links':'PASS'})
-   assert len(exploration)==10
+   assert [a['id'] for a in exploration]==[a['id'] for a in expected_exploration]
    assert not errors,errors
    results.append({'viewport':label,'width':width,'height':height,'status':'PASS','search':'PASS','date_filter':'PASS','back_reload':'PASS','mvcc_images':{'expected':expected_mvcc_images,'status':'PASS'},'figure_pixels_stddev':figure_variation,'raft_16_images':'PASS','page_errors':errors,'new_exploration_articles':exploration,'base_url':url})
    page.close()
