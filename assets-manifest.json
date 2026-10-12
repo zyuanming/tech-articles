@@ -9005,6 +9005,141 @@
     "sha256": "7ffe7d3c01f3ce350c8ecefd15ba0a0d7ab29b723d611dceac307fad9a5aa727"
   },
   {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/01-three-choices.png",
+    "bytes": 79668,
+    "sha256": "44b0e335b493df05fa7157ef101dac57bb743bcfc359246c1745d5e71309d101"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/02-state-command.png",
+    "bytes": 47129,
+    "sha256": "f9fb3b7215691c40ce610cc890b16163198cc2698a09fd300565c1e22fbbdbf9"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/03-two-bills.png",
+    "bytes": 65799,
+    "sha256": "8fc1a172e9b04cfdad2a329abf616e317656352982e59b1bf43512011d0c665b"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/04-one-step-bowl.png",
+    "bytes": 60517,
+    "sha256": "70c04181d4a982417f5f411b551a2006bea1a1f3dadedc2fa82266507f0e6f2d"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/05-kalman-eth-original.jpg",
+    "bytes": 1053924,
+    "sha256": "d5e175bae06d1bdd63e22c35ef1b9b7e39017fddad1529d3b38a4027ca85f8ad"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/06-three-questions.png",
+    "bytes": 75216,
+    "sha256": "f1915396713912a0e3c7847242f62bc528dd04bf45a63dfdb154356d988d6191"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/07-two-step-timeline.png",
+    "bytes": 56400,
+    "sha256": "3e436e6bf031fdfb3020c753642b8445cc08e4dd43195f9c1adedad61a220dd4"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/08-last-step-square.png",
+    "bytes": 49383,
+    "sha256": "af6643051e8e936cca79ba1e9960bbe029beb74f1ea5f48e7756255c24b5f1d3"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/09-cost-to-go.png",
+    "bytes": 63304,
+    "sha256": "f64119ab4f399c5c60038879fb5657957f3b00918f778fd9f568ecb89df5baf3"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/10-first-step-square.png",
+    "bytes": 53793,
+    "sha256": "fd3174e0cf15416d66a29565ff5488eecb2b6b16bcfe4d81cb0f530fd46138a0"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/11-optimal-two-steps.png",
+    "bytes": 64964,
+    "sha256": "aa8e69a49e1a42378d8ae8b7626981b2a022290580a3c74eb9651de85bb2bc80"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/12-soft-endpoint.png",
+    "bytes": 80801,
+    "sha256": "ce735615a0a0b701d90e88c42e7f7c76cb450b590a8b5c5c30a749ed0290f57f"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/13-feedback-rules.png",
+    "bytes": 67918,
+    "sha256": "82f8b6979030589b9dab8eb7f64e66675f0d7dcb9a8f38b8958647066e8f4cd6"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/14-disturbance.png",
+    "bytes": 82055,
+    "sha256": "17b4ecb3c26861393ccb4cfb343cae22ad32c8b7e685bedbc2b1410eec8ee2d2"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/15-feedback-information.png",
+    "bytes": 78124,
+    "sha256": "910085e14d1b15d0a093d83ae6b787fcce139cd984f0b9bfb5517b18749eeedd"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/16-recursion.png",
+    "bytes": 69867,
+    "sha256": "cad86ad42e80465d8962560d96b094561428376aa8149933adddce3cec2389ba"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/17-backward-forward.png",
+    "bytes": 72506,
+    "sha256": "5dbccb66f5788e2258f9c70c4c9382f99f12449ae39d8cb8863289978481025a"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/18-weight-trajectories.png",
+    "bytes": 79266,
+    "sha256": "2f3ef18a852899f477b9663991ca2425188a0becaaa4a95bf1b0d6ba9a96d72b"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/19-tradeoff-ledger.png",
+    "bytes": 78873,
+    "sha256": "79ed120b5b966f6355c09fe4e18894ffd89722fc7a43f2387046b80a40328dad"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/20-soft-not-cap.png",
+    "bytes": 59760,
+    "sha256": "5465578dc1a895f62fcf24ba1853fe9f790286deaf66088d17a96a18867c8af4"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/21-clipped-model.png",
+    "bytes": 66219,
+    "sha256": "0bbb37cfd4f2c9d849ccd8c4a434fc219cc6661489ba253b2bdb9f6bf20fdf63"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/22-optimal-not-stable.png",
+    "bytes": 83247,
+    "sha256": "e7fa4669220501d1dbabe71be2230d2a8826c9e638bc99dcc013e978d0ebb527"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/23-golden-limit.png",
+    "bytes": 76758,
+    "sha256": "efa6bb3b8b7988a349513af2ccd47f6431cf8bf2ab36c7c9b52f2be18f2675ed"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/24-code-results.png",
+    "bytes": 47054,
+    "sha256": "ba15fa8886a6e6e29d859c39c7ab33fd73bf1889fab6ba0ff0d082e29092be98"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/25-checks.png",
+    "bytes": 85813,
+    "sha256": "6cb782b9925cfb5a925c4009a4704e1e49efd835f7c63cafea5aaf3e02771adb"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/assets/26-weight-motion.gif",
+    "bytes": 505159,
+    "sha256": "09ef64780b8f42c691b1517b4cd6a112c7639fdfc35d31595e993b898fcdcd24"
+  },
+  {
+    "path": "articles/2026-10-12-lqr-pay-for-motion/examples/lqr_lab.py",
+    "bytes": 6182,
+    "sha256": "0c1192fea03ca526cc0a3c72febb82df4c9eed0c3e225a1c513e70d692af47ea"
+  },
+  {
     "path": "articles/2026-10-12-nomogram-straightedge-equations/assets/01-first-line.png",
     "bytes": 54855,
     "sha256": "2bd15d1872ac8dde8bf36afd71bf4d3b2f7e25f2f36fdad5738f0e364e3fabb1"

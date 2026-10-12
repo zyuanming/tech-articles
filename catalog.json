@@ -1358,6 +1358,20 @@
     "images": 23
   },
   {
+    "id": "2026-10-12-lqr-pay-for-motion",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "让运动听话",
+    "series_order": 4,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "既想快点回家，又不想每一步动太猛，机器怎样做取舍？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-lqr-pay-for-motion/read.md",
+    "public_sha256": "57ffeec893772105d05b15a0357ce0f468b963e46a87b90d5e8a1ee7f28e9ba4",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-nomogram-straightedge-equations",
     "collection": "student-exploration-series-2026-10-11",
     "series": "无芯片的计算",
