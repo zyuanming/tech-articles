@@ -8170,6 +8170,156 @@
     "sha256": "65283aab9ec72335b7cee6bd47f9a2be60a8958925943f10c3059dbed8a72d89"
   },
   {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/01-event-list.png",
+    "bytes": 81720,
+    "sha256": "62c48ff59fb954529636d741a0d9aa325e69bb9c94b35b026a1e121e9aece3df"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/02-heap-two-views.png",
+    "bytes": 54699,
+    "sha256": "55ca5f5517bec2b795c500975afcdc9ae2daca8071d0cd98bcbef3270bbfc7d2"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/03-index-rules.png",
+    "bytes": 62197,
+    "sha256": "80a33435d08e27d41f53b29644a78ff73ee6f2537565d250514091a6a2015167"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/04-complete-shape.png",
+    "bytes": 39977,
+    "sha256": "42fa5942f048ab0d23b9c8b489b3cdf362a68a13656f0bb029fe7466a8449abe"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/05-not-sorted.png",
+    "bytes": 56350,
+    "sha256": "f9c3eca5a900d49a1c6532876470ba3afa0f8a373fdb2f03365a48e38dc4fde1"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/06-push-append.png",
+    "bytes": 52572,
+    "sha256": "52432b2188f7769ad632c75d2f4c0702f0cbcc0e164e3c6db1748eb04ab9331f"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/07-push-path.png",
+    "bytes": 57408,
+    "sha256": "aaa3701d694be15b59f241b4f6cf9ddc9773da151db1b1a5c26d5d9ca3210f60"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/08-push-finished.png",
+    "bytes": 45527,
+    "sha256": "0b30127d004f29fb1d5d6d0e029c65152bf4721084d15673f0db3bd1923fb348"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/09-pop-replace.png",
+    "bytes": 51963,
+    "sha256": "8f076815edccd0a0f78e2c0af3e97adfb1ccd922c09f874f6f817c56160e354a"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/10-wrong-child.png",
+    "bytes": 61135,
+    "sha256": "646f759a369a363f9ff272c7ba31184d53e8a10a627970edcbda637ee43589cc"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/11-pop-path.png",
+    "bytes": 53253,
+    "sha256": "31ad526d65f7b02cab157e1bbc5de3b8230f7deab6b25dff4b5a9cf139bbfcc1"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/12-drain-vs-storage.png",
+    "bytes": 51730,
+    "sha256": "770041cd2d0a53510c01443dc122c242065a1abdae943efaca2fd4df4ef8c19d"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/13-history.png",
+    "bytes": 63917,
+    "sha256": "2594d60e92032ecc2012419e0b169e484a717926820f81ac0594058a7f89891d"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/14-addresses.png",
+    "bytes": 64613,
+    "sha256": "940d2d4c2dca1cfaacc8ed7434c17bf515da45e48edfa50efdaf1635b6eb05fd"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/15-heapify-leaves.png",
+    "bytes": 64599,
+    "sha256": "7d422ea4e32e3a298787891006cbac36b191fa920e43b1ae3aa704c3707e15c5"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/16-heapify-i2.png",
+    "bytes": 43997,
+    "sha256": "46a5d336e4f9ab17d9eb7d34258a6518ae66adf471d0ce437ce8b284e07905d8"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/17-heapify-i1.png",
+    "bytes": 42599,
+    "sha256": "9ae5e93791b5c099eaf13060cac9b483f50de5983ffc609b38fa5dba7c5b4e8b"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/18-heapify-root.png",
+    "bytes": 56266,
+    "sha256": "15d4a7da2e875495626765003d85e9f634ac731f9c0d2bb45519e1db66b4beff"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/19-height-budget.png",
+    "bytes": 59662,
+    "sha256": "329303a592e8152deb904fb851b2ab054119641da79e1828dbd3b41b82ef9e20"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/20-linear-sum.png",
+    "bytes": 82912,
+    "sha256": "04cc4bb6aa0b8eb09d4c5d9a3b8ec1eef190a1c52cc910eedf335a26d201fe11"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/21-counts.png",
+    "bytes": 84714,
+    "sha256": "a42173f7204443349764c04072a25c3972197ee8ce5186a3d282defde026aa68"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/22-ties-unstable.png",
+    "bytes": 50894,
+    "sha256": "f77d208d9ffd9c0d42de0ea5f98b8d474483b9070705d6ac0eb8c0a556fddb87"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/23-ties-counter.png",
+    "bytes": 51179,
+    "sha256": "da21a85dea19ce23df03b40a88d7bbce93746613bcd9ae343ceeaf447d89288f"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/24-indexed-update.png",
+    "bytes": 77429,
+    "sha256": "efcc65a3404560db2dc054f21851a5e5e7615693b3160234e7007425712cdade"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/25-lazy-versions.png",
+    "bytes": 75109,
+    "sha256": "8dcc7b2134c8093850663dab8c2341d3b04e910c8d76a9d30954a926ad621703"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/26-event-log.png",
+    "bytes": 107883,
+    "sha256": "2f495b2b1d5f3000dcbf9cdb655aa0f70147883e83e5cadca20f2d3e4ac07721"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/assets/27-choice.png",
+    "bytes": 87100,
+    "sha256": "debc96bddcfecf4780fe45bbdd944faaa83cf91d622ca02a495edca13ba7d2bf"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/examples/heap_lab.py",
+    "bytes": 13765,
+    "sha256": "5407612262d4aff6f954d4a075a6df5336edc6f7e35a6b02830c88a7b073e168"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/source-assets/PSF-LICENSE.txt",
+    "bytes": 2761,
+    "sha256": "d26590079fc40d1da648f28b6419f54f976e20c68ef6e94fee1fca12c74f4a9f"
+  },
+  {
+    "path": "articles/2026-10-12-heap-smallest-at-top/source-assets/python-heapq-binary-tree-original.svg",
+    "bytes": 40465,
+    "sha256": "710705cf46aa76328e26c7e6742d684ba8146ca6ca0ac26805987213e5f4b430"
+  },
+  {
     "path": "articles/2026-10-12-kmp-remember-the-match/assets/01-search-contract.png",
     "bytes": 56970,
     "sha256": "a9904322f0561d3f0396495b30f5307b38c4fb4929f426cd68f62a4aa35f7e5b"

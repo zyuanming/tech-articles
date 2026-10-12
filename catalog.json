@@ -1274,6 +1274,20 @@
     "images": 24
   },
   {
+    "id": "2026-10-12-heap-smallest-at-top",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把重复劳动变聪明",
+    "series_order": 3,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "每次只取最小的，为什么没必要把全班排好队？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-heap-smallest-at-top/read.md",
+    "public_sha256": "d30777402ab65f6e5d058cd7f3dffe4a7f0f296525492adec4fcecaf8ccfa48d",
+    "images": 27
+  },
+  {
     "id": "2026-10-12-kmp-remember-the-match",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动变聪明",
