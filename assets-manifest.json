@@ -8285,6 +8285,136 @@
     "sha256": "7ffe7d3c01f3ce350c8ecefd15ba0a0d7ab29b723d611dceac307fad9a5aa727"
   },
   {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/01-two-mappings.png",
+    "bytes": 222181,
+    "sha256": "4bdf0ec33ce80cce1f45f5235c273bc6f6c026fcfe0853e46ce5a6a6897524c6"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/02-texture-address.png",
+    "bytes": 29346,
+    "sha256": "3bf97ff5ef68e2f45e13759f6d6a49340b4cff91c6871c600470b9516afb39e9"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/03-pinhole-edge.png",
+    "bytes": 65158,
+    "sha256": "22cfd5a8749614421e0472818d3e228ad65bf102b09c9ab7b03e18fe2f8db7df"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/04-world-midpoint.png",
+    "bytes": 65706,
+    "sha256": "4e90fe9d09c8cdb85f1b09847a19eec273d10c8c311162cbd63dd6ce2337dac3"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/05-screen-midpoint.png",
+    "bytes": 68458,
+    "sha256": "18c2dce31daac4d3b77d04ebc87722439ab0e436441a5ff6a449b7714399f1f9"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/06-two-parameters.png",
+    "bytes": 54486,
+    "sha256": "e7b1d6cc382749a9b1d1ba6a641191d9ae3802b70b45110d4ed5502207db937a"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/07-reciprocal-line.png",
+    "bytes": 38661,
+    "sha256": "121f21d7cd049d320bd7e93dbc72ade044db2170382fd1423f340b831bcdd9c6"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/08-prepared-values.png",
+    "bytes": 49577,
+    "sha256": "d7ad1e1c06e91b2263f6536bb329d8de9dfc911fe64f467a1154969ab13bcffb"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/09-midpoint-ledger.png",
+    "bytes": 46815,
+    "sha256": "fa84d2c4752eaf360ce3ab47e4727d941a7e59df5492138c8233ba8cba21bb94"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/10-screen-barycentrics.png",
+    "bytes": 42448,
+    "sha256": "9dcb8ac8c2bb89df35d260f66434de97cbb9d45e02d6721c66570133d953ac17"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/11-triangle-recipe.png",
+    "bytes": 59750,
+    "sha256": "ca2834bc08a44fae99a5f210f7f893a6da80a509d8062dcfd287561533da7ba9"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/12-diagonals-affine.png",
+    "bytes": 265615,
+    "sha256": "74457edb9f422b3fb924989b13ed1b9b4e5bbae2f3e63b1a4aaffcefdf67d37c"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/13-diagonals-correct.png",
+    "bytes": 211776,
+    "sha256": "d221ca700fc23415018763d1ba352ad924b1712ae984a69852fd83ac50452d74"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/14-address-difference.png",
+    "bytes": 48032,
+    "sha256": "f99c49648e532128b89e3b77492bcedb53f3d405f8fbcaa5b8d276972a4f050d"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/15-ray-plane-oracle.png",
+    "bytes": 62974,
+    "sha256": "8d79da2898d2924e08c0d0ee3f2a35422ec449d2055906f0b4114cfa6a0fe9b2"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/16-oracle-check.png",
+    "bytes": 67916,
+    "sha256": "61f8cdf38f321db6c13e4037c6dd4792ca2c50a648bc555a6563a5faa7f8bad9"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/17-equal-depth.png",
+    "bytes": 63611,
+    "sha256": "a2518e84bbadd53de96a47fbac5dbea73559d8f8578f27b3a24d79bcc629d0c4"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/18-tilting-plane.gif",
+    "bytes": 415830,
+    "sha256": "4e4a3782bf701967a70466c3484530c023a334df264d4b9395f9fc34ebce3fb7"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/19-z-versus-w.png",
+    "bytes": 85448,
+    "sha256": "779f0c646079b5ec3eb4bae7956919fbda3596870db6602166b6ae38785f62ed"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/20-interpolation-modes.png",
+    "bytes": 65375,
+    "sha256": "d7cc47947031f635cd6afc548ca90d6b9357f797bec0bdee4e36f363b350f121"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/21-coordinate-versus-filter.png",
+    "bytes": 92327,
+    "sha256": "229440df86e832282e3ac81a98fe9d2bc3a59aca2d903e7d1d1dde19bdc32ba4"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/22-projection-boundary.png",
+    "bytes": 69927,
+    "sha256": "f37ac8f2dee8d04aadb911e960a09e76cf5aea7ad5a6718d2eb7c9a80db7dc58"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/23-hecker-series.png",
+    "bytes": 77813,
+    "sha256": "6b450d34cdf17e5405f65dfa64157f840143dbb73fd69e85b0ae9ecf6313d29a"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/24-reasoning-path.png",
+    "bytes": 63952,
+    "sha256": "5f1d93b101ec699daa7fc07ce8300e0a12ec012ed5259df7f153b11ac4618215"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/assets/25-two-triangulations.png",
+    "bytes": 46323,
+    "sha256": "87d122c21d5b8eea44931c64280cd46e3528e6495d5df5067307106135d34386"
+  },
+  {
+    "path": "articles/2026-10-12-perspective-correct-interpolation/examples/perspective_lab.py",
+    "bytes": 4533,
+    "sha256": "42ccae8283c3deaa51d38a6ad1bf432b47534482199db721dda7af2202b20506"
+  },
+  {
     "path": "articles/2026-10-12-verlet-borrowed-energy/assets/01-motion-comparison.gif",
     "bytes": 859537,
     "sha256": "608327c85c8e1e1926fe8aec4cc4633899dcd445e84339a690e53fcb7aea23b4"

@@ -1288,6 +1288,20 @@
     "images": 23
   },
   {
+    "id": "2026-10-12-perspective-correct-interpolation",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把世界画出来",
+    "series_order": 2,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "地板没有弯，格子为什么折了？透视校正把“平均”放回正确的地方",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-perspective-correct-interpolation/read.md",
+    "public_sha256": "c9185465819719125d6232de27a1bdc92dff056c71b78b5ba8c39c96d9d4ab3c",
+    "images": 25
+  },
+  {
     "id": "2026-10-12-verlet-borrowed-energy",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动变聪明",
