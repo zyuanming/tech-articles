@@ -1232,6 +1232,20 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-12-closures-remember-environments",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编译器里的隐形账本",
+    "series_order": 1,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "函数已经返回，它为什么还记得那个变量？闭包把代码和来处装在一起",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-closures-remember-environments/read.md",
+    "public_sha256": "4281fbe13dd6de56349d6982a7db23fd8db3f33c4c46a374597a2449b86b7826",
+    "images": 23
+  },
+  {
     "id": "2026-10-12-kmp-remember-the-match",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动变聪明",

@@ -7795,6 +7795,126 @@
     "sha256": "6cc3ddae965ebe8db5bda5b723019c6b094cf1108f8d51a53650fa433543a0d3"
   },
   {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/01-two-scorers.png",
+    "bytes": 68886,
+    "sha256": "e43535f1ff90b733f693eb51ad161e7cefb911161bb83f7e811f8a323fcfb0e8"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/02-create-return-call.png",
+    "bytes": 73503,
+    "sha256": "36e6c64b46452dff01edc2f803427b6c2b6a3b5699823d77b3faaf583eeaf62f"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/03-names-and-bindings.png",
+    "bytes": 73418,
+    "sha256": "4eb40057266b21a3c4e7d38169364ba87b6f6eedae11a9bec6c631cd2a68f32c"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/04-code-and-environments.png",
+    "bytes": 59666,
+    "sha256": "5b693ea6b1a6b6684a6ac6d0c190cbf9524eed688b6d9d858187628730793547"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/05-call-and-lifetime.png",
+    "bytes": 71649,
+    "sha256": "f48cfbe025194b29c9c8a643709aae9b72883b51432073371b6bbe4e9d6d3344"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/06-lexical-not-caller.png",
+    "bytes": 61699,
+    "sha256": "ddbbdd1584d9b5fd4ef135f10f8041613a2a6d0d546cc2a4636f94591ba3ee41"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/07-secd-roles.png",
+    "bytes": 75333,
+    "sha256": "93943eda2727c2410b9fcab036d3d517ee760f63be83a0e9b6c71071c1ac2bef"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/08-python-cell.png",
+    "bytes": 71033,
+    "sha256": "a8e24edbb36d2ff2ff50e553562b507cfcafffa1a050ab67c8ebb11b3d294740"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/09-same-code-different-cell.png",
+    "bytes": 61811,
+    "sha256": "fc7be143aeb96abd53bf0becad81c6f6315b81a3c93a066c51ae10a419e851df"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/10-shared-counter.png",
+    "bytes": 57775,
+    "sha256": "f093d3c06233318964230ba04342a6bcab23e3289d0caed9c5115ef4a035dbd3"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/11-counter-trace.png",
+    "bytes": 50667,
+    "sha256": "1d084ab545917cee52e224f334f13164d54dbc726df849d94523ad050703e76b"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/12-alias-or-new-factory.png",
+    "bytes": 56455,
+    "sha256": "48136f70f4a2e464bedd33d9d30e4c3f06ff9dd3c93561abb2c708a252f4b0b9"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/13-nonlocal-target.png",
+    "bytes": 76683,
+    "sha256": "d4e5caab06b5abe14e74bb484298057f9f2b29aa0ff87e53e5d67acc4228e54c"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/14-loop-creation.png",
+    "bytes": 78716,
+    "sha256": "aa3fd67f3166d5366d1a32d6ef8445b4510527f7110b5458698e3704f4923c8a"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/15-late-invocation.png",
+    "bytes": 63685,
+    "sha256": "4c6e2881e36aa8e4d5bcc251e32f7abfdbb1bed2f736d2f6481ad92a61ac692d"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/16-factory-fix.png",
+    "bytes": 55290,
+    "sha256": "b21d7d955fb40f6ec8798b1d16935e9357a53eba3d945da5317bb3fe17a4e694"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/17-default-argument.png",
+    "bytes": 81274,
+    "sha256": "8bdb02494a984fa3724f421e45fe274d3b8f6e3e86ded25f47bb00d812ccc269"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/18-reference-not-deep-copy.png",
+    "bytes": 79664,
+    "sha256": "48be9f073e8ff693e91094138eb0f184377f46f723a19734525b3da45f0ccb58"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/19-explicit-pair.png",
+    "bytes": 60904,
+    "sha256": "ad5ee48faee9f2e87082dd4a6bd759306b66f09ae1bda162c5fe520262dc1bfd"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/20-call-with-environment.png",
+    "bytes": 55505,
+    "sha256": "f256bd65f7463a5e5ebfb9ecc91071d50bef82c0fc982364521b10571f03d970"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/21-preserve-sharing.png",
+    "bytes": 67062,
+    "sha256": "b7f80ef7eca2e6e586ebef599bed595a32210ca3532aba4c6509dceb4e572c13"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/22-three-questions.png",
+    "bytes": 71173,
+    "sha256": "5095fe43384b359d7e79c0e134a3fbc88d30647e5fb1d107f37a8a978cde6dbd"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/assets/landin-public-portrait.jpg",
+    "bytes": 357225,
+    "sha256": "1814f262d4dde23a2eefc34c1ffcebd4c6eba9b66ac92793ad640d71d2485267"
+  },
+  {
+    "path": "articles/2026-10-12-closures-remember-environments/examples/closure_lab.py",
+    "bytes": 4794,
+    "sha256": "31f733101b279a050036b39724ee46c8a2a7b78f8fb912bcb7fbb304ce46bc49"
+  },
+  {
     "path": "articles/2026-10-12-kmp-remember-the-match/assets/01-search-contract.png",
     "bytes": 56970,
     "sha256": "a9904322f0561d3f0396495b30f5307b38c4fb4929f426cd68f62a4aa35f7e5b"
