@@ -1428,6 +1428,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-register-allocation-colors",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编译器里的隐形账本",
+    "series_order": 4,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "五个变量，两只抽屉：编译器怎样给寄存器排座位？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-register-allocation-colors/read.md",
+    "public_sha256": "89c53d6cad7ee0e1b5ae25e28f12111e4236795460b74bbd10470ceefe4694fc",
+    "images": 24
+  },
+  {
     "id": "2026-10-12-sphere-tracing-safe-steps",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把世界画出来",

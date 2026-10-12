@@ -9675,6 +9675,136 @@
     "sha256": "42ccae8283c3deaa51d38a6ad1bf432b47534482199db721dda7af2202b20506"
   },
   {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/01-two-registers.png",
+    "bytes": 76841,
+    "sha256": "02eaf4e82e9af7d78dfbe8fc3d8e43279c16b18a61c96ab89d77f2f898458202"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/02-compilation-map.png",
+    "bytes": 80080,
+    "sha256": "b71c95c54a526736e798c95af38347a17efff299884e46bf65e71686a9c9337f"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/03-history.png",
+    "bytes": 146746,
+    "sha256": "beb6342c7b123d47ab095cf859d58cb9753aba49642a09fc09b7b5972fb5568a"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/04-five-values.png",
+    "bytes": 51469,
+    "sha256": "5307b7f1f68a6f9350c4d5ca472ba67da687886740779d33a922cd06f9a50b66"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/05-live-intervals.png",
+    "bytes": 72458,
+    "sha256": "fbd977f1083a90ff634f681dcf59968f52e1b1e01e77eea713c56097808eda56"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/06-backward-liveness.png",
+    "bytes": 59716,
+    "sha256": "3b28e073e84e16837ff3d139093e672576e1a41f4f6fa335bd5fa00001ea8e84"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/07-read-before-write.png",
+    "bytes": 60714,
+    "sha256": "761faac6019a15d37d6bf3a29013dcde8490d0fa9aa0f62fecd31d7c7e2bfc0c"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/08-interference-graph.png",
+    "bytes": 53810,
+    "sha256": "563934637fea99bf75084ee3752fcfaf8d1242e3c35a4e399694d2aca265d49d"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/09-conflict-corrupts.png",
+    "bytes": 58742,
+    "sha256": "05ea277bd6568641addb0d693485fd9aa9c1d3b596e9524a548e252ccbc121c4"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/10-two-color-schedule.png",
+    "bytes": 45715,
+    "sha256": "b1c8e4b59f8827b2995f8c66a8eb98845354638ae5fc4f3929479790a60005d2"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/11-greedy-order.png",
+    "bytes": 79566,
+    "sha256": "e0eb1df75f2d9a4aa3fff27923649a5ed03482b378e42ae41554c3ba8d5828d4"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/12-degree-lemma.png",
+    "bytes": 62032,
+    "sha256": "1a1fecd8fd7fa8c1551bb0d397f9504f61ae0142bfdc097b155d4b7a207b7691"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/13-simplify-stack.png",
+    "bytes": 78423,
+    "sha256": "472cf6432e3dff3d86ce991c8d8f4f06a4bed973f1e2267ac4f3b9a4c22507a7"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/14-select-reverse.png",
+    "bytes": 75586,
+    "sha256": "a138e1bc720a15fa0513fdfb786879373790f30cc2c638c877108830d37de5db"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/15-cycle-counterexample.png",
+    "bytes": 54961,
+    "sha256": "c0833f65c7054aebcec8eb3edab5850ccc97d6ed782a6b012d52f1af476a7cc9"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/16-triangle-pressure.png",
+    "bytes": 62513,
+    "sha256": "8d5f1f1ac0cf00494eb9db631ebda53c403d309324c34a494e5a643fb9aada69"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/17-spill-rewrite.png",
+    "bytes": 124289,
+    "sha256": "a21a678e22b161875bee8309f008f78d58e47432f0ada15aaac48f1c651a0897"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/18-spill-is-rewrite.png",
+    "bytes": 85640,
+    "sha256": "1359b3337e028689a364bc8bd1fd5f2506300e2a6016c13fe507b5aec42107f5"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/19-copy-exception.png",
+    "bytes": 67781,
+    "sha256": "8c89c00236bef28ffd6c76738f42b6f26fc92a0b327e6d3870106f43d7ab6868"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/20-coalescing-trap.png",
+    "bytes": 80226,
+    "sha256": "f1aad3c7e0ffd7a4e7a2f9c122d0d3c3d0d6d0923c5ddc97023096a06c6d4f7b"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/21-branch-conservative.png",
+    "bytes": 90598,
+    "sha256": "079fb914d3d4a56a255cfe734cb83c5fb147ac8c0a61e6aee29f3f3741d8f666"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/22-real-constraints.png",
+    "bytes": 92326,
+    "sha256": "fb33333de85abd30a4fb4f9d09b9e36ad9fc87119230e26db191b318fe0f71f9"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/23-test-scope.png",
+    "bytes": 130303,
+    "sha256": "e1d9ab32fe9de35639388ed91c070a5bb4ae53b80a7c455d34f5117f717ad6bb"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/assets/24-register-handoff.gif",
+    "bytes": 176040,
+    "sha256": "dc2a347845a06f4dd634b809491ddd712e202fcb7c0ba74f4916e562271dd5c7"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/examples/LICENSE.txt",
+    "bytes": 1097,
+    "sha256": "953c2e054fa0dddb00cae0ce4d2d2ec559908670dbb034a3a705c7b0a4de8420"
+  },
+  {
+    "path": "articles/2026-10-12-register-allocation-colors/examples/register_lab.py",
+    "bytes": 3772,
+    "sha256": "0bf2622de88330eb5b088973ab57fc5b6c75a4511f0ad6b93d55804a042f2ae6"
+  },
+  {
     "path": "articles/2026-10-12-sphere-tracing-safe-steps/assets/01-rendered-scene.png",
     "bytes": 84636,
     "sha256": "696edeadc4d3b864bb9e7d4bfd7216afc2d007ac89cc0565652d7a2f3ac16690"
