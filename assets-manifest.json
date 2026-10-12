@@ -7795,6 +7795,131 @@
     "sha256": "6cc3ddae965ebe8db5bda5b723019c6b094cf1108f8d51a53650fa433543a0d3"
   },
   {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/01-search-contract.png",
+    "bytes": 56970,
+    "sha256": "a9904322f0561d3f0396495b30f5307b38c4fb4929f426cd68f62a4aa35f7e5b"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/02-repeated-work.png",
+    "bytes": 70496,
+    "sha256": "04f750100b3bcce51e550177cb3db5b488e249548976de8f5a353011b2b400ba"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/03-first-mismatch.png",
+    "bytes": 56548,
+    "sha256": "3b90a5cb6dc82b789c3c02cc495df036a871b216a3246a920944fb8dcb4236b4"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/04-known-information.png",
+    "bytes": 60986,
+    "sha256": "852c19fb82b97e45e674ebb2e180efce06c939f047b9976caac61223f2b42541"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/05-border.png",
+    "bytes": 55500,
+    "sha256": "1cb1bcb14911d23f9de9d41589c78f5c960a932ca9c899a48ca1e2bac51ee9ec"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/06-safe-shift.png",
+    "bytes": 61589,
+    "sha256": "823ff61dfd1c41f7aea519aa4aa8c3984d7188a1e530daa9ec328fd6d334ed25"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/07-same-character.png",
+    "bytes": 52818,
+    "sha256": "d6f0f15a7890b8ef1016f27622a74ec6b9c84ed556845782bc99838cacf3b174"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/08-found-match.png",
+    "bytes": 72953,
+    "sha256": "3e3c505a64d1e4c0fdf05d0bf4fbfaaf66fbfc6ded625913350f08464620fe83"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/09-prefix-table.png",
+    "bytes": 52269,
+    "sha256": "2ee55acda3fc94a431c98d94082bfe25d83c8da4cbae437609c5b22f98086924"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/10-build-extend.png",
+    "bytes": 48016,
+    "sha256": "f545d33b75d652e62fc391de38a3d946f5869c02ed1b2b0391e7cb77a171d8ef"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/11-build-fallback.png",
+    "bytes": 52738,
+    "sha256": "58a5c76da146c728fd0a913d31dcdae07ff2e6e07035ab6029e0a06ac5c37faa"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/12-border-chain.png",
+    "bytes": 47574,
+    "sha256": "e286e6cb16f86923bbf3272fcdd05440c1a0562bc42c8b41c004ff1da7f35e82"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/13-amortized.png",
+    "bytes": 59802,
+    "sha256": "b4181d0e1c4f3370bff5fb63fee7bbfec5030abcd75098d21870e22566539bd6"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/14-one-slow-character.png",
+    "bytes": 62053,
+    "sha256": "857a235e0c657728f6adee9570c86ae342df31cfd1bec6d522d0dad95023d702"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/15-comparison-counts.png",
+    "bytes": 72010,
+    "sha256": "99c126f60609add19993b8b5838b41cfa28e0c6d17c83ab0202e3613150dc851"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/16-overlapping.png",
+    "bytes": 56235,
+    "sha256": "e6691eaa3e16af89859c620cde8b9be2e6d04980a7481d3f28aa896cec87256f"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/17-empty-pattern.png",
+    "bytes": 48422,
+    "sha256": "e2361cff23e193bbbeec5fb6663c122af53b1b90740b104c650940f9e042df87"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/18-streaming.png",
+    "bytes": 65984,
+    "sha256": "df25106aea20b20e83196a3b9f1fab12f2e6f47e8a4dfa22f604be50693178c7"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/19-unicode-units.png",
+    "bytes": 57344,
+    "sha256": "023476543f2d46b3b56e0d75f510bbffdc15e0ab7d141734f457d13e0aa96232"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/20-search-contracts.png",
+    "bytes": 64485,
+    "sha256": "d4bb13ff8b1e801a9c2aeed3d19456dd48c348d68caee742d2ed5809bde458fb"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/21-history-paths.png",
+    "bytes": 89031,
+    "sha256": "f5c1a4a29062572746dba6f58b44f62f9233257f4315c07a26b2c10db74e3b76"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/22-try-yourself.png",
+    "bytes": 60926,
+    "sha256": "f0f55ec90297d994de4278b9ddbb808f0e52d5cddbad52585f3a70013184bbb4"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/knuth-2011-original.jpg",
+    "bytes": 940501,
+    "sha256": "bb6425f07ea5475b5475fabf22b31f256a62f6255784fcd220c7c4d531ccef72"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/assets/pratt-2009-original.jpg",
+    "bytes": 1012018,
+    "sha256": "f6e9643ff142edccef56eb49dedd53feffc4995e61631bfe73c29343404cba86"
+  },
+  {
+    "path": "articles/2026-10-12-kmp-remember-the-match/examples/kmp_experiment.py",
+    "bytes": 3105,
+    "sha256": "2a70250c6bf4b57dfbf6d12104d140e50862ac63b41249e201426fd294323967"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

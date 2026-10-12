@@ -1230,5 +1230,19 @@
     "images": 6,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-12-kmp-remember-the-match",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把重复劳动变聪明",
+    "series_order": 2,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "已经看过的字，为什么还要重看？KMP 把失败变成下一步的线索",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-kmp-remember-the-match/read.md",
+    "public_sha256": "ca3f1efb1aa48b255c8f7a103d664480e19a775ad249de279a59bff0dbbdbb9b",
+    "images": 24
   }
 ]
