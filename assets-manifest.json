@@ -8175,6 +8175,141 @@
     "sha256": "31f733101b279a050036b39724ee46c8a2a7b78f8fb912bcb7fbb304ce46bc49"
   },
   {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/01-two-arrivals.png",
+    "bytes": 37743,
+    "sha256": "ad58fcff67cf1f14dffbcfd12dce8b5b89d9e53bd22d8d16adfd62b4078af5d5"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/02-state-card.png",
+    "bytes": 61978,
+    "sha256": "20f257b58dad21620a5b6f8ca77b001432512d3aa021866659d2dcd59e77c221"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/03-kalman-eth-original.jpg",
+    "bytes": 1053924,
+    "sha256": "d5e175bae06d1bdd63e22c35ef1b9b7e39017fddad1529d3b38a4027ca85f8ad"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/04-piecewise-command.png",
+    "bytes": 61388,
+    "sha256": "ea0f155ce9dc294eaa086a8a5cd71cba5ddad117aef4208266a3b75e634402d9"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/05-one-second-area.png",
+    "bytes": 64086,
+    "sha256": "951838fdcb513bff349a185fce2bcdf27b5e403d8c8fbadcc30330ce826478b8"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/06-one-step-line.png",
+    "bytes": 70752,
+    "sha256": "c65a27326d7ba5fe96c17845cf39cb77f54a2309256eabfdbf602ff2c1acdf63"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/07-two-step-stop.png",
+    "bytes": 55405,
+    "sha256": "ded5a714cbf7910f9ae190000fcb0abe81530c070d0b0315f3590bbe4f002c95"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/08-speed-triangle.png",
+    "bytes": 61098,
+    "sha256": "697df532074f99bd081f12435dbe324e8a3a5e0f6a67ce3f6716e02556d05148"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/09-early-late.png",
+    "bytes": 86203,
+    "sha256": "1f37b6f965aa22ba53b03bb0edf07ce43659b423a13f00800fbc75df117826e2"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/10-two-directions.png",
+    "bytes": 66939,
+    "sha256": "9c8a9f79e536de61440c475ddbb64cef976cf29e42da893162b286327d0a25fe"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/11-matrix-meaning.png",
+    "bytes": 71235,
+    "sha256": "09d7d8729ccbc6b6a1734d0f429ea9c8a37338dee06d75495a76bdd3cd254739"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/12-rank-directions.png",
+    "bytes": 42511,
+    "sha256": "985adf49ed77c1accaacd6ecb024280005ab4bf93980bcd8f16f20aad62bacb1"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/13-solve-target.png",
+    "bytes": 56237,
+    "sha256": "7623661f95d4c329da84e4ce170091be21f6270268e7e76091ff1ee9a208edf0"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/14-remove-drift.png",
+    "bytes": 68948,
+    "sha256": "bf62993e47c2c1a4f87a3a621e0de467be7e0913325a2b92cd709b9f6514d7fd"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/15-shared-carts.png",
+    "bytes": 47279,
+    "sha256": "830e109d64ddad903eb1ee00f170567a55bea24906fa4e3da12b6fc2fd360750"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/16-difference-invariant.png",
+    "bytes": 66511,
+    "sha256": "bd54ae48b632be14e9a30ce9aa54c3c4800e8894cd3404a31bab5c438bc0bc85"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/17-sensor-actuator.png",
+    "bytes": 77388,
+    "sha256": "3d96e103b28da8d987971f6fa5d8b84988ea4f3b3de36c6eb7e02ded1ab6e73a"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/18-input-square.png",
+    "bytes": 60922,
+    "sha256": "0d76e3e4410a64ceba237cb0465a9618245a832e0ceeba9a7d2d6c89f8ee343d"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/19-bounded-reachable.png",
+    "bytes": 85041,
+    "sha256": "85b8ac3d906d8bdf898bb055a0e1d82fb1aea8b1c69fe8b5fb0202dc3b918651"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/20-longer-horizon.png",
+    "bytes": 68134,
+    "sha256": "a0bba2288b5a45d84ceec3821f834d102750277435440e886e535297f523e1a4"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/21-many-solutions.png",
+    "bytes": 85087,
+    "sha256": "44571ab5105fa6e8dc4c3e16f6cafb72550ea8517a0920785bd4648f4d920c83"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/22-open-closed-loop.png",
+    "bytes": 62741,
+    "sha256": "ff3ab6745d7850cd76bd40098e49b25a54c35be83a91ed111953e84b19e3ea80"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/23-three-questions.png",
+    "bytes": 87948,
+    "sha256": "00f5fc0c7384eb5715b5548b63e517d17824dc8bf3c59de2b075baf07c80e873"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/24-enumerated-endpoints.png",
+    "bytes": 69547,
+    "sha256": "45b70a500f95559a0af7e020ddb713ad2f048de3b9c9f2889b0f99d55431c9d4"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/25-exercise.png",
+    "bytes": 70334,
+    "sha256": "c657ced3271a1d2fd696f693c5da6eb100111842a7bfe575b4da93a9985415c1"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/assets/26-cart-stop.gif",
+    "bytes": 580060,
+    "sha256": "9a05c64e826676a7d17dc922cb95f681ea1c12f10540f73d0c67c9fbcf1864e4"
+  },
+  {
+    "path": "articles/2026-10-12-controllability-reachable-states/examples/reachability_lab.py",
+    "bytes": 6626,
+    "sha256": "4eb194542afbab3c33316d2853b9d09e6f5f259bcad935ddf101b8078f935c51"
+  },
+  {
     "path": "articles/2026-10-12-euclid-continued-fractions/assets/01-paper-question.png",
     "bytes": 67403,
     "sha256": "407999c4b1668fdf6e70b67d736e4277762b01b9d2a0c999560600827b68f89c"

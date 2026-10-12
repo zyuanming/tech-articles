@@ -1274,6 +1274,20 @@
     "images": 23
   },
   {
+    "id": "2026-10-12-controllability-reachable-states",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "让运动听话",
+    "series_order": 3,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "只有一个油门，为什么能同时管位置和速度？从小车停车认识可控性",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-controllability-reachable-states/read.md",
+    "public_sha256": "489ba1588c7c678c0df58b4ce1a5a4ffe09aeb380fdbff57e3d98f412fb13b8d",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-euclid-continued-fractions",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动折起来",
