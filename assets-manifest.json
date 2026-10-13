@@ -12670,6 +12670,226 @@
     "sha256": "d8e58adf5fae08b69530362f5d1885f8b1ae82d5a7e5578fed3dc9b1118f4cfb"
   },
   {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/01-real-image-same-pixels.png",
+    "bytes": 69967,
+    "sha256": "5b8a8bacaa11dc93e9a66da693e6f4e177686711919e280b3d8bb6afc6c8598f"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/02-image-header-and-pixels.png",
+    "bytes": 55918,
+    "sha256": "93f7095ef21db7a2a1b4e477eb25b9fb9343dc1a85eed1f3908bd382f446d95a"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/03-real-header-hex.png",
+    "bytes": 56718,
+    "sha256": "8558d9757d87b2ac79cb973bdf618462959326f18cfb239f79fd458374c6581d"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/04-fixed-blocks-shift.png",
+    "bytes": 46811,
+    "sha256": "ba34891bea5d2346c532a877f7ccffff6c3d2f4a54770fef8ab86786a3d2b1f4"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/05-sender-receiver.png",
+    "bytes": 45290,
+    "sha256": "bc0eae3bc545fe611c5d3145ca6c78ec4a66666629f29780cffd5db802ee2b9b"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/06-signature-cards.png",
+    "bytes": 78965,
+    "sha256": "a04a424069c4f205a58e5d0dab820fbd5ba2b203b58b1edeb62b64de550f7b79"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/07-all-offset-window.png",
+    "bytes": 42904,
+    "sha256": "3258c83fab79909633ed42d3b99109c2b728495ccb96fea3f745d5b370643480"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/08-copy-data-rebuild.png",
+    "bytes": 42396,
+    "sha256": "03666f745de22445cd40634057457a346169e05a6e9d649845d60d8c5e8da8e4"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/09-plain-sum.png",
+    "bytes": 33671,
+    "sha256": "917635dcfb09a2892db89c05d3002b3939ee732f00ab8151193f7545de54eaa9"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/10-weighted-sum.png",
+    "bytes": 36031,
+    "sha256": "5d71d7eb2c83fb6bd9e2771207a0d4c61df683f7daa20eb1b84f75f05498e664"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/11-rolling-a.png",
+    "bytes": 41710,
+    "sha256": "2434a66feb8d9986d4047ebae5ef0823f775aa1b899675ef6d5f1f51dfaefb0c"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/12-rolling-b.png",
+    "bytes": 52281,
+    "sha256": "dff96eaf8f994dc417d7210e1b338c3b10eba3043ecbe357e8b3d2a0884df675"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/13-modulo-wrap.png",
+    "bytes": 32420,
+    "sha256": "1c899c01aa7afff2e328b3c1473d58533cc8acc008019d3e9cafd0f7d2376cc4"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/14-real-weak-collision.png",
+    "bytes": 49634,
+    "sha256": "cfd6b4ffca5e18219c03e41332c1f9160560273c0543a33beb2812d771a503c3"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/15-two-stage-filter.png",
+    "bytes": 52358,
+    "sha256": "4a33386ce26e4c44ecb66c7f44d58febf790e9259378b59210e0d755e4c6dc94"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/16-scan-control.png",
+    "bytes": 45704,
+    "sha256": "540391db67fcf806fabc3092fbad321d4787896ad0fdccf17d0e79e0700b464e"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/17-real-shifted-match.png",
+    "bytes": 54560,
+    "sha256": "b72e6fd81715335da911aefd92ce50747b576ea2b21dfc6c48cc4300edd936e2"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/18-image-rebuild-parts.png",
+    "bytes": 48472,
+    "sha256": "e5595aa5597eb9055b65350b9c31c83e6077246bf2ef2545d0fd55b8738ff0b0"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/19-measured-wire-budget.png",
+    "bytes": 55003,
+    "sha256": "9708f8d07e03fb5fde2edb017c9902ffefc6dee7f1c035236d63db91a108e0f2"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/20-block-size-tradeoff.png",
+    "bytes": 59596,
+    "sha256": "7d82a2a07bd7469db5dc60b4862d937b38b3bd772fd12ad350559cf43cad9510"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/21-reordered-blocks.png",
+    "bytes": 36740,
+    "sha256": "54da1ff934a603d15975c571ff6278091b0b74d5721afe999f05f5361cc3ed20"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/22-short-tail-rule.png",
+    "bytes": 52044,
+    "sha256": "e5db66a67ea9636be898ef604fd516923e1e383f680b54542386508ae3bfac4e"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/23-three-checks.png",
+    "bytes": 72961,
+    "sha256": "ff847292fa4eab0a6f068a48113e1869359618615a4cb8a4be7ca659073b25f5"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/24-integrity-not-authentication.png",
+    "bytes": 54746,
+    "sha256": "ef044bc6c67aafa308e776695f1a7abda591c242ad7bdc829a743d0fe855fba9"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/25-gzip-counterexample.png",
+    "bytes": 56322,
+    "sha256": "ee002922c14e5f5c3ae959d47f2442b42328416a509b40739cc094a1e6ba7b45"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/26-small-file-overhead.png",
+    "bytes": 43476,
+    "sha256": "a4e13510d259d663b83e154a7942dc7dec937d3ef92d8e85e77bf4f651a3c458"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/27-primary-dates.png",
+    "bytes": 44997,
+    "sha256": "7a6d69d029fbd5e44f1d2d2b71e35c69a8eb96d537b684af4ada071b6216653e"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/28-digest-not-content.png",
+    "bytes": 55842,
+    "sha256": "1b4561dc12deefe531558abb946ecd840019891db65528a11a8f0d9b1a9199bf"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/29-real-scan.gif",
+    "bytes": 117060,
+    "sha256": "a6ac349379222b2f115ed930733f23839201895d010a9c175acc4d729eecc1e9"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/landscape-decoded.png",
+    "bytes": 8709,
+    "sha256": "e061cb890ccf458319eb761cadc103bda6a620fa3fdd13d624e93b649de11e22"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/cover.png",
+    "bytes": 49027,
+    "sha256": "0cdc822babc8bdd60e24cc9ba63f8a8c2e2d8782a6eab366cbd5a71dfb5aba7e"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/delta_lab.py",
+    "bytes": 8154,
+    "sha256": "0d958eacaefad5e1893eb2553887d7d88371fe8718ac9e0aa8c95753eecc02e3"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/image.delta.bin",
+    "bytes": 682,
+    "sha256": "6974944de9ff660633706b4aeece50fc9074db5e9d7eb5e8f5a8497a30f2eea1"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/image.signature.bin",
+    "bytes": 2891,
+    "sha256": "e0f777a2e7355456ccf3053c89b484e948a7f79e7b224a47dae4d0ccaa6b8d6d"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/landscape-new.ppm",
+    "bytes": 18446,
+    "sha256": "940f5553dbc121a2ccbc8f4bef81c03b8ca9c9eeff053ec29f5181b0d4c319d1"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/landscape-old.ppm",
+    "bytes": 18445,
+    "sha256": "1a9de97fc1ee8b8be0ca9a6e3159e542689a2f566905da19146f953b7c47ab68"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/pixel-check.json",
+    "bytes": 288,
+    "sha256": "c12d14f79984c45fe5501c759ab26a6c421f1613830573cdf90fd5930b4cc782"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/reorder.delta.bin",
+    "bytes": 67,
+    "sha256": "9a90a282ebf7c258da0a096dd4e330e543e5447a44ce023620eacd967248a097"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/reorder.signature.bin",
+    "bytes": 171,
+    "sha256": "2d02fa4b28935fce74b32f6ab68d019b4b2d812232b9802ac5e25a9224bdc0e4"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/results.json",
+    "bytes": 290492,
+    "sha256": "95217c39e4b3ce1dfb75846c0cc4c69938dda63477dbbe8abdbe3147780804cb"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/toy.delta.bin",
+    "bytes": 73,
+    "sha256": "bd298b4b6a9fa583ea3cd45a2f6eced7ee4254347045a1b439916b09825ea572"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/toy.signature.bin",
+    "bytes": 171,
+    "sha256": "2d02fa4b28935fce74b32f6ab68d019b4b2d812232b9802ac5e25a9224bdc0e4"
+  },
+  {
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/examples/verify_pixels.py",
+    "bytes": 758,
+    "sha256": "ed3be0ae7dd8cd6a2c87428eab645f9bda9b34021322092a72a98d8f28f8ca9d"
+  },
+  {
     "path": "articles/2026-10-13-sar-adc-eight-questions/assets/01-knob-to-number.png",
     "bytes": 41724,
     "sha256": "b5020efa2f007a225f8542d20742944b66dbf9924ce3a1c8cdf22017f9bf20ff"

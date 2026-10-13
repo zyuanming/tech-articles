@@ -1696,6 +1696,20 @@
     "images": 32
   },
   {
+    "id": "2026-10-13-rsync-find-shifted-blocks",
+    "title": "图片没变，只多了一个字节：rsync怎样找回错位后的旧片段？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-rsync-find-shifted-blocks/read.md",
+    "public_sha256": "382dff38270e56ef14e70464a88457665bfbc59a1812f29c0b7eb870bbe9cf28",
+    "images": 29,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "系统与分布式",
+    "series_order": 5,
+    "batch": "student-exploration-30-2026-10-13"
+  },
+  {
     "id": "2026-10-13-sar-adc-eight-questions",
     "collection": "student-exploration-series-2026-10-11",
     "series": "观测与控制",
