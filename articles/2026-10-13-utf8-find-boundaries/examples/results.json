@@ -1,0 +1,146 @@
+{
+  "python": "3.12.14",
+  "unicode_database": "15.0.0",
+  "sample": "A中𠮷B",
+  "bytes": "41 E4 B8 AD F0 A0 AE B7 42",
+  "scalar_values_tested": 1112064,
+  "length_counts": {
+    "1": 128,
+    "2": 1920,
+    "3": 61440,
+    "4": 1048576
+  },
+  "short_strings": {
+    "1": {
+      "strings": 256,
+      "valid": 128
+    },
+    "2": {
+      "strings": 65536,
+      "valid": 18304
+    }
+  },
+  "all_partitions_tested": 256,
+  "cut_results": [
+    {
+      "cut": 0,
+      "next": 0,
+      "skipped": 0,
+      "remaining": "A中𠮷B"
+    },
+    {
+      "cut": 1,
+      "next": 1,
+      "skipped": 0,
+      "remaining": "中𠮷B"
+    },
+    {
+      "cut": 2,
+      "next": 4,
+      "skipped": 2,
+      "remaining": "𠮷B"
+    },
+    {
+      "cut": 3,
+      "next": 4,
+      "skipped": 1,
+      "remaining": "𠮷B"
+    },
+    {
+      "cut": 4,
+      "next": 4,
+      "skipped": 0,
+      "remaining": "𠮷B"
+    },
+    {
+      "cut": 5,
+      "next": 8,
+      "skipped": 3,
+      "remaining": "B"
+    },
+    {
+      "cut": 6,
+      "next": 8,
+      "skipped": 2,
+      "remaining": "B"
+    },
+    {
+      "cut": 7,
+      "next": 8,
+      "skipped": 1,
+      "remaining": "B"
+    },
+    {
+      "cut": 8,
+      "next": 8,
+      "skipped": 0,
+      "remaining": "B"
+    },
+    {
+      "cut": 9,
+      "next": 9,
+      "skipped": 0,
+      "remaining": ""
+    }
+  ],
+  "stream": [
+    {
+      "bytes": "41",
+      "emitted": "A",
+      "pending": ""
+    },
+    {
+      "bytes": "E4",
+      "emitted": "",
+      "pending": "E4"
+    },
+    {
+      "bytes": "B8",
+      "emitted": "",
+      "pending": "E4 B8"
+    },
+    {
+      "bytes": "AD",
+      "emitted": "中",
+      "pending": ""
+    }
+  ],
+  "invalid_cases": {
+    "C0 AF": "overlong slash",
+    "E0 80 AF": "overlong slash in three bytes",
+    "ED A0 80": "surrogate U+D800",
+    "F4 90 80 80": "above U+10FFFF",
+    "80": "lone continuation",
+    "E4 B8": "truncated",
+    "E4 41 AD": "wrong continuation",
+    "F5 80 80 80": "invalid lead",
+    "FF": "invalid lead",
+    "C1 BF": "invalid lead"
+  },
+  "code_points": [
+    {
+      "char": "A",
+      "point": "U+0041",
+      "decimal": 65,
+      "bytes": "41"
+    },
+    {
+      "char": "中",
+      "point": "U+4E2D",
+      "decimal": 20013,
+      "bytes": "E4 B8 AD"
+    },
+    {
+      "char": "𠮷",
+      "point": "U+20BB7",
+      "decimal": 134071,
+      "bytes": "F0 A0 AE B7"
+    },
+    {
+      "char": "B",
+      "point": "U+0042",
+      "decimal": 66,
+      "bytes": "42"
+    }
+  ]
+}

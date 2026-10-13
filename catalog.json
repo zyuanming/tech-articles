@@ -1636,5 +1636,19 @@
     "path": "articles/2026-10-13-gray-code-one-bit/read.md",
     "public_sha256": "a967b026b2fa1f492da26148d722570e6354459b793e848f687d694a8d382296",
     "images": 28
+  },
+  {
+    "id": "2026-10-13-utf8-find-boundaries",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编码与程序的结构",
+    "series_order": 2,
+    "batch": "student-exploration-30-2026-10-13",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "把“中”切掉半个，后面的字还找得回来吗？UTF-8 写在字节里的路标",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-utf8-find-boundaries/read.md",
+    "public_sha256": "fa39de4e068122359ce25c69fcd5caa35f34d89d9d5569d97704679a2d4c90a8",
+    "images": 27
   }
 ]

@@ -11825,6 +11825,166 @@
     "sha256": "f0a1e67707f892d5d7e0799bee5750adcc4b60a2cf7a9d1230f48d7964077add"
   },
   {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/01-cut-through-text.png",
+    "bytes": 45196,
+    "sha256": "52a3b4e14d24f34e52e75fbfccebaadadaaa7f8ef2485c1080b63a8537990dbe"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/02-three-layers.png",
+    "bytes": 30704,
+    "sha256": "a2da91893e1a4451ad17fbd2dd6ed529e0a0aff9184eb3e3949ce77e02f2c920"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/03-one-byte.png",
+    "bytes": 22948,
+    "sha256": "fd7ddcb3b3e0195d2257ffe1a3180c15f345167bcfcbcfd87a228d799be1830f"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/04-hex-as-shorthand.png",
+    "bytes": 24854,
+    "sha256": "e6adc56cbd423e33452fe39e0e17882d05bfd62c0c7f3ebae9eb5e3ad19eb4a3"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/05-ascii-keeps-place.png",
+    "bytes": 41874,
+    "sha256": "85c6b9bb7ecfb87b3e44ca8e3396f59ce3e40cb7007dff7ab2513dc4c04bc068"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/06-lead-versus-tail.png",
+    "bytes": 41647,
+    "sha256": "6d31e474aae43645b183ced1b2f7837a4c319e2583a735f9b364bb7179ab959a"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/07-four-envelope-sizes.png",
+    "bytes": 58687,
+    "sha256": "1c9bc2a3483053af1f72592badb0be8bfe9b1e9c2f67c6a07a6f16edf11a7069"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/08-split-zhong.png",
+    "bytes": 43561,
+    "sha256": "3a3e831a09f666224fbb50eef4eb7df4d191145ac23ee8e3725c5f6166851fef"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/09-encode-zhong.png",
+    "bytes": 28659,
+    "sha256": "cf9b1586ffaa015be94d34c82f662fc1879449d147dbcaea0a9e73772cfd8959"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/10-four-byte-character.png",
+    "bytes": 42818,
+    "sha256": "aa85084340848320b424c888176eaa6e4f94df04be62a5860c5baef995c4d906"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/11-whole-byte-stream.png",
+    "bytes": 37220,
+    "sha256": "48c25688b129b61d37370449bfdb7740331c5937aafb2a1621b8eead5375131b"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/12-find-next-boundary.png",
+    "bytes": 39115,
+    "sha256": "708f97ff0d6ce6237c72371d34c32505a5bc9fd44190d5120377b9baf0d073a5"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/13-every-cut.gif",
+    "bytes": 212959,
+    "sha256": "0b0df1d07a4bd6bc84d199ed60dc37d19e06559dd5e7967a0570d110d5271760"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/14-prefix-tree.png",
+    "bytes": 37094,
+    "sha256": "4ba953ff9454c09f5047d23bc40143159e4ef98575d7161171e6ce6dbc82f16c"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/15-backward-bound.png",
+    "bytes": 35263,
+    "sha256": "a5072412ed28db4513efc5682d905eae5166ffdaed8a0374262e1d32c878d922"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/16-candidate-not-valid.png",
+    "bytes": 44079,
+    "sha256": "a667aa2c82ce57b42097115f56c9281a6909077e0e51c0161a9219f03023e86f"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/17-validation-gates.png",
+    "bytes": 60100,
+    "sha256": "71ee78c4dc60b968426730742fd8efa9468f7ab0727628b63a98de2c1ead5103"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/18-overlong-slash.png",
+    "bytes": 50503,
+    "sha256": "c34e39415c1763fcd15edfd66bcfb44e1687dd5bff8d1e7a496a6e719a7ed9b4"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/19-scalar-value-ranges.png",
+    "bytes": 37283,
+    "sha256": "c0fb031d12ec43d0f182653b36518b9d08cc85601615edf1c3e6f3f4cff5ce4c"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/20-stream-chunks.png",
+    "bytes": 57716,
+    "sha256": "cd9e51cadfb276a8cfb5601ab1c3b974cccad426801c4a1336f304b8ccf3df50"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/21-incremental-state.png",
+    "bytes": 41439,
+    "sha256": "101df2c89a0817f0647426c34a3afcccf4f97dd3e26cdaadca4ef823d01a904c"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/22-grapheme-versus-codepoint.png",
+    "bytes": 50343,
+    "sha256": "72d1770261cd07b6b3392efcf89f4a6f714d46851cabe8182fb608b949cacb39"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/23-deletion-and-resync.png",
+    "bytes": 48727,
+    "sha256": "06503d93254aaba72c1600230f971284c660b69786ce2b0a23090bbe0a86b12c"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/24-encoding-is-agreement.png",
+    "bytes": 39040,
+    "sha256": "fb6205b638be845b38d0c5cc82acf9f75d1e4a118a4cbc7e4d4f063532e81c79"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/25-which-length.png",
+    "bytes": 27361,
+    "sha256": "de7f7599ec00ec3e7b3bbff27519caa4ad6229282268496b7ec9d0f17c6fe4af"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/26-design-constraints.png",
+    "bytes": 48266,
+    "sha256": "1ca61efea771ee6bf229244570872c95138df1c7b6fd5a2affe9ad896f4034a9"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/27-error-policy.png",
+    "bytes": 50328,
+    "sha256": "d4d4c827dceec4735cf8acb4ddb3eb4fa4747e4e85e70f764858630586e6764c"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/assets/cover.png",
+    "bytes": 26298,
+    "sha256": "ff65f5bf670809a573191b797db8a8054dc212bad2d64da3d400c587a91896f9"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/examples/boundary-lab.html",
+    "bytes": 4130,
+    "sha256": "bdf01726c9fa4e07d5f54d13441cdfcc213d8b226960fbdb8de7135efe72a75f"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/examples/results.json",
+    "bytes": 2500,
+    "sha256": "c7f786db8acc2c3a14603f5ada783e6c374354c1d2e53bc5f01f533c578a1d12"
+  },
+  {
+    "path": "articles/2026-10-13-utf8-find-boundaries/examples/utf8_lab.py",
+    "bytes": 5696,
+    "sha256": "abb1ea166b91b6d22ca5c029110a6fb868a555b8edc2fa75f27281e42e97ff76"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
