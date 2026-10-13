@@ -1690,6 +1690,19 @@
     "collection": "doom-from-zero"
   },
   {
+    "id": "2026-10-13-edsac-sound-memory",
+    "title": "计算机的记忆，曾经是一串在水银里奔跑的声音",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-edsac-sound-memory/read.md",
+    "public_sha256": "7826b8677d9ee200fcf1588b98246e6da1b29dc1331fd0ba2224150dbe33740f",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11",
+    "batch": "student-exploration-30-2026-10-13",
+    "series_order": 11
+  },
+  {
     "id": "2026-10-13-euler-mesh-accounting",
     "title": "给网格打一个洞，为什么点、边、面的账突然变了？",
     "date": "2026-10-13",

@@ -12540,6 +12540,151 @@
     "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
   },
   {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/01-bits-and-slots.png",
+    "bytes": 37093,
+    "sha256": "195f7e8b8df0e1b13623ed4ebe51d703507f6415e2e58b0ce2f760ca36832a92"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/02-electric-sound-electric.png",
+    "bytes": 64071,
+    "sha256": "090b89fca75c8d4fda7061522bce8bcda1e516bb9599fa007b548a5cad51c7de"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/03-propagation-delay.png",
+    "bytes": 42417,
+    "sha256": "b1785c25561ff11f50637688ec0f5ff9ddca812a48fe03e6bb8776faa59ffe22"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/04-regeneration-loop.png",
+    "bytes": 88022,
+    "sha256": "30ec63b69bfdeaa3fc8d6293d91457da3ec1c209c58e9ab3cb44ba4732b399c5"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/05-regenerate-not-amplify.png",
+    "bytes": 55472,
+    "sha256": "36ed7c4400cf0718ba44c5f65fbfb133ce349723c3cc0e6846b08f004185ed82"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/06-time-ring.png",
+    "bytes": 52942,
+    "sha256": "49803d88564ecd3bca2c64519ed44c8aec8557fb40f71d16c7a1777240d59177"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/07-tank-and-time-address.png",
+    "bytes": 53286,
+    "sha256": "eb4cb0405b0c90b5caa6dd19b69319b346fc1a793163be2ac8494912784c864a"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/08-wait-for-word.png",
+    "bytes": 74498,
+    "sha256": "5892cc4798c64924103dab49a8ac2e5e16db38e2bed133c5c0e6fb0ddb82b6de"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/09-overwrite-one-word.png",
+    "bytes": 66751,
+    "sha256": "2641ccfa320b0eba86dcd9bf09193a95fc4e2b29257344e2e6a01916efa82c6c"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/10-short-and-long-words.png",
+    "bytes": 90774,
+    "sha256": "38f45a34fedd6f93c20c94ac8ea3350f59d693a0604825656d91ba44144185bb"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/11-capacity-stages.png",
+    "bytes": 85026,
+    "sha256": "a4893321f437a4631b7f601de9bae9799c5e4b66145a9f2a864d36dfc034e7e0"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/12-temperature-and-timing.png",
+    "bytes": 50123,
+    "sha256": "dfcb665e914b2bac5a042a4c2dd7ddaf581945f1d72532176319814ad66074b4"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/13-reflection-is-not-feedback.png",
+    "bytes": 61989,
+    "sha256": "e5e8b3d6ba680ed1cd661230d84f625dfdad6bd64b7ba1854c5727c6cd1230ce"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/14-access-comparison.png",
+    "bytes": 58396,
+    "sha256": "d01de7e09dfd98f6a7352585956bb02c23d110605f1347f75e16bb77e96de86d"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/chassis-back-original.jpg",
+    "bytes": 47732,
+    "sha256": "3164a46af6364b585eb8fd4bf4df336b6f2c2f4af53cfdc967ed0b04324340da"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/chassis-detail-original.jpg",
+    "bytes": 25977,
+    "sha256": "7ab224d5ef56a81e861d43aef5895d2752ba1bb2f3bfe0467521e9e46131dd7c"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/chassis-front-original.jpg",
+    "bytes": 22214,
+    "sha256": "dd25adcd52981ddf43eda48fd9d374090db21df16d3a45a09a7827df15468e81"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/edsac-room-1948-original.jpg",
+    "bytes": 148433,
+    "sha256": "466a3da81e380dc57b7e28de007097aef15eb588823a191a7d53f7eb580168fe"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/experimental-tank-1947-original.jpg",
+    "bytes": 39548,
+    "sha256": "2d5ccd5078af248d0a59b5383ac94280846b46d3d5f0eb41d9ef97182ffddd4a"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/log-page-original.jpg",
+    "bytes": 96790,
+    "sha256": "2a8097a01a7ed751a579fd2af93af6a0ae17240011c5017661f6eb0e89473935"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/short-tank-original.jpg",
+    "bytes": 107508,
+    "sha256": "36e65e15eeed2ebdf0d66325bc96f1ea782c638244cf3261f4c2a6ff7a9e6f39"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/thermostat-original.jpg",
+    "bytes": 19612,
+    "sha256": "bf682c4e0ccbaecd2f5f0f6e855fec7a6f0fc6f92a2c09588fc15c2af81e3ae5"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/assets/wilkes-long-tanks-original.jpg",
+    "bytes": 155911,
+    "sha256": "ef521dff69cf15d6536edc6e119912f537d1e7856530354007af6e74223c3803"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/cover.png",
+    "bytes": 50235,
+    "sha256": "b7f40a95c183cbf280f92ec2e17a85449b840c9f365a36ad297c29801a18e13f"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/examples/build_figures.py",
+    "bytes": 13140,
+    "sha256": "6c2b3d3217235f06bc6d0def8d2c8e5af4d9b05ef1c25166109f182aff09012c"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/examples/delay_model.py",
+    "bytes": 3044,
+    "sha256": "b3bfb642321dfe7c02fa5642cd2f8b94e1968de43fb7ae91f7c2dd0c57550648"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/examples/results.json",
+    "bytes": 7706,
+    "sha256": "707c9dc753f8081d568e8b6c07921bef94c49496ba9661c0981596a358a9418a"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/licenses/CC-BY-2.0-UK.html",
+    "bytes": 31939,
+    "sha256": "7f390c8e585dae21365fe3cd7d7f18821c086f8f10c12c041b5be4bc1c5b7edd"
+  },
+  {
+    "path": "articles/2026-10-13-edsac-sound-memory/licenses/cambridge-CC-BY-4.0.txt",
+    "bytes": 13868,
+    "sha256": "ad68fd5667492c33ee6f030848cba210c6d893660032806f0ed8f5e4b56a7893"
+  },
+  {
     "path": "articles/2026-10-13-euler-mesh-accounting/assets/01-three-actual-meshes.png",
     "bytes": 711765,
     "sha256": "fdfe45b939fdb519513c07aa40bdb3d321d993381593ee3590ffcb98ce4d327b"
