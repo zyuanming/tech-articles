@@ -26,4 +26,7 @@
 8. [两个物体已经撞上，下一步往哪走？](../articles/2026-10-13-impulse-change-contact-motion/read.md)  
    从真实Box2D-Lite轨迹看正撞与偏撞，循序建立动量、冲量、接触点速度和多接触求解，并保留完整可复算输出。
 
+9. [一个开关，为什么需要两条不同门槛？](../articles/2026-10-13-schmitt-two-thresholds/read.md)  
+   从温度开关反复闪烁走到双阈值记忆、真实板与芯片、理想正反馈，分清滞回、时间消抖与器件规格。
+
 每篇的图片、代码和第三方材料权利以相应来源说明为准。此前系列见[探索系列续篇](student-exploration-series-2026-10-11.md)。

@@ -14245,6 +14245,251 @@
     "sha256": "dfdb9681ec55f0068844dd0e03031a4fce5d351e9dd73dd8b32644bc7467d4d8"
   },
   {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/01-software-fan-frames.png",
+    "bytes": 125261,
+    "sha256": "b9fb0805e11687f402587e586fcd3fb1bacb494ab643e253f9b4108e25bf3454"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/02-trace-comparison.png",
+    "bytes": 51021,
+    "sha256": "94da1f26f0bf8ac2be2b96b54e195d67cdb1f984ca4bde3cd5f3dd13b6900cd3"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/03-single-threshold.png",
+    "bytes": 36895,
+    "sha256": "c00c50f52ac9a12fcebcadd9ae6349d05c30ba23568385d4b10882e4c0039f81"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/04-two-levels.png",
+    "bytes": 37652,
+    "sha256": "527459d242871fd89df4680c78ccd96adbd34c110918c166bd55ad6b9057c0a8"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/05-hand-walk.png",
+    "bytes": 51476,
+    "sha256": "1def2dfcf81e32b8d567d2058c7b1e3dcded9ac174afd811bfaa086e9118ec5c"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/06-state-machine.png",
+    "bytes": 35857,
+    "sha256": "396e0340eca2429baad95a4d5f9488e0bd9e67ece505d31dc4e8eee9158c196d"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/07-same-input-memory.png",
+    "bytes": 39559,
+    "sha256": "ce891f1cd868c0d1900d2202d5d71402cab750ddfb6b09711166b7c276544d64"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/08-hysteresis-loop.png",
+    "bytes": 30694,
+    "sha256": "3beec47bbe81b6e2baa831de42798aba68b98cc867c82e6d79c8338656dad2c0"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/09-noise-stays-inside.png",
+    "bytes": 38814,
+    "sha256": "bec62d9a1021d67144af308ebd7adf223b76655e22dabdb087e2aad90208acd5"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/10-full-swing-bounce.png",
+    "bytes": 47129,
+    "sha256": "3414983271a00414c7e44673978a0fc1357f8f3b665cc349c53d9bf713ca28d0"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/11-short-pulse.png",
+    "bytes": 42721,
+    "sha256": "e3fe64dd453dbe34985d67c6bbb2ce5ab903b4633948dbd79f04be27119dd7a0"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/12-window-versus-history.png",
+    "bytes": 53918,
+    "sha256": "add294b55fcef1aa11e1d931109a397fa913a255c9e4f3f6238c9a3d8ec7d42b"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/13-amplitude-versus-time.png",
+    "bytes": 46727,
+    "sha256": "09ca611340337ecbae989ef11563129f6b88bd6256a6fdd70b1e479af03632ad"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/14-startup.png",
+    "bytes": 42239,
+    "sha256": "985a5c41cefa718751b5a0f24682584458965ac3441b91bf39f21365ec6a117f"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/15-pico-photo.png",
+    "bytes": 562252,
+    "sha256": "cbd8f9e22c3a45123f2d916ea996e99beb236dcaaaca0430cd2575a91bdf5a33"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/16-rp2040-photo.jpg",
+    "bytes": 35906,
+    "sha256": "583a6ce6f12236788d3f953d0005244ab97f4459d8e8f40bd25025a2c113a4a1"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/17-pad-location.png",
+    "bytes": 50291,
+    "sha256": "8d809892a1fb4586a299c4f27f169bc51bfab762c95c1dba5f19a8ddd3341b16"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/18-inverting-response.png",
+    "bytes": 41770,
+    "sha256": "b3e5f8fd48bd28b17d48b351eac97bb64fd52233814da368b5e2504c55f6b034"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/19-six-independent-gates.png",
+    "bytes": 42031,
+    "sha256": "373d2110d86cd5d4b0c39fbadb59481ee5a4253d59517fb08525d888c94fd52b"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/20-threshold-spec-ranges.png",
+    "bytes": 59375,
+    "sha256": "ba3f79f28396b271ef250ec7002c613ec15ef3c4a243654eb7690faca0958f85"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/21-ideal-comparator.png",
+    "bytes": 32046,
+    "sha256": "32affe0c8faa94ff81c33f38c208d5ca7bda11026d44bfc02c6fb9b8b3e2f427"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/22-resistance-weight.png",
+    "bytes": 52124,
+    "sha256": "524df1bf19f40dc22d88614d65c5e98126d4ae010ceb098134c7dddb93236524"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/23-divider-equation.png",
+    "bytes": 43867,
+    "sha256": "a2a35b0b8027f1eb86d1784c19ea97a545a36ffbcc597e89e62ddf0f4404ab6c"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/24-output-moves-reference.png",
+    "bytes": 42801,
+    "sha256": "06e3d660f13b1fcd78451e182fc9e35c8497e44fa2f326ad4d25d630314899ef"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/25-positive-feedback-rise.png",
+    "bytes": 61685,
+    "sha256": "ba8cc03305c9738ee75b2a6895cd39892a9b6101baa299e10e1f08267854b101"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/26-inverting-loop.png",
+    "bytes": 35111,
+    "sha256": "bfaae98f0f608616c7f5c50faf95339ac7db54fc30184578217d31edc3e76260"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/27-filter-before-switch.png",
+    "bytes": 45548,
+    "sha256": "ebd9393fbde4aa3ff05630f5bdbc898df7012db10626cd7a8dc49516783a41c9"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/28-history-dates.png",
+    "bytes": 47312,
+    "sha256": "b39c3ef576feaea7c58528720b25e59f5fabb418931d60df2d305d23d0dba615"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/29-game-prompt.png",
+    "bytes": 58327,
+    "sha256": "cc6974c4d6c0eade7b9eee248af1282ccaf68f63f981434b29373004b0414c6f"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/30-three-questions.png",
+    "bytes": 51986,
+    "sha256": "cc090651bcf5fefb47ba4e2565b64c9c9427055cc53123fa897e7ba57bb83275"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/31-feedback-circuit.png",
+    "bytes": 64260,
+    "sha256": "25fe3b8081fa7e4391516a33d780c1c42f0b0b52d72dce290d182dd23b0ce2df"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/assets/32-wider-band-tradeoff.png",
+    "bytes": 65172,
+    "sha256": "5ceb4d4efd4f8187c1a937fe892c62ed4aaf944e2075d715e8404444d228ac59"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/cover.png",
+    "bytes": 37498,
+    "sha256": "4fa55706fd964b02f616b2c947777ea18c0e70fd8c3dec3838905cff25308964"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/LICENSE",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/render_outputs.py",
+    "bytes": 1382,
+    "sha256": "eda7dfd8d416675ba3a526379cfdc479d8ab7facb307b3f6cb6bc562fd500b6c"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/hysteresis-2.png",
+    "bytes": 14744,
+    "sha256": "47e880381d7c470d1523a4432e69b6e59d34ca83ae8055fc029d54349c83da33"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/hysteresis-3.png",
+    "bytes": 15079,
+    "sha256": "6abef8877340bbb25d8fd074096473c032046059829158086706bf5414b4a225"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/hysteresis-4.png",
+    "bytes": 14837,
+    "sha256": "53e9528ecd382466a211eddb2757a9ab50ddd716da6ee317ddef6d0af33fad4e"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/hysteresis-5.png",
+    "bytes": 14985,
+    "sha256": "e02325da8577278f9a5709c22bec489129e5bb5ce6409e50489b1e1c4469f4bd"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/single-2.png",
+    "bytes": 14560,
+    "sha256": "706f20cfa19f9efe61cb6c2f4547394befd24263f4adfe9bc0e63b93a9272024"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/single-3.png",
+    "bytes": 15291,
+    "sha256": "ae3327df9b23c97c999c475e639ef8fc8a3ce5b510b5a7749b979c1db4603a06"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/single-4.png",
+    "bytes": 14654,
+    "sha256": "ff54e291784666fbff2d4493bdef3e33b61c08867f7f7eae7a7035c547f22b44"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/rendered/single-5.png",
+    "bytes": 15191,
+    "sha256": "c5afe36056580131982f33e7cced68749cc488f1d8b386eee0dec86594d0c1e9"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/results.json",
+    "bytes": 615,
+    "sha256": "13f6da99f0854a76785fbcfa218fbb71f11a8486b421d285b2742ed626bddcc8"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/schmitt_lab.py",
+    "bytes": 3365,
+    "sha256": "b5f04944ff1ef428033902dc9eadffac77f982e9d052e9c3de84ac4f5667c321"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/examples/trace.csv",
+    "bytes": 12638,
+    "sha256": "3879b289c341ed3f72c502ae682bb29e112d6527f48c14b18d2714ad72876be8"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/originals/photo-manifest.json",
+    "bytes": 1004,
+    "sha256": "a628689f6769e0733abfcc2d1d9d4e30635d8d7069f09b9138d6a6334c27cd79"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/originals/pico-original.png",
+    "bytes": 562252,
+    "sha256": "cbd8f9e22c3a45123f2d916ea996e99beb236dcaaaca0430cd2575a91bdf5a33"
+  },
+  {
+    "path": "articles/2026-10-13-schmitt-two-thresholds/originals/rp2040-original.jpg",
+    "bytes": 35906,
+    "sha256": "583a6ce6f12236788d3f953d0005244ab97f4459d8e8f40bd25025a2c113a4a1"
+  },
+  {
     "path": "articles/2026-10-13-utf8-find-boundaries/assets/01-cut-through-text.png",
     "bytes": 45196,
     "sha256": "52a3b4e14d24f34e52e75fbfccebaadadaaa7f8ef2485c1080b63a8537990dbe"

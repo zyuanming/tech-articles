@@ -1,0 +1,46 @@
+{
+  "discrete_transition_cases": 558,
+  "random_memory_cases": 5000,
+  "seed": 20261013,
+  "hand_values": [
+    25,
+    27,
+    28.2,
+    27.8,
+    28.1,
+    27.9,
+    27,
+    26.1,
+    25.9
+  ],
+  "hand_single": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hand_hysteresis": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "hand_single_switches": 4,
+  "hand_hysteresis_switches": 2,
+  "trace_samples": 601,
+  "trace_single_switches": 26,
+  "trace_hysteresis_switches": 2,
+  "ideal_feedback_low_v": 2.0,
+  "ideal_feedback_high_v": 3.0,
+  "hardware_tested": false
+}

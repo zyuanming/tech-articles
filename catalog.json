@@ -1788,6 +1788,19 @@
     "images": 27
   },
   {
+    "id": "2026-10-13-schmitt-two-thresholds",
+    "title": "一个开关，为什么需要两条不同门槛？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-schmitt-two-thresholds/read.md",
+    "public_sha256": "9dd40fe5dc9dbcb9934c8ee8aaa70a547863e8ee9a848488387972ebe792d668",
+    "images": 32,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11",
+    "batch": "student-exploration-30-2026-10-13",
+    "series_order": 9
+  },
+  {
     "id": "2026-10-13-utf8-find-boundaries",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",
