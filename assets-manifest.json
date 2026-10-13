@@ -13880,6 +13880,161 @@
     "sha256": "a7249bea511a19dcf2d000d1e4ae283ec3278ba916467117bd2cbe05228ce45d"
   },
   {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/01-corpus.png",
+    "bytes": 45191,
+    "sha256": "b2e91c97a5f36b620a420fac0d6c9f488773974aca9be8f4158ae43d61d5f3ad"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/02-baseline.png",
+    "bytes": 36630,
+    "sha256": "b6041ecfdf7700470e35e2c0730585675ae8e25824e4d664cbf24b76c603c056"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/03-map-one.png",
+    "bytes": 54170,
+    "sha256": "ca9f0ede0a45ce1e9fc313ef6787bffe5112fd96bead2e797074f0bc3de28ebb"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/04-mapped-all.png",
+    "bytes": 50652,
+    "sha256": "514271535ffeb6deb19b3b8480a69b2fce71ce83def77563a58e68d519724905"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/05-route.png",
+    "bytes": 46395,
+    "sha256": "711707ba2d959557b2f2f3ecc77031aa0f562e8f490ee31b1f4a2a67f395570f"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/06-shuffle-cat.png",
+    "bytes": 59713,
+    "sha256": "080011390fc4361ae0379bc0904fe46eff2d89f196275f1035cf99d2f192deaa"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/07-group-within-partition.png",
+    "bytes": 50398,
+    "sha256": "28087abf260ec26d2cc979dc9f00bd03722066f0ead74d9870bb34110b812ccd"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/08-reduce-cat.png",
+    "bytes": 35015,
+    "sha256": "3d59de52dde4ec54f9b5a0a79e7c283080aaae1d406ea8e15a6f69b97442ebe5"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/09-output-files.png",
+    "bytes": 43430,
+    "sha256": "42a8b26ca417f4f9860c6141606f560ad35ce230ce0252de8c34325110be636a"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/10-control-data.png",
+    "bytes": 64793,
+    "sha256": "51db12bf50e84cfd55d5015749c6610722663eab008e34644e58808f5b652ccf"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/11-task-machine.png",
+    "bytes": 54904,
+    "sha256": "60847921fa41ee86104a7c02d0be2c6f1ddb7cd7f83e5bdbe7ba0890a0e57db3"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/12-worker-failure.png",
+    "bytes": 97537,
+    "sha256": "975b88923172ba4c67eda9d02b4b7b5441215a0fc4b2055a8993552735208d62"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/13-duplicate-attempt.png",
+    "bytes": 83299,
+    "sha256": "ab5d5a158d250aacc35d650773c0c6f78740682134f501c98a341c94e893852d"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/14-commit-boundary.png",
+    "bytes": 87898,
+    "sha256": "ef60dc87e2ce15ae8d746ccc8cd30889ee99e07d478de61313ab14ed1e40242e"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/15-straggler.png",
+    "bytes": 63550,
+    "sha256": "94982031ae5baa888b7e4b36486b7de2cd7504bffc5a4f70b39cf757749d97cd"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/16-hot-key.png",
+    "bytes": 55121,
+    "sha256": "560244237a354b0320666fcf60bfddf3d1a065b27c000580b800d4eb2a70f350"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/17-combiner.png",
+    "bytes": 74613,
+    "sha256": "8632c09531b119e8d0c79e0e97ef9210b095d405bfaf3152abe453f385cb5360"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/18-mean-counterexample.png",
+    "bytes": 75885,
+    "sha256": "628888db1968dd67546845aa0f04d789f6256d7254a0787ea9633e025616d12e"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/19-program-result.png",
+    "bytes": 98992,
+    "sha256": "871ca8b9e45f4e8715e5c575b3f5313bd9f0712676cc6c0c8f93ecb24d8b879e"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/20-data-locality.png",
+    "bytes": 86663,
+    "sha256": "e7f171780e942a2e4369a88b56a567776f1074d087de7eeb5e99db9335c1523d"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/assets/google-rack-original.jpg",
+    "bytes": 649268,
+    "sha256": "0b4f0f8c3d3fd6419942cdce516d1ad4aa7d4768a12ffeaa88d076dedc444e1f"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/cover.png",
+    "bytes": 44629,
+    "sha256": "27ac5ca20033335dfbebd5eb895467809811e8f3e6d57000e16584a96bb6951a"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/examples/build_figures.py",
+    "bytes": 15095,
+    "sha256": "6fb944fa7eafe5a6e3ee12f6dc6fa1b6923e4e052f05c99a61d8b8788647943a"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/examples/corpus.json",
+    "bytes": 85,
+    "sha256": "28248d1995ef6a24fb13a5b2fb6eacbc2157b0476dcf0d18111af1da00295ac7"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/examples/figure-metadata.json",
+    "bytes": 4912,
+    "sha256": "15605edbeba74c7d67622fbd602f1afa0d5f95b7ed2d0cfdc24b9dd57eb4d409"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/examples/output.txt",
+    "bytes": 256,
+    "sha256": "209506d77ccd56677cad553436e7f1e73133fb7842810afe4c4c82d772ca70a7"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/examples/results.json",
+    "bytes": 33908,
+    "sha256": "8159db94d34c7af14e769dfabbfd4d1856c4d3c8c94803cce992eda62ba879eb"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/examples/wordcount.py",
+    "bytes": 5573,
+    "sha256": "40eb156d04870b93b46f558ed1bffaa804ee4f1f36613836a477921eea4d229f"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/licenses/CC-BY-2.0.html",
+    "bytes": 34724,
+    "sha256": "a949dd5d7f931e974f835f62fac19b1c812e55fa2d5aa053dcd4ed53f2d30536"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/licenses/CC-BY-4.0.html",
+    "bytes": 45263,
+    "sha256": "f2376472117107264e86f2453637818150e72409b2de2ff724e7a0aa349941fe"
+  },
+  {
+    "path": "articles/2026-10-13-mapreduce-gather-same-words/licenses/MIT.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
     "path": "articles/2026-10-13-pratt-build-expression-tree/assets/01-actual-tile-output.png",
     "bytes": 49366,
     "sha256": "502cc2d92fe9de41d0cafdfe643c1d1bda8c6840d825bddc3dd0b5cca77194ea"

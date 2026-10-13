@@ -1,0 +1,9 @@
+MODEL: single-process teaching model
+INPUT TOKENS: 12
+RESULT: bird=2 | cat=5 | dog=3 | fish=2
+SHUFFLE PAIRS: 12 -> 9
+RAW PARTITIONS: [5, 3, 4]
+RETRY: A.0 accepted; A.1 ignored
+HOTSPOT RAW: [105, 3, 4]
+HOTSPOT COMBINED: [3, 2, 4]
+TEST SCENARIOS: 415 passed

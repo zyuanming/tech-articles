@@ -1,0 +1,202 @@
+[
+  {
+    "file": "assets/01-corpus.png",
+    "size": [
+      1000,
+      580
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "逐词显示完整输入和文档身份，供全篇复算。"
+  },
+  {
+    "file": "assets/02-baseline.png",
+    "size": [
+      1000,
+      650
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "以可数格子建立单机基准，不先引入术语。"
+  },
+  {
+    "file": "assets/03-map-one.png",
+    "size": [
+      1000,
+      640
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "用A说明一个输入记录可产生多个键值对，重复词不丢。"
+  },
+  {
+    "file": "assets/04-mapped-all.png",
+    "size": [
+      1000,
+      670
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "完整列出12对并保留来源，避免跨阶段凭空出现数据。"
+  },
+  {
+    "file": "assets/05-route.png",
+    "size": [
+      1000,
+      660
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "显示同键同分区，同时bird和fish共享一个分区。"
+  },
+  {
+    "file": "assets/06-shuffle-cat.png",
+    "size": [
+      1000,
+      850
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "把cat的跨机器收集单独展开，不用全连接杂乱箭头。"
+  },
+  {
+    "file": "assets/07-group-within-partition.png",
+    "size": [
+      1000,
+      740
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "纠正一个reduce任务只管一个键的误解，展示组边界。"
+  },
+  {
+    "file": "assets/08-reduce-cat.png",
+    "size": [
+      1000,
+      690
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "将来源、数值与最终计数连接起来，算式可手查。"
+  },
+  {
+    "file": "assets/09-output-files.png",
+    "size": [
+      1000,
+      650
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "明确输出多文件及其局部键序，避免假设最终自动合并排序。"
+  },
+  {
+    "file": "assets/10-control-data.png",
+    "size": [
+      1000,
+      850
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "区分调度控制和数据路径，避免主节点汇聚所有词的错误模型。"
+  },
+  {
+    "file": "assets/11-task-machine.png",
+    "size": [
+      1000,
+      660
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "用排班而非固定一一对应解释任务粒度。"
+  },
+  {
+    "file": "assets/12-worker-failure.png",
+    "size": [
+      1000,
+      960
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "解释为何已经完成的map也可能需要重执行，附原输入可用前提。"
+  },
+  {
+    "file": "assets/13-duplicate-attempt.png",
+    "size": [
+      1000,
+      850
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "精确复算重复合并会多出哪些词，区分输入记录和执行尝试。"
+  },
+  {
+    "file": "assets/14-commit-boundary.png",
+    "size": [
+      1000,
+      690
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "将输出提交保证和外部副作用分开，不许诺物理恰好执行一次。"
+  },
+  {
+    "file": "assets/15-straggler.png",
+    "size": [
+      1000,
+      780
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "时间轴明确备份开始、耗时和完成点，说明尾部等待。"
+  },
+  {
+    "file": "assets/16-hot-key.png",
+    "size": [
+      1000,
+      870
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "用相同刻度展示5/3/4变105/3/4，区分偏斜和慢机器。"
+  },
+  {
+    "file": "assets/17-combiner.png",
+    "size": [
+      1000,
+      860
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "完整展示9个小计及保持的数值总和，不混淆条数与计数。"
+  },
+  {
+    "file": "assets/18-mean-counterexample.png",
+    "size": [
+      1000,
+      940
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "小计适用性反例；展示丢失条数如何导致错误及正确摘要。"
+  },
+  {
+    "file": "assets/19-program-result.png",
+    "size": [
+      1000,
+      900
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "把真实运行数值可读化，明确不是终端截图或分布式实测。"
+  },
+  {
+    "file": "assets/20-data-locality.png",
+    "size": [
+      1000,
+      790
+    ],
+    "minimum_key_font_px": 37,
+    "effective_min_at_354": 13.1,
+    "role": "说明输入就近处理与后续shuffle是两项不同的数据移动。"
+  }
+]
