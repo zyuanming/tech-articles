@@ -12540,6 +12540,296 @@
     "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
   },
   {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/01-three-actual-meshes.png",
+    "bytes": 711765,
+    "sha256": "fdfe45b939fdb519513c07aa40bdb3d321d993381593ee3590ffcb98ce4d327b"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/02-point-edge-face.png",
+    "bytes": 37006,
+    "sha256": "ab00e14fe74f014581ba0bca64b15472e219f92fcde8e1e8a6a45d597220726f"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/03-indexed-cube.png",
+    "bytes": 34953,
+    "sha256": "174607036b488f4f9c8855b6a66d7b0eefbdbbe100e1bdcb839a130e8701ae96"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/04-edge-dedup.png",
+    "bytes": 39534,
+    "sha256": "419d19158aa1e263baa82e0be25e1358080a78c8910cf9be9712f9eb987e77c8"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/05-cube-account.png",
+    "bytes": 269294,
+    "sha256": "8ef5ef654526e89f70c6df76c0fdb2aa6c0920d5763e3524a5575da1f72d5fb6"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/06-add-diagonal.png",
+    "bytes": 23566,
+    "sha256": "e2d164b41f563e46d25cd94375662e42b516397ad7b956b62d54f24a639d2700"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/07-split-shared-edge.png",
+    "bytes": 31376,
+    "sha256": "596c5107eb3a30d6f8ddaa939037c7b43fd137f68c4c663ff689206436b0512c"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/08-face-fan.png",
+    "bytes": 25140,
+    "sha256": "a5df6c89cfb24119c558e0640538fd5263ae20e315ea8aa1c2ae174b96e1a058"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/09-subdivision-results.png",
+    "bytes": 749903,
+    "sha256": "8344ab40ec6b532b69c7f6af98f662377c9780e0b91b98961f20b41404a404fb"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/10-same-connections.png",
+    "bytes": 514901,
+    "sha256": "22d12e3e59407e9c0d8f87c183ed7ac387a4e3d96c016acbd3f38d93ec4d6df5"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/11-coincident-unjoined.png",
+    "bytes": 540313,
+    "sha256": "5b66a254081dde465f7147c35f41ccc24a7aa3e3aecc5bff906480cb18b9c1b8"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/12-open-box-boundary.png",
+    "bytes": 332421,
+    "sha256": "48ca44ad30485cc4b9b975a23d8430277cb297f14294c3c5df9db550adad5d91"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/13-shell-not-volume.png",
+    "bytes": 36542,
+    "sha256": "e434ac5002691aa15f48548d640cb4ee054282ed2b268c95f109085593587ae8"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/14-planar-cube.png",
+    "bytes": 30291,
+    "sha256": "8cb67ec747948f6f44fde75866cc77d7426e143bb9d76127acb5e2547ce6d160"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/15-delete-cycle-edge.png",
+    "bytes": 36434,
+    "sha256": "591237825e856ab64033ee80155e8698aea4c7942e3012cea39a6a915dbd546e"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/16-prune-tree.png",
+    "bytes": 41942,
+    "sha256": "384778bde82b869f1457d3e38bf535255ad9a44d72a641fe2cd807fcd02a81f5"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/17-square-tunnel.png",
+    "bytes": 393466,
+    "sha256": "505a3aecd73467dc163fa957678f6c702bc4f776e572068139a4ebd219a47f3a"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/18-torus-grid.png",
+    "bytes": 381300,
+    "sha256": "670d2094a9d78d71b464fc2ddc1163379bcafaeab1258eacef693120eb89bdbf"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/19-identify-grid-seams.png",
+    "bytes": 50503,
+    "sha256": "55990c4b9a758aad0e7b00779014cd0a441c233f6759c8b1b67fd67142ee165e"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/20-corners-identified.png",
+    "bytes": 37550,
+    "sha256": "b0dcf8c737020e2b8f1a206f440da6bcb3f919158dbe13efbe2bb35dc528a142"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/21-opening-versus-handle.png",
+    "bytes": 491654,
+    "sha256": "442e4520b89f6014262401a78067f2664b99149470b047951083ce3cf3883885"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/22-two-handles.png",
+    "bytes": 367621,
+    "sha256": "9158973e851071c46d8bacd83b53ad031b2dcf2f034a10daa21ad0f985379011"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/23-formula-conditions.png",
+    "bytes": 169979,
+    "sha256": "cc9d1cbe8c592dfe32d007e6de6dec322ef36694a0d8a9cc5ae34c035d6798a3"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/24-boundary-components.png",
+    "bytes": 24405,
+    "sha256": "11cbd607c4d1fed625390b680e4ee4353a54ea9c509a300397b8f4e27626799d"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/25-disconnected-components.png",
+    "bytes": 281004,
+    "sha256": "3061299919d5f429173489ae2ce74276e48fd1579414e9111166f8362a0eca9b"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/26-three-face-edge.png",
+    "bytes": 279978,
+    "sha256": "c4d7f47d3ce1dfb04b0e53fb851fa07f3e7e53db19f3432500baf274c98afeca"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/27-pinched-vertex-link.png",
+    "bytes": 306440,
+    "sha256": "74ce0fc22a4aa8ee0d473120b174c3bab2bd7c75f689955789738367d2ef2eab"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/28-same-chi-different-boundary.png",
+    "bytes": 207936,
+    "sha256": "5fd36485e3d4c18de2aacde71e496aeb164fc05931832771d34d255108f4eba5"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/29-euler-1789-smithsonian.jpg",
+    "bytes": 1283557,
+    "sha256": "c982f371487f5009b339f63aec49536e08be9d9053fa718a5001618bebd2b622"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/30-history-timeline.png",
+    "bytes": 54418,
+    "sha256": "f98f39f581c3c6aeb63ad56fd235a70ec2a7189d128283aba674654a85092684"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/31-edge-set-result.png",
+    "bytes": 43910,
+    "sha256": "04b95ad72b1e785c90012e461028180083e8975474d703fe238b7d25031f0333"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/32-model-check-workflow.png",
+    "bytes": 252871,
+    "sha256": "fec956ad51df4f4b0c3be399065c2e9e2b38da1bec7cad2687de35d5eb3de776"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/assets/33-triangulated-cube-check.png",
+    "bytes": 330479,
+    "sha256": "80dc3eb3f08b224cf6c71a031473b167b8a27a94b3b5d0ef324e2ab7fd6d215e"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/cover.png",
+    "bytes": 337358,
+    "sha256": "31453e084598a3f8076272f2a52ed55dbe24711598a034256f2fc437b2a064cb"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/LICENSE",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/blender-results.json",
+    "bytes": 3648,
+    "sha256": "b4c46eb4917db6468273a6918cf58a1995d05296a3ad0a712ed321ddb5788329"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/mesh_lab.py",
+    "bytes": 9406,
+    "sha256": "b4f68c5db1c8c08a5e798a5fef6fc637f01bc397ac5cffc82f38649442c54877"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/meshes.json",
+    "bytes": 56625,
+    "sha256": "1f6f042c9e7837f7e0ba91ad5e6602956f073d626bb8dc141cad96a82ef8c639"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/render_in_blender.py",
+    "bytes": 3334,
+    "sha256": "f72b7d290bd32a30f938722b08db9ff8e0ea2bb3e714707a82be7de8edabfd73"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/cube.png",
+    "bytes": 596621,
+    "sha256": "aba8cd239f0f0a1a696334dec0f4fcc6e5b38c4718d067054d73495aa6203cbd"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/exploded.png",
+    "bytes": 643844,
+    "sha256": "dafea2cbadff33dd102c2b626c8942226eb0bf65e7d1fbb3e5ed13c1a23e413c"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/open_box.png",
+    "bytes": 639780,
+    "sha256": "cfd1e5373be439224b2373beb125e7f8508b383fe305c6437b2b362063e186f0"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/pinch.png",
+    "bytes": 554046,
+    "sha256": "d8d63f6bb2d8e13b540b9bc75305e1da0fd3ced0670dc86795160796fc4680b9"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/round_shell.png",
+    "bytes": 611972,
+    "sha256": "e7bcf7b9a8a36e7a04fb2b7205e90e2a3e46042ff6ca568e289db68174aeb768"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/split_edge.png",
+    "bytes": 596620,
+    "sha256": "fa03e396e85e4ea26ee8e268ebdf130f825b874d23b6fd54fc2d7deaa213a0e8"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/split_face.png",
+    "bytes": 605482,
+    "sha256": "475810336f58a1d1876fdccc8efd02fbb95e4583e46f60cfb6f763a432fb0a07"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/square_ring.png",
+    "bytes": 573384,
+    "sha256": "9e55b8fc6e75bfdb2e7fceb62c41b7615a1d39a9e995bc50b77cc6753dc6f6d6"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/subdivide2.png",
+    "bytes": 615805,
+    "sha256": "771ddbe546776eb656fba8286683b0ffb885102fdda6db2650e4c579821ac24d"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/subdivide4.png",
+    "bytes": 639045,
+    "sha256": "a334df107e6c855f1d7cd5aa2f764b1e6fd3874c7f4d905ed9458541e5322585"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/torus.png",
+    "bytes": 554377,
+    "sha256": "7c76dce13991b264079bf9baed6173cec73ab52b545c951c82d27d2405c284d0"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/triangulated.png",
+    "bytes": 609021,
+    "sha256": "2a5a446e36dcb0fc75eac6501e2fcee7d2e1b4925d41704961bc88068d7ca6ed"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/triple_edge.png",
+    "bytes": 541355,
+    "sha256": "0adec4ef59dccf424508fac9f4b727039cab9b86dc77b216beb8f86a43ce9db4"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/two_cubes.png",
+    "bytes": 542127,
+    "sha256": "eb48615abdbd029ece8e3ed20e8ffc423fcac34df12063c77f86134bec5c9414"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/two_holes.png",
+    "bytes": 534313,
+    "sha256": "3224877ce889af05da063370101a45da03f35fb7a1a19a34a3d63522b5659d5b"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/rendered/unjoined.png",
+    "bytes": 598872,
+    "sha256": "b816249302974943169096ac242da50656ef37fa35cbbeb7c4c741949bd6fd6c"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/examples/results.json",
+    "bytes": 5288,
+    "sha256": "acec8a5f76431eb99929097206892b5ef45c3ddac33fae3bb721236267ab7762"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/originals/euler-1789-smithsonian.jpg",
+    "bytes": 1283557,
+    "sha256": "c982f371487f5009b339f63aec49536e08be9d9053fa718a5001618bebd2b622"
+  },
+  {
+    "path": "articles/2026-10-13-euler-mesh-accounting/originals/portrait-manifest.json",
+    "bytes": 883,
+    "sha256": "5381a445dedcc641a34448c5159ce4d94334383c09d63ad42782b3234289e636"
+  },
+  {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/01-surprising-knob.png",
     "bytes": 41628,
     "sha256": "c8610213f380f4ee764ba4920083d929e8077687c40109cca5142548b6fecb6a"

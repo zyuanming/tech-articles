@@ -1690,6 +1690,19 @@
     "collection": "doom-from-zero"
   },
   {
+    "id": "2026-10-13-euler-mesh-accounting",
+    "title": "给网格打一个洞，为什么点、边、面的账突然变了？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-euler-mesh-accounting/read.md",
+    "public_sha256": "a3fdba571e1bbd111f6712f6baf85fb35dc8d19d7e1f8f6a5b453c88dfd9f8cd",
+    "images": 33,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11",
+    "batch": "student-exploration-30-2026-10-13",
+    "series_order": 10
+  },
+  {
     "id": "2026-10-13-gray-code-one-bit",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",
