@@ -1,0 +1,17 @@
+[
+  {
+    "file": "iris.data",
+    "bytes": 4551,
+    "sha256": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0"
+  },
+  {
+    "file": "iris.names",
+    "bytes": 2998,
+    "sha256": "71a09fb3ee237614cdb9c09d06e8ae1f610ce2a274c0d77272fea8a233e5eea3"
+  },
+  {
+    "file": "usgs-iris-versicolor.jpg",
+    "bytes": 10706322,
+    "sha256": "4d854555c26dc0a86bab837b8c9365e30233d0bdd7d2cdd26fa8c7c44f043c46"
+  }
+]

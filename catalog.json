@@ -1768,6 +1768,16 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-13-pca-choose-shadow",
+    "title": "给一团数据拍“影子”，朝哪个方向最少丢东西？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-pca-choose-shadow/read.md",
+    "public_sha256": "fe9aafa47aa203de46ad2c162064b6fa8c480dab09f428970915cd4a4ba57633",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-10-13-pratt-build-expression-tree",
     "collection": "student-exploration-series-2026-10-11",
     "series": "语言与表达式",

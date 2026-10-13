@@ -14035,6 +14035,176 @@
     "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
   },
   {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/02-four-points.png",
+    "bytes": 39553,
+    "sha256": "640c5f89fd5928731e723a71775e27c9a2ee13249ec59704868f83faf9cb026b"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/03-drop-one-coordinate.png",
+    "bytes": 35221,
+    "sha256": "24bd7a71211ce93666ca088548b6a0e0a6e046e21169ccc17d6e60204ece25a8"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/04-center-translation.png",
+    "bytes": 34539,
+    "sha256": "11784a2835ffeb3f0bac77ffc4af3339a5b5c9b982a9e876cb875305f5d21b75"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/05-perpendicular-foot.png",
+    "bytes": 32992,
+    "sha256": "ba05022cf77172f7e2e9fc5ed12ee967954ad1160afd8b86174aabf6b40b68a1"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/06-one-point-reconstruction.png",
+    "bytes": 33078,
+    "sha256": "f3f05f38847ba2db4119b517818254992c3649589675997dd3f0a718f102bcde"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/07-unit-direction.png",
+    "bytes": 34634,
+    "sha256": "2b164e2666b772da9e8827e1d8b8b807716fd242bf15be10446fb757d3b201fd"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/11-three-variances.png",
+    "bytes": 32831,
+    "sha256": "a8a596ba0436bd384fe1ceb3476ad0f2749760c95c4848e71f2a44bb82376401"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/12-pythagorean-split.png",
+    "bytes": 30103,
+    "sha256": "7c3a8f05f98e9a56575432b9140cc8ab61ff65b9501dd23b99e40df37df4a8f3"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/14-rotating-ruler.gif",
+    "bytes": 266735,
+    "sha256": "18fa91b363d7ba0d56b97a71b49df98e253a7556c3e4862bd117a0db78d35e83"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/15-second-direction.png",
+    "bytes": 41448,
+    "sha256": "727d16106e79b93abc24638318309311ccae80d7874385477fb8f67162a219a6"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/16-two-component-recovery.png",
+    "bytes": 37467,
+    "sha256": "3c7b348e2c2298c4937f5be502c6c6393528326c50245301914b4595ace2625f"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/21-variance-not-label.png",
+    "bytes": 41180,
+    "sha256": "be4f66d3574aabed713ebc0234cda938171850b2252fb114694a678ba9486aa5"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/22-units-change-direction.png",
+    "bytes": 48060,
+    "sha256": "36f1aad4d65ebaadfbb3850c449c797a85d3b7a0eb70e6c89e41148f2b7a2723"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/24-outlier-turns-axis.png",
+    "bytes": 44906,
+    "sha256": "1faf71559b3adc521a8433c3f39984b4f1e70ad14a2c9ddb3625e46e4a1de9ec"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/25-equal-variance.png",
+    "bytes": 39246,
+    "sha256": "cc52105d8d724b5edd6c4c8fd16157f6edfb2d89752f0ed7252aaf7cc073e0ef"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/26-real-iris-object.png",
+    "bytes": 320533,
+    "sha256": "78c05579e9f0175c664e0ebd19fb8269782398114991633b410757f7425fed1c"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/27-four-feature-rulers.png",
+    "bytes": 52305,
+    "sha256": "dde862dd68e795ba3d1bad88a649e7becf270a2238c94a4cdc618af10bffdab3"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/28-two-original-features.png",
+    "bytes": 46575,
+    "sha256": "a46d85b9d5653b4f44640ab032723464b03d143ede85f1cba18ee67b4090d8a5"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/29-iris-pca-result.png",
+    "bytes": 56897,
+    "sha256": "036b792b8584ede38c14ead4059d999e3f3fe2fec9cd6d6bea3888abd3f8b21d"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/31-four-feature-reconstruction.png",
+    "bytes": 57179,
+    "sha256": "3d1faedd604895e4cc290e1efbc8bd7bb7af413f15b1a964decec79558e8f41b"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/assets/32-threshold-changes-input.png",
+    "bytes": 276588,
+    "sha256": "dbdfd072986447138aef78299b97f738651b0d50682c23e85b496cdb2456084f"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/cover.png",
+    "bytes": 39918,
+    "sha256": "832abfcce8fb09f4b5695cad83aa61622fd66b83b1158bc5ca4b2d96d4a098a4"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/LICENSE",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/pca_lab.py",
+    "bytes": 5992,
+    "sha256": "a97c87dad7fcd3713ad3d5d6d97fc27dea4e94bdaa50c8a4484662aeeef9f2eb"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/results/photo-axes-180.png",
+    "bytes": 528323,
+    "sha256": "1954150dd505ad9f41792d53c50abd76a26f0dbc5b8431c8398675a2cd10b436"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/results/photo-axes-45.png",
+    "bytes": 526740,
+    "sha256": "5c1a6d8acecd9d1625b08a8329c9a198be1efec9ce04299daa5359b856d3577f"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/results/photo-mask-180.png",
+    "bytes": 31246,
+    "sha256": "7c4dd2175e902bca4619dba66e42701c486d978e1cfde01df6bbe0bc72cb1a1f"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/results/photo-mask-45.png",
+    "bytes": 9785,
+    "sha256": "adc0eaae04f49e5b999ad0ab27995f4e26f5737d6890efb3663f4352e581dbee"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/results/photo-resized.png",
+    "bytes": 533255,
+    "sha256": "e7cb92a458349f6ee83b6d56e6b2465535a46c2633f69bccda75ea7652e4fe23"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/examples/results/results.json",
+    "bytes": 32874,
+    "sha256": "e6129c03f0f29efb2355ba2272d6f4cf43457f7c5da4216fbce7be87d92c5472"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/originals/iris.data",
+    "bytes": 4551,
+    "sha256": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/originals/iris.names",
+    "bytes": 2998,
+    "sha256": "71a09fb3ee237614cdb9c09d06e8ae1f610ce2a274c0d77272fea8a233e5eea3"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/originals/manifest.json",
+    "bytes": 425,
+    "sha256": "608c9b508e66987edacd6321664b266ad04d5016f09b8d3a3feae44ba6f5cff3"
+  },
+  {
+    "path": "articles/2026-10-13-pca-choose-shadow/originals/usgs-iris-versicolor.jpg",
+    "bytes": 10706322,
+    "sha256": "4d854555c26dc0a86bab837b8c9365e30233d0bdd7d2cdd26fa8c7c44f043c46"
+  },
+  {
     "path": "articles/2026-10-13-pratt-build-expression-tree/assets/01-actual-tile-output.png",
     "bytes": 49366,
     "sha256": "502cc2d92fe9de41d0cafdfe643c1d1bda8c6840d825bddc3dd0b5cca77194ea"
