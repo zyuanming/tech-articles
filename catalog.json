@@ -1622,5 +1622,19 @@
     "path": "articles/2026-10-12-wal-crash-recovery/read.md",
     "public_sha256": "679bdb19946bc082290d126500198777307a6db8ad1763dad3ceea6dd1db1cb2",
     "images": 24
+  },
+  {
+    "id": "2026-10-13-gray-code-one-bit",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "编码与程序的结构",
+    "series_order": 1,
+    "batch": "student-exploration-30-2026-10-13",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "旋钮只走一格，读数为什么跳了四格？Gray 码给现实留出的余地",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-gray-code-one-bit/read.md",
+    "public_sha256": "a967b026b2fa1f492da26148d722570e6354459b793e848f687d694a8d382296",
+    "images": 28
   }
 ]
