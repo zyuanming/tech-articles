@@ -70,4 +70,27 @@ class SupplementTests(unittest.TestCase):
         (self.directory/'source-figures.md').write_text('![A](https://example.invalid/a.png)')
         with self.assertRaises(ValueError):supplementary_visuals(self.root,self.item)
 
+class ImageIndexTests(unittest.TestCase):
+    def test_nested_and_escaped_alt_brackets(self):
+        from index_articles import rendered_image_count
+        self.assertEqual(rendered_image_count("![direction [student/project]](a.png)\n![escaped \\\\[label\\\\]](b.png)"),2)
+    def test_reference_and_html_images(self):
+        from index_articles import rendered_image_count
+        self.assertEqual(rendered_image_count("![reference][pic]\n\n[pic]: a.png\n\n<img src='b.png' alt='raw'>"),2)
+    def test_code_example_is_not_an_image(self):
+        from index_articles import rendered_image_count
+        self.assertEqual(rendered_image_count("\x60\x60\x60markdown\n![not rendered](x.png)\n\x60\x60\x60\n\n![real](y.png)"),1)
+    def test_reindex_keeps_rendered_count(self):
+        import json
+        from index_articles import refresh
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);article=root/'articles'/'2026-10-12-nested-alt'
+            article.mkdir(parents=True)
+            (article/'read.md').write_text("# Test\n![direction [student/project]](a.png)\n")
+            (article/'a.png').write_bytes(b"fixture")
+            for _ in range(2):
+                self.assertEqual(refresh(root),{'articles':1,'assets':1})
+                self.assertEqual(json.loads((root/'catalog.json').read_text())[0]['images'],1)
+
 if __name__=='__main__': unittest.main()
+
