@@ -1,0 +1,237 @@
+{
+  "python": "3.12.14",
+  "one_dimensional": [
+    {
+      "vn_before": -3.0,
+      "vn_after": 0.0,
+      "K": 1.5,
+      "j": 2.0,
+      "e": 0,
+      "before": {
+        "momentum": [
+          6.0,
+          0.0
+        ],
+        "angular_momentum_origin": 0.0,
+        "kinetic": 9.0
+      },
+      "after": {
+        "momentum": [
+          6.0,
+          0.0
+        ],
+        "angular_momentum_origin": 0.0,
+        "kinetic": 6.0
+      },
+      "vA": [
+        2.0,
+        0.0
+      ],
+      "vB": [
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "vn_before": -3.0,
+      "vn_after": 1.5,
+      "K": 1.5,
+      "j": 3.0,
+      "e": 0.5,
+      "before": {
+        "momentum": [
+          6.0,
+          0.0
+        ],
+        "angular_momentum_origin": 0.0,
+        "kinetic": 9.0
+      },
+      "after": {
+        "momentum": [
+          6.0,
+          0.0
+        ],
+        "angular_momentum_origin": 0.0,
+        "kinetic": 6.75
+      },
+      "vA": [
+        1.5,
+        0.0
+      ],
+      "vB": [
+        3.0,
+        0.0
+      ]
+    },
+    {
+      "vn_before": -3.0,
+      "vn_after": 3.0,
+      "K": 1.5,
+      "j": 4.0,
+      "e": 1,
+      "before": {
+        "momentum": [
+          6.0,
+          0.0
+        ],
+        "angular_momentum_origin": 0.0,
+        "kinetic": 9.0
+      },
+      "after": {
+        "momentum": [
+          6.0,
+          0.0
+        ],
+        "angular_momentum_origin": 0.0,
+        "kinetic": 9.0
+      },
+      "vA": [
+        1.0,
+        0.0
+      ],
+      "vB": [
+        4.0,
+        0.0
+      ]
+    }
+  ],
+  "corner_on_narrow_post": {
+    "vn_before": -3.0,
+    "vn_after": -2.220446049250313e-16,
+    "K": 1.25,
+    "j": 2.4,
+    "e": 0,
+    "velocity": [
+      0.0,
+      -1.8
+    ],
+    "omega": 1.7999999999999998,
+    "contact_velocity": [
+      1.7999999999999998,
+      -2.220446049250313e-16
+    ]
+  },
+  "separating": {
+    "vn_before": 3.0,
+    "vn_after": 3.0,
+    "K": 1.5,
+    "j": 0.0,
+    "e": 0.5
+  },
+  "two_mass_contact_iterations": [
+    {
+      "round": 0,
+      "v": [
+        -1.0,
+        -1.0
+      ],
+      "lambda": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "round": 1,
+      "v": [
+        -0.5,
+        -0.5
+      ],
+      "lambda": [
+        1.0,
+        0.5
+      ]
+    },
+    {
+      "round": 2,
+      "v": [
+        -0.25,
+        -0.25
+      ],
+      "lambda": [
+        1.5,
+        0.75
+      ]
+    },
+    {
+      "round": 3,
+      "v": [
+        -0.125,
+        -0.125
+      ],
+      "lambda": [
+        1.75,
+        0.875
+      ]
+    },
+    {
+      "round": 4,
+      "v": [
+        -0.0625,
+        -0.0625
+      ],
+      "lambda": [
+        1.875,
+        0.9375
+      ]
+    },
+    {
+      "round": 5,
+      "v": [
+        -0.03125,
+        -0.03125
+      ],
+      "lambda": [
+        1.9375,
+        0.96875
+      ]
+    },
+    {
+      "round": 6,
+      "v": [
+        -0.015625,
+        -0.015625
+      ],
+      "lambda": [
+        1.96875,
+        0.984375
+      ]
+    },
+    {
+      "round": 7,
+      "v": [
+        -0.0078125,
+        -0.0078125
+      ],
+      "lambda": [
+        1.984375,
+        0.9921875
+      ]
+    },
+    {
+      "round": 8,
+      "v": [
+        -0.00390625,
+        -0.00390625
+      ],
+      "lambda": [
+        1.9921875,
+        0.99609375
+      ]
+    }
+  ],
+  "accumulated_clamp": {
+    "old": 1.0,
+    "proposed_delta": -0.2,
+    "new": 0.8,
+    "applied_delta": -0.19999999999999996
+  },
+  "tests": {
+    "random_cases": 4000,
+    "seed": 20261013,
+    "max_linear_momentum_error": 7.105427357601002e-15,
+    "max_angular_momentum_error": 1.4210854715202004e-14,
+    "max_restitution_error": 4.440892098500626e-15,
+    "max_energy_formula_error": 1.1368683772161603e-13,
+    "tolerance": 1e-09
+  }
+}

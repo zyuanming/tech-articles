@@ -1718,6 +1718,20 @@
     "batch": "student-exploration-30-2026-10-13"
   },
   {
+    "id": "2026-10-13-impulse-change-contact-motion",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "游戏物理与碰撞响应",
+    "series_order": 8,
+    "batch": "student-exploration-30-2026-10-13",
+    "title": "两个物体已经撞上，下一步往哪走？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-impulse-change-contact-motion/read.md",
+    "public_sha256": "d466058399172d8024cb0f7f94464c4deb639b1e80d33dfa9efa13278eeeae84",
+    "images": 34,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-10-13-pratt-build-expression-tree",
     "collection": "student-exploration-series-2026-10-11",
     "series": "语言与表达式",

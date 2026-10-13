@@ -12960,6 +12960,491 @@
     "sha256": "5cbf84a55d0cc38aa72d2b53fe65e49849258d51c70574e19bab90a4d3b4c72a"
   },
   {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/01-engine-impact-frames.png",
+    "bytes": 52248,
+    "sha256": "d04471cc420f33f78d2d38d87149889e7ca17bd031182c9bf9752cfd1868994e"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/02-engine-impact.gif",
+    "bytes": 581690,
+    "sha256": "b928abfd410e9cfd7ea31a53896a2a413fc3e6db4a3885fb3b1a39a1b137747f"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/03-detection-versus-response.png",
+    "bytes": 46659,
+    "sha256": "2cc2486552fe44661e66efd45981a20bec06e317cd65e2f3c16d8f50101eda58"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/04-position-speed-time.png",
+    "bytes": 47310,
+    "sha256": "0a2d9e363cbfd123ae8176670ff8877b4fe5f166cb8126f67ce67fee70a34b7a"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/05-momentum-bars.png",
+    "bytes": 37446,
+    "sha256": "6afe3e563947ee663aee23871ecdef5ea9e97c79245c19b58b4eea5ffe8d231f"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/06-equal-opposite-impulse.png",
+    "bytes": 39152,
+    "sha256": "666f98c82fbb32fcec4c76aff5b868d91473bfeefaf3881ca63bc5089420a63f"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/07-restitution-relative-speed.png",
+    "bytes": 37285,
+    "sha256": "32a462435f1b36f68cc76a64893baf484d1f3c18a6410e440dacb201d0abcfde"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/08-three-restitution-results.png",
+    "bytes": 47672,
+    "sha256": "d18cad9c6d0e277f6d524d8be9c4b96b903c765a3eb3370100c6ae4af36497f3"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/09-energy-versus-momentum.png",
+    "bytes": 30684,
+    "sha256": "038662a0fbb299f46040fa5fe63ae3c27992c285970fda9b7b5c27679f095d07"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/10-contact-normal-tangent.png",
+    "bytes": 42710,
+    "sha256": "8937f7a899f1616f815608c7abe8bb73924951634f32e60f14c152a213558bf0"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/11-relative-velocity-sign.png",
+    "bytes": 35888,
+    "sha256": "775989ac7ececf9d3ac78c03f0dbc760e5bf5cff98817d3bd351d26041254c9a"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/12-solve-impulse-stepwise.png",
+    "bytes": 40608,
+    "sha256": "9e02b2ce8b1400e04c381e39f8d9eac20ba31604519aa6a5d719245e46fb6491"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/13-separating-no-attraction.png",
+    "bytes": 43643,
+    "sha256": "296513f07ecd6640257e48add102611cdf5bcbcc5875eeb80ea1cff0fb08bec5"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/14-static-inverse-mass.png",
+    "bytes": 44776,
+    "sha256": "186f7ec5b43371e74771742e60e584c12f37aabdc0e6c3bfb65a97d7d20bd96a"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/15-off-center-lever.png",
+    "bytes": 30048,
+    "sha256": "f544b2dcd0baea22134e5b317983d3ba2f1a8fc0d6bd7b4947970c1568f8970f"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/16-contact-point-velocity.png",
+    "bytes": 41796,
+    "sha256": "e105e4a694faa7e77d8f1cb2051c5834d35996b2eede6a8da72a824e8e2516b4"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/17-corner-on-narrow-post.png",
+    "bytes": 39059,
+    "sha256": "b7a466026b02c74f5c8dd2fb1dd48aeb6f3219c63810711680e4fedb767513a4"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/18-contact-effective-response.png",
+    "bytes": 48345,
+    "sha256": "93f10b35abb21ca0fb8262129102ad486df438f89ecf596f8ab18450beb72331"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/19-contacts-share-body.png",
+    "bytes": 38386,
+    "sha256": "a3befb27f76bbf63074b259e3e90be3d574eb559f02085af0b45436a674975e7"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/20-iteration-residual.png",
+    "bytes": 54383,
+    "sha256": "a78561263433ec802f5f8114b50990f07a267c60a45a6708a3700a0a1b4ae694"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/21-accumulated-impulse.png",
+    "bytes": 38264,
+    "sha256": "af37261c12698b8b031b49a898d35c66a9f1e7d62c8c6dbdcb3c321da3a15907"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/22-friction-budget.png",
+    "bytes": 41652,
+    "sha256": "e3c54cb33f2220ba3d1595cea91ee31735b59a20baa7eff5f72650d54590df9e"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/23-engine-slide-frames.png",
+    "bytes": 47520,
+    "sha256": "654d6496a89451ecb91ea1a8a0b903e8296dad1b76393a40075d19ef8ce65299"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/24-engine-slide-speed.png",
+    "bytes": 41081,
+    "sha256": "1e402241f3b049413dd400e1d72372485e1ff49ee687f467b24f53db0a69a2b9"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/25-engine-stack-comparison.png",
+    "bytes": 34323,
+    "sha256": "1229f6501f59b494a18939e1e4d410ae5c82b109935cef3cdb3e355c662fbf66"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/26-engine-four-settings.png",
+    "bytes": 49909,
+    "sha256": "bd1cef9ea87f473c0842d992b99f623dacb1e31e8a83c2e0777aa582681f4deb"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/27-warm-start-contact-id.png",
+    "bytes": 51207,
+    "sha256": "1463fe7bc22cc97a8a1ee3c050ec539c90f8cead926bc1fa68cd2e75d4eab7e6"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/28-penetration-bias.png",
+    "bytes": 43846,
+    "sha256": "0e87637c361420f3f84b87442175b215ee258c7f10776f6f9f9024df9e4216fe"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/29-world-step-order.png",
+    "bytes": 53832,
+    "sha256": "85338f0940aee47424e26dc6d869350c39c16f89233bf54b34223c82831ab709"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/30-engine-momentum-check.png",
+    "bytes": 53484,
+    "sha256": "5f06e94a89cd7971fa323be2a239f67cc5c0ba791bb96cceea523e943df334ae"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/31-engine-code-responsibilities.png",
+    "bytes": 72817,
+    "sha256": "dfd749f0ec3cb348450019ae17fc7e93116ffeb1d672276032b37090aea074f9"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/32-whole-contact-route.png",
+    "bytes": 60418,
+    "sha256": "73706f446132ea58a510803ba8927391242ab770c5bf816f4943b5cb804eb6fb"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/33-inertia-size-matters.png",
+    "bytes": 48551,
+    "sha256": "fabba2eebc38e39eb25751aa8470a50c99f59a76f1ad66357af6adc03ae33a1c"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/assets/34-components-dot-cross.png",
+    "bytes": 50644,
+    "sha256": "a0ce2b0326be3c9eeb3ba64a2324817481f866d41cf7e0cd8509e35d490fc5db"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/cover.png",
+    "bytes": 32076,
+    "sha256": "6570bf9807c36f452bcd0b2cfacfcc6e5148f60b382801ec579b7789a900d083"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/LICENSE",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/analytic-results.json",
+    "bytes": 3749,
+    "sha256": "bcf7908493d513db5200850d9fde8dcdb91b5615ed5f67830951013813a9144d"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/analyze_engine.py",
+    "bytes": 1856,
+    "sha256": "822e6fd4e2c64bc68818a9c7465c919224861d1b8f559c8bdd23c7c41fca78b9"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/center.csv",
+    "bytes": 76119,
+    "sha256": "9a4b131050f65eacd2a4b1005608c28a83c36ad76e35a08ff7cc4b866ef4df5b"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/offset.csv",
+    "bytes": 69203,
+    "sha256": "6ec1783d14cc284cf2454329c5930f987d52d484f05f0e8d3c0315ef11249992"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/slide-0.3.csv",
+    "bytes": 42756,
+    "sha256": "8fda6f2632b59c2f452b36386c0719dcc62219ec722ad860e92d64c9ffcc0b49"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/slide-0.csv",
+    "bytes": 36529,
+    "sha256": "33fab486a23c36196794e606c2f2976a9b7ba10aab2de63edd93f091d9b21a89"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/stack-1-0.csv",
+    "bytes": 587002,
+    "sha256": "02a7b328a2b32c9de03b9394119c4bb17ecd76ac0c27293da224ab8bba9eb683"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/stack-1-1.csv",
+    "bytes": 581095,
+    "sha256": "12359275032e7e7c2ebb659293388851a5631077770446f2983d01990ad80d02"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/stack-10-0.csv",
+    "bytes": 594627,
+    "sha256": "defe24e98ebaad7bc4bf506280c06353807c1f71eaeca25901c9004e9f495c78"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/stack-10-1.csv",
+    "bytes": 608558,
+    "sha256": "3b586fb119f0a4e241ded2f3383ecb10bd3eec52aee330a163ccf42e8a989e03"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine-output/summary.json",
+    "bytes": 20234,
+    "sha256": "387303ccc31682332ab0d20783eaaa6c0593a72d12371bf9249c0007a095882c"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/engine_driver.cpp",
+    "bytes": 2035,
+    "sha256": "ecac61bdb4c20ddcb3dcad5ef34a95a712c17fc9c96a9bacd78bcf22a7186b82"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/impulse_lab.py",
+    "bytes": 5682,
+    "sha256": "2a24d97b199e93e89a686fc5a40bb56f29939d5b4bb7554300cd16535825cdc9"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/render_engine.py",
+    "bytes": 2438,
+    "sha256": "8c192d0f9382a31326f00bb88f11bd11a330a6c8991c9a8a758a9b93f8cd3a8d"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/center-000.png",
+    "bytes": 2064,
+    "sha256": "03fceaf32198092e0e5766c3b684a93dc0490ff4be68bae87dbe470935c1d148"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/center-072.png",
+    "bytes": 2077,
+    "sha256": "d8ea062af535a74e40a2dbb05a034445a837fb1e65e51bf0157bc487439a6891"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/center-192.png",
+    "bytes": 2077,
+    "sha256": "c3edf9d3e7bec718dde7f79b55560b479ffd42ed6462fbaf89891730c8d1e088"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/center-288.png",
+    "bytes": 2080,
+    "sha256": "503ac7682276672eef961b9eb728586022c3cec289d56bcc41244da8c0126f72"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/offset-000.png",
+    "bytes": 2103,
+    "sha256": "3ba7aa23152d4555501743dcd52423bd56cefadbe3bfa5137ef57b8588a902a7"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/offset-072.png",
+    "bytes": 2532,
+    "sha256": "250c81a90f4af08876fe2d704e074eb5fd84f0ca8a53f82048371b04bc96d06d"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/offset-192.png",
+    "bytes": 2365,
+    "sha256": "67d4c58a882b39c49715014b844b1d251d727c33a9393bb61cd3d59d0ee15656"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/offset-288.png",
+    "bytes": 3705,
+    "sha256": "051efec54eeb4ef8a8ae23d2a2c770ae613c9f2384c9ff4a8f823ce37da97da3"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0-000.png",
+    "bytes": 940,
+    "sha256": "0d15b5f633226c7ade14211fb32e8ec03170e681a82b419b43444cf8b7a4bb1b"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0-060.png",
+    "bytes": 932,
+    "sha256": "993027cd2fd306f0fd64b2d9c17d66f3215aaadd7f7dfa1b1743cf710bf55ccb"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0-120.png",
+    "bytes": 932,
+    "sha256": "5067a4c7efddfda8331388b0a08b3a3111ea2a63da8a6213ee19384dd99b384d"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0-240.png",
+    "bytes": 938,
+    "sha256": "267c7f2cc6d33b19ae2011311d010ec9af28531740f77eb873d46aaceb16785c"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0.3-000.png",
+    "bytes": 940,
+    "sha256": "0d15b5f633226c7ade14211fb32e8ec03170e681a82b419b43444cf8b7a4bb1b"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0.3-060.png",
+    "bytes": 930,
+    "sha256": "e04fa71be7c204c0331f6bb16a33f8d2506240d81cf1b5aa57b7c73a25543690"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0.3-120.png",
+    "bytes": 932,
+    "sha256": "0791b2b6ee7878016ffd85407b7683ae758f7bc493affb219f07662d72684795"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/slide-0.3-240.png",
+    "bytes": 932,
+    "sha256": "0791b2b6ee7878016ffd85407b7683ae758f7bc493affb219f07662d72684795"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-0-000.png",
+    "bytes": 3477,
+    "sha256": "08f8bd9f8e16e9447462eaced84241eca3b76c977e9958a6ced099328fc86172"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-0-120.png",
+    "bytes": 4747,
+    "sha256": "ab7a96e1b5c706de09c8de768905e4963d622b92e85662953128d24aba41b4dd"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-0-300.png",
+    "bytes": 3590,
+    "sha256": "249ec018c83e99ce0498e419a2827aa40d1cf1d0cc86157c5a2a0c517a382eba"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-0-600.png",
+    "bytes": 3278,
+    "sha256": "cae64df2413dca71593385df01fa584d88251ccd43f4c4094874d042a49e5ab0"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-1-000.png",
+    "bytes": 3477,
+    "sha256": "08f8bd9f8e16e9447462eaced84241eca3b76c977e9958a6ced099328fc86172"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-1-120.png",
+    "bytes": 3631,
+    "sha256": "694f5a413e41454ca8250f64bf6fc2a8cc206de5989d908519ec7d23115617a7"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-1-300.png",
+    "bytes": 4924,
+    "sha256": "dcb4f5f23416db0d09b8eee288d0023b70b924030f2d75ecee70cb1c3b2ebfbe"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-1-1-600.png",
+    "bytes": 3317,
+    "sha256": "86cce397c1980c1a2b90c038b911e3c8e155f930ef8e12683179592fe77aee16"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-0-000.png",
+    "bytes": 3477,
+    "sha256": "08f8bd9f8e16e9447462eaced84241eca3b76c977e9958a6ced099328fc86172"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-0-120.png",
+    "bytes": 3611,
+    "sha256": "495ccd1db9a1e184fc1f02c89f8dc5f5567bec688c1db5dc150aa76f2ece7039"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-0-300.png",
+    "bytes": 4695,
+    "sha256": "f70ad68948eb1da4a412d54a75085d3439af683f6715da7421ad81459c4ed560"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-0-600.png",
+    "bytes": 3518,
+    "sha256": "c2100d1ac4a86e16819345905ff44319e94f0ea944b76fa5924ca81f098ed400"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-1-000.png",
+    "bytes": 3477,
+    "sha256": "08f8bd9f8e16e9447462eaced84241eca3b76c977e9958a6ced099328fc86172"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-1-120.png",
+    "bytes": 3464,
+    "sha256": "9b5b5f8f003d022e374afd67cb521deea7edb85db006a7a2cb6841b7cd4442d3"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-1-300.png",
+    "bytes": 3471,
+    "sha256": "decd0fe98fd625bdc63930989fdfd93a169670ef315fe3d2911ea2c8b3729e1c"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/rendered/stack-10-1-600.png",
+    "bytes": 3471,
+    "sha256": "936d7ab4bc6fc3f78c0cf5ead84521f514c31453b79a63fa7228eb5f260026cf"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/upstream-manifest.json",
+    "bytes": 3180,
+    "sha256": "e6c72bcc86d20b41710b3b8fcd2796c4fb7828301293e19bfd52c6612910c16c"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/LICENSE",
+    "bytes": 1067,
+    "sha256": "b5c291647bfedf8a8348c7a1d3ec8a46b8d1f510376f4329900b2709bb94a7dd"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/README.upstream.txt",
+    "bytes": 648,
+    "sha256": "fc60b6a538661f88094993209bb6ec84914a921e18fb3d728edf467b111d8d5b"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/include/box2d-lite/Arbiter.h",
+    "bytes": 1748,
+    "sha256": "5f52680c8dafa400e134b00a04dbe141a62194c510d2178f91e2a73daf655138"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/include/box2d-lite/Body.h",
+    "bytes": 785,
+    "sha256": "97e300882981b915c1beedc761ad2dbebf61f2fc6e284d27127cc989becea023"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/include/box2d-lite/Joint.h",
+    "bytes": 900,
+    "sha256": "75329af40be6c6ca44f2e08eb67d3ef766a8f0ec729c5a0df2b0acfe6cd3ce36"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/include/box2d-lite/MathUtils.h",
+    "bytes": 3422,
+    "sha256": "1bb0b0f5027818500280eea7a099eb24099282b2a053e8c1f8516b2f1aafab92"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/include/box2d-lite/World.h",
+    "bytes": 1016,
+    "sha256": "798a41bce58df164318011e034badcd5e81e2ee3264a2cfbe27d4ed0ec9bdee1"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/src/Arbiter.cpp",
+    "bytes": 4640,
+    "sha256": "a00ab1624949b7ee26822b1db1660e15f5e548a29a6f7d7825eed8411b3d009b"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/src/Body.cpp",
+    "bytes": 1142,
+    "sha256": "300685d63f61b9a39c24a4bd92491ceb3fb793d0146dda0e11c066f52ce158a0"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/src/Collide.cpp",
+    "bytes": 7369,
+    "sha256": "a40e12f1571dce362c9c80bae0e40ca2fbe42e437272f15f9563126d10d46795"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/src/Joint.cpp",
+    "bytes": 2960,
+    "sha256": "2ff8c02aa2a08985d1c081fd497621e5d03559d50bbfad27fed7b399102234da"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/examples/vendor/box2d-lite/src/World.cpp",
+    "bytes": 2717,
+    "sha256": "d44ef1c491246ba630e6039f80b1ba5107d6cefef30b97215c8ab14d48159ad0"
+  },
+  {
+    "path": "articles/2026-10-13-impulse-change-contact-motion/originals/box2d-lite-source-manifest.json",
+    "bytes": 1439,
+    "sha256": "a7249bea511a19dcf2d000d1e4ae283ec3278ba916467117bd2cbe05228ce45d"
+  },
+  {
     "path": "articles/2026-10-13-pratt-build-expression-tree/assets/01-actual-tile-output.png",
     "bytes": 49366,
     "sha256": "502cc2d92fe9de41d0cafdfe643c1d1bda8c6840d825bddc3dd0b5cca77194ea"

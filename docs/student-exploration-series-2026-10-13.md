@@ -23,4 +23,7 @@
 7. [没有括号，程序怎样知道先乘后加？](../articles/2026-10-13-pratt-build-expression-tree/read.md)  
    从实际砖排输出进入，以游标与子任务逐步搭树，解释结合强度、前缀负号、括号和错误，并用实际AST对照核验。
 
+8. [两个物体已经撞上，下一步往哪走？](../articles/2026-10-13-impulse-change-contact-motion/read.md)  
+   从真实Box2D-Lite轨迹看正撞与偏撞，循序建立动量、冲量、接触点速度和多接触求解，并保留完整可复算输出。
+
 每篇的图片、代码和第三方材料权利以相应来源说明为准。此前系列见[探索系列续篇](student-exploration-series-2026-10-11.md)。
