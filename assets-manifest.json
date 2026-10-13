@@ -11825,6 +11825,166 @@
     "sha256": "f0a1e67707f892d5d7e0799bee5750adcc4b60a2cf7a9d1230f48d7964077add"
   },
   {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/01-knob-to-number.png",
+    "bytes": 41724,
+    "sha256": "b5020efa2f007a225f8542d20742944b66dbf9924ce3a1c8cdf22017f9bf20ff"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/02-halving-candidates.png",
+    "bytes": 34618,
+    "sha256": "f885a60871166fcaaa48ae0f6d25a40ae514eb3e7c411540c9026cbd67934e20"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/03-three-level-tree.png",
+    "bytes": 32013,
+    "sha256": "eadd9b248f1528c2ace7c45a432f524c8ab45e0bd3f5dece58d1ccb6511f8a53"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/04-binary-weights.png",
+    "bytes": 39662,
+    "sha256": "17e762023ad29c334ee03b2316ec61ed4cfb81cdada534ce4c3f0711c11dddbf"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/05-voltage-bins.png",
+    "bytes": 33620,
+    "sha256": "ab18ebe0be93734bf9b3722764c2752517711c543d2e477ba49fbb53a63c5dde"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/06-comparator.png",
+    "bytes": 44134,
+    "sha256": "e08e0db8655eb885e5d4109d3422da59279060a251281bc7ef0b4f3f5691e8a1"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/07-dac-weighted-voltage.png",
+    "bytes": 38909,
+    "sha256": "7e8a945158af281bc174a60c6905a3e2d01bafffa46d5b8cf6267e50f46f77be"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/08-feedback-loop.png",
+    "bytes": 52975,
+    "sha256": "419a1ce63cf61a5b663136cf8f67ef2393ac421130193c3c325aea8fb12467c5"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/09-first-question.png",
+    "bytes": 45356,
+    "sha256": "d95c40bf801f1f6f7b92c29051e8cfedb050d6aaf601c1909e352443fecfd8a8"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/10-second-question.png",
+    "bytes": 49779,
+    "sha256": "25fc9a34aa580e744b71315c4ce06cf64bd6077743e23e62a14e6a992d60fdf3"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/11-eight-decisions.png",
+    "bytes": 61931,
+    "sha256": "38f422bb9810840ef6d935695d46b96321678b4be8fb6cb748a0fc57e08c5247"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/12-trial-staircase.png",
+    "bytes": 45699,
+    "sha256": "088c3c33c3dbb40bfb92776c9fc2795f174af2edbb2c3b2382cd5595a83d2f5d"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/13-closing-range.gif",
+    "bytes": 233952,
+    "sha256": "0e4c7101372d127e23948cb71990f6fce3fd1bbdfcca5c9c7929f7aeffaef0e9"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/14-bin-is-not-point.png",
+    "bytes": 40518,
+    "sha256": "82d0918ecd29ef56c6ec819e34a50613b0a3faeb4779618a6dcb667a49b96a85"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/15-reconstruction-error.png",
+    "bytes": 59309,
+    "sha256": "f874532188c9e1b910cc11eb78dc3aa4cb40bd66463633a3159bd2d8ff52cacc"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/16-moving-input.png",
+    "bytes": 42975,
+    "sha256": "e74e4da7c06da411be370a9700be0092587ca0bd4f31c32b15e9dc1be906d020"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/17-sample-hold.png",
+    "bytes": 54665,
+    "sha256": "ed8d718faf2b85cc72334cac70b628c8899280e07987779527d54372893d1f82"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/18-acquisition-settling.png",
+    "bytes": 49173,
+    "sha256": "1d62ec24ac29126b9d47c8cc357191ba01cc4ac25a71c1048dada91cec5991c0"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/19-offset-not-resolution.png",
+    "bytes": 47247,
+    "sha256": "b4c7b7b38223c5c2c733a0843fb5511fc734bd0df86bfa80e4a2dad6c96790e5"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/20-reference-ruler.png",
+    "bytes": 43146,
+    "sha256": "89af56a68e2b66d5b742048c7c6c209037ffa44c0b6e5b97d607690246fbd05c"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/21-noisy-code-histogram.png",
+    "bytes": 38112,
+    "sha256": "ce01fcfe982e2da1b56a0fda79aad999ed90f4c1713f58c9787dabf639c09d44"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/22-capacitor-charge.png",
+    "bytes": 40954,
+    "sha256": "045f66753a270d8c23cd01093e6b434868430f6f61920317edde27c750a2eb7c"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/23-capacitor-weights.png",
+    "bytes": 31494,
+    "sha256": "0b9e3ec1e2107e8677726b1bdee2d58a06b7a0542fef910c616baa4f72e34aa7"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/24-charge-redistribution.png",
+    "bytes": 61032,
+    "sha256": "ebca9c3ed572baaa01a7966610e3d2f2bb1a6816b96537ca8a0af50427bda874"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/25-capacitor-decisions.png",
+    "bytes": 51434,
+    "sha256": "cbd2779881608d1cd5665e50237937cc5663a9871b34c9c9cee43aae6fec4236"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/26-history-not-same-machine.png",
+    "bytes": 58278,
+    "sha256": "245f1e986b58282c27ad07900e80f957530458d0120d8ac59fc71d23dbfd2b0f"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/assets/cover.png",
+    "bytes": 23123,
+    "sha256": "7130450ff0e68eb9657401d9e52687434d4d0088cd8f42985aa39e0df16a5300"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/examples/results.json",
+    "bytes": 5608,
+    "sha256": "0d94d0a2dd08a201b7098b9df46bc4c0e8e8edb0672291185a70583d9365c072"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/examples/sar_lab.py",
+    "bytes": 4474,
+    "sha256": "338619965ee80038dbc096d7a9ac378688c8a5a546aaceb4c1e74cbaf684f952"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/originals/US2997704-drawing.png",
+    "bytes": 117235,
+    "sha256": "17731293a07086f216b193580a4211cf29fb1b7d0599c4c5be464f4ad70cef10"
+  },
+  {
+    "path": "articles/2026-10-13-sar-adc-eight-questions/originals/US2997704.pdf",
+    "bytes": 812561,
+    "sha256": "dfdb9681ec55f0068844dd0e03031a4fce5d351e9dd73dd8b32644bc7467d4d8"
+  },
+  {
     "path": "articles/2026-10-13-utf8-find-boundaries/assets/01-cut-through-text.png",
     "bytes": 45196,
     "sha256": "52a3b4e14d24f34e52e75fbfccebaadadaaa7f8ef2485c1080b63a8537990dbe"

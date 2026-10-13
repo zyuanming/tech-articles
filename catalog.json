@@ -1638,6 +1638,20 @@
     "images": 28
   },
   {
+    "id": "2026-10-13-sar-adc-eight-questions",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "观测与控制",
+    "series_order": 3,
+    "batch": "student-exploration-30-2026-10-13",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "只问八次，怎样把电压放进256个格子？逐次逼近ADC的猜数游戏",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-sar-adc-eight-questions/read.md",
+    "public_sha256": "a5d524dca43c7cd414fec37e3b5c7a536c4c56327eb917ddb75839ac509f41bc",
+    "images": 27
+  },
+  {
     "id": "2026-10-13-utf8-find-boundaries",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",
