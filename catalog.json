@@ -1668,6 +1668,17 @@
     "collection": "doom-from-zero"
   },
   {
+    "id": "2026-10-13-doom-05-moving-rooms",
+    "title": "Doom 入门⑤：门开了一条缝，为什么还是走不过去？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-doom-05-moving-rooms/read.md",
+    "public_sha256": "f7f851a5da2efd5e17a2bb217e873d64ade1688fd9c6c68edc2aceb62f589e4b",
+    "images": 20,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "doom-from-zero"
+  },
+  {
     "id": "2026-10-13-gray-code-one-bit",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",

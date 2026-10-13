@@ -12265,6 +12265,146 @@
     "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
   },
   {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/01-real-game.png",
+    "bytes": 60607,
+    "sha256": "88af18ed11330205c7e409236472d5f1338d753dd156c4f68be53ca2b303a7fb"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/02-door-states.png",
+    "bytes": 216388,
+    "sha256": "e765e5da79401dffdfd176a0806da10b6335fb9e538de5985908423911e9d8bd"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/03-door-plan.png",
+    "bytes": 61473,
+    "sha256": "8f3d0fdd0c525b0f8b0a92ebfcbc43c1735a5957e734fa6b2b5675177cb26023"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/04-door-section.png",
+    "bytes": 56559,
+    "sha256": "3fa085252a0a5e85311b362ae35f7a2782085750123fad6595a5485ec0200959"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/05-real-door-materials.png",
+    "bytes": 67645,
+    "sha256": "493c3d8ad8b53e3b8e9d4473683a95c86b9dae520564f185c34b9bbf6d5fb449"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/06-real-map-overview.png",
+    "bytes": 54272,
+    "sha256": "8b0c751cfcb7866a5c110970e8f3b617798f91ef218408b4e3fb3eee9bdaec4a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/07-real-map-door.png",
+    "bytes": 51854,
+    "sha256": "63cbb143fa8d1de95c6b7fe914778918ca73c2d3c0889b6b22afc9b7a88af13b"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/08-real-door-records.png",
+    "bytes": 90892,
+    "sha256": "0cfedac8cfeb386f7762058ab5184089a83df3a4899868d3b95a7ce14d85ccc1"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/09-player-body.png",
+    "bytes": 59420,
+    "sha256": "c2cb92b629e12e17daf3934e7cd62596efd6fbadc55605d6cc80a4aa89430dd2"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/10-body-wall.png",
+    "bytes": 56683,
+    "sha256": "ba601f7a8ab72c531c9a6bdd7b94b30cbe04b649f9055c3072c06598e1b14f5a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/11-step-limit.png",
+    "bytes": 63224,
+    "sha256": "444a1806348b807c2258a8b63d27bb6d275f51a4ccf85c47877437ca5ee98ac5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/12-headroom.png",
+    "bytes": 62544,
+    "sha256": "632096eb887ea5ddd19adaee412024c3878cf87c67ff1386fc24c7f9aac347db"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/13-slide.png",
+    "bytes": 45320,
+    "sha256": "a9f40346c703393ba693531983fbed133cd9dd78c9ec929943f7a55079f1fcb2"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/14-door-state-machine.png",
+    "bytes": 73467,
+    "sha256": "ec697178c586dd9348e78c90ae7f86e11b34969f1141e28c80080a7e5cc8ebe2"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/15-door-top-height.png",
+    "bytes": 38911,
+    "sha256": "cf818f97922005445dfe9f8a9ae7db4b1e547bd52612670ef7eb7adb1d56f8e7"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/16-platform-states.png",
+    "bytes": 241090,
+    "sha256": "1e4c63fd398ffed67ad786c1ca7e00b0ca822256dc1dc10e77efe43197cc72e2"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/17-platform-carry.png",
+    "bytes": 63321,
+    "sha256": "181b54f8f3d9d5aa6706a718c9ed03146d3c6e43750afe39f863e04074b5168d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/18-platform-blocked.png",
+    "bytes": 52230,
+    "sha256": "7f34e09b57096b753f3a2c156047650dd76a5f0ae4a7bbd4c14f0253c015b8d8"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/19-plan-stays.png",
+    "bytes": 51817,
+    "sha256": "d390d49b729ce7229d88f3831230a3e4771648e5ef607b138f9f5a58d60df9c9"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/20-update-loop.png",
+    "bytes": 103147,
+    "sha256": "41b9cad2184cd7ea91441756266f0b444b6385fba041801ab151e58762159c3e"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/aqpanl01.png",
+    "bytes": 8093,
+    "sha256": "9697093683e81d6fed56fda2f449b9f6ffc60a927709f259d633e199d54546c3"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/brick-original.png",
+    "bytes": 8091,
+    "sha256": "b035a3c174da129174140698de5b07116dec90e916125e07cdf8dc34da9adda5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/door2_1.png",
+    "bytes": 3324,
+    "sha256": "9e63c5ffbb9526227e3a4ffd5494e0252fce7eb3889879b8fd96b91aec766cc8"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/assets/floor-original.png",
+    "bytes": 2232,
+    "sha256": "4717123789da26475b5ee17d9887cd337cf1d60de550e2c5f27f0bc35eb53f44"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/cover.png",
+    "bytes": 91858,
+    "sha256": "06fcd7c528021e72ddb31e8546a8645f3ba498a15a6cfaa40e79bdca1c3fe6b9"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/examples/freedoom-map01.wad",
+    "bytes": 124013,
+    "sha256": "d9da5d7f8d97d6555182a04326f306dde6fd40da1186a6fec18143c7ccddd20d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/licenses/Freedoom-COPYING.txt",
+    "bytes": 1611,
+    "sha256": "ed60abcf1ff64bf61bf8b4c585ab63643d655a21f8997ba284c01f94ed681fc5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-05-moving-rooms/licenses/Freedoom-CREDITS.txt",
+    "bytes": 15465,
+    "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
+  },
+  {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/01-surprising-knob.png",
     "bytes": 41628,
     "sha256": "c8610213f380f4ee764ba4920083d929e8077687c40109cca5142548b6fecb6a"
