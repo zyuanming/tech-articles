@@ -1765,7 +1765,8 @@
     "public_sha256": "3a66e00b5285e90d8be56f5aa2eecb2e399947d0d3b75c3b6b6766b994f8e3ac",
     "images": 21,
     "status": "archived_article",
-    "related_versions": []
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   },
   {
     "id": "2026-10-13-pca-choose-shadow",
@@ -1775,7 +1776,8 @@
     "public_sha256": "fe9aafa47aa203de46ad2c162064b6fa8c480dab09f428970915cd4a4ba57633",
     "images": 21,
     "status": "archived_article",
-    "related_versions": []
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   },
   {
     "id": "2026-10-13-pratt-build-expression-tree",
