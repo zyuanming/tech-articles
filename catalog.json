@@ -1638,6 +1638,20 @@
     "images": 28
   },
   {
+    "id": "2026-10-13-qem-save-shape",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "游戏世界",
+    "series_order": 4,
+    "batch": "student-exploration-30-2026-10-13",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "删掉一半三角形，山峰为什么还能站住？QEM给形状做的误差账",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-qem-save-shape/read.md",
+    "public_sha256": "5b6bab6be7d1c896dd22a620f202e15e03f3e2ce83ae4a3a1e989983422c8c7f",
+    "images": 32
+  },
+  {
     "id": "2026-10-13-sar-adc-eight-questions",
     "collection": "student-exploration-series-2026-10-11",
     "series": "观测与控制",

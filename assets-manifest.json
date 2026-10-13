@@ -11825,6 +11825,221 @@
     "sha256": "f0a1e67707f892d5d7e0799bee5750adcc4b60a2cf7a9d1230f48d7964077add"
   },
   {
+    "path": "articles/2026-10-13-qem-save-shape/assets/01-original-terrain.png",
+    "bytes": 61314,
+    "sha256": "cc78b83b0696fda8ce27528bf62e39b97b863ef2bcc5dfaf50334a92ecc2e0ac"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/02-density-levels.png",
+    "bytes": 96353,
+    "sha256": "429c9b2e55bdbaab0bff75a04edef1016e3db6d3377416f9143493ddc9c8f262"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/03-vertices-edges-face.png",
+    "bytes": 31346,
+    "sha256": "fd7186bdf02019d291c1d9c9f021dc6f6e719214c96909316a54428fbf0f9fd6"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/04-polyline-deletion.png",
+    "bytes": 30625,
+    "sha256": "947d997c4a41db63f3e62dff02ba018be0906d600d35224cce748602672f73fe"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/05-edge-collapse.png",
+    "bytes": 43252,
+    "sha256": "b0771a489de8d4814ead58c82b2432b36d10a91f6b3bdc2e57f1c4dae7cb0a54"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/06-collapse-budget.png",
+    "bytes": 36834,
+    "sha256": "4f7656560db2dfdfdf5b3c48f0b12e587e46b77e2f95f4d262db616e79d6870a"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/07-point-plane.png",
+    "bytes": 36982,
+    "sha256": "aa2d455d4cd07eb2b790d06c07fce8228b834cd7d93c008557711d32989c3249"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/08-squares-not-cancel.png",
+    "bytes": 26983,
+    "sha256": "f622aad51c637973e3b25fbe5139d1623d5083997605180305f7b1933fb50baf"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/09-two-planes-parabola.png",
+    "bytes": 24014,
+    "sha256": "66e7c1cb28047fa46e92aa46f8d4e37408e116283e1ed83da09a729fcfd4296a"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/10-merge-plane-memory.png",
+    "bytes": 31576,
+    "sha256": "1217e956d10c0a6a96666841df719f84b92f2a363370f1240bf99bb7a5400586"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/11-quadric-matrix.png",
+    "bytes": 46729,
+    "sha256": "5865e003441d21d11a14777af180d2f72b18ddd9760af0244eefb52b9b4aeb25"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/12-error-contours.png",
+    "bytes": 52767,
+    "sha256": "d1c2c4dfc474530160df2838c73ae66671909e857bc667d0ff52d25448fee05e"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/13-flat-singular.png",
+    "bytes": 45822,
+    "sha256": "6aa9b5c59c6a4ef422012ced0914e9fbe4d3fca4b6e6736c35b763f0504c8e32"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/14-candidate-positions.png",
+    "bytes": 55821,
+    "sha256": "4e5ea4fcec77dba361cec91ccf8914146ba1dc53e7996e553992cd2a07570f73"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/15-greedy-updates.png",
+    "bytes": 56169,
+    "sha256": "01ce7bc2df4ba3ab188c1143f1d1e8177e26902850731af9d15dd7f4d5dca3dd"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/16-dont-forget-original.png",
+    "bytes": 49923,
+    "sha256": "bc29680fe58c832f5d081a015c2e89216f550153711e704bf30eb4ba2d1e12ac"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/17-compare-400.png",
+    "bytes": 84900,
+    "sha256": "87778028861ce15f8487f3c3477cdd22bf1f442a6f8778899634c90c6bf81ed3"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/18-compare-160.png",
+    "bytes": 66784,
+    "sha256": "967d9a901cd056322159f91df59612b34f2d644d80b38c189ed664df43fa2f3a"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/19-height-error-maps.png",
+    "bytes": 156306,
+    "sha256": "3e1a319bc69d74d753fb3dbfaeca0114d7797de2b17c784b22f86da6bd641862"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/20-measured-rmse.png",
+    "bytes": 43033,
+    "sha256": "9f25843797bc9c940329b0228327530a1980a67bc658731ca485d1b70d1c4d48"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/21-boundary-silhouette.png",
+    "bytes": 45519,
+    "sha256": "af2fdc0e39f867e0604e3b46f38bbc07a075df2902a621f3618e013d1102f161"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/22-triangle-flip.png",
+    "bytes": 28569,
+    "sha256": "d8643cf1ef35eb17a6b2b44619b722475f5887a44baad7b6c7d4c71bd88117f8"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/23-attribute-seam.png",
+    "bytes": 40576,
+    "sha256": "51ac8d17a253679e57362684ff3993e639da867d4b3bf55a2d189b7513cfd0c9"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/24-screen-distance.png",
+    "bytes": 54669,
+    "sha256": "a3b4736eeed6b1fabefc92b924f1b62ae77164672631f5d992372b824760a2f9"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/25-primary-timeline.png",
+    "bytes": 53639,
+    "sha256": "9b379074ae58b70a995464348fc37b4820fddbee1ef58656c7a030214ccf2256"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/26-plane-not-surface.png",
+    "bytes": 36487,
+    "sha256": "1e650a2046bd3923cca97cd1466a378c0701d7a077729e6b6b286d008829c4c6"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/27-simplification.gif",
+    "bytes": 106695,
+    "sha256": "46bdcaf5ba64f45df9508bb10da2e7d194361b64b0845bb08a414c058445918e"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/28-three-coordinates.png",
+    "bytes": 27248,
+    "sha256": "f458ebabd5707f4661c368876c42655757c5dd126971fe141a165e44c4d7f9fd"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/29-interpolate-height.png",
+    "bytes": 47926,
+    "sha256": "771690a4976e277d1d092bd17c2cbd6d0d93af9c80b1c458a0a3363925eb9255"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/30-measured-cross-section.png",
+    "bytes": 42769,
+    "sha256": "a510c3bb096e75afc8750c5d6f2668f770fdde45cdcaebf99cb4e849e129fcc8"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/31-blender-render-800.png",
+    "bytes": 673335,
+    "sha256": "d150e98f891e454a44bbfb56d6e991ec1ae6c852f58258c6672dc581cf4c9495"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/assets/32-blender-render-160.png",
+    "bytes": 671451,
+    "sha256": "5ec264d82a77a8510a3b0dc4ba31df2b7924983160131b4e0a2f95eb39762ad9"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/cover.png",
+    "bytes": 45791,
+    "sha256": "5deff27b7b36e383c3eacfd39ebac634450eacaa836231a59556bd24a10b5678"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/blender-results.json",
+    "bytes": 436,
+    "sha256": "ca419b15d120cb16df899a230821a5040d0a8ec6730ee64648412774ff17422f"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/qem-160.obj",
+    "bytes": 5927,
+    "sha256": "68a003a0fa96faa6a7edb43fa46a28808bee6c7e32fabb44286ba0bda837a2e5"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/qem-400.obj",
+    "bytes": 13514,
+    "sha256": "2b8c18fe6ea56455c246d8ebcfa01937497c7a47cb17750e6b03bd89c3584fb1"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/qem-800.obj",
+    "bytes": 22480,
+    "sha256": "ad0aeda2cb387fb99287d84ff09a20de39feae062da5a7934aa9f711ea0f1312"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/qem_lab.py",
+    "bytes": 7716,
+    "sha256": "bb984a456268ccbdd0bdf198223e9c71a981f778806c8b36c802dc3bef7a5824"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/render_in_blender.py",
+    "bytes": 2642,
+    "sha256": "42fa41e80c799d3c5948fc725f3d4df0295d0460c41f5fdff16849d064cdd51d"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/results.json",
+    "bytes": 1222578,
+    "sha256": "44ca68a8ca076f410dfdfffee4ac70cf19fa703ed0c08b1d4a50d5557e69cd7d"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/shortest-160.obj",
+    "bytes": 5238,
+    "sha256": "722b8bc1557e7737572a44bc50214939ef4ad65fb8cded9ff356f71277ec462f"
+  },
+  {
+    "path": "articles/2026-10-13-qem-save-shape/examples/shortest-400.obj",
+    "bytes": 11684,
+    "sha256": "d8e58adf5fae08b69530362f5d1885f8b1ae82d5a7e5578fed3dc9b1118f4cfb"
+  },
+  {
     "path": "articles/2026-10-13-sar-adc-eight-questions/assets/01-knob-to-number.png",
     "bytes": 41724,
     "sha256": "b5020efa2f007a225f8542d20742944b66dbf9924ce3a1c8cdf22017f9bf20ff"
