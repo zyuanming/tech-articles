@@ -1635,6 +1635,17 @@
     "collection": "doom-from-zero"
   },
   {
+    "id": "2026-10-13-doom-02-wall-to-screen",
+    "title": "Doom 入门②：墙上的一个点，该画在屏幕哪里？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/read.md",
+    "public_sha256": "10109cdd5b1a83bfba0f3c3186cd71461076d318f8596d0643666d95bb2fd6eb",
+    "images": 23,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "doom-from-zero"
+  },
+  {
     "id": "2026-10-13-gray-code-one-bit",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",

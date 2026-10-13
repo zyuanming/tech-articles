@@ -11785,6 +11785,156 @@
     "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
   },
   {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/01-freedoom-perspective.png",
+    "bytes": 63371,
+    "sha256": "ca6505d1199ff09a645d0e6f7da641a5dbf3208ee4dc1ef5a93d483351619c29"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/02-brick-original.png",
+    "bytes": 8091,
+    "sha256": "b035a3c174da129174140698de5b07116dec90e916125e07cdf8dc34da9adda5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/02a-room-start.png",
+    "bytes": 151832,
+    "sha256": "05b67127802151f0db4443c2f4ab87273fbf36eaf510cd460eae5b72b529d322"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/02b-room-forward.png",
+    "bytes": 129468,
+    "sha256": "e102eac8aa1af43f004ff6d9ff491e1fe8a51a28ca89b2f7f0f449daca9d4ca5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/03-two-viewpoints.png",
+    "bytes": 37935,
+    "sha256": "f1f080e756431841b1b1991fc1f7298faf5ca23094afc2c24618020d2639207d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/04-screen-address.png",
+    "bytes": 41621,
+    "sha256": "ea8997586e9017e10e2665e990b43025723f067359117103788097c8ee21a207"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/05-floor-original.png",
+    "bytes": 2232,
+    "sha256": "4717123789da26475b5ee17d9887cd337cf1d60de550e2c5f27f0bc35eb53f44"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/05-real-pixel-grid.png",
+    "bytes": 48323,
+    "sha256": "7ae335925d19925d13a86540a48c1e92bf80503a8213a8b9efe51e510e88bdae"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/06-relative-coordinates.png",
+    "bytes": 53685,
+    "sha256": "3cce2827054851de37c4f2587707f541b3f1725e150c6b8e37322fc7c9c79ed5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/07-virtual-window.png",
+    "bytes": 38295,
+    "sha256": "bb11dcdc545e2fdd6925813ceebc3bee4fc5101664d49c8462a28f85b6c4a473"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/08-same-ratio.png",
+    "bytes": 40731,
+    "sha256": "5a00e6a9b120c94ff0bff89bf10a34bedf0c728874a979ed7f99ffef45b6e01c"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/09-horizontal-number.png",
+    "bytes": 35937,
+    "sha256": "1b7cae705e28182cebfd01f269a551370937cfa986916cbc5f8f507943846c84"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/10-height-relative.png",
+    "bytes": 37894,
+    "sha256": "878e586dfcda8338a57f52bf365d7f41d277ae2fab4e57f50cc84e24bf5124fb"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/11-vertical-number.png",
+    "bytes": 41050,
+    "sha256": "d735f263f869dfe937d213fa3317f1ac5216c68af2360d04fa159bb041a127dc"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/12-projected-point.png",
+    "bytes": 424304,
+    "sha256": "04edaf96065721c1d5013359e9691d926b51b6e738b1c01ccca53a97f867b1ff"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/13-near-far-rectangle.png",
+    "bytes": 41152,
+    "sha256": "22bee3dbca7d4d33e1d80474e8ae0a4fc55bb0c09a0952bc13a40df4272a52d8"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/14-forward-depth.png",
+    "bytes": 44591,
+    "sha256": "478a114e4df24188f9b9ac19a25e3f181ec963f0ff08646bf1ade60ff440b61e"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/15-wrong-distance.png",
+    "bytes": 52335,
+    "sha256": "3b0267266c6f9689f6d56d1ee6608ebf3912c45f1e95c9ed75fa3fa27e5a0bde"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/16-room-north.png",
+    "bytes": 38874,
+    "sha256": "606e327714734659261d60c94ce175558faeddc16b9272a59ae9b502516b737e"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/17-turn-directions.png",
+    "bytes": 40172,
+    "sha256": "5d48553070647ebe145c27af297174666e1a09d382f079576c6de9e664dad6a0"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/18-room-narrow.png",
+    "bytes": 115229,
+    "sha256": "66d599377010e94b7ebeddc0f89cb89063a6d5a9451ff93bd2d635b977cb8f87"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/19-fov-fans.png",
+    "bytes": 56479,
+    "sha256": "3cad03294ce3e529f1386ceafe0911e59793e98c7908b88c01db9f7c433c0742"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/20-freedoom-return.png",
+    "bytes": 61149,
+    "sha256": "a920dd8281d82b16d71d4844018f6ff6d14eb1f3f637b03d212d37f25816207a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/21-behind-eye.png",
+    "bytes": 42579,
+    "sha256": "0b02e4dd943c402dd25f974dd2edd374d788538fb4a53799848f282c2c3a3395"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/assets/22-view-clipping.png",
+    "bytes": 66891,
+    "sha256": "41ba1ad699eadabbf2bd9ab9920de3f630a7d5fb26757916a203960020b63ccd"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/cover.png",
+    "bytes": 202223,
+    "sha256": "af2fb144c1f644c4510c56144ef0cb5d768e2c6119e5459d8774bf3a32912e3a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/examples/project_point.py",
+    "bytes": 2085,
+    "sha256": "9eaeacaa5d01f4a0845f59be9f5d9bcd77b6485050d3b8e927b04db3c294b0e1"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/licenses/Example-Code-MIT.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/licenses/Freedoom-COPYING.txt",
+    "bytes": 1611,
+    "sha256": "ed60abcf1ff64bf61bf8b4c585ab63643d655a21f8997ba284c01f94ed681fc5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-02-wall-to-screen/licenses/Freedoom-CREDITS.txt",
+    "bytes": 15465,
+    "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
+  },
+  {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/01-surprising-knob.png",
     "bytes": 41628,
     "sha256": "c8610213f380f4ee764ba4920083d929e8077687c40109cca5142548b6fecb6a"
