@@ -11935,6 +11935,166 @@
     "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
   },
   {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/01-freedoom-foreground.png",
+    "bytes": 60607,
+    "sha256": "88af18ed11330205c7e409236472d5f1338d753dd156c4f68be53ca2b303a7fb"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/02a-room-open.png",
+    "bytes": 151832,
+    "sha256": "05b67127802151f0db4443c2f4ab87273fbf36eaf510cd460eae5b72b529d322"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/02b-room-blocked.png",
+    "bytes": 104886,
+    "sha256": "b1ed4219f54c8597606d96e3b6c5d4d4d562c086978d026cd7104f20483d46e9"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/03-added-wall-plan.png",
+    "bytes": 62472,
+    "sha256": "d4986f00da5e62b38d4c929d12058a18fdd41d727910d8d7efce98eaabb099e0"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/04-first-cut.png",
+    "bytes": 45285,
+    "sha256": "e237e38f57b4676037ab0bb366be3a08a2bd53f1d50515a7ba72142f60a65543"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/05-second-cut.png",
+    "bytes": 48175,
+    "sha256": "59d9dad064b288a45e3e916cc31854bdc428947dc6358d1bed88ed6ed23ac492"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/06-group-tree.png",
+    "bytes": 75119,
+    "sha256": "09a34990255c87d888accf257fcf4b743bb89231168c748e086f425ed2c38679"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/07-split-edge.png",
+    "bytes": 61837,
+    "sha256": "55ade3bfe1249de36a6dc99c766f263a7862bead50e8c4840d92b4d3a4fbeedf"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/08-near-first-ray.png",
+    "bytes": 61004,
+    "sha256": "f9fc1ed753cd1f6bb18abc33e7ff3eae84cad8a8ddf9bd681cc82eb11262cfab"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/09-move-order.png",
+    "bytes": 72759,
+    "sha256": "4fcf5cda5c64deeb27599a5a7fbf68384c163dc74ef140fbe93bd3f73ff1a2f8"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/10-solid-columns.png",
+    "bytes": 328144,
+    "sha256": "b7e3ef6fe055dcc4300a4378c995760a06a62a881731f89277eeae85aa41d7ae"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/11-occlusion-record.png",
+    "bytes": 72770,
+    "sha256": "0c7e33ff86ebbdebbdfccf4c9a2d92aff1c3e379c0a2c969d9aa60e4632a439f"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/12-back-bounding-box.png",
+    "bytes": 64594,
+    "sha256": "44ef7273a87297a0fb97b758d37a7b5e3d130c83c581bfa2c7f69ba36c7082a7"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/13-covered-box.png",
+    "bytes": 53652,
+    "sha256": "663d5bd963e31b1512382658c65251a11602373000a4ec400a06baec68c787df"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/14-partial-box.png",
+    "bytes": 55924,
+    "sha256": "263efe1dd7d42f44bb8ac4d496efb9e564ce3bffa229cfaffdbcb735dcac79ac"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/15-opening-column.png",
+    "bytes": 386548,
+    "sha256": "540dd0d62438d5e40010445d97b7644a2dd27ac1d96a5b3f40164ae11cfbee2f"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/16-traversal-checklist.png",
+    "bytes": 74689,
+    "sha256": "316a5c90cdfe039c16d29341d1b2477a6f11ca1707d43cc55d5178e8c1ce13f8"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/17-skipped-branch.png",
+    "bytes": 76179,
+    "sha256": "b3b9e519d842cc4dc6ffaa04bb413d7837bc363fd013bd3200bb89c5c30e1ccc"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/18-real-map-root.png",
+    "bytes": 72591,
+    "sha256": "2a24073c2b74cfe4079fcca07b5fafb33c5dae3015880510eccfd2601daab9e9"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/19-real-node-record.png",
+    "bytes": 132329,
+    "sha256": "6d0815395d672ad1ca49e59eb2a2777c542603e586eb780ad9a1a3ca45c18c17"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/20-real-seg-split.png",
+    "bytes": 84897,
+    "sha256": "597dd032e6c3eeb267247eee33e7e44fe5779bba116e141edaca35188b2ff989"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/21-sector-vs-subsector.png",
+    "bytes": 62450,
+    "sha256": "1bc83af5b2187ba57a8c7a8ac85ea231527b03c08a085b87cee4237acce08b40"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/22-freedoom-return.png",
+    "bytes": 63371,
+    "sha256": "ca6505d1199ff09a645d0e6f7da641a5dbf3208ee4dc1ef5a93d483351619c29"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/brick-original.png",
+    "bytes": 8091,
+    "sha256": "b035a3c174da129174140698de5b07116dec90e916125e07cdf8dc34da9adda5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/assets/floor-original.png",
+    "bytes": 2232,
+    "sha256": "4717123789da26475b5ee17d9887cd337cf1d60de550e2c5f27f0bc35eb53f44"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/cover.png",
+    "bytes": 195470,
+    "sha256": "bd487e80a8ab2037c9fbcaa5df8e3b11ccf56856b5921e8631014b7ab3824468"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/examples/blocked_columns.py",
+    "bytes": 1479,
+    "sha256": "35e6290219d1e2fc10353ba6eaa5b6b1bcfd201808445bf43d344168a4a71293"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/examples/freedoom-map01.wad",
+    "bytes": 124013,
+    "sha256": "d9da5d7f8d97d6555182a04326f306dde6fd40da1186a6fec18143c7ccddd20d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/examples/inspect_bsp.py",
+    "bytes": 2125,
+    "sha256": "b1ea214bd593d72c2f95ec9bd3bb263305c0d7d35415ef036682d8489c023132"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/licenses/Example-Code-MIT.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/licenses/Freedoom-COPYING.txt",
+    "bytes": 1611,
+    "sha256": "ed60abcf1ff64bf61bf8b4c585ab63643d655a21f8997ba284c01f94ed681fc5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/licenses/Freedoom-CREDITS.txt",
+    "bytes": 15465,
+    "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
+  },
+  {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/01-surprising-knob.png",
     "bytes": 41628,
     "sha256": "c8610213f380f4ee764ba4920083d929e8077687c40109cca5142548b6fecb6a"

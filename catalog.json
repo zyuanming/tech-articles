@@ -1646,6 +1646,17 @@
     "collection": "doom-from-zero"
   },
   {
+    "id": "2026-10-13-doom-03-walls-to-skip",
+    "title": "Doom 入门③：电脑怎样提前知道，后面的墙不用画？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-doom-03-walls-to-skip/read.md",
+    "public_sha256": "900b63f2ca89523a7893258df20e5a006efed9296054537f0aa3e1bf67f59beb",
+    "images": 23,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "doom-from-zero"
+  },
+  {
     "id": "2026-10-13-gray-code-one-bit",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",
