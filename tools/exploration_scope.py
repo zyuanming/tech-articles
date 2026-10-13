@@ -4,13 +4,14 @@ import re
 from urllib.parse import unquote, urlsplit
 LEGACY_COLLECTION = 'student-exploration-2026-10-11'
 SERIES_COLLECTION = 'student-exploration-series-2026-10-11'
+DOOM_COLLECTION = 'doom-from-zero'
 
 def exploration_articles(catalog):
     legacy = [a for a in catalog if a.get('collection') == LEGACY_COLLECTION]
     if len(legacy) != 10:
         raise ValueError('The completed ten-article regression must remain intact')
     selected = [a for a in catalog if a.get('collection') in
-                (LEGACY_COLLECTION, SERIES_COLLECTION)]
+                (LEGACY_COLLECTION, SERIES_COLLECTION, DOOM_COLLECTION)]
     # This batch is added incrementally: test every published item, not thirty
     # merely planned manuscripts, and never replace the existing ten checks.
     if len(selected) == len(legacy):
@@ -63,3 +64,4 @@ def supplementary_visuals(root, item):
         if path.resolve() not in used:
             extras.append(path.relative_to(root).as_posix())
     return {'pages': pages, 'unembedded_images': extras}
+

@@ -1624,6 +1624,17 @@
     "images": 24
   },
   {
+    "id": "2026-10-13-doom-01-map-to-room",
+    "title": "Doom 入门①：一张平面地图，怎样变成能走进去的房间？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-doom-01-map-to-room/read.md",
+    "public_sha256": "de9e2ae8e4a7b599572457556ef1e23aa39bb6f2ef494df53e616eeead9e0d71",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "doom-from-zero"
+  },
+  {
     "id": "2026-10-13-gray-code-one-bit",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编码与程序的结构",

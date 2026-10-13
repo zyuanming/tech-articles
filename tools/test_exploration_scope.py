@@ -1,7 +1,7 @@
 import unittest
 import tempfile
 from pathlib import Path
-from exploration_scope import exploration_articles, supplementary_visuals, LEGACY_COLLECTION, SERIES_COLLECTION
+from exploration_scope import exploration_articles, supplementary_visuals, LEGACY_COLLECTION, SERIES_COLLECTION, DOOM_COLLECTION
 
 class ScopeTests(unittest.TestCase):
     def legacy(self):
@@ -25,6 +25,20 @@ class ScopeTests(unittest.TestCase):
     def test_retains_catalog_order(self):
         rows=[{'id':'new-1','collection':SERIES_COLLECTION}]+self.legacy()
         self.assertEqual(exploration_articles(rows),rows)
+
+class DoomScopeTests(unittest.TestCase):
+    def base(self):
+        return [{'id': 'legacy-'+str(i), 'collection': LEGACY_COLLECTION} for i in range(10)]+[{'id':'student-new', 'collection':SERIES_COLLECTION}]
+    def test_every_published_doom_is_included_without_fixed_total(self):
+        for count in (0,1,3,6):
+            rows=self.base()+[{'id':'doom-'+str(i),'collection':DOOM_COLLECTION} for i in range(count)]+[{'id':'not-selected','collection':'other'}]
+            self.assertEqual(exploration_articles(rows),rows[:-1])
+    def test_cross_series_duplicate_is_rejected(self):
+        with self.assertRaises(ValueError):
+            exploration_articles(self.base()+[{'id':'student-new','collection':DOOM_COLLECTION}])
+    def test_doom_does_not_replace_legacy_regression(self):
+        with self.assertRaises(ValueError):
+            exploration_articles(self.base()[1:]+[{'id':'doom-1','collection':DOOM_COLLECTION}])
 
 class SupplementTests(unittest.TestCase):
     def setUp(self):

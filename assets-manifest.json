@@ -11635,6 +11635,156 @@
     "sha256": "80d0eb187eb947f518780df4a12d5b5b1959861893dffb8d6d947149140d30bb"
   },
   {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/01-freedoom-gameplay.png",
+    "bytes": 61149,
+    "sha256": "a920dd8281d82b16d71d4844018f6ff6d14eb1f3f637b03d212d37f25816207a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/02-two-room-plan.png",
+    "bytes": 40029,
+    "sha256": "d8eeda25131b5e7c107f35bc5669e8b853c728964d48a95591b710b3352813bc"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/03-vertices-and-lines.png",
+    "bytes": 39532,
+    "sha256": "46558e620fa338b104f5f9dc044064eb054ab4fc4d75e895c0d3e8d2093bdcff"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/04-linedef-sides.png",
+    "bytes": 37573,
+    "sha256": "14b03f79ff3e269516318aeb3db3625bda8292d4c66492d7136d3ad79dd41957"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/05-height-intervals.png",
+    "bytes": 37294,
+    "sha256": "990abc2ec0d715898b7ec4ca84720d693932f2fe33c47e202edfe2ba97c80f1e"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/06-editor-sector-panel.jpg",
+    "bytes": 8344,
+    "sha256": "d9e129605f6bca10c14e88df02c1b86eb140562cfe0b1290d5d7ccce99619fec"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/07-room-cutaway.png",
+    "bytes": 38127,
+    "sha256": "e91befd88d93d4417a64b54bdcface6431ecfe7749d8a73e7d866272ac71e925"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/08a-model-level.png",
+    "bytes": 5251,
+    "sha256": "140e499bc885ab01ebbdfdf2a4f394bd0fc79afba68dfc1adf2edb524c268d60"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/08b-model-step.png",
+    "bytes": 4936,
+    "sha256": "54d081cc974faebed9c8d49b2c0560d1f27077e054024c31a43ee313d7a3c780"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/08c-model-opening.png",
+    "bytes": 4610,
+    "sha256": "694a9dbf7d17cde0508467972e0f5acb9de847a54f281c5ea3d35512ec07392e"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/09-shared-opening-section.png",
+    "bytes": 45400,
+    "sha256": "514a769241fcd68bf5b014ddc6389f3afc30bccd6a2a53fa02fb9ae595443a7b"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/10-overlap-formula.png",
+    "bytes": 33469,
+    "sha256": "bb4d709bffd1d8a469fc5fa0ef0b100c10a6a101833d017bf3a94b8745255bd9"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/11-real-map01-plan.png",
+    "bytes": 56812,
+    "sha256": "3b6e1bc7a16799e8e502042bc413a66c92e54d5431ca23fad8eab29f9c6c2d60"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/12-real-sector0.png",
+    "bytes": 36532,
+    "sha256": "46dd8c23f6a462479344063e2f1a08ddad132ad0342f6b147609ea73089ab757"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/13-real-assets.png",
+    "bytes": 83806,
+    "sha256": "6f5ad7a1c61c8a0fe480c36acc587f48e1d4486e8db40c7a0ca2e794a04ec478"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/13a-brick-original.png",
+    "bytes": 8091,
+    "sha256": "b035a3c174da129174140698de5b07116dec90e916125e07cdf8dc34da9adda5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/13b-floor-original.png",
+    "bytes": 2232,
+    "sha256": "4717123789da26475b5ee17d9887cd337cf1d60de550e2c5f27f0bc35eb53f44"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/13c-sprite-original.png",
+    "bytes": 1819,
+    "sha256": "d2838ae0e6d277996cdd2c25c7040f93f624760d12acc72ab3d35071f4b5f4d6"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/14-model-textured.png",
+    "bytes": 151832,
+    "sha256": "05b67127802151f0db4443c2f4ab87273fbf36eaf510cd460eae5b72b529d322"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/15-room-over-room.png",
+    "bytes": 56868,
+    "sha256": "987cf7f7bd3e4537a8c9451c3327f8e71ef4c9c09f2265bbd2b0655b9b85902c"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/16-visible-vs-walkable.png",
+    "bytes": 41752,
+    "sha256": "52754a1160e0fe10ac26cfd207ecf08b1c6923a3ee048f73a0e751bce518e12d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/assets/17-freedoom-creature-scene.png",
+    "bytes": 63768,
+    "sha256": "54e312f20057d8838bf85accbce3e12d328c800671220f7ba844d715eedc244a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/cover.png",
+    "bytes": 51552,
+    "sha256": "5baf4ed032befe3231f1e879fc3ee5e856fefd126ed19e8f23191398aedc77b4"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/examples/freedoom-map01.wad",
+    "bytes": 124013,
+    "sha256": "d9da5d7f8d97d6555182a04326f306dde6fd40da1186a6fec18143c7ccddd20d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/examples/inspect-map.py",
+    "bytes": 1343,
+    "sha256": "e82ef82d19e20a7c48fad1abdf108bf65b21eb3e0421f2b5daffaf902dfdcc9b"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/examples/opening.py",
+    "bytes": 1120,
+    "sha256": "f35b39e19d17fbb9219de1c7844b02ca5ff4fb3f422bba29550337c494d45d04"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/licenses/Example-Code-MIT.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/licenses/Freedoom-COPYING.txt",
+    "bytes": 1611,
+    "sha256": "ed60abcf1ff64bf61bf8b4c585ab63643d655a21f8997ba284c01f94ed681fc5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/licenses/Freedoom-CREDITS.txt",
+    "bytes": 15465,
+    "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-01-map-to-room/licenses/UltimateDoomBuilder-GPL-3.0.txt",
+    "bytes": 35821,
+    "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+  },
+  {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/01-surprising-knob.png",
     "bytes": 41628,
     "sha256": "c8610213f380f4ee764ba4920083d929e8077687c40109cca5142548b6fecb6a"
