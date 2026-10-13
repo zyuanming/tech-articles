@@ -1330,6 +1330,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-differential-analyzer-wheel-disc",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "无芯片的计算",
+    "series_order": 4,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "让轮子压在圆盘上，怎么就开始解微分方程？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/read.md",
+    "public_sha256": "956e4152eb52cd85f81a97a258211dd6b13fa1055ecfacd8ffd15ed6df5ad3d0",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-euclid-continued-fractions",
     "collection": "student-exploration-series-2026-10-11",
     "series": "把重复劳动折起来",
@@ -1384,6 +1398,20 @@
     "path": "articles/2026-10-12-kmp-remember-the-match/read.md",
     "public_sha256": "ca3f1efb1aa48b255c8f7a103d664480e19a775ad249de279a59bff0dbbdbb9b",
     "images": 24
+  },
+  {
+    "id": "2026-10-12-leases-fencing-old-worker",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "系统故障时的真话",
+    "series_order": 5,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-leases-fencing-old-worker/read.md",
+    "public_sha256": "1953b4d29928669baaf08bf05f21c9b0fcd006f0bcf0ac045b0282b1cba2b664",
+    "images": 25
   },
   {
     "id": "2026-10-12-little-law-customer-time",
@@ -1456,6 +1484,20 @@
     "images": 25
   },
   {
+    "id": "2026-10-12-planimeter-area-from-boundary",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "无芯片的计算",
+    "series_order": 3,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "只沿着边缘走一圈，仪器怎么知道里面有多大？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/read.md",
+    "public_sha256": "5bc2bc80b31aa2638fc86d5f3b6c269b0b69ee5f6fafe7d23af11d8ce2f62723",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-register-allocation-colors",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",
@@ -1498,6 +1540,48 @@
     "images": 26
   },
   {
+    "id": "2026-10-12-stable-matching-no-blocking-pair",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "把重复劳动变聪明",
+    "series_order": 5,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "都分到位置了，为什么还想偷偷换？稳定匹配先学会“暂时答应”",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/read.md",
+    "public_sha256": "4af30a5f90d233d5551f043be915943714ba07a3ecc009f9eec79f9bf60ba78b",
+    "images": 23
+  },
+  {
+    "id": "2026-10-12-tide-predictor-harmonic-machine",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "无芯片的计算",
+    "series_order": 5,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "一柜子齿轮，怎样提前画出明年的潮汐？",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/read.md",
+    "public_sha256": "d19b96f567cad84185c7d16ccdf311443a2ef4bbeea6c43fd6e43571b3d9ab10",
+    "images": 30
+  },
+  {
+    "id": "2026-10-12-two-phase-commit-prepared",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "系统故障时的真话",
+    "series_order": 4,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "两台数据库都说“准备好了”，为什么还不能各自决定？两阶段提交把一声YES变成承诺",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-two-phase-commit-prepared/read.md",
+    "public_sha256": "926fbfead009338692b88e9401dfe776dd611cac1dfb548334523d1d37f54d69",
+    "images": 26
+  },
+  {
     "id": "2026-10-12-type-inference-unification",
     "collection": "student-exploration-series-2026-10-11",
     "series": "编译器里的隐形账本",
@@ -1524,5 +1608,19 @@
     "path": "articles/2026-10-12-verlet-borrowed-energy/read.md",
     "public_sha256": "fde59103af4327416ec91a0082569e39e29c1049f27585b5308cd0ef63c740c3",
     "images": 25
+  },
+  {
+    "id": "2026-10-12-wal-crash-recovery",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "系统故障时的真话",
+    "series_order": 3,
+    "batch": "student-exploration-30",
+    "status": "archived_article",
+    "related_versions": [],
+    "title": "已经显示“保存成功”，断电后还算数吗？WAL把承诺写在修改前面",
+    "date": "2026-10-12",
+    "path": "articles/2026-10-12-wal-crash-recovery/read.md",
+    "public_sha256": "679bdb19946bc082290d126500198777307a6db8ad1763dad3ceea6dd1db1cb2",
+    "images": 24
   }
 ]

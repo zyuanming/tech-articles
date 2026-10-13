@@ -8740,6 +8740,146 @@
     "sha256": "ded6afeecc4f9e1ea7aee53c99d9f6b60b1db1d2e93c456b532bb92be1e3ea05"
   },
   {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/01-rule-not-curve.png",
+    "bytes": 50740,
+    "sha256": "218df2b704439c505015255a826eb7e2e0b6d67b0aefd25339a77102ae862b41"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/02-rate-and-accumulation.png",
+    "bytes": 75041,
+    "sha256": "ec21db9baa1531f47b83797443b217782b615700f016092949b590d459b0e543"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/03-analyzer-blocks.png",
+    "bytes": 81307,
+    "sha256": "25f05467a491312a73ba0dd7d828cbd31275590efee60b0c44fb77af60dbd0c1"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/04-wheel-on-disc.png",
+    "bytes": 67306,
+    "sha256": "28c3dfdcf052352a9d565ba2a851c2f8f0d6ba104d8ff39f8a1e4d89686a55d8"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/05-radius-controls-speed.png",
+    "bytes": 62471,
+    "sha256": "38aac9ec10abe1c85d8066fc6ceb19b40a6ddf3acd3a8a07e49898ba6f72c74f"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/06-positive-zero-negative.png",
+    "bytes": 57469,
+    "sha256": "7ac67d3e0e951bc318ad388a9aa76f6c1243f8245300f23b6bd78b32d763333a"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/07-contact-equality.png",
+    "bytes": 57337,
+    "sha256": "117062f8c2e73026147ff11986411261c16c628dd9e90582d04d5325d29d7404"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/08-three-segments.png",
+    "bytes": 70933,
+    "sha256": "649ad59a3f56c5b699aa3070281c911c10cc62bbe4c2b69d4cc2e986e086d879"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/09-shaft-remembers.png",
+    "bytes": 77702,
+    "sha256": "2c426d85a92b96d2a0c5da2f21bf1cc74af426c83ed3502a66dd91b7e6d5fa26"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/10-ramp-integral.png",
+    "bytes": 60721,
+    "sha256": "4888dee0200e80ca8a2598e5b14760939f730addd8456630de17703a9aef38b2"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/11-close-the-loop.png",
+    "bytes": 85918,
+    "sha256": "17a215c3e05ba9733a68afb4f53ce83b45d95b4475a61146598428766cb4e987"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/12-feedback-growth.png",
+    "bytes": 63735,
+    "sha256": "a75deecbb1cbb9f7f1cb070f3d93543f779b2766029ca9750cd9e03dc02a0250"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/13-initial-condition.png",
+    "bytes": 92824,
+    "sha256": "f6cd0157d56c5de73a34c5a16eac042c420691ce30e92aa03b37f007ad93a358"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/14-three-euler-steps.png",
+    "bytes": 47333,
+    "sha256": "35be91b38f383c9fa681dcd5ae7ce1fbe4a5d5ce8e865458b7f38b6463884618"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/15-initial-vs-gain.png",
+    "bytes": 59726,
+    "sha256": "9031a27c55955ef11a7ac114d2f6a7280a6c7c1b56327d2a997266fd15a20f57"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/16-scale-factors.png",
+    "bytes": 66698,
+    "sha256": "c58c1f30d9ecc1753c3bdd2a42f6c360fc9cf53b3a4bb9fe2d52208aef8d9276"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/17-range-limit.png",
+    "bytes": 58602,
+    "sha256": "970c626185a3ee3d88f796aac14dbb0ac5e29376b31f9d293d4a9c43f406eadf"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/18-load-and-slip.png",
+    "bytes": 90866,
+    "sha256": "86696455109f869f78df3c552a88764aeb9347d043bf98059df86089a8056311"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/19-torque-not-number.png",
+    "bytes": 109805,
+    "sha256": "45fef796b78edd0e72affec292c783e8e7ec0f44770d983420e04d36967e5e12"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/20-two-integrators.png",
+    "bytes": 88100,
+    "sha256": "a79a64f2b1cc0897af3713105a1852f422d0ad4a152add8616f8e68f2fa51620"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/21-oscillator-curves.png",
+    "bytes": 47485,
+    "sha256": "0f5a02aad6b511eec461930d8c67de9471e80f780258a31bca86a9967f9637ec"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/22-numerical-check.png",
+    "bytes": 73264,
+    "sha256": "d1396310415096772821f9d1a05f1b60d5c4dc6a25297b813ef7b58e6f85ca7e"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/23-what-is-the-program.png",
+    "bytes": 90866,
+    "sha256": "3836f056aa89aba7b01bb22d69a7afdea2e784bd70161ca895c59b728f473d0c"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/24-feedback-animation.gif",
+    "bytes": 381954,
+    "sha256": "f4aeaa565be6420d33041471bd9e979e0ebfca04157d6023b0956e004c9bfd26"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/source-shaw-1886-p21.png",
+    "bytes": 285206,
+    "sha256": "d9f4e9442773bfcbb4a98632e495671327350de6e0ba680e0b6530570ef2e11c"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/assets/source-shaw-1886-p23.png",
+    "bytes": 703828,
+    "sha256": "0f0905fffacc13e170b98a37e37101fff28561f87cbb014b96d2ffb12417bd5c"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/examples/analyzer_lab.py",
+    "bytes": 3542,
+    "sha256": "4dc14968882e7acfa73225158ce7276021746a0ef55f79e30d7dd5728cfa70be"
+  },
+  {
+    "path": "articles/2026-10-12-differential-analyzer-wheel-disc/examples/shaw-1886-original.pdf",
+    "bytes": 7002023,
+    "sha256": "a5e16839a075c490cc2801b163a39a6dc6cd1708e18b74e46f2dafc0ea38bf5a"
+  },
+  {
     "path": "articles/2026-10-12-euclid-continued-fractions/assets/01-paper-question.png",
     "bytes": 67403,
     "sha256": "407999c4b1668fdf6e70b67d736e4277762b01b9d2a0c999560600827b68f89c"
@@ -9268,6 +9408,136 @@
     "path": "articles/2026-10-12-kmp-remember-the-match/examples/kmp_experiment.py",
     "bytes": 3105,
     "sha256": "2a70250c6bf4b57dfbf6d12104d140e50862ac63b41249e201426fd294323967"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/01-score-lost.png",
+    "bytes": 69672,
+    "sha256": "34fe6880bf971965ab42fa5d525d1261f3b05e158fa17c80e3196d4d480c4d50"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/02-three-roles.png",
+    "bytes": 102912,
+    "sha256": "aef9ba34017455277973c2b2e7fa92aabdddc766458d0bfdd025fc058fd8b7ee"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/03-lease-and-process.png",
+    "bytes": 70667,
+    "sha256": "4f668e05f58dafc0d025f75464d2bab1dad56c53d292c714e02673363a10e40b"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/04-check-then-pause.png",
+    "bytes": 78556,
+    "sha256": "56c7646a388c2a58755d3a605786f8f8fa9fa90e4561c55fdee28438fb36b701"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/05-increasing-generations.png",
+    "bytes": 44469,
+    "sha256": "81410ba69fb34e77ce3981c3de2946af9e6fdc97f662dda8004ca08c752bd6a5"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/06-unique-is-not-ordered.png",
+    "bytes": 67186,
+    "sha256": "dc4f69c3075df5cb59eff9cafba51373617789b910b1b3fb7a2df09742d386cc"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/07-resource-fence.png",
+    "bytes": 62928,
+    "sha256": "84d27b80b427779bdaa2e716f53cf8867b144ea916e98dba2f65f21b4bc60902"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/08-grant-vs-activate.png",
+    "bytes": 83890,
+    "sha256": "d52e1b2d2f581829534a2fb2d492bbf2bf5112c4cb612146eaf75ae2b7e72599"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/09-safe-score-timeline.png",
+    "bytes": 85609,
+    "sha256": "43dc89b0fb973247217bb89881f6d1949bd13229627a9c79bfd77001d01e5c57"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/10-read-too-early.png",
+    "bytes": 94959,
+    "sha256": "205e4ef16ae267847209eddb8921b6d5bcc6cd99a788c67fdf648826cf039bb9"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/11-two-legal-orders.png",
+    "bytes": 81347,
+    "sha256": "fdb1c6ac82b6febd094fd9f83c248a299869bd54426e8eec9ac56504e31978b2"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/12-three-checks.png",
+    "bytes": 84429,
+    "sha256": "329efb1bc842dc6e8581263a3c70c181c9d5cf45b5f6142de80f745e89f9cd16"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/13-nonatomic-gate.png",
+    "bytes": 100972,
+    "sha256": "da1b9794b9c00086382d3a1854427d6be9fdc49bb7f1db94208cd91b7ad8519a"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/14-forgotten-fence.png",
+    "bytes": 90676,
+    "sha256": "a31f4a6f5df81b4bbc99a9bf3403839a077912990149b224440e25b59825be0c"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/15-reused-token.png",
+    "bytes": 58315,
+    "sha256": "093302dc9209b5b1d89a4bbbab7479b150460837fead2138c69c46332eb9cce3"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/16-same-epoch-order.png",
+    "bytes": 64666,
+    "sha256": "3203470b98bcd70bcc12e0897139c80cd869b8c8ccd2080e43e4329c2b5ff8d4"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/17-three-identities.png",
+    "bytes": 62553,
+    "sha256": "8872272497b2d693716c649b1a1c980a117e94ea3baf57d94cc51e0fd4079671"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/18-interleavings.png",
+    "bytes": 85715,
+    "sha256": "7bf227303a96b44540f23aa8fd75c200ccaf32052e1709f03cac0603fd333edc"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/19-enumeration-results.png",
+    "bytes": 122502,
+    "sha256": "d7783bc842173615096785cbe1848ba9b4de9d5379f86dc74d0b6274ac19f869"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/20-side-effect-boundary.png",
+    "bytes": 82739,
+    "sha256": "5d6adc4dc4677ca22d088c61ff55a03079e203e7f94049e733e97d03c9ae4b76"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/21-multiple-resources.png",
+    "bytes": 95791,
+    "sha256": "aaa8aa3886aafb921b516c2cc4dd86a5dd216fde057b7a367388a53ea3f4f209"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/22-guarantee-boundary.png",
+    "bytes": 118619,
+    "sha256": "f57185fd3f87fbf0ddb3c2673566acdf11dc3635b1098b7d24070d57f83745ee"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/23-fencing-animation.gif",
+    "bytes": 250975,
+    "sha256": "c2f3aecba445efef577b9473d11ad342e09aa2801ac01f6968ca4c1c7664264b"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/source-fencing-tokens-original.png",
+    "bytes": 35752,
+    "sha256": "db9c439d55a66032d09df5742aed74ed08b49403d8e5ea681be3452b0144fa95"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/assets/source-unsafe-lock-original.png",
+    "bytes": 35437,
+    "sha256": "18a3b14911b63366b6c239d7a43304912f58e5421aa594bbe096485430412687"
+  },
+  {
+    "path": "articles/2026-10-12-leases-fencing-old-worker/examples/fencing_lab.py",
+    "bytes": 5602,
+    "sha256": "abd6183338763e96c25e45252c88a13bf9ac30bf8a0cf25bc6d74dbb4f10298d"
   },
   {
     "path": "articles/2026-10-12-little-law-customer-time/assets/01-two-notebooks.png",
@@ -9935,6 +10205,146 @@
     "sha256": "42ccae8283c3deaa51d38a6ad1bf432b47534482199db721dda7af2202b20506"
   },
   {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/01-pond-question.png",
+    "bytes": 46326,
+    "sha256": "4fa117ef654174a5a1b13d9af71e2ed551a79a11158ea9865945f78db263c303"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/02-same-perimeter.png",
+    "bytes": 45561,
+    "sha256": "a38ccffec4fc36ed010ea2c394f2e46ac8097e92779debedb9875eaff01e9791"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/03-two-arms.png",
+    "bytes": 50435,
+    "sha256": "16ebf8f1ecce8f66f883ca2f7f3856239dd9d30bba883397fa094269bef10c29"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/04-roll-and-slide.png",
+    "bytes": 72483,
+    "sha256": "42f0972fbcd4ac3a461d8ccc7133df6c477acd3b0b2d8178edbe9f92fae1a3f1"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/05-signed-wheel-distance.png",
+    "bytes": 55465,
+    "sha256": "13227746f179ca8e1fcc5c0706338854fbf83e6f67fd8ad3387fb39316781ff2"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/06-translation-strip.png",
+    "bytes": 47741,
+    "sha256": "b4262a307d6af1ef99744ed536727783211d3ea7835b73bd4da3654c9ea0d3e8"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/07-rotation-cancels.png",
+    "bytes": 50166,
+    "sha256": "acaefe156b1ebb0dd0374979a755d0e7f984cdf1c5742625b415137e6a7e72de"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/08-motion-decomposition.png",
+    "bytes": 67644,
+    "sha256": "442a95300e308556f8d3f9096abd32cefed7a8f635f4ce5ecf72c98b9812c521"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/09-boundary-cancellation.png",
+    "bytes": 48862,
+    "sha256": "c7e453f000a70cadc94f1fe9ca3ae567ddc89bc6adb18af001116bedab6fdbba"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/10-pole-outside.png",
+    "bytes": 61584,
+    "sha256": "e5b691a991416556b97ace80bac8aef76261daf82cee9fbcb4585faa4da11740"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/11-rectangle-hand-calculation.png",
+    "bytes": 48344,
+    "sha256": "acf933e69926e13529355b7d4fc34e968343ae0b212f21ab63930008820c68c9"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/12-origin-shift.png",
+    "bytes": 58120,
+    "sha256": "54edc5587b05fc66af132c39ffe76dc808bce3cb2b17a01ce3cf420c99f8bcc2"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/13-orientation.png",
+    "bytes": 38787,
+    "sha256": "4ee13e1832031534477f4fbffec63a1ef2e3fa7fdb8597fa5b3a914b9cccc94e"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/14-hole-boundary.png",
+    "bytes": 41791,
+    "sha256": "66c87e17b49d442cce6563405c2bcba69476a66864eee27e19e1db7f37c93542"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/15-pole-inside.png",
+    "bytes": 68476,
+    "sha256": "98252b5aa5b7eba62fd926e3cbd7bbbe1d1bff6f72339016131699f16dbbdef6"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/16-wheel-position-matters.png",
+    "bytes": 75944,
+    "sha256": "ba254eb6c32e1d98f3cf5a76eb1c4dc0f0bc2cbce8fd72e52e61bff95b26622d"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/17-neutral-circle.png",
+    "bytes": 58939,
+    "sha256": "1c017c33553b596466c33c150e0989ebc56c535246966879eed42f6a0e88be0e"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/18-two-inside-cases.png",
+    "bytes": 51407,
+    "sha256": "bf0e5d573e10951167d7f91f4b35dedb44a2ad2da875bdd2a8e6178d0e4396b1"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/19-reachable-annulus.png",
+    "bytes": 51684,
+    "sha256": "a192ee4e3daa84251b3f7f29fe9d46005fc7909ccfd647ce511998b21d4ba9f0"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/20-numerical-projection.png",
+    "bytes": 73294,
+    "sha256": "27fe6a45cc3acd84e67e3e33753fae4ca4a675daac87da62b0d736620a116bad"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/21-convergence.png",
+    "bytes": 65892,
+    "sha256": "d670348572ca5c5f4125d0536c9952629148ea6371dfb6b4543a28fc294bac48"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/22-map-scale-square.png",
+    "bytes": 64638,
+    "sha256": "1ffaf0d7f8b9c2c7525aa15ad30e6f36d5dfeeff7209ff85ae1fdb3e4029c2c7"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/23-physical-limits.png",
+    "bytes": 96359,
+    "sha256": "c97f53bf9a79af8867d6cb7147970d6e0617ad19951e674df8a4339a5da1a077"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/24-planimeter-motion.gif",
+    "bytes": 349588,
+    "sha256": "8a73eaf2b6722c5bed3125796649e3dc5424d881db1e0641b24a75cb874a1ee0"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/source-shaw-1886-p33.png",
+    "bytes": 273763,
+    "sha256": "cff43a6b12bf8d7a52ce734f05126e916b82471174b0ba6c6fd20bc66759503d"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/assets/source-shaw-1886-title.png",
+    "bytes": 759825,
+    "sha256": "8aa583c669c949f37b449ddb9b2ac357047e66522bb9647d84fe776ebf98956b"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/examples/planimeter_lab.py",
+    "bytes": 3479,
+    "sha256": "3e38c8ee4156a4c6454d47c8c6a6a954504ac019f00d0b950a2d3a680da66c36"
+  },
+  {
+    "path": "articles/2026-10-12-planimeter-area-from-boundary/examples/shaw-1886-original.pdf",
+    "bytes": 7002023,
+    "sha256": "a5e16839a075c490cc2801b163a39a6dc6cd1708e18b74e46f2dafc0ea38bf5a"
+  },
+  {
     "path": "articles/2026-10-12-register-allocation-colors/assets/01-two-registers.png",
     "bytes": 76841,
     "sha256": "02eaf4e82e9af7d78dfbe8fc3d8e43279c16b18a61c96ab89d77f2f898458202"
@@ -10415,6 +10825,426 @@
     "sha256": "41eef919dcd1b083b0714af4970a1dc3bf385211a45c04761ccde508c8605ed0"
   },
   {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/01-full-but-unstable.png",
+    "bytes": 59085,
+    "sha256": "04e75b56334e8fe43cc2b71592ff7ca833a0950b91ba1c84e19fd9ddf5b671fc"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/02-model-boundaries.png",
+    "bytes": 77627,
+    "sha256": "f0e428a1cf3d601549f69c70f585b1596677114e0e0d3ac8d3fb758055517453"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/03-two-conditions.png",
+    "bytes": 67237,
+    "sha256": "489b92ee7741e4e5669ea71782b1f4ab40f1be41f39f60666b0d5c741e9a8cc9"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/04-three-questions.png",
+    "bytes": 89579,
+    "sha256": "a5aa01f5888e250114f772b341f4e2c149cb6b6c14a17a50fcd43016ce133067"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/05-history-and-model.png",
+    "bytes": 94029,
+    "sha256": "f827563a3156e8fba8c6612b3a593071f40cf36c611d7f04722ec327b326ed66"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/06-student-preferences.png",
+    "bytes": 42276,
+    "sha256": "f59ab46e0056e9bd3252ce2768bc8c5002d0daf5bdc9fae68d5427a2c0f38005"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/07-project-preferences.png",
+    "bytes": 41618,
+    "sha256": "13f94566e4226e0fe97a32ec982e35ec70b700e89df5faef2b0d4c7b610a5581"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/08-tentative-acceptance.png",
+    "bytes": 76878,
+    "sha256": "2219e8bbf71f9472574522a3949aa87ba9dde0f1bb6d1a5659a419b6ba27ae14"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/09-first-replacement.png",
+    "bytes": 54006,
+    "sha256": "55adf3c3b1ffdaf10ba2a27ca96919a0e37ac33113575e4b138f572bdc050a2d"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/10-second-replacement.png",
+    "bytes": 56452,
+    "sha256": "7ca9ce0f111aaec0f4ea6b2948041f01cb0ae4515bbf9540f41dba3ee15e0bab"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/11-reject-then-continue.png",
+    "bytes": 70977,
+    "sha256": "4e7ec9d1969c128d417b2bcdffcc82f36b738cab946787c668b09369e752fc84"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/12-final-matching.png",
+    "bytes": 55230,
+    "sha256": "63353ced6fb71b11d3f08ce0eaccdaa6c68677eef88e43f3ef1c9030b11804a8"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/13-finite-proposals.png",
+    "bytes": 82910,
+    "sha256": "a45df6ebb1ecbbf5d1ef2b39aad97b9f253213b24832501afb65d1b05c5b7469"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/14-why-everyone-matched.png",
+    "bytes": 89315,
+    "sha256": "ae5a2ce1dd02fb409e6c7391c718a60fe73a626fb1044e4b7222a2d76ccd64b5"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/15-monotone-evidence.png",
+    "bytes": 82073,
+    "sha256": "943dcd29391851b7f1afda744c00850cf6c4915dca4a83166f39dc04e7845922"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/16-two-stable-outcomes.png",
+    "bytes": 76840,
+    "sha256": "0f4fc05bdc6f701d9f8f80bad861cf6db11c20aec255b2040e4b0586b5853550"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/17-optimal-within-stable.png",
+    "bytes": 69718,
+    "sha256": "d5a0d54d9366cce27566dd0dad037c5af33bf214c4decfe8f266ccec648289d0"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/18-first-rejection-proof.png",
+    "bytes": 115578,
+    "sha256": "0fa724caf4b6b2f5ec74c322e3473410b5e2c8d4c3e05b5cf81a0e48a28ed41b"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/19-three-ledgers.png",
+    "bytes": 73479,
+    "sha256": "502f2f0e05618e375d0cbabfa4124c56d3485db5d5356898c542321f97e40786"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/20-result-direction.png",
+    "bytes": 51768,
+    "sha256": "e8c28db451c05fb782004747932e2446888522b4e71196cea9e91e9df015bd97"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/21-algorithm-and-oracle.png",
+    "bytes": 90850,
+    "sha256": "93094527b67e51bb29b6a5dbc775cb8f93685a0abc1faf22abaf83c2907f1b8c"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/22-test-scope.png",
+    "bytes": 129411,
+    "sha256": "7af2c5e153d0258e02823bb1692c5c7b2a6fb693fcbd9dca48ef5350c2a8bd49"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/23-boundaries-map.png",
+    "bytes": 94339,
+    "sha256": "b99ce031e0c85a993137797b4908b5a5284038fab5a383f3f496d3523f3b6efd"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/assets/24-deferred-animation.gif",
+    "bytes": 158273,
+    "sha256": "1fbdaf9b3a0b71032dade3a2438627139d428bb0d62a8ed11451f5455289af06"
+  },
+  {
+    "path": "articles/2026-10-12-stable-matching-no-blocking-pair/examples/matching_lab.py",
+    "bytes": 3580,
+    "sha256": "7553fa0511e54531ddb54f551252d42c0b8489a2212910032c34810fc9e665c2"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/01-many-to-one.png",
+    "bytes": 54889,
+    "sha256": "1034db179a6dfe2fc3c4237e88a408d50a1c58770727fb0796d9e747b5b3b612"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/02-different-machines.png",
+    "bytes": 76810,
+    "sha256": "31d8f778174a721a491bda01a0405369ab714af44771e903ea7477bf1950e99e"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/03-constituent-not-water.png",
+    "bytes": 55147,
+    "sha256": "a713eaf201b467a40b542f837ff856743c87da0197f21ca3df5f73c70d20fadd"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/04-analysis-vs-synthesis.png",
+    "bytes": 74859,
+    "sha256": "c645e163abfa3cc9be5482f364feee761dc2469eb9de6064965823cf6050fae8"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/05-circle-projection.png",
+    "bytes": 48583,
+    "sha256": "cfeb9a42d7fa656ee59167082ed6ef02c7905dc7ff56afcdb26267ce9977509c"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/06-pin-and-yoke.png",
+    "bytes": 62798,
+    "sha256": "7cb585b2df2b3e0b735cec2735b682abbba85894577e92f1d3b5f0f5a7ea1968"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/07-four-positions.png",
+    "bytes": 51661,
+    "sha256": "075a3fabdc2484ba5767f0a42bb90c91410232b5bd3cf2ad87afd5ee825521d3"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/08-three-settings.png",
+    "bytes": 76517,
+    "sha256": "7adac45d84f9929ce88ff770b993880cb0fd6aca0b5dbfcbf02950b3b4e31a84"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/09-phase-shift.png",
+    "bytes": 58732,
+    "sha256": "1fc8a87ddc4724a4967dfc2576c682f9d54dbe3fed528d237ccdfd962f57ab1f"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/10-two-toy-waves.png",
+    "bytes": 66731,
+    "sha256": "95497fd59131684a39ea01c07688ba49d2f0cfc4e21a7d0c21a5013c328e7f25"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/11-hand-sum.png",
+    "bytes": 35207,
+    "sha256": "4d888f364cfc16813de674bb497657ba3ea7f022f954493e4d10006595071d40"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/12-one-pulley.png",
+    "bytes": 73239,
+    "sha256": "e39c60c27d0e430ef933eb35f224732649499cbcd98b1b5f0848e7a2335d5435"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/13-two-pulleys.png",
+    "bytes": 63015,
+    "sha256": "5d0f41ef5538532d8b60138ff8b7b9f1f0d06a9372d985a4baa6673295d644c8"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/14-half-amplitude.png",
+    "bytes": 61595,
+    "sha256": "18ed8cfe5cb9d6eb2acff45e21ee80d2f867aabfb25142fc2f22b60201daffda"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/15-length-ledger.png",
+    "bytes": 57706,
+    "sha256": "0d7dc1524b6faff439be7640aa964f3729ae56cc31f4f63ba90115115031333d"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/16-common-time.png",
+    "bytes": 69489,
+    "sha256": "040709db79542d223b97e7630da522f8a1acf03de30e67fc7cb28c0c7278e52e"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/17-mechanical-errors.png",
+    "bytes": 82006,
+    "sha256": "98414aa2d6c7078fe21146d394941a318e434b022c1dabf90856aaf1e088b818"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/18-nearby-periods.png",
+    "bytes": 65954,
+    "sha256": "b15028f989fb3e1f1f0a2054cca312d9542cb08ba6f3d2acebb16b7dd7a3a96d"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/19-beat-period.png",
+    "bytes": 79079,
+    "sha256": "afd22637924f6b7e842dd9cce5cd274d72bf5d6d1c55016a8239f4b64389b51e"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/20-envelope.png",
+    "bytes": 74403,
+    "sha256": "a5bc901f1ce9ebf2e49e2266d561f0ccca6a9c1f9df048776a3d198067e9698d"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/21-height-and-rate.png",
+    "bytes": 67064,
+    "sha256": "0fcae9a42e4799d633e2888b677aba3de13aa5747301cf22bfbab51cd760f6e6"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/22-stationary-is-candidate.png",
+    "bytes": 58202,
+    "sha256": "066ba53c3bd8a2bacd40cb3168792c5025735e425ba9c0c2897282a3601e1bdd"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/23-small-peak.png",
+    "bytes": 66948,
+    "sha256": "4a70acf746c4d56fa45c6e68429395b502f41b0b4256efe7b5273a518738ba6d"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/24-parameter-boundaries.png",
+    "bytes": 96556,
+    "sha256": "b95eafa4abcf5e531329b5f92b8c9bfbd113f9e7d0a7dc8842b3414fb9f8d952"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/25-pulley-synthesis.gif",
+    "bytes": 582104,
+    "sha256": "4f478f173b69d87cca2966803895d04b34980ce5c8bda9b1b84e147a95a0f657"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/mach1a.gif",
+    "bytes": 1662045,
+    "sha256": "bd6fa0a8aee2c460c4c6a8fafd66251eb3da5be137aac3787fd14a58b6be5520"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/mach1b.gif",
+    "bytes": 1647034,
+    "sha256": "e0a8e18d1563cf78102270d2621338a7cd57c86ff7a101b4d1926272d1f0c8ab"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/mach1d.gif",
+    "bytes": 2653293,
+    "sha256": "c860d6add0f7ae83417dbe06cff76225f94122e3caa1bf586b7d2dffab23c777"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/mach1e.gif",
+    "bytes": 2437326,
+    "sha256": "b250d981315b646d6f322d5b1f424e86364b6a1484a05c58dca9d706c1036aa1"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/source-noaa-2007-fig1-1.png",
+    "bytes": 3474206,
+    "sha256": "8b9d996f7fbe0221a1c8e2b5c19d2020dd589044100e8c4efb818cf0b4ce3254"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/assets/source-noaa-2007-fig1-2.png",
+    "bytes": 74203,
+    "sha256": "e4ae947497bd7a9657e70442fecc750e2396fe408c17458b5a703b7c507c9da8"
+  },
+  {
+    "path": "articles/2026-10-12-tide-predictor-harmonic-machine/examples/tide_machine_lab.py",
+    "bytes": 4273,
+    "sha256": "ae250a91e3c47fdb063a3be29bcaba727fd78be606210d1baa5a8a36dab5228a"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/01-two-local-decisions.png",
+    "bytes": 75267,
+    "sha256": "7fae45b3f188f04c350647d5de2396b902dcb347be03744d721514027bad61b5"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/02-three-roles.png",
+    "bytes": 50083,
+    "sha256": "af31f83f355268a7745cb688f825905dab70acd0a125480ba31a8d97bc5cadbf"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/03-wait-or-disagree.png",
+    "bytes": 82909,
+    "sha256": "df023ed4d9926e0211a212f1847e4a0f42f5680b6378bd067c2988327c80308c"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/04-leslie-lamport-original.jpg",
+    "bytes": 39002,
+    "sha256": "a07f86a8b435c38eafbc945e4848ed4c2139e1aeb236518ea4a5fd6f4657e82a"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/05-jim-gray-original.jpg",
+    "bytes": 95475,
+    "sha256": "8ae572299906fe2aa0391912b63db0a3be717939f0b2a67d170e7b427110a715"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/06-prepared-promise.png",
+    "bytes": 103461,
+    "sha256": "72882f738764c34bfcf1ee5774e998822bcf4cb85a5fe0c2e3e12421b7ae1714"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/07-before-yes.png",
+    "bytes": 65684,
+    "sha256": "9f26412e544ea0a39e9970f4b8c881c4269511137f7b4f208f8f6425bc972c37"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/08-prepare-messages.png",
+    "bytes": 58355,
+    "sha256": "92a5118802d4bfe90daaafe6b4c10daaba4ca07d4d39425236c3d9ebbd768711"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/09-distinct-votes.png",
+    "bytes": 74860,
+    "sha256": "4b4deaf6b8c72e45a5e5fda6d183030411b88cc4d32f49751f028bac6b21779f"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/10-decision-before-send.png",
+    "bytes": 66138,
+    "sha256": "98e312751e6acc09a1e76c2251ba75dca68e9e68e87bf3c17c53b6f0864e038e"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/11-different-arrival-times.png",
+    "bytes": 49523,
+    "sha256": "7747966171cbbda04530b3c8d5cee912fff01f011f0431f3f3b155b883f07251"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/12-no-and-abort.png",
+    "bytes": 55616,
+    "sha256": "302d967f8e27fda133332c7a48399727cccd98e9b7d68398edf69ffa44c1c1ef"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/13-two-hidden-worlds.png",
+    "bytes": 104117,
+    "sha256": "c66ffd0592465f92a927aa0947b2e86f34094e394c7111a33faecb77fed9e4b9"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/14-timeout-abort.png",
+    "bytes": 90373,
+    "sha256": "6cfea1390b708a44f0ca5cfebf85a6858dc7998aee384f1ca92d1ad988cf88f7"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/15-local-commit.png",
+    "bytes": 82529,
+    "sha256": "c12acc27a84b85e848b4ebbcbfba2761fc98ea00974d33709bb87f3211a7c9ad"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/16-majority-is-not-all.png",
+    "bytes": 82364,
+    "sha256": "b9ebf14073dc36bc42982b9465270a55f86d839c6e239b2151aae19bc9efa081"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/17-ask-for-evidence.png",
+    "bytes": 98502,
+    "sha256": "97e73facecf374ff2e9e7edb65a1eff079b2888f908dbc66f1b2f493d475fe49"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/18-restart-from-record.png",
+    "bytes": 76485,
+    "sha256": "ba7d70a4ae7bf1f6953301d732d3113e32e7ecb23aa1f72525e9a81d43e8e6bc"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/19-timeout-state-table.png",
+    "bytes": 94160,
+    "sha256": "02a56943314e5d59fae9fd6ce619ca7c2b5f0d43c1d73d19fac60ba384194c1a"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/20-model-state.png",
+    "bytes": 86808,
+    "sha256": "1bbece3edce3a13dad8cd26b30ff00ccdfa34bea4dad2f2b86c3b440dbdeb2d7"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/21-real-prepared-cost.png",
+    "bytes": 79839,
+    "sha256": "95021ac05df08777ab4a63f436159e56ce5df1c914d2f5bb35f15fd1ff93b804"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/22-commit-and-isolation.png",
+    "bytes": 74825,
+    "sha256": "630771fcf02081ba0a2d3a3882ce8fb3e789c49861f5a1d4c2dbdc88574848ab"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/23-not-the-same-question.png",
+    "bytes": 113382,
+    "sha256": "e0c152a981db4ae8cf80d1639ac3c4b4b5359270e4d7336b0771b5e6e4dcd7ad"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/24-test-results.png",
+    "bytes": 129492,
+    "sha256": "b5cdca9954dd3caa5434d52a902b580dd758844b3cdc84609826224fe0b92cb6"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/25-final-exercise.png",
+    "bytes": 88919,
+    "sha256": "533dc62a0b0aa944bdc5c0eea25e98973fd5e05b01b94b31611bc3170e79ef7d"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/assets/26-normal-animation.gif",
+    "bytes": 435179,
+    "sha256": "35e862102d9cb4aba9ab3c1013d6a74cc5357b7fd561e944d4c76cf0ec969437"
+  },
+  {
+    "path": "articles/2026-10-12-two-phase-commit-prepared/examples/two_phase_lab.py",
+    "bytes": 5278,
+    "sha256": "aa861e9a23e0c4192714d5000e788b0066282dd8c9d7f22ceeaf90128df9796c"
+  },
+  {
     "path": "articles/2026-10-12-type-inference-unification/assets/01-identity-puzzle.png",
     "bytes": 61384,
     "sha256": "96f9aa1d3ce7bd8d7b5ce4f0f77773e290a94ffbe7cc8944ace7b74308acb6cd"
@@ -10678,6 +11508,131 @@
     "path": "articles/2026-10-12-verlet-borrowed-energy/examples/oscillator.py",
     "bytes": 3915,
     "sha256": "a5820529464e482b3dcbe6b58eb3dc7b31b7dcaddd74180e849d4e1ae937f5c2"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/01-half-transfer.png",
+    "bytes": 70437,
+    "sha256": "d08aae5d4fda1478ea3f2a6b7c99849a459658a61309a4bc31acf303bc732ba6"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/02-two-layers.png",
+    "bytes": 62240,
+    "sha256": "b245c06e0884b975c8243db384af356dafbfd9608a32fe0b3a9adc83e0a0d3f9"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/03-two-promises.png",
+    "bytes": 64537,
+    "sha256": "1107d80b85291859969961e0593e87061fb443375a4b4cab426ef1305b01c74d"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/04-jim-gray-tenacious-original.jpg",
+    "bytes": 95475,
+    "sha256": "8ae572299906fe2aa0391912b63db0a3be717939f0b2a67d170e7b427110a715"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/05-model-boundaries.png",
+    "bytes": 89720,
+    "sha256": "a1abdbcdec456ea46713035125851a5e6505e02b25c6cebf440d114ef3c0164a"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/06-three-records.png",
+    "bytes": 60051,
+    "sha256": "31b6f3b2a128d1e406d8b1580d5765c3e23de71a5a96e58953bde3ce1ec2c5e2"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/07-page-before-gate.png",
+    "bytes": 63449,
+    "sha256": "5a3128e4b3ec71d73c24632a01e6ab81443f03d1e101a524a8a6e1f151aeba68"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/08-ack-after-commit.png",
+    "bytes": 73313,
+    "sha256": "e818da63dd24c0be42173a15b5819b4e54e01e05a9f679406e1c31387e9020c5"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/09-redo-needed.png",
+    "bytes": 72690,
+    "sha256": "8acfe8e7924e184e2eefa876110828af8d9e29dc7910dc655c4a423afabb69a0"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/10-undo-needed.png",
+    "bytes": 79673,
+    "sha256": "3b5c1b918ba0d0aed3acde3a36cab99b99ef00e84006a0acbc38886c043149db"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/11-mixed-crash.png",
+    "bytes": 77623,
+    "sha256": "9eec5ee459bd458ad513f0e067e5be9be30b80c6ef8c82840b97a2d15828e01e"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/12-two-passes.png",
+    "bytes": 76062,
+    "sha256": "ec97a7770926c4275e1442f5106799bc0cb6cc7102aaada888d4b49701a4323e"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/13-reverse-undo.png",
+    "bytes": 76693,
+    "sha256": "312ee1fdf05663d9eaca2c151b7cad58d2fc2b1776152fa09366b3caffc87c4e"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/14-undo-order.png",
+    "bytes": 67347,
+    "sha256": "402ceb8509ccd51b771f41f7525a6b92f920941584719b1ede7030dbe439d73c"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/15-code-contract.png",
+    "bytes": 79306,
+    "sha256": "018381a0c21acd8303c4d9be9043f0dc2d4f71fa9f9d8a7e726a8e0f0b226e83"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/16-recovery-again.png",
+    "bytes": 73326,
+    "sha256": "1aeb84638429b214fa7ee2ad7f93eb19d5fdc3a60d0ef019fc8dadcdb95ba690"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/17-assignment-not-decrement.png",
+    "bytes": 69338,
+    "sha256": "aecb40d977d39e60a5fcb44fa4f62d4800c7efa0f4117ebd3d85e21a5268158c"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/18-policy-grid.png",
+    "bytes": 102057,
+    "sha256": "ef059e912d5d4aa30c6dc1340d392a5fc2ca056f8711e0aabf1875adf0869c63"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/19-aries-boundary.png",
+    "bytes": 85334,
+    "sha256": "a7e68fa25c25b42744aa9e7a6677c29b615106281ca81b0070dcdadea124e8b9"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/20-reachable-state-search.png",
+    "bytes": 113090,
+    "sha256": "9012bb5e966807e8004b13f6cd807b060162e905fd9f51dac11097807a690466"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/21-test-scope.png",
+    "bytes": 114519,
+    "sha256": "3cf3c05baa1f0431b26d2931d13e89497b76fd23435e4f0636378067d084a877"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/22-commit-before-reply.png",
+    "bytes": 93535,
+    "sha256": "53a9e87e3f486d02574da6f4d8d5e1bee7150671c2e39c7c48e0b22aa6477c61"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/23-boundaries.png",
+    "bytes": 97660,
+    "sha256": "4aaf21099ec053528f85cbe7dc501f1cfb0699b3f2c25e8b9b767a5e15c71225"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/assets/24-recovery-animation.gif",
+    "bytes": 187598,
+    "sha256": "ffb53cfc7869a8a27aac41ffd7e7d339969243bc7f1f00e31b7a3de4f4b50fca"
+  },
+  {
+    "path": "articles/2026-10-12-wal-crash-recovery/examples/wal_lab.py",
+    "bytes": 5206,
+    "sha256": "80d0eb187eb947f518780df4a12d5b5b1959861893dffb8d6d947149140d30bb"
   },
   {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",

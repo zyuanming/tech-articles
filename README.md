@@ -10,7 +10,7 @@
 
 ## 内容组织
 
-当前收录 130 份文章版本（含 1 份技术教学试稿）；6 组同题不同成稿保留相互链接，不把版本数当成独立选题数。文章目录见 [catalog.json](catalog.json)。
+当前收录 137 份文章版本（含 1 份技术教学试稿）；6 组同题不同成稿保留相互链接，不把版本数当成独立选题数。文章目录见 [catalog.json](catalog.json)。
 
 每篇位于 `articles/YYYY-MM-DD-slug/read.md`，图片使用相对路径。正文中的原有来源与事实边界保持，额外许可信息见各篇 `sources.md`。CERN NeXT 照片因分发条款限制，仅链接官方原页。内部研究资料、审读记录、凭据、运行日志及公众号后台状态不属于这个公开存档。
 
@@ -34,3 +34,16 @@
 新的六条探索路线正逐篇增加，已入库文章见 [探索系列续篇](docs/student-exploration-series-2026-10-11.md)。目录只列实际可读的完整成稿。
 
 写作与配图约定见 [AGENTS.md](AGENTS.md)；它们约束后续新增内容，不回写历史成稿。
+
+
+## 新30篇探索文章已收录
+
+本批30篇完整成稿现已全部入库，保留原配图、出处及配套实验。最后七篇：
+
+- [都分到位置了，为什么还想偷偷换？稳定匹配先学会“暂时答应”](articles/2026-10-12-stable-matching-no-blocking-pair/read.md)
+- [已经显示“保存成功”，断电后还算数吗？WAL把承诺写在修改前面](articles/2026-10-12-wal-crash-recovery/read.md)
+- [两台数据库都说“准备好了”，为什么还不能各自决定？两阶段提交把一声YES变成承诺](articles/2026-10-12-two-phase-commit-prepared/read.md)
+- [锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”](articles/2026-10-12-leases-fencing-old-worker/read.md)
+- [只沿着边缘走一圈，仪器怎么知道里面有多大？](articles/2026-10-12-planimeter-area-from-boundary/read.md)
+- [让轮子压在圆盘上，怎么就开始解微分方程？](articles/2026-10-12-differential-analyzer-wheel-disc/read.md)
+- [一柜子齿轮，怎样提前画出明年的潮汐？](articles/2026-10-12-tide-predictor-harmonic-machine/read.md)
