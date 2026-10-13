@@ -12405,6 +12405,141 @@
     "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
   },
   {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/01-real-game.png",
+    "bytes": 63371,
+    "sha256": "ca6505d1199ff09a645d0e6f7da641a5dbf3208ee4dc1ef5a93d483351619c29"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/02-computer-photo.jpg",
+    "bytes": 214590,
+    "sha256": "b0d9e7752fee94e84c5d8ae5496f44e88617028da749cdbcffb331e4945d7b42"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/03-work.png",
+    "bytes": 67879,
+    "sha256": "74b3771b6121a3c5c4a4bf166e2e155ce5bf373e280db76705211f80e775fbe6"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/04-room-column.png",
+    "bytes": 109858,
+    "sha256": "b73fc26ef08e019686658abd72c9fe0278e9c2ac864b200218290177e8bf049a"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/05-real-column.png",
+    "bytes": 67743,
+    "sha256": "e58c319a8d27b4d218b7bcc62697c93c2f964ca633e0a74f0ff4268b2fac10bb"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/06-sample-addresses.png",
+    "bytes": 84692,
+    "sha256": "77b20cb5dbb6e4709de5ae858aec24b9c7c11b73039ec1e40b994a1ac375bf83"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/07-increment.png",
+    "bytes": 63711,
+    "sha256": "9bf1b43f6aa06b92969095d5903ca753358c165f710e62865555aefccfb2e86f"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/08-fixed-unit.png",
+    "bytes": 56101,
+    "sha256": "273b892f3759dcf1eb20daf7be1a1cff2007f79d91a57b59731804aa6a500dca"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/09-fixed-values.png",
+    "bytes": 66873,
+    "sha256": "96bdbbf0503621b9e8d9916f9af8ea104a2fe156c486f4ecb0b5451df6ce48e2"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/10-fixed-multiply.png",
+    "bytes": 76606,
+    "sha256": "1a3cde1dce0e22502ae4cf0e59ff1b817390941ad01d41878cab79ceb6567e90"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/11-fixed-error.png",
+    "bytes": 77171,
+    "sha256": "70d076d67f6367e534cd00a8169bc2efda832462f2665c48feccfb8ccf7e4ae5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/12-direction.png",
+    "bytes": 61583,
+    "sha256": "1e8150cfc8c7ca7993f1a19b44664e74584e4201e71b5fc4834ad747766427b3"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/13-real-table.png",
+    "bytes": 102348,
+    "sha256": "27b9a0811deb035313d4260a9295d75b154ced724975028c35921d6c5037fd56"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/14-table-reuse.png",
+    "bytes": 64144,
+    "sha256": "9ab17d21788d11077628226221b7ba316c40cb1239eb0d973848eb1872e1a95e"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/15-frame-bytes.png",
+    "bytes": 90551,
+    "sha256": "f2d54f8b45b1b06ddf0ef0ecd0b9fa23d67b03cee47bae154f945367ee848572"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/16-palette.png",
+    "bytes": 63229,
+    "sha256": "fe09b85446459901ef1a81abc8ca8c1eaa341c5478c86cccf022a825f8e4cc67"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/17-real-wad.png",
+    "bytes": 114283,
+    "sha256": "4f41ff8b360c02e18e255864b73972d834e6f4b17a07859ca598ec09775b7311"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/18-cache.png",
+    "bytes": 88294,
+    "sha256": "7777f1ef7b651445d9060e5e4892a800d595d3c0e06262eb3c6da72109095a03"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/19-low-detail.png",
+    "bytes": 163532,
+    "sha256": "86777465b2de0e4ef879f77f1cda5244a9e277f152e12d816c1fc644ecbd99d7"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/20-low-detail-zoom.png",
+    "bytes": 46700,
+    "sha256": "382b8a08df21ab2f885fc4a278d5cc54e0d76993c39b3387493632d014036cd1"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/21-tics.png",
+    "bytes": 75240,
+    "sha256": "9c3ec534ae4f8b261bf43b2b936608c973ad1a94c52b6aeb9b80a8868aaf2be2"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/22-series.png",
+    "bytes": 130377,
+    "sha256": "b899486246e62b6353301f8298f8c0f6c7c41a2b1383d546733e7fd3a0c1f481"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/assets/brick-original.png",
+    "bytes": 8091,
+    "sha256": "b035a3c174da129174140698de5b07116dec90e916125e07cdf8dc34da9adda5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/cover.png",
+    "bytes": 90993,
+    "sha256": "a9f84eb45cec535ac073d3c22be974f8585e6c76f2ee5ccb543a5db0f48c89c7"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/examples/freedoom-map01.wad",
+    "bytes": 124013,
+    "sha256": "d9da5d7f8d97d6555182a04326f306dde6fd40da1186a6fec18143c7ccddd20d"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/licenses/Freedoom-COPYING.txt",
+    "bytes": 1611,
+    "sha256": "ed60abcf1ff64bf61bf8b4c585ab63643d655a21f8997ba284c01f94ed681fc5"
+  },
+  {
+    "path": "articles/2026-10-13-doom-06-small-computer/licenses/Freedoom-CREDITS.txt",
+    "bytes": 15465,
+    "sha256": "47333ff87236f69af6d5ac7e306e102913e944f91e199f7bde1dbb1074b5c67a"
+  },
+  {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/01-surprising-knob.png",
     "bytes": 41628,
     "sha256": "c8610213f380f4ee764ba4920083d929e8077687c40109cca5142548b6fecb6a"
