@@ -1,0 +1,8 @@
+Expression(
+  body=BinOp(
+    left=Constant(value=2),
+    op=Add(),
+    right=BinOp(
+      left=Constant(value=3),
+      op=Mult(),
+      right=Constant(value=4))))

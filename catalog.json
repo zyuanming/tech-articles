@@ -1707,6 +1707,20 @@
     "batch": "student-exploration-30-2026-10-13"
   },
   {
+    "id": "2026-10-13-pratt-build-expression-tree",
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "语言与表达式",
+    "series_order": 7,
+    "batch": "student-exploration-30-2026-10-13",
+    "title": "没有括号，程序怎样知道先乘后加？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-pratt-build-expression-tree/read.md",
+    "public_sha256": "a70dabae29ab6ea8da284aa7090cc44e0fdfeff2476e3786939e900497dd6223",
+    "images": 28,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-10-13-qem-save-shape",
     "collection": "student-exploration-series-2026-10-11",
     "series": "游戏世界",

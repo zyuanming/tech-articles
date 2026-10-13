@@ -12825,6 +12825,211 @@
     "sha256": "5cbf84a55d0cc38aa72d2b53fe65e49849258d51c70574e19bab90a4d3b4c72a"
   },
   {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/01-actual-tile-output.png",
+    "bytes": 49366,
+    "sha256": "502cc2d92fe9de41d0cafdfe643c1d1bda8c6840d825bddc3dd0b5cca77194ea"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/02-tokens-not-characters.png",
+    "bytes": 54775,
+    "sha256": "18dc4657d9667d03e298563d544bda2aec4a198259eff9b81f8c9588e9269476"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/03-two-possible-trees.png",
+    "bytes": 40816,
+    "sha256": "e56e4c82b39e13ddcc5027a93d6881458b259818486c6d843fe7b5ab2b2463a4"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/04-parse-before-evaluate.png",
+    "bytes": 45258,
+    "sha256": "e86d0a24ff23f165d7197d37230719ecfb6d38dc3f8455de7064d2a53ebff915"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/05-tree-glossary.png",
+    "bytes": 53889,
+    "sha256": "37de1394177f115a1e4b5abeb829a6cadb170f685c245a983edd77e2c1fe74dc"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/06-one-shared-cursor.png",
+    "bytes": 54989,
+    "sha256": "c45902b9e6aeb085278a2a248c9981002de982e07d73af95a4bab250a0397f65"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/07-minus-two-roles.png",
+    "bytes": 47683,
+    "sha256": "481c72cadf8a88c0e2bbc350ef9a52a00370a87ae6aa0edc8a61e3f9d927dc01"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/08-strict-threshold.png",
+    "bytes": 54068,
+    "sha256": "c50fe16a5e738284ea79ab3518b76f023bd4c22d418dcd6b55bc35a0b3700b03"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/09-binding-table.png",
+    "bytes": 46198,
+    "sha256": "787e2342f3e3122ee9764000048fbb52ab9afb7701c9fc71c6ec39bdf6c80245"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/10-three-parser-tasks.png",
+    "bytes": 59294,
+    "sha256": "43c8c53a42172f2d7508abcb3278c6fac049afc81e526071cfd5a3d74cf3d90f"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/11-main-trace-static.png",
+    "bytes": 96435,
+    "sha256": "51714b68e11c72ae6d51c3b505e75d53dabb87e1e247e6a4d94a0332703fd88f"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/12-trace.gif",
+    "bytes": 139755,
+    "sha256": "d7dbc31d5bdcf3f0f80292f9296817632480012f833cb14feb6dacd98f4a64d9"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/13-return-a-subtree.png",
+    "bytes": 48314,
+    "sha256": "a8a9d5089ec4399465fd2cf4254ed4d7a0385024c05d9d3ea71389b41e5efab1"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/14-subtraction-association.png",
+    "bytes": 39398,
+    "sha256": "9e7a341f57afd4b3831f42a33cc42dde2a45fbe1f6d2b916a77ee64e987df64b"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/15-equal-power-stops.png",
+    "bytes": 54321,
+    "sha256": "37fb1f85fa1ac6d81279550c601d11fce994c1dbf76e9bc04ae0a27e76283543"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/16-power-association.png",
+    "bytes": 41981,
+    "sha256": "d88761fdbb3822b827acc07da964b0b0a72f59710b2d3080c6cf499c2b083786"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/17-one-threshold-changes-tree.png",
+    "bytes": 52145,
+    "sha256": "261b32ffa1a46316cbcd55c55d6d54f475d9e6277470c357576ee18250a6c092"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/18-unary-and-power.png",
+    "bytes": 35988,
+    "sha256": "665736889dfffe46499dacdcee805e1a9ab427611457cfa8a9cff75689ebdabf"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/19-prefix-threshold.png",
+    "bytes": 56600,
+    "sha256": "f8ae9d016e135f6feba6ffa233d90c24ce753dd6f86ab32e53dff4dd88ecc4f0"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/20-parenthesis-contract.png",
+    "bytes": 43039,
+    "sha256": "8c9e62ee55f4d0728d13ccd63b629c5fb4ff203acfe84dd92cb0ba88c2329ff7"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/21-double-star-token.png",
+    "bytes": 38103,
+    "sha256": "16ca6ff417e52d7fb413021b6f0fba0a26ef810114bacbace835723caa3279ef"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/22-real-error-locations.png",
+    "bytes": 55649,
+    "sha256": "9eaff310cf5fd69f11861d0d84a413d235b174c953030af5fe2742a354191349"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/23-parse-versus-runtime-error.png",
+    "bytes": 38527,
+    "sha256": "c95491a1ec4e3facaf65a5962ffcf0d160dea609f25e9582f028e3996d68c1f1"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/24-cpython-actual-structure.png",
+    "bytes": 71243,
+    "sha256": "5d3ea32d05fa9a017c90dae690a6af79c27326bc9c6535c866b8d9684e5bb101"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/25-linear-work-deep-stack.png",
+    "bytes": 58986,
+    "sha256": "53000379f011b7e24da435a7dd294e7e0463f3a80a3be6096c5ffa567971f5bb"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/26-historical-mechanism.png",
+    "bytes": 55956,
+    "sha256": "65f0b2bf5b1e267b655dfb7bb81b5e6bd941e6dd5888c5b09e831bbc54b17f75"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/assets/27-whole-route.png",
+    "bytes": 49027,
+    "sha256": "2fa84e4e754e7af090060389ea405402df485050fc272d0942b7ee3341ce2acf"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/cover.png",
+    "bytes": 36485,
+    "sha256": "dbae0f23c03a711b3c1ce5e937fe114eaef46d2245fdcd3bf9366173a6854f1a"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/cpython-ast.txt",
+    "bytes": 165,
+    "sha256": "ddac4df1b3e5936755cd0c5aea4dc63a6a12fb7d2a56d46fec95d3b46dd6e01c"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/grouped-ast.dot",
+    "bytes": 332,
+    "sha256": "5422081b0a3d408346424c5d02b5093b2b5ec6ccb38d281a31708ab1b35e78bf"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/grouped-graphviz.png",
+    "bytes": 40539,
+    "sha256": "b27f891d96b44b4658ce44fc5ed666a2e0134387abbbd18010413092cae5ff75"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/grouped-graphviz.svg",
+    "bytes": 3025,
+    "sha256": "d5f9fccc27dcfa75ef607a2adeca044d99e7c91e4c58a8d5b33acb3eb5522621"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/grouped-tiles.png",
+    "bytes": 594,
+    "sha256": "238a185c3b87af74601824805fe3cc2812fff4ab8a7dcd8eb0bb4385629536a7"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/normal-ast.dot",
+    "bytes": 332,
+    "sha256": "04b6f0d022aadde7235e41a6013dcb8e0b772a8d0a3cb096205191b8f2bf5678"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/normal-graphviz.png",
+    "bytes": 40523,
+    "sha256": "b69f012ee386c1234c5886fb9156a6b22a74c88ff937dcadc214033992be3b70"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/normal-graphviz.svg",
+    "bytes": 3024,
+    "sha256": "3d2b4efb5625fc8e235ef808fc2df71d5644baf2953be1a8a5fd5823dcf5544c"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/normal-tiles.png",
+    "bytes": 583,
+    "sha256": "5b52a8a462895de8bef4057156d3fe4979432e3f119c4b2264eab42832a61f81"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/parser_lab.py",
+    "bytes": 10162,
+    "sha256": "6a6035bfb49a7c932dd371ccda7ccf602965ee3f7bdef2fed881a96686440457"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/render_tiles.py",
+    "bytes": 700,
+    "sha256": "9de1796cb10c23bc5346441395328147bd2c3dc494574ba4ae94854454c39243"
+  },
+  {
+    "path": "articles/2026-10-13-pratt-build-expression-tree/examples/results.json",
+    "bytes": 57406,
+    "sha256": "5b2d79e2e7ad44d06d7fe2065433f2e36304def47a7098f0f6023c0dd0e9707d"
+  },
+  {
     "path": "articles/2026-10-13-qem-save-shape/assets/01-original-terrain.png",
     "bytes": 61314,
     "sha256": "cc78b83b0696fda8ce27528bf62e39b97b863ef2bcc5dfaf50334a92ecc2e0ac"
