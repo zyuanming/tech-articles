@@ -12595,6 +12595,236 @@
     "sha256": "f0a1e67707f892d5d7e0799bee5750adcc4b60a2cf7a9d1230f48d7964077add"
   },
   {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/01-measured-two-ears.png",
+    "bytes": 60042,
+    "sha256": "6855f474a58de996027d63eaa72351405a4d6dd3ca92d878106471f37dcc9975"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/02-pressure-and-samples.png",
+    "bytes": 54038,
+    "sha256": "4e066c156cfed27ec82b84c313a87ca52312f3a1cf7f8c07b9cd2d939d70ee0a"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/03-real-and-virtual.png",
+    "bytes": 53400,
+    "sha256": "620559ac8307fc58e3f46d1e7443e2f978b2d024f9eb981cb822c14d4fc749d4"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/04-directions.png",
+    "bytes": 43609,
+    "sha256": "115213a2802de305b4cd3d723abc4528ec57051d961620467adacfe1f93c50c2"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/05-time-difference.png",
+    "bytes": 45756,
+    "sha256": "e2c9a920a72b5acb19bf5b1c8a9a1c4ad74d60dc063459678fb326864a09e382"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/06-onset-is-a-choice.png",
+    "bytes": 63938,
+    "sha256": "f798e9353e9ac253b9b27c59ae35bc55e1583dccc2ae54af446400f7e2532a10"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/07-frequency-foundation.png",
+    "bytes": 47806,
+    "sha256": "321ec562b5a20b71baffbf4a473b7dcdef22244b12f9148ff5bc21b2622b6218"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/08-measured-frequency-left-right.png",
+    "bytes": 48756,
+    "sha256": "130807a3eed3d8aac3c99eacc56e0468a9255e250e11176cd0d9a95bc788d898"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/09-decibels-as-ratios.png",
+    "bytes": 39540,
+    "sha256": "c67892a7aa3022dfea4ac8129f7cf464907562eb115deb858e8c78734b12cd5d"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/10-paths-add.png",
+    "bytes": 55716,
+    "sha256": "77af58de6a5122cad6d581bd3b34512529e0ef3084cb82c485b3b6039b263ab5"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/11-elevation-spectrum.png",
+    "bytes": 50872,
+    "sha256": "acc17a8aeaf254343fb53be234babacb9cc556d7e1df38c2e82991724bf83613"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/12-front-back-response.png",
+    "bytes": 58756,
+    "sha256": "147c9b0d98f4855143059c294baf3b156f478fb6e4492e94b651f18f920fd57a"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/13-measurement-chain.png",
+    "bytes": 62572,
+    "sha256": "4f6fad788529c94943a004ba60a9c5e32fa7ca206b3dd79725ee59f2e2aeeaae"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/14-unit-impulse.png",
+    "bytes": 40431,
+    "sha256": "c267d47b42b4908792c09eba0239062f8b6b80bc8cd6601ca924821f52cfbb3c"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/15-scale-and-delay.png",
+    "bytes": 54351,
+    "sha256": "adcc4e9a9d1c8ae680f45b9e914fc1e9de5f2deffc5fa1525e94b7890b38a18f"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/16-convolution-ledger.png",
+    "bytes": 50587,
+    "sha256": "b6c3bf7b9d326090c6c0286deaae75fe577daae76e0f0fb6bb6ec79bb2f5a1fc"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/17-output-tail.png",
+    "bytes": 33348,
+    "sha256": "bf59113e6dce2514db5199e43e84b037ee0daf2ad3ea4f7508151193a07069f5"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/18-two-convolutions.png",
+    "bytes": 42592,
+    "sha256": "1d2e4cf3cc8f62cafc0fbc65d384f29fa7e8828144db7fc7fc2b24d757a15333"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/19-rendered-noise.png",
+    "bytes": 58247,
+    "sha256": "6191c1db1a39d6f6d5157dda0072222aa688ae217d6a2199a8ce3681284bc883"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/20-time-and-frequency.png",
+    "bytes": 47661,
+    "sha256": "59e94edf6204e8967958db3ee8254bd8ed700a689cc7e901a36563ad6ff86f9e"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/21-gain-is-not-hrtf.png",
+    "bytes": 53478,
+    "sha256": "d9ae4a67a1b4931628d547a3b0c1b02c99b37053dddc080ea4e770d3f7a65b06"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/22-common-gain.png",
+    "bytes": 43455,
+    "sha256": "174d68aa8017fef09a201ced843ec239f0d1e916e2c1c5ed18d1fadfc74b9931"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/23-head-tracking.png",
+    "bytes": 45260,
+    "sha256": "46f1742de1804583af8f255508437b836fac430d11f60dc74061730eb16b81c6"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/24-game-audio-chain.png",
+    "bytes": 69237,
+    "sha256": "6e8abc2e578a1fa08e9121aeb490468724af26fa811de390fdcc50188e9ce4bb"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/25-sample-rate-matters.png",
+    "bytes": 64876,
+    "sha256": "e829adb90fd1c671f9d1936907dfdb5240f054df3672c54afa721a73f50f028c"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/assets/26-three-cues.png",
+    "bytes": 38610,
+    "sha256": "26e9480b687ebc234a3313b4b9ea005f38ece699789d739a4d809ad357c91572"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/cover.png",
+    "bytes": 37861,
+    "sha256": "0d131a80c01a5580b817bc332410aa268747fa53bc74d53f30fb5f44019dd60d"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/LICENSE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/audio_lab.py",
+    "bytes": 5501,
+    "sha256": "aa492aac5d5e2b9c8d7d61755d3108567bfcbd1ae54f772b940d912d4a3ba4c8"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/back.wav",
+    "bytes": 353352,
+    "sha256": "d39b3ba6a6764a0ddc1ff8674330331ec4f62b8916e846355c8d861423e8c2e4"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/dry.wav",
+    "bytes": 352844,
+    "sha256": "25fff8bc04d7616125c67e51965859116607214e3f90803bea9bd02bcc8f81c1"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/front.wav",
+    "bytes": 353352,
+    "sha256": "13a40ce17c01ed1555af55fb176c854bbf808d41a9bcf815ebf6a284f414e330"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/listen.html",
+    "bytes": 2427,
+    "sha256": "cffd6017cfb7216c840093ff85d7c7c43e7326211131e6a6a8e80fa5fae754c2"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/results.json",
+    "bytes": 167840,
+    "sha256": "84601045dda6cc6bb8cd084b7b5fd481cd5a28c61fe18b28d0d687f20b2c0fe5"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/right.wav",
+    "bytes": 353352,
+    "sha256": "b1d0979bfaba98b5eb8316956be29586e99946b48f6836db7c6977d37c69f811"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/examples/up40.wav",
+    "bytes": 353352,
+    "sha256": "d25c5e86c4862a9cb308aaa826b548a1360d578ff20c6ad4d54f5af07e30fba0"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/H0e000a.wav",
+    "bytes": 556,
+    "sha256": "da4313c9ad89eb816930a3539e80f96f54887b857515fde537dcf6d4bc23bc46"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/H0e090a.wav",
+    "bytes": 556,
+    "sha256": "8b55a165d65d7d3651dc99ec739d9480ad9260165720f9142a7e7e25f7b6d40c"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/H0e180a.wav",
+    "bytes": 556,
+    "sha256": "3a9ee49bf72a93cb295a7700b90b786a23c919cc56e5d23c35b1247f97957aed"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/H40e000a.wav",
+    "bytes": 556,
+    "sha256": "591309f09c758c0df2d80622f92bf05cb681dbff37018e11599917b0ffdb0f0e"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/MIT-DATA-NOTICE.txt",
+    "bytes": 958,
+    "sha256": "28be3220606ace0b486e420c8e2813c4f7d56b22f1dbd5006369c23967cd24b5"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/W3C-NOTICE.txt",
+    "bytes": 2341,
+    "sha256": "a41d123e21fa84e906d64976be15e36785cc24d2715b191317a2707d8881bea8"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/viking-fig1-setup-original.jpeg",
+    "bytes": 294106,
+    "sha256": "c99cbf74a69ae82d4eb0b54cf6e732f74862000914df2eebea7c8fc0a1158ba1"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/viking-fig2-mould-original.jpeg",
+    "bytes": 85041,
+    "sha256": "e3928cc824ce96c8ff945c62958182b90df9f55b231df1e6c6979ae429ea250a"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/viking-fig3-pinna-original.jpeg",
+    "bytes": 145773,
+    "sha256": "b6be4cadf1d97621f37d9b92a867c5d08d9b24a186a21aba12d7904dd4d2900c"
+  },
+  {
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/originals/w3c-hrtf-panner-original.png",
+    "bytes": 16473,
+    "sha256": "5cbf84a55d0cc38aa72d2b53fe65e49849258d51c70574e19bab90a4d3b4c72a"
+  },
+  {
     "path": "articles/2026-10-13-qem-save-shape/assets/01-original-terrain.png",
     "bytes": 61314,
     "sha256": "cc78b83b0696fda8ce27528bf62e39b97b863ef2bcc5dfaf50334a92ecc2e0ac"

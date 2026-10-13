@@ -1,0 +1,18 @@
+HRTF Measurements of a KEMAR Dummy-Head Microphone
+Bill Gardner and Keith Martin, MIT Media Laboratory, May 1994.
+Source: https://sound.media.mit.edu/resources/KEMAR.html
+Documentation: https://sound.media.mit.edu/resources/KEMAR/hrtfdoc.txt
+Original archive: https://sound.media.mit.edu/resources/KEMAR/compact.zip
+
+Original data usage notice from the authors' site:
+This data is Copyright 1994 by the MIT Media Laboratory. It is
+provided free with no restrictions on use, provided the authors
+are cited when the data is used in any research or commercial
+application.
+
+Files included without changing their bytes:
+H0e000a.wav, H0e090a.wav, H0e180a.wav, H40e000a.wav.
+They are 44.1 kHz stereo 16-bit PCM, 128 samples per channel, from the
+processed compact symmetric small-pinna set, not newly recorded raw data.
+The article's numerical plots and directional audio examples derive from
+these files and retain this attribution. They are not endorsed by MIT.

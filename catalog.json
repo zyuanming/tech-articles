@@ -1693,6 +1693,20 @@
     "images": 28
   },
   {
+    "id": "2026-10-13-hrtf-two-ears-many-directions",
+    "title": "耳机只有左右两只喇叭，游戏里的声音为什么还有前后上下？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-hrtf-two-ears-many-directions/read.md",
+    "public_sha256": "a75da7a501a3378088e6df12a2ee872d4dd8c0395e2c87ddde7903b5f49437c1",
+    "images": 30,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11",
+    "series": "游戏音频与信号",
+    "series_order": 6,
+    "batch": "student-exploration-30-2026-10-13"
+  },
+  {
     "id": "2026-10-13-qem-save-shape",
     "collection": "student-exploration-series-2026-10-11",
     "series": "游戏世界",
