@@ -1703,6 +1703,17 @@
     "series_order": 11
   },
   {
+    "id": "2026-10-13-elf-symbol-relocation",
+    "title": "代码分开编译，函数地址最后是谁填上的？",
+    "date": "2026-10-13",
+    "path": "articles/2026-10-13-elf-symbol-relocation/read.md",
+    "public_sha256": "5751516ba72d75c50db98ae3fbe508a81ee2e9b95444676142f1a62a030ae2a7",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-13-euler-mesh-accounting",
     "title": "给网格打一个洞，为什么点、边、面的账突然变了？",
     "date": "2026-10-13",

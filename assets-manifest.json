@@ -12685,6 +12685,146 @@
     "sha256": "ad68fd5667492c33ee6f030848cba210c6d893660032806f0ed8f5e4b56a7893"
   },
   {
+    "path": "articles/2026-10-13-elf-symbol-relocation/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/01-observed-result.png",
+    "bytes": 75536,
+    "sha256": "c9fe1a78c92d4a60509f072aba7101d3f1b28088b682a6b950a61ad696dfcc9b"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/02-separate-files.png",
+    "bytes": 73905,
+    "sha256": "ec4973e7db7a6e55e76979d8cd463c62e016c9cba7e77b2106cddb1b90fa5ac7"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/03-elf-object.png",
+    "bytes": 108489,
+    "sha256": "48ddac5e13d18e2b99ffde0d5a7f014f9db32e030d3decd52191ab1119213d57"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/04-symbols.png",
+    "bytes": 99038,
+    "sha256": "ef0914cdeca4cc346883fb199527c5a3a974f37f753bbcba2c19a94071fe6332"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/05-call-before.png",
+    "bytes": 104594,
+    "sha256": "25558a487eaf5c033721e68ec2ecf9c3bd4ad4a2d5f85bbbafaec17907e3876e"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/06-three-coordinates.png",
+    "bytes": 114901,
+    "sha256": "1e107afc65e5991cb2f76e4895ac0fc11b553af052bdae4a014833a244335d3e"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/07-relocation-recipe.png",
+    "bytes": 119862,
+    "sha256": "2c69a130634b4f5ea96d636c1b203f07d117ddfde14d8f302491536290b47aec"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/08-linked-layout.png",
+    "bytes": 89837,
+    "sha256": "18bf9111fc2f408438039e724aa0985d15dcdb147d95f4ab050c1677c821007d"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/09-patched-bytes.png",
+    "bytes": 61698,
+    "sha256": "cc20cbdad9997328cee6f04ad4dc7c814afe98ea17912295f0a4df513ca98d14"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/10-relative-distance.png",
+    "bytes": 76994,
+    "sha256": "b962e917da5f37361931b732de8a5abfe5ed3dd610ad9c0fa7c674623a672eb0"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/11-addend-origin.png",
+    "bytes": 99518,
+    "sha256": "46865a0f13fd0248f2901f370cf69d39213f5ac1889f741369eba534f315ee95"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/12-padding-experiment.png",
+    "bytes": 82783,
+    "sha256": "1ddeafe0f9035cbf5936c8c57068d4be9d62bf622e4ebea8b24a070adb602c5a"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/13-negative-displacement.png",
+    "bytes": 76147,
+    "sha256": "ec4339488caa7c655100d8bba4b286409e2617a5b6328a9dfeeee6c3c40a0edc"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/14-shifted-distance.png",
+    "bytes": 107619,
+    "sha256": "a77ca3e615b252ce0e747a5a5d3ce801ea7459cf3b6b0af91181981aaa5f79dc"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/15-missing-symbol.png",
+    "bytes": 119742,
+    "sha256": "66d51201473b81eb75359040ac5b1368f266c1e2fddd9902d8fc111cca1fc7c2"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/16-duplicate-symbol.png",
+    "bytes": 95828,
+    "sha256": "d8e86202cb345fd7aae4b6c9e86310201b149224953b019bd84b0ce0b5d472e4"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/17-c-compiler-evidence.png",
+    "bytes": 125717,
+    "sha256": "20ccd3663622a0866086263d58dc8e8e24130f56aa6259ede10a08596f4349ba"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/assets/18-link-load-execute.png",
+    "bytes": 160499,
+    "sha256": "0a24ff6996bd26f77627b987bdf376e702c5f31b5cdc5eb6b6c7069379494632"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/cover.png",
+    "bytes": 58968,
+    "sha256": "7eec084cc2a7a70fada6d016e528c4a6241f84c15a5d8349e012447db55acd8d"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/answer.c",
+    "bytes": 67,
+    "sha256": "0efc7f6c818eec224d82342d22f5512930de336d6bb3d4e22d8664e8bd48d014"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/build_figures.py",
+    "bytes": 17042,
+    "sha256": "25f123e85f922764f28f22f43a51cd8919e1990d5b0ba24c19e3f41330976952"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/caller.c",
+    "bytes": 95,
+    "sha256": "87c18e8dcb675ccbc89dbc80890c84778d5585d04f682417dc9ebe55c4bed3c6"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/expected-results.json",
+    "bytes": 3576,
+    "sha256": "2522f5507694edb83bed10a6963f26911dcc54675c2242263f989cd977891cb1"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/figure-metadata.json",
+    "bytes": 8753,
+    "sha256": "68b22e9b381edcb724b0e358807c7d11dd24e8e095ec7809d1c6d08836035695"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/padding.s",
+    "bytes": 102,
+    "sha256": "286ddcc4e75a3f1807ed913ff1147493054f21ac4ba6b5eb71497ddef03b1120"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/reproduce.py",
+    "bytes": 7910,
+    "sha256": "c436a34d0db98db0ccee26881abce42ca06eaab3624727187eca15997c4373d1"
+  },
+  {
+    "path": "articles/2026-10-13-elf-symbol-relocation/examples/start.s",
+    "bytes": 285,
+    "sha256": "02d6fc526dc0f0a8051d8fcc7567a4730d9e8dca7d43349e69e4bbbabd8443cf"
+  },
+  {
     "path": "articles/2026-10-13-euler-mesh-accounting/assets/01-three-actual-meshes.png",
     "bytes": 711765,
     "sha256": "fdfe45b939fdb519513c07aa40bdb3d321d993381593ee3590ffcb98ce4d327b"

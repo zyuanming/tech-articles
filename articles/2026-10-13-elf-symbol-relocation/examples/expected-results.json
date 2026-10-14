@@ -1,0 +1,141 @@
+{
+  "platform": "Linux x86-64 / ELF64 little endian",
+  "versions": {
+    "as": "GNU assembler (GNU Binutils for Debian) 2.44",
+    "gcc": "gcc (Debian 14.2.0-19) 14.2.0",
+    "ld": "GNU ld (GNU Binutils for Debian) 2.44",
+    "readelf": "GNU readelf (GNU Binutils for Debian) 2.44",
+    "objdump": "GNU objdump (GNU Binutils for Debian) 2.44"
+  },
+  "source_flags": [
+    "-c",
+    "-O1",
+    "-fno-pie",
+    "-fno-asynchronous-unwind-tables",
+    "-fno-stack-protector",
+    "-fcf-protection=none"
+  ],
+  "input": {
+    "start_text_hex": "e8 00 00 00 00 89 c7 b8 3c 00 00 00 0f 05",
+    "start_text_size": 14,
+    "answer_text_hex": "b8 2a 00 00 00 c3",
+    "answer_text_size": 6,
+    "text_file_offset": 64,
+    "patch_file_offset": 65,
+    "relocations": [
+      {
+        "offset": 1,
+        "symbol_index": 2,
+        "type": 4,
+        "addend": -4,
+        "symbol": "answer"
+      }
+    ],
+    "symbols_start": [
+      {
+        "name": "_start",
+        "value": 0,
+        "size": 14,
+        "section_index": 1,
+        "binding": 1,
+        "type": 2
+      },
+      {
+        "name": "answer",
+        "value": 0,
+        "size": 0,
+        "section_index": 0,
+        "binding": 1,
+        "type": 0
+      }
+    ],
+    "symbols_answer": [
+      {
+        "name": "answer",
+        "value": 0,
+        "size": 6,
+        "section_index": 1,
+        "binding": 1,
+        "type": 2
+      }
+    ]
+  },
+  "builds": {
+    "normal": {
+      "start": 4198400,
+      "target": 4198414,
+      "P": 4198401,
+      "next_instruction": 4198405,
+      "addend": -4,
+      "displacement": 9,
+      "call_bytes": "e8 09 00 00 00",
+      "text_size": 20,
+      "text_file_offset": 4096,
+      "patch_file_offset": 4097,
+      "has_interp": false,
+      "has_plt": false,
+      "remaining_text_relocations": 0,
+      "exit_code": 42
+    },
+    "padded": {
+      "start": 4198400,
+      "target": 4198430,
+      "P": 4198401,
+      "next_instruction": 4198405,
+      "addend": -4,
+      "displacement": 25,
+      "call_bytes": "e8 19 00 00 00",
+      "text_size": 36,
+      "text_file_offset": 4096,
+      "patch_file_offset": 4097,
+      "has_interp": false,
+      "has_plt": false,
+      "remaining_text_relocations": 0,
+      "exit_code": 42
+    },
+    "shifted": {
+      "start": 5246976,
+      "target": 5246990,
+      "P": 5246977,
+      "next_instruction": 5246981,
+      "addend": -4,
+      "displacement": 9,
+      "call_bytes": "e8 09 00 00 00",
+      "text_size": 20,
+      "text_file_offset": 4096,
+      "patch_file_offset": 4097,
+      "has_interp": false,
+      "has_plt": false,
+      "remaining_text_relocations": 0,
+      "exit_code": 42
+    },
+    "reversed": {
+      "start": 4198406,
+      "target": 4198400,
+      "P": 4198407,
+      "next_instruction": 4198411,
+      "addend": -4,
+      "displacement": -11,
+      "call_bytes": "e8 f5 ff ff ff",
+      "text_size": 20,
+      "text_file_offset": 4096,
+      "patch_file_offset": 4103,
+      "has_interp": false,
+      "has_plt": false,
+      "remaining_text_relocations": 0,
+      "exit_code": 42
+    }
+  },
+  "errors": {
+    "missing_exit": 1,
+    "missing_stderr": "ld: start.o: in function `_start':\n(.text+0x1): undefined reference to `answer'\n",
+    "duplicate_exit": 1,
+    "duplicate_stderr": "ld: answer.o: in function `answer':\nanswer.c:(.text+0x0): multiple definition of `answer'; answer.o:answer.c:(.text+0x0): first defined here\n"
+  },
+  "tests": {
+    "build_variants": 4,
+    "all_exit_42": true,
+    "independent_ELF_byte_checks": true,
+    "missing_and_duplicate_failures": true
+  }
+}
