@@ -15550,6 +15550,136 @@
     "sha256": "abb1ea166b91b6d22ca5c029110a6fb868a555b8edc2fa75f27281e42e97ff76"
   },
   {
+    "path": "articles/2026-10-14-pll-follow-reference/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/01-actual-locking.png",
+    "bytes": 95413,
+    "sha256": "e486c177671e96ac7099571ff668ad0a01feb30880c98254fc95ad4a1857ca03"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/02-real-pll-module.jpg",
+    "bytes": 27870,
+    "sha256": "a19d752c85676a9d2adadec129a57791bba4da49756892be9ff1a36f76b0bd86"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/03-period-frequency.png",
+    "bytes": 79498,
+    "sha256": "eb22ecbcc2e0e98ad3ad56185c505a4a1c4c6bef95976ac7fdcecaf67e9af11c"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/04-same-frequency-phase.png",
+    "bytes": 64530,
+    "sha256": "ac100052edc55115798f3ceea9b313f01d7c03faf76c8a07a589668c1485cb4c"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/05-frequency-drift.png",
+    "bytes": 64362,
+    "sha256": "262fb59eef9624a6e69a2144864fd4263a44115a6891b88557a921e606fce9e7"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/06-phase-circle.png",
+    "bytes": 95811,
+    "sha256": "b451f36199d668180e53f29d595a791ccbcafb3dc7cfc9b274fc5a155fda0172"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/07-wrapped-error.png",
+    "bytes": 85539,
+    "sha256": "715a91899bae001053944606086a18799464bb2915f90cda0bd255270a362908"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/08-loop-structure.png",
+    "bytes": 114779,
+    "sha256": "a6abadd529946fd9bdbe8bcfa1c1a999f3820b70e8911dcbdbd995a19559c310"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/09-first-control-step.png",
+    "bytes": 98379,
+    "sha256": "1d904532d7bfb74e9c7323a8edc1d6b35942f4c2535111db0d4b534b22dfc8ee"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/10-three-checks.png",
+    "bytes": 85400,
+    "sha256": "747b09e4377c0478a0d75522fdc2081c0abc600d56eafc4ea2925b918caf4758"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/11-lock-transient.png",
+    "bytes": 90569,
+    "sha256": "828b1ec4c8b25dc1bc0074afb75d3e9b3b41204cf44dd94eb487530a8dd10e28"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/12-p-only-phase-offset.png",
+    "bytes": 91495,
+    "sha256": "03d98ba7e88843a756f4c9f567541ab1ad40716293688b412b2c509b60940153"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/13-divider-multiplier.png",
+    "bytes": 61695,
+    "sha256": "ed3351735003f20951b7202056e675376027607edf852eb4934bbfd7b414c1b4"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/14-tracking-speed.png",
+    "bytes": 75510,
+    "sha256": "c5bab4a3a800df9357e7cafb66cf4dbc73dfd3393d75d6e66f459f3572317377"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/15-two-noise-sources.png",
+    "bytes": 133578,
+    "sha256": "28ac25872ea92a42d0feb29c6df02eb9ba2635473d49e7fedc937059f1aab393"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/16-noise-tradeoff.png",
+    "bytes": 108859,
+    "sha256": "c7e73ae64905f8f186d5d2e0c56a44f40a9b47b57d646e193d19a9111830372e"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/17-sampling-alias.png",
+    "bytes": 91785,
+    "sha256": "49ea65c0ec7df5fd4c1ad16141c4a80cb90c17032df3b2b8bacd660a381f700b"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/assets/18-real-pll-chip.jpg",
+    "bytes": 46770,
+    "sha256": "123d85a3384cbf046d82ad5e48332c412f50e2a9a11fb8385921d263fb98650d"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/cover.png",
+    "bytes": 36390,
+    "sha256": "0ae507f7141a8af3c4d470bd57ef9dc3c2ebabbb9d8d2d81628d4bd5f180936f"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/examples/build_figures.py",
+    "bytes": 15752,
+    "sha256": "ac31c84d0b0cf62d827e89276606db502c10736a62b820817a227b7f9aed4f61"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/examples/expected-results.json",
+    "bytes": 443514,
+    "sha256": "28155d7d921bef49569c9e2519725358257e738c83cc3227c41b9a7958042035"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/examples/figure-metadata.json",
+    "bytes": 5101,
+    "sha256": "abb3655df4b251280f4af71a8d8aec28bd603f8f9ec4ef8e122c30c3d8fdf634"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/examples/simulate.py",
+    "bytes": 6503,
+    "sha256": "7c3d7cd0eaac0a73404aec6208a858cc9d84306d56d52850a0cfe90cc19f8da5"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/originals/braun-2023-fig1-pdf-extracted-000.jpg",
+    "bytes": 27870,
+    "sha256": "a19d752c85676a9d2adadec129a57791bba4da49756892be9ff1a36f76b0bd86"
+  },
+  {
+    "path": "articles/2026-10-14-pll-follow-reference/originals/braun-2023-p4-extracted-000.jpg",
+    "bytes": 46770,
+    "sha256": "123d85a3384cbf046d82ad5e48332c412f50e2a9a11fb8385921d263fb98650d"
+  },
+  {
     "path": "articles/2026-10-14-stable-fluids-follow-air/LICENSE-CODE.txt",
     "bytes": 1066,
     "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"

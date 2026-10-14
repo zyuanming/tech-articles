@@ -1,0 +1,155 @@
+[
+  {
+    "file": "assets/01-actual-locking.png",
+    "purpose": "同一运行的初期与后期边沿，给出可感知的锁定对象",
+    "evidence": "results.json main output phase, piecewise linear interpolation",
+    "width": 1062,
+    "height": 1160,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/03-period-frequency.png",
+    "purpose": "把Hz、周期、时间轴与实际重复次数连在一起",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/04-same-frequency-phase.png",
+    "purpose": "同周期固定延迟的边沿，区别频率一致和零相差",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 820,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/05-frequency-drift.png",
+    "purpose": "累计相差由频差产生；连接同序号周期避免混数",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 850,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/06-phase-circle.png",
+    "purpose": "引入圈作为相位单位，和参考领先误差符号绑定",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/07-wrapped-error.png",
+    "purpose": "具体跨周期例解释wrap误差与测量歧义，而非把负误差一律当后退",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 980,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/08-loop-structure.png",
+    "purpose": "可追踪的反馈通路，把鉴相、PI和相位推进接起来",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 1250,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/09-first-control-step.png",
+    "purpose": "所有数字单位和更新次序落实到同一0.1秒样本",
+    "evidence": "results.json main[0]",
+    "width": 1062,
+    "height": 1180,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/10-three-checks.png",
+    "purpose": "实际前三行不把误差瞬间消失；累计项逐步积累",
+    "evidence": "results.json main[0:3]",
+    "width": 1062,
+    "height": 830,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/11-lock-transient.png",
+    "purpose": "分开画频率和相位误差，使锁定和初期调整可观察",
+    "evidence": "results.json main",
+    "width": 1062,
+    "height": 1300,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/12-p-only-phase-offset.png",
+    "purpose": "P与PI相位波形实证固定相差与锁定不冲突",
+    "evidence": "results.json ponly/main phase24..27",
+    "width": 1062,
+    "height": 1250,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/13-divider-multiplier.png",
+    "purpose": "数同一时间窗周期数，把反馈除N推到输出N倍而不称脉冲被凭空复制",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 1100,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/14-tracking-speed.png",
+    "purpose": "相同参考频率变化下的两组增益响应和明确误差带",
+    "evidence": "comparisons.npz tracking; results.json tests",
+    "width": 1062,
+    "height": 1070,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/15-two-noise-sources.png",
+    "purpose": "先把参考端与本振内的噪声加入位置分开，避免窄带全能误解",
+    "evidence": "Original teaching diagram",
+    "width": 1062,
+    "height": 1080,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/16-noise-tradeoff.png",
+    "purpose": "同一快慢环路对两种明确扰动的计算RMS，标清不同纵轴",
+    "evidence": "results.json tests.noise_rms_cycles; 100<=t<125",
+    "width": 1062,
+    "height": 1370,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/17-sampling-alias.png",
+    "purpose": "具体1Hz/11Hz采样混叠揭示短相差测量不能担保任意捕获",
+    "evidence": "results.json alias, all measured error near0",
+    "width": 1062,
+    "height": 1210,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "cover.png",
+    "purpose": "独立封面：主实验锁定后真实计算波形",
+    "evidence": "results.json main24..27",
+    "width": 1062,
+    "height": 1062,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334
+  }
+]

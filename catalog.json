@@ -1874,6 +1874,17 @@
     "images": 27
   },
   {
+    "id": "2026-10-14-pll-follow-reference",
+    "title": "芯片里的时钟，怎样追上另一串节拍？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-pll-follow-reference/read.md",
+    "public_sha256": "315dae835fce04daf9893731cd9efd113a7e04195f53aa1b2f79c42e9bdceed9",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-14-stable-fluids-follow-air",
     "title": "游戏里的烟，怎样跟着空气卷起来？",
     "date": "2026-10-14",
