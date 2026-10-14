@@ -1,0 +1,190 @@
+[
+  {
+    "file": "assets/01-real-woven-portrait.jpg",
+    "purpose": "真实1839丝织肖像作为问题起点；画面内的卡片和机器是织成的图像，不是实物照片",
+    "identity": "Real museum image; no generative retouching",
+    "source": "originals/met-222531-DP109795.jpg",
+    "source_size": [
+      2560,
+      3008
+    ],
+    "crop_xyxy": null,
+    "width": 1062,
+    "height": 1248
+  },
+  {
+    "file": "assets/02-weave-crossings.png",
+    "purpose": "先识别经纬两方向与交点上下关系，建立蓝经金纬约定",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/03-shed-and-pick.png",
+    "purpose": "端视梭口与俯视同一纬对应，解释提升选择的实际用途",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1390,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/04-real-double-loom.jpg",
+    "purpose": "1851双式提花织机真实照片，显示高位控制机构、悬垂绳束、下方织机及卡链",
+    "identity": "Real museum image; no generative retouching",
+    "source": "originals/getty-107VAW-double-jacquard-1851.jpg",
+    "source_size": [
+      6432,
+      9764
+    ],
+    "crop_xyxy": [
+      500,
+      1700,
+      5150,
+      7520
+    ],
+    "width": 1062,
+    "height": 1329
+  },
+  {
+    "file": "assets/05-card-eight-choices.png",
+    "purpose": "单次8位教学卡与经线身份对应，孔只是选择信息",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1170,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/06-historical-needle-hooks.jpg",
+    "purpose": "Posselt1888原图VII：横针、竖钩、上部提升刀与右侧弹簧的真实历史结构图",
+    "identity": "Public-domain historical technical illustration, native-size verbatim copy",
+    "source": "originals/posselt-1888-i_014a.jpg",
+    "source_size": [
+      393,
+      600
+    ],
+    "crop_xyxy": null,
+    "width": 393,
+    "height": 600
+  },
+  {
+    "file": "assets/07-hole-or-solid.png",
+    "purpose": "按同一方向展示孔让针通行、实部推针并让钩错开提升刀",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1580,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/08-lift-selected-hooks.png",
+    "purpose": "抓取位置与刀架上升后的因果；明确退卡和上升并非严格串行",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1270,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/09-hook-to-thread.png",
+    "purpose": "经线经过综眼而非系死在钩上，配重和连接绳的作用",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1160,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/10-cylinder-and-chain.png",
+    "purpose": "原书实证四棱承卡面和串卡；原图XV没有画图案孔",
+    "identity": "Public-domain Posselt1888 Figs IX,XV; resized and paired with Chinese labels",
+    "width": 1062,
+    "height": 1040,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/11-advance-cards.png",
+    "purpose": "侧面读卡、退出针尖后分度，卡筒四面不等于只容四张卡",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1490,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/12-real-card-chain.jpg",
+    "purpose": "同一1851真实照片右侧卡链局部；与书中卡链示意对照，不把织物中画出的卡当实物",
+    "identity": "Real museum image; no generative retouching",
+    "source": "originals/getty-107VAW-double-jacquard-1851.jpg",
+    "source_size": [
+      6432,
+      9764
+    ],
+    "crop_xyxy": [
+      3050,
+      2750,
+      4700,
+      4500
+    ],
+    "width": 1062,
+    "height": 1126
+  },
+  {
+    "file": "assets/13-four-cards-weave.png",
+    "purpose": "8位卡序列逐纬映射到交织，四张卡重复两次形成8纬",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1500,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/14-one-hook-repeats.png",
+    "purpose": "连接映射决定一钩多线及重复图案的代价",
+    "identity": "Posselt1888 FigXXV resized plus original one-hook three-repeat sketch",
+    "width": 1062,
+    "height": 1440,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/15-float-limit.png",
+    "purpose": "全1卡串可以选线却不能自动保证交织结构，限制像素类比",
+    "identity": "Original explanatory diagram; not a loom measurement",
+    "width": 1062,
+    "height": 1160,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/16-historic-design-stages.png",
+    "purpose": "原书四阶段区分外轮廓、组织设计与效果；未冒称实物照片",
+    "identity": "Public-domain Posselt1888 Appendix Figs89–92, resized and arranged; original files retained",
+    "width": 1062,
+    "height": 1640,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/17-real-weave-detail.jpg",
+    "purpose": "开篇同一1839织物的局部细看；不补出原件没有的纱线细节",
+    "identity": "Real museum image; no generative retouching",
+    "source": "originals/met-222531-DP109795.jpg",
+    "source_size": [
+      2560,
+      3008
+    ],
+    "crop_xyxy": [
+      925,
+      770,
+      1845,
+      1690
+    ],
+    "width": 1062,
+    "height": 1062
+  }
+]

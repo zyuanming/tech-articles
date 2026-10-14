@@ -1,0 +1,15 @@
+SQLite local experiment — no network service
+Python 3.12.14; SQLite 3.53.1
+unsafe_response_ignored: rooms=2 receipts=0 markers=0
+safe_response_ignored: rooms=1 receipts=1 markers=0
+new_intent_same_parameters: rooms=2 receipts=2 markers=0
+same_key_different_parameters: rooms=1 receipts=1 markers=0
+same_key_different_actor: rooms=2 receipts=2 markers=0
+before_commit: rooms=1 receipts=1 markers=0
+after_commit: rooms=1 receipts=1 markers=0
+effect_first: rooms=2 receipts=1 markers=0
+marker_first: rooms=0 receipts=0 markers=1
+concurrent_same_key: rooms=1 receipts=1 markers=0
+receipt_expired: rooms=2 receipts=1 markers=0
+resource_lifecycle: rooms=1 receipts=1 markers=0
+All asserted outcomes: PASS

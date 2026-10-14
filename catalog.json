@@ -1874,12 +1874,45 @@
     "images": 27
   },
   {
+    "id": "2026-10-14-idempotency-retry-room",
+    "title": "点了“创建房间”却没回音，再点一次安全吗？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-idempotency-retry-room/read.md",
+    "public_sha256": "fc5a0311b834145c29aa3843ee027d419f97d6c1f3d24fae79f2a0d06e8c0382",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-14-jacquard-cards-weave",
+    "title": "打孔卡，怎样让织机织出花纹？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-jacquard-cards-weave/read.md",
+    "public_sha256": "3a385e1ed12f14916d11bd0b0d625d4c96277718483537fdcad76639ee54c055",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-14-pll-follow-reference",
     "title": "芯片里的时钟，怎样追上另一串节拍？",
     "date": "2026-10-14",
     "path": "articles/2026-10-14-pll-follow-reference/read.md",
     "public_sha256": "315dae835fce04daf9893731cd9efd113a7e04195f53aa1b2f79c42e9bdceed9",
     "images": 18,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-14-ransac-find-line",
+    "title": "一堆点里混了干扰，程序怎样找出直线？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-ransac-find-line/read.md",
+    "public_sha256": "165bac610abd063977cf1ce02e4bad670afa58863632d890c69e1a70b29fb7fc",
+    "images": 14,
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"

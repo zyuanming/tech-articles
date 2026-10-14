@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "journal_mode": "DELETE",
+  "synchronous": "FULL",
+  "connection_timeout_seconds": 10,
+  "concurrency": "two threads, separate SQLite connections, common barrier; all writers serialized by BEGIN IMMEDIATE",
+  "child_crashes": "os._exit at four explicit points; not OS/power/device failures"
+}

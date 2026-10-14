@@ -1,0 +1,19 @@
+{
+  "identity": "Original 8-warp explanatory organization charts, not original loom measurements",
+  "warp_count": 8,
+  "plain_cards": [
+    "10101010",
+    "01010101"
+  ],
+  "twill_cards": [
+    "11001100",
+    "01100110",
+    "00110011",
+    "10011001"
+  ],
+  "time_direction": "Rows shown top to bottom are successive picks; chart layout is not physical loom direction",
+  "one": "Warp lies above this pick in the specified single-lift teaching setup",
+  "zero": "Warp remains below this pick",
+  "scope": "one hook per warp only in the 8-warp teaching model; real repeated harnesses may connect several warp ends to a hook",
+  "colors": "Blue warp and gold weft already installed; card does not create pigment"
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "file": "assets/01-no-reply-two-worlds.png",
+    "purpose": "从玩家相同观察区分未执行和已执行两种隐藏状态",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1530,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/02-unsafe-real-rows.png",
+    "purpose": "真实两次INSERT后的两行数据，不把无回音当没创建",
+    "identity": "Faithful typesetting of actual SQLite results, not a terminal screenshot",
+    "width": 1062,
+    "height": 1130,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/03-intent-and-retry.png",
+    "purpose": "重复送达的同次意图与参数相同的新意图区别，建立K17/K18身份",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1330,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/04-room-and-receipt.png",
+    "purpose": "展示实际资源与意图回执字段，区别房间号和操作键",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1390,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/05-one-transaction.png",
+    "purpose": "把首次执行和重放分支走通，明确记录与副作用一起提交的边界",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1580,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/06-safe-real-result.png",
+    "purpose": "实际重试所得状态码与结果一致，区分处理请求与重复副作用",
+    "identity": "Faithful typesetting of actual SQLite results, not an HTTP capture or terminal screenshot",
+    "width": 1062,
+    "height": 1280,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/07-two-bad-orders.png",
+    "purpose": "用实际两个非原子终止案例说明资源先/记号先都有失配窗口",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1470,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/08-process-exit-real.png",
+    "purpose": "真实进程退出前后再连接的0/0或1/1记录，与重试之后1/1区分",
+    "identity": "Faithful chart of actual child-process exit and SQLite row counts; not a power-loss experiment",
+    "width": 1062,
+    "height": 1490,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/09-concurrent-callers.png",
+    "purpose": "两个连接同键竞争与串行写事务的实际结果，不暗示SELECT自身可防重",
+    "identity": "Original concurrency diagram plus faithful summary of actual two-thread SQLite results",
+    "width": 1062,
+    "height": 1350,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/10-key-parameter-conflict.png",
+    "purpose": "具体同键异参冲突与拒绝结果，避免幂等变为静默错配",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1190,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/11-retention-boundary.png",
+    "purpose": "实际清理回执后迟到重试的反例，图区分仍存在的原资源与已遗忘的意图",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1480,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/12-resource-lifecycle.png",
+    "purpose": "实际关闭房间后重放原结果，区分操作历史与当前资源生命周期",
+    "identity": "Faithful chart of actual closed-resource and replayed-receipt experiment",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/13-external-effect-boundary.png",
+    "purpose": "把本地原子边界与外部副作用隔开，不承诺全系统exactly-once",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1280,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/14-client-intent-lifecycle.png",
+    "purpose": "把用户动作与意图生命周期收拢，超时不自动换编号",
+    "identity": "Original explanatory diagram, not a product screenshot",
+    "width": 1062,
+    "height": 1260,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  }
+]

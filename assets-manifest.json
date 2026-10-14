@@ -15550,6 +15550,291 @@
     "sha256": "abb1ea166b91b6d22ca5c029110a6fb868a555b8edc2fa75f27281e42e97ff76"
   },
   {
+    "path": "articles/2026-10-14-idempotency-retry-room/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/01-no-reply-two-worlds.png",
+    "bytes": 131457,
+    "sha256": "ce66ec6b53126d42a09c041e3383ee78643b45834839ce7b9feb6be4753bfc47"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/02-unsafe-real-rows.png",
+    "bytes": 103577,
+    "sha256": "09e2a4fd5fa8106f4e5dcd362ba3da3637d1f3299b8c8c56b92fcbce0c1ef30c"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/03-intent-and-retry.png",
+    "bytes": 134921,
+    "sha256": "7f0ac97bb18912c43f996531bb360445deb0be068dd32cc2b6b27932b985afb2"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/04-room-and-receipt.png",
+    "bytes": 153072,
+    "sha256": "5b22569c889ed5c66c7e49af1041ca391133574335638044def5fa56e1e64bfa"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/05-one-transaction.png",
+    "bytes": 149027,
+    "sha256": "02dff1057c205b1947ad1bf675d0b4efe212c29f38f630f6caf4ac25b82f4303"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/06-safe-real-result.png",
+    "bytes": 121580,
+    "sha256": "b42e2cf95846b71c8789d5924e280212c8ad5f3ab6f27e7f1a108a8c6d0d5109"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/07-two-bad-orders.png",
+    "bytes": 142467,
+    "sha256": "b89ec7535e70686d2e5fe0486e675fda8df07825427a02db0f4ef47bbfb6ef59"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/08-process-exit-real.png",
+    "bytes": 164895,
+    "sha256": "c75da23d465e1533ba2743abd422c4cecbfe9560d9cd532743922343139944c7"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/09-concurrent-callers.png",
+    "bytes": 117660,
+    "sha256": "508e7f5a2b204a3bc55fe69520843d2f0f1bb92581f5bbb5cc2aed6ba2c3d6c3"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/10-key-parameter-conflict.png",
+    "bytes": 111308,
+    "sha256": "3fd3611bd7e7473e017f05eb88a62b70019e74d0eb47053c44b53e116b3f5fc8"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/11-retention-boundary.png",
+    "bytes": 126998,
+    "sha256": "257b93cf98f6877c6a4cbbc2f1ef5053071a7fd1eee01b5784a76b406a70dabf"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/12-resource-lifecycle.png",
+    "bytes": 103862,
+    "sha256": "58e508f3a30b918ceb304ea34e0b268aea9e287ec1e061b20638972d052d8088"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/13-external-effect-boundary.png",
+    "bytes": 112772,
+    "sha256": "7016ed41fe88b3c625b113881b402c04d00bff7e29f476b797d014d655560a6f"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/assets/14-client-intent-lifecycle.png",
+    "bytes": 100029,
+    "sha256": "431a0bd0df362afcf22071fce96ec18aa17471b9ea2642acdabf861c55ebf4df"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/cover.png",
+    "bytes": 46432,
+    "sha256": "bfe7002d45125fc7d08d4524e33af10ce4139458853c1cc42325b64ab5afc12b"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/examples/build_figures.py",
+    "bytes": 16806,
+    "sha256": "8d7b2ff9ddf42b04e03dd710703b305e9106143bba721b3d9ebf70370d1605ff"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/examples/expected-results.json",
+    "bytes": 12429,
+    "sha256": "48a8041862eec07383160c9c34f0effa329522cee5324ab95697dba12f21a633"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/examples/figure-metadata.json",
+    "bytes": 4950,
+    "sha256": "981b3b89962a1e04ee906b2effabe761dde2c22277c7adebbbac1a3120d5e416"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/examples/run-environment.json",
+    "bytes": 342,
+    "sha256": "32a25c58023e75df2f6283b8b010e98fa2fea950ee6874ce5ecaf9f42b645baf"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/examples/run_experiment.py",
+    "bytes": 11359,
+    "sha256": "2dba79b34c807088f636fba753647052b494dd98e2ecc6caac4f38ed5ede3826"
+  },
+  {
+    "path": "articles/2026-10-14-idempotency-retry-room/originals/experiment-stdout.txt",
+    "bytes": 701,
+    "sha256": "47e5d5410c71de675c775febec1bdd24f550cb64bb42f17a01143158950b58f4"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/01-real-woven-portrait.jpg",
+    "bytes": 745686,
+    "sha256": "1c0b0413841c07fae029034be701636a7cdd41703c1b9799b4ada629aae1a40b"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/02-weave-crossings.png",
+    "bytes": 86022,
+    "sha256": "417243c99ed3d60f89519180e3a9d2dd8cce3d6925b54b52e85e8d3da36d95fc"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/03-shed-and-pick.png",
+    "bytes": 120486,
+    "sha256": "7c6bea43f54efe761e78294d7723d662d364d1082f1d8d571f6489fe3774354c"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/04-real-double-loom.jpg",
+    "bytes": 418372,
+    "sha256": "0aa68d5d7fd14597509ae204975d1e640f11c056639d82bc8aa79345d9efe73b"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/05-card-eight-choices.png",
+    "bytes": 74726,
+    "sha256": "bffe9bd0a39d4d8b44d8884e2ea4321e5e5da0f45b7555fc3b682d87caf7ffdb"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/06-historical-needle-hooks.jpg",
+    "bytes": 32767,
+    "sha256": "36b3e3e215546e1616b39e6698b1f5f497d1829cd45ee20236d634b49439b111"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/07-hole-or-solid.png",
+    "bytes": 130790,
+    "sha256": "5fb51945493dc9a8b44c2d8ab928eb48927ab79b96020e5c12e167eb4628dfcd"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/08-lift-selected-hooks.png",
+    "bytes": 82354,
+    "sha256": "3df9712fdc9fa5a596999739f0419bca1e8c4bb9f43158fcb6a09294f8f5813b"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/09-hook-to-thread.png",
+    "bytes": 93117,
+    "sha256": "7d706cabf17c02c798eb29cc897173bb87599fd35aaa2bed4e1ab5783cc02130"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/10-cylinder-and-chain.png",
+    "bytes": 320305,
+    "sha256": "876d4e515c25adc389880a4760a9a121ffd0f84b0a1496165dd6842db38b12b5"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/11-advance-cards.png",
+    "bytes": 120641,
+    "sha256": "9dc471cb74c4aadd34818e40b711b3c1b6c37d415bc74afa1dc2a748f8c41a61"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/12-real-card-chain.jpg",
+    "bytes": 338021,
+    "sha256": "34c3c33ea079ec2fd33ad01c969b62a25398c3e5fbfd8fcada481739eec7881b"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/13-four-cards-weave.png",
+    "bytes": 115978,
+    "sha256": "588d39e49aacbfd43a0def242629b22b711583c42547e332d620aec01869942b"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/14-one-hook-repeats.png",
+    "bytes": 391603,
+    "sha256": "11382399cc281524da7e33b0bd966ed9a980abb38bdeeead4fc93de8583d4a3d"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/15-float-limit.png",
+    "bytes": 98083,
+    "sha256": "6f425e83f135787a9590cd43db1ddf575feed2934ee331524e2acb79d85e9976"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/16-historic-design-stages.png",
+    "bytes": 1163475,
+    "sha256": "a6fbc834beb8badb9f3f72b6fd08273b02538732d6efcf687e6862c0b4290e28"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/assets/17-real-weave-detail.jpg",
+    "bytes": 905540,
+    "sha256": "ac152c8508c609218b7f1738df8af5d1f0475f8c07c1dcaf46d25ace25f1cfc5"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/cover.png",
+    "bytes": 38517,
+    "sha256": "ea0709e9b51b3357b5a654c9d587ee0fbd458e016f88cb6b4cd680d7fa6fe7b1"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/examples/build_figures.py",
+    "bytes": 15157,
+    "sha256": "f1f9fc135fc4187d292f641810b23eb28592dc81d25d1becdfe14fc95ce81f69"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/examples/figure-metadata.json",
+    "bytes": 6283,
+    "sha256": "42f29d0c5c3222840b1090bcc05218dfbc235ec98bfc45fc8e448e4094534284"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/examples/model-cards.json",
+    "bytes": 717,
+    "sha256": "2c0db665888e7019f0acfdf32eecfe98a3d584db965f27a5752a7ee88ffd6046"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/getty-107VAW-double-jacquard-1851.jpg",
+    "bytes": 7512248,
+    "sha256": "da39ad71a0746a34262b75587ec8bf20a215cc8c2579b1d20486de972f695089"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/met-222531-DP109795.jpg",
+    "bytes": 2545618,
+    "sha256": "5bd77242dc0420275834b193be22ce01390a8aadec57eb1249962ff2bec4f357"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_014a.jpg",
+    "bytes": 32767,
+    "sha256": "36b3e3e215546e1616b39e6698b1f5f497d1829cd45ee20236d634b49439b111"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_016.jpg",
+    "bytes": 18473,
+    "sha256": "908ff3c97d6fb7e1daa8fab6927c2050fd96cac430d4c3d81ee80af3a197fb1c"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_018a.jpg",
+    "bytes": 5661,
+    "sha256": "22c03e115fdb4576a4d4631c9ee24e84d53490358e328e196b2c5f501e718dae"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_019.jpg",
+    "bytes": 23692,
+    "sha256": "dfa7e8e47513eae9e8f664c08d43501d9cf0ac9a34477e269200e0a025856174"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_024.jpg",
+    "bytes": 39900,
+    "sha256": "ecdea68e9858809f04da9c043d87c9544c6028d509f212ea098b62f8d9a76466"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_091a.jpg",
+    "bytes": 18795,
+    "sha256": "4040a5207ae223bd98b813e6508721394d5f57840755d554c7032e946d15db59"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_091b.jpg",
+    "bytes": 12214,
+    "sha256": "845665490abd038f28ba3a00dbd0f103bdd913facb4223cfa4fab7e3b7a3fe94"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_115.jpg",
+    "bytes": 15497,
+    "sha256": "f71b31fba2a6236ef234bd3773913be1ae0568f26c9ff9804ad3b97228b9468c"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_115a.jpg",
+    "bytes": 21671,
+    "sha256": "ee496b4567d446abccdacf67a31406f3b41e1b919191ce5292827f9ee67330c0"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_115b.jpg",
+    "bytes": 24112,
+    "sha256": "38aac2b93add5d9f666029c9ee42de6e1200c2a9a08213f3da1694e10efdb087"
+  },
+  {
+    "path": "articles/2026-10-14-jacquard-cards-weave/originals/posselt-1888-i_116.jpg",
+    "bytes": 28434,
+    "sha256": "d9ccd122b11fed448d2a6d717f7dd4e6901580c2512f39a3f24ad39e4a5434c9"
+  },
+  {
     "path": "articles/2026-10-14-pll-follow-reference/LICENSE-CODE.txt",
     "bytes": 1066,
     "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
@@ -15678,6 +15963,111 @@
     "path": "articles/2026-10-14-pll-follow-reference/originals/braun-2023-p4-extracted-000.jpg",
     "bytes": 46770,
     "sha256": "123d85a3384cbf046d82ad5e48332c412f50e2a9a11fb8385921d263fb98650d"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/01-fit-comparison.png",
+    "bytes": 74217,
+    "sha256": "202a7db08de0c76c80974961a5ba3f3db1358bebcb03db8f3eab42a7753b0b0f"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/02-real-photo-roi.png",
+    "bytes": 1798420,
+    "sha256": "fd42d5679f89ffc35958458ec8e69e4a846852f3ea9dee1ddc068ddbd7197191"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/03-point-coordinates.png",
+    "bytes": 71727,
+    "sha256": "74694150b8aabc7a5d87bf71b548b9b173b3cac225403e7361057c49ed2f7ca1"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/04-squared-residual.png",
+    "bytes": 110928,
+    "sha256": "2160622e669d76ca756a08aec9e34f96041bc5c46842d1616654576ec7e8470d"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/05-two-point-line.png",
+    "bytes": 71453,
+    "sha256": "8ae7a1486db6dba9baf03f4576a6d24b4cfef74b7f8816ca35a0177406491f87"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/06-threshold-vote.png",
+    "bytes": 103210,
+    "sha256": "9277a27c831a9b683794585f83d4b4a1da0af5b606968cc0ee4b2a259202edbe"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/07-candidate-comparison.png",
+    "bytes": 144098,
+    "sha256": "3759e4b96850434ee4eeaa52dd0018ccde27119d73d5e609deb685d10db2272b"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/08-rounds-best.png",
+    "bytes": 94959,
+    "sha256": "b9144b82ac14b8e790654708e50fa190cc53f9c59dd88364298cb5eb07b7fffd"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/09-refit-detail.png",
+    "bytes": 81259,
+    "sha256": "2bb7f4ece31a5f71508e0383eabe6a1bfc4261aac1d0c8123da9e196134bae6c"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/10-threshold-comparison.png",
+    "bytes": 149699,
+    "sha256": "544621f7a2e3150fda7c962680187aa5ed38e0509a1f9881f9e5a09e446beb03"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/11-sampling-probability.png",
+    "bytes": 128722,
+    "sha256": "1e67ab5451e833a68553a8c71ae2118496aac9f5e269cd9cb27b5df509682a38"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/12-good-pair-can-fail.png",
+    "bytes": 88220,
+    "sha256": "362f4cdbe565d49742eb41e3a2bce969ddfe1b75779798eb1b1275aa9c94f3b8"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/13-photo-edge-points.png",
+    "bytes": 278870,
+    "sha256": "447c7cd325a57fcabd81f039601908f71303e922b437cee9648eb49e2111765b"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/assets/14-photo-fit-result.png",
+    "bytes": 722445,
+    "sha256": "d2f0c2a0d6adb8f7de0abdb637684268b67327e452210142270c776700c43d7e"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/cover.png",
+    "bytes": 46952,
+    "sha256": "87ad32d078103ce188190afa33a2ffbd13ef2dbb34e8018fec66d1dcebab85f6"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/examples/build_figures.py",
+    "bytes": 14270,
+    "sha256": "efaa1d740843e2cdb44b937b369c1dd71d23068c00823b70c644d82808b63b6f"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/examples/expected-results.json",
+    "bytes": 390948,
+    "sha256": "68ffca12ea775d58a8b3da319f076f2bd77f618d5f7928c9e5e293ffbfb98daa"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/examples/figure-metadata.json",
+    "bytes": 4280,
+    "sha256": "c421e36d4f8e99b5fa1dfcf0159ada788968509875116121c36752bf49ea3795"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/examples/simulate.py",
+    "bytes": 4957,
+    "sha256": "5d665ed3b64877cf910c4285f79e7b41924fcf19c5c030556305502d2154810a"
+  },
+  {
+    "path": "articles/2026-10-14-ransac-find-line/originals/usgs-bridges-DSCN0281.jpg",
+    "bytes": 5216398,
+    "sha256": "3bae50624ad26e6ac520fb3b015fdb8a53854490d9f04d2c13cf9bc669bd0d38"
   },
   {
     "path": "articles/2026-10-14-stable-fluids-follow-air/LICENSE-CODE.txt",

@@ -1,0 +1,128 @@
+[
+  {
+    "file": "assets/01-fit-comparison.png",
+    "purpose": "看见全点最小二乘与RANSAC在相同数据上的不同结果",
+    "evidence": "results.json main",
+    "width": 1062,
+    "height": 1050,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/02-real-photo-roi.png",
+    "purpose": "完整真图提供现实对象，并显式标记人为限定的输入区域",
+    "evidence": "USGS original photo resized; rectangle added; original retained",
+    "width": 1062,
+    "height": 1635,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/03-point-coordinates.png",
+    "purpose": "坐标轴、单位和点名建立同一12点贯穿例子",
+    "evidence": "Original explanatory diagram",
+    "width": 1062,
+    "height": 1100,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/04-squared-residual.png",
+    "purpose": "用同组B与L代入平方，解释全点OLS为何可能受远点影响",
+    "evidence": "Original explanatory diagram",
+    "width": 1062,
+    "height": 1080,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/05-two-point-line.png",
+    "purpose": "在坐标动作上计算斜率和截距；其余红点只表示未被抽中",
+    "evidence": "Original explanatory diagram",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/06-threshold-vote.png",
+    "purpose": "同一候选的所有点分类，并放大B的实际阈值区间",
+    "evidence": "Original explanatory diagram",
+    "width": 1062,
+    "height": 1320,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/07-candidate-comparison.png",
+    "purpose": "坏样本、主结构和另一条小结构逐轮比较",
+    "evidence": "results.json first, second, fourth candidates",
+    "width": 1062,
+    "height": 2410,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/08-rounds-best.png",
+    "purpose": "实际12轮本轮分数与保存分数区别",
+    "evidence": "results.json main rounds",
+    "width": 1062,
+    "height": 1080,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/09-refit-detail.png",
+    "purpose": "改用明确的偏差坐标看微调，避免原图上几乎重合的两线假装巨大改善",
+    "evidence": "results.json main refit",
+    "width": 1062,
+    "height": 1080,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/10-threshold-comparison.png",
+    "purpose": "固定模型隔离阈值，显示太窄排除噪声点、太宽吞进其他结构",
+    "evidence": "Original explanatory diagram",
+    "width": 1062,
+    "height": 2410,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/11-sampling-probability.png",
+    "purpose": "无放回一轮中的分母变化与跨轮至少一次事件",
+    "evidence": "results.json probability; exact enumeration of66pairs",
+    "width": 1062,
+    "height": 1260,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/12-good-pair-can-fail.png",
+    "purpose": "用真实已知生成内点反例区分抽到好标签和拟合正确",
+    "evidence": "results.json close_C_D",
+    "width": 1062,
+    "height": 1110,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/13-photo-edge-points.png",
+    "purpose": "真实局部、单列灰度差剖面与坐标输出，解释图像到点的转换",
+    "evidence": "Original photo crop, recorded photo-data.npz gradient profile",
+    "width": 1062,
+    "height": 1210,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/14-photo-fit-result.png",
+    "purpose": "真实候选全部保留，两次mask分别展示，重分类成员不是悄悄变化",
+    "evidence": "results.json photo run; original photo crop and overlays",
+    "width": 1062,
+    "height": 1930,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  }
+]
