@@ -7,6 +7,7 @@ from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from playwright.sync_api import sync_playwright
 from exploration_scope import exploration_articles, supplementary_visuals
+from image_decode_diagnostics import NetworkDiagnostics
 ROOT=Path(__file__).resolve().parents[1]
 ART=ROOT/'qa-artifacts';ART.mkdir(exist_ok=True)
 server=None
@@ -22,9 +23,7 @@ assert expected_mvcc_images > 0
 results=[]
 
 def decode_images(page):
- page.locator('img').evaluate_all("imgs => imgs.forEach(i => i.loading = 'eager')")
- page.wait_for_function("Array.from(document.images).every(i => i.complete && i.naturalWidth > 0)")
- page.locator('img').evaluate_all("imgs => Promise.all(imgs.map(i => i.decode()))")
+ diagnostics.decode_images()
 
 def settle_paint(page):
  page.evaluate("async () => { await document.fonts.ready; await new Promise(requestAnimationFrame); await new Promise(requestAnimationFrame); }")
@@ -51,8 +50,9 @@ try:
   browser=pw.chromium.launch()
   for label,width,height in [('desktop',1440,1000),('mobile',390,844)]:
    page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1)
+   diagnostics=NetworkDiagnostics(page,url,ART/'network-diagnostics.jsonl',label)
    errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-   page.goto(url,wait_until='networkidle')
+   diagnostics.goto(url,wait_until='networkidle')
    assert page.locator('.cards li').count()==len(catalog)
    page.screenshot(path=str(ART/(label+'-home.png')),full_page=False)
    page.locator('#search').fill(mvcc['title'])
@@ -72,14 +72,14 @@ try:
    assert page.locator('.cards li:visible').count()==sum(a['date']=='2026-10-11' for a in catalog)
    page.reload();page.wait_for_load_state('networkidle')
    assert page.locator('.cards li:visible').count()==len(catalog)
-   page.goto(url+'/articles/2026-10-10-raft-shared-log/source-figures.html',wait_until='networkidle')
+   diagnostics.goto(url+'/articles/2026-10-10-raft-shared-log/source-figures.html',wait_until='networkidle')
    assert page.locator('img').count()==16
    decode_images(page)
    assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
    exploration=[]
    expected_exploration=exploration_articles(catalog)
    for item in expected_exploration:
-    response=page.goto(url+'/'+item['path'].replace('.md','.html'),wait_until='networkidle')
+    response=diagnostics.goto(url+'/'+item['path'].replace('.md','.html'),wait_until='networkidle')
     assert response and response.ok,item['id']
     assert page.locator('h1').inner_text()==item['title']
     decode_images(page)
@@ -96,12 +96,12 @@ try:
     links=page.locator('a[href]').evaluate_all("nodes => nodes.map(a => a.href)")
     for href in set(links):
      if href.startswith(url+'/articles/'+item['id']+'/'):
-      linked=page.request.get(href)
+      linked=diagnostics.get(href)
       assert linked.ok,(item['id'],href,linked.status)
     supplemental=supplementary_visuals(ROOT,item)
     appendix_results=[]
     for appendix in supplemental['pages']:
-     response=page.goto(url+'/'+quote(appendix['path'].replace('.md','.html'),safe='/'),wait_until='networkidle')
+     response=diagnostics.goto(url+'/'+quote(appendix['path'].replace('.md','.html'),safe='/'),wait_until='networkidle')
      assert response and response.ok,appendix['path']
      decode_images(page)
      assert page.locator('img').count()==appendix['images'],appendix['path']
@@ -115,11 +115,12 @@ try:
     extras=supplemental['unembedded_images']
     if extras:
      for path in extras:
-      response=page.request.get(url+'/'+quote(path,safe='/'))
+      response=diagnostics.get(url+'/'+quote(path,safe='/'))
       assert response.ok,(path,response.status)
       assert hashlib.sha256(response.body()).digest()==hashlib.sha256((ROOT/path).read_bytes()).digest(),path
      markup='<html><meta charset="utf-8"><body style="margin:0;padding:18px;box-sizing:border-box;overflow-wrap:anywhere"><p>QA-only original-image layout, not a published article page</p>'
      markup+=''.join('<figure style="margin:0 0 24px"><img style="display:block;max-width:100%;height:auto" src="'+html.escape(url+'/'+quote(path,safe='/'),quote=True)+'"><figcaption>'+html.escape(Path(path).name)+'</figcaption></figure>' for path in extras)
+     diagnostics.reset()
      page.set_content(markup+'</body></html>',wait_until='networkidle')
      decode_images(page)
      assert page.locator('img').count()==len(extras)
@@ -136,3 +137,4 @@ try:
 finally:
  if server:server.shutdown()
  (ART/'results.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
+
