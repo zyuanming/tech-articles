@@ -15550,6 +15550,126 @@
     "sha256": "abb1ea166b91b6d22ca5c029110a6fb868a555b8edc2fa75f27281e42e97ff76"
   },
   {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/01-computed-sequence.png",
+    "bytes": 66793,
+    "sha256": "9c490abc4cfd7bc6b9cb8861236f96cf22055e9f83ded9bb121bfa15509eddf6"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/02-nasa-smoke-flow.jpg",
+    "bytes": 142534,
+    "sha256": "7578dca17394a53bd8a42556b4ccfa85aac65df588e5123cc4f89e7c909a5a8c"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/03-dye-and-velocity.png",
+    "bytes": 75625,
+    "sha256": "273abc5f2d232632cf8fbb5964208af99c1505ddaf9e49c614fe9b609adbadbb"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/04-backtrace.png",
+    "bytes": 71143,
+    "sha256": "02153bc292ef3a80f43b79b4a50d2eb4011c63cf04432928eb0e251d9156ff81"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/05-bilinear-two-stages.png",
+    "bytes": 86407,
+    "sha256": "6000fc910e20caed5a59fefe5e544af1ad2d14b9b5b19c2c2aa4b2287bc82d8c"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/06-convex-weights.png",
+    "bytes": 59519,
+    "sha256": "4d8368ba3600d6d1704648caacdf337ae97396f75f30a989c81728b2325d3806"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/07-explicit-vs-backtrace.png",
+    "bytes": 80361,
+    "sha256": "aad1c41c9aff5141736124196a7f0c3cfc0b0280b4c6ee4f5299c858fc60bde0"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/08-implicit-diffusion.png",
+    "bytes": 72278,
+    "sha256": "02b5b01ca85de5f8e1dd2714cb26ca0098600fec363d5dd452e38bd3faf817ce"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/09-volume-balance.png",
+    "bytes": 77708,
+    "sha256": "f196e4efd4ca40da80b718d4e7032a13dfe50e9ea900de46ff3efef3fdb7a957"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/10-four-cells-before.png",
+    "bytes": 56130,
+    "sha256": "47960eb8c03da8257449738bb8cca69879852b0d8adbdb83a1222634b3a988d5"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/11-four-cell-potentials.png",
+    "bytes": 67524,
+    "sha256": "4f41460f1f159deea84cf5fd7e06e37f555a78b40779c71218a41464e7fa1610"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/12-four-cells-after.png",
+    "bytes": 68501,
+    "sha256": "ee961eaa1dc2a4574c6385177ad9b151d5606d9e82578db295b0982219281dcd"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/13-mac-storage.png",
+    "bytes": 66310,
+    "sha256": "43da083554bd7d4f2304a66c73b1b4f3ae04d8b92279c40740e152148a5fc765"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/14-projection-measured.png",
+    "bytes": 125514,
+    "sha256": "29efaaad4f9ee307c59a3fe8b6f4a9960f62671ed5373ff5aada1ecbdea05ece"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/15-one-step.png",
+    "bytes": 131698,
+    "sha256": "090211c73438b47e875d2a24805b205c7d29a4e3b359752f3b01e6e54063824f"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/16-dissipation-measured.png",
+    "bytes": 102498,
+    "sha256": "4e4e3469717fb73c5c4f1e172dce112411a3aa56cb924d382fbe56c28eb0315d"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/assets/17-repeated-interpolation.png",
+    "bytes": 87183,
+    "sha256": "22bc8d79e942bf62a3d036f5112a0c26cb3229607d8aca91e2a8719c5394e40d"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/cover.png",
+    "bytes": 35725,
+    "sha256": "bdefb14e7455d244b2e42c5d46acdb3383d1082af554911e3a051774b423ce33"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/examples/build_figures.py",
+    "bytes": 15535,
+    "sha256": "d79a08c3da6ae7b131c1d0a37d1c966d3e751662cfb2e1041b3ac7d8e05b3a62"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/examples/expected-results.json",
+    "bytes": 48935,
+    "sha256": "5ff7b661304eddd61d12b913aacfb6c9adbf965a518c9c4a07f329475f141474"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/examples/figure-metadata.json",
+    "bytes": 6043,
+    "sha256": "5f9730e72ea9c8d496640a0d142dfeaf112ad53a3d0521f00c39aad2e81959f6"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/examples/simulate.py",
+    "bytes": 9303,
+    "sha256": "35624cde4953f0a2ffa3b0b1fed8700fa073ed54f9a8a46ce5200ac18d301d95"
+  },
+  {
+    "path": "articles/2026-10-14-stable-fluids-follow-air/originals/nasa-sls-smoke-test-7.jpg",
+    "bytes": 142534,
+    "sha256": "7578dca17394a53bd8a42556b4ccfa85aac65df588e5123cc4f89e7c909a5a8c"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

@@ -1,0 +1,171 @@
+[
+  {
+    "file": "assets/01-computed-sequence.png",
+    "purpose": "先看同一染料的四次实际计算状态，建立动画对象",
+    "kind": "actual_simulation",
+    "evidence": "frames.npz frames 0,1,2,4; n64 dt.04",
+    "width": 1062,
+    "height": 1340,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/03-dye-and-velocity.png",
+    "purpose": "同一实际状态区分标量浓度与方向速度；中心箭头为边速度平均",
+    "kind": "actual_simulation",
+    "evidence": "frames.npz frame 2, velocity averaged to centers and sparsely displayed",
+    "width": 1062,
+    "height": 870,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/04-backtrace.png",
+    "purpose": "一条坐标路径走通x−uΔt，目标固定而去旧场取值",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1050,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/05-bilinear-two-stages.png",
+    "purpose": "同一回溯点先横后纵完成一次可手算双线性插值",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1150,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/06-convex-weights.png",
+    "purpose": "把有界性的理由变成具体权重与数轴，不冒称完整流体无条件准确",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 830,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/07-explicit-vs-backtrace.png",
+    "purpose": "具体C=1.5反例说明所选显式上风更新的负权重，不泛化所有显式法",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1160,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/08-implicit-diffusion.png",
+    "purpose": "先解释隐式用未知新值同时求解，和单纯运输数值糊化区分",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1040,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/09-volume-balance.png",
+    "purpose": "用固定容积的具体失衡引出不可压缩约束而非只给div符号",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 840,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/10-four-cells-before.png",
+    "purpose": "把约束耦合具体化；四格外墙封闭，与主实验周期边界明确区分",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1060,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/11-four-cell-potentials.png",
+    "purpose": "一次代入说明压力样校正势如何改变共享边；不是把q当真实Pa",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1110,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/12-four-cells-after.png",
+    "purpose": "直接沿闭环复核四格守恒，避免把投影解释成停止流动",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1110,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/13-mac-storage.png",
+    "purpose": "明确现代原创教学实现的交错采样位置及共享数据",
+    "kind": "original_implementation_diagram",
+    "evidence": "simulate.py sample/divergence/gradient",
+    "width": 1062,
+    "height": 1050,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/14-projection-measured.png",
+    "purpose": "实际第一步相同尺度热图及箭头证明投影去散度不抹平所有流动",
+    "kind": "actual_simulation",
+    "evidence": "frames.npz div_before/div_after/u_before etc; results.json first_step",
+    "width": 1062,
+    "height": 1150,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/15-one-step.png",
+    "purpose": "对应实际程序的速度与染料时序，解释两次投影而非抽象列术语",
+    "kind": "original_implementation_diagram",
+    "evidence": "simulate.py run",
+    "width": 1062,
+    "height": 1210,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/16-dissipation-measured.png",
+    "purpose": "实际闭环结果区别物理扩散与插值耗散，并实证染料总和非严格守恒",
+    "kind": "actual_simulation",
+    "evidence": "results.json stats0/stats120; frames0/12",
+    "width": 1062,
+    "height": 1060,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666
+  },
+  {
+    "file": "assets/17-repeated-interpolation.png",
+    "purpose": "同终点平移可重算反例，防止把减小dt当作消除一切糊化的万能结论",
+    "kind": "original_explanation",
+    "evidence": "simulate.py small_examples",
+    "width": 1062,
+    "height": 1240,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "cover.png",
+    "purpose": "独立封面：实际原创计算的第20步，不是NASA照片或历史截图",
+    "kind": "actual_simulation_cover",
+    "width": 1062,
+    "height": 1062,
+    "minimum_font_px": 43,
+    "effective_minimum_at_354px": 14.333333333333334
+  }
+]

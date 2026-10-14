@@ -1872,5 +1872,16 @@
     "path": "articles/2026-10-13-utf8-find-boundaries/read.md",
     "public_sha256": "d32b1ff965c162e792b03c5e1d0ac0990f1a20ee6bca5abbcb906c043c199aea",
     "images": 27
+  },
+  {
+    "id": "2026-10-14-stable-fluids-follow-air",
+    "title": "游戏里的烟，怎样跟着空气卷起来？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-stable-fluids-follow-air/read.md",
+    "public_sha256": "d1b5365c5a90eaf301b06e1510097a001f0bcff5fd9e2c1b00703539471cea30",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   }
 ]
