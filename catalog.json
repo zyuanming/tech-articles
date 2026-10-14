@@ -1896,6 +1896,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-14-observability-hidden-water",
+    "title": "水量测得分毫不差，为什么仍不知道两箱各装多少？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-observability-hidden-water/read.md",
+    "public_sha256": "1def1cac5a0d77a29fd1f558a5d2edabd7662a4abb8fdcc41aa984c90b03b87d",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-14-pll-follow-reference",
     "title": "芯片里的时钟，怎样追上另一串节拍？",
     "date": "2026-10-14",

@@ -1,0 +1,136 @@
+[
+  {
+    "file": "assets/01-same-reading.png",
+    "purpose": "让读者看到固定左右身份的两种分配为何给相同总量",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1130,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/02-first-step-budget.png",
+    "purpose": "给出同步排水与净交换的方向、单位和完整手算",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1400,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/03-internal-trajectories.png",
+    "purpose": "分别画左右内部轨迹，在同一时刻对比A和B",
+    "identity": "Plot of the saved exact rational model, connecting discrete samples only",
+    "width": 1062,
+    "height": 1510,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/04-output-overlap.png",
+    "purpose": "用忠实重合曲线和小表证明数据相同而非显示器停住",
+    "identity": "Plot and table of saved rational results; no artificial offsets",
+    "width": 1062,
+    "height": 1360,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/05-transfer-cancels.png",
+    "purpose": "把原始收支相加，解释总量规律对所有轮都成立",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1260,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/06-hidden-direction.png",
+    "purpose": "展示状态平面里的不可区分分配与相消方向",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1130,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/07-known-input.png",
+    "purpose": "说明同输入指两次实验的指令相同，并显示实际输出仍相同",
+    "identity": "Original diagram plus saved model values with known input",
+    "width": 1062,
+    "height": 1260,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/08-left-only-sensor.png",
+    "purpose": "明确新测量实验的信息集，用不透明右箱避免泄露未知量",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1370,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/09-recover-right.png",
+    "purpose": "不跳步展示收支展开、减已知项、除系数的操作",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1390,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/10-two-constraints.png",
+    "purpose": "初态平面中重合约束与唯一交点对照，避免时间坐标混淆",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1900,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/11-observation-matrix.png",
+    "purpose": "同一数例演示一行系数的乘加，再比较两行是否重复",
+    "identity": "Original teaching diagram, not an apparatus photograph",
+    "width": 1062,
+    "height": 1770,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/12-weak-coupling.png",
+    "purpose": "更换候选对并用带误差范围的点图展示弱交换信息的缩小",
+    "identity": "Deterministic model outputs and specified error bounds, not sensor measurements",
+    "width": 1062,
+    "height": 1460,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0
+  },
+  {
+    "file": "assets/13-noise-amplification.png",
+    "purpose": "把真值、带误差读数、估计结果分开，解释非物理负估计",
+    "identity": "Exact deterministic error propagation using saved rational results",
+    "width": 1062,
+    "height": 1550,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "cover.png",
+    "purpose": "两种内部状态汇向同一个读数，概括核心问题",
+    "identity": "Original cover illustration",
+    "width": 1062,
+    "height": 1140,
+    "minimum_font_px": 37,
+    "effective_minimum_at_354px": 12.333333333333334
+  },
+  {
+    "file": "assets/14-kalman-eth-original.jpg",
+    "purpose": "介绍1960/1963原论文作者，明确照片拍于2007年",
+    "identity": "Unmodified genuine ETH portrait, CC BY-SA 4.0, not model equipment",
+    "width": 3168,
+    "height": 2112,
+    "minimum_font_px": null
+  }
+]

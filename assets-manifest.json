@@ -15835,6 +15835,121 @@
     "sha256": "d9ccd122b11fed448d2a6d717f7dd4e6901580c2512f39a3f24ad39e4a5434c9"
   },
   {
+    "path": "articles/2026-10-14-observability-hidden-water/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/01-same-reading.png",
+    "bytes": 64226,
+    "sha256": "f88775fb24d233b63f8aa329cd0b16faa8005ae4d1b32476b0d268c988d5202f"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/02-first-step-budget.png",
+    "bytes": 83578,
+    "sha256": "2db883e1bc9f88e91ab6d7c2cb49590e4331e3240f29a4ed4079d8374ff12f6f"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/03-internal-trajectories.png",
+    "bytes": 87026,
+    "sha256": "b02ba1e3f4c696a07bafa0d8d1b9ce05ab64b6e34de17a92e27a35c0086ba10a"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/04-output-overlap.png",
+    "bytes": 81536,
+    "sha256": "84fd424aa7a80e2775fd314c093512b32a7c15d67d470c27b41f3401c9b23cb8"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/05-transfer-cancels.png",
+    "bytes": 78982,
+    "sha256": "20ae505d82eb82062533de0c9b642c620dda9c40c53d24e2c41628391e6f3fc7"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/06-hidden-direction.png",
+    "bytes": 92556,
+    "sha256": "1e7237bbb1e1306aff2caa7cfe2be37b0a20e00a71987507a466abc4c8d67a72"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/07-known-input.png",
+    "bytes": 73818,
+    "sha256": "b1c3ab3927f32c64591e02ef133eff3c69f27ade496283a54c6504374014b2e1"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/08-left-only-sensor.png",
+    "bytes": 107118,
+    "sha256": "e63507e9ce536a6f99cc9d631bc5e208ae3087e62c5be13c2e26799dc02a283f"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/09-recover-right.png",
+    "bytes": 120092,
+    "sha256": "8bb27fc1fec2401e06466a1028c30218da4e300f5f19f4ba04a7238f8b84bdf6"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/10-two-constraints.png",
+    "bytes": 151273,
+    "sha256": "3355401e6f663e4d39e7e02a99e6ba21d06dcaff407a470c60776387d518f140"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/11-observation-matrix.png",
+    "bytes": 129452,
+    "sha256": "0090eb2e6d3bdcb711b8870e920f37bb6a3c50b6f5e7bfbd6f5cd8df29446b57"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/12-weak-coupling.png",
+    "bytes": 136683,
+    "sha256": "f58be8c306c92f07f2e64ba1f4ee87dbd5c338fa1d38d59e530de0bc21b49e70"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/13-noise-amplification.png",
+    "bytes": 150127,
+    "sha256": "f1b1fc1bf474e3264d94cda095573066ae78885c56443ff4eb16f2b78e97e257"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/assets/14-kalman-eth-original.jpg",
+    "bytes": 1053924,
+    "sha256": "d5e175bae06d1bdd63e22c35ef1b9b7e39017fddad1529d3b38a4027ca85f8ad"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/cover.png",
+    "bytes": 51629,
+    "sha256": "1e4f2e0f59d96e75788790d12d4a473b09b9af3c2a5e61be8afb2b495aa09225"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/examples/build_figures.py",
+    "bytes": 16735,
+    "sha256": "40c7d9bb18b5ff86520a12c02bb2d054f2e57de17cd390055440e9318e197061"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/examples/expected-results.json",
+    "bytes": 29537,
+    "sha256": "4ec30c29a4dc416101381f0b0eff1e0c77d0ae9f5aa3bdf9f083deebe88b2468"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/examples/figure-metadata.json",
+    "bytes": 4876,
+    "sha256": "74ad013bdcf4cd1e96265f0cd86a4ce6fb30c36698452bdf5fc92e77fa2ae5f3"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/examples/run-environment.json",
+    "bytes": 276,
+    "sha256": "4af764bfc47aa280fadc1628eb15db4b1dc201f8dc528a017211b9869ba53e88"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/examples/run_model.py",
+    "bytes": 6062,
+    "sha256": "d2d0719fdccce1a87d4ec4dc070fd1d6a6c55f9115a4d87cd53d2b8096dd8e2e"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/examples/trajectories.csv",
+    "bytes": 3264,
+    "sha256": "9803916c639c711158154b6162224144256a7d1b560a76191239e4dbf7e4b3e9"
+  },
+  {
+    "path": "articles/2026-10-14-observability-hidden-water/originals/model-stdout.txt",
+    "bytes": 504,
+    "sha256": "32f9f664a0b60253b1ed3b0895550413c53529d25114d10ee2662a8d04d89992"
+  },
+  {
     "path": "articles/2026-10-14-pll-follow-reference/LICENSE-CODE.txt",
     "bytes": 1066,
     "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"

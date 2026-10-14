@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "arithmetic": "Python fractions.Fraction, exact rational",
+  "randomness": "none",
+  "physical_apparatus": false,
+  "network": false,
+  "fonts": [
+    "NotoSansCJK-Regular.ttc index 2",
+    "NotoSansCJK-Bold.ttc index 2"
+  ]
+}

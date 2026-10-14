@@ -1,0 +1,12 @@
+Exact-rational discrete tank model; no physical experiment
+Python 3.12.14
+A first step: 29/5 L, 11/5 L
+A/B/C sum traces: identical exactly at all 9 recorded instants
+All 9 finite-step A-B differences: nonzero
+Known-input paired outputs: identical exactly
+Left-sensor recovery A/B/C: exact
+Two-step sum observation rank: 1
+Two-step left observation rank: 2 for g=0.1 and 0.01; 1 for g=0
+Noise sample, g=0.1: inferred right 1.66 L
+Noise sample, g=0.01: inferred right -1.58 L
+All rational assertions: PASS
