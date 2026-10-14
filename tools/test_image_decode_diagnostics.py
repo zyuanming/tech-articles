@@ -98,6 +98,28 @@ class Tests(unittest.TestCase):
     def test_reset_starts_new_page_evidence(self):
         d=self.make();d._response(Response(403));d.reset();d._response(Response(503))
         self.assertEqual(d.latest[URL]['status'],503)
+    def test_503_zero_recovers_with_original_backoff(self):
+        d=self.make();responses=iter([Response(503,headers={'Retry-After':'0'}),Response(200)])
+        self.assertTrue(d.request(lambda:next(responses),URL).ok);self.assertEqual(self.delays,[2])
+        self.assertEqual(self.logs()[0]['resource']['headers']['Retry-After'],'0')
+    def test_503_zero_exhausts_at_three(self):
+        d=self.make();calls=[]
+        def op():calls.append(1);return Response(503,headers={'retry-after':'0'})
+        self.assertFalse(d.request(op,URL).ok);self.assertEqual(len(calls),3);self.assertEqual(self.delays,[2,5])
+    def test_zero_does_not_override_denial_or_exhaustion(self):
+        for status in [401,403,429,500,502,504]:
+            self.assertFalse(retryable({'url':URL,'status':status,'headers':{'retry-after':'0'}},BASE))
+        for key in ['ratelimit-remaining','x-ratelimit-remaining']:
+            self.assertFalse(retryable({'url':URL,'status':503,'headers':{'retry-after':'0',key:'0'}},BASE))
+        p=Page(1);d=self.make(p);d._response(Response(403));d._response(Response(503,headers={'retry-after':'0'}))
+        with self.assertRaises(RuntimeError):d.decode_images()
+        self.assertEqual(p.resets,0)
+    def test_only_exact_zero_is_admitted(self):
+        for value in ['', '1', '00', ' 0 ', '-1', '0.0', 'Wed, 14 Oct 2026 10:00:00 GMT','invalid']:
+            self.assertFalse(retryable({'url':URL,'status':503,'headers':{'retry-after':value}},BASE))
+    def test_zero_image_recovery(self):
+        p=Page(1,evidence=200);d=self.make(p);d._response(Response(503,headers={'retry-after':'0'}));d.decode_images()
+        self.assertEqual(p.resets,1);self.assertEqual(self.delays,[2])
     def test_off_origin_never_retry(self):
         d=self.make();r=d.request(lambda:Response(503,url='https://other.test/img'),URL)
         self.assertEqual(r.status,503);self.assertEqual(self.delays,[])

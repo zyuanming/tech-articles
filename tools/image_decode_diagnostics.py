@@ -22,9 +22,13 @@ def retryable(event, base_url):
     if not event or not same_origin(event.get('url', ''), base_url):
         return False
     headers = {k.lower(): str(v) for k, v in event.get('headers', {}).items()}
-    if 'retry-after' in headers or any(headers.get(k, '').strip() == '0' for k in ('x-ratelimit-remaining', 'ratelimit-remaining')):
-        return False  # Explicit server throttling is a stop, never evaded.
     status = event.get('status')
+    if any(headers.get(k, '').strip() == '0' for k in ('x-ratelimit-remaining', 'ratelimit-remaining')):
+        return False  # Explicit exhaustion always wins over Retry-After.
+    if 'retry-after' in headers and not (status == 503 and headers['retry-after'] == '0'):
+        return False
+    # RFC 9110 section 10.2.3: a 503 Retry-After: 0 requests zero delay.
+    # Still use our slower 2/5-second bounded backoff; no other value is allowed.
     if status is not None:
         return status in TRANSIENT_STATUS
     return event.get('failure') in TRANSIENT_NETWORK
@@ -34,7 +38,11 @@ def response_event(response):
     headers = response.headers
     return {'url': response.url, 'status': response.status,
             'headers': {k: v for k, v in headers.items()
-                        if k.lower() in {'retry-after', 'x-ratelimit-remaining', 'ratelimit-remaining'}}}
+                        if k.lower() in {'retry-after', 'x-ratelimit-remaining', 'ratelimit-remaining',
+                                         'ratelimit-limit', 'ratelimit-reset', 'ratelimit-policy',
+                                         'x-ratelimit-limit', 'x-ratelimit-reset', 'date',
+                                         'server', 'via', 'content-type', 'content-length',
+                                         'x-cache', 'x-cache-hits'}}}
 
 
 class NetworkDiagnostics:
