@@ -124,16 +124,24 @@ try:
      for index,path in enumerate(extras):
       markup='<html><meta charset="utf-8"><body style="margin:0;padding:18px;box-sizing:border-box;overflow-wrap:anywhere"><p>QA-only original-image layout, not a published article page</p>'
       markup+='<figure style="margin:0 0 24px"><img style="display:block;max-width:100%;height:auto" src="'+html.escape(url+'/'+quote(path,safe='/'),quote=True)+'"><figcaption>'+html.escape(Path(path).name)+'</figcaption></figure>'
-      diagnostics.reset()
-      page.set_content(markup+'</body></html>',wait_until='networkidle')
-      decode_images(page)
-      assert page.locator('img').count()==1,path
-      assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'),path
-      checked_originals.append(path)
-      for edge,edge_index in [('first',0),('last',len(extras)-1)]:
-       if index==edge_index:
-        im=page.locator('img').nth(0);im.scroll_into_view_if_needed();settle_paint(page)
-        im.screenshot(path=str(ART/(label+'-'+item['id']+'-qa-original-'+edge+'.png')))
+      # Isolate each full-size original from retained whole-site decode state.
+      # Same browser version/options, bytes, viewport and decode assertions.
+      original_browser=pw.chromium.launch()
+      try:
+       original_page=original_browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1)
+       original_page.on('pageerror',lambda e:errors.append(str(e)))
+       original_diagnostics=NetworkDiagnostics(original_page,url,ART/'network-diagnostics.jsonl',label+'-original')
+       original_page.set_content(markup+'</body></html>',wait_until='networkidle')
+       original_diagnostics.decode_images()
+       assert original_page.locator('img').count()==1,path
+       assert not original_page.evaluate('document.documentElement.scrollWidth > innerWidth'),path
+       checked_originals.append(path)
+       for edge,edge_index in [('first',0),('last',len(extras)-1)]:
+        if index==edge_index:
+         im=original_page.locator('img').nth(0);im.scroll_into_view_if_needed();settle_paint(original_page)
+         im.screenshot(path=str(ART/(label+'-'+item['id']+'-qa-original-'+edge+'.png')))
+      finally:
+       original_browser.close()
      assert checked_originals==extras,(item['id'],checked_originals,extras)
     exploration.append({'id':item['id'],'images':item['images'],'decoded':'PASS','overflow':'PASS','local_links':'PASS','source_figure_pages':appendix_results,'unembedded_original_images':{'count':len(extras),'paths':extras,'exact_bytes_and_decode':'PASS','layout_identity':'QA_ONLY_NOT_PUBLISHED_PAGE'}})
    assert [a['id'] for a in exploration]==[a['id'] for a in expected_exploration]
