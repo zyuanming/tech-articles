@@ -8,7 +8,7 @@
 
 图：EDSAC I短延迟线，馆藏编号CL-4/97。馆藏记录的外形尺寸为274×50×50毫米，不是内部声程长度。© University of Cambridge Computer Laboratory，来自[Relics馆藏](https://www.cl.cam.ac.uk/relics/database/?machine=EDSAC+I)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，原图未修改。
 
-可是在早期计算机里，这样的器件确实能够保存信息。里面的比特没有安静地停在某个角落，而是变成一串声波包，沿着水银往前走。
+可是在早期计算机里，这样的器件确实能够保存信息。它给正在运算的计算机暂存数字和指令，需要时再读出来。里面的比特没有安静地停在某个角落，而是变成一串声波包，沿着水银往前走。
 
 声波走到头以后，电路把信息读出来，整理一下，再从另一头重新发送。
 
@@ -32,7 +32,7 @@ EDSAC是Electronic Delay Storage Automatic Calculator的缩写，名称中就有
 
 图：EDSAC I，1948年6月。Copyright Department of Computer Science and Technology, University of Cambridge. Reproduced by permission. [原始照片目录](https://www.cl.cam.ac.uk/relics/archive_photos.html#EDSACI)，[CC BY 2.0 UK](https://creativecommons.org/licenses/by/2.0/uk/)，原图未修改。
 
-这里说的“声音”，是液体中的机械振动，不是机器把数字念给自己听。它使用的是频率很高的超声波，人耳不能直接把这种载波听成一串口令。
+这里说的“声音”，是液体中的机械振动。数字的0和1控制规定时刻有没有一小包超声波；超声波的频率很高，人耳不能直接把这种载波听成一串口令。
 
 我们也不需要打开任何历史器件。**水银有毒，本文只读史料、看图和运行数字模型，不提供制作、拆解或灌装水银延迟线的实验。**
 
@@ -154,9 +154,11 @@ EDSAC是Electronic Delay Storage Automatic Calculator的缩写，名称中就有
 - t=14，读到第7位：0；
 - t=16，第0位又回来了。
 
-![五个时刻读口的下一位不断变化，16微秒后重新回到初始10110010顺序](assets/06-time-ring.png)
+先说清下图怎样读：一行按“从此刻开始将会读到的顺序”排列，橙框是当下的读口，**不是管内从左到右的空间照片**。每过2微秒，原先第一位已经读出并回送，排到接下来这圈的队尾。比如t=0最左边的第0位那个1，在t=2这一行位于最右边，到t=16才再次回到橙框。
 
-图中的一行按“从此刻开始将会读到的顺序”排列，橙框是当下的读口，**不是管内从左到右的空间照片**。这样画，是为了避免把传播方向和读出顺序混在一起。
+图只选了五个时刻；t=4到t=14之间省略了几行，读图时要看每行左边的时间，不能把每两行都当成相隔2微秒。
+
+![五个时刻读口的下一位不断变化，16微秒后重新回到初始10110010顺序](assets/06-time-ring.png)
 
 只要循环周期和时钟保持合适关系，机器就能通过计数知道当前读到第几格。第0位并不是永远待在管子最左边，而是每隔一圈，在约定的时刻重新出现。
 

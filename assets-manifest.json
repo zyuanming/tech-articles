@@ -12471,8 +12471,8 @@
   },
   {
     "path": "articles/2026-10-13-doom-06-small-computer/assets/14-table-reuse.png",
-    "bytes": 64144,
-    "sha256": "9ab17d21788d11077628226221b7ba316c40cb1239eb0d973848eb1872e1a95e"
+    "bytes": 77352,
+    "sha256": "7c2f91b8e73ae5d3c823374ad4a1a3a5346268e298feb5d2dea4132d606bbc87"
   },
   {
     "path": "articles/2026-10-13-doom-06-small-computer/assets/15-frame-bytes.png",
@@ -12986,8 +12986,8 @@
   },
   {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/03-eight-binary-labels.png",
-    "bytes": 37288,
-    "sha256": "0640b0d99cd19b0f51bbfc9cb565bac1e72659506cb84a737f97acf9eb01b905"
+    "bytes": 43044,
+    "sha256": "0d62c27c8dc6c44b7b88b47a4dbf5aadb751a12578fac91cfc8a1b72cdb9765c"
   },
   {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/04-misaligned-readheads.png",
@@ -13066,8 +13066,8 @@
   },
   {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/19-offset-model-results.png",
-    "bytes": 56508,
-    "sha256": "ef7674ccc0b4003f4281ead8d06082f27a7abe9241e82d81f8a90847f0f83166"
+    "bytes": 68611,
+    "sha256": "132627ddfd79441a506de375c475d54612535e82d137533610379f493f3ca14e"
   },
   {
     "path": "articles/2026-10-13-gray-code-one-bit/assets/20-edge-change-counts.png",
@@ -14461,8 +14461,8 @@
   },
   {
     "path": "articles/2026-10-13-qem-save-shape/assets/11-quadric-matrix.png",
-    "bytes": 46729,
-    "sha256": "5865e003441d21d11a14777af180d2f72b18ddd9760af0244eefb52b9b4aeb25"
+    "bytes": 49626,
+    "sha256": "b033ef4cf001db75d0748b548d047267afcd7baaf63fa3a6c89819d5a942415d"
   },
   {
     "path": "articles/2026-10-13-qem-save-shape/assets/12-error-contours.png",
@@ -14651,8 +14651,8 @@
   },
   {
     "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/06-signature-cards.png",
-    "bytes": 78965,
-    "sha256": "a04a424069c4f205a58e5d0dab820fbd5ba2b203b58b1edeb62b64de550f7b79"
+    "bytes": 68525,
+    "sha256": "7d521115bc38822ff058e79abf4d119cc896a15c216b13b03f4644af97990cd7"
   },
   {
     "path": "articles/2026-10-13-rsync-find-shifted-blocks/assets/07-all-offset-window.png",
@@ -14946,8 +14946,8 @@
   },
   {
     "path": "articles/2026-10-13-sar-adc-eight-questions/assets/21-noisy-code-histogram.png",
-    "bytes": 38112,
-    "sha256": "ce01fcfe982e2da1b56a0fda79aad999ed90f4c1713f58c9787dabf639c09d44"
+    "bytes": 46094,
+    "sha256": "65ca869897b82fc20a326e9177b7ea180d8df8e511deb16f38b8796105972b80"
   },
   {
     "path": "articles/2026-10-13-sar-adc-eight-questions/assets/22-capacitor-charge.png",
@@ -15321,8 +15321,8 @@
   },
   {
     "path": "articles/2026-10-13-utf8-find-boundaries/assets/15-backward-bound.png",
-    "bytes": 35263,
-    "sha256": "a5072412ed28db4513efc5682d905eae5166ffdaed8a0374262e1d32c878d922"
+    "bytes": 41839,
+    "sha256": "cca23b1bb90d8e9fcff12a7d514f8b2ca162a70c066283e26b43226410dee9a3"
   },
   {
     "path": "articles/2026-10-13-utf8-find-boundaries/assets/16-candidate-not-valid.png",
