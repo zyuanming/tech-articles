@@ -14036,8 +14036,8 @@
   },
   {
     "path": "articles/2026-10-13-pca-choose-shadow/assets/02-four-points.png",
-    "bytes": 39553,
-    "sha256": "640c5f89fd5928731e723a71775e27c9a2ee13249ec59704868f83faf9cb026b"
+    "bytes": 38774,
+    "sha256": "19bb5bb78bd0ad435b8ecfefd161841d30672af44c19edba32098d0388e2fdb2"
   },
   {
     "path": "articles/2026-10-13-pca-choose-shadow/assets/03-drop-one-coordinate.png",
@@ -14141,8 +14141,8 @@
   },
   {
     "path": "articles/2026-10-13-pca-choose-shadow/cover.png",
-    "bytes": 39918,
-    "sha256": "832abfcce8fb09f4b5695cad83aa61622fd66b83b1158bc5ca4b2d96d4a098a4"
+    "bytes": 47847,
+    "sha256": "20dd6675a8f47a81a52895c743ecbfe3d34aaa7c7e60ecfaa5cb09aabaeca046"
   },
   {
     "path": "articles/2026-10-13-pca-choose-shadow/examples/LICENSE",

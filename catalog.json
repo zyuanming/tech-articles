@@ -1770,10 +1770,10 @@
   },
   {
     "id": "2026-10-13-pca-choose-shadow",
-    "title": "给一团数据拍“影子”，朝哪个方向最少丢东西？",
+    "title": "PCA是什么？怎样用更少的数字，保留数据的主要差别",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-pca-choose-shadow/read.md",
-    "public_sha256": "fe9aafa47aa203de46ad2c162064b6fa8c480dab09f428970915cd4a4ba57633",
+    "public_sha256": "5ced5e07b5a99e7a69d3b0abbf65aaf261e97502a1dd46356488fd084f457b2d",
     "images": 21,
     "status": "archived_article",
     "related_versions": [],
