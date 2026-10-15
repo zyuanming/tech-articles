@@ -1,0 +1,247 @@
+{
+  "tests_passed": 271,
+  "seed": 20261013,
+  "scope": "Indexed polygon surfaces. Local manifold checks are not a geometric self-intersection test or a complete classifier.",
+  "models": {
+    "cube": {
+      "V": 8,
+      "E": 12,
+      "F": 6,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "triangulated": {
+      "V": 8,
+      "E": 18,
+      "F": 12,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "subdivide2": {
+      "V": 26,
+      "E": 48,
+      "F": 24,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "subdivide4": {
+      "V": 98,
+      "E": 192,
+      "F": 96,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "round_shell": {
+      "V": 98,
+      "E": 192,
+      "F": 96,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "unjoined": {
+      "V": 24,
+      "E": 24,
+      "F": 6,
+      "chi": 6,
+      "components": 6,
+      "boundary_edges": 24,
+      "boundary_loops": 6,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "exploded": {
+      "V": 24,
+      "E": 24,
+      "F": 6,
+      "chi": 6,
+      "components": 6,
+      "boundary_edges": 24,
+      "boundary_loops": 6,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "open_box": {
+      "V": 8,
+      "E": 12,
+      "F": 5,
+      "chi": 1,
+      "components": 1,
+      "boundary_edges": 4,
+      "boundary_loops": 1,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "split_edge": {
+      "V": 9,
+      "E": 13,
+      "F": 6,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "split_face": {
+      "V": 9,
+      "E": 16,
+      "F": 9,
+      "chi": 2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "square_ring": {
+      "V": 16,
+      "E": 32,
+      "F": 16,
+      "chi": 0,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "torus": {
+      "V": 48,
+      "E": 96,
+      "F": 48,
+      "chi": 0,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "two_holes": {
+      "V": 48,
+      "E": 100,
+      "F": 50,
+      "chi": -2,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "two_cubes": {
+      "V": 16,
+      "E": 24,
+      "F": 12,
+      "chi": 4,
+      "components": 2,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "pinch": {
+      "V": 7,
+      "E": 12,
+      "F": 8,
+      "chi": 3,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [
+        0
+      ],
+      "surface_local_checks_pass": false
+    },
+    "triple_edge": {
+      "V": 5,
+      "E": 7,
+      "F": 3,
+      "chi": 1,
+      "components": 1,
+      "boundary_edges": 6,
+      "boundary_loops": null,
+      "overfull_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "bad_vertex_links": [
+        0,
+        1
+      ],
+      "surface_local_checks_pass": false
+    }
+  },
+  "grid_identification": {
+    "patch": {
+      "V": 63,
+      "E": 110,
+      "F": 48,
+      "chi": 1,
+      "components": 1,
+      "boundary_edges": 28,
+      "boundary_loops": 1,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "cylinder": {
+      "V": 56,
+      "E": 104,
+      "F": 48,
+      "chi": 0,
+      "components": 1,
+      "boundary_edges": 16,
+      "boundary_loops": 2,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    },
+    "torus": {
+      "V": 48,
+      "E": 96,
+      "F": 48,
+      "chi": 0,
+      "components": 1,
+      "boundary_edges": 0,
+      "boundary_loops": 0,
+      "overfull_edges": [],
+      "bad_vertex_links": [],
+      "surface_local_checks_pass": true
+    }
+  }
+}

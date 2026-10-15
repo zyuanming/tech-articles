@@ -1,0 +1,584 @@
+{
+  "identity": "Actual Python sqlite3 experiment; replies deliberately ignored locally; no real network packet-loss or power-failure test",
+  "cases": {
+    "unsafe_response_ignored": {
+      "first_server_result": {
+        "room_id": "R001",
+        "mode": "duo"
+      },
+      "retry": {
+        "room_id": "R002",
+        "mode": "duo"
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          },
+          {
+            "id": "R002",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [],
+        "naive_markers": []
+      }
+    },
+    "safe_response_ignored": {
+      "first_server_result": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "retry": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": true
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "new_intent_same_parameters": {
+      "first": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "second": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R002"
+        },
+        "replayed": false
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          },
+          {
+            "id": "R002",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          },
+          {
+            "actor": "p7",
+            "key": "K18",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R002"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "same_key_different_parameters": {
+      "first": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "rejected": "same actor/key, different parameters",
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "same_key_different_actor": {
+      "first": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "second": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R002"
+        },
+        "replayed": false
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          },
+          {
+            "id": "R002",
+            "owner": "p8",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          },
+          {
+            "actor": "p8",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R002"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "before_commit": {
+      "child_exit_code": 86,
+      "before_retry": {
+        "rooms": [],
+        "receipts": [],
+        "naive_markers": []
+      },
+      "retry": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "after_commit": {
+      "child_exit_code": 87,
+      "before_retry": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      },
+      "retry": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": true
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "effect_first": {
+      "child_exit_code": 88,
+      "before_retry": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [],
+        "naive_markers": []
+      },
+      "retry": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R002"
+        },
+        "replayed": false
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          },
+          {
+            "id": "R002",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R002"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "marker_first": {
+      "child_exit_code": 89,
+      "before_retry": {
+        "rooms": [],
+        "receipts": [],
+        "naive_markers": [
+          [
+            "p7",
+            "K17"
+          ]
+        ]
+      },
+      "retry": {
+        "skipped_because_seen": true,
+        "room_id": null
+      },
+      "final": {
+        "rooms": [],
+        "receipts": [],
+        "naive_markers": [
+          [
+            "p7",
+            "K17"
+          ]
+        ]
+      }
+    },
+    "concurrent_same_key": {
+      "outcomes_sorted_by_replayed": [
+        {
+          "status": 201,
+          "body": {
+            "mode": "duo",
+            "room_id": "R001"
+          },
+          "replayed": false
+        },
+        {
+          "status": 201,
+          "body": {
+            "mode": "duo",
+            "room_id": "R001"
+          },
+          "replayed": true
+        }
+      ],
+      "winner_thread": "not asserted; scheduling is nondeterministic",
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "receipt_expired": {
+      "retention_ticks": 10,
+      "retry_tick": 11,
+      "first": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "removed_receipts": 1,
+      "after_purge": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [],
+        "naive_markers": []
+      },
+      "late_retry": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R002"
+        },
+        "replayed": false
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          },
+          {
+            "id": "R002",
+            "owner": "p7",
+            "mode": "duo",
+            "active": true
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R002"
+            },
+            "retained_since": 11
+          }
+        ],
+        "naive_markers": []
+      }
+    },
+    "resource_lifecycle": {
+      "first": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": false
+      },
+      "retry": {
+        "status": 201,
+        "body": {
+          "mode": "duo",
+          "room_id": "R001"
+        },
+        "replayed": true
+      },
+      "final": {
+        "rooms": [
+          {
+            "id": "R001",
+            "owner": "p7",
+            "mode": "duo",
+            "active": false
+          }
+        ],
+        "receipts": [
+          {
+            "actor": "p7",
+            "key": "K17",
+            "parameters": {
+              "mode": "duo"
+            },
+            "status": 201,
+            "response": {
+              "mode": "duo",
+              "room_id": "R001"
+            },
+            "retained_since": 0
+          }
+        ],
+        "naive_markers": []
+      },
+      "meaning": "Original creation result replayed; does not assert room is still open"
+    }
+  }
+}

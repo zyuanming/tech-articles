@@ -1,0 +1,211 @@
+[
+  {
+    "file": "assets/01-observed-result.png",
+    "purpose": "先给可感知的真实运行结果，解释42是退出状态",
+    "evidence": "reproduce.py: compile/assemble and execute-normal",
+    "kind": "typeset_actual_result",
+    "width": 1062,
+    "height": 840,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/02-separate-files.png",
+    "purpose": "把汇编/编译与链接分成可见两阶段",
+    "evidence": "start.s, answer.c; GNU as/gcc/ld verified",
+    "kind": "original_diagram",
+    "width": 1062,
+    "height": 1040,
+    "minimum_font_px": 36,
+    "effective_minimum_at_354px": 12.0,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/03-elf-object.png",
+    "purpose": "展示真实目标文件内部身份及必要节",
+    "evidence": "readelf -hW/-SW start.o; independent ELF parser",
+    "kind": "typeset_actual_fields",
+    "width": 1062,
+    "height": 1020,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/04-symbols.png",
+    "purpose": "避免把UND的0误认为真实地址；两份符号匹配",
+    "evidence": "readelf -sW start.o / answer.o",
+    "kind": "typeset_actual_fields",
+    "width": 1062,
+    "height": 980,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/05-call-before.png",
+    "purpose": "给出真正未链接指令及暂时反汇编的陷阱",
+    "evidence": "objdump -drw start.o",
+    "kind": "typeset_actual_output",
+    "width": 1062,
+    "height": 900,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/06-three-coordinates.png",
+    "purpose": "区分节内偏移、文件偏移和虚拟地址，禁止混减",
+    "evidence": "readelf sections start.o and normal; independently parsed ELF",
+    "kind": "original_diagram",
+    "width": 1062,
+    "height": 1130,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/07-relocation-recipe.png",
+    "purpose": "重定位数据不是泛泛待办，四字段可操作",
+    "evidence": "readelf -rW start.o; type4 and addend-4",
+    "kind": "typeset_actual_fields",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/08-linked-layout.png",
+    "purpose": "用实测14+6布局确定两个函数位置",
+    "evidence": "normal ELF symbols / .text; linker input order",
+    "kind": "original_diagram",
+    "width": 1062,
+    "height": 1030,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/09-patched-bytes.png",
+    "purpose": "把输出二进制的实际变化和反汇编连起来",
+    "evidence": "objdump -drw normal; independent byte diff",
+    "kind": "typeset_actual_output",
+    "width": 1062,
+    "height": 1000,
+    "minimum_font_px": 44,
+    "effective_minimum_at_354px": 14.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/10-relative-distance.png",
+    "purpose": "不用大地址也能数清call距离基准",
+    "evidence": "normal: start offset0, next5, answer14",
+    "kind": "original_diagram",
+    "width": 1062,
+    "height": 1050,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/11-addend-origin.png",
+    "purpose": "由CPU下一指令基准推导-4而非死记公式",
+    "evidence": "x86-64 call rel32 encoding and normal ELF relocation",
+    "kind": "original_diagram",
+    "width": 1062,
+    "height": 1110,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/12-padding-experiment.png",
+    "purpose": "只改布局真实重链接，证明编译器原先不知道距离",
+    "evidence": "padded actual ELF / displacement25 / nop16",
+    "kind": "actual_experiment_diagram",
+    "width": 1062,
+    "height": 1060,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/13-negative-displacement.png",
+    "purpose": "用实测倒排解释负位移和补码字节",
+    "evidence": "reversed ELF call bytes f5ffffff / target401000 / next40100b",
+    "kind": "actual_experiment_diagram",
+    "width": 1062,
+    "height": 1080,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/14-shifted-distance.png",
+    "purpose": "验证相对距离平移不变并明确不是运行期PIE试验",
+    "evidence": "normal / shifted separately linked and exit42",
+    "kind": "actual_experiment_diagram",
+    "width": 1062,
+    "height": 1040,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/15-missing-symbol.png",
+    "purpose": "真实失败帮助区分汇编/编译成功与链接成功",
+    "evidence": "link-missing.stderr exit1",
+    "kind": "typeset_actual_error",
+    "width": 1062,
+    "height": 960,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/16-duplicate-symbol.png",
+    "purpose": "用真实重复定义反例说明名字匹配还要遵守规则",
+    "evidence": "link-duplicate.stderr exit1",
+    "kind": "typeset_actual_error",
+    "width": 1062,
+    "height": 940,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/17-c-compiler-evidence.png",
+    "purpose": "从透明汇编入口桥接到真实C编译调用",
+    "evidence": "caller.c; objdump -drw caller.o, original code MIT",
+    "kind": "typeset_actual_code_output",
+    "width": 1062,
+    "height": 1180,
+    "minimum_font_px": 40,
+    "effective_minimum_at_354px": 13.333333333333334,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "assets/18-link-load-execute.png",
+    "purpose": "分开静态链接、动态链接与虚拟内存职责",
+    "evidence": "ELF program loading/dynamic linking gABI; normal has no PT_INTERP",
+    "kind": "original_boundary_diagram",
+    "width": 1062,
+    "height": 1190,
+    "minimum_font_px": 38,
+    "effective_minimum_at_354px": 12.666666666666666,
+    "rights": "Original design CC BY 4.0; original example code MIT; factual tool-output excerpts identified in caption."
+  },
+  {
+    "file": "cover.png",
+    "purpose": "独立封面以实际call补丁前后作为视觉中心",
+    "evidence": "normal byte patch",
+    "kind": "original_cover",
+    "width": 1062,
+    "height": 880,
+    "minimum_font_px": 41,
+    "effective_minimum_at_354px": 13.666666666666666,
+    "rights": "Original CC BY 4.0"
+  }
+]

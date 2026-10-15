@@ -1,0 +1,537 @@
+{
+  "model": "ideal 8-slot educational ring; not EDSAC emulator",
+  "python": "3.12.14",
+  "units": "microseconds",
+  "bits": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "bit_us": 2,
+  "period_us": 16,
+  "trace": [
+    {
+      "time_us": 0,
+      "slot": 0,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 2,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 4,
+      "slot": 2,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 6,
+      "slot": 3,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 8,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 10,
+      "slot": 5,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 12,
+      "slot": 6,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 14,
+      "slot": 7,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 16,
+      "slot": 0,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 18,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 20,
+      "slot": 2,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 22,
+      "slot": 3,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 24,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 26,
+      "slot": 5,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 28,
+      "slot": 6,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 30,
+      "slot": 7,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 32,
+      "slot": 0,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 34,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 36,
+      "slot": 2,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 38,
+      "slot": 3,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 40,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 42,
+      "slot": 5,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 44,
+      "slot": 6,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 46,
+      "slot": 7,
+      "read": 0,
+      "sent": 0
+    }
+  ],
+  "feedback_off": [
+    {
+      "time_us": 0,
+      "slot": 0,
+      "read": 1,
+      "sent": 0
+    },
+    {
+      "time_us": 2,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 4,
+      "slot": 2,
+      "read": 1,
+      "sent": 0
+    },
+    {
+      "time_us": 6,
+      "slot": 3,
+      "read": 1,
+      "sent": 0
+    },
+    {
+      "time_us": 8,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 10,
+      "slot": 5,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 12,
+      "slot": 6,
+      "read": 1,
+      "sent": 0
+    },
+    {
+      "time_us": 14,
+      "slot": 7,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 16,
+      "slot": 0,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 18,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 20,
+      "slot": 2,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 22,
+      "slot": 3,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 24,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 26,
+      "slot": 5,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 28,
+      "slot": 6,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 30,
+      "slot": 7,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 32,
+      "slot": 0,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 34,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 36,
+      "slot": 2,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 38,
+      "slot": 3,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 40,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 42,
+      "slot": 5,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 44,
+      "slot": 6,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 46,
+      "slot": 7,
+      "read": 0,
+      "sent": 0
+    }
+  ],
+  "write_b": [
+    {
+      "time_us": 0,
+      "slot": 0,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 2,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 4,
+      "slot": 2,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 6,
+      "slot": 3,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 8,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 10,
+      "slot": 5,
+      "read": 0,
+      "sent": 1
+    },
+    {
+      "time_us": 12,
+      "slot": 6,
+      "read": 1,
+      "sent": 0
+    },
+    {
+      "time_us": 14,
+      "slot": 7,
+      "read": 0,
+      "sent": 1
+    },
+    {
+      "time_us": 16,
+      "slot": 0,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 18,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 20,
+      "slot": 2,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 22,
+      "slot": 3,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 24,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 26,
+      "slot": 5,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 28,
+      "slot": 6,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 30,
+      "slot": 7,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 32,
+      "slot": 0,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 34,
+      "slot": 1,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 36,
+      "slot": 2,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 38,
+      "slot": 3,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 40,
+      "slot": 4,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 42,
+      "slot": 5,
+      "read": 1,
+      "sent": 1
+    },
+    {
+      "time_us": 44,
+      "slot": 6,
+      "read": 0,
+      "sent": 0
+    },
+    {
+      "time_us": 46,
+      "slot": 7,
+      "read": 1,
+      "sent": 1
+    }
+  ],
+  "requests": [
+    {
+      "request_us": 0,
+      "word": "B",
+      "start_us": 8,
+      "wait_us": 8,
+      "finish_us": 16
+    },
+    {
+      "request_us": 3,
+      "word": "B",
+      "start_us": 8,
+      "wait_us": 5,
+      "finish_us": 16
+    },
+    {
+      "request_us": 8,
+      "word": "B",
+      "start_us": 8,
+      "wait_us": 0,
+      "finish_us": 16
+    },
+    {
+      "request_us": 9,
+      "word": "B",
+      "start_us": 24,
+      "wait_us": 15,
+      "finish_us": 32
+    },
+    {
+      "request_us": 24,
+      "word": "B",
+      "start_us": 24,
+      "wait_us": 0,
+      "finish_us": 32
+    }
+  ],
+  "regeneration": {
+    "received": [
+      0.82,
+      0.08,
+      0.71,
+      0.65,
+      0.12,
+      0.06,
+      0.76,
+      0.11
+    ],
+    "threshold": 0.5,
+    "recovered": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "corrupted": [
+      0.82,
+      0.08,
+      0.31,
+      0.65,
+      0.12,
+      0.06,
+      0.76,
+      0.11
+    ]
+  },
+  "counts": {
+    "short_slot_positions": 18,
+    "short_useful_bits": 17,
+    "long_slot_positions": 36,
+    "long_useful_bits": 35,
+    "short_words_per_tank": 32,
+    "long_words_per_tank": 16,
+    "first_day_active_tanks": 4,
+    "first_complete_battery_tanks": 16,
+    "eventual_tanks": 32
+  },
+  "checks": "8000 next-arrival cases plus feedback, write and threshold assertions passed"
+}

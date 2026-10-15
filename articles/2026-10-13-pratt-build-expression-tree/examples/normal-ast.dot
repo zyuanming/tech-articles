@@ -1,0 +1,14 @@
+digraph AST {
+graph [bgcolor="white",nodesep="0.5",ranksep="0.7"];
+node [shape=circle,fontname="DejaVu Sans",fontsize=28,style=filled,fillcolor="#e8f0ec",color="#244650"];
+edge [color="#64867c",arrowsize=0.7];
+n0 [label="+"];
+n1 [label="2"];
+n0 -> n1;
+n2 [label="*"];
+n3 [label="3"];
+n2 -> n3;
+n4 [label="4"];
+n2 -> n4;
+n0 -> n2;
+}

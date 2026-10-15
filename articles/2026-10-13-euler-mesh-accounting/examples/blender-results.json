@@ -1,0 +1,188 @@
+{
+  "blender": "4.3.2",
+  "engine": "Cycles CPU",
+  "samples": 48,
+  "seed": 20261013,
+  "image_size": [
+    720,
+    550
+  ],
+  "images": [
+    {
+      "name": "cube",
+      "original_mesh_counts": {
+        "V": 8,
+        "E": 12,
+        "F": 6
+      },
+      "chi": 2,
+      "file": "rendered/cube.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "triangulated",
+      "original_mesh_counts": {
+        "V": 8,
+        "E": 18,
+        "F": 12
+      },
+      "chi": 2,
+      "file": "rendered/triangulated.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "subdivide2",
+      "original_mesh_counts": {
+        "V": 26,
+        "E": 48,
+        "F": 24
+      },
+      "chi": 2,
+      "file": "rendered/subdivide2.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "subdivide4",
+      "original_mesh_counts": {
+        "V": 98,
+        "E": 192,
+        "F": 96
+      },
+      "chi": 2,
+      "file": "rendered/subdivide4.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "round_shell",
+      "original_mesh_counts": {
+        "V": 98,
+        "E": 192,
+        "F": 96
+      },
+      "chi": 2,
+      "file": "rendered/round_shell.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "unjoined",
+      "original_mesh_counts": {
+        "V": 24,
+        "E": 24,
+        "F": 6
+      },
+      "chi": 6,
+      "file": "rendered/unjoined.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "exploded",
+      "original_mesh_counts": {
+        "V": 24,
+        "E": 24,
+        "F": 6
+      },
+      "chi": 6,
+      "file": "rendered/exploded.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "open_box",
+      "original_mesh_counts": {
+        "V": 8,
+        "E": 12,
+        "F": 5
+      },
+      "chi": 1,
+      "file": "rendered/open_box.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "split_edge",
+      "original_mesh_counts": {
+        "V": 9,
+        "E": 13,
+        "F": 6
+      },
+      "chi": 2,
+      "file": "rendered/split_edge.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "split_face",
+      "original_mesh_counts": {
+        "V": 9,
+        "E": 16,
+        "F": 9
+      },
+      "chi": 2,
+      "file": "rendered/split_face.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "square_ring",
+      "original_mesh_counts": {
+        "V": 16,
+        "E": 32,
+        "F": 16
+      },
+      "chi": 0,
+      "file": "rendered/square_ring.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "torus",
+      "original_mesh_counts": {
+        "V": 48,
+        "E": 96,
+        "F": 48
+      },
+      "chi": 0,
+      "file": "rendered/torus.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "two_holes",
+      "original_mesh_counts": {
+        "V": 48,
+        "E": 100,
+        "F": 50
+      },
+      "chi": -2,
+      "file": "rendered/two_holes.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "two_cubes",
+      "original_mesh_counts": {
+        "V": 16,
+        "E": 24,
+        "F": 12
+      },
+      "chi": 4,
+      "file": "rendered/two_cubes.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "pinch",
+      "original_mesh_counts": {
+        "V": 7,
+        "E": 12,
+        "F": 8
+      },
+      "chi": 3,
+      "file": "rendered/pinch.png",
+      "overlay_in_counts": false
+    },
+    {
+      "name": "triple_edge",
+      "original_mesh_counts": {
+        "V": 5,
+        "E": 7,
+        "F": 3
+      },
+      "chi": 1,
+      "file": "rendered/triple_edge.png",
+      "overlay_in_counts": false
+    }
+  ]
+}

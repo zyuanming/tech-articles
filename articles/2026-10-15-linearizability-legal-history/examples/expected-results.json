@@ -1,0 +1,444 @@
+{
+  "python": "3.12.14",
+  "clock": "perf_counter_ns; event indices used for ordering",
+  "scope": "one register initially 0; values 0/1; finite history; synthetic cases plus local controlled threads",
+  "fixed_cases": {
+    "old_then_new": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 6,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 0
+        },
+        {
+          "id": "B",
+          "kind": "read",
+          "call": 4,
+          "end": 5,
+          "value": null,
+          "result": 1
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "A",
+            "W",
+            "B"
+          ],
+          "included_pending": []
+        }
+      ]
+    },
+    "new_then_old": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 6,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 1
+        },
+        {
+          "id": "B",
+          "kind": "read",
+          "call": 4,
+          "end": 5,
+          "value": null,
+          "result": 0
+        }
+      ],
+      "witnesses": []
+    },
+    "stale_after_write": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 2,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 3,
+          "end": 4,
+          "value": null,
+          "result": 0
+        }
+      ],
+      "witnesses": []
+    },
+    "call_sort_fails": {
+      "operations": [
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 1,
+          "end": 4,
+          "value": null,
+          "result": 1
+        },
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 2,
+          "end": 3,
+          "value": 1,
+          "result": "ok"
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "W",
+            "A"
+          ],
+          "included_pending": []
+        }
+      ]
+    },
+    "return_sort_fails": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 4,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 1
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "W",
+            "A"
+          ],
+          "included_pending": []
+        }
+      ]
+    },
+    "pending_needed": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": null,
+          "value": 1,
+          "result": null
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 1
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "W",
+            "A"
+          ],
+          "included_pending": [
+            "W"
+          ]
+        }
+      ]
+    },
+    "pending_optional": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": null,
+          "value": 1,
+          "result": null
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 0
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "A"
+          ],
+          "included_pending": []
+        },
+        {
+          "order": [
+            "A",
+            "W"
+          ],
+          "included_pending": [
+            "W"
+          ]
+        }
+      ]
+    },
+    "future_pending_cannot_help": {
+      "operations": [
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 1,
+          "end": 2,
+          "value": null,
+          "result": 1
+        },
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 3,
+          "end": null,
+          "value": 1,
+          "result": null
+        }
+      ],
+      "witnesses": []
+    },
+    "both_reads_overlap": {
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 6,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 5,
+          "value": null,
+          "result": 1
+        },
+        {
+          "id": "B",
+          "kind": "read",
+          "call": 3,
+          "end": 4,
+          "value": null,
+          "result": 0
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "B",
+            "W",
+            "A"
+          ],
+          "included_pending": []
+        }
+      ]
+    }
+  },
+  "threaded_runs": {
+    "locked_register": {
+      "events": [
+        {
+          "index": 1,
+          "elapsed_ns": 186832,
+          "id": "W",
+          "event": "call",
+          "value": 1
+        },
+        {
+          "index": 2,
+          "elapsed_ns": 227323,
+          "id": "A",
+          "event": "call",
+          "value": "read"
+        },
+        {
+          "index": 3,
+          "elapsed_ns": 229426,
+          "id": "A",
+          "event": "return",
+          "value": 0
+        },
+        {
+          "index": 4,
+          "elapsed_ns": 264800,
+          "id": "B",
+          "event": "call",
+          "value": "read"
+        },
+        {
+          "index": 5,
+          "elapsed_ns": 265931,
+          "id": "B",
+          "event": "return",
+          "value": 1
+        },
+        {
+          "index": 6,
+          "elapsed_ns": 285321,
+          "id": "W",
+          "event": "return",
+          "value": "ok"
+        }
+      ],
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 6,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 0
+        },
+        {
+          "id": "B",
+          "kind": "read",
+          "call": 4,
+          "end": 5,
+          "value": null,
+          "result": 1
+        }
+      ],
+      "witnesses": [
+        {
+          "order": [
+            "A",
+            "W",
+            "B"
+          ],
+          "included_pending": []
+        }
+      ]
+    },
+    "injected_stale_read": {
+      "events": [
+        {
+          "index": 1,
+          "elapsed_ns": 88283,
+          "id": "W",
+          "event": "call",
+          "value": 1
+        },
+        {
+          "index": 2,
+          "elapsed_ns": 132920,
+          "id": "A",
+          "event": "call",
+          "value": "read"
+        },
+        {
+          "index": 3,
+          "elapsed_ns": 134262,
+          "id": "A",
+          "event": "return",
+          "value": 1
+        },
+        {
+          "index": 4,
+          "elapsed_ns": 135104,
+          "id": "B",
+          "event": "call",
+          "value": "read"
+        },
+        {
+          "index": 5,
+          "elapsed_ns": 135765,
+          "id": "B",
+          "event": "return",
+          "value": 0
+        },
+        {
+          "index": 6,
+          "elapsed_ns": 147482,
+          "id": "W",
+          "event": "return",
+          "value": "ok"
+        }
+      ],
+      "operations": [
+        {
+          "id": "W",
+          "kind": "write",
+          "call": 1,
+          "end": 6,
+          "value": 1,
+          "result": "ok"
+        },
+        {
+          "id": "A",
+          "kind": "read",
+          "call": 2,
+          "end": 3,
+          "value": null,
+          "result": 1
+        },
+        {
+          "id": "B",
+          "kind": "read",
+          "call": 4,
+          "end": 5,
+          "value": null,
+          "result": 0
+        }
+      ],
+      "witnesses": []
+    }
+  },
+  "exhaustive": {
+    "endpoint_orders": 90,
+    "histories": 360,
+    "linearizable": 246,
+    "not_linearizable": 114,
+    "crosscheck_disagreements": 0
+  }
+}

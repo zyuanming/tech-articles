@@ -1,0 +1,22 @@
+[
+  {
+    "file": "originals/pico-original.png",
+    "source": "https://github.com/raspberrypi/documentation/blob/208ec7debc5b30b3ce6a1426eff453f2359f2165/documentation/asciidoc/computers/raspberry-pi/images/pico.png",
+    "upstream_git_blob_sha": "d36e87d79899fc1c3a91828ac765958a01d0a548",
+    "bytes": 562252,
+    "sha256": "cbd8f9e22c3a45123f2d916ea996e99beb236dcaaaca0430cd2575a91bdf5a33",
+    "author": "Raspberry Pi Ltd",
+    "license": "CC BY-SA 4.0",
+    "modifications": "none"
+  },
+  {
+    "file": "originals/rp2040-original.jpg",
+    "source": "https://github.com/raspberrypi/documentation/blob/208ec7debc5b30b3ce6a1426eff453f2359f2165/documentation/asciidoc/microcontrollers/microcontroller-chips/images/rp2040.jpg",
+    "upstream_git_blob_sha": "3ec60937b5091a321bc885f60c042154ad70249b",
+    "bytes": 35906,
+    "sha256": "583a6ce6f12236788d3f953d0005244ab97f4459d8e8f40bd25025a2c113a4a1",
+    "author": "Raspberry Pi Ltd",
+    "license": "CC BY-SA 4.0",
+    "modifications": "none"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "file": "assets/01-eight-cells.png",
+    "width": 1062,
+    "height": 1100,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Fixed eight-cell array and boundary distinction",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/02-concrete-state-cloud.png",
+    "width": 1062,
+    "height": 1250,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual enumeration of all nine allowed inputs; head and access states",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/03-set-to-interval.png",
+    "width": 1062,
+    "height": 1180,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Overapproximation of a sparse finite set by an integer interval",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/04-transfer-add-one.png",
+    "width": 1062,
+    "height": 1160,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual interval transformer for one increment",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/05-branch-join.png",
+    "width": 1062,
+    "height": 1300,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Join operation and the precision lost when merging branches",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/06-loop-control-flow.png",
+    "width": 1062,
+    "height": 1470,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Loop entry, guard, body and feedback into one head invariant",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/07-fixpoint-iterations.png",
+    "width": 1062,
+    "height": 1420,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Recorded interval-head iteration through a fixed point",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/08-inductive-certificate.png",
+    "width": 1062,
+    "height": 1350,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Three local obligations proving the whole-loop access property",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/09-mutated-real-counterexample.png",
+    "width": 1062,
+    "height": 1280,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual enumeration of mutated loop with one illegal access",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/10-widening.png",
+    "width": 1062,
+    "height": 1380,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Delayed widening from the recorded sequence to an unbounded interval",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/11-guard-and-narrowing.png",
+    "width": 1062,
+    "height": 1420,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Guard recovers the finite access bound even after widening",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/12-lost-correlation.png",
+    "width": 1062,
+    "height": 1320,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Exact reachable pairs versus product interval and spurious corners",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/13-restore-relation.png",
+    "width": 1062,
+    "height": 1280,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Relational equality or disjunctive states eliminate the false alarm",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/14-proof-versus-alarm.png",
+    "width": 1062,
+    "height": 1350,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Safe overapproximation versus one intersecting the error region",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "min_font_px": 44,
+    "min_effective_px_at_354": 14.666666666666666,
+    "role": "Separate original cover with actual eight-element index layout",
+    "identity": "original teaching illustration"
+  }
+]

@@ -1,0 +1,6 @@
+Synthetic only; dt=1s; train=120 transitions; validation=80 transitions
+TRUE a=0.8, b=0.4; FIT a=0.808243788, b=0.395644519
+TRAIN one-step RMSE=0.030356775 degC
+VALIDATION one-step=0.029417234, free-run=0.040772971, static=0.523967745 degC
+VALIDATION residual lag1: dynamic=0.009944642, static=0.793369675
+STEADY determinant=0.0; 100 noise-repeat estimates; 25 grid checks

@@ -1,0 +1,17 @@
+{
+  "decoder": "Pillow",
+  "pillow_version": "12.3.0",
+  "size": [
+    96,
+    64
+  ],
+  "mode": "RGB",
+  "decoded_bytes": 18432,
+  "pixels_equal": true,
+  "pixel_sha256": "f966e2989cd58abc42899f9e54f03d7fde9f44e66622fdd892307dabe1887ae0",
+  "first_pixel": [
+    26,
+    44,
+    91
+  ]
+}

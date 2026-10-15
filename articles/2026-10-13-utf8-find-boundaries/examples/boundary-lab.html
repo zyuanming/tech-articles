@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>UTF-8：把读取起点拖进半个字</title>
+<style>body{max-width:760px;margin:24px auto;padding:0 18px;font:18px/1.65 system-ui,sans-serif;color:#2f3653;background:#f4f3f9}h1{font-size:1.6rem}.bytes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.byte{padding:8px 2px;border:2px solid #4560b4;border-radius:8px;background:white;text-align:center;min-width:0}.byte strong{font:700 22px ui-monospace,monospace;display:block}.byte small{font-size:13px}.discard{opacity:.48}.skip{background:#f8dcdf;border-color:#b83b4b}.remain{background:#d8eeee;border-color:#077e8c}input{width:100%;min-height:40px;accent-color:#4560b4}output{display:block;padding:16px;background:white;border-radius:10px;margin:16px 0;font-weight:600;overflow-wrap:anywhere}a{color:#3456a7}button{font:inherit;padding:5px 12px;margin-right:8px}section{margin:25px 0}footer{font-size:14px}@media(min-width:660px){.bytes{grid-template-columns:repeat(9,minmax(0,1fr))}}</style>
+<h1>把读取起点拖进半个字</h1>
+<p>固定样本是 A中𠮷B，九个字节。假设样本已知是合法 UTF-8，而起点左侧不再读取。拖动起点，看看要跳过多少个续字节。</p>
+<label for="cut">读取起点：<span id="position">2</span> 号字节（9 表示末尾）</label>
+<input id="cut" type="range" min="0" max="9" value="2" step="1">
+<div><button id="prev" type="button" aria-label="起点向前一字节">前一格</button><button id="next" type="button" aria-label="起点向后一字节">后一格</button></div>
+<section class="bytes" id="bytes" aria-label="样本字节及状态"></section>
+<output id="result" aria-live="polite"></output>
+<p>灰色部分不再读取；红色是需要跳过的续字节；绿色从下一个完整码点开始。颜色之外，每格同时写出状态与索引。</p>
+<p>这没有修复起点左侧丢失的内容。它也不是未知字节串的合法性验证器；FF 虽然不以 10 开头，却不能成为合法 UTF-8 首字节。完整网络流分块到达时，应使用增量解码，不要照这个实验删掉暂未到齐的字节。</p>
+<noscript><p>脚本未启用：起点 2 对应 B8。跳过 B8、AD 后，在索引 4 找到 F0，剩余“𠮷B”。正文的静态图展示了同一过程。</p></noscript>
+<footer><a href="../read.html">返回正文网页</a> · <a href="utf8_lab.py">Python 完整实验</a>。界面与教学模型为原创，代码采用 MIT 许可。</footer>
+<script>
+const sample='A中𠮷B', data=new TextEncoder().encode(sample);
+function locate(offset){
+ if(!Number.isInteger(offset)||offset<0||offset>data.length)throw new RangeError('offset');
+ let next=offset;while(next<data.length&&(data[next]&0xc0)===0x80)next++;
+ return {offset,next,skipped:next-offset,text:new TextDecoder('utf-8',{fatal:true}).decode(data.slice(next))};
+}
+const slider=document.getElementById('cut');
+function render(){
+ const r=locate(Number(slider.value));document.getElementById('position').textContent=r.offset;
+ const host=document.getElementById('bytes');host.replaceChildren();
+ data.forEach((b,i)=>{const item=document.createElement('div');const status=i<r.offset?'未读取':i<r.next?'跳过':'保留';item.className='byte '+(i<r.offset?'discard':i<r.next?'skip':'remain');const top=document.createElement('strong');top.textContent=b.toString(16).toUpperCase().padStart(2,'0');const sub=document.createElement('small');sub.textContent=`${i} · ${status}`;item.append(top,sub);host.append(item)});
+ document.getElementById('result').textContent=`跳过 ${r.skipped} 个续字节；下一个边界是 ${r.next}。完整后缀：${r.text||'（空，已到末尾）'}`;
+}
+slider.addEventListener('input',render);
+document.getElementById('prev').addEventListener('click',()=>{slider.value=Math.max(0,Number(slider.value)-1);render()});
+document.getElementById('next').addEventListener('click',()=>{slider.value=Math.min(data.length,Number(slider.value)+1);render()});
+window.utf8BoundaryLab={locate,render};render();
+</script></html>

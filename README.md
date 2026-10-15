@@ -10,7 +10,7 @@
 
 ## 内容组织
 
-当前收录 137 份文章版本（含 1 份技术教学试稿）；6 组同题不同成稿保留相互链接，不把版本数当成独立选题数。文章目录见 [catalog.json](catalog.json)。
+当前收录 173 份文章版本（含 1 份技术教学试稿）；6 组同题不同成稿保留相互链接，不把版本数当成独立选题数。文章目录见 [catalog.json](catalog.json)。
 
 每篇位于 `articles/YYYY-MM-DD-slug/read.md`，图片使用相对路径。正文中的原有来源与事实边界保持，额外许可信息见各篇 `sources.md`。CERN NeXT 照片因分发条款限制，仅链接官方原页。内部研究资料、审读记录、凭据、运行日志及公众号后台状态不属于这个公开存档。
 
@@ -47,3 +47,11 @@
 - [只沿着边缘走一圈，仪器怎么知道里面有多大？](articles/2026-10-12-planimeter-area-from-boundary/read.md)
 - [让轮子压在圆盘上，怎么就开始解微分方程？](articles/2026-10-12-differential-analyzer-wheel-disc/read.md)
 - [一柜子齿轮，怎样提前画出明年的潮汐？](articles/2026-10-12-tide-predictor-harmonic-machine/read.md)
+
+## 继续给好奇心留台阶
+
+2026年10月13日起的新一批探索文章逐篇增加，完整成稿入口见[新一轮学生探索](docs/student-exploration-series-2026-10-13.md)。目录仅收录已完成的文章。
+
+## 从零看懂 Doom
+
+从真实游戏画面和基础对象开始，逐篇理解地图、屏幕与遮挡。已完成文章见[独立 Doom 入门系列](docs/doom-from-zero-2026-10-13.md)；旧有 Doom/BSP 文章保持原样。

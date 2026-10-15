@@ -1,0 +1,288 @@
+{
+  "python": "3.12.14",
+  "model": "ideal floor-quantizer SAR; >= retains; clipping at endpoints",
+  "reference_V": 2.56,
+  "input_V": 1.737,
+  "bits": 8,
+  "code": 173,
+  "binary": "10101101",
+  "interval_V": [
+    1.73,
+    1.74
+  ],
+  "midpoint_estimate_V": 1.735,
+  "steps": [
+    {
+      "step": 1,
+      "weight": 128,
+      "trial": 128,
+      "trial_bits": "10000000",
+      "threshold": 1.28,
+      "vin": 1.737,
+      "keep": true,
+      "code": 128,
+      "low": 1.28,
+      "high": 2.56
+    },
+    {
+      "step": 2,
+      "weight": 64,
+      "trial": 192,
+      "trial_bits": "11000000",
+      "threshold": 1.92,
+      "vin": 1.737,
+      "keep": false,
+      "code": 128,
+      "low": 1.28,
+      "high": 1.92
+    },
+    {
+      "step": 3,
+      "weight": 32,
+      "trial": 160,
+      "trial_bits": "10100000",
+      "threshold": 1.6,
+      "vin": 1.737,
+      "keep": true,
+      "code": 160,
+      "low": 1.6,
+      "high": 1.92
+    },
+    {
+      "step": 4,
+      "weight": 16,
+      "trial": 176,
+      "trial_bits": "10110000",
+      "threshold": 1.76,
+      "vin": 1.737,
+      "keep": false,
+      "code": 160,
+      "low": 1.6,
+      "high": 1.76
+    },
+    {
+      "step": 5,
+      "weight": 8,
+      "trial": 168,
+      "trial_bits": "10101000",
+      "threshold": 1.68,
+      "vin": 1.737,
+      "keep": true,
+      "code": 168,
+      "low": 1.68,
+      "high": 1.76
+    },
+    {
+      "step": 6,
+      "weight": 4,
+      "trial": 172,
+      "trial_bits": "10101100",
+      "threshold": 1.72,
+      "vin": 1.737,
+      "keep": true,
+      "code": 172,
+      "low": 1.72,
+      "high": 1.76
+    },
+    {
+      "step": 7,
+      "weight": 2,
+      "trial": 174,
+      "trial_bits": "10101110",
+      "threshold": 1.74,
+      "vin": 1.737,
+      "keep": false,
+      "code": 172,
+      "low": 1.72,
+      "high": 1.74
+    },
+    {
+      "step": 8,
+      "weight": 1,
+      "trial": 173,
+      "trial_bits": "10101101",
+      "threshold": 1.73,
+      "vin": 1.737,
+      "keep": true,
+      "code": 173,
+      "low": 1.73,
+      "high": 1.74
+    }
+  ],
+  "exact_test_points": 24570,
+  "widths_tested": [
+    1,
+    12
+  ],
+  "all_assertions": "PASS",
+  "offset_added_V": 0.02,
+  "offset_code": 175,
+  "actual_reference_V": 2.5,
+  "reference_error_code": 177,
+  "nominal_midpoint_estimate_with_wrong_reference_V": 1.775,
+  "moving_inputs_V": [
+    1.2,
+    1.3428571428571427,
+    1.4857142857142858,
+    1.6285714285714286,
+    1.7714285714285714,
+    1.9142857142857144,
+    2.057142857142857,
+    2.2
+  ],
+  "moving_code": 127,
+  "held_code": 120,
+  "moving_trace": [
+    {
+      "step": 1,
+      "weight": 128,
+      "trial": 128,
+      "trial_bits": "10000000",
+      "threshold": 1.28,
+      "vin": 1.2,
+      "keep": false,
+      "code": 0,
+      "low": 0.0,
+      "high": 1.28
+    },
+    {
+      "step": 2,
+      "weight": 64,
+      "trial": 64,
+      "trial_bits": "01000000",
+      "threshold": 0.64,
+      "vin": 1.3428571428571427,
+      "keep": true,
+      "code": 64,
+      "low": 0.64,
+      "high": 1.28
+    },
+    {
+      "step": 3,
+      "weight": 32,
+      "trial": 96,
+      "trial_bits": "01100000",
+      "threshold": 0.96,
+      "vin": 1.4857142857142858,
+      "keep": true,
+      "code": 96,
+      "low": 0.96,
+      "high": 1.28
+    },
+    {
+      "step": 4,
+      "weight": 16,
+      "trial": 112,
+      "trial_bits": "01110000",
+      "threshold": 1.12,
+      "vin": 1.6285714285714286,
+      "keep": true,
+      "code": 112,
+      "low": 1.12,
+      "high": 1.28
+    },
+    {
+      "step": 5,
+      "weight": 8,
+      "trial": 120,
+      "trial_bits": "01111000",
+      "threshold": 1.2,
+      "vin": 1.7714285714285714,
+      "keep": true,
+      "code": 120,
+      "low": 1.2,
+      "high": 1.28
+    },
+    {
+      "step": 6,
+      "weight": 4,
+      "trial": 124,
+      "trial_bits": "01111100",
+      "threshold": 1.24,
+      "vin": 1.9142857142857144,
+      "keep": true,
+      "code": 124,
+      "low": 1.24,
+      "high": 1.28
+    },
+    {
+      "step": 7,
+      "weight": 2,
+      "trial": 126,
+      "trial_bits": "01111110",
+      "threshold": 1.26,
+      "vin": 2.057142857142857,
+      "keep": true,
+      "code": 126,
+      "low": 1.26,
+      "high": 1.28
+    },
+    {
+      "step": 8,
+      "weight": 1,
+      "trial": 127,
+      "trial_bits": "01111111",
+      "threshold": 1.27,
+      "vin": 2.2,
+      "keep": true,
+      "code": 127,
+      "low": 1.27,
+      "high": 1.28
+    }
+  ],
+  "noise_model": {
+    "seed": 20261013,
+    "samples": 10000,
+    "mean_V": 1.73,
+    "sigma_V": 0.002,
+    "histogram": {
+      "172": 4884,
+      "173": 5116
+    }
+  },
+  "capacitor_charge_checks": [
+    {
+      "bits": "000",
+      "vtop": -1.737,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "001",
+      "vtop": -1.417,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "010",
+      "vtop": -1.097,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "011",
+      "vtop": -0.777,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "100",
+      "vtop": -0.457,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "101",
+      "vtop": -0.137,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "110",
+      "vtop": 0.183,
+      "stored_top_charge_in_CV": -13.896
+    },
+    {
+      "bits": "111",
+      "vtop": 0.503,
+      "stored_top_charge_in_CV": -13.896
+    }
+  ],
+  "acquisition_error_fraction_after_5_tau": 0.006737946999085467,
+  "half_lsb_fraction_8bit": 0.001953125,
+  "required_tau_for_full_scale_to_half_lsb_8bit": 6.238324625039508
+}

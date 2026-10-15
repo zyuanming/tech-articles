@@ -1,0 +1,13 @@
+One offline query; no production motion controller
+Python 3.12.14; NumPy 2.3.5
+CMU original frames: 471 + 518 + 410 = 1399
+Eligible with60 future frames: 411 + 458 + 350 = 1219
+Invented four-candidate winner: C; cost0.1725
+Real query current: 16_15 frame113
+Real winner: 16_17 frame244; cost 0.000866277605
+Future-point error: 0.027287672 m
+Left toe forward jump: -0.002757496 m
+Maximum aligned joint jump: 0.162357181 m (rfemur)
+Rigid-transform feature error: 2e-15 m
+No foot-lock, collision, blend, or new-query processing applied to CMU segment
+All checks PASS

@@ -1,0 +1,137 @@
+[
+  {
+    "path": "assets/02-four-representations.png",
+    "width": 1062,
+    "height": 1190,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "把CCD的模拟电荷转移和最终数字照片分开",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/03-potential-well.png",
+    "width": 1062,
+    "height": 1080,
+    "min_label_px": 39,
+    "effective_min_at_354px": 13.0,
+    "purpose": "电子势能与栅电压方向不同；势阱不是刻出的空洞",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/04-three-phase-spatial.png",
+    "width": 1062,
+    "height": 1530,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "7个时刻显示相邻两包在同一周期内平移；绿色和棕色用于追踪身份",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/05-phase-clocks.png",
+    "width": 1062,
+    "height": 930,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "用时间视角解释相位重叠以及一个像素周期；折线仅逻辑状态",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/06-array-readout.png",
+    "width": 1062,
+    "height": 1190,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "明确3×4主例坐标、7800电子、两个搬运方向和空的串行寄存器",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/07-first-row-steps.png",
+    "width": 1062,
+    "height": 1390,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "由实际模型前4串行事件显示空位如何逐步补入",
+    "identity": "实际运行教学模型状态，不是硬件测量"
+  },
+  {
+    "path": "assets/08-output-plot.png",
+    "width": 1062,
+    "height": 1190,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "直接绘制readout.csv的12个样本，用颜色保存空间行身份",
+    "identity": "实际运行教学模型输出；横轴不是秒"
+  },
+  {
+    "path": "assets/09-charge-to-number.png",
+    "width": 1062,
+    "height": 1190,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "区分电荷、电压、数字码、偏置和转换增益",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/10-smear-and-storage.png",
+    "width": 1062,
+    "height": 1250,
+    "min_label_px": 39,
+    "effective_min_at_354px": 13.0,
+    "purpose": "区分全帧式与帧转移式；右向箭头只表示区域交接不是实际芯片方向",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/11-blooming-model.png",
+    "width": 1062,
+    "height": 1080,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "用守恒数值区分饱和和邻近像素污染",
+    "identity": "原创定向溢出模型；非器件模拟"
+  },
+  {
+    "path": "assets/12-transfer-efficiency.png",
+    "width": 1062,
+    "height": 1130,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "从同一效率乘法模型输出曲线，不把门相位子步当成像素转移",
+    "identity": "实际运行恒定效率模型；非厂商标称曲线"
+  },
+  {
+    "path": "assets/13-delayed-trail.png",
+    "width": 1062,
+    "height": 1280,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "从守恒残留模型画出脉冲尾巴；16拍总输出加芯片残留仍为1000",
+    "identity": "实际运行夸张残留模型，90%非实际产品参数"
+  },
+  {
+    "path": "assets/14-readout-architectures.png",
+    "width": 1062,
+    "height": 1160,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "比较模拟电荷长程搬运与典型有源像素局部读出；不暗示每像素各有ADC",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "assets/15-history-roles.png",
+    "width": 1062,
+    "height": 1220,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "区分器件构思、实验验证和成像工程；不虚构具体会面日期",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  },
+  {
+    "path": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "独立封面：二维电荷矩阵汇入一条输出链",
+    "identity": "原创机制示意；不代表器件尺寸或真实波形"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "blender_version": "4.3.2",
+  "engine": "Cycles CPU",
+  "samples": 96,
+  "camera": "orthographic, scale 3.5",
+  "operation": "import original teaching mesh arrays and render; no Blender simplification",
+  "images": [
+    {
+      "file": "assets/31-blender-render-800.png",
+      "vertices": 441,
+      "faces": 800
+    },
+    {
+      "file": "assets/32-blender-render-160.png",
+      "vertices": 121,
+      "faces": 160
+    }
+  ]
+}

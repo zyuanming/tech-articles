@@ -1,0 +1,6 @@
+x=2, y=3 -> u=6, v=8, r=-2, L=2
+dL/dx=-8; dL/dy=-4
+shared w=x*x; z=w+w: dz/dx=8
+36 analytic grid cases PASS
+Repeated edges, distinct equal-valued nodes, and reset PASS
+Fixed y=3: eta=0.01 -> L=1.4112; eta=0.2 -> L=9.68

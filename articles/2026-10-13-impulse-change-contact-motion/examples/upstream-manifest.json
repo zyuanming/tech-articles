@@ -1,0 +1,78 @@
+{
+  "repository": "erincatto/box2d-lite",
+  "commit": "227b71b6974ea57ab7e96d40f6374287bd6a0e77",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob": "2fb45a7c545c3ce0ddab420ad959f96cda1b8816",
+      "local_path": "vendor/box2d-lite/LICENSE",
+      "sha256": "b5c291647bfedf8a8348c7a1d3ec8a46b8d1f510376f4329900b2709bb94a7dd"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "76e193347ea7135e0d4b090fcc8fe78a87a9c30b",
+      "local_path": "vendor/box2d-lite/README.upstream.txt",
+      "sha256": "fc60b6a538661f88094993209bb6ec84914a921e18fb3d728edf467b111d8d5b"
+    },
+    {
+      "path": "include/box2d-lite/Arbiter.h",
+      "git_blob": "2c46331e55c1e1202882bbdf692fce87edad378c",
+      "local_path": "vendor/box2d-lite/include/box2d-lite/Arbiter.h",
+      "sha256": "5f52680c8dafa400e134b00a04dbe141a62194c510d2178f91e2a73daf655138"
+    },
+    {
+      "path": "include/box2d-lite/Body.h",
+      "git_blob": "1f8354c5a027afe3446c3e3a9c3d9be8b711f339",
+      "local_path": "vendor/box2d-lite/include/box2d-lite/Body.h",
+      "sha256": "97e300882981b915c1beedc761ad2dbebf61f2fc6e284d27127cc989becea023"
+    },
+    {
+      "path": "include/box2d-lite/Joint.h",
+      "git_blob": "9b746f7954c90f8fa2c755ab9a4903ac5b2e60e0",
+      "local_path": "vendor/box2d-lite/include/box2d-lite/Joint.h",
+      "sha256": "75329af40be6c6ca44f2e08eb67d3ef766a8f0ec729c5a0df2b0acfe6cd3ce36"
+    },
+    {
+      "path": "include/box2d-lite/MathUtils.h",
+      "git_blob": "e618c72849e356ab2ee99ba4b95de2d75ca8d247",
+      "local_path": "vendor/box2d-lite/include/box2d-lite/MathUtils.h",
+      "sha256": "1bb0b0f5027818500280eea7a099eb24099282b2a053e8c1f8516b2f1aafab92"
+    },
+    {
+      "path": "include/box2d-lite/World.h",
+      "git_blob": "929e082ba02276f6013c085b7c83e3363c7025c5",
+      "local_path": "vendor/box2d-lite/include/box2d-lite/World.h",
+      "sha256": "798a41bce58df164318011e034badcd5e81e2ee3264a2cfbe27d4ed0ec9bdee1"
+    },
+    {
+      "path": "src/Arbiter.cpp",
+      "git_blob": "8624e0c6f3f3dd3f8bc082d5cb68e64980641e39",
+      "local_path": "vendor/box2d-lite/src/Arbiter.cpp",
+      "sha256": "a00ab1624949b7ee26822b1db1660e15f5e548a29a6f7d7825eed8411b3d009b"
+    },
+    {
+      "path": "src/Body.cpp",
+      "git_blob": "9898c74fecc404c17250f702249db811c963e8bb",
+      "local_path": "vendor/box2d-lite/src/Body.cpp",
+      "sha256": "300685d63f61b9a39c24a4bd92491ceb3fb793d0146dda0e11c066f52ce158a0"
+    },
+    {
+      "path": "src/Collide.cpp",
+      "git_blob": "e675444ad3817eb38f1f2dce48302e84d5c3ec0c",
+      "local_path": "vendor/box2d-lite/src/Collide.cpp",
+      "sha256": "a40e12f1571dce362c9c80bae0e40ca2fbe42e437272f15f9563126d10d46795"
+    },
+    {
+      "path": "src/Joint.cpp",
+      "git_blob": "16cdb24d507e1e23946eb49045aed60a24f06eff",
+      "local_path": "vendor/box2d-lite/src/Joint.cpp",
+      "sha256": "2ff8c02aa2a08985d1c081fd497621e5d03559d50bbfad27fed7b399102234da"
+    },
+    {
+      "path": "src/World.cpp",
+      "git_blob": "cbda51ab4dfb88c71757bbfe4b09ea66e862f61d",
+      "local_path": "vendor/box2d-lite/src/World.cpp",
+      "sha256": "d44ef1c491246ba630e6039f80b1ba5107d6cefef30b97215c8ab14d48159ad0"
+    }
+  ]
+}

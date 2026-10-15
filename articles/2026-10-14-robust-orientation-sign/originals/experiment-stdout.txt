@@ -1,0 +1,6 @@
+Exact determinant 1; naive determinant 0
+Cyclic naive determinants: 0, 1, 1
+Convex hull vertices: naive 2, robust 3
+Grid: 31/961 naive errors; 283/961 exact fallbacks
+Ordinary: 0/500 exact fallbacks
+Verified 1475 cases; invalid inputs rejected: 3

@@ -1,0 +1,137 @@
+[
+  {
+    "file": "01-input-pose.png",
+    "width": 1062,
+    "height": 1320,
+    "frames": 1,
+    "bytes": 100605,
+    "sha256": "f9f5fc084bc7fcc28669b5447eb6a6f47a296f92158e7e4ebcd36a7bf8896433",
+    "identity": "CMU-data derived original render under CMU terms"
+  },
+  {
+    "file": "02-frames-and-continuation.png",
+    "width": 1062,
+    "height": 1430,
+    "frames": 1,
+    "bytes": 87852,
+    "sha256": "9abe37a30bf4461c78330de9bad0cf851c8c9a26d4308bafc9f9212e8a488da4",
+    "identity": "CMU-data derived original render under CMU terms"
+  },
+  {
+    "file": "03-local-coordinates.png",
+    "width": 1062,
+    "height": 1320,
+    "frames": 1,
+    "bytes": 84424,
+    "sha256": "44529bfa9ea6557d37d5be6ea79f5a6b6de9e0ec5df88bc299ab49f0aa85622f",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "04-four-candidates.png",
+    "width": 1062,
+    "height": 1600,
+    "frames": 1,
+    "bytes": 85799,
+    "sha256": "b48e5a274f9a47cb9e7170e7de6a27fbebff07ded30bf8f4c05f743182a2688d",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "05-scales-cost.png",
+    "width": 1062,
+    "height": 1370,
+    "frames": 1,
+    "bytes": 88943,
+    "sha256": "84d66a647b4f84e17c7588fad88139523c6e685d0f65b1a4d68608c24c130c09",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "06-ranking.png",
+    "width": 1062,
+    "height": 1270,
+    "frames": 1,
+    "bytes": 76317,
+    "sha256": "113a753620ae74bdd92ed183347648e2e6f72687b8314a6441b166b77e06eb88",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "07-lookup-and-play.png",
+    "width": 1062,
+    "height": 1330,
+    "frames": 1,
+    "bytes": 131818,
+    "sha256": "1717b7253f90929e471deb10481073a44c5c2ff8289bf43b95bcb382912bc274",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "08-align-coordinates.png",
+    "width": 1062,
+    "height": 1350,
+    "frames": 1,
+    "bytes": 123341,
+    "sha256": "84c2d5c7b2bfb9b7745dd6659deec3b426c27afd5ed4f1b13d3e6e374f6b1dac",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "09-transition-curve.png",
+    "width": 1062,
+    "height": 1360,
+    "frames": 1,
+    "bytes": 99081,
+    "sha256": "c25188dc34740e6ca9e38bc7c5a532143d1c0bd3ca7b1abc07f97fa4aff15b10",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "10-weights-and-units.png",
+    "width": 1062,
+    "height": 1470,
+    "frames": 1,
+    "bytes": 151121,
+    "sha256": "b87217783e295530e77f5b587fac566c0b383331b33ed1fa370619ba045a844e",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "11-missing-coverage.png",
+    "width": 1062,
+    "height": 1260,
+    "frames": 1,
+    "bytes": 78000,
+    "sha256": "d7ac0df30ff07f2c377faaef790e41ef8224ba48b40b89372ff15fd21c75a269",
+    "identity": "Original explanatory diagram with invented teaching data"
+  },
+  {
+    "file": "12-real-library.png",
+    "width": 1062,
+    "height": 1600,
+    "frames": 1,
+    "bytes": 113818,
+    "sha256": "582c13014751ece43ab6dbba2ace363362f4e495c03ad2dfaae8f0d21eb2f5b8",
+    "identity": "CMU-data derived original render under CMU terms"
+  },
+  {
+    "file": "13-real-query.png",
+    "width": 1062,
+    "height": 1440,
+    "frames": 1,
+    "bytes": 137348,
+    "sha256": "478604a57c85a0cfdab046692a00e1a98f78c46b30a4a9691a5727a168da0cf3",
+    "identity": "CMU-data derived original render under CMU terms"
+  },
+  {
+    "file": "14-real-playback.gif",
+    "width": 1062,
+    "height": 1200,
+    "frames": 16,
+    "bytes": 685449,
+    "sha256": "805385f1abbbdb5a42ee8b9ed6cebd052039583b01d6a7da260f6eb2224ba6b5",
+    "identity": "CMU-data derived original render under CMU terms"
+  },
+  {
+    "file": "15-remaining-jump.png",
+    "width": 1062,
+    "height": 1460,
+    "frames": 1,
+    "bytes": 101633,
+    "sha256": "e88e27982b4ee617c5ec9f20afceb47bc409a0a41081dd4b01f75c5fcf5b7946",
+    "identity": "CMU-data derived original render under CMU terms"
+  }
+]

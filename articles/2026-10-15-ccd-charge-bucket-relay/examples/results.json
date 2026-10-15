@@ -1,0 +1,142 @@
+{
+  "identity": "deterministic educational bookkeeping model; no physical measurement",
+  "units": "electrons; fractional values in transfer model are mean charge, not split individual electrons",
+  "initial_e": [
+    [
+      100,
+      200,
+      300,
+      400
+    ],
+    [
+      500,
+      600,
+      700,
+      800
+    ],
+    [
+      900,
+      1000,
+      1100,
+      1200
+    ]
+  ],
+  "total_e": 7800,
+  "events": 16,
+  "parallel_events": 3,
+  "serial_events": 12,
+  "outputs_e": [
+    900,
+    1000,
+    1100,
+    1200,
+    500,
+    600,
+    700,
+    800,
+    100,
+    200,
+    300,
+    400
+  ],
+  "reconstructed_e": [
+    [
+      100,
+      200,
+      300,
+      400
+    ],
+    [
+      500,
+      600,
+      700,
+      800
+    ],
+    [
+      900,
+      1000,
+      1100,
+      1200
+    ]
+  ],
+  "binary_2x3_cases_checked": 64,
+  "phase_sequence": [
+    {
+      "stage": 0,
+      "active": "A",
+      "packet_center_gate": 0
+    },
+    {
+      "stage": 1,
+      "active": "A+B",
+      "packet_center_gate": 0.5
+    },
+    {
+      "stage": 2,
+      "active": "B",
+      "packet_center_gate": 1
+    },
+    {
+      "stage": 3,
+      "active": "B+C",
+      "packet_center_gate": 1.5
+    },
+    {
+      "stage": 4,
+      "active": "C",
+      "packet_center_gate": 2
+    },
+    {
+      "stage": 5,
+      "active": "C+A",
+      "packet_center_gate": 2.5
+    },
+    {
+      "stage": 6,
+      "active": "A",
+      "packet_center_gate": 3
+    }
+  ],
+  "eta_after_2048": {
+    "0.9999": 0.8148019179981028,
+    "0.99999": 0.979728190519641
+  },
+  "residual_model": {
+    "eta": 0.9,
+    "pulse_initial_slot_zero_based": 3,
+    "initial_e": 1000,
+    "ticks": 16,
+    "last_state": {
+      "tick": 16,
+      "output_e": 2.985255e-07,
+      "remaining_e": 4.18105e-08,
+      "cumulative_output_e": 999.9999999581895
+    }
+  },
+  "bloom": {
+    "input_e": [
+      100,
+      1500,
+      100
+    ],
+    "capacity_e": 1000,
+    "output_e": [
+      100,
+      1000,
+      600
+    ],
+    "rule": "excess moves to next row; no drain"
+  },
+  "adc_example": {
+    "signal_e": 900,
+    "gain_e_per_DN": 2,
+    "bias_DN": 100,
+    "code_DN": 550
+  },
+  "exposure_example": {
+    "photons_per_s": 1000,
+    "quantum_efficiency": 0.5,
+    "exposure_s": 0.2,
+    "expected_signal_e": 100
+  }
+}

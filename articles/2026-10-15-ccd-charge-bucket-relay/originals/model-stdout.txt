@@ -1,0 +1,6 @@
+ideal readout: [900, 1000, 1100, 1200, 500, 600, 700, 800, 100, 200, 300, 400]
+charge conserved across 16 states: 7800 e-
+exhaustive binary 2x3 images: 64 PASS
+2048-step retained fractions: {'0.9999': 0.8148019179981028, '0.99999': 0.979728190519641}
+delayed pulse first nonzero bins: [656.1, 262.44, 65.61, 13.122]
+overflow toy: [100, 1500, 100] -> [100, 1000, 600]

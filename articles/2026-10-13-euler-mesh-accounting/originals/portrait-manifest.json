@@ -1,0 +1,19 @@
+{
+  "title": "Portrait of Leonhard Euler",
+  "institution": "Smithsonian Libraries and Archives",
+  "image_id": "SIL-SIL14-E2-07",
+  "record_url": "https://library.si.edu/image-gallery/73170",
+  "original_download_url": "https://ids.si.edu/ids/deliveryService?id=SIL-SIL14-E2-07",
+  "rights_statement": "No Copyright - United States",
+  "date_printed": "1789-12-01",
+  "date_basis": "Original bottom imprint, also institution Original Caption",
+  "modified": false,
+  "sha256": "c982f371487f5009b339f63aec49536e08be9d9053fa718a5001618bebd2b622",
+  "bytes": 1283557,
+  "pixels": [
+    2880,
+    2604
+  ],
+  "article_copy": "assets/29-euler-1789-smithsonian.jpg",
+  "notes": "Unchanged museum digitization including color target; historical engraving, not photograph of Euler. The institution supplied-caption birth-year field is internally inconsistent; that field is not adopted."
+}

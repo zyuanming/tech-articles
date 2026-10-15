@@ -1,0 +1,818 @@
+{
+  "model": "Six Boolean variables, fixed chosen decisions; deterministic scan propagation; explicit resolution; no external solver",
+  "python": "3.12.14",
+  "variables": {
+    "1": "p",
+    "2": "z",
+    "3": "x",
+    "4": "u",
+    "5": "v",
+    "6": "w"
+  },
+  "clauses": {
+    "C1": [
+      -3,
+      4
+    ],
+    "C2": [
+      -3,
+      5
+    ],
+    "C3": [
+      -1,
+      -4,
+      -5
+    ],
+    "C4": [
+      2,
+      6
+    ]
+  },
+  "main": {
+    "order": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "trail_before": [
+      {
+        "literal": 1,
+        "text": "p",
+        "level": 1,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "literal": 2,
+        "text": "z",
+        "level": 2,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "literal": 3,
+        "text": "x",
+        "level": 3,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "literal": 4,
+        "text": "u",
+        "level": 3,
+        "reason": "C1",
+        "antecedents": [
+          3
+        ]
+      },
+      {
+        "literal": 5,
+        "text": "v",
+        "level": 3,
+        "reason": "C2",
+        "antecedents": [
+          3
+        ]
+      }
+    ],
+    "conflict": "C3",
+    "learned": [
+      -1,
+      -3
+    ],
+    "resolution": [
+      {
+        "before": [
+          -1,
+          -4,
+          -5
+        ],
+        "reason": "C2",
+        "reason_clause": [
+          -3,
+          5
+        ],
+        "pivot": 5,
+        "after": [
+          -1,
+          -3,
+          -4
+        ]
+      },
+      {
+        "before": [
+          -1,
+          -3,
+          -4
+        ],
+        "reason": "C1",
+        "reason_clause": [
+          -3,
+          4
+        ],
+        "pivot": 4,
+        "after": [
+          -1,
+          -3
+        ]
+      }
+    ],
+    "backjump_level": 1,
+    "asserted_literal": -3,
+    "trail_after": [
+      {
+        "literal": 1,
+        "text": "p",
+        "level": 1,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "literal": -3,
+        "text": "¬x",
+        "level": 1,
+        "reason": "C5",
+        "antecedents": [
+          1
+        ]
+      }
+    ],
+    "events": [
+      {
+        "kind": "decision",
+        "literal": 1,
+        "text": "p",
+        "level": 1,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "kind": "decision",
+        "literal": 2,
+        "text": "z",
+        "level": 2,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "kind": "decision",
+        "literal": 3,
+        "text": "x",
+        "level": 3,
+        "reason": null,
+        "antecedents": []
+      },
+      {
+        "kind": "propagation",
+        "literal": 4,
+        "text": "u",
+        "level": 3,
+        "reason": "C1",
+        "antecedents": [
+          3
+        ]
+      },
+      {
+        "kind": "propagation",
+        "literal": 5,
+        "text": "v",
+        "level": 3,
+        "reason": "C2",
+        "antecedents": [
+          3
+        ]
+      },
+      {
+        "kind": "conflict",
+        "clause": "C3",
+        "literals": [
+          -1,
+          -4,
+          -5
+        ],
+        "level": 3
+      },
+      {
+        "kind": "backjump",
+        "target": 1,
+        "erased": [
+          {
+            "literal": 2,
+            "text": "z",
+            "level": 2,
+            "reason": null,
+            "antecedents": []
+          },
+          {
+            "literal": 3,
+            "text": "x",
+            "level": 3,
+            "reason": null,
+            "antecedents": []
+          },
+          {
+            "literal": 4,
+            "text": "u",
+            "level": 3,
+            "reason": "C1",
+            "antecedents": [
+              3
+            ]
+          },
+          {
+            "literal": 5,
+            "text": "v",
+            "level": 3,
+            "reason": "C2",
+            "antecedents": [
+              3
+            ]
+          }
+        ],
+        "learned": [
+          -1,
+          -3
+        ]
+      },
+      {
+        "kind": "propagation",
+        "literal": -3,
+        "text": "¬x",
+        "level": 1,
+        "reason": "C5",
+        "antecedents": [
+          1
+        ]
+      }
+    ]
+  },
+  "truth_rows": 64,
+  "models_before": 24,
+  "models_after": 24,
+  "models": [
+    {
+      "p": 0,
+      "z": 0,
+      "x": 0,
+      "u": 0,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 0,
+      "x": 0,
+      "u": 0,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 0,
+      "x": 0,
+      "u": 1,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 0,
+      "x": 0,
+      "u": 1,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 0,
+      "x": 1,
+      "u": 1,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 0,
+      "w": 0
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 1,
+      "w": 0
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 1,
+      "v": 0,
+      "w": 0
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 1,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 1,
+      "v": 1,
+      "w": 0
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 0,
+      "u": 1,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 1,
+      "u": 1,
+      "v": 1,
+      "w": 0
+    },
+    {
+      "p": 0,
+      "z": 1,
+      "x": 1,
+      "u": 1,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 1,
+      "z": 0,
+      "x": 0,
+      "u": 0,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 1,
+      "z": 0,
+      "x": 0,
+      "u": 0,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 1,
+      "z": 0,
+      "x": 0,
+      "u": 1,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 1,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 0,
+      "w": 0
+    },
+    {
+      "p": 1,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 0,
+      "w": 1
+    },
+    {
+      "p": 1,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 1,
+      "w": 0
+    },
+    {
+      "p": 1,
+      "z": 1,
+      "x": 0,
+      "u": 0,
+      "v": 1,
+      "w": 1
+    },
+    {
+      "p": 1,
+      "z": 1,
+      "x": 0,
+      "u": 1,
+      "v": 0,
+      "w": 0
+    },
+    {
+      "p": 1,
+      "z": 1,
+      "x": 0,
+      "u": 1,
+      "v": 0,
+      "w": 1
+    }
+  ],
+  "projected": [
+    {
+      "p": 0,
+      "x": 0,
+      "models": 12
+    },
+    {
+      "p": 0,
+      "x": 1,
+      "models": 3
+    },
+    {
+      "p": 1,
+      "x": 0,
+      "models": 9
+    },
+    {
+      "p": 1,
+      "x": 1,
+      "models": 0
+    }
+  ],
+  "learned_false_assignments": 16,
+  "learned_clause_entailment_checks": 64,
+  "resolution_implication_checks": 128,
+  "clause_order_checks": [
+    {
+      "order": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C1",
+        "C2",
+        "C4",
+        "C3"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C1",
+        "C3",
+        "C2",
+        "C4"
+      ],
+      "conflict": "C2",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C1",
+        "C3",
+        "C4",
+        "C2"
+      ],
+      "conflict": "C2",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C1",
+        "C4",
+        "C2",
+        "C3"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C1",
+        "C4",
+        "C3",
+        "C2"
+      ],
+      "conflict": "C2",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C2",
+        "C1",
+        "C3",
+        "C4"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C2",
+        "C1",
+        "C4",
+        "C3"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C2",
+        "C3",
+        "C1",
+        "C4"
+      ],
+      "conflict": "C1",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C2",
+        "C3",
+        "C4",
+        "C1"
+      ],
+      "conflict": "C1",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C2",
+        "C4",
+        "C1",
+        "C3"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C2",
+        "C4",
+        "C3",
+        "C1"
+      ],
+      "conflict": "C1",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C3",
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C3",
+        "C1",
+        "C4",
+        "C2"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C3",
+        "C2",
+        "C1",
+        "C4"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C3",
+        "C2",
+        "C4",
+        "C1"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C3",
+        "C4",
+        "C1",
+        "C2"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C3",
+        "C4",
+        "C2",
+        "C1"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C4",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C4",
+        "C1",
+        "C3",
+        "C2"
+      ],
+      "conflict": "C2",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C4",
+        "C2",
+        "C1",
+        "C3"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C4",
+        "C2",
+        "C3",
+        "C1"
+      ],
+      "conflict": "C1",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C4",
+        "C3",
+        "C1",
+        "C2"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    },
+    {
+      "order": [
+        "C4",
+        "C3",
+        "C2",
+        "C1"
+      ],
+      "conflict": "C3",
+      "learned": [
+        -1,
+        -3
+      ],
+      "backjump": 1
+    }
+  ],
+  "witness": {
+    "p": 1,
+    "z": 1,
+    "x": 0,
+    "u": 0,
+    "v": 0,
+    "w": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "float_mantissa_bits": 53,
+  "float_radix": 2,
+  "randomness": "none",
+  "framework_execution": "No JAX or PyTorch execution",
+  "font": "Noto Sans CJK Regular/Bold, collection index 2"
+}

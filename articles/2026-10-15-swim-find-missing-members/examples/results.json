@@ -1,0 +1,157 @@
+{
+  "model": "bounded pedagogical event model, not complete SWIM",
+  "time_unit": "virtual milliseconds",
+  "one_way_ms": 20,
+  "direct_timeout_ms": 100,
+  "probe_deadline_ms": 300,
+  "suspicion_ms": 600,
+  "seed_gossip": 2301,
+  "cases": {
+    "healthy": {
+      "final_state_A_for_B": [
+        0,
+        "alive"
+      ],
+      "first_probe": {
+        "src": "A",
+        "target": "B",
+        "ok": true,
+        "start_ms": 0,
+        "ack_ms": 40
+      },
+      "sent_packets": 2
+    },
+    "indirect": {
+      "final_state_A_for_B": [
+        0,
+        "alive"
+      ],
+      "first_probe": {
+        "src": "A",
+        "target": "B",
+        "ok": true,
+        "start_ms": 0,
+        "ack_ms": 180
+      },
+      "sent_packets": 9
+    },
+    "pause": {
+      "final_state_A_for_B": [
+        1,
+        "alive"
+      ],
+      "first_probe": {
+        "src": "A",
+        "target": "B",
+        "ok": false,
+        "start_ms": 0
+      },
+      "sent_packets": 11
+    },
+    "dead": {
+      "final_state_A_for_B": [
+        0,
+        "confirmed"
+      ],
+      "first_probe": {
+        "src": "A",
+        "target": "B",
+        "ok": false,
+        "start_ms": 0
+      },
+      "sent_packets": 14
+    }
+  },
+  "gossip": [
+    {
+      "round": 0,
+      "known": "A",
+      "count": 1
+    },
+    {
+      "round": 1,
+      "known": "AD",
+      "count": 2
+    },
+    {
+      "round": 2,
+      "known": "ACDE",
+      "count": 4
+    },
+    {
+      "round": 3,
+      "known": "ABCDEF",
+      "count": 6
+    },
+    {
+      "round": 4,
+      "known": "ABCDEF",
+      "count": 6
+    },
+    {
+      "round": 5,
+      "known": "ABCDEF",
+      "count": 6
+    },
+    {
+      "round": 6,
+      "known": "ABCDEF",
+      "count": 6
+    },
+    {
+      "round": 7,
+      "known": "ABCDEF",
+      "count": 6
+    },
+    {
+      "round": 8,
+      "known": "ABCDEF",
+      "count": 6
+    }
+  ],
+  "loads": [
+    {
+      "n": 6,
+      "all_to_all_heartbeats": 30,
+      "healthy_ping_ack": 12
+    },
+    {
+      "n": 100,
+      "all_to_all_heartbeats": 9900,
+      "healthy_ping_ack": 200
+    },
+    {
+      "n": 1000,
+      "all_to_all_heartbeats": 999000,
+      "healthy_ping_ack": 2000
+    }
+  ],
+  "detection": [
+    {
+      "n": 6,
+      "p_at_least_one_probe": 0.67232,
+      "expected_rounds": 1.487386958591147,
+      "miss_three_rounds": 0.035184372088832
+    },
+    {
+      "n": 10,
+      "p_at_least_one_probe": 0.6535605838853814,
+      "expected_rounds": 1.5300800333689883,
+      "miss_three_rounds": 0.04157975192738797
+    },
+    {
+      "n": 100,
+      "p_at_least_one_probe": 0.6339863952918201,
+      "expected_rounds": 1.577320913234591,
+      "miss_three_rounds": 0.04903336350009609
+    },
+    {
+      "n": 1000,
+      "p_at_least_one_probe": 0.632304759506509,
+      "expected_rounds": 1.581515851281056,
+      "miss_three_rounds": 0.04971231925517193
+    }
+  ],
+  "merge_permutation_cases": 6,
+  "duplicate_suspicion_keeps_deadline": true
+}

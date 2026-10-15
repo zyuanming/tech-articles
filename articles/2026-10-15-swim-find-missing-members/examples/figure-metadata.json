@@ -1,0 +1,146 @@
+[
+  {
+    "path": "assets/01-silence-worlds.png",
+    "width": 1062,
+    "height": 1050,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "相同观察不能区分进程停机与消息失败",
+    "identity": "原创机制示意"
+  },
+  {
+    "path": "assets/02-message-networks.png",
+    "width": 1062,
+    "height": 1610,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "同样六成员下比较全互联心跳与健康探测；箭头仅PING",
+    "identity": "原创机制示意"
+  },
+  {
+    "path": "assets/03-local-views.png",
+    "width": 1062,
+    "height": 850,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "一台机器的判断和整个系统当前视图不同",
+    "identity": "原创机制示意"
+  },
+  {
+    "path": "assets/04-direct-trace.png",
+    "width": 1062,
+    "height": 720,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "从真实执行的离散事件CSV筛选该路径，逐个显示发送和到达时间",
+    "identity": "实际运行的教学模型事件轨迹；非网络抓包"
+  },
+  {
+    "path": "assets/05-indirect-trace.png",
+    "width": 1062,
+    "height": 1180,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "从真实执行的离散事件CSV筛选该路径，逐个显示发送和到达时间",
+    "identity": "实际运行的教学模型事件轨迹；非网络抓包"
+  },
+  {
+    "path": "assets/06-suspicion-timeline.png",
+    "width": 1062,
+    "height": 1070,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "显示怀疑是过渡状态以及更新代号取消旧怀疑超时",
+    "identity": "实际教学模型事件：300怀疑、520恢复、900取消"
+  },
+  {
+    "path": "assets/07-refutation-route.png",
+    "width": 1062,
+    "height": 1340,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "把传播、本人递增、反驳返回拆成五步",
+    "identity": "实际执行的教学模型事件；未绘制不改变结论的ACK"
+  },
+  {
+    "path": "assets/08-message-order.png",
+    "width": 1062,
+    "height": 1320,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "版本号、同版本怀疑优先和原论文Confirm终态",
+    "identity": "原创规则图；前3类由merge测试与乱序枚举核验"
+  },
+  {
+    "path": "assets/09-gossip-spread.png",
+    "width": 1062,
+    "height": 1130,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "逐轮逐节点展示一次固定种子的传播过程",
+    "identity": "独立的六成员无丢包ping/ack搭载模型，seed=2301"
+  },
+  {
+    "path": "assets/10-message-counts.png",
+    "width": 1062,
+    "height": 1160,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "以公式逐项计算6、100、1000成员的消息数",
+    "identity": "Python整数计算结果，不是吞吐量压测"
+  },
+  {
+    "path": "assets/11-probe-probability.png",
+    "width": 1062,
+    "height": 1170,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "先算全部没选中，再用补集得到至少一人选中概率",
+    "identity": "作者对明确独立均匀抽样模型的手算与代码核验"
+  },
+  {
+    "path": "assets/12-real-udp-log.png",
+    "width": 1062,
+    "height": 1370,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.666666666666666,
+    "purpose": "把实际socket实验的发包时刻和首次ACK画出来",
+    "identity": "本次真实localhost UDP应用日志；非pcap、非性能测量"
+  },
+  {
+    "path": "assets/13-correlated-paths.png",
+    "width": 1062,
+    "height": 1060,
+    "min_label_px": 43,
+    "effective_min_at_354px": 14.333333333333334,
+    "purpose": "间接探测无法解决共因断网或目标整体停顿",
+    "identity": "原创机制示意"
+  },
+  {
+    "path": "assets/14-slow-observer.png",
+    "width": 1062,
+    "height": 960,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "观察者自身过载可引发误判，衔接Lifeguard",
+    "identity": "原创机制示意"
+  },
+  {
+    "path": "assets/15-membership-not-authority.png",
+    "width": 1062,
+    "height": 1100,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.333333333333334,
+    "purpose": "成员发现与授权/隔离边界可见，不重复讲共识协议",
+    "identity": "原创机制示意"
+  },
+  {
+    "path": "cover.png",
+    "width": 1062,
+    "height": 760,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "独立封面",
+    "identity": "原创程序绘制；非历史照片或真实设备"
+  }
+]

@@ -1,0 +1,1385 @@
+{
+  "identity": "Exact rational computation of an explicitly chosen discrete model, not physical experimental data",
+  "units": {
+    "volume": "litre",
+    "sample_period_seconds": 1,
+    "initial_capacity_each_litres": 10
+  },
+  "rule": {
+    "drain_per_step": "1/5 of each initial step volume",
+    "coupling_per_step": "1/10 of initial step left-right difference",
+    "update_matrix": [
+      [
+        "7/10",
+        "1/10"
+      ],
+      [
+        "1/10",
+        "7/10"
+      ]
+    ],
+    "all_rates_evaluated_at_step_start": true
+  },
+  "first_step_account": {
+    "initial_litres": [
+      8,
+      2
+    ],
+    "drain_left": {
+      "fraction": "8/5",
+      "litres": 1.6
+    },
+    "drain_right": {
+      "fraction": "2/5",
+      "litres": 0.4
+    },
+    "transfer_left_to_right": {
+      "fraction": "3/5",
+      "litres": 0.6
+    },
+    "after_left": {
+      "fraction": "29/5",
+      "litres": 5.8
+    },
+    "after_right": {
+      "fraction": "11/5",
+      "litres": 2.2
+    }
+  },
+  "zero_input_trajectories": {
+    "A": [
+      {
+        "time_s": 0,
+        "left": {
+          "fraction": "8",
+          "litres": 8.0
+        },
+        "right": {
+          "fraction": "2",
+          "litres": 2.0
+        },
+        "sum": {
+          "fraction": "10",
+          "litres": 10.0
+        },
+        "difference": {
+          "fraction": "6",
+          "litres": 6.0
+        }
+      },
+      {
+        "time_s": 1,
+        "left": {
+          "fraction": "29/5",
+          "litres": 5.8
+        },
+        "right": {
+          "fraction": "11/5",
+          "litres": 2.2
+        },
+        "sum": {
+          "fraction": "8",
+          "litres": 8.0
+        },
+        "difference": {
+          "fraction": "18/5",
+          "litres": 3.6
+        }
+      },
+      {
+        "time_s": 2,
+        "left": {
+          "fraction": "107/25",
+          "litres": 4.28
+        },
+        "right": {
+          "fraction": "53/25",
+          "litres": 2.12
+        },
+        "sum": {
+          "fraction": "32/5",
+          "litres": 6.4
+        },
+        "difference": {
+          "fraction": "54/25",
+          "litres": 2.16
+        }
+      },
+      {
+        "time_s": 3,
+        "left": {
+          "fraction": "401/125",
+          "litres": 3.208
+        },
+        "right": {
+          "fraction": "239/125",
+          "litres": 1.912
+        },
+        "sum": {
+          "fraction": "128/25",
+          "litres": 5.12
+        },
+        "difference": {
+          "fraction": "162/125",
+          "litres": 1.296
+        }
+      },
+      {
+        "time_s": 4,
+        "left": {
+          "fraction": "1523/625",
+          "litres": 2.4368
+        },
+        "right": {
+          "fraction": "1037/625",
+          "litres": 1.6592
+        },
+        "sum": {
+          "fraction": "512/125",
+          "litres": 4.096
+        },
+        "difference": {
+          "fraction": "486/625",
+          "litres": 0.7776
+        }
+      },
+      {
+        "time_s": 5,
+        "left": {
+          "fraction": "5849/3125",
+          "litres": 1.87168
+        },
+        "right": {
+          "fraction": "4391/3125",
+          "litres": 1.40512
+        },
+        "sum": {
+          "fraction": "2048/625",
+          "litres": 3.2768
+        },
+        "difference": {
+          "fraction": "1458/3125",
+          "litres": 0.46656
+        }
+      },
+      {
+        "time_s": 6,
+        "left": {
+          "fraction": "22667/15625",
+          "litres": 1.450688
+        },
+        "right": {
+          "fraction": "18293/15625",
+          "litres": 1.170752
+        },
+        "sum": {
+          "fraction": "8192/3125",
+          "litres": 2.62144
+        },
+        "difference": {
+          "fraction": "4374/15625",
+          "litres": 0.279936
+        }
+      },
+      {
+        "time_s": 7,
+        "left": {
+          "fraction": "88481/78125",
+          "litres": 1.1325568
+        },
+        "right": {
+          "fraction": "75359/78125",
+          "litres": 0.9645952
+        },
+        "sum": {
+          "fraction": "32768/15625",
+          "litres": 2.097152
+        },
+        "difference": {
+          "fraction": "13122/78125",
+          "litres": 0.1679616
+        }
+      },
+      {
+        "time_s": 8,
+        "left": {
+          "fraction": "347363/390625",
+          "litres": 0.88924928
+        },
+        "right": {
+          "fraction": "307997/390625",
+          "litres": 0.78847232
+        },
+        "sum": {
+          "fraction": "131072/78125",
+          "litres": 1.6777216
+        },
+        "difference": {
+          "fraction": "39366/390625",
+          "litres": 0.10077696
+        }
+      }
+    ],
+    "B": [
+      {
+        "time_s": 0,
+        "left": {
+          "fraction": "2",
+          "litres": 2.0
+        },
+        "right": {
+          "fraction": "8",
+          "litres": 8.0
+        },
+        "sum": {
+          "fraction": "10",
+          "litres": 10.0
+        },
+        "difference": {
+          "fraction": "-6",
+          "litres": -6.0
+        }
+      },
+      {
+        "time_s": 1,
+        "left": {
+          "fraction": "11/5",
+          "litres": 2.2
+        },
+        "right": {
+          "fraction": "29/5",
+          "litres": 5.8
+        },
+        "sum": {
+          "fraction": "8",
+          "litres": 8.0
+        },
+        "difference": {
+          "fraction": "-18/5",
+          "litres": -3.6
+        }
+      },
+      {
+        "time_s": 2,
+        "left": {
+          "fraction": "53/25",
+          "litres": 2.12
+        },
+        "right": {
+          "fraction": "107/25",
+          "litres": 4.28
+        },
+        "sum": {
+          "fraction": "32/5",
+          "litres": 6.4
+        },
+        "difference": {
+          "fraction": "-54/25",
+          "litres": -2.16
+        }
+      },
+      {
+        "time_s": 3,
+        "left": {
+          "fraction": "239/125",
+          "litres": 1.912
+        },
+        "right": {
+          "fraction": "401/125",
+          "litres": 3.208
+        },
+        "sum": {
+          "fraction": "128/25",
+          "litres": 5.12
+        },
+        "difference": {
+          "fraction": "-162/125",
+          "litres": -1.296
+        }
+      },
+      {
+        "time_s": 4,
+        "left": {
+          "fraction": "1037/625",
+          "litres": 1.6592
+        },
+        "right": {
+          "fraction": "1523/625",
+          "litres": 2.4368
+        },
+        "sum": {
+          "fraction": "512/125",
+          "litres": 4.096
+        },
+        "difference": {
+          "fraction": "-486/625",
+          "litres": -0.7776
+        }
+      },
+      {
+        "time_s": 5,
+        "left": {
+          "fraction": "4391/3125",
+          "litres": 1.40512
+        },
+        "right": {
+          "fraction": "5849/3125",
+          "litres": 1.87168
+        },
+        "sum": {
+          "fraction": "2048/625",
+          "litres": 3.2768
+        },
+        "difference": {
+          "fraction": "-1458/3125",
+          "litres": -0.46656
+        }
+      },
+      {
+        "time_s": 6,
+        "left": {
+          "fraction": "18293/15625",
+          "litres": 1.170752
+        },
+        "right": {
+          "fraction": "22667/15625",
+          "litres": 1.450688
+        },
+        "sum": {
+          "fraction": "8192/3125",
+          "litres": 2.62144
+        },
+        "difference": {
+          "fraction": "-4374/15625",
+          "litres": -0.279936
+        }
+      },
+      {
+        "time_s": 7,
+        "left": {
+          "fraction": "75359/78125",
+          "litres": 0.9645952
+        },
+        "right": {
+          "fraction": "88481/78125",
+          "litres": 1.1325568
+        },
+        "sum": {
+          "fraction": "32768/15625",
+          "litres": 2.097152
+        },
+        "difference": {
+          "fraction": "-13122/78125",
+          "litres": -0.1679616
+        }
+      },
+      {
+        "time_s": 8,
+        "left": {
+          "fraction": "307997/390625",
+          "litres": 0.78847232
+        },
+        "right": {
+          "fraction": "347363/390625",
+          "litres": 0.88924928
+        },
+        "sum": {
+          "fraction": "131072/78125",
+          "litres": 1.6777216
+        },
+        "difference": {
+          "fraction": "-39366/390625",
+          "litres": -0.10077696
+        }
+      }
+    ],
+    "C": [
+      {
+        "time_s": 0,
+        "left": {
+          "fraction": "5",
+          "litres": 5.0
+        },
+        "right": {
+          "fraction": "5",
+          "litres": 5.0
+        },
+        "sum": {
+          "fraction": "10",
+          "litres": 10.0
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 1,
+        "left": {
+          "fraction": "4",
+          "litres": 4.0
+        },
+        "right": {
+          "fraction": "4",
+          "litres": 4.0
+        },
+        "sum": {
+          "fraction": "8",
+          "litres": 8.0
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 2,
+        "left": {
+          "fraction": "16/5",
+          "litres": 3.2
+        },
+        "right": {
+          "fraction": "16/5",
+          "litres": 3.2
+        },
+        "sum": {
+          "fraction": "32/5",
+          "litres": 6.4
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 3,
+        "left": {
+          "fraction": "64/25",
+          "litres": 2.56
+        },
+        "right": {
+          "fraction": "64/25",
+          "litres": 2.56
+        },
+        "sum": {
+          "fraction": "128/25",
+          "litres": 5.12
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 4,
+        "left": {
+          "fraction": "256/125",
+          "litres": 2.048
+        },
+        "right": {
+          "fraction": "256/125",
+          "litres": 2.048
+        },
+        "sum": {
+          "fraction": "512/125",
+          "litres": 4.096
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 5,
+        "left": {
+          "fraction": "1024/625",
+          "litres": 1.6384
+        },
+        "right": {
+          "fraction": "1024/625",
+          "litres": 1.6384
+        },
+        "sum": {
+          "fraction": "2048/625",
+          "litres": 3.2768
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 6,
+        "left": {
+          "fraction": "4096/3125",
+          "litres": 1.31072
+        },
+        "right": {
+          "fraction": "4096/3125",
+          "litres": 1.31072
+        },
+        "sum": {
+          "fraction": "8192/3125",
+          "litres": 2.62144
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 7,
+        "left": {
+          "fraction": "16384/15625",
+          "litres": 1.048576
+        },
+        "right": {
+          "fraction": "16384/15625",
+          "litres": 1.048576
+        },
+        "sum": {
+          "fraction": "32768/15625",
+          "litres": 2.097152
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      },
+      {
+        "time_s": 8,
+        "left": {
+          "fraction": "65536/78125",
+          "litres": 0.8388608
+        },
+        "right": {
+          "fraction": "65536/78125",
+          "litres": 0.8388608
+        },
+        "sum": {
+          "fraction": "131072/78125",
+          "litres": 1.6777216
+        },
+        "difference": {
+          "fraction": "0",
+          "litres": 0.0
+        }
+      }
+    ]
+  },
+  "known_input_demo": {
+    "add_at_each_step_end_litres": [
+      "3/10",
+      "1/10"
+    ],
+    "same_sequence_in_all_compared_experiments": true,
+    "trajectories": {
+      "A": [
+        {
+          "time_s": 0,
+          "left": {
+            "fraction": "8",
+            "litres": 8.0
+          },
+          "right": {
+            "fraction": "2",
+            "litres": 2.0
+          },
+          "sum": {
+            "fraction": "10",
+            "litres": 10.0
+          },
+          "difference": {
+            "fraction": "6",
+            "litres": 6.0
+          }
+        },
+        {
+          "time_s": 1,
+          "left": {
+            "fraction": "61/10",
+            "litres": 6.1
+          },
+          "right": {
+            "fraction": "23/10",
+            "litres": 2.3
+          },
+          "sum": {
+            "fraction": "42/5",
+            "litres": 8.4
+          },
+          "difference": {
+            "fraction": "19/5",
+            "litres": 3.8
+          }
+        },
+        {
+          "time_s": 2,
+          "left": {
+            "fraction": "24/5",
+            "litres": 4.8
+          },
+          "right": {
+            "fraction": "58/25",
+            "litres": 2.32
+          },
+          "sum": {
+            "fraction": "178/25",
+            "litres": 7.12
+          },
+          "difference": {
+            "fraction": "62/25",
+            "litres": 2.48
+          }
+        },
+        {
+          "time_s": 3,
+          "left": {
+            "fraction": "973/250",
+            "litres": 3.892
+          },
+          "right": {
+            "fraction": "551/250",
+            "litres": 2.204
+          },
+          "sum": {
+            "fraction": "762/125",
+            "litres": 6.096
+          },
+          "difference": {
+            "fraction": "211/125",
+            "litres": 1.688
+          }
+        },
+        {
+          "time_s": 4,
+          "left": {
+            "fraction": "2028/625",
+            "litres": 3.2448
+          },
+          "right": {
+            "fraction": "254/125",
+            "litres": 2.032
+          },
+          "sum": {
+            "fraction": "3298/625",
+            "litres": 5.2768
+          },
+          "difference": {
+            "fraction": "758/625",
+            "litres": 1.2128
+          }
+        },
+        {
+          "time_s": 5,
+          "left": {
+            "fraction": "17341/6250",
+            "litres": 2.77456
+          },
+          "right": {
+            "fraction": "11543/6250",
+            "litres": 1.84688
+          },
+          "sum": {
+            "fraction": "14442/3125",
+            "litres": 4.62144
+          },
+          "difference": {
+            "fraction": "2899/3125",
+            "litres": 0.92768
+          }
+        },
+        {
+          "time_s": 6,
+          "left": {
+            "fraction": "7584/3125",
+            "litres": 2.42688
+          },
+          "right": {
+            "fraction": "26098/15625",
+            "litres": 1.670272
+          },
+          "sum": {
+            "fraction": "64018/15625",
+            "litres": 4.097152
+          },
+          "difference": {
+            "fraction": "11822/15625",
+            "litres": 0.756608
+          }
+        },
+        {
+          "time_s": 7,
+          "left": {
+            "fraction": "338413/156250",
+            "litres": 2.1658432
+          },
+          "right": {
+            "fraction": "236231/156250",
+            "litres": 1.5118784
+          },
+          "sum": {
+            "fraction": "287322/78125",
+            "litres": 3.6777216
+          },
+          "difference": {
+            "fraction": "51091/78125",
+            "litres": 0.6539648
+          }
+        },
+        {
+          "time_s": 8,
+          "left": {
+            "fraction": "768468/390625",
+            "litres": 1.96727808
+          },
+          "right": {
+            "fraction": "107414/78125",
+            "litres": 1.3748992
+          },
+          "sum": {
+            "fraction": "1305538/390625",
+            "litres": 3.34217728
+          },
+          "difference": {
+            "fraction": "231398/390625",
+            "litres": 0.59237888
+          }
+        }
+      ],
+      "B": [
+        {
+          "time_s": 0,
+          "left": {
+            "fraction": "2",
+            "litres": 2.0
+          },
+          "right": {
+            "fraction": "8",
+            "litres": 8.0
+          },
+          "sum": {
+            "fraction": "10",
+            "litres": 10.0
+          },
+          "difference": {
+            "fraction": "-6",
+            "litres": -6.0
+          }
+        },
+        {
+          "time_s": 1,
+          "left": {
+            "fraction": "5/2",
+            "litres": 2.5
+          },
+          "right": {
+            "fraction": "59/10",
+            "litres": 5.9
+          },
+          "sum": {
+            "fraction": "42/5",
+            "litres": 8.4
+          },
+          "difference": {
+            "fraction": "-17/5",
+            "litres": -3.4
+          }
+        },
+        {
+          "time_s": 2,
+          "left": {
+            "fraction": "66/25",
+            "litres": 2.64
+          },
+          "right": {
+            "fraction": "112/25",
+            "litres": 4.48
+          },
+          "sum": {
+            "fraction": "178/25",
+            "litres": 7.12
+          },
+          "difference": {
+            "fraction": "-46/25",
+            "litres": -1.84
+          }
+        },
+        {
+          "time_s": 3,
+          "left": {
+            "fraction": "649/250",
+            "litres": 2.596
+          },
+          "right": {
+            "fraction": "7/2",
+            "litres": 3.5
+          },
+          "sum": {
+            "fraction": "762/125",
+            "litres": 6.096
+          },
+          "difference": {
+            "fraction": "-113/125",
+            "litres": -0.904
+          }
+        },
+        {
+          "time_s": 4,
+          "left": {
+            "fraction": "1542/625",
+            "litres": 2.4672
+          },
+          "right": {
+            "fraction": "1756/625",
+            "litres": 2.8096
+          },
+          "sum": {
+            "fraction": "3298/625",
+            "litres": 5.2768
+          },
+          "difference": {
+            "fraction": "-214/625",
+            "litres": -0.3424
+          }
+        },
+        {
+          "time_s": 5,
+          "left": {
+            "fraction": "577/250",
+            "litres": 2.308
+          },
+          "right": {
+            "fraction": "14459/6250",
+            "litres": 2.31344
+          },
+          "sum": {
+            "fraction": "14442/3125",
+            "litres": 4.62144
+          },
+          "difference": {
+            "fraction": "-17/3125",
+            "litres": -0.00544
+          }
+        },
+        {
+          "time_s": 6,
+          "left": {
+            "fraction": "33546/15625",
+            "litres": 2.146944
+          },
+          "right": {
+            "fraction": "30472/15625",
+            "litres": 1.950208
+          },
+          "sum": {
+            "fraction": "64018/15625",
+            "litres": 4.097152
+          },
+          "difference": {
+            "fraction": "3074/15625",
+            "litres": 0.196736
+          }
+        },
+        {
+          "time_s": 7,
+          "left": {
+            "fraction": "312169/156250",
+            "litres": 1.9978816
+          },
+          "right": {
+            "fraction": "10499/6250",
+            "litres": 1.67984
+          },
+          "sum": {
+            "fraction": "287322/78125",
+            "litres": 3.6777216
+          },
+          "difference": {
+            "fraction": "24847/78125",
+            "litres": 0.3180416
+          }
+        },
+        {
+          "time_s": 8,
+          "left": {
+            "fraction": "729102/390625",
+            "litres": 1.86650112
+          },
+          "right": {
+            "fraction": "576436/390625",
+            "litres": 1.47567616
+          },
+          "sum": {
+            "fraction": "1305538/390625",
+            "litres": 3.34217728
+          },
+          "difference": {
+            "fraction": "152666/390625",
+            "litres": 0.39082496
+          }
+        }
+      ],
+      "C": [
+        {
+          "time_s": 0,
+          "left": {
+            "fraction": "5",
+            "litres": 5.0
+          },
+          "right": {
+            "fraction": "5",
+            "litres": 5.0
+          },
+          "sum": {
+            "fraction": "10",
+            "litres": 10.0
+          },
+          "difference": {
+            "fraction": "0",
+            "litres": 0.0
+          }
+        },
+        {
+          "time_s": 1,
+          "left": {
+            "fraction": "43/10",
+            "litres": 4.3
+          },
+          "right": {
+            "fraction": "41/10",
+            "litres": 4.1
+          },
+          "sum": {
+            "fraction": "42/5",
+            "litres": 8.4
+          },
+          "difference": {
+            "fraction": "1/5",
+            "litres": 0.2
+          }
+        },
+        {
+          "time_s": 2,
+          "left": {
+            "fraction": "93/25",
+            "litres": 3.72
+          },
+          "right": {
+            "fraction": "17/5",
+            "litres": 3.4
+          },
+          "sum": {
+            "fraction": "178/25",
+            "litres": 7.12
+          },
+          "difference": {
+            "fraction": "8/25",
+            "litres": 0.32
+          }
+        },
+        {
+          "time_s": 3,
+          "left": {
+            "fraction": "811/250",
+            "litres": 3.244
+          },
+          "right": {
+            "fraction": "713/250",
+            "litres": 2.852
+          },
+          "sum": {
+            "fraction": "762/125",
+            "litres": 6.096
+          },
+          "difference": {
+            "fraction": "49/125",
+            "litres": 0.392
+          }
+        },
+        {
+          "time_s": 4,
+          "left": {
+            "fraction": "357/125",
+            "litres": 2.856
+          },
+          "right": {
+            "fraction": "1513/625",
+            "litres": 2.4208
+          },
+          "sum": {
+            "fraction": "3298/625",
+            "litres": 5.2768
+          },
+          "difference": {
+            "fraction": "272/625",
+            "litres": 0.4352
+          }
+        },
+        {
+          "time_s": 5,
+          "left": {
+            "fraction": "15883/6250",
+            "litres": 2.54128
+          },
+          "right": {
+            "fraction": "13001/6250",
+            "litres": 2.08016
+          },
+          "sum": {
+            "fraction": "14442/3125",
+            "litres": 4.62144
+          },
+          "difference": {
+            "fraction": "1441/3125",
+            "litres": 0.46112
+          }
+        },
+        {
+          "time_s": 6,
+          "left": {
+            "fraction": "35733/15625",
+            "litres": 2.286912
+          },
+          "right": {
+            "fraction": "5657/3125",
+            "litres": 1.81024
+          },
+          "sum": {
+            "fraction": "64018/15625",
+            "litres": 4.097152
+          },
+          "difference": {
+            "fraction": "7448/15625",
+            "litres": 0.476672
+          }
+        },
+        {
+          "time_s": 7,
+          "left": {
+            "fraction": "325291/156250",
+            "litres": 2.0818624
+          },
+          "right": {
+            "fraction": "249353/156250",
+            "litres": 1.5958592
+          },
+          "sum": {
+            "fraction": "287322/78125",
+            "litres": 3.6777216
+          },
+          "difference": {
+            "fraction": "37969/78125",
+            "litres": 0.4860032
+          }
+        },
+        {
+          "time_s": 8,
+          "left": {
+            "fraction": "149757/78125",
+            "litres": 1.9168896
+          },
+          "right": {
+            "fraction": "556753/390625",
+            "litres": 1.42528768
+          },
+          "sum": {
+            "fraction": "1305538/390625",
+            "litres": 3.34217728
+          },
+          "difference": {
+            "fraction": "192032/390625",
+            "litres": 0.49160192
+          }
+        }
+      ]
+    }
+  },
+  "left_sensor_recovery": [
+    {
+      "case": "A",
+      "observer_inputs": {
+        "y0": {
+          "fraction": "8",
+          "litres": 8.0
+        },
+        "y1": {
+          "fraction": "29/5",
+          "litres": 5.8
+        },
+        "known_diagonal": "7/10",
+        "known_coupling": "1/10",
+        "old_sum_measurement_used": false
+      },
+      "recovered_right": {
+        "fraction": "2",
+        "litres": 2.0
+      },
+      "truth_right_litres": 2
+    },
+    {
+      "case": "B",
+      "observer_inputs": {
+        "y0": {
+          "fraction": "2",
+          "litres": 2.0
+        },
+        "y1": {
+          "fraction": "11/5",
+          "litres": 2.2
+        },
+        "known_diagonal": "7/10",
+        "known_coupling": "1/10",
+        "old_sum_measurement_used": false
+      },
+      "recovered_right": {
+        "fraction": "8",
+        "litres": 8.0
+      },
+      "truth_right_litres": 8
+    },
+    {
+      "case": "C",
+      "observer_inputs": {
+        "y0": {
+          "fraction": "5",
+          "litres": 5.0
+        },
+        "y1": {
+          "fraction": "4",
+          "litres": 4.0
+        },
+        "known_diagonal": "7/10",
+        "known_coupling": "1/10",
+        "old_sum_measurement_used": false
+      },
+      "recovered_right": {
+        "fraction": "5",
+        "litres": 5.0
+      },
+      "truth_right_litres": 5
+    }
+  ],
+  "observation_matrices": {
+    "1/10": {
+      "sum": {
+        "rows": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "4/5",
+            "4/5"
+          ]
+        ],
+        "determinant": "0",
+        "rank": 1
+      },
+      "left": {
+        "rows": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "7/10",
+            "1/10"
+          ]
+        ],
+        "determinant": "1/10",
+        "rank": 2
+      }
+    },
+    "1/100": {
+      "sum": {
+        "rows": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "4/5",
+            "4/5"
+          ]
+        ],
+        "determinant": "0",
+        "rank": 1
+      },
+      "left": {
+        "rows": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "79/100",
+            "1/100"
+          ]
+        ],
+        "determinant": "1/100",
+        "rank": 2
+      }
+    },
+    "0": {
+      "sum": {
+        "rows": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "4/5",
+            "4/5"
+          ]
+        ],
+        "determinant": "0",
+        "rank": 1
+      },
+      "left": {
+        "rows": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "4/5",
+            "0"
+          ]
+        ],
+        "determinant": "0",
+        "rank": 1
+      }
+    }
+  },
+  "noise_examples": [
+    {
+      "coupling": "1/10",
+      "diagonal": "7/10",
+      "true_left0": {
+        "fraction": "8",
+        "litres": 8.0
+      },
+      "true_left1": {
+        "fraction": "29/5",
+        "litres": 5.8
+      },
+      "error0": {
+        "fraction": "1/50",
+        "litres": 0.02
+      },
+      "error1": {
+        "fraction": "-1/50",
+        "litres": -0.02
+      },
+      "measured_left0": {
+        "fraction": "401/50",
+        "litres": 8.02
+      },
+      "measured_left1": {
+        "fraction": "289/50",
+        "litres": 5.78
+      },
+      "inferred_right": {
+        "fraction": "83/50",
+        "litres": 1.66
+      },
+      "inference_error": {
+        "fraction": "-17/50",
+        "litres": -0.34
+      },
+      "truth_right_litres": 2,
+      "new_comparison": {
+        "initial_states": [
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "second_readings": [
+          {
+            "fraction": "29/5",
+            "litres": 5.8
+          },
+          {
+            "fraction": "59/10",
+            "litres": 5.9
+          }
+        ],
+        "separation": {
+          "fraction": "1/10",
+          "litres": 0.1
+        }
+      },
+      "scope": "One deterministic bounded error example; not random sensor measurements or a filter; negative inferred volume is not physical water"
+    },
+    {
+      "coupling": "1/100",
+      "diagonal": "79/100",
+      "true_left0": {
+        "fraction": "8",
+        "litres": 8.0
+      },
+      "true_left1": {
+        "fraction": "317/50",
+        "litres": 6.34
+      },
+      "error0": {
+        "fraction": "1/50",
+        "litres": 0.02
+      },
+      "error1": {
+        "fraction": "-1/50",
+        "litres": -0.02
+      },
+      "measured_left0": {
+        "fraction": "401/50",
+        "litres": 8.02
+      },
+      "measured_left1": {
+        "fraction": "158/25",
+        "litres": 6.32
+      },
+      "inferred_right": {
+        "fraction": "-79/50",
+        "litres": -1.58
+      },
+      "inference_error": {
+        "fraction": "-179/50",
+        "litres": -3.58
+      },
+      "truth_right_litres": 2,
+      "new_comparison": {
+        "initial_states": [
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "second_readings": [
+          {
+            "fraction": "317/50",
+            "litres": 6.34
+          },
+          {
+            "fraction": "127/20",
+            "litres": 6.35
+          }
+        ],
+        "separation": {
+          "fraction": "1/100",
+          "litres": 0.01
+        }
+      },
+      "scope": "One deterministic bounded error example; not random sensor measurements or a filter; negative inferred volume is not physical water"
+    }
+  ]
+}
