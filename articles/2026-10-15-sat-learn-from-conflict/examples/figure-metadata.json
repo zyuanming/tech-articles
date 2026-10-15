@@ -1,0 +1,137 @@
+[
+  {
+    "file": "assets/01-conflict-skip-level.png",
+    "width": 1062,
+    "height": 1250,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual chosen decision levels and learned backjump skipping unrelated level2",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/02-six-boolean-switches.png",
+    "width": 1062,
+    "height": 1300,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Concrete Boolean configuration, explicitly not yet a satisfying assignment",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/03-four-clauses.png",
+    "width": 1062,
+    "height": 1480,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Exact four-clause original CNF and plain-language interpretation",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/04-clause-states.png",
+    "width": 1062,
+    "height": 1440,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Satisfied, unit and conflicting states of one fixed clause",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/05-assignment-trail.png",
+    "width": 1062,
+    "height": 1490,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual deterministic decision and implication trail with recorded reasons",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/06-implication-graph.png",
+    "width": 1062,
+    "height": 1450,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual reason graph; level2 z has no causal path to this conflict",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/07-resolve-v.png",
+    "width": 1062,
+    "height": 1420,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "First recorded resolution pivot v replaces implication by its reason",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/08-resolve-u-learn.png",
+    "width": 1062,
+    "height": 1420,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Second recorded resolution produces the learned clause not-p OR not-x",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/09-resolution-soundness.png",
+    "width": 1062,
+    "height": 1380,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "General resolution entailment argument without relying on exhaustive test counts",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/10-current-level-cut.png",
+    "width": 1062,
+    "height": 1470,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Cut of actual implication graph with x as first UIP and earlier p retained",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/11-backjump-and-assert.png",
+    "width": 1062,
+    "height": 1470,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual state after backjump and immediate unit assertion at level1",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/12-truth-table-preserved.png",
+    "width": 1062,
+    "height": 1450,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Every one of 64 exhaustive assignments, colored by old solutions and learned rejection",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/13-block-both-branches.png",
+    "width": 1062,
+    "height": 1460,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Learned clause applies independently of z, illustrated without runtime speedup claims",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/14-satisfying-assignment.png",
+    "width": 1062,
+    "height": 1430,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual satisfying complete assignment after the conflict lesson",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "min_font_px": 42,
+    "min_effective_px_at_354": 14,
+    "role": "Separate original learned-clause cover",
+    "identity": "original teaching illustration"
+  }
+]

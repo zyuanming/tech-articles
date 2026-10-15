@@ -1,0 +1,60 @@
+case,t_ms,event,src,dst,kind,note
+healthy,0.120602,SEND,A,B,PING,bytes=58; seq=A:1
+healthy,0.175395,SOCKET_RECEIVE,A,B,PING,bytes=58
+healthy,20.304223,PROCESS,A,B,PING,
+healthy,20.370563,SEND,B,A,ACK,bytes=57; seq=A:1
+healthy,20.414009,SOCKET_RECEIVE,B,A,ACK,bytes=57
+healthy,40.560263,PROCESS,B,A,ACK,
+healthy,40.575065,PROBE_OK,A,B,ACK,
+healthy,301.072868,DEADLINE,A,B,,ack received
+indirect,0.080411,SEND,A,B,PING,bytes=58; seq=A:1
+indirect,0.134473,SOCKET_RECEIVE,A,B,PING,bytes=58
+indirect,20.279996,PROCESS,A,B,PING,
+indirect,20.293046,APP_DROP,A,B,PING,application ignores received datagram
+indirect,100.490265,DIRECT_TIMEOUT,A,B,,
+indirect,100.608783,SEND,A,C,PING_REQ,bytes=63; seq=A:1
+indirect,100.623996,SEND,A,D,PING_REQ,bytes=63; seq=A:1
+indirect,100.681273,SOCKET_RECEIVE,A,C,PING_REQ,bytes=63
+indirect,100.707342,SOCKET_RECEIVE,A,D,PING_REQ,bytes=63
+indirect,120.853827,PROCESS,A,C,PING_REQ,
+indirect,120.962992,SEND,C,B,PING,bytes=59; seq=A:1
+indirect,120.967038,PROCESS,A,D,PING_REQ,
+indirect,120.978485,SEND,D,B,PING,bytes=59; seq=A:1
+indirect,121.056903,SOCKET_RECEIVE,C,B,PING,bytes=59
+indirect,121.068501,SOCKET_RECEIVE,D,B,PING,bytes=59
+indirect,141.234816,PROCESS,C,B,PING,
+indirect,141.339974,SEND,B,C,ACK,bytes=58; seq=A:1
+indirect,141.34373,PROCESS,D,B,PING,
+indirect,141.356038,SEND,B,D,ACK,bytes=58; seq=A:1
+indirect,141.406254,SOCKET_RECEIVE,B,C,ACK,bytes=58
+indirect,141.429499,SOCKET_RECEIVE,B,D,ACK,bytes=58
+indirect,161.581652,PROCESS,B,C,ACK,
+indirect,161.696565,SEND,C,A,ACK_RELAY,bytes=63; seq=A:1
+indirect,161.71257,PROCESS,B,D,ACK,
+indirect,161.735684,SEND,D,A,ACK_RELAY,bytes=63; seq=A:1
+indirect,161.807242,SOCKET_RECEIVE,C,A,ACK_RELAY,bytes=63
+indirect,161.816346,SOCKET_RECEIVE,D,A,ACK_RELAY,bytes=63
+indirect,181.981159,PROCESS,C,A,ACK_RELAY,
+indirect,182.000718,PROBE_OK,A,B,ACK_RELAY,
+indirect,182.003783,PROCESS,D,A,ACK_RELAY,
+indirect,301.265473,DEADLINE,A,B,,ack received
+silent,0.059469,SEND,A,B,PING,bytes=58; seq=A:1
+silent,0.110256,SOCKET_RECEIVE,A,B,PING,bytes=58
+silent,20.241458,PROCESS,A,B,PING,
+silent,20.255439,APP_DROP,A,B,PING,application ignores received datagram
+silent,100.491526,DIRECT_TIMEOUT,A,B,,
+silent,100.597286,SEND,A,C,PING_REQ,bytes=63; seq=A:1
+silent,100.609935,SEND,A,D,PING_REQ,bytes=63; seq=A:1
+silent,100.664968,SOCKET_RECEIVE,A,C,PING_REQ,bytes=63
+silent,100.690026,SOCKET_RECEIVE,A,D,PING_REQ,bytes=63
+silent,120.831402,PROCESS,A,C,PING_REQ,
+silent,120.919224,SEND,C,B,PING,bytes=59; seq=A:1
+silent,120.922609,PROCESS,A,D,PING_REQ,
+silent,120.933085,SEND,D,B,PING,bytes=59; seq=A:1
+silent,120.97641,SOCKET_RECEIVE,C,B,PING,bytes=59
+silent,120.985404,SOCKET_RECEIVE,D,B,PING,bytes=59
+silent,141.135985,PROCESS,C,B,PING,
+silent,141.151138,APP_DROP,C,B,PING,application ignores received datagram
+silent,141.155114,PROCESS,D,B,PING,
+silent,141.156185,APP_DROP,D,B,PING,application ignores received datagram
+silent,300.44753,DEADLINE,A,B,,no ack; eligible to suspect

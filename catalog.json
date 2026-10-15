@@ -1896,6 +1896,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-14-motion-matching-next-step",
+    "title": "动画角色临时转弯，怎样从动作库里挑出下一步？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-motion-matching-next-step/read.md",
+    "public_sha256": "7e92f3955b1304cb90eb44ab25860681fa66e7f65cf08357083e8d6aa70ba077",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-14-observability-hidden-water",
     "title": "水量测得分毫不差，为什么仍不知道两箱各装多少？",
     "date": "2026-10-14",
@@ -1929,12 +1940,111 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-14-reverse-autodiff-follow-influence",
+    "title": "程序已经算出答案，怎样倒着算出“谁影响了答案”？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-reverse-autodiff-follow-influence/read.md",
+    "public_sha256": "2312fb500021e1af196e74fb06330cb94ec8fe07b6fcb885c951f1a3789fe637",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-14-robust-orientation-sign",
+    "title": "三点往哪边拐，一个错误的正负号能毁掉什么？",
+    "date": "2026-10-14",
+    "path": "articles/2026-10-14-robust-orientation-sign/read.md",
+    "public_sha256": "cfe151ccc8ccfcf0fad4df5356a2f05148a583c397b82fc56e8ec47bd60355dd",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-14-stable-fluids-follow-air",
     "title": "游戏里的烟，怎样跟着空气卷起来？",
     "date": "2026-10-14",
     "path": "articles/2026-10-14-stable-fluids-follow-air/read.md",
     "public_sha256": "d1b5365c5a90eaf301b06e1510097a001f0bcff5fd9e2c1b00703539471cea30",
     "images": 17,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-abstract-interpretation-array-bounds",
+    "title": "不运行程序，怎样证明数组下标不会越界？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-abstract-interpretation-array-bounds/read.md",
+    "public_sha256": "5e4d171d6d9a1972586cfc1346cdf85c812df8c742b854cb831b4b5cc2eb5528",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-ccd-charge-bucket-relay",
+    "title": "照片为什么曾经要靠一桶桶电荷“接力搬运”？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-ccd-charge-bucket-relay/read.md",
+    "public_sha256": "3285a78216423af337b314a7e9dbde23cd2b91037c21374bcc8d5267ed46ad34",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-linearizability-legal-history",
+    "title": "这些并发操作，能排成一条合法队伍吗？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-linearizability-legal-history/read.md",
+    "public_sha256": "ab808ae8c4e6e041395c3d80d316a119018407440f6ab2fcad0c715ea1daaa0a",
+    "images": 13,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-sat-learn-from-conflict",
+    "title": "程序撞了一次墙，怎样把整类死路一起封掉？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-sat-learn-from-conflict/read.md",
+    "public_sha256": "c949aae15387afb7a9e64b3ae8f7ec13172721adf80a4dfbdc81dfd16da96add",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-swim-find-missing-members",
+    "title": "没有总管点名，一群服务器怎样发现谁掉队了？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-swim-find-missing-members/read.md",
+    "public_sha256": "de3d1224aea180026bbcdef3a7dc1c16d1a9702dc496b2d97cf8a7efd0df256d",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-system-identification-ask-machine",
+    "title": "没有说明书的机器，怎样从输入输出猜出它的脾气？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-system-identification-ask-machine/read.md",
+    "public_sha256": "c7b778796edc5b82eb258e759fa53ccb6907cc19ed2ca421a5b0261145f35eba",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-15-theseus-relay-memory",
+    "title": "一只没有电脑芯片的老鼠，怎样记住迷宫？",
+    "date": "2026-10-15",
+    "path": "articles/2026-10-15-theseus-relay-memory/read.md",
+    "public_sha256": "b5500e925ac4bcc67e2cf286450651e2101d5d04d5ff282b490373b6e6796dbf",
+    "images": 16,
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"

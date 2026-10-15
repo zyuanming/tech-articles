@@ -1,0 +1,5 @@
+GOOD: head=[0, 8], body=[0, 7], accesses=36, violations=0
+BAD: head=[0, 9], body=[0, 8], accesses=45, violations=1 at n=8,i=8
+WIDEN: head=[0, 'inf'], body=[0, 7], narrowed=[0, 8]
+CORRELATION: actual sum=1; interval sum=[0,2]; false alarm at 2
+RULE CHECKS: {"add_concrete_pairs": 7056, "bounded_loops": 66, "guard_concrete_pairs": 7056, "intervals": 28, "join_concrete_pairs": 7056}

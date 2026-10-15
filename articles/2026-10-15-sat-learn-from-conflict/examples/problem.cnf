@@ -1,0 +1,6 @@
+c Original teaching instance: 1=p, 2=z, 3=x, 4=u, 5=v, 6=w
+p cnf 6 4
+-3 4 0
+-3 5 0
+-1 -4 -5 0
+2 6 0

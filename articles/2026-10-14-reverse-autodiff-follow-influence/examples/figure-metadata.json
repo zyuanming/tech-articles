@@ -1,0 +1,137 @@
+[
+  {
+    "file": "assets/01-two-knobs.png",
+    "width": 1062,
+    "height": 1140,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Concrete invented input-to-output situation",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/02-small-change.png",
+    "width": 1062,
+    "height": 1130,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Loss curve and tangent with actual finite perturbation",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/03-forward-graph.png",
+    "width": 1062,
+    "height": 1300,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Full original computation DAG with shared x and forward values",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/04-local-rules.png",
+    "width": 1062,
+    "height": 1280,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Local derivative rules for three primitive operations",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/05-chain-backward.png",
+    "width": 1062,
+    "height": 1230,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Reverse seed and local multiplier chain",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/06-two-paths.png",
+    "width": 1062,
+    "height": 1230,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Separate derivative paths and accumulation at shared x",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/07-two-ledgers.png",
+    "width": 1062,
+    "height": 1300,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Distinct primal value and reverse gradient at every node",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/08-shared-node-order.png",
+    "width": 1062,
+    "height": 1350,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Shared intermediate and duplicate operand slots",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/09-three-methods.png",
+    "width": 1062,
+    "height": 1270,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Compare objects and operations used by three differentiation approaches",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/10-difference-error.png",
+    "width": 1062,
+    "height": 1180,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "18 actual forward finite-difference errors, logarithmic axes",
+    "identity": "original plot from stated model or recorded experiment"
+  },
+  {
+    "file": "assets/11-which-direction.png",
+    "width": 1062,
+    "height": 1300,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Many-to-one reverse mode versus one-to-many forward mode",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/12-remember-or-recompute.png",
+    "width": 1062,
+    "height": 1190,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Conceptual retention and checkpoint recomputation, no memory benchmark",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/13-branch-and-corner.png",
+    "width": 1062,
+    "height": 1170,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Absolute-value branches and mathematically nondifferentiable corner",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/14-gradient-is-not-optimizer.png",
+    "width": 1062,
+    "height": 1240,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual loss after two step sizes, fixed y",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Separate original cover",
+    "identity": "original explanatory illustration"
+  }
+]

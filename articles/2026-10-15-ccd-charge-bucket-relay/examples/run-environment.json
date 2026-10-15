@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "platform": "Linux",
+  "randomness": "none",
+  "numeric": "int; Fraction for residual recurrence; float powers for efficiency curves",
+  "fonts": "NotoSansCJK Regular/Bold TTC index 2"
+}

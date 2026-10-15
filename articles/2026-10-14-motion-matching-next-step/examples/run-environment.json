@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pillow": "12.3.0",
+  "arithmetic": "Fraction for invented toy; NumPy float64 for ASF/AMC and retrieval",
+  "randomness": "none",
+  "game_engine": false,
+  "network": false,
+  "fonts": [
+    "NotoSansCJK-Regular.ttc index 2",
+    "NotoSansCJK-Bold.ttc index 2"
+  ]
+}

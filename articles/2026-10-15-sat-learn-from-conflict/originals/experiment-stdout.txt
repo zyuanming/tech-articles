@@ -1,0 +1,5 @@
+DECISIONS p=1@1, z=1@2, x=1@3; conflict=C3
+LEARNED (not p OR not x); BACKJUMP 3 -> 1; ASSERT x=0@1
+FULL ASSIGNMENTS 64; MODELS 24 -> 24; learned rejects16 (all already illegal)
+PROOF: 128 resolution implication checks; 24 clause-order variants learn same clause
+WITNESS {"p": 1, "u": 0, "v": 0, "w": 0, "x": 0, "z": 1}

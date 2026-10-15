@@ -1,0 +1,1063 @@
+{
+  "model": "deterministic event-level teaching model; not historical hardware measurement",
+  "grid": {
+    "A": [
+      0,
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "C": [
+      0,
+      2
+    ],
+    "D": [
+      1,
+      0
+    ],
+    "E": [
+      1,
+      1
+    ],
+    "F": [
+      1,
+      2
+    ],
+    "G": [
+      2,
+      0
+    ],
+    "H": [
+      2,
+      1
+    ],
+    "I": [
+      2,
+      2
+    ]
+  },
+  "edges": [
+    "AB",
+    "BC",
+    "AD",
+    "DE",
+    "DG",
+    "EF",
+    "EH",
+    "FI",
+    "HI",
+    "CF"
+  ],
+  "changed_edges": [
+    "AB",
+    "BC",
+    "AD",
+    "DE",
+    "DG",
+    "EF",
+    "EH",
+    "FI",
+    "HI"
+  ],
+  "initial_memory": {
+    "A": "W",
+    "B": "W",
+    "C": "W",
+    "D": "W",
+    "E": "W",
+    "F": "W",
+    "G": "W",
+    "H": "W",
+    "I": "W"
+  },
+  "first": {
+    "path": [
+      "A",
+      "D",
+      "G",
+      "D",
+      "E",
+      "H",
+      "I",
+      "F",
+      "C"
+    ],
+    "moves": 8,
+    "walls": 6,
+    "reached": true,
+    "memory": {
+      "A": 2,
+      "B": 3,
+      "C": 3,
+      "D": 1,
+      "E": 2,
+      "F": 0,
+      "G": 0,
+      "H": 1,
+      "I": 0
+    },
+    "events": [
+      {
+        "kind": "move",
+        "move": 1,
+        "cell": "A",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": "D",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 2,
+        "cell": "D",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": "G",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 2,
+        "cell": "G",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 2,
+        "cell": "G",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": "H",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 3,
+        "cell": "G",
+        "direction": "N",
+        "old": "E",
+        "new": "N",
+        "target": "D",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 4,
+        "cell": "D",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": "E",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 5,
+        "cell": "E",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": "H",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 5,
+        "cell": "H",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 6,
+        "cell": "H",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": "I",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 6,
+        "cell": "I",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 6,
+        "cell": "I",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 7,
+        "cell": "I",
+        "direction": "N",
+        "old": "E",
+        "new": "N",
+        "target": "F",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 7,
+        "cell": "F",
+        "direction": "E",
+        "old": "W",
+        "new": "E",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": true
+      },
+      {
+        "kind": "move",
+        "move": 8,
+        "cell": "F",
+        "direction": "N",
+        "old": "E",
+        "new": "N",
+        "target": "C",
+        "mode": "explore",
+        "skipped_back": false
+      }
+    ],
+    "mode": "explore"
+  },
+  "second": {
+    "path": [
+      "A",
+      "D",
+      "E",
+      "H",
+      "I",
+      "F",
+      "C"
+    ],
+    "moves": 6,
+    "walls": 0,
+    "reached": true,
+    "memory": {
+      "A": 2,
+      "B": 3,
+      "C": 3,
+      "D": 1,
+      "E": 2,
+      "F": 0,
+      "G": 0,
+      "H": 1,
+      "I": 0
+    },
+    "events": [
+      {
+        "kind": "move",
+        "move": 1,
+        "cell": "A",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "D",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 2,
+        "cell": "D",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 3,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 4,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 5,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 6,
+        "cell": "F",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "C",
+        "mode": "goal",
+        "skipped_back": false
+      }
+    ],
+    "mode": "goal"
+  },
+  "unfamiliar": {
+    "path": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "H",
+      "I",
+      "F",
+      "C"
+    ],
+    "moves": 7,
+    "walls": 0,
+    "reached": true,
+    "memory": {
+      "A": 2,
+      "B": 3,
+      "C": 3,
+      "D": 1,
+      "E": 2,
+      "F": 0,
+      "G": 0,
+      "H": 1,
+      "I": 0
+    },
+    "events": [
+      {
+        "kind": "move",
+        "move": 1,
+        "cell": "B",
+        "direction": "W",
+        "old": "W",
+        "new": "W",
+        "target": "A",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 2,
+        "cell": "A",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "D",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 3,
+        "cell": "D",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 4,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 5,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 6,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 7,
+        "cell": "F",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "C",
+        "mode": "goal",
+        "skipped_back": false
+      }
+    ],
+    "mode": "goal"
+  },
+  "stale": {
+    "path": [
+      "A",
+      "D",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "H",
+      "I"
+    ],
+    "moves": 24,
+    "walls": 1,
+    "reached": false,
+    "memory": {
+      "A": 2,
+      "B": 3,
+      "C": 3,
+      "D": 1,
+      "E": 2,
+      "F": 3,
+      "G": 0,
+      "H": 1,
+      "I": 0
+    },
+    "events": [
+      {
+        "kind": "move",
+        "move": 1,
+        "cell": "A",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "D",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 2,
+        "cell": "D",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 3,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 4,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 5,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 5,
+        "cell": "F",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "C",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 6,
+        "cell": "F",
+        "direction": "W",
+        "old": "N",
+        "new": "W",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 7,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 8,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 9,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 10,
+        "cell": "F",
+        "direction": "W",
+        "old": "W",
+        "new": "W",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 11,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 12,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 13,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 14,
+        "cell": "F",
+        "direction": "W",
+        "old": "W",
+        "new": "W",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 15,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 16,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 17,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 18,
+        "cell": "F",
+        "direction": "W",
+        "old": "W",
+        "new": "W",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 19,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 20,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 21,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 22,
+        "cell": "F",
+        "direction": "W",
+        "old": "W",
+        "new": "W",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 23,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 24,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      }
+    ],
+    "mode": "goal"
+  },
+  "recovered": {
+    "path": [
+      "A",
+      "D",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "H",
+      "I",
+      "F",
+      "E",
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "moves": 14,
+    "walls": 7,
+    "reached": true,
+    "memory": {
+      "A": 1,
+      "B": 1,
+      "C": 3,
+      "D": 0,
+      "E": 3,
+      "F": 3,
+      "G": 0,
+      "H": 1,
+      "I": 0
+    },
+    "events": [
+      {
+        "kind": "move",
+        "move": 1,
+        "cell": "A",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "D",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 2,
+        "cell": "D",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 3,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 4,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 5,
+        "cell": "I",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "F",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 5,
+        "cell": "F",
+        "direction": "N",
+        "old": "N",
+        "new": "N",
+        "target": "C",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 6,
+        "cell": "F",
+        "direction": "W",
+        "old": "N",
+        "new": "W",
+        "target": "E",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 7,
+        "cell": "E",
+        "direction": "S",
+        "old": "S",
+        "new": "S",
+        "target": "H",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 8,
+        "cell": "H",
+        "direction": "E",
+        "old": "E",
+        "new": "E",
+        "target": "I",
+        "mode": "goal",
+        "skipped_back": false
+      },
+      {
+        "kind": "switch",
+        "move": 8,
+        "cell": "I",
+        "mode_before": "goal",
+        "mode_after": "explore"
+      },
+      {
+        "kind": "wall",
+        "move": 8,
+        "cell": "I",
+        "direction": "S",
+        "old": "N",
+        "new": "S",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": true
+      },
+      {
+        "kind": "wall",
+        "move": 8,
+        "cell": "I",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 9,
+        "cell": "I",
+        "direction": "N",
+        "old": "E",
+        "new": "N",
+        "target": "F",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 9,
+        "cell": "F",
+        "direction": "E",
+        "old": "W",
+        "new": "E",
+        "target": null,
+        "mode": "explore",
+        "skipped_back": true
+      },
+      {
+        "kind": "wall",
+        "move": 9,
+        "cell": "F",
+        "direction": "N",
+        "old": "E",
+        "new": "N",
+        "target": "C",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 10,
+        "cell": "F",
+        "direction": "W",
+        "old": "N",
+        "new": "W",
+        "target": "E",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 10,
+        "cell": "E",
+        "direction": "N",
+        "old": "S",
+        "new": "N",
+        "target": "B",
+        "mode": "explore",
+        "skipped_back": true
+      },
+      {
+        "kind": "move",
+        "move": 11,
+        "cell": "E",
+        "direction": "W",
+        "old": "N",
+        "new": "W",
+        "target": "D",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 12,
+        "cell": "D",
+        "direction": "N",
+        "old": "E",
+        "new": "N",
+        "target": "A",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 13,
+        "cell": "A",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": "B",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "wall",
+        "move": 13,
+        "cell": "B",
+        "direction": "S",
+        "old": "W",
+        "new": "S",
+        "target": "E",
+        "mode": "explore",
+        "skipped_back": false
+      },
+      {
+        "kind": "move",
+        "move": 14,
+        "cell": "B",
+        "direction": "E",
+        "old": "S",
+        "new": "E",
+        "target": "C",
+        "mode": "explore",
+        "skipped_back": false
+      }
+    ],
+    "mode": "explore"
+  },
+  "shortest_path": [
+    "A",
+    "B",
+    "C"
+  ],
+  "last_exit_walk_cases": 30,
+  "wall_subsets_tested": 4096,
+  "reachable_subsets": 1494,
+  "max_moves_in_reachable_subsets": 20
+}

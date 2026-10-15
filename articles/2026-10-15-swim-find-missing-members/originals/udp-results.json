@@ -1,0 +1,38 @@
+{
+  "identity": "one actual local run: six real loopback UDP sockets in one process; no packet capture; application log",
+  "python": "3.12.14",
+  "clock": "time.perf_counter_ns; elapsed monotonic milliseconds",
+  "processing_delay_ms": 20,
+  "direct_timeout_ms": 100,
+  "deadline_ms": 300,
+  "randomness": "none; OS scheduling and timing nondeterministic",
+  "cases": [
+    {
+      "case": "healthy",
+      "ack_received": true,
+      "ack_ms": 40.574655,
+      "udp_sent": 2,
+      "udp_received": 2,
+      "application_drops": 0,
+      "deadline_ms": 301.072868
+    },
+    {
+      "case": "indirect",
+      "ack_received": true,
+      "ack_ms": 182.000137,
+      "udp_sent": 9,
+      "udp_received": 9,
+      "application_drops": 1,
+      "deadline_ms": 301.265473
+    },
+    {
+      "case": "silent",
+      "ack_received": false,
+      "ack_ms": null,
+      "udp_sent": 5,
+      "udp_received": 5,
+      "application_drops": 3,
+      "deadline_ms": 300.44753
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+All assertions passed.
+{
+  "healthy": {
+    "final_state_A_for_B": [
+      0,
+      "alive"
+    ],
+    "first_probe": {
+      "src": "A",
+      "target": "B",
+      "ok": true,
+      "start_ms": 0,
+      "ack_ms": 40
+    },
+    "sent_packets": 2
+  },
+  "indirect": {
+    "final_state_A_for_B": [
+      0,
+      "alive"
+    ],
+    "first_probe": {
+      "src": "A",
+      "target": "B",
+      "ok": true,
+      "start_ms": 0,
+      "ack_ms": 180
+    },
+    "sent_packets": 9
+  },
+  "pause": {
+    "final_state_A_for_B": [
+      1,
+      "alive"
+    ],
+    "first_probe": {
+      "src": "A",
+      "target": "B",
+      "ok": false,
+      "start_ms": 0
+    },
+    "sent_packets": 11
+  },
+  "dead": {
+    "final_state_A_for_B": [
+      0,
+      "confirmed"
+    ],
+    "first_probe": {
+      "src": "A",
+      "target": "B",
+      "ok": false,
+      "start_ms": 0
+    },
+    "sent_packets": 14
+  }
+}
+Gossip counts: 1,2,4,6,6,6,6,6,6

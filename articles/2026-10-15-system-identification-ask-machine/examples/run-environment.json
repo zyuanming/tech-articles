@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "arithmetic": "Python float binary64, math.fsum; original two-column least squares",
+  "model": "Synthetic only",
+  "font": "Noto Sans CJK Regular/Bold TTC index2"
+}

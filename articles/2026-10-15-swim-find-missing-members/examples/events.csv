@@ -1,0 +1,103 @@
+case,t_ms,event,src,dst,kind,seq,note
+healthy,0,SEND,A,B,PING,A:1,"packet=1; B=(0, 'alive')"
+healthy,20,RECEIVE,A,B,PING,A:1,packet=1
+healthy,20,SEND,B,A,ACK,A:1,"packet=2; B=(0, 'alive')"
+healthy,40,RECEIVE,B,A,ACK,A:1,packet=2
+healthy,40,PROBE_OK,A,B,ACK,A:1,
+indirect,0,SEND,A,B,PING,A:1,"packet=1; B=(0, 'alive')"
+indirect,20,DROP,A,B,PING,A:1,packet=1; injected fault
+indirect,100,DIRECT_TIMEOUT,A,B,,A:1,
+indirect,100,SEND,A,C,PING_REQ,A:1,"packet=2; B=(0, 'alive')"
+indirect,100,SEND,A,D,PING_REQ,A:1,"packet=3; B=(0, 'alive')"
+indirect,120,RECEIVE,A,C,PING_REQ,A:1,packet=2
+indirect,120,SEND,C,B,PING,A:1,"packet=4; B=(0, 'alive')"
+indirect,120,RECEIVE,A,D,PING_REQ,A:1,packet=3
+indirect,120,SEND,D,B,PING,A:1,"packet=5; B=(0, 'alive')"
+indirect,140,RECEIVE,C,B,PING,A:1,packet=4
+indirect,140,SEND,B,C,ACK,A:1,"packet=6; B=(0, 'alive')"
+indirect,140,RECEIVE,D,B,PING,A:1,packet=5
+indirect,140,SEND,B,D,ACK,A:1,"packet=7; B=(0, 'alive')"
+indirect,160,RECEIVE,B,C,ACK,A:1,packet=6
+indirect,160,SEND,C,A,ACK_RELAY,A:1,"packet=8; B=(0, 'alive')"
+indirect,160,RECEIVE,B,D,ACK,A:1,packet=7
+indirect,160,SEND,D,A,ACK_RELAY,A:1,"packet=9; B=(0, 'alive')"
+indirect,180,RECEIVE,C,A,ACK_RELAY,A:1,packet=8
+indirect,180,PROBE_OK,A,B,ACK_RELAY,A:1,
+indirect,180,RECEIVE,D,A,ACK_RELAY,A:1,packet=9
+pause,0,SEND,A,B,PING,A:1,"packet=1; B=(0, 'alive')"
+pause,20,DROP,A,B,PING,A:1,packet=1; injected fault
+pause,100,DIRECT_TIMEOUT,A,B,,A:1,
+pause,100,SEND,A,C,PING_REQ,A:1,"packet=2; B=(0, 'alive')"
+pause,100,SEND,A,D,PING_REQ,A:1,"packet=3; B=(0, 'alive')"
+pause,120,RECEIVE,A,C,PING_REQ,A:1,packet=2
+pause,120,SEND,C,B,PING,A:1,"packet=4; B=(0, 'alive')"
+pause,120,RECEIVE,A,D,PING_REQ,A:1,packet=3
+pause,120,SEND,D,B,PING,A:1,"packet=5; B=(0, 'alive')"
+pause,140,DROP,C,B,PING,A:1,packet=4; injected fault
+pause,140,DROP,D,B,PING,A:1,packet=5; injected fault
+pause,300,PROBE_TIMEOUT,A,B,,A:1,
+pause,300,STATE,A,,,,B suspect 0
+pause,400,SEND,A,C,PING,A:2,"packet=6; B=(0, 'suspect')"
+pause,420,RECEIVE,A,C,PING,A:2,packet=6
+pause,420,STATE,C,,,,B suspect 0
+pause,420,SEND,C,A,ACK,A:2,"packet=7; B=(0, 'suspect')"
+pause,440,SEND,C,B,PING,C:3,"packet=8; B=(0, 'suspect')"
+pause,440,RECEIVE,C,A,ACK,A:2,packet=7
+pause,440,PROBE_OK,A,C,ACK,A:2,
+pause,460,RECEIVE,C,B,PING,C:3,packet=8
+pause,460,REFUTE,B,,,,B alive 1
+pause,460,SEND,B,C,ACK,C:3,"packet=9; B=(1, 'alive')"
+pause,480,RECEIVE,B,C,ACK,C:3,packet=9
+pause,480,STATE,C,,,,B alive 1
+pause,480,PROBE_OK,C,B,ACK,C:3,
+pause,500,SEND,C,A,PING,C:4,"packet=10; B=(1, 'alive')"
+pause,520,RECEIVE,C,A,PING,C:4,packet=10
+pause,520,STATE,A,,,,B alive 1
+pause,520,SEND,A,C,ACK,C:4,"packet=11; B=(1, 'alive')"
+pause,540,RECEIVE,A,C,ACK,C:4,packet=11
+pause,540,PROBE_OK,C,A,ACK,C:4,
+pause,560,IGNORE,A,,,,"incoming (0, 'suspect'); keep (1, 'alive')"
+pause,900,TIMER_CANCELLED,A,,,,old suspicion 0
+pause,1020,TIMER_CANCELLED,C,,,,old suspicion 0
+dead,0,SEND,A,B,PING,A:1,"packet=1; B=(0, 'alive')"
+dead,20,DROP,A,B,PING,A:1,packet=1; injected fault
+dead,100,DIRECT_TIMEOUT,A,B,,A:1,
+dead,100,SEND,A,C,PING_REQ,A:1,"packet=2; B=(0, 'alive')"
+dead,100,SEND,A,D,PING_REQ,A:1,"packet=3; B=(0, 'alive')"
+dead,120,RECEIVE,A,C,PING_REQ,A:1,packet=2
+dead,120,SEND,C,B,PING,A:1,"packet=4; B=(0, 'alive')"
+dead,120,RECEIVE,A,D,PING_REQ,A:1,packet=3
+dead,120,SEND,D,B,PING,A:1,"packet=5; B=(0, 'alive')"
+dead,140,DROP,C,B,PING,A:1,packet=4; injected fault
+dead,140,DROP,D,B,PING,A:1,packet=5; injected fault
+dead,300,PROBE_TIMEOUT,A,B,,A:1,
+dead,300,STATE,A,,,,B suspect 0
+dead,400,SEND,A,C,PING,A:2,"packet=6; B=(0, 'suspect')"
+dead,420,RECEIVE,A,C,PING,A:2,packet=6
+dead,420,STATE,C,,,,B suspect 0
+dead,420,SEND,C,A,ACK,A:2,"packet=7; B=(0, 'suspect')"
+dead,440,SEND,C,B,PING,C:3,"packet=8; B=(0, 'suspect')"
+dead,440,RECEIVE,C,A,ACK,A:2,packet=7
+dead,440,PROBE_OK,A,C,ACK,A:2,
+dead,460,DROP,C,B,PING,C:3,packet=8; injected fault
+dead,500,SEND,C,A,PING,C:4,"packet=9; B=(0, 'suspect')"
+dead,520,RECEIVE,C,A,PING,C:4,packet=9
+dead,520,SEND,A,C,ACK,C:4,"packet=10; B=(0, 'suspect')"
+dead,540,DIRECT_TIMEOUT,C,B,,C:3,
+dead,540,SEND,C,D,PING_REQ,C:3,"packet=11; B=(0, 'suspect')"
+dead,540,SEND,C,E,PING_REQ,C:3,"packet=12; B=(0, 'suspect')"
+dead,540,RECEIVE,A,C,ACK,C:4,packet=10
+dead,540,PROBE_OK,C,A,ACK,C:4,
+dead,560,RECEIVE,C,D,PING_REQ,C:3,packet=11
+dead,560,STATE,D,,,,B suspect 0
+dead,560,SEND,D,B,PING,C:3,"packet=13; B=(0, 'suspect')"
+dead,560,RECEIVE,C,E,PING_REQ,C:3,packet=12
+dead,560,STATE,E,,,,B suspect 0
+dead,560,SEND,E,B,PING,C:3,"packet=14; B=(0, 'suspect')"
+dead,580,DROP,D,B,PING,C:3,packet=13; injected fault
+dead,580,DROP,E,B,PING,C:3,packet=14; injected fault
+dead,740,PROBE_TIMEOUT,C,B,,C:3,
+dead,900,STATE,A,,,,B confirmed 0
+dead,1020,STATE,C,,,,B confirmed 0
+dead,1160,STATE,D,,,,B confirmed 0
+dead,1160,STATE,E,,,,B confirmed 0

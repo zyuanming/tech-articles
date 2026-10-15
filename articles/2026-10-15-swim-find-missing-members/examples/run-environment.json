@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "model_arithmetic": "integer event milliseconds and fractions.Fraction",
+  "model_random_seed": 2301,
+  "udp_clock": "time.perf_counter_ns",
+  "udp_transport": "real UDP sockets at 127.0.0.1, one process",
+  "udp_nondeterministic": "actual elapsed timing and temporary ports",
+  "physical_cluster": false,
+  "fonts": [
+    "NotoSansCJK-Regular.ttc index 2",
+    "NotoSansCJK-Bold.ttc index 2"
+  ]
+}

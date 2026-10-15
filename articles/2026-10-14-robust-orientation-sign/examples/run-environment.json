@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "radix": 2,
+  "mant_dig": 53,
+  "rounds": 1,
+  "max_exp": 1024,
+  "min_exp": -1021,
+  "smallest_subnormal": 5e-324,
+  "seed": 240014,
+  "external_libraries_executed": "No CGAL or Shewchuk code executed"
+}

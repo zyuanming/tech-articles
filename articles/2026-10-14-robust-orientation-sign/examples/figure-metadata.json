@@ -1,0 +1,137 @@
+[
+  {
+    "file": "assets/01-one-triangle-two-answers.png",
+    "width": 1062,
+    "height": 1160,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Same triangle cyclic-order inconsistency; shape explicitly schematic",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/02-left-right-collinear.png",
+    "width": 1062,
+    "height": 1340,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Orientation classification with one fixed directed horizontal edge",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/03-signed-area.png",
+    "width": 1062,
+    "height": 1090,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Oriented parallelogram and triangle areas in introductory exact example",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/04-two-products-one-apart.png",
+    "width": 1062,
+    "height": 1370,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Exact integer coordinates and large products",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/05-rounded-before-subtract.png",
+    "width": 1062,
+    "height": 1150,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Exact products and ties-to-even rounding around 2^54",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/06-cyclic-inconsistency.png",
+    "width": 1062,
+    "height": 1210,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Recorded cyclic-order determinants versus exact invariance",
+    "identity": "original visualization of attached actual experiment outputs"
+  },
+  {
+    "file": "assets/07-hull-loses-vertex.png",
+    "width": 1062,
+    "height": 1330,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual two-point versus three-point hull under declared area-preserving display transform",
+    "identity": "original visualization of attached actual experiment outputs"
+  },
+  {
+    "file": "assets/08-fixed-epsilon-scale.png",
+    "width": 1062,
+    "height": 1240,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Scale dependence of fixed determinant threshold; shapes schematic",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/09-certified-intervals.png",
+    "width": 1062,
+    "height": 1240,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Certified determinant intervals and three filter outcomes",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/10-outward-arithmetic.png",
+    "width": 1062,
+    "height": 1250,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Outward interval arithmetic operations and explicit fallback",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/11-filter-then-exact.png",
+    "width": 1062,
+    "height": 1240,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual conservative interval and exact fallback for main example",
+    "identity": "original visualization of attached actual experiment outputs"
+  },
+  {
+    "file": "assets/12-neighborhood-results.png",
+    "width": 1062,
+    "height": 1930,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual 31x31 grid: wrong naive signs versus conservative exact fallbacks",
+    "identity": "original visualization of attached actual experiment outputs"
+  },
+  {
+    "file": "assets/13-two-test-populations.png",
+    "width": 1062,
+    "height": 1160,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual exact-fallback counts for two different test populations",
+    "identity": "original visualization of attached actual experiment outputs"
+  },
+  {
+    "file": "assets/14-input-already-lost.png",
+    "width": 1062,
+    "height": 1320,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Input rounding loss distinguished from arithmetic sign correctness",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Independent original cover",
+    "identity": "original teaching illustration"
+  }
+]

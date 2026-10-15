@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "arithmetic": "Python unbounded integers; inf only denotes unbounded abstract endpoint",
+  "randomness": "None; all examples deterministic",
+  "figure_font": "Noto Sans CJK Regular/Bold TTC index 2",
+  "validation": "Fixed teaching cases; no industrial analyzer run"
+}

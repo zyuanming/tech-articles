@@ -1,0 +1,26 @@
+Python 3.12.14
+Controlled local threads (not network/service measurement):
+locked_register: PASS witness=[{'order': ['A', 'W', 'B'], 'included_pending': []}]
+  1 W call 1 elapsed_ns=186832
+  2 A call read elapsed_ns=227323
+  3 A return 0 elapsed_ns=229426
+  4 B call read elapsed_ns=264800
+  5 B return 1 elapsed_ns=265931
+  6 W return ok elapsed_ns=285321
+injected_stale_read: FAIL witness=[]
+  1 W call 1 elapsed_ns=88283
+  2 A call read elapsed_ns=132920
+  3 A return 1 elapsed_ns=134262
+  4 B call read elapsed_ns=135104
+  5 B return 0 elapsed_ns=135765
+  6 W return ok elapsed_ns=147482
+Exhaustive {"crosscheck_disagreements": 0, "endpoint_orders": 90, "histories": 360, "linearizable": 246, "not_linearizable": 114}
+old_then_new: PASS
+new_then_old: FAIL
+stale_after_write: FAIL
+call_sort_fails: PASS
+return_sort_fails: PASS
+pending_needed: PASS
+pending_optional: PASS
+future_pending_cannot_help: FAIL
+both_reads_overlap: PASS

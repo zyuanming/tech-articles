@@ -1,0 +1,114 @@
+[
+  {
+    "file": "01-register.png",
+    "width": 1062,
+    "height": 770,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "把对象、状态和两种操作分开，建立顺序规格"
+  },
+  {
+    "file": "02-interval.png",
+    "width": 1062,
+    "height": 700,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "区分调用、返回和不可直接观察的内部生效时刻"
+  },
+  {
+    "file": "03-legal.png",
+    "width": 1062,
+    "height": 700,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "原创调用—返回区间示意；横轴为事件序号，非持续时间"
+  },
+  {
+    "file": "04-illegal.png",
+    "width": 1062,
+    "height": 700,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "原创调用—返回区间示意；横轴为事件序号，非持续时间"
+  },
+  {
+    "file": "05-cycle.png",
+    "width": 1062,
+    "height": 870,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "将读值约束与真实先后拼成矛盾环，给出不可行证据"
+  },
+  {
+    "file": "06-stale.png",
+    "width": 1062,
+    "height": 700,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "原创调用—返回区间示意；横轴为事件序号，非持续时间"
+  },
+  {
+    "file": "07-endpoint-sorting.png",
+    "width": 1062,
+    "height": 960,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "两个不同嵌套历史分别反驳调用排序和返回排序"
+  },
+  {
+    "file": "08-search.png",
+    "width": 1062,
+    "height": 1060,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "展示枚举分支及剪枝理由，而不是把搜索藏进黑箱"
+  },
+  {
+    "file": "09-runtime-evidence.png",
+    "width": 1062,
+    "height": 1220,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "从本次CSV实际事件与单调时钟读数重绘，供读者对照原始日志"
+  },
+  {
+    "file": "10-enumeration.png",
+    "width": 1062,
+    "height": 790,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "以实际枚举结果展示有限测试范围与两种算法交叉核对"
+  },
+  {
+    "file": "11-pending.png",
+    "width": 1062,
+    "height": 850,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "待定写保留或删除的不同必要性；解释扩展历史不是网络重试"
+  },
+  {
+    "file": "12-no-future.png",
+    "width": 1062,
+    "height": 700,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "原创调用—返回区间示意；横轴为事件序号，非持续时间"
+  },
+  {
+    "file": "13-composition-limit.png",
+    "width": 1062,
+    "height": 800,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "通过丢失更新说明单次操作线性一致不等于复合业务步骤原子"
+  },
+  {
+    "file": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "minimum_text_px": 36,
+    "effective_minimum_at_354px": 12,
+    "role": "独立原创封面，不计入正文图数"
+  }
+]

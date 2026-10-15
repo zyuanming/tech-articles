@@ -1,0 +1,35 @@
+{
+  "first": {
+    "path": "A-D-G-D-E-H-I-F-C",
+    "moves": 8,
+    "walls": 6,
+    "reached": true
+  },
+  "second": {
+    "path": "A-D-E-H-I-F-C",
+    "moves": 6,
+    "walls": 0,
+    "reached": true
+  },
+  "unfamiliar": {
+    "path": "B-A-D-E-H-I-F-C",
+    "moves": 7,
+    "walls": 0,
+    "reached": true
+  },
+  "stale": {
+    "path": "A-D-E-H-I-F-E-H-I-F-E-H-I-F-E-H-I-F-E-H-I-F-E-H-I",
+    "moves": 24,
+    "walls": 1,
+    "reached": false
+  },
+  "recovered": {
+    "path": "A-D-E-H-I-F-E-H-I-F-E-D-A-B-C",
+    "moves": 14,
+    "walls": 7,
+    "reached": true
+  },
+  "last_exit_walk_cases": 30,
+  "reachable_subsets": 1494,
+  "max_moves_in_reachable_subsets": 20
+}

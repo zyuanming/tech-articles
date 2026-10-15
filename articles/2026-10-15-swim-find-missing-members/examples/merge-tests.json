@@ -1,0 +1,122 @@
+[
+  {
+    "messages": [
+      [
+        0,
+        "alive"
+      ],
+      [
+        0,
+        "suspect"
+      ],
+      [
+        1,
+        "alive"
+      ]
+    ],
+    "result": [
+      1,
+      "alive"
+    ]
+  },
+  {
+    "messages": [
+      [
+        0,
+        "alive"
+      ],
+      [
+        1,
+        "alive"
+      ],
+      [
+        0,
+        "suspect"
+      ]
+    ],
+    "result": [
+      1,
+      "alive"
+    ]
+  },
+  {
+    "messages": [
+      [
+        0,
+        "suspect"
+      ],
+      [
+        0,
+        "alive"
+      ],
+      [
+        1,
+        "alive"
+      ]
+    ],
+    "result": [
+      1,
+      "alive"
+    ]
+  },
+  {
+    "messages": [
+      [
+        0,
+        "suspect"
+      ],
+      [
+        1,
+        "alive"
+      ],
+      [
+        0,
+        "alive"
+      ]
+    ],
+    "result": [
+      1,
+      "alive"
+    ]
+  },
+  {
+    "messages": [
+      [
+        1,
+        "alive"
+      ],
+      [
+        0,
+        "alive"
+      ],
+      [
+        0,
+        "suspect"
+      ]
+    ],
+    "result": [
+      1,
+      "alive"
+    ]
+  },
+  {
+    "messages": [
+      [
+        1,
+        "alive"
+      ],
+      [
+        0,
+        "suspect"
+      ],
+      [
+        0,
+        "alive"
+      ]
+    ],
+    "result": [
+      1,
+      "alive"
+    ]
+  }
+]

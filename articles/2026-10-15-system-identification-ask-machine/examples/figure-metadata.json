@@ -1,0 +1,146 @@
+[
+  {
+    "file": "assets/01-same-steady-different-cooling.png",
+    "width": 1062,
+    "height": 1350,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual noiseless predictions of three steady-state-equivalent models",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/02-input-output-box.png",
+    "width": 1062,
+    "height": 1320,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Explicitly hypothetical heater model with normalized input and temperature-deviation output",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/03-sample-alignment.png",
+    "width": 1062,
+    "height": 1260,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Noiseless first samples and one-step input-output alignment",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/04-retain-and-add.png",
+    "width": 1062,
+    "height": 1330,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Two noiseless steps decomposed into retained temperature and new input",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/05-two-equations.png",
+    "width": 1062,
+    "height": 1300,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Parameter-plane intersection of the first two noiseless observations",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/06-noisy-observations.png",
+    "width": 1062,
+    "height": 1330,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "First 30 training transitions and actual fitted one-step predictions",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/07-squared-error-landscape.png",
+    "width": 1062,
+    "height": 1390,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual training mean-square-loss surface, log color scale, and fitted parameter point",
+    "identity": "original plot from stated model or recorded experiment"
+  },
+  {
+    "file": "assets/08-steady-ambiguity.png",
+    "width": 1062,
+    "height": 1320,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "One steady relation leaves a line of parameter candidates",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/09-training-input-output.png",
+    "width": 1062,
+    "height": 1640,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual normalized training input and simulated noisy output on aligned time axes",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/10-heldout-simulation.png",
+    "width": 1062,
+    "height": 1960,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Heldout noisy output versus autonomous dynamic and fitted static models",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/11-prediction-versus-simulation.png",
+    "width": 1062,
+    "height": 1400,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Different information feeds for one-step prediction and free-run simulation",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/12-residual-time-patterns.png",
+    "width": 1062,
+    "height": 1550,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual heldout one-step residual traces on equal vertical scales",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/13-noise-repeat-parameters.png",
+    "width": 1062,
+    "height": 1370,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual 100-seed repeated estimates under identical input and noise law",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/14-residual-lag-correlation.png",
+    "width": 1062,
+    "height": 1330,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Actual demeaned sample residual autocorrelations at lags1..8, no significance bands",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "assets/15-out-of-range-ambiguity.png",
+    "width": 1062,
+    "height": 1430,
+    "min_font_px": 36,
+    "min_effective_px_at_354": 12,
+    "role": "Two synthetic models identical on training input range diverge under out-of-range input",
+    "identity": "original teaching diagram"
+  },
+  {
+    "file": "cover.png",
+    "width": 1062,
+    "height": 1062,
+    "min_font_px": 38,
+    "min_effective_px_at_354": 12.666666666666666,
+    "role": "Separate original system-identification cover",
+    "identity": "original illustration"
+  }
+]
