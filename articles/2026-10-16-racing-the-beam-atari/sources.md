@@ -36,17 +36,15 @@
 
 本文正文没有复制任何游戏画面、卡带封面艺术或厂商宣传图。所有游戏相关内容都以文字描述并链接到公开页面。
 
-正文使用 9 张第三方真实照片，全部来自 Wikimedia Commons：
+正文使用 9 张第三方真实照片（`originals/photos/` 下同名 9 个文件），全部来自 Wikimedia Commons：
 
 | 文件 | 内容 | 作者 | 许可 |
 |---|---|---|---|
 | originals/photos/real-01-console.jpg | Atari 2600 四开关版与摇杆 | Evan-Amos | 公有领域 |
-| originals/photos/real-02-joystick.jpg | CX40 摇杆 | Rama | CC BY-SA 2.0 fr |
 | originals/photos/real-03-pitfall-cart.jpg | Pitfall! 卡带 | JoRgE-1987 | CC BY-SA 4.0 |
 | originals/photos/real-04-motherboard.jpg | Atari 2600 主板（1982 年四开关版） | Tetrodotoxine | CC BY-SA 4.0 |
 | originals/photos/real-05-6502.jpg | MOS MPS 6502 芯片 | ZyMOS | CC BY-SA 4.0 |
 | originals/photos/real-06-scanline.jpg | 电视扫描线高速合成照片 | Tristantech | CC BY-SA 3.0 |
-| originals/photos/real-07-videosignal.jpg | PAL 视频信号的扫描行波形 | Shaddack | CC BY-SA 4.0 |
 | originals/photos/real-08-jay-miner.jpg | Jay Miner，1990 年 | Michael C. Battilana / Cloanto IT srl | CC BY 2.0 |
 | originals/photos/real-09-bushnell.jpg | Nolan Bushnell，2013 年 | Tech Cocktail | CC BY-SA 2.0 |
 | originals/photos/real-10-crane.jpg | David Crane，2011 年 | Joe Grand | CC BY-SA 2.0 |
@@ -60,7 +58,7 @@
 - 全部照片只做等比缩放与居中裁切以适配版面，没有改动人物、设备或背景，也没有添加内容。人物肖像的拍摄年代各不相同（Miner 1990 年、Crane 2011 年、Robinett 2015 年、Bushnell 2013 年），图注均写明拍摄场合，未暗示它们来自所讲述的历史现场。
 - 未使用任何生成模型制造的人像、主机照片、卡带照片或伪历史截图。
 
-**第三方 CC BY-SA 素材范围**：本组照片中主板、6502、Pitfall! 卡带、扫描线照片、摇杆、Bushnell、Crane 采用 CC BY-SA 许可（版本见上表）。相应图片保留各自注明版本的 CC BY-SA 许可；如对这些图作改编，须按该许可要求分享，保留作者、来源、许可链接及修改说明。本文对它们的处理是等比缩放与居中裁切。文章集合不据此把其他独立作品统一改为 CC BY-SA。
+**第三方 CC BY-SA 素材范围**：本组照片中主板、6502、Pitfall! 卡带、扫描线照片、Bushnell、Crane 采用 CC BY-SA 许可（版本见上表）。相应图片保留各自注明版本的 CC BY-SA 许可；如对这些图作改编，须按该许可要求分享，保留作者、来源、许可链接及修改说明。本文对它们的处理是等比缩放与居中裁切。文章集合不据此把其他独立作品统一改为 CC BY-SA。
 
 ## 原创视觉及证据身份
 

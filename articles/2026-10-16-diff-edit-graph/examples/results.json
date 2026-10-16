@@ -81,7 +81,7 @@
       "diagonals": 11,
       "snake_pixels": 161,
       "comparisons": 171,
-      "seconds": 0.0,
+      "seconds": 0.0001,
       "inserted_blocks": 4
     },
     {
@@ -111,7 +111,7 @@
       "diagonals": 137,
       "snake_pixels": 161,
       "comparisons": 297,
-      "seconds": 0.0003,
+      "seconds": 0.0001,
       "inserted_blocks": 16
     }
   ],
@@ -127,7 +127,7 @@
     "diagonals": 1,
     "snake_pixels": 161,
     "comparisons": 161,
-    "seconds": 0.0
+    "seconds": 0.0001
   },
   "shuffled": {
     "lines_a": 161,
@@ -141,7 +141,7 @@
     "diagonals": 33541,
     "snake_pixels": 251,
     "comparisons": 19089,
-    "seconds": 0.0079
+    "seconds": 0.0061
   },
   "ambiguous": [
     {
@@ -283,7 +283,7 @@
     {
       "algorithm": "myers",
       "lines": 40000,
-      "seconds": 0.0211,
+      "seconds": 0.0205,
       "diagonals": 37,
       "comparisons": 40036,
       "edit_length": 8
@@ -291,7 +291,7 @@
     {
       "algorithm": "patience",
       "lines": 40000,
-      "seconds": 0.0363,
+      "seconds": 0.0323,
       "diagonals": 16,
       "comparisons": 0,
       "edit_length": 8

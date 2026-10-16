@@ -2054,7 +2054,7 @@
     "title": "一盘棋有几十万种下法，电脑凭什么敢只看一小部分？",
     "date": "2026-10-16",
     "path": "articles/2026-10-16-chess-engine-alpha-beta/read.md",
-    "public_sha256": "b9f754a5778472d6483eae57444705f0c24dc279648e9b30f971c1711d37edfb",
+    "public_sha256": "2e0a7c9edd424a4ad212a0e1bc4ca89ee728ab51c6f3897051d2ca45c79b1e0e",
     "images": 23,
     "status": "archived_article",
     "related_versions": []
@@ -2064,7 +2064,7 @@
     "title": "改了三行，电脑怎样在十万行里找出它们？",
     "date": "2026-10-16",
     "path": "articles/2026-10-16-diff-edit-graph/read.md",
-    "public_sha256": "ef89ae33a3e7c7dcc9ba3a0ab8f71dffe3016a2e04fb5d62474534b81e8a9939",
+    "public_sha256": "4a042728ec24b8ea5c4235f974846436a4d5de7df87467176f3b2e43895eb9e4",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -2074,7 +2074,7 @@
     "title": "这台游戏机没有显存：画面是程序追着电子束，一行一行写出来的",
     "date": "2026-10-16",
     "path": "articles/2026-10-16-racing-the-beam-atari/read.md",
-    "public_sha256": "eab359d1353dd2c19e6b66f4d7640a4cd2d90da58f5008ae22c68af8604f3f4d",
+    "public_sha256": "6f1f11ca3c28e179af4437b0c4490649a89e77a812ac4174b5c112f90efb7cff",
     "images": 21,
     "status": "archived_article",
     "related_versions": []

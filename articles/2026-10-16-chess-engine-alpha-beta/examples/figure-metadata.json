@@ -51,7 +51,7 @@
     "height": 914,
     "min_label_px": 40,
     "effective_min_at_354px": 13.33,
-    "purpose": "两种算法在各深度上的真实节点数（同一局面）",
+    "purpose": "两种算法在各深度上的真实节点数（同一局面，α-β 不带走法排序）",
     "identity": "原创教学示意"
   },
   {

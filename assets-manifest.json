@@ -17591,8 +17591,8 @@
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/06-nodes-by-depth.png",
-    "bytes": 115107,
-    "sha256": "ec8c0a3dc56ab514e9a9f0346c5611198eecf21138330074b4a567c8a4e3b35e"
+    "bytes": 114437,
+    "sha256": "ff220f011d67028659378041db0c7aba818e158a7059abcd3f38bc58c28229f0"
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/07-beta-cutoff.png",
@@ -17685,6 +17685,11 @@
     "sha256": "67f71680bdaf0b31c36dfdf32bfccde0064052b54c81ab07e5c18c32e381227c"
   },
   {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/__pycache__/build_figures.cpython-314.pyc",
+    "bytes": 62588,
+    "sha256": "b5808ef3a74afd1fa66a7abfbd7ffb5c510e7e73a22ccaca35c3788b56b6126c"
+  },
+  {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/__pycache__/chesslib.cpython-314.pyc",
     "bytes": 16320,
     "sha256": "42112c70f5059468de7aab36b7fd8234b7159613c79bb9d9c479f4dd547b84f0"
@@ -17695,9 +17700,14 @@
     "sha256": "89f26a4ea640cb52e6bd6c46757047161fee054d6161603170dfac741775b85c"
   },
   {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/__pycache__/figkit.cpython-314.pyc",
+    "bytes": 28389,
+    "sha256": "586d2bdc87cd84049ae02495cb40151076edfc2f78e9442345d066f013176633"
+  },
+  {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/build_figures.py",
-    "bytes": 37175,
-    "sha256": "9d3d77c2c01e9b70920f8f67f1d5c7f58ab404c668fe9fe359176b1cfbbde542"
+    "bytes": 37205,
+    "sha256": "26fb8fde2a9bddaf73bcb0ac97217572fc319f5ccd6c213fcadb6ba8aa94c05e"
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/chesslib.py",
@@ -17716,8 +17726,8 @@
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/figure-metadata.json",
-    "bytes": 6644,
-    "sha256": "769551bd9c48f2e3f71ae7c66f36e6e8d517ea5246395e7bb90dc4e25ddd1113"
+    "bytes": 6671,
+    "sha256": "49ae3da904330cf9497d6489b66b52791675c9e81200d5c8583750a1dbd406f4"
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/horizon.json",
@@ -17836,8 +17846,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/assets/09-complexity.png",
-    "bytes": 132781,
-    "sha256": "22c4a803351ed68f464a5af1966ec9f5be9dba785e762e1ea5c54f962bbfaaaf"
+    "bytes": 130441,
+    "sha256": "98362fd1ebd24ff345f50e9dde310046b3129b0ce7b68b69ece6611dab13194d"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/assets/10-extremes.png",
@@ -17866,8 +17876,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/assets/14-large-file.png",
-    "bytes": 136434,
-    "sha256": "18ffa1f75265547bd4cf8d047d92ab181937e3f591ed9e26f3abf2dcaa8fbde5"
+    "bytes": 136988,
+    "sha256": "af5a08b6c0006f6f34af9a63eec54f1d637d41d9918651f9fccdbdff0ba3facd"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/assets/15-real-diff.png",
@@ -17891,8 +17901,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/assets/19-cohen.png",
-    "bytes": 362445,
-    "sha256": "4e3915d37173227101c78bb0d1dfff671a107b41df854ed9d3761365680c997c"
+    "bytes": 364700,
+    "sha256": "99bb09670fb9dde709f906d4946595cd7051df4f6d490c86a1031e493b2253af"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/assets/20-try-it.png",
@@ -17906,8 +17916,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/__pycache__/build_figures.cpython-314.pyc",
-    "bytes": 51629,
-    "sha256": "9ef765eb524d7c4f779dc6bb76526f1d708ae59cb28f4046bfbd9f4018d74e1e"
+    "bytes": 52682,
+    "sha256": "b5c6cfb35871c5c6a66988062c67923d5d235840a2583807e2fa9ff15c1543db"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/__pycache__/figkit.cpython-314.pyc",
@@ -17926,8 +17936,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/build_figures.py",
-    "bytes": 33792,
-    "sha256": "15c86c0e8a785302cdf8392776a50a4bb8401d85b937d0ec93d1ccf8874d74eb"
+    "bytes": 33795,
+    "sha256": "9fef87af0ecde8b5390e45f57a07db5ce3ec43533d9bd73483d7aed987552142"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/figkit.py",
@@ -17951,8 +17961,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/results.json",
-    "bytes": 9925,
-    "sha256": "2d7694488e52104553aa001ac3bccd367ea6c20d802677a28c375821753dfdb5"
+    "bytes": 9931,
+    "sha256": "67f1049ecfa7f323ca8805c128826f50d4dc0258a71e8262260ff929d8ce4be8"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/run-environment.json",
@@ -18136,8 +18146,8 @@
   },
   {
     "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/build_figures.cpython-314.pyc",
-    "bytes": 40805,
-    "sha256": "79230662128e968946683dba7e61cdf09b3f576080269b1584b16dfc235dd112"
+    "bytes": 41312,
+    "sha256": "c19b868db2fc6fa55a815e2b0dec1f50630f496a0929adc32de4cb09d5a716da"
   },
   {
     "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/cpu6507.cpython-314.pyc",
@@ -18260,11 +18270,6 @@
     "sha256": "b959588b416dc38b845184f4afdeb6b346420ba9ff8af5b6323a15e54b9a9127"
   },
   {
-    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-02-joystick.jpg",
-    "bytes": 385477,
-    "sha256": "d166c5d8197e0310a2b14579c797b04f39215b956c93a3b964a40de3a92882e3"
-  },
-  {
     "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-03-pitfall-cart.jpg",
     "bytes": 575995,
     "sha256": "2dafe43a2b6c24bee0e8baef9672e9a9497c696fa8daddb98e4fe9099ca7cfcd"
@@ -18283,11 +18288,6 @@
     "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-06-scanline.jpg",
     "bytes": 717860,
     "sha256": "9ba18e965fcebbcbea55f8084074d225a02bbd29068cccfa70b2d74f7dcb3896"
-  },
-  {
-    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-07-videosignal.jpg",
-    "bytes": 63615,
-    "sha256": "905deb52ce572df084c1a2ac5b4d988eb22703022850af7b91f327e70f4da69c"
   },
   {
     "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-08-jay-miner.jpg",

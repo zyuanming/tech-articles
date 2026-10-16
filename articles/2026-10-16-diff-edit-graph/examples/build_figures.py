@@ -288,7 +288,7 @@ def fig09():
                  TEAL, anchor='lm')
     vals = [r['diagonals'] for r in rows]
     assert vals == sorted(vals)
-    fig.text((531, y + 5 * 82 + 30), '编辑距离 D 变成 4 倍，访问的对角线变成约 33 倍。', 42,
+    fig.text((531, y + 5 * 82 + 30), 'D 从 4 涨到 16，访问的对角线从 11 条涨到 137 条。', 42,
              True, RED, anchor='mm')
     fig.text((531, y + 5 * 82 + 86), '这就是 O(ND) 里 D 的位置：', 42,
              color=INK, anchor='mm')
@@ -519,7 +519,7 @@ def fig18():
 
 def fig19():
     fig = Fig(1140)
-    fig.text((48, 34), '2007 年：换一个目标', 52, True)
+    fig.text((48, 34), '换一个目标：patience diff', 52, True)
     sub(fig, 104, 'Bram Cohen 提出 patience diff：不再只问「最短」，而是问「哪种最短更好读」。')
     y = photo_head(fig, 'real-02-cohen.jpg', '布拉姆·科恩',
                    ['patience diff 的提出者', 'BitTorrent 的作者'],

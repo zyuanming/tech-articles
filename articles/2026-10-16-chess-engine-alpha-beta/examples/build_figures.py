@@ -185,7 +185,7 @@ def fig05():
 def fig06():
     import math
     mm = list(M['minimax_midgame'])
-    ab = list(M['alphabeta_captures'])
+    ab = list(M['alphabeta_none'])
     fig = Fig(940)
     fig.text((48, 34), '同一局面，两种算法的节点数', 52, True)
     sub(fig, 104, '横轴是深度，纵轴是对数刻度上的节点数。两条线共用同一根轴。')
@@ -203,7 +203,7 @@ def fig06():
         fig.text((px(d), y1 + 32), str(d), 42, color=INK, anchor='mm')
     fig.text(((x0 + x1) / 2, y1 + 86), '搜索深度（层）', 42, color=INK,
              anchor='mm')
-    for series, color, name in ((mm, RED, '极小化极大'), (ab, TEAL, 'α-β 加吃子优先')):
+    for series, color, name in ((mm, RED, '极小化极大'), (ab, TEAL, 'α-β（不排序）')):
         pts = [(px(r['depth']), py(r['nodes'])) for r in series]
         for i in range(len(pts) - 1):
             fig.line(pts[i], pts[i + 1], color, 6)
@@ -211,13 +211,14 @@ def fig06():
             fig.circle(p[0], p[1], 11, fill=color, outline=color, width=2)
     fig.text((x0 + 46, py(mm[-1]['nodes']) + 42), '极小化极大', 42, True, RED,
              anchor='lm')
-    fig.text((x0 + 46, py(ab[-1]['nodes']) - 42), 'α-β 加吃子优先', 42, True,
+    fig.text((x0 + 46, py(ab[-1]['nodes']) - 42), 'α-β（不排序）', 42, True,
              TEAL, anchor='lm')
     fig.text((531, 790), '深度 4：极小化极大访问 %s 个节点，' % f"{mm[3]['nodes']:,}",
              42, True, INK, anchor='mm')
     fig.text((531, 838), 'α-β 只访问 %s 个。' % f"{ab[3]['nodes']:,}",
              42, True, TEAL, anchor='mm')
-    save(fig, '06-nodes-by-depth.png', '两种算法在各深度上的真实节点数（同一局面）')
+    save(fig, '06-nodes-by-depth.png',
+         '两种算法在各深度上的真实节点数（同一局面，α-β 不带走法排序）')
 
 
 # --------------------------------------------------------- 07 β 截断
