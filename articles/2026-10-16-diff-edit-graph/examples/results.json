@@ -1,0 +1,373 @@
+{
+  "random_verification": {
+    "trials": 400,
+    "seed": 5,
+    "claim": "脚本能重建 b，且编辑长度等于动态规划最优值"
+  },
+  "real_pairs": [
+    {
+      "lines_a": 161,
+      "lines_b": 172,
+      "unchanged": 160,
+      "deleted": 1,
+      "inserted": 12,
+      "edit_length": 13,
+      "shortest_possible": 13,
+      "d_steps": 14,
+      "diagonals": 93,
+      "snake_pixels": 160,
+      "comparisons": 251,
+      "seconds": 0.0001,
+      "name": "integrity.py",
+      "optimal": true
+    },
+    {
+      "lines_a": 208,
+      "lines_b": 209,
+      "unchanged": 206,
+      "deleted": 2,
+      "inserted": 3,
+      "edit_length": 5,
+      "shortest_possible": 5,
+      "d_steps": 6,
+      "diagonals": 18,
+      "snake_pixels": 206,
+      "comparisons": 223,
+      "seconds": 0.0001,
+      "name": "source_rights.py",
+      "optimal": true
+    }
+  ],
+  "growth": [
+    {
+      "lines_a": 161,
+      "lines_b": 162,
+      "unchanged": 161,
+      "deleted": 0,
+      "inserted": 1,
+      "edit_length": 1,
+      "shortest_possible": 1,
+      "d_steps": 2,
+      "diagonals": 2,
+      "snake_pixels": 161,
+      "comparisons": 162,
+      "seconds": 0.0,
+      "inserted_blocks": 1
+    },
+    {
+      "lines_a": 161,
+      "lines_b": 163,
+      "unchanged": 161,
+      "deleted": 0,
+      "inserted": 2,
+      "edit_length": 2,
+      "shortest_possible": 2,
+      "d_steps": 3,
+      "diagonals": 4,
+      "snake_pixels": 161,
+      "comparisons": 164,
+      "seconds": 0.0,
+      "inserted_blocks": 2
+    },
+    {
+      "lines_a": 161,
+      "lines_b": 165,
+      "unchanged": 161,
+      "deleted": 0,
+      "inserted": 4,
+      "edit_length": 4,
+      "shortest_possible": 4,
+      "d_steps": 5,
+      "diagonals": 11,
+      "snake_pixels": 161,
+      "comparisons": 171,
+      "seconds": 0.0,
+      "inserted_blocks": 4
+    },
+    {
+      "lines_a": 161,
+      "lines_b": 169,
+      "unchanged": 161,
+      "deleted": 0,
+      "inserted": 8,
+      "edit_length": 8,
+      "shortest_possible": 8,
+      "d_steps": 9,
+      "diagonals": 37,
+      "snake_pixels": 161,
+      "comparisons": 197,
+      "seconds": 0.0001,
+      "inserted_blocks": 8
+    },
+    {
+      "lines_a": 161,
+      "lines_b": 177,
+      "unchanged": 161,
+      "deleted": 0,
+      "inserted": 16,
+      "edit_length": 16,
+      "shortest_possible": 16,
+      "d_steps": 17,
+      "diagonals": 137,
+      "snake_pixels": 161,
+      "comparisons": 297,
+      "seconds": 0.0003,
+      "inserted_blocks": 16
+    }
+  ],
+  "identical": {
+    "lines_a": 161,
+    "lines_b": 161,
+    "unchanged": 161,
+    "deleted": 0,
+    "inserted": 0,
+    "edit_length": 0,
+    "shortest_possible": 0,
+    "d_steps": 1,
+    "diagonals": 1,
+    "snake_pixels": 161,
+    "comparisons": 161,
+    "seconds": 0.0
+  },
+  "shuffled": {
+    "lines_a": 161,
+    "lines_b": 161,
+    "unchanged": 32,
+    "deleted": 129,
+    "inserted": 129,
+    "edit_length": 258,
+    "shortest_possible": 258,
+    "d_steps": 259,
+    "diagonals": 33541,
+    "snake_pixels": 251,
+    "comparisons": 19089,
+    "seconds": 0.0079
+  },
+  "ambiguous": [
+    {
+      "a": "aaa",
+      "b": "bbb",
+      "edit_length": 6,
+      "optimal_scripts_found": 20,
+      "myers_choice": "-a -a -a +b +b +b",
+      "examples": [
+        "-a -a -a +b +b +b",
+        "-a -a +b -a +b +b",
+        "-a -a +b +b -a +b"
+      ]
+    },
+    {
+      "a": "abab",
+      "b": "baba",
+      "edit_length": 2,
+      "optimal_scripts_found": 2,
+      "myers_choice": "-a =b =a =b +a",
+      "examples": [
+        "-a =b =a =b +a",
+        "+b =a =b =a -b"
+      ]
+    },
+    {
+      "a": "abcab",
+      "b": "cabca",
+      "edit_length": 2,
+      "optimal_scripts_found": 1,
+      "myers_choice": "+c =a =b =c =a -b",
+      "examples": [
+        "+c =a =b =c =a -b"
+      ]
+    }
+  ],
+  "patience_vs_myers": [
+    {
+      "name": "经典教学示例 frobnitz/fact → fib",
+      "lines": 26,
+      "myers": {
+        "lines_a": 26,
+        "lines_b": 26,
+        "unchanged": 16,
+        "deleted": 10,
+        "inserted": 10,
+        "edit_length": 20,
+        "shortest_possible": 20,
+        "d_steps": 21,
+        "diagonals": 221,
+        "snake_pixels": 28,
+        "comparisons": 200,
+        "seconds": 0.0001
+      },
+      "patience": {
+        "lines_a": 26,
+        "lines_b": 26,
+        "unchanged": 16,
+        "deleted": 10,
+        "inserted": 10,
+        "edit_length": 20,
+        "shortest_possible": 20,
+        "d_steps": 25,
+        "diagonals": 108,
+        "snake_pixels": 8,
+        "comparisons": 11,
+        "seconds": 0.0001
+      },
+      "same_output": true
+    },
+    {
+      "name": "integrity.py 两版",
+      "lines": 161,
+      "myers": {
+        "lines_a": 161,
+        "lines_b": 172,
+        "unchanged": 160,
+        "deleted": 1,
+        "inserted": 12,
+        "edit_length": 13,
+        "shortest_possible": 13,
+        "d_steps": 14,
+        "diagonals": 93,
+        "snake_pixels": 160,
+        "comparisons": 251,
+        "seconds": 0.0001
+      },
+      "patience": {
+        "lines_a": 161,
+        "lines_b": 172,
+        "unchanged": 160,
+        "deleted": 1,
+        "inserted": 12,
+        "edit_length": 13,
+        "shortest_possible": 13,
+        "d_steps": 36,
+        "diagonals": 82,
+        "snake_pixels": 27,
+        "comparisons": 37,
+        "seconds": 0.0003
+      },
+      "same_output": true
+    },
+    {
+      "name": "source_rights.py 两版",
+      "lines": 208,
+      "myers": {
+        "lines_a": 208,
+        "lines_b": 209,
+        "unchanged": 206,
+        "deleted": 2,
+        "inserted": 3,
+        "edit_length": 5,
+        "shortest_possible": 5,
+        "d_steps": 6,
+        "diagonals": 18,
+        "snake_pixels": 206,
+        "comparisons": 223,
+        "seconds": 0.0001
+      },
+      "patience": {
+        "lines_a": 208,
+        "lines_b": 209,
+        "unchanged": 206,
+        "deleted": 2,
+        "inserted": 3,
+        "edit_length": 5,
+        "shortest_possible": 5,
+        "d_steps": 31,
+        "diagonals": 37,
+        "snake_pixels": 32,
+        "comparisons": 35,
+        "seconds": 0.0002
+      },
+      "same_output": true
+    }
+  ],
+  "large_file": [
+    {
+      "algorithm": "myers",
+      "lines": 40000,
+      "seconds": 0.0211,
+      "diagonals": 37,
+      "comparisons": 40036,
+      "edit_length": 8
+    },
+    {
+      "algorithm": "patience",
+      "lines": 40000,
+      "seconds": 0.0363,
+      "diagonals": 16,
+      "comparisons": 0,
+      "edit_length": 8
+    }
+  ],
+  "random_disagreement": {
+    "trials": 200000,
+    "alphabet": 4,
+    "lengths": "3..10",
+    "seed": 2,
+    "different_scripts": 23525,
+    "different_fraction": 0.1176,
+    "patience_lcs_shorter": 12829,
+    "patience_lcs_longer": 0,
+    "note": "锚点只会收紧解空间，所以 patience 的公共子序列不可能比 Myers 更长"
+  },
+  "classic": {
+    "before": [
+      "#include <stdio.h>",
+      "",
+      "// Frobs foo heartily",
+      "int frobnitz(int foo)",
+      "{",
+      "    int i;",
+      "    for(i = 0; i < 10; i++)",
+      "    {",
+      "        printf(\"Your answer is: \");",
+      "        printf(\"%d\\n\", foo);",
+      "    }",
+      "}",
+      "",
+      "int fact(int n)",
+      "{",
+      "    if(n > 1)",
+      "    {",
+      "        return fact(n-1) * n;",
+      "    }",
+      "    return 1;",
+      "}",
+      "",
+      "int main(int argc, char **argv)",
+      "{",
+      "    frobnitz(fact(10));",
+      "}"
+    ],
+    "after": [
+      "#include <stdio.h>",
+      "",
+      "int fib(int n)",
+      "{",
+      "    if(n > 2)",
+      "    {",
+      "        return fib(n-1) + fib(n-2);",
+      "    }",
+      "    return 1;",
+      "}",
+      "",
+      "// Frobs foo heartily",
+      "int frobnitz(int foo)",
+      "{",
+      "    int i;",
+      "    for(i = 0; i < 10; i++)",
+      "    {",
+      "        printf(\"Your answer is: \");",
+      "        printf(\"%d\\n\", foo);",
+      "    }",
+      "}",
+      "",
+      "int main(int argc, char **argv)",
+      "{",
+      "    frobnitz(fib(10));",
+      "}"
+    ],
+    "myers_diff": "--- before.c\n+++ after.c\n@@ -2,2 +2,11 @@\n \n+int fib(int n)\n+{\n+    if(n > 2)\n+    {\n+        return fib(n-1) + fib(n-2);\n+    }\n+    return 1;\n+}\n+\n // Frobs foo heartily\n@@ -13,11 +22,2 @@\n \n-int fact(int n)\n-{\n-    if(n > 1)\n-    {\n-        return fact(n-1) * n;\n-    }\n-    return 1;\n-}\n-\n int main(int argc, char **argv)\n@@ -24,3 +24,3 @@\n {\n-    frobnitz(fact(10));\n+    frobnitz(fib(10));\n }",
+    "patience_diff": "--- before.c\n+++ after.c\n@@ -2,2 +2,11 @@\n \n+int fib(int n)\n+{\n+    if(n > 2)\n+    {\n+        return fib(n-1) + fib(n-2);\n+    }\n+    return 1;\n+}\n+\n // Frobs foo heartily\n@@ -13,11 +22,2 @@\n \n-int fact(int n)\n-{\n-    if(n > 1)\n-    {\n-        return fact(n-1) * n;\n-    }\n-    return 1;\n-}\n-\n int main(int argc, char **argv)\n@@ -24,3 +24,3 @@\n {\n-    frobnitz(fact(10));\n+    frobnitz(fib(10));\n }",
+    "same": true
+  },
+  "real_diff": "--- source_rights.py (前一版)\n+++ source_rights.py (后一版)\n@@ -171,5 +171,5 @@\n \n def validate_source_visuals(manifest: dict, out_dir: Path, *, local_preview=False,\n-                            rendered_html=None) -> list[str]:\n+                            rendered_html=None, policy_override: str | None = None) -> list[str]:\n     errors = []\n     for visual in manifest.get(\"visuals\", []):\n@@ -180,5 +180,6 @@\n         # attribution decision must not be rejected here for the very status\n         # that decision produces.\n-        rights = evaluate_rights(asset, unknown_license_policy())\n+        rights = evaluate_rights(asset, policy_override if policy_override is not None\n+                                 else unknown_license_policy())\n         path = (out_dir / visual.get(\"output\", \"\")).resolve()\n         preview_exception = (local_preview and visual.get('preview_only') is True"
+}

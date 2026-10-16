@@ -1,0 +1,199 @@
+[
+  {
+    "path": "assets/01-console.png",
+    "width": 1062,
+    "height": 958,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "真实主机照片，用于交代对象",
+    "identity": "真实照片（第三方，公有领域）",
+    "source": "Evan-Amos, \"Atari-2600-Wood-4Sw-Set\", Wikimedia Commons, public domain"
+  },
+  {
+    "path": "assets/02-beam.png",
+    "width": 1062,
+    "height": 1082,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "真实电子束扫描照片与一行的时间构成",
+    "identity": "真实照片（第三方，CC BY-SA 3.0）+ 原创示意",
+    "source": "Tristantech, \"Television Scan Line\", Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+    "path": "assets/03-frame-timeline.png",
+    "width": 1062,
+    "height": 898,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "NTSC 一帧的四段构成",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-one-line.png",
+    "width": 1062,
+    "height": 935,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "一行 228 个色时钟的划分",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-no-framebuffer.png",
+    "width": 1062,
+    "height": 903,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "为什么必须逐行重写寄存器",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-wsync.png",
+    "width": 1062,
+    "height": 970,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "WSYNC 与 kernel 循环的结构",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-cycle-budget.png",
+    "width": 1062,
+    "height": 752,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "样例 kernel 一行的机器周期账",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-resp-steps.png",
+    "width": 1062,
+    "height": 1104,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "延时循环次数与精灵像素位置（本模型实测）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-hmove.png",
+    "width": 1062,
+    "height": 816,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "HMOVE 在 15 像素间隔之间做微调",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-rendered-frame.png",
+    "width": 1062,
+    "height": 962,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "同一个 kernel 跑 192 行，每一行换一组数据。",
+    "identity": "本模型实际运行样例 kernel 得到的画面，不是真实主机截图"
+  },
+  {
+    "path": "assets/11-rendered-moved.png",
+    "width": 1062,
+    "height": 910,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "只把三组数据里的位置改掉，同一段代码画出另一个局面。",
+    "identity": "本模型实际运行样例 kernel 得到的画面，不是真实主机截图"
+  },
+  {
+    "path": "assets/12-overrun.png",
+    "width": 1062,
+    "height": 910,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "在每行开头多插 16 条 NOP，一共 32 个机器周期。",
+    "identity": "本模型实际运行超支版 kernel 得到的画面：87 行与正常版本不同。"
+  },
+  {
+    "path": "assets/13-flicker.png",
+    "width": 1062,
+    "height": 1034,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "第一帧画物体 1 和 3，第二帧换成 2 和 4。",
+    "identity": "本模型实际渲染的两帧与它们的合成画面"
+  },
+  {
+    "path": "assets/14-collisions.png",
+    "width": 1062,
+    "height": 830,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "碰撞触发器被置位的实测结果",
+    "identity": "原创教学示意（模型输出）"
+  },
+  {
+    "path": "assets/15-hardware.png",
+    "width": 1062,
+    "height": 1306,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "主板与 6502 芯片照片",
+    "identity": "真实照片（第三方，CC BY-SA 4.0）+ 原创示意",
+    "source": "Tetrodotoxine (motherboard) and ZyMOS (MOS 6502), Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "path": "assets/16-cartridge.png",
+    "width": 1062,
+    "height": 1239,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Pitfall! 卡带照片与 4 KB 的限制",
+    "identity": "真实照片（第三方，CC BY-SA 4.0）+ 原创示意",
+    "source": "JoRgE-1987, \"Cartucho de Atari 2600 del juego Pitfall\", Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "path": "assets/17-miner.png",
+    "width": 1062,
+    "height": 1322,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Jay Miner 肖像与 TIA 的设计取舍",
+    "identity": "真实肖像（第三方，CC BY 2.0）+ 原创示意",
+    "source": "JayMiner1990, Wikimedia Commons, CC BY 2.0, (c) 1990 Michael C. Battilana and Cloanto IT srl"
+  },
+  {
+    "path": "assets/18-crane.png",
+    "width": 1062,
+    "height": 1404,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "David Crane 肖像与 4 KB 里的场景生成",
+    "identity": "真实肖像（第三方，CC BY-SA 2.0）+ 原创示意",
+    "source": "Joe Grand, \"David Crane at Portland Retro Gaming Expo 2011\", Flickr, CC BY-SA 2.0"
+  },
+  {
+    "path": "assets/19-robinett.png",
+    "width": 1062,
+    "height": 1210,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Warren Robinett 肖像与 Adventure 的彩蛋",
+    "identity": "真实肖像（第三方，CC BY 2.0）+ 原创示意",
+    "source": "Official GDC, \"Warren Robinett, 2015\", Flickr, CC BY 2.0"
+  },
+  {
+    "path": "assets/20-bushnell.png",
+    "width": 1062,
+    "height": 1391,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Nolan Bushnell 肖像与可换卡带的商业逻辑",
+    "identity": "真实肖像（第三方，CC BY-SA 2.0）+ 原创示意",
+    "source": "Tech Cocktail, \"Nolan Bushnell 2013\", Flickr, CC BY-SA 2.0"
+  },
+  {
+    "path": "assets/21-try-it.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的四个条件",
+    "identity": "原创教学示意"
+  }
+]

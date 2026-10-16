@@ -1,0 +1,106 @@
+[
+  {
+    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -",
+    "depth": {
+      "2": {
+        "move": "Nc3",
+        "score": -130,
+        "nodes": 209,
+        "seconds": 0.037
+      },
+      "3": {
+        "move": "Nc3",
+        "score": 90,
+        "nodes": 1659,
+        "seconds": 0.286
+      },
+      "4": {
+        "move": "Ng5",
+        "score": -135,
+        "nodes": 9406,
+        "seconds": 1.803
+      },
+      "5": {
+        "move": "Ng5",
+        "score": 125,
+        "nodes": 77507,
+        "seconds": 13.708
+      }
+    },
+    "with_quiescence": {
+      "3": {
+        "move": "Nc3",
+        "score": 5,
+        "nodes": 2890,
+        "qnodes": 7021,
+        "seconds": 1.113
+      },
+      "4": {
+        "move": "Nc3",
+        "score": 0,
+        "nodes": 14415,
+        "qnodes": 46757,
+        "seconds": 7.557
+      },
+      "5": {
+        "move": "Bd5",
+        "score": 0,
+        "nodes": 126218,
+        "qnodes": 184097,
+        "seconds": 31.973
+      }
+    }
+  },
+  {
+    "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -",
+    "depth": {
+      "2": {
+        "move": "Nxe5",
+        "score": 15,
+        "nodes": 129,
+        "seconds": 0.02
+      },
+      "3": {
+        "move": "exd5",
+        "score": 140,
+        "nodes": 963,
+        "seconds": 0.187
+      },
+      "4": {
+        "move": "Nc3",
+        "score": -10,
+        "nodes": 6855,
+        "seconds": 1.277
+      },
+      "5": {
+        "move": "exd5",
+        "score": 180,
+        "nodes": 41898,
+        "seconds": 8.716
+      }
+    },
+    "with_quiescence": {
+      "3": {
+        "move": "Nxe5",
+        "score": 65,
+        "nodes": 1300,
+        "qnodes": 2143,
+        "seconds": 0.419
+      },
+      "4": {
+        "move": "exd5",
+        "score": 60,
+        "nodes": 4726,
+        "qnodes": 7880,
+        "seconds": 1.423
+      },
+      "5": {
+        "move": "exd5",
+        "score": 55,
+        "nodes": 40917,
+        "qnodes": 59490,
+        "seconds": 12.007
+      }
+    }
+  }
+]

@@ -118,7 +118,7 @@
     "date": "2026-10-09",
     "collection": "visual-stories",
     "path": "articles/2026-10-09-antikythera-gears-of-time/read.md",
-    "public_sha256": "131097e68b3b1b43818daee684bdd9463629d959be36bba5017a099c8e23f20a",
+    "public_sha256": "ec5f1e1e08629d0575b9647e7d164d46000639e8fc9637854dbf40f3c789c446",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -166,7 +166,7 @@
     "date": "2026-10-09",
     "collection": "visual-stories",
     "path": "articles/2026-10-09-core-memory-woven-bits/read.md",
-    "public_sha256": "53f91cc13811017e76b67d1e86387196e8568291551e59641e5af4b4d87c4352",
+    "public_sha256": "e80817c267167cb0af4aada8a8cd76ae684341f0fc9d1165aa67f960f3e1f15d",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
@@ -188,7 +188,7 @@
     "date": "2026-10-09",
     "collection": "features",
     "path": "articles/2026-10-09-dart-asteroid-deflection/read.md",
-    "public_sha256": "5aabb3a86d22ce4508a935b3ae772dcb8755873be3a182e3aaa75c774d3b4c57",
+    "public_sha256": "0c14c2eecfbd5908d494f4a565bb75ec5b7d44928d3ff7f7b4084de98148e416",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
@@ -304,7 +304,7 @@
     "date": "2026-10-09",
     "collection": "visual-stories",
     "path": "articles/2026-10-09-life-rules-growing-machines/read.md",
-    "public_sha256": "9764637c52e2ab54de1bd676bec5bc815e10054fe878f2f0c6479c0d6887192c",
+    "public_sha256": "e7f4cdc6fbb8fc40630b4d8dce9140cddba504092ddfea8b5b90ab064dc6aca1",
     "images": 16,
     "status": "archived_article",
     "related_versions": [
@@ -361,7 +361,7 @@
     "date": "2026-10-09",
     "collection": "visual-stories",
     "path": "articles/2026-10-09-qr-repairing-information/read.md",
-    "public_sha256": "0d567b1ebf287ff59e31f654256cd5d90e322ebbf5d8f34b6053f874c811b5fe",
+    "public_sha256": "f8e65c3ef8c6636c6a37aa6b369da32b00869492cb032260a71684bb26f64162",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
@@ -856,7 +856,7 @@
     "title": "天空里没有总指挥，一群鸟为什么能一起转弯？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-boids-local-rules/read.md",
-    "public_sha256": "415ff2255f6c668597a82751d5166efa5ee13106359c86b670870462468914ae",
+    "public_sha256": "68b673655a1e9bbaffa09c9dbd797b03b3ee3c209310f3e829d0380ed2224e82",
     "images": 21,
     "status": "archived_article",
     "related_versions": [],
@@ -873,7 +873,7 @@
     "title": "画一条直线，为什么只要加减法？从绘图仪走到 Bresenham 的误差账本",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-bresenham-error-ledger/read.md",
-    "public_sha256": "a2068618da3d51498024722853595e74ab9926c185dac86813c2f080e2d12c34",
+    "public_sha256": "ad6bd1d0f45b6f25e0b89601acd9b64f6555f89b1d0385e98c2b2d033f4439be",
     "images": 24
   },
   {
@@ -903,7 +903,7 @@
     "title": "不会乘法的机器，怎样算出 sin 30°？CORDIC 用一串小转弯回答",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-cordic-turns-and-shifts/read.md",
-    "public_sha256": "9662b045fcc9d026d89646f7a440e5fab7b2a5f6227736f9b6048ed04938749c",
+    "public_sha256": "f7c9b11f0b7dc9588883d755920d1de76536fa7f1a37a12a05c7deffe058cc71",
     "images": 18,
     "status": "archived_article",
     "related_versions": [],
@@ -947,7 +947,7 @@
     "title": "游戏里十万颗子弹，CPU 为什么可能忙着搬不需要的数据？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-ecs-data-travel/read.md",
-    "public_sha256": "6ce17876905c8da12019289aba1fca4cc8c44af243a1ea393724d6db287a75a0",
+    "public_sha256": "90b98c170ca6e9edc5b6bbd0e57c68f2e0805f1d4cf4e0a20a5545c98d9f7743",
     "images": 16,
     "status": "archived_article",
     "related_versions": [],
@@ -958,7 +958,7 @@
     "title": "不逐条检查边，怎么知道两个形状撞上了？GJK 把问题搬到原点旁边",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-gjk-origin-collision/read.md",
-    "public_sha256": "b26168ae331afffc096c1ffc65c369410095e84154ad62a6817563158740ee74",
+    "public_sha256": "4938a8ae7753bd1ea25cc26cf5743a197afc48d4f3dad3f13b0cf17560914f6b",
     "images": 20,
     "status": "archived_article",
     "related_versions": [],
@@ -1024,7 +1024,7 @@
     "title": "一张数字表，怎样长出海岸线？沿着方格走的 Marching Squares",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-marching-squares-contours/read.md",
-    "public_sha256": "554ab4fff642b720db6ddaaa0f34eee60bf3816efd1320e5213120efbcb61eef",
+    "public_sha256": "ed4fbc6980646605a8f0974b51013b24894cfb63f75f82ab4fc7f3b8b6a24e16",
     "images": 19,
     "status": "archived_article",
     "related_versions": [],
@@ -1035,7 +1035,7 @@
     "title": "路明明已经堵死，最大流为什么还要画一条“倒着走”的边？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-maxflow-reverse-promises/read.md",
-    "public_sha256": "20351910826ea78a4f3754bc158e4ff0b6187628148c1ba23452bb717b1ee440",
+    "public_sha256": "aa5715069e6dd3de135a7fe6925c15e55cf1ec85e7d0672403454b0830550690",
     "images": 16,
     "status": "archived_article",
     "related_versions": [],
@@ -1046,7 +1046,7 @@
     "title": "远处的地板为什么在闪？Mipmap 把纹理提前变成一摞“小抄”",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-mipmaps-prefiltered-textures/read.md",
-    "public_sha256": "49faa63b9a99e101080724be58e0a4d8da573e31324752731d10b781a2fda792",
+    "public_sha256": "3c383f73f8452b64bcd43460299edb74992b0c1c5b5f01dacfdd11458ad71b9c",
     "images": 21,
     "status": "archived_article",
     "related_versions": [],
@@ -1090,7 +1090,7 @@
     "title": "数据还没来完，怎样公平地抽出两条？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-reservoir-fair-stream/read.md",
-    "public_sha256": "42a9ffbafc3ef923d9e00e289750c6bd43651b65b081171aa2e81b28cbd6e622",
+    "public_sha256": "10e946caaa7ca69da754ef7903ea611ccf483861d4814724c08235f469231797",
     "images": 17,
     "status": "archived_article",
     "related_versions": [],
@@ -1112,7 +1112,7 @@
     "title": "车轮明明向前转，录像为什么能让它倒着走？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-sampling-ambiguous-world/read.md",
-    "public_sha256": "ebdfd9c6cc8d462dad6899f0efcaf38dde8d88b8968f9f2673c778db283a14d7",
+    "public_sha256": "62272ae1c93693c33526cd3ac45a7c4fe2c520e186f867c9ce8e50fc63d0fff9",
     "images": 16,
     "status": "archived_article",
     "related_versions": [],
@@ -1151,7 +1151,7 @@
     "title": "不用电，两把尺子为什么会算乘法？把对数拿在手里的计算尺",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-slide-rule-logarithmic-distance/read.md",
-    "public_sha256": "a61bc04cc5693aa399f29aabebb10523ff39a24c2b4103b80bd53f9cc99d9bf5",
+    "public_sha256": "a101ad7026bf24c14810247c547d8b7dc999e0e8e144f4671b2b8cd0e76b88cb",
     "images": 25
   },
   {
@@ -1159,7 +1159,7 @@
     "title": "给奔跑中的系统拍合影：Chandy–Lamport 快照怎样找回路上的消息",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-snapshot-messages-in-flight/read.md",
-    "public_sha256": "0233bb0e8e35620c25d4bd82945f93b1c05a79d274e6fbe1d2fac56a8c1653cf",
+    "public_sha256": "4be8226ccc4d38024facd8a397b3391949e848b9c978988fccce94b20418a163",
     "images": 20,
     "status": "archived_article",
     "related_versions": [],
@@ -1242,7 +1242,7 @@
     "title": "方向明明是纠偏，控制器为什么越帮越忙？Bode 图里藏着一张时间账单",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-bode-delay-feedback/read.md",
-    "public_sha256": "db7faead61288c4b2ae9fae5c7cfe0a25ff8b5e34d24cacd2b2755f822b7d224",
+    "public_sha256": "da2195e64270a741f55828d95d66a6543bb2e9a68c53f218d312fae6274d21df",
     "images": 25
   },
   {
@@ -1256,7 +1256,7 @@
     "title": "一束光面对百万个三角形，怎样少问很多问题？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-bvh-boxes-before-triangles/read.md",
-    "public_sha256": "b8cacc04db6ee04d6c987861eb3810eb273f14375d9463d6e2a743840be67837",
+    "public_sha256": "1c2353ff122b7a1ed1eb45f7e25fd36e1f67d8ed3961067d3ae1bb049caf1d46",
     "images": 28
   },
   {
@@ -1270,7 +1270,7 @@
     "title": "两个线程改不同变量，为什么还会互相拖慢？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-cache-coherence-false-sharing/read.md",
-    "public_sha256": "5f08b488071258ac0c085d4b9d46296d5a0cc561e6cc3a258b3aa4ddd92f9018",
+    "public_sha256": "fa16735f9021dd252a7f4ca0e7c30711362dad8bda80bb819ee3ee969f4aface",
     "images": 25
   },
   {
@@ -1284,7 +1284,7 @@
     "title": "一只方盒子，反复切几刀为什么会变圆？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-catmull-clark-subdivision/read.md",
-    "public_sha256": "dd15c0e5f23f29e3776bcda4b7b79593356a8788e5fc4df9973376e0a599d045",
+    "public_sha256": "8ac8fdef965790dca87b78baa4d4f4d32fd2f30d03050f6e64a3101934c241dc",
     "images": 18
   },
   {
@@ -1298,7 +1298,7 @@
     "title": "函数已经返回，它为什么还记得那个变量？闭包把代码和来处装在一起",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-closures-remember-environments/read.md",
-    "public_sha256": "4281fbe13dd6de56349d6982a7db23fd8db3f33c4c46a374597a2449b86b7826",
+    "public_sha256": "a3726a3e8cf5a21e72c677724116a40a656d686f32a347a9c83a549daa9368be",
     "images": 23
   },
   {
@@ -1312,7 +1312,7 @@
     "title": "只有一个油门，为什么能同时管位置和速度？从小车停车认识可控性",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-controllability-reachable-states/read.md",
-    "public_sha256": "489ba1588c7c678c0df58b4ce1a5a4ffe09aeb380fdbff57e3d98f412fb13b8d",
+    "public_sha256": "35b78aa2c7550eeed34217e16338d26cb575392947fcf37ef13e399830a11670",
     "images": 26
   },
   {
@@ -1326,7 +1326,7 @@
     "title": "函数停在半路，下次怎么接着跑？协程保存的不只是一个数字",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-coroutines-save-continuations/read.md",
-    "public_sha256": "872a50a36f9a49fc6956ba6410a203d827dbd84a3a5138d618572b75412c9484",
+    "public_sha256": "cd0e4bde1d0463c3701e6eee2e3e53c3c9bfdccdd63faa2c1c9e10f024ff2d45",
     "images": 25
   },
   {
@@ -1340,7 +1340,7 @@
     "title": "让轮子压在圆盘上，怎么就开始解微分方程？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-differential-analyzer-wheel-disc/read.md",
-    "public_sha256": "956e4152eb52cd85f81a97a258211dd6b13fa1055ecfacd8ffd15ed6df5ad3d0",
+    "public_sha256": "4ea3979837c426efc16605e6d3a5739a5e3cd15e50739a09f3b2a7af806b46a8",
     "images": 26
   },
   {
@@ -1354,7 +1354,7 @@
     "title": "把大数换成余数，为什么答案没有变？欧几里得的一本小账",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-euclid-continued-fractions/read.md",
-    "public_sha256": "640dbefbe90975ce06ddc204330e1904aa375304289d8b2127d8f6fff9835a37",
+    "public_sha256": "34cf777ca9537132d3d9791adee86c855662a2430c0cdadff38e1c4aadd58128",
     "images": 24
   },
   {
@@ -1368,7 +1368,7 @@
     "title": "改一个数，为什么不用重算后面的总和？Fenwick树把账本折成二进制",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-fenwick-binary-ledger/read.md",
-    "public_sha256": "5d287952db6352cc541d0d3e3b62e2e82402c071b41f4029697efb86149f82d5",
+    "public_sha256": "b4d0e7ec1f07592d59a6c31ff0ae52a464b934534f82bc0c56ece7518781ea7a",
     "images": 25
   },
   {
@@ -1382,7 +1382,7 @@
     "title": "每次只取最小的，为什么没必要把全班排好队？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-heap-smallest-at-top/read.md",
-    "public_sha256": "d30777402ab65f6e5d058cd7f3dffe4a7f0f296525492adec4fcecaf8ccfa48d",
+    "public_sha256": "2824344156fb14ec8b48c6bb6156ab4be330fbf78f2d586460e4d901b11289d9",
     "images": 27
   },
   {
@@ -1396,7 +1396,7 @@
     "title": "已经看过的字，为什么还要重看？KMP 把失败变成下一步的线索",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-kmp-remember-the-match/read.md",
-    "public_sha256": "ca3f1efb1aa48b255c8f7a103d664480e19a775ad249de279a59bff0dbbdbb9b",
+    "public_sha256": "f8ad12e5118cf4e67a311e3a9292acf6c82d6e3cbc6a9eb963971ca02400d444",
     "images": 24
   },
   {
@@ -1410,7 +1410,7 @@
     "title": "锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-leases-fencing-old-worker/read.md",
-    "public_sha256": "1953b4d29928669baaf08bf05f21c9b0fcd006f0bcf0ac045b0282b1cba2b664",
+    "public_sha256": "24ed33866608b4cf12123e3e81aca6cdc64535a9b03c280c081dcaf7660e0e6a",
     "images": 25
   },
   {
@@ -1424,7 +1424,7 @@
     "title": "队伍有多长，等待有多久？Little 定律把两本账变成同一张图",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-little-law-customer-time/read.md",
-    "public_sha256": "d657c5f0760ea689a65a76facff21b3b6a4b9c0a8b3d0274f425e9f2735e7bfd",
+    "public_sha256": "881e900626b93db5e132379d4870a833c30982980bfad5571cb3731044c43ec2",
     "images": 23
   },
   {
@@ -1438,7 +1438,7 @@
     "title": "既想快点回家，又不想每一步动太猛，机器怎样做取舍？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-lqr-pay-for-motion/read.md",
-    "public_sha256": "57ffeec893772105d05b15a0357ce0f468b963e46a87b90d5e8a1ee7f28e9ba4",
+    "public_sha256": "80b65605a0bfd49b23d0c83bf52ff38eacfe9ae87fc21a4ba84f6c2e01b73e24",
     "images": 26
   },
   {
@@ -1452,7 +1452,7 @@
     "title": "计划了三步，为什么只走一步？MPC 怎样给未来留一条退路",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-mpc-plan-then-replan/read.md",
-    "public_sha256": "c337187d2487b8cb89a80813566d1ddc4decf26b878c5feee575f94fe9274a58",
+    "public_sha256": "c91ea4986b4e9bdae427b8c2ffe24fb3cfb197e57647174aaf9ee8c5f246bac3",
     "images": 24
   },
   {
@@ -1466,7 +1466,7 @@
     "title": "不移动刻度，一条直线为什么会算题？d’Ocagne 与印在纸上的方程",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-nomogram-straightedge-equations/read.md",
-    "public_sha256": "66e0daa55a5d72d6c04660b8fbf8498c77bd8994a833df68e58801fbb6cae291",
+    "public_sha256": "5d71bebbd5bb08f30786ba21b8c5b432dad34c4951f6b5aff0e3ca815b2d1f56",
     "images": 26
   },
   {
@@ -1480,7 +1480,7 @@
     "title": "地板没有弯，格子为什么折了？透视校正把“平均”放回正确的地方",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-perspective-correct-interpolation/read.md",
-    "public_sha256": "c9185465819719125d6232de27a1bdc92dff056c71b78b5ba8c39c96d9d4ab3c",
+    "public_sha256": "46fe3d2e2d7f052006cc9903cd3f99530481fcd27a08af78a6d818e417523bec",
     "images": 25
   },
   {
@@ -1494,7 +1494,7 @@
     "title": "只沿着边缘走一圈，仪器怎么知道里面有多大？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-planimeter-area-from-boundary/read.md",
-    "public_sha256": "5bc2bc80b31aa2638fc86d5f3b6c269b0b69ee5f6fafe7d23af11d8ce2f62723",
+    "public_sha256": "a45d9501e832c2584b3d129888666883b94f125d73c8d14363d621791d5423f0",
     "images": 26
   },
   {
@@ -1508,7 +1508,7 @@
     "title": "五个变量，两只抽屉：编译器怎样给寄存器排座位？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-register-allocation-colors/read.md",
-    "public_sha256": "89c53d6cad7ee0e1b5ae25e28f12111e4236795460b74bbd10470ceefe4694fc",
+    "public_sha256": "2a2f6466b39ae289f8dc010003cd4d4d537ff1defe7f6d2fc0dad2f1c882c12b",
     "images": 24
   },
   {
@@ -1522,7 +1522,7 @@
     "title": "不知道表面在哪，光线为什么还敢向前迈步？Sphere Tracing 的安全圆",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-sphere-tracing-safe-steps/read.md",
-    "public_sha256": "02e09de6862ff400b9cadb0444f28d176c4dcd5fabd4bf91aa1cb002de56ec3d",
+    "public_sha256": "90e3139837d60a752c240552dd4c4e0ad507326050571669d95152da4716d8a4",
     "images": 25
   },
   {
@@ -1536,7 +1536,7 @@
     "title": "变量只能赋值一次，循环怎么还能转？SSA给每个值一个清楚的来处",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-ssa-phi-control-flow/read.md",
-    "public_sha256": "246971de642fa9b3029ca7c03c814900309512ba12434a28c46e65b91f30f916",
+    "public_sha256": "65291bb28bd2f3b6b64f0a7ff7c4fe443c57d46ec55826200dc256683a026352",
     "images": 26
   },
   {
@@ -1550,7 +1550,7 @@
     "title": "都分到位置了，为什么还想偷偷换？稳定匹配先学会“暂时答应”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-stable-matching-no-blocking-pair/read.md",
-    "public_sha256": "4af30a5f90d233d5551f043be915943714ba07a3ecc009f9eec79f9bf60ba78b",
+    "public_sha256": "b2dc222ffe7493c2b54037c2ab33606366118980557afb58a983af6842e9a778",
     "images": 24
   },
   {
@@ -1564,7 +1564,7 @@
     "title": "一柜子齿轮，怎样提前画出明年的潮汐？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-tide-predictor-harmonic-machine/read.md",
-    "public_sha256": "d19b96f567cad84185c7d16ccdf311443a2ef4bbeea6c43fd6e43571b3d9ab10",
+    "public_sha256": "ced9e30b82c8f97fbd6d5a8422b785454380032ba447e056f4158172fc150b30",
     "images": 30
   },
   {
@@ -1578,7 +1578,7 @@
     "title": "两台数据库都说“准备好了”，为什么还不能各自决定？两阶段提交把一声YES变成承诺",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-two-phase-commit-prepared/read.md",
-    "public_sha256": "926fbfead009338692b88e9401dfe776dd611cac1dfb548334523d1d37f54d69",
+    "public_sha256": "05369481e143f2bb631814bcf5b5ad7a83803222653e16ab40631e06d4d87bd0",
     "images": 26
   },
   {
@@ -1592,7 +1592,7 @@
     "title": "没有试跑一次，它怎么知道类型错了？Hindley–Milner 把代码变成等式",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-type-inference-unification/read.md",
-    "public_sha256": "d479ef3df7f50de8dfbb3f45b84e122c343750bd1cb95d7dee0ba6d8e33fc412",
+    "public_sha256": "ff8ddb72c7e67f605efa7d05aae1ee7db27d4ac754db4ca5241753b0e111f396",
     "images": 25
   },
   {
@@ -1606,7 +1606,7 @@
     "title": "没有发动机，小球为什么越荡越高？Verlet 与模拟中的“假能量”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-verlet-borrowed-energy/read.md",
-    "public_sha256": "fde59103af4327416ec91a0082569e39e29c1049f27585b5308cd0ef63c740c3",
+    "public_sha256": "8a7a7c2757235d47f53e7cacac7f7acc4857d80e2b63baf7fd49f6c043dd9cf4",
     "images": 25
   },
   {
@@ -1620,7 +1620,7 @@
     "title": "已经显示“保存成功”，断电后还算数吗？WAL把承诺写在修改前面",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-wal-crash-recovery/read.md",
-    "public_sha256": "679bdb19946bc082290d126500198777307a6db8ad1763dad3ceea6dd1db1cb2",
+    "public_sha256": "ae3bf74dc8f6eab13f4b6c7ea7593be1d1cb44a88ef086136894f0efd9a34511",
     "images": 24
   },
   {
@@ -2048,5 +2048,35 @@
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-16-chess-engine-alpha-beta",
+    "title": "一盘棋有几十万种下法，电脑凭什么敢只看一小部分？",
+    "date": "2026-10-16",
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/read.md",
+    "public_sha256": "b9f754a5778472d6483eae57444705f0c24dc279648e9b30f971c1711d37edfb",
+    "images": 23,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-16-diff-edit-graph",
+    "title": "改了三行，电脑怎样在十万行里找出它们？",
+    "date": "2026-10-16",
+    "path": "articles/2026-10-16-diff-edit-graph/read.md",
+    "public_sha256": "ef89ae33a3e7c7dcc9ba3a0ab8f71dffe3016a2e04fb5d62474534b81e8a9939",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-16-racing-the-beam-atari",
+    "title": "这台游戏机没有显存：画面是程序追着电子束，一行一行写出来的",
+    "date": "2026-10-16",
+    "path": "articles/2026-10-16-racing-the-beam-atari/read.md",
+    "public_sha256": "eab359d1353dd2c19e6b66f4d7640a4cd2d90da58f5008ae22c68af8604f3f4d",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

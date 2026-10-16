@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-16",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "third_party_packages_for_algorithms": [],
+  "third_party_packages_for_figures": ["Pillow 12.3.0"],
+  "operating_system": "macOS (Darwin 27.0.0, arm64)",
+  "cpu_note": "全部耗时只对本文这台机器成立，不能用于比较不同语言或不同实现",
+  "determinism": "随机校验使用固定种子 5（Myers）、9（patience）、3（打乱副本）；算法本身不含随机性",
+  "inputs": "originals/pairs/ 下两组公开仓库的真实文件修订",
+  "font_for_figures": "/System/Library/Fonts/Hiragino Sans GB.ttc (index 0 regular / index 2 bold)",
+  "note": "不同字体或 Pillow 版本可能让 PNG 像素不同；编辑距离与计数不受影响"
+}

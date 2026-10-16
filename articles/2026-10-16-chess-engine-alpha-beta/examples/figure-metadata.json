@@ -1,0 +1,216 @@
+[
+  {
+    "path": "assets/01-chess-set.png",
+    "width": 1062,
+    "height": 1010,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "真实棋具照片，用于交代对象",
+    "identity": "真实照片（第三方，CC0）",
+    "source": "Wilfredor, \"Chess game Staunton No. 6 top view\", Wikimedia Commons, CC0"
+  },
+  {
+    "path": "assets/02-position.png",
+    "width": 1062,
+    "height": 1216,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "开局局面的真实摆法，白方行棋",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-candidates.png",
+    "width": 1062,
+    "height": 724,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "从「我走哪步」变成「我走完对手走哪步」",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-two-ply-tree.png",
+    "width": 1062,
+    "height": 1039,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三个候选各三条应手的两层树与真实叶子分数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-depth-cost.png",
+    "width": 1062,
+    "height": 910,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "深度每加一层叶子数乘约 30：本模型实测",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-nodes-by-depth.png",
+    "width": 1062,
+    "height": 914,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "两种算法在各深度上的真实节点数（同一局面）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-beta-cutoff.png",
+    "width": 1062,
+    "height": 946,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "β 截断的判定条件（教学例子，非真实评分）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-pruning-nodes.png",
+    "width": 1062,
+    "height": 849,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "剪枝前后同一局面的真实节点数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-move-ordering.png",
+    "width": 1062,
+    "height": 688,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "三种走法顺序在深度 5 的真实节点数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-transposition.png",
+    "width": 1062,
+    "height": 826,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "不同走法顺序会合到同一局面",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-transposition-table.png",
+    "width": 1062,
+    "height": 738,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "置换表探测与命中的真实计数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-zobrist-hand.png",
+    "width": 1062,
+    "height": 910,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Zobrist 键的手算过程（真实随机表）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-zobrist-incremental.png",
+    "width": 1062,
+    "height": 746,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "增量更新的三项异或（真实随机表）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-zobrist-verified.png",
+    "width": 1062,
+    "height": 586,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "16 步真实对局中增量键与重算键逐步相等",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-horizon-effect.png",
+    "width": 1062,
+    "height": 864,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "两个真实局面上深度 2 到 5 的评分跳动",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-quiescence.png",
+    "width": 1062,
+    "height": 871,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "加静止搜索前后各深度的评分摆动",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-shannon.png",
+    "width": 1062,
+    "height": 1375,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "香农肖像与他的 A 型/B 型策略",
+    "identity": "真实肖像（第三方，CC BY 2.0）+ 原创示意",
+    "source": "C.E. Shannon, Tekniska museet 43069, Wikimedia Commons, CC BY 2.0"
+  },
+  {
+    "path": "assets/18-turing.png",
+    "width": 1062,
+    "height": 1544,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "图灵肖像与 Turochamp",
+    "identity": "真实肖像（第三方，公有领域）+ 原创示意",
+    "source": "Alan Turing (1951), Elliott & Fry, Wikimedia Commons, public domain"
+  },
+  {
+    "path": "assets/19-mccarthy.png",
+    "width": 1062,
+    "height": 1431,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "麦卡锡肖像与 α-β 的提出与再发现",
+    "identity": "真实肖像（第三方，CC BY-SA 2.0）+ 原创示意",
+    "source": "John McCarthy Stanford, \"null0\", Wikimedia Commons, CC BY-SA 2.0"
+  },
+  {
+    "path": "assets/20-thompson.png",
+    "width": 1062,
+    "height": 1129,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "汤普森与里奇 1973 年照片与 Belle",
+    "identity": "真实照片（第三方，公有领域）+ 原创示意",
+    "source": "Ken Thompson and Dennis Ritchie, 1973, Wikimedia Commons, public domain"
+  },
+  {
+    "path": "assets/21-deep-blue.png",
+    "width": 1062,
+    "height": 1310,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "深蓝机柜照片与 1997 年对抗赛",
+    "identity": "真实照片（第三方，CC BY 2.0）+ 原创示意",
+    "source": "Anton Chiang, \"IBM Deep Blue at Computer History Museum\", Flickr, CC BY 2.0"
+  },
+  {
+    "path": "assets/22-deep-blue-chip.png",
+    "width": 1062,
+    "height": 1269,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "深蓝处理器照片与搜索/评估/硬件的分工",
+    "identity": "真实照片（第三方，CC BY 2.0）+ 原创示意",
+    "source": "Erik Pitti, \"One of Deep Blue's processors\", Flickr, CC BY 2.0"
+  },
+  {
+    "path": "assets/23-try-it.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的四个条件",
+    "identity": "原创教学示意"
+  }
+]

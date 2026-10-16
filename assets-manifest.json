@@ -17560,6 +17560,756 @@
     "sha256": "66812e123eb9a6aaa93c3b865543c9c75d442be947ac1d156ef9f3bc11e5372a"
   },
   {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/01-chess-set.png",
+    "bytes": 885446,
+    "sha256": "a384cbbfabeac055437d4a433496acaf2f24ee900333968a1c14e3a3bdba4051"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/02-position.png",
+    "bytes": 140203,
+    "sha256": "d2c34f45c4c820b11d52615a6456f14db64f4c621f5b33ae64ed993fc35e1089"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/03-candidates.png",
+    "bytes": 150756,
+    "sha256": "f4e55438cf2e048f367260ce15c791ce20e617094b10c2d088bf0dc3f076fa25"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/04-two-ply-tree.png",
+    "bytes": 138896,
+    "sha256": "0178e062e09482778e68125217e6fe9e1881b00f2b5d41e0302af8d27eb8e99a"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/05-depth-cost.png",
+    "bytes": 112282,
+    "sha256": "1793ca234ace88bcf4ddbc8deb8a37f36d97096a64efc560f390725dc2e7c340"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/06-nodes-by-depth.png",
+    "bytes": 115107,
+    "sha256": "ec8c0a3dc56ab514e9a9f0346c5611198eecf21138330074b4a567c8a4e3b35e"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/07-beta-cutoff.png",
+    "bytes": 131331,
+    "sha256": "c21394ac48c398122ae8bffbf1f24471d68ce9fe2f2c545edb83bd634bb1c5d4"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/08-pruning-nodes.png",
+    "bytes": 93216,
+    "sha256": "3f4c670c4e97a4bbd6d1a8e1723bad134f44c8ec9184a6627c00c57d3afdfbbb"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/09-move-ordering.png",
+    "bytes": 99827,
+    "sha256": "508002ec509720b1636473bcc8d23b877f7e6f3e336772469c72cc5967da2bb6"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/10-transposition.png",
+    "bytes": 116894,
+    "sha256": "5c13891cc6bf6058a2b80dc96d3c7b7c1961d54f49bdbe93f5431c84e7eced11"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/11-transposition-table.png",
+    "bytes": 88665,
+    "sha256": "75adb3155f1bc98e89cb1d73623e0277f713e4c89d10160fe39243ff7a119042"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/12-zobrist-hand.png",
+    "bytes": 144834,
+    "sha256": "f4ac2d134d516f02649ed66c168815e5dc6f087afae9a6e5c1e5b893583ad42c"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/13-zobrist-incremental.png",
+    "bytes": 131902,
+    "sha256": "12aa65c7eaee21f649e775cdc142a342acd8174207da241f6944f1fa3905ba22"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/14-zobrist-verified.png",
+    "bytes": 88268,
+    "sha256": "92ca8a29a6162d2d4ada4408617e20355966fb9346be4b2120bed973f90a6f7d"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/15-horizon-effect.png",
+    "bytes": 137060,
+    "sha256": "d5b9b12cbc25fe5c5a7383e64578bab87aa959f111d8db7d3cb0d6d08c6d278b"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/16-quiescence.png",
+    "bytes": 118800,
+    "sha256": "8613d6b7892d90728ae8aad46c979bb4e96a1a141bbb2fbf4450590f6807f7a6"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/17-shannon.png",
+    "bytes": 429892,
+    "sha256": "9a72f519b12ad53e1efff11d6f8eb45e18dbde98b66257bda94c1e236b3daf71"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/18-turing.png",
+    "bytes": 335976,
+    "sha256": "affc82532e208cf0d4e6bc2adbedfeee5e3ec7c5fb73033e00dd32ddb9846f2d"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/19-mccarthy.png",
+    "bytes": 458398,
+    "sha256": "787352dc0b8fcded5b930323a9388dfd454b1386073beee48c29691139fa9ed4"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/20-thompson.png",
+    "bytes": 286250,
+    "sha256": "94a9624264d32bda83229a1f8f0525d1cd770211dda7ff20e663bc576ae818ca"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/21-deep-blue.png",
+    "bytes": 450442,
+    "sha256": "fe32b331c9202b38bd4ef617d96d2193cbccc5541b8f6d9d1ee151014188c61c"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/22-deep-blue-chip.png",
+    "bytes": 457726,
+    "sha256": "69e9f81b67de18bf67aa7d0c9f34ac6f96480651c81883c55b6e99e98e025df3"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/assets/23-try-it.png",
+    "bytes": 160647,
+    "sha256": "75c848081a9010671d8c8de43017239d5a519081fd6e7e51d61f3329c314a61f"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/cover.png",
+    "bytes": 180724,
+    "sha256": "67f71680bdaf0b31c36dfdf32bfccde0064052b54c81ab07e5c18c32e381227c"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/__pycache__/chesslib.cpython-314.pyc",
+    "bytes": 16320,
+    "sha256": "42112c70f5059468de7aab36b7fd8234b7159613c79bb9d9c479f4dd547b84f0"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/__pycache__/engine.cpython-314.pyc",
+    "bytes": 13862,
+    "sha256": "89f26a4ea640cb52e6bd6c46757047161fee054d6161603170dfac741775b85c"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/build_figures.py",
+    "bytes": 37175,
+    "sha256": "9d3d77c2c01e9b70920f8f67f1d5c7f58ab404c668fe9fe359176b1cfbbde542"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/chesslib.py",
+    "bytes": 9426,
+    "sha256": "6bf5dfedc7da12d2bd03658da11e9ca8f4261a9e7f30982e7f915a2c52250e61"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/engine.py",
+    "bytes": 7384,
+    "sha256": "10243abd595263f10d7e77520d2d5e1d43d1cceeeffff02b1387c9173e9f40e4"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/figkit.py",
+    "bytes": 16165,
+    "sha256": "3932b2bd3b0287c6bd3cbefc489fcd3a8b4654cb3f753f4798361c60f8084fc3"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/figure-metadata.json",
+    "bytes": 6644,
+    "sha256": "769551bd9c48f2e3f71ae7c66f36e6e8d517ea5246395e7bb90dc4e25ddd1113"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/horizon.json",
+    "bytes": 2034,
+    "sha256": "c0e42348c3ff19a4fb9e589558bfc240ea05778d928d1de2d96eeea3707c1444"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/horizon.py",
+    "bytes": 1685,
+    "sha256": "40f06a251a49ebdf98016c802e93fe7455f31e6c28cc176b6c841ce1d15138de"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/measure.py",
+    "bytes": 4846,
+    "sha256": "bfb3d44dc6bc42cd2b46f6f6fa572a02db709a79f5c939dc14c736957046742b"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/measurements.json",
+    "bytes": 5708,
+    "sha256": "3ae4dd2dc309c3ba4b06ed335244b2e9fdc04b37f194c00f1675ed77a6a39ae9"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/run-environment.json",
+    "bytes": 757,
+    "sha256": "4a05ab4e6795fcbac41c62c7a317fcb641557bec5065eeb82d48fd14582ae3e1"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/model-stdout.txt",
+    "bytes": 3600,
+    "sha256": "e6dec12c73683a09a398c13d87b91305982fca86cf34ad1a485d6688c11cb89b"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-01-chess-set.jpg",
+    "bytes": 394815,
+    "sha256": "9cf282b52be1f26efb9dc1f4f874d74268f712f37ca33bb2b51c7eec41d3fb1a"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-02-shannon.jpg",
+    "bytes": 946406,
+    "sha256": "e2c65e94cc7218e9d570155e6a9e58395818742d667d817e43bcbd9259df87c6"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-03-turing.jpg",
+    "bytes": 92890,
+    "sha256": "d4198226155e56a672fff83ae1fa3ccb750d8c3aa841c9a4443f910be8b12e3a"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-04-mccarthy.jpg",
+    "bytes": 4499609,
+    "sha256": "69f1888ef689be616b5e9a4460844ef82952caa59d99478246b52e7aed27cd79"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-05-thompson-ritchie.jpg",
+    "bytes": 19590,
+    "sha256": "5e42baf9a36ab8ca1e22395487402c75265f54085d14be2cb73f3b910407f976"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-06-deep-blue.jpg",
+    "bytes": 445766,
+    "sha256": "078c947dc6f311ffaad4b359a8617bc77162322153d73503ec6d4cb58a2293c7"
+  },
+  {
+    "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/photos/real-07-deep-blue-chip.jpg",
+    "bytes": 669191,
+    "sha256": "164f7e31f28e4416aad0a8e707332198bc79bb0e5671a510f3f8dd096414e3bc"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/01-pdp11.png",
+    "bytes": 298641,
+    "sha256": "bba9b39bcb2378b5162a8c9856318b0fc55e4d594e4f9378131a2248bf486bf2"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/02-hook.png",
+    "bytes": 145958,
+    "sha256": "ce5c53668b6988aad1c380d75f4300e85d90aefa33adb29d11d19afa60c857d8"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/03-naive.png",
+    "bytes": 130779,
+    "sha256": "c1011a112b08c93ac057fb7a7c89f636889c87089834bab063a4d1c893a384ff"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/04-edit-graph.png",
+    "bytes": 64888,
+    "sha256": "abb110ab32ec105ad65eac32c658c21602f0607bd8c4bf0cc8e5a206053a503e"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/05-three-steps.png",
+    "bytes": 132052,
+    "sha256": "1712101532d23f4e5b48f649f2f29a25f5c3aa3a07fbab0e7e7d3840b30cbbf4"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/06-diagonals.png",
+    "bytes": 131683,
+    "sha256": "c4d06b138ac3c1fa35a9ef851b9a1d2148a35cc12d01caf3fd4fc881b19c67cc"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/07-greedy.png",
+    "bytes": 145472,
+    "sha256": "5a032cdb5d73e23314e87429c0aed694b95b3335385723f4264edbfc77f12c4f"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/07b-dpath-table.png",
+    "bytes": 154675,
+    "sha256": "146129be0b5451f0ec8a59864b93e4d4369b0b579374ed1041b22c6efd0a13b9"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/08-real-measure.png",
+    "bytes": 173927,
+    "sha256": "2541316d25e5dac06428de5e13203d162540f5df107c390635f855fad82730f5"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/09-complexity.png",
+    "bytes": 132781,
+    "sha256": "22c4a803351ed68f464a5af1966ec9f5be9dba785e762e1ea5c54f962bbfaaaf"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/10-extremes.png",
+    "bytes": 145461,
+    "sha256": "571f1945d46f3a98ff4faba599eebfcefcfb8ef3a4e20e266af0c0b6e71c4e79"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/11-not-unique.png",
+    "bytes": 126770,
+    "sha256": "ceb2b20661a0ebdaa167891be8082b81654928b21d78388f9dabfae7953bf2d2"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/12-patience-idea.png",
+    "bytes": 161987,
+    "sha256": "f0ce24fd87f7a711c750fcef56c4aea90f385b17e0eca71bf8447807e6cb5b12"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/13-patience-measured.png",
+    "bytes": 252749,
+    "sha256": "2d1618eba0486b9d15ba5adcb86ba06fcf79a248fdcd1a5b126701e6c4dfe015"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/13b-disagreement.png",
+    "bytes": 157612,
+    "sha256": "1fc35a48873367abe110abdbfb6926ff9cc12af001fb167dd6d4c8a387a21e18"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/14-large-file.png",
+    "bytes": 136434,
+    "sha256": "18ffa1f75265547bd4cf8d047d92ab181937e3f591ed9e26f3abf2dcaa8fbde5"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/15-real-diff.png",
+    "bytes": 172330,
+    "sha256": "4fc2befe736f61a87a42b980f18ca90fce5286e28c6d58edc3588948e59b5e93"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/16-mcilroy.png",
+    "bytes": 352912,
+    "sha256": "44ce243154bc126a18c25f3cd87f17f0eeae8ab3f5bc0c4dae34269e33b5e2da"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/17-myers.png",
+    "bytes": 353235,
+    "sha256": "d474efb86f8bcf111d5c81c55dcd81c1561d12a60a60702113b8b0893b713982"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/18-wall.png",
+    "bytes": 335813,
+    "sha256": "bf3916af15243ec34c72fe0424e9b486ddf3f5576573fbe8e1aba335232043d4"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/19-cohen.png",
+    "bytes": 362445,
+    "sha256": "4e3915d37173227101c78bb0d1dfff671a107b41df854ed9d3761365680c997c"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/assets/20-try-it.png",
+    "bytes": 170192,
+    "sha256": "af67c6bc3fa2b7d743c9da379ca3f797fa5a480f6289f90582522fcfeae21f92"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/cover.png",
+    "bytes": 74161,
+    "sha256": "9a8f37a50ef141bed3d02b88d722510c2b186954dbaad3e868ab14adcbc7d8f2"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/__pycache__/build_figures.cpython-314.pyc",
+    "bytes": 51629,
+    "sha256": "9ef765eb524d7c4f779dc6bb76526f1d708ae59cb28f4046bfbd9f4018d74e1e"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/__pycache__/figkit.cpython-314.pyc",
+    "bytes": 28484,
+    "sha256": "17a0bb169c1e16a170803df83622ec53fc409c94f15de6de3c013e439180eb10"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/__pycache__/myers.cpython-314.pyc",
+    "bytes": 10259,
+    "sha256": "dff2374c635b3bb75bf6878c00c6c810041f48f63f3f70647f052499dc4e914e"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/__pycache__/patience.cpython-314.pyc",
+    "bytes": 3970,
+    "sha256": "378d2a2443873c6b69c74b2ba2d2c2a39c702af90cb1c396b1ebc51f0e73c42d"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/build_figures.py",
+    "bytes": 33792,
+    "sha256": "15c86c0e8a785302cdf8392776a50a4bb8401d85b937d0ec93d1ccf8874d74eb"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/figkit.py",
+    "bytes": 16268,
+    "sha256": "95bd433ece5aa73880222c7b660120c8c4f673d8d21b11bd8871bc4077304d18"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/figure-metadata.json",
+    "bytes": 5991,
+    "sha256": "8ccfc1bf9726abb2ec51d6c92566972625d0add108065bbfe5f88b9a915fac60"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/myers.py",
+    "bytes": 5668,
+    "sha256": "c6fa26719529d2f7c7020cd5e16abf97a90854f18eb694a2afc9c87cec11e5ad"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/patience.py",
+    "bytes": 2266,
+    "sha256": "2b938cdc60b51ce7bb02d461b6eb3cd18f7f13629c69af2c0934fe338af5a346"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/results.json",
+    "bytes": 9925,
+    "sha256": "2d7694488e52104553aa001ac3bccd367ea6c20d802677a28c375821753dfdb5"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/run-environment.json",
+    "bytes": 767,
+    "sha256": "5301e5b6bc872f6f80581ac704c2832f58150272ed1a8906e304912cf0936608"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/examples/run_model.py",
+    "bytes": 9719,
+    "sha256": "96b160144c130591a18c405c105abc1137ec9f6ab333072cba2e5def194c1ebc"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/model-stdout.txt",
+    "bytes": 2075,
+    "sha256": "7524e6b3d4e5ceebf74e61045cae2e8cebc7cc874e8c3e9fe6b945eda9d9852f"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/pairs/integrity-after.py",
+    "bytes": 7266,
+    "sha256": "c71b648d97befe655c2e23cb7c7f913c358fa45fe5e05d625e476bcd8aaaaab3"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/pairs/integrity-before.py",
+    "bytes": 6827,
+    "sha256": "82fd720d35d583acb7da7e64eb21d87df9e4a887e50ce3cae8dbb8968d5a5fdc"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/pairs/source_rights-after.py",
+    "bytes": 11261,
+    "sha256": "59586295782facf9fc001f002a5d5bccaa8fb83aee3503ec2a7357b64e359c92"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/pairs/source_rights-before.py",
+    "bytes": 11140,
+    "sha256": "0ab4ae9b3324f9d694ff412b94c0cfba51dfd220992c33bbef2ccd1e30c6733d"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/photos/real-01-mcilroy.jpg",
+    "bytes": 180268,
+    "sha256": "04ca68f295b2b23fe90392657c335717ed7cad28b361d2d1a87bbab4ac016968"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/photos/real-02-cohen.jpg",
+    "bytes": 2539323,
+    "sha256": "e4161a1ddd2fdab8e2d621bd345dfd63a583713f033090ba926696d7025fd016"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/photos/real-03-wall.jpg",
+    "bytes": 46783,
+    "sha256": "3fec07393caac2b63959210b985f03a8ca11b77e27de8b9f2e429ddb72934fa3"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/photos/real-04-myers.jpg",
+    "bytes": 3320678,
+    "sha256": "23d54bb695be3fd670010afd30daeae1dd1cb56242059c13eac3e7f83243a8da"
+  },
+  {
+    "path": "articles/2026-10-16-diff-edit-graph/originals/photos/real-05-pdp11.jpg",
+    "bytes": 885307,
+    "sha256": "eb8c44d912ee0a9f1383a2e409678cb5962bab60512c583cc326228aabe065ea"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/01-console.png",
+    "bytes": 448304,
+    "sha256": "69252bbe5a6002143faae125fec289574c52db5e974728ee8dc87b66f0a723f5"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/02-beam.png",
+    "bytes": 376637,
+    "sha256": "a8c3094d8dd413910c3ad4a3f24555a8b95f5d04cf13b5f1e9ff5ab4dab2d9cb"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/03-frame-timeline.png",
+    "bytes": 160040,
+    "sha256": "1686d368dfe0cacdacd541f6a75a65cdf5de672f55b453793d8b78662ddbeec6"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/04-one-line.png",
+    "bytes": 167623,
+    "sha256": "894ced6f8ace9f115aa1af97a5761b62ea8f17cdbec8de45e0315cdfdee0af76"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/05-no-framebuffer.png",
+    "bytes": 146572,
+    "sha256": "5f7d9cc12ad94d199e341350ed9573183fe03d40a78d6e70658fae642c2fae35"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/06-wsync.png",
+    "bytes": 143477,
+    "sha256": "30adae96aa368beaa9aacf45c3633253f5fee56442853274197c4c20b0df3deb"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/07-cycle-budget.png",
+    "bytes": 119175,
+    "sha256": "95e9f30b7b3d179effef24046d8e40ed5cb4facfdc0d1c79626c9a1fd50d4989"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/08-resp-steps.png",
+    "bytes": 272928,
+    "sha256": "18bfff4fae8fc84f27b26f7b12a51ee9282c8038ea840e91251d16ff8bf2525e"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/09-hmove.png",
+    "bytes": 155884,
+    "sha256": "9b93abba640e55f471075291d08712ccf72abfcd15e17167888c90b3a5dbee73"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/10-rendered-frame.png",
+    "bytes": 69618,
+    "sha256": "e731f8d7339d6556d9e743e1eecd016bc0a6739099fa136dccd6edd8d3aaa757"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/11-rendered-moved.png",
+    "bytes": 60566,
+    "sha256": "ae317ba406b08ec01a50ef5385681e2f6020ed778b09f2d110cfd07102e3c147"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/12-overrun.png",
+    "bytes": 66119,
+    "sha256": "38b9b8f1ac34a34c0190a619f6a6d1dc84d77d4f5a15a0dbf99a17142e23b14b"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/13-flicker.png",
+    "bytes": 85426,
+    "sha256": "81ffff8c4801bb487662e66ebd93a5e6e965330c4ff2b6de1d147be4f7442683"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/14-collisions.png",
+    "bytes": 156835,
+    "sha256": "bbc13f7e01cc29befae670448a0b517bd54000a44ea22841310ddf32028f4d40"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/15-hardware.png",
+    "bytes": 882606,
+    "sha256": "ca188159f2f873bb184166f33a49e517f06d37153a9c2fe43ee26cb8448d7309"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/16-cartridge.png",
+    "bytes": 432304,
+    "sha256": "0be0c93e1887c39cd2534f9f43edbbc51b5aa99cb64ae054dbb72eeaab91a904"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/17-miner.png",
+    "bytes": 447277,
+    "sha256": "2b171980a6e2ce4d9205d616ff47500b598dcee522d711c2114c0ce29075ca7a"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/18-crane.png",
+    "bytes": 430010,
+    "sha256": "7b1a72387f2337c4667bed938c304ca7aecbaa3742c5d75d547435feae4831eb"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/19-robinett.png",
+    "bytes": 362140,
+    "sha256": "a155362b03d3e92830579b8a30bc566717bff2aaca203726995a3fb69193d588"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/20-bushnell.png",
+    "bytes": 461136,
+    "sha256": "4b7e98166b794b8cad9d0e15eeafe5785bf1d3ffdac9e8bcdcb22cc0a1613c8e"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/assets/21-try-it.png",
+    "bytes": 168839,
+    "sha256": "ad0cf1ea1c8c57672c427d5cf88aefcf10dfda7e5f33a3fda9d04131eabeed9d"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/cover.png",
+    "bytes": 78907,
+    "sha256": "210a0fc4529089d05d9c76e2b170dcb4d264c74a37d1547f9e2d2c5f765d5f78"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/asm.cpython-314.pyc",
+    "bytes": 6288,
+    "sha256": "dd1b2d9a9dd34787a584b754fb337ee90f2f93a6d002eff03f8e2d871ceadd8e"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/build_figures.cpython-314.pyc",
+    "bytes": 40805,
+    "sha256": "79230662128e968946683dba7e61cdf09b3f576080269b1584b16dfc235dd112"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/cpu6507.cpython-314.pyc",
+    "bytes": 14244,
+    "sha256": "a2fea395e9dfaab2605303714db0f3709ed51e41d68db189436fe5fd1b844dcc"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/figkit.cpython-314.pyc",
+    "bytes": 28387,
+    "sha256": "e49104a2bc623d1bd5b63bb48986253b4e84747aea3300816809f339358dd65e"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/frame.cpython-314.pyc",
+    "bytes": 2603,
+    "sha256": "86d4665f49afdf6e2bff23cca02d486126216bdbd34cde633c12ce63c386eb3d"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/kernel.cpython-314.pyc",
+    "bytes": 7805,
+    "sha256": "24370686806b4d028bc01e370f83bf41a859157e0afafe808c125e2294275cc0"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/__pycache__/tia.cpython-314.pyc",
+    "bytes": 13179,
+    "sha256": "17d43360afc4fa6c38d77d0f169625d76ee70828405ce8709f7490a42be07efe"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/asm.py",
+    "bytes": 4719,
+    "sha256": "2aec4445befa2e3da7cde0e22fe6d02004bc5bff1001b7ad116dbf8e4d0c8b9a"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/build_figures.py",
+    "bytes": 28599,
+    "sha256": "885e00213ec8fd99bdecdf9b4a46aa9d608f515a3610d9df1979e6da4ad12e28"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/cpu6507.py",
+    "bytes": 8412,
+    "sha256": "85eed015be5cec471840ab719d2e068b62113c5df0e496950847f345a1b4f739"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/figkit.py",
+    "bytes": 16165,
+    "sha256": "3932b2bd3b0287c6bd3cbefc489fcd3a8b4654cb3f753f4798361c60f8084fc3"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/figure-metadata.json",
+    "bytes": 6459,
+    "sha256": "366bd3ea9fb85f5f8bbb9b6fdae870d08da44a671e790b94b91a64722d6ee5cd"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame-flicker-a.png",
+    "bytes": 2169,
+    "sha256": "1560bb64530815d64cd9fa27a1a83a06c5af70095c5e6b9fc2455c9a7a969513"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame-flicker-b.png",
+    "bytes": 2169,
+    "sha256": "039b2a5c21d29726169d343a5e6f1f653dea50a7432f4d452ebcc9e81e4012e7"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame-flicker-both.png",
+    "bytes": 2191,
+    "sha256": "3dcaa59ea60ceffea16ae036d2da3b936c2e80d12258857fde5751d0f44717fd"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame-overrun.png",
+    "bytes": 2191,
+    "sha256": "2564b8ffff81f5065a338f36d4fd51f9bcf9bb29eb8b187a3c9ec2ea7a312a0e"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame-pong-moved.png",
+    "bytes": 2201,
+    "sha256": "27708d076f0a1c5cfa84198d050902293d83afa16ec3ea84e5898411e9b5ed2d"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame-pong.png",
+    "bytes": 2193,
+    "sha256": "a206952d2e6f878d59975ffb4cd992990d6bafb400a2eeaac636bca8311274b9"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/frame.py",
+    "bytes": 1348,
+    "sha256": "541fb0a4d78d7e2604626c60d0f20b368632aa9088f8c793ad4f767a1c22f760"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/kernel.py",
+    "bytes": 5789,
+    "sha256": "c16736e064a6d1a106380e1e1d4bb9108f55c7e4201f39973e8424ad5413651d"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/results.json",
+    "bytes": 2636,
+    "sha256": "a7b81533d6a62a659f946b738410d2c0669fc89079cdc657b52889da9ef87ad0"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/run-environment.json",
+    "bytes": 714,
+    "sha256": "a72e6f2e76d231bf96019bfed76ae0b1583f5a8cfcc2bc5d310549b332c5bdd5"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/run_model.py",
+    "bytes": 5806,
+    "sha256": "9603f7601f0feb14725a6632604ddcd37053b1a2ba1cefb26c3240f49360e565"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/examples/tia.py",
+    "bytes": 9369,
+    "sha256": "2d5417add48648430921083501bf4113f66a966d87cb8848269fa74ca134ca4e"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/model-stdout.txt",
+    "bytes": 2636,
+    "sha256": "a7b81533d6a62a659f946b738410d2c0669fc89079cdc657b52889da9ef87ad0"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-01-console.jpg",
+    "bytes": 2514681,
+    "sha256": "b959588b416dc38b845184f4afdeb6b346420ba9ff8af5b6323a15e54b9a9127"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-02-joystick.jpg",
+    "bytes": 385477,
+    "sha256": "d166c5d8197e0310a2b14579c797b04f39215b956c93a3b964a40de3a92882e3"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-03-pitfall-cart.jpg",
+    "bytes": 575995,
+    "sha256": "2dafe43a2b6c24bee0e8baef9672e9a9497c696fa8daddb98e4fe9099ca7cfcd"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-04-motherboard.jpg",
+    "bytes": 3005261,
+    "sha256": "f20998034a59be47a611fb911b202088fa80188b6f3b5893e0e56dcb89c7279b"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-05-6502.jpg",
+    "bytes": 400534,
+    "sha256": "29cf5a270eb2010d43526ec0219193503597c66260cd13150ca16713329a6d3b"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-06-scanline.jpg",
+    "bytes": 717860,
+    "sha256": "9ba18e965fcebbcbea55f8084074d225a02bbd29068cccfa70b2d74f7dcb3896"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-07-videosignal.jpg",
+    "bytes": 63615,
+    "sha256": "905deb52ce572df084c1a2ac5b4d988eb22703022850af7b91f327e70f4da69c"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-08-jay-miner.jpg",
+    "bytes": 143987,
+    "sha256": "695a7782bdd19e14a2fc138807c175ba38c0f4545b552f4370bcd1439db9d621"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-09-bushnell.jpg",
+    "bytes": 661939,
+    "sha256": "f1febbc04c98a6b332d3f065487efd493692c060d062899e8d1c71b796137200"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-10-crane.jpg",
+    "bytes": 230075,
+    "sha256": "2e78d56401ae15997a4dd357982f6da3c4decec0b9a5ba0484f9b509537ba245"
+  },
+  {
+    "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-11-robinett.jpg",
+    "bytes": 61234,
+    "sha256": "f082caaf6426d4b6d294aa91b6b7698b6bc6a48ea2f1d64c452b86f158dc53d7"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

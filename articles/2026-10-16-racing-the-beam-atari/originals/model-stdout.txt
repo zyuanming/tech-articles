@@ -1,0 +1,151 @@
+{
+  "frame_timing": {
+    "scanlines": 262,
+    "colour_clocks_per_line": 228,
+    "machine_cycles_per_line": 76,
+    "vsync_lines": 3,
+    "vblank_lines": 37,
+    "picture_lines": 192,
+    "overscan_lines": 30,
+    "horizontal_blank_clocks": 68,
+    "visible_clocks": 160
+  },
+  "position_steps": [
+    {
+      "loop_iterations": 1,
+      "pixel": -39
+    },
+    {
+      "loop_iterations": 2,
+      "pixel": -24
+    },
+    {
+      "loop_iterations": 3,
+      "pixel": -9
+    },
+    {
+      "loop_iterations": 4,
+      "pixel": 6
+    },
+    {
+      "loop_iterations": 5,
+      "pixel": 21
+    },
+    {
+      "loop_iterations": 6,
+      "pixel": 36
+    },
+    {
+      "loop_iterations": 7,
+      "pixel": 51
+    },
+    {
+      "loop_iterations": 8,
+      "pixel": 66
+    },
+    {
+      "loop_iterations": 9,
+      "pixel": 81
+    },
+    {
+      "loop_iterations": 10,
+      "pixel": 96
+    },
+    {
+      "loop_iterations": 11,
+      "pixel": 111
+    },
+    {
+      "loop_iterations": 12,
+      "pixel": 126
+    },
+    {
+      "loop_iterations": 13,
+      "pixel": 141
+    },
+    {
+      "loop_iterations": 14,
+      "pixel": 156
+    }
+  ],
+  "pong": {
+    "player0_pixel": 24,
+    "player1_pixel": 128,
+    "ball_pixel": 96,
+    "cycles_per_visible_line": 52,
+    "lines_captured": 192
+  },
+  "pong_moved": {
+    "player0_pixel": 72,
+    "player1_pixel": 150,
+    "ball_pixel": 44
+  },
+  "overrun": {
+    "cycles_per_visible_line": 76,
+    "writes_after_beam": 506,
+    "first_late_writes": [
+      {
+        "line": 3,
+        "register": "ENABL",
+        "colour_clock": 102
+      },
+      {
+        "line": 31,
+        "register": "PF0",
+        "colour_clock": 114
+      },
+      {
+        "line": 31,
+        "register": "PF1",
+        "colour_clock": 135
+      },
+      {
+        "line": 31,
+        "register": "PF2",
+        "colour_clock": 156
+      },
+      {
+        "line": 31,
+        "register": "GRP0",
+        "colour_clock": 177
+      },
+      {
+        "line": 31,
+        "register": "GRP1",
+        "colour_clock": 198
+      }
+    ],
+    "picture_differing_lines": 87
+  },
+  "collisions": {
+    "registers": {
+      "CXP0FB": 128,
+      "CXBLPF": 128
+    },
+    "pairs": [
+      [
+        "P0",
+        "BL"
+      ],
+      [
+        "BL",
+        "PF"
+      ]
+    ],
+    "ball_pixel": 24,
+    "player0_pixel": 24
+  },
+  "flicker": {
+    "frame_a_rows": 16,
+    "frame_b_rows": 16,
+    "merged_rows": 32,
+    "note": "两帧各自只画两个物体；人眼把交替的两帧合成四个"
+  },
+  "kernel_budget": [
+    {
+      "kernel": "播放场+两个玩家+球",
+      "cycles": 52,
+      "spare": 24
+    }
+  ]
+}

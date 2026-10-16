@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-16",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "third_party_packages_for_model": [],
+  "third_party_packages_for_figures": ["Pillow 12.3.0"],
+  "operating_system": "macOS (Darwin 27.0.0, arm64)",
+  "determinism": "模型不使用随机数；同一份 kernel 每次运行得到完全相同的帧",
+  "font_for_figures": "/System/Library/Fonts/Hiragino Sans GB.ttc (index 0 regular / index 2 bold)",
+  "model_constant": "RESPx 写入到物体出现之间的输出延迟取 5 个色时钟，这是本模型选定的常数，不是核对到的硬件值",
+  "note": "不同字体或 Pillow 版本可能让 PNG 像素不同；帧内容、周期数与像素位置不受影响"
+}

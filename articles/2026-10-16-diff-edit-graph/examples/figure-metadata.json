@@ -1,0 +1,205 @@
+[
+  {
+    "path": "assets/01-pdp11.png",
+    "width": 1062,
+    "height": 1103,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "PDP-11 照片，diff 的诞生环境",
+    "identity": "真实照片（第三方，CC BY-SA 2.0）",
+    "source": "Jeff Keyzer, \"DEC PDP-11/40\", Wikimedia Commons, CC BY-SA 2.0"
+  },
+  {
+    "path": "assets/02-hook.png",
+    "width": 1062,
+    "height": 907,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "开门问题：三行改动从哪里来",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-naive.png",
+    "width": 1062,
+    "height": 854,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "逐行比较在插入一行之后失效",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-edit-graph.png",
+    "width": 1062,
+    "height": 900,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "真实编辑图：A=abcabba, B=cbabac",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-three-steps.png",
+    "width": 1062,
+    "height": 992,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "编辑图上的三种走法与它们的含义",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-diagonals.png",
+    "width": 1062,
+    "height": 1011,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "对角线编号 k = x − y 与编辑次数的关系",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-greedy.png",
+    "width": 1062,
+    "height": 922,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "Myers 贪心逐层扩展的过程（真实算例）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07b-dpath-table.png",
+    "width": 1062,
+    "height": 1148,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "D 逐层扩展的真实数值表（本实现输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-real-measure.png",
+    "width": 1062,
+    "height": 1028,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "两个真实文件对上的实际测量结果",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-complexity.png",
+    "width": 1062,
+    "height": 872,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "编辑量增大时对角线条数的真实增长",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-extremes.png",
+    "width": 1062,
+    "height": 848,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "同一文件与自身、与打乱副本比较的真实代价",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-not-unique.png",
+    "width": 1062,
+    "height": 930,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "同一对输入存在多条等长最短脚本（实际枚举结果）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-patience-idea.png",
+    "width": 1062,
+    "height": 921,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "patience diff 的锚点选择规则",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-patience-measured.png",
+    "width": 1062,
+    "height": 1542,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "patience 与 Myers 在真实输入上的实测对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13b-disagreement.png",
+    "width": 1062,
+    "height": 913,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "patience 与 Myers 在 20 万组随机输入上的分歧率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-large-file.png",
+    "width": 1062,
+    "height": 923,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "四万行文件的实测耗时与比较次数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-real-diff.png",
+    "width": 1062,
+    "height": 1070,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "真实文件修订对上生成的 unified diff 输出",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-mcilroy.png",
+    "width": 1062,
+    "height": 1445,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "麦克罗伊肖像与 diff 的诞生",
+    "identity": "真实肖像（第三方，CC BY 2.0）+ 原创示意",
+    "source": "Denise Panyik-Dale, \"Douglas McIlroy\", Flickr, CC BY 2.0"
+  },
+  {
+    "path": "assets/17-myers.png",
+    "width": 1062,
+    "height": 1434,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Myers 肖像与 1986 年论文",
+    "identity": "真实肖像（第三方，CC BY 2.0）+ 原创示意",
+    "source": "ismb, \"Gene Myers ISMB 2014\", Flickr, CC BY 2.0"
+  },
+  {
+    "path": "assets/18-wall.png",
+    "width": 1062,
+    "height": 1301,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Larry Wall 肖像与 patch",
+    "identity": "真实肖像（第三方，CC BY-SA 2.0）+ 原创示意",
+    "source": "Randal Schwartz, \"Larry Wall YAPC 2007\", Flickr, CC BY-SA 2.0"
+  },
+  {
+    "path": "assets/19-cohen.png",
+    "width": 1062,
+    "height": 1361,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Bram Cohen 肖像与 patience diff",
+    "identity": "真实肖像（第三方，CC BY-SA 4.0）+ 原创示意",
+    "source": "Ijon, \"Bram Cohen\", Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "path": "assets/20-try-it.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的四个条件",
+    "identity": "原创教学示意"
+  }
+]
