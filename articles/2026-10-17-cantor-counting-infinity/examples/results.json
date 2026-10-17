@@ -1,0 +1,386 @@
+{
+  "pairings": [
+    {
+      "name": "自然数 ↔ 偶数：n 对应 2n",
+      "checked": 1000,
+      "distinct": 1000,
+      "injective": true,
+      "first_ten": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    {
+      "name": "自然数 ↔ 整数：之字形",
+      "checked": 1000,
+      "distinct": 1000,
+      "injective": true,
+      "first_ten": [
+        0,
+        -1,
+        1,
+        -2,
+        2,
+        -3,
+        3,
+        -4,
+        4,
+        -5
+      ],
+      "round_trip_ok": true
+    }
+  ],
+  "pairs": {
+    "name": "自然数 ↔ 自然数对",
+    "checked": 1600,
+    "distinct": 1600,
+    "injective": true,
+    "round_trip_ok": true,
+    "note": "把 (分子, 分母) 两两配成一个编号，就得到有理数的枚举"
+  },
+  "rationals": {
+    "checked": 60,
+    "first_twelve": [
+      {
+        "index": 0,
+        "value": "1"
+      },
+      {
+        "index": 1,
+        "value": "1/2"
+      },
+      {
+        "index": 2,
+        "value": "2"
+      },
+      {
+        "index": 3,
+        "value": "1/3"
+      },
+      {
+        "index": 4,
+        "value": "3"
+      },
+      {
+        "index": 5,
+        "value": "1/4"
+      },
+      {
+        "index": 6,
+        "value": "2/3"
+      },
+      {
+        "index": 7,
+        "value": "3/2"
+      },
+      {
+        "index": 8,
+        "value": "4"
+      },
+      {
+        "index": 9,
+        "value": "1/5"
+      },
+      {
+        "index": 10,
+        "value": "5"
+      },
+      {
+        "index": 11,
+        "value": "1/6"
+      }
+    ],
+    "all_distinct": true,
+    "note": "按对角线走 (分子, 分母) 网格，跳过可约分的，就一个不漏地数到所有正有理数"
+  },
+  "diagonal": [
+    {
+      "round": 1,
+      "how_many_listed": 5,
+      "diagonal": "0.24682",
+      "differs_from_all": true,
+      "escapes": [
+        {
+          "listed": "0.12345678901200",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.23456789012300",
+          "differs_at": 2
+        },
+        {
+          "listed": "0.34567890123400",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.45678901234500",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.56789012345600",
+          "differs_at": 1
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "how_many_listed": 6,
+      "diagonal": "0.246821",
+      "differs_from_all": true,
+      "escapes": [
+        {
+          "listed": "0.12345678901200",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.23456789012300",
+          "differs_at": 2
+        },
+        {
+          "listed": "0.34567890123400",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.45678901234500",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.56789012345600",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.24682000000000",
+          "differs_at": 6
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "how_many_listed": 7,
+      "diagonal": "0.2468211",
+      "differs_from_all": true,
+      "escapes": [
+        {
+          "listed": "0.12345678901200",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.23456789012300",
+          "differs_at": 2
+        },
+        {
+          "listed": "0.34567890123400",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.45678901234500",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.56789012345600",
+          "differs_at": 1
+        },
+        {
+          "listed": "0.24682000000000",
+          "differs_at": 6
+        },
+        {
+          "listed": "0.24682100000000",
+          "differs_at": 7
+        }
+      ]
+    }
+  ],
+  "power_set": [
+    {
+      "size": 0,
+      "subsets": 1,
+      "bigger": true
+    },
+    {
+      "size": 1,
+      "subsets": 2,
+      "bigger": true
+    },
+    {
+      "size": 2,
+      "subsets": 4,
+      "bigger": true
+    },
+    {
+      "size": 3,
+      "subsets": 8,
+      "bigger": true
+    },
+    {
+      "size": 4,
+      "subsets": 16,
+      "bigger": true
+    },
+    {
+      "size": 5,
+      "subsets": 32,
+      "bigger": true
+    },
+    {
+      "size": 6,
+      "subsets": 64,
+      "bigger": true
+    },
+    {
+      "size": 7,
+      "subsets": 128,
+      "bigger": true
+    },
+    {
+      "size": 8,
+      "subsets": 256,
+      "bigger": true
+    },
+    {
+      "size": 9,
+      "subsets": 512,
+      "bigger": true
+    },
+    {
+      "size": 10,
+      "subsets": 1024,
+      "bigger": true
+    }
+  ],
+  "strings_vs_subsets": [
+    {
+      "n": 0,
+      "binary_strings": 1,
+      "subsets": 1,
+      "agree": true
+    },
+    {
+      "n": 1,
+      "binary_strings": 2,
+      "subsets": 2,
+      "agree": true
+    },
+    {
+      "n": 2,
+      "binary_strings": 4,
+      "subsets": 4,
+      "agree": true
+    },
+    {
+      "n": 3,
+      "binary_strings": 8,
+      "subsets": 8,
+      "agree": true
+    },
+    {
+      "n": 4,
+      "binary_strings": 16,
+      "subsets": 16,
+      "agree": true
+    },
+    {
+      "n": 5,
+      "binary_strings": 32,
+      "subsets": 32,
+      "agree": true
+    },
+    {
+      "n": 6,
+      "binary_strings": 64,
+      "subsets": 64,
+      "agree": true
+    },
+    {
+      "n": 7,
+      "binary_strings": 128,
+      "subsets": 128,
+      "agree": true
+    }
+  ],
+  "hotel": {
+    "rooms_shown": 12,
+    "night1_before": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "night1_after": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "night1_new_guest": 1,
+    "night1_everyone_still_has_a_room": true,
+    "night2_before": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "night2_after": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "night2_free_rooms_for_new_guests": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23
+    ],
+    "night2_everyone_still_has_a_room": true,
+    "note": "这里只显示前若干间房；旅店的「无穷」是这些规律的极限"
+  }
+}

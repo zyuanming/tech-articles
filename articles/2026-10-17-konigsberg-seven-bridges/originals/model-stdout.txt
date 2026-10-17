@@ -1,0 +1,50 @@
+{
+  "konigsberg_1736": {
+    "bridges": 7,
+    "degrees": {
+      "A": 5,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "odd": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "rule_ok": false,
+    "rule_reason": "4 odd vertices",
+    "brute_force_found_a_route": false,
+    "hierholzer_result": null,
+    "route_inspection_extra_crossings": 2,
+    "route_inspection_naive": 2
+  },
+  "kaliningrad_today": {
+    "bridges": 5,
+    "degrees": {
+      "A": 3,
+      "B": 2,
+      "C": 2,
+      "D": 3
+    },
+    "odd": [
+      "A",
+      "D"
+    ],
+    "rule_ok": true,
+    "rule_reason": "trail (starts at one odd vertex, ends at the other)",
+    "trail": [
+      "A",
+      "D",
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "trail_valid": true,
+    "route_inspection_extra_crossings": 1,
+    "route_inspection_naive": 1,
+    "note": "现有五座桥的度数由来源给出；具体连接是本文按该度数重建的模型"
+  },
+  "exhaus

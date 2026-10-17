@@ -17751,8 +17751,8 @@
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/examples/run-environment.json",
-    "bytes": 757,
-    "sha256": "4a05ab4e6795fcbac41c62c7a317fcb641557bec5065eeb82d48fd14582ae3e1"
+    "bytes": 764,
+    "sha256": "7fcc7436ef64635a86b9d629a1db30ff77f8750d4f0aa0075e776436456d9057"
   },
   {
     "path": "articles/2026-10-16-chess-engine-alpha-beta/originals/model-stdout.txt",
@@ -17966,8 +17966,8 @@
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/run-environment.json",
-    "bytes": 767,
-    "sha256": "5301e5b6bc872f6f80581ac704c2832f58150272ed1a8906e304912cf0936608"
+    "bytes": 774,
+    "sha256": "9205e75b40659f047224f6996ae143a5283bc95988591a9351d3692bfa9820bc"
   },
   {
     "path": "articles/2026-10-16-diff-edit-graph/examples/run_model.py",
@@ -18246,8 +18246,8 @@
   },
   {
     "path": "articles/2026-10-16-racing-the-beam-atari/examples/run-environment.json",
-    "bytes": 714,
-    "sha256": "a72e6f2e76d231bf96019bfed76ae0b1583f5a8cfcc2bc5d310549b332c5bdd5"
+    "bytes": 721,
+    "sha256": "d10ecd4322faccf4c03496a29beb4d2da440fca71fed8a8d25f90852d3c70d24"
   },
   {
     "path": "articles/2026-10-16-racing-the-beam-atari/examples/run_model.py",
@@ -18308,6 +18308,451 @@
     "path": "articles/2026-10-16-racing-the-beam-atari/originals/photos/real-11-robinett.jpg",
     "bytes": 61234,
     "sha256": "f082caaf6426d4b6d294aa91b6b7698b6bc6a48ea2f1d64c452b86f158dc53d7"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/01-hotel.png",
+    "bytes": 89701,
+    "sha256": "d21d805f87bdd3eddeb492595c24c55e23d84755a1275db4324b39a6540843cf"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/02-hotel-one-guest.png",
+    "bytes": 122908,
+    "sha256": "f0934ff7cdccb3f82b92ebc44adf1626a04412a131973381b932cf477c914f99"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/03-hotel-bus.png",
+    "bytes": 126922,
+    "sha256": "2e3e2ff6e9f141c703354e764b2664fd9fc42ff02a157855d528b8e9f4023b4d"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/04-pairing.png",
+    "bytes": 129269,
+    "sha256": "fa4b899c1fd6580d52b8a9d07920841d800b635779e397415f7a420c6b9c3cc3"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/05-evens.png",
+    "bytes": 126506,
+    "sha256": "55bfacff9e3305d834087376f58a6211276f09664d82b34e264fdb006a40f934"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/06-integers.png",
+    "bytes": 151266,
+    "sha256": "b7b519a3cabe0719a761fa93ce8e6f43657ed8265b17b744453bca1168c736aa"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/07-rationals.png",
+    "bytes": 164488,
+    "sha256": "0c043e9bb9d620e7b506face797edf861fe0bfba24d5d2ebeeb77ff8c2e92b36"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/08-diagonal-table.png",
+    "bytes": 149167,
+    "sha256": "7dea8806d6a6909a762bf86b4e2160a9a381ece30450534a2358aaa25bcdb669"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/09-new-number.png",
+    "bytes": 204684,
+    "sha256": "be776103d53c1ee87e7e970778e76dd63284855ed16ec5bfb78a94a41d9bb29f"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/10-iteration.png",
+    "bytes": 137777,
+    "sha256": "2fad037a19be3ca8a33c8d9a6bb47807fbe81aba619a2141ebbd380a084e20f4"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/11-no-nines.png",
+    "bytes": 155112,
+    "sha256": "62e6c063b09a37ee46dd9454cb67acd18905e5a3aed23eb297ec287cdd4f0b6b"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/12-conclusion.png",
+    "bytes": 134474,
+    "sha256": "6742364495565c77749349cf329784f06180a0d0f5c1941cd9ad9d2779821939"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/13-power-set.png",
+    "bytes": 99124,
+    "sha256": "af076e9296396df4df2a260c8c282d1d0e3932c7ae177b74a9dba4bcfb37d1f1"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/14-binary.png",
+    "bytes": 123604,
+    "sha256": "940061dc03714618990ebb3e168f9b9c2028364dcac918437a0dd9931fc1a199"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/15-two-infinities.png",
+    "bytes": 148976,
+    "sha256": "a4cc008eb9bdb9e229fcdd361f7619fed3968c0a97b0e5d57c9c09a2bc1dae71"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/16-history.png",
+    "bytes": 213748,
+    "sha256": "7b3755b200a1e746a6c6b3477a2311bde0ddceefa0f8a37e8abb2089da21c432"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/17-turing.png",
+    "bytes": 167247,
+    "sha256": "15c08fa7babcdf20529c9565cc38fef79f3d2b3236056336635f298d08a39c75"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/assets/18-try-it.png",
+    "bytes": 154746,
+    "sha256": "138c240ef410a42ac7f15f84f29681f2a86e4fa0a03cb25f393520749fe55dda"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/cover.png",
+    "bytes": 76390,
+    "sha256": "b88ed99ad8b2a2368405703af1ec09c3430151f6d7dce4ffb07c518c201c0745"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/__pycache__/build_figures.cpython-314.pyc",
+    "bytes": 38570,
+    "sha256": "d13a6eaf909e938421c4ada9ee884f52806a72e05768bc901f48285513e2cbc3"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/__pycache__/figkit.cpython-314.pyc",
+    "bytes": 28493,
+    "sha256": "2bf3789e11fd0fd219b298e51eca181d178c4952e6ea2ca80172e764113065d6"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/__pycache__/infinity.cpython-314.pyc",
+    "bytes": 8205,
+    "sha256": "6760376eda748473cb8c73a6cb1cd3691af246f1923ebe1385a07c5ae552e5c5"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/build_figures.py",
+    "bytes": 24594,
+    "sha256": "2e26c619e398d76f8359144ff81945aa83c9dc17754161d1a392c520e928b9fd"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/figkit.py",
+    "bytes": 16268,
+    "sha256": "95bd433ece5aa73880222c7b660120c8c4f673d8d21b11bd8871bc4077304d18"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/figure-metadata.json",
+    "bytes": 4405,
+    "sha256": "1d6893f589a2ac343c21479b0cc9519ae3b7521a2ecf62b80b9fd6f586aade84"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/infinity.py",
+    "bytes": 4906,
+    "sha256": "be0fa54491e3dbc6253aa521b4f0d6bf1a1cef97d4826693946402a8078585b2"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/results.json",
+    "bytes": 6394,
+    "sha256": "c11fd465d300709102e08213729789d2c0eccf54168a8ba3c2840a4c31c7d81b"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/run-environment.json",
+    "bytes": 511,
+    "sha256": "42f069d3a203357dca3edb6e98f2e6035a99e3c6fd9bc790771e7c8d86586e5e"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/examples/run_model.py",
+    "bytes": 4073,
+    "sha256": "4675dec9da1fb41053acbf9b92527919291f0a3c0b23e94f376044f275b1298c"
+  },
+  {
+    "path": "articles/2026-10-17-cantor-counting-infinity/originals/model-stdout.txt",
+    "bytes": 1001,
+    "sha256": "a81e5ebf37523f95ff5020c4da3b613534ffd8b3374a803d38b59f03b8fb0b06"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/01-city.png",
+    "bytes": 79522,
+    "sha256": "dea7acf335ea956ed82361d59bd4bdde7b1cfd9b1b74fc9722885d11785bfe95"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/02-seven-bridges.png",
+    "bytes": 59130,
+    "sha256": "34b0bc8bc866880063e6dfb1da6d0e41f91bf1daf005568755428bf6b4ad896d"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/03-abstraction.png",
+    "bytes": 113260,
+    "sha256": "c6ed9119a93204a9c08b08a7c73ad01448628c8baf38cded82ceaa1a283fb7df"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/04-degrees.png",
+    "bytes": 121506,
+    "sha256": "b5140444176233695818c05c49d5c78762ee22442cb57c9529f2bd6dd56e5389"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/05-parity.png",
+    "bytes": 181703,
+    "sha256": "ce20e0a5545c02cde6158156ab5e920289914c6990407f26f23981601ff6316f"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/06-impossible.png",
+    "bytes": 111171,
+    "sha256": "9a125a81f2ef65184a1e8ccbf79f87ff3a35087f90d472faeafc830be2849435"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/07-verified.png",
+    "bytes": 161837,
+    "sha256": "f2073788f946ff7e6b726a388294f05e9c9582e275e61005ecc48e6783489642"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/08-one-stroke.png",
+    "bytes": 130622,
+    "sha256": "209e41ec741883e69962d6c0a458afe2cf00ccb5ea7010a852a61622aea091d6"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/09-two-kinds.png",
+    "bytes": 121939,
+    "sha256": "74f4e899ca6420f41b467f755f558e3e8528580aa65836578a61292a2acd48ba"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/10-today.png",
+    "bytes": 165658,
+    "sha256": "ca28541272439caf83f03449247dc2d3ba84a1bc447640ba6680fad9307faf2d"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/11-route-inspection.png",
+    "bytes": 269868,
+    "sha256": "d2bab54a75f73cedff42f7fc035218bf37fe3710b6a630e3fd8259fa73e2e9c4"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/12-dna-unique.png",
+    "bytes": 170772,
+    "sha256": "1aa6fbccdd5ac208dbe294a3a9a8a0c76fa47d45850a1a7991fd093bfca954b2"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/13-dna-ambiguous.png",
+    "bytes": 204365,
+    "sha256": "11e877a8cfeb4de49c3cddee15337261791f0a87906573db11f5014c12cb1ba7"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/14-history.png",
+    "bytes": 174726,
+    "sha256": "87bb29e5c2108cc8c2299c632071e63c31824a797233333701d1f9384fa7bc0e"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/assets/15-try-it.png",
+    "bytes": 154828,
+    "sha256": "69d04633d90e030767a259ed725536d1588f1329cd31d9ce4ffd93ad4c7eba21"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/cover.png",
+    "bytes": 44621,
+    "sha256": "862619f674c2b15196d90a8417ffd2ad69380ea456148ccd1476be4ef37d6a00"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/__pycache__/build_figures.cpython-314.pyc",
+    "bytes": 34801,
+    "sha256": "26879810b76e13cf4491646c4f22d87b9f4b0d1470daa63a0ee7ac37fe3d5659"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/__pycache__/figkit.cpython-314.pyc",
+    "bytes": 28493,
+    "sha256": "73888319ce814273311dc83e29c750fbeafcfc3117e27c2829fa4f86545dfc22"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/__pycache__/graphs.cpython-314.pyc",
+    "bytes": 12647,
+    "sha256": "c146dca72220e344a555ccaca7d65e940f0bc2928f372e2ffbe3b37ddb2bb4e3"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/build_figures.py",
+    "bytes": 22516,
+    "sha256": "b39ece3678cda648dd034354dc359e4215af3d3d5eae268fe8b89ae1fcd21c3a"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/figkit.py",
+    "bytes": 16268,
+    "sha256": "95bd433ece5aa73880222c7b660120c8c4f673d8d21b11bd8871bc4077304d18"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/figure-metadata.json",
+    "bytes": 3690,
+    "sha256": "57604d1fe85375adfa8cfd68f3a0c74b3a73d2987975d24d0ae971e05eb24407"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/graphs.py",
+    "bytes": 7899,
+    "sha256": "630041fd3903bd5aaf619713fc46ea0393725142fb6b841f4b6721b1be205d3a"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/results.json",
+    "bytes": 5026,
+    "sha256": "6625d2afcf73b9a986ece1bf1366c26f1f28948737140cc09a0c3bdcd9b6918f"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/run-environment.json",
+    "bytes": 537,
+    "sha256": "42c4bf31dc40521d07a56347a444293b706622f899dde803ebf7b399f2bb4e70"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/run_model.py",
+    "bytes": 8085,
+    "sha256": "9f7d5e02c41f67916f030184c9aec481382e67e3122876a0e13b6ce623eca45c"
+  },
+  {
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/originals/model-stdout.txt",
+    "bytes": 961,
+    "sha256": "3420fb1230d020e992fb471294ac1f1bfcdcccc85203d20089198ba6c63e1003"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/01-three-doors.png",
+    "bytes": 58351,
+    "sha256": "d6b8fe66fe31e2bdb12be44ae98b847a9636ab5048e89777bc4fd5b5783a3985"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/02-host-constraint.png",
+    "bytes": 141451,
+    "sha256": "a3bebad865a0ba87d8af205586d579edd55a1e7ec2705f5ac7ea6ce5731ca479"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/03-nine-cases.png",
+    "bytes": 126841,
+    "sha256": "fd5a2e35f3cd4b74c05a0104a4f6f3088d7c69ef11b9ac6a652c6d3b7679f198"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/04-three-vs-six.png",
+    "bytes": 72462,
+    "sha256": "e15b27b3d456233d70c07f499dd95a63159f2ac045bde65e1c23ef4bb9baf874"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/05-why-not-fifty.png",
+    "bytes": 145320,
+    "sha256": "571bdae667465a1119182d692db342102fb3ea20bb299a1ad492674a484b5c3e"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/06-bayes.png",
+    "bytes": 152634,
+    "sha256": "baa9af83ae73d15d32d6c41e6283ea931f68098684b99bb0a9b6ed5ae285ef46"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/07-simulation.png",
+    "bytes": 166524,
+    "sha256": "8b43bd20c8d56d20749428893f68ec1e7ac9d7ca050e658b2714252edd3913b2"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/08-ignorant-host.png",
+    "bytes": 176099,
+    "sha256": "2c638d514a1749acd011bab3d7db47e4e334346e8b73fcf373977f19b0e59753"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/09-hundred-doors.png",
+    "bytes": 130441,
+    "sha256": "67123b35f34761a1ff522e102b8aec479e94bbb7df3f89e0d2ebb416c4d5112c"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/10-formula.png",
+    "bytes": 101491,
+    "sha256": "e7ca6ca12e4e1d2038abd1c97466170dfb82c822b4476e378636cbd953edb68d"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/11-conditioning.png",
+    "bytes": 147323,
+    "sha256": "84a5871d2b45eb580b59ef120492197129fbef2bf4aeebe7ebd1e5057a1aafc0"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/12-why-conditioning.png",
+    "bytes": 181843,
+    "sha256": "9e95a49b07072cc883ebfb64318a3061017d53aef50d65b7b170ded3447da66f"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/13-convergence.png",
+    "bytes": 108194,
+    "sha256": "53e9fcb54825d4a19a8aac437db74b353a31c0cdeaf4f11272ae678d372b4de8"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/14-history.png",
+    "bytes": 201158,
+    "sha256": "55f13fcde06e1ecf2dce7c69fc5ae7f854c21f07fc66c3f56caae9608f9eabd7"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/15-furor.png",
+    "bytes": 171437,
+    "sha256": "d5a51660f32f259ce0aaf5d50254b44001f3934faff3e2e742ba79d2ab18efdc"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/16-three-prisoners.png",
+    "bytes": 145950,
+    "sha256": "5997387c56397fcc37d4419a2de4513e694e292f970008906d3470f615a1b135"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/assets/17-try-it.png",
+    "bytes": 162541,
+    "sha256": "9d836a3039e1e451d2b322fe99a67ad9372b12e0390f5a7215ddb00151971bd5"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/cover.png",
+    "bytes": 36358,
+    "sha256": "a25bb9481a702338ce704033fc94835deb0a97325dbfac7ff83f796b69ac5b4a"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/__pycache__/build_figures.cpython-314.pyc",
+    "bytes": 38253,
+    "sha256": "c639bcd9e11356c1ba96c858f78aaa8d7d4df7fdac856d2173bd8a5a1da90c6f"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/__pycache__/figkit.cpython-314.pyc",
+    "bytes": 28494,
+    "sha256": "ac8f53b1cfbe5bd5669cd418df2a21ebb65f6118907e15487da606ca7d89dff2"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/__pycache__/monty.cpython-314.pyc",
+    "bytes": 4272,
+    "sha256": "a6d6fb5a5c6b1254cca65fc0698cf19bfed304ea55403b9dbb3976c39a419420"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/build_figures.py",
+    "bytes": 24554,
+    "sha256": "171ea90b846aa79dc017bb195095440ac5bec9931d0e83920043dc8507def739"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/figkit.py",
+    "bytes": 16268,
+    "sha256": "95bd433ece5aa73880222c7b660120c8c4f673d8d21b11bd8871bc4077304d18"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/figure-metadata.json",
+    "bytes": 4151,
+    "sha256": "94a107318c2534794b0912a258f689c8d9d8ae1fd53040d45de5279d0c90dd3d"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/monty.py",
+    "bytes": 3151,
+    "sha256": "c2bd1029e43ffa83bae7cf5cff35755f8cd8436b3b91719e066bc981bcd89afd"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/results.json",
+    "bytes": 5594,
+    "sha256": "21b79fab5cb71ee392979b3e1f1e0022b30877404a21153339043a21b19b03ac"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/run-environment.json",
+    "bytes": 589,
+    "sha256": "1ba3e13d77d7780880d038e4cdced056fe7a37e92120d09ff27e4683ccfc9ebc"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/examples/run_model.py",
+    "bytes": 5397,
+    "sha256": "a165a3ba1a0e117e34263320eead63b72d553ef1ee383322cf43a4dbd5c94d5e"
+  },
+  {
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/originals/model-stdout.txt",
+    "bytes": 1233,
+    "sha256": "ef2980fe806b36e789d5bd35cca0f854b82bea4635ee5b299d7758530b005d3a"
   },
   {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",

@@ -1,0 +1,137 @@
+[
+  {
+    "path": "assets/01-city.png",
+    "width": 1062,
+    "height": 754,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "哥尼斯堡的四块陆地与河流",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-seven-bridges.png",
+    "width": 1062,
+    "height": 754,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "七座桥的连接",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-abstraction.png",
+    "width": 1062,
+    "height": 773,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "从地图到图：丢掉形状只留连接",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-degrees.png",
+    "width": 1062,
+    "height": 831,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "四块陆地的度数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-parity.png",
+    "width": 1062,
+    "height": 1100,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "奇偶性论证：为什么度数必须是偶数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-impossible.png",
+    "width": 1062,
+    "height": 889,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "矛盾：4 个奇点，但最多只能有 2 个",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-verified.png",
+    "width": 1062,
+    "height": 844,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "暴力搜索与穷举校验的结果",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-one-stroke.png",
+    "width": 1062,
+    "height": 873,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "四个图形的一笔画判定（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-two-kinds.png",
+    "width": 1062,
+    "height": 1012,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "欧拉回路、欧拉路径与走不通的三种情形",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-today.png",
+    "width": 1062,
+    "height": 954,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "今天 5 座桥的度数与新答案（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-route-inspection.png",
+    "width": 1062,
+    "height": 1361,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "允许重复时的最小代价，以及简单公式的反例",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-dna-unique.png",
+    "width": 1062,
+    "height": 961,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "de Bruijn 图拼出唯一序列（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-dna-ambiguous.png",
+    "width": 1062,
+    "height": 1055,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "重复片段造成的组装歧义（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-history.png",
+    "width": 1062,
+    "height": 896,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "欧拉 1736 年的方法与 Hierholzer 的补充",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-try-it.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的四个条件",
+    "identity": "原创教学示意"
+  }
+]

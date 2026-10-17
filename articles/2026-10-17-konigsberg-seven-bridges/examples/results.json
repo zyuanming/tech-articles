@@ -1,0 +1,276 @@
+{
+  "konigsberg_1736": {
+    "bridges": 7,
+    "degrees": {
+      "A": 5,
+      "B": 3,
+      "C": 3,
+      "D": 3
+    },
+    "odd": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "rule_ok": false,
+    "rule_reason": "4 odd vertices",
+    "brute_force_found_a_route": false,
+    "hierholzer_result": null,
+    "route_inspection_extra_crossings": 2,
+    "route_inspection_naive": 2
+  },
+  "kaliningrad_today": {
+    "bridges": 5,
+    "degrees": {
+      "A": 3,
+      "B": 2,
+      "C": 2,
+      "D": 3
+    },
+    "odd": [
+      "A",
+      "D"
+    ],
+    "rule_ok": true,
+    "rule_reason": "trail (starts at one odd vertex, ends at the other)",
+    "trail": [
+      "A",
+      "D",
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "trail_valid": true,
+    "route_inspection_extra_crossings": 1,
+    "route_inspection_naive": 1,
+    "note": "现有五座桥的度数由来源给出；具体连接是本文按该度数重建的模型"
+  },
+  "exhaustive_check": {
+    "graphs_checked": 432,
+    "agreements": 432,
+    "counterexamples": []
+  },
+  "route_inspection_counterexample": {
+    "graph": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "A"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ]
+    ],
+    "degrees": {
+      "A": 2,
+      "B": 2,
+      "C": 3,
+      "D": 2,
+      "E": 1
+    },
+    "odd": [
+      "C",
+      "E"
+    ],
+    "naive_rule": 1,
+    "correct_value": 2,
+    "why": "两个奇点 C 和 E 相距 2 条边；要一次走完所有边，必须把 C-D 和 D-E 各重走一遍，所以是 2 趟而不是 1 趟",
+    "note": "本文正文里的两张图恰好都能用单条边配对，所以简单公式碰巧算对；它并不普遍成立"
+  },
+  "one_stroke": [
+    {
+      "shape": "正方形（四条边）",
+      "edges": 4,
+      "degrees": {
+        "A": 2,
+        "B": 2,
+        "C": 2,
+        "D": 2
+      },
+      "odd": [],
+      "drawable_in_one_stroke": true,
+      "reason": "circuit (starts and ends at the same place)",
+      "trail": [
+        "A",
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "trail_valid": true
+    },
+    {
+      "shape": "信封（正方形加两条对角线）",
+      "edges": 6,
+      "degrees": {
+        "A": 3,
+        "B": 3,
+        "C": 3,
+        "D": 3
+      },
+      "odd": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "drawable_in_one_stroke": false,
+      "reason": "4 odd vertices",
+      "trail": null,
+      "trail_valid": false
+    },
+    {
+      "shape": "房子（正方形加屋顶）",
+      "edges": 6,
+      "degrees": {
+        "A": 3,
+        "B": 3,
+        "C": 2,
+        "D": 2,
+        "E": 2
+      },
+      "odd": [
+        "A",
+        "B"
+      ],
+      "drawable_in_one_stroke": true,
+      "reason": "trail (starts at one odd vertex, ends at the other)",
+      "trail": [
+        "A",
+        "E",
+        "B",
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "trail_valid": true
+    },
+    {
+      "shape": "三角形加一条尾巴",
+      "edges": 4,
+      "degrees": {
+        "A": 2,
+        "B": 2,
+        "C": 3,
+        "D": 1
+      },
+      "odd": [
+        "C",
+        "D"
+      ],
+      "drawable_in_one_stroke": true,
+      "reason": "trail (starts at one odd vertex, ends at the other)",
+      "trail": [
+        "C",
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "trail_valid": true
+    }
+  ],
+  "de_bruijn_unique": {
+    "sequence": "CGTAATGCC",
+    "k": 4,
+    "kmers": [
+      "CGTA",
+      "GTAA",
+      "TAAT",
+      "AATG",
+      "ATGC",
+      "TGCC"
+    ],
+    "graph_edges": 6,
+    "odd_vertices": [
+      "CGT",
+      "GCC"
+    ],
+    "rule": "directed trail from CGT to GCC",
+    "eulerian_path_exists": true,
+    "rebuilt": "CGTAATGCC",
+    "matches": true,
+    "trail": [
+      "CGT",
+      "GTA",
+      "TAA",
+      "AAT",
+      "ATG",
+      "TGC",
+      "GCC"
+    ],
+    "distinct_sequences": [
+      "CGTAATGCC"
+    ],
+    "how_many_sequences": 1
+  },
+  "de_bruijn_ambiguous": {
+    "sequence": "TGTATCTCTTCT",
+    "k": 4,
+    "kmers": [
+      "TGTA",
+      "GTAT",
+      "TATC",
+      "ATCT",
+      "TCTC",
+      "CTCT",
+      "TCTT",
+      "CTTC",
+      "TTCT"
+    ],
+    "graph_edges": 9,
+    "odd_vertices": [
+      "TCT",
+      "TGT"
+    ],
+    "rule": "directed trail from TGT to TCT",
+    "eulerian_path_exists": true,
+    "rebuilt": "TGTATCTTCTCT",
+    "matches": false,
+    "trail": [
+      "TGT",
+      "GTA",
+      "TAT",
+      "ATC",
+      "TCT",
+      "CTT",
+      "TTC",
+      "TCT",
+      "CTC",
+      "TCT"
+    ],
+    "distinct_sequences": [
+      "TGTATCTCTTCT",
+      "TGTATCTTCTCT"
+    ],
+    "how_many_sequences": 2
+  },
+  "assembly_ambiguity": {
+    "trials": 300,
+    "seed": 3,
+    "k": 4,
+    "distribution": {
+      "1": 294,
+      "2": 5,
+      "7": 1
+    },
+    "unique_solutions": 294,
+    "mean_ambiguity": 1.04,
+    "example_two_solutions": "TGTATCTCTTCT"
+  }
+}

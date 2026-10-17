@@ -2078,5 +2078,35 @@
     "images": 21,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-17-cantor-counting-infinity",
+    "title": "无穷也有大小：一条对角线怎样分出两种无穷",
+    "date": "2026-10-17",
+    "path": "articles/2026-10-17-cantor-counting-infinity/read.md",
+    "public_sha256": "6c4bf892357f80a4d53189297b073b3e82dbc5fecbea4a00b64635a598c5ff14",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-17-konigsberg-seven-bridges",
+    "title": "七座桥，为什么一座都走不通？",
+    "date": "2026-10-17",
+    "path": "articles/2026-10-17-konigsberg-seven-bridges/read.md",
+    "public_sha256": "a04c0daa3bc16704efc76001492257fef00fc137cddb1017fcc87ad8c15fef77",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-17-monty-hall-switch-or-stay",
+    "title": "换，还是不换？",
+    "date": "2026-10-17",
+    "path": "articles/2026-10-17-monty-hall-switch-or-stay/read.md",
+    "public_sha256": "44263b54123ed0d0a32b022953b39e11c74f2328d9f67f4a7e3510923d8407c9",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

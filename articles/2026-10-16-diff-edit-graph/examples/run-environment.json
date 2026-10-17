@@ -1,9 +1,11 @@
 {
   "recorded_at": "2026-10-16",
-  "python": "3.12.14",
+  "python": "3.14.7",
   "implementation": "CPython",
   "third_party_packages_for_algorithms": [],
-  "third_party_packages_for_figures": ["Pillow 12.3.0"],
+  "third_party_packages_for_figures": [
+    "Pillow 12.3.0"
+  ],
   "operating_system": "macOS (Darwin 27.0.0, arm64)",
   "cpu_note": "全部耗时只对本文这台机器成立，不能用于比较不同语言或不同实现",
   "determinism": "随机校验使用固定种子 5（Myers）、9（patience）、3（打乱副本）；算法本身不含随机性",

@@ -1,0 +1,155 @@
+[
+  {
+    "path": "assets/01-three-doors.png",
+    "width": 1062,
+    "height": 722,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "题目的起点：三扇门",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-host-constraint.png",
+    "width": 1062,
+    "height": 869,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "主持人的动作受什么约束",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-nine-cases.png",
+    "width": 1062,
+    "height": 1009,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "九种情形的完整枚举（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-three-vs-six.png",
+    "width": 1062,
+    "height": 656,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "不换与换的胜率（九种情形计数）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-why-not-fifty.png",
+    "width": 1062,
+    "height": 933,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "为什么「剩下两扇各一半」是错的",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-bayes.png",
+    "width": 1062,
+    "height": 927,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "贝叶斯逐步计算（精确分数）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-simulation.png",
+    "width": 1062,
+    "height": 1145,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "三组配置的模拟结果（程序实际输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-ignorant-host.png",
+    "width": 1062,
+    "height": 928,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "不知情主持人把 2/3 变回 1/2（实测）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-hundred-doors.png",
+    "width": 1062,
+    "height": 731,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "一百扇门版本与实测",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-formula.png",
+    "width": 1062,
+    "height": 854,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "一般公式与四组取值",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-conditioning.png",
+    "width": 1062,
+    "height": 854,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "按主持人实际开的门分别计算（精确分数）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-why-conditioning.png",
+    "width": 1062,
+    "height": 1007,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "主持人策略如何改变条件概率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-convergence.png",
+    "width": 1062,
+    "height": 1108,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "换的胜率随试验次数的收敛（程序实际输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-history.png",
+    "width": 1062,
+    "height": 932,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "题目的来源与等价问题",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-furor.png",
+    "width": 1062,
+    "height": 855,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "专栏风波与 Erdős、鸽子的对照",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-three-prisoners.png",
+    "width": 1062,
+    "height": 900,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "等价问题：三个囚犯",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-try-it.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的四个条件",
+    "identity": "原创教学示意"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "path": "assets/01-hotel.png",
+    "width": 1062,
+    "height": 610,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "希尔伯特旅馆的起点",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-hotel-one-guest.png",
+    "width": 1062,
+    "height": 826,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "无穷旅馆的第一夜（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-hotel-bus.png",
+    "width": 1062,
+    "height": 913,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "无穷旅馆的第二夜（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-pairing.png",
+    "width": 1062,
+    "height": 1004,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "「一样多」的定义：能不能一一配对",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-evens.png",
+    "width": 1062,
+    "height": 1143,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "自然数与偶数的配对（程序校验）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-integers.png",
+    "width": 1062,
+    "height": 960,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "自然数与整数的之字形配对",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-rationals.png",
+    "width": 1062,
+    "height": 1328,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "用网格对角线数遍所有分数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-diagonal-table.png",
+    "width": 1062,
+    "height": 755,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "假设的「所有小数」列表与它的对角线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-new-number.png",
+    "width": 1062,
+    "height": 1115,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "对角线造出的新数逐行核对（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-iteration.png",
+    "width": 1062,
+    "height": 743,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "加进去再构造一次，仍然逃出（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-no-nines.png",
+    "width": 1062,
+    "height": 1022,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "为什么对角线要避开 0 和 9",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-conclusion.png",
+    "width": 1062,
+    "height": 1091,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "对角线论证的结论",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-power-set.png",
+    "width": 1062,
+    "height": 910,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "子集个数总是超过元素个数（程序输出）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-binary.png",
+    "width": 1062,
+    "height": 749,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "二进制串与子集是同一件事（程序核对）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-two-infinities.png",
+    "width": 1062,
+    "height": 932,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "可数无穷与不可数无穷",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-history.png",
+    "width": 1062,
+    "height": 965,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "康托尔的结论与当年的反对",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-turing.png",
+    "width": 1062,
+    "height": 1097,
+    "min_label_px": 42,
+    "effective_min_at_354px": 14.0,
+    "purpose": "对角线论证与停机问题是同一个形状",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-try-it.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的四个条件",
+    "identity": "原创教学示意"
+  }
+]

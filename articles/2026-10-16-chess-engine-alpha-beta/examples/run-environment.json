@@ -1,9 +1,11 @@
 {
   "recorded_at": "2026-10-16",
-  "python": "3.12.14",
+  "python": "3.14.7",
   "implementation": "CPython",
   "third_party_packages_for_numbers": [],
-  "third_party_packages_for_figures": ["Pillow 12.3.0"],
+  "third_party_packages_for_figures": [
+    "Pillow 12.3.0"
+  ],
   "operating_system": "macOS (Darwin 27.0.0, arm64)",
   "cpu_note": "全部耗时只对本文这台机器成立，不能用于比较不同实现或不同硬件",
   "determinism": "Zobrist 随机表使用固定种子 20261016；走法顺序打乱使用固定种子 7；碰撞检查使用固定种子 11",

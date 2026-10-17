@@ -1,0 +1,58 @@
+{
+  "pairings": [
+    {
+      "name": "自然数 ↔ 偶数：n 对应 2n",
+      "checked": 1000,
+      "distinct": 1000,
+      "injective": true,
+      "first_ten": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    {
+      "name": "自然数 ↔ 整数：之字形",
+      "checked": 1000,
+      "distinct": 1000,
+      "injective": true,
+      "first_ten": [
+        0,
+        -1,
+        1,
+        -2,
+        2,
+        -3,
+        3,
+        -4,
+        4,
+        -5
+      ],
+      "round_trip_ok": true
+    }
+  ],
+  "pairs": {
+    "name": "自然数 ↔ 自然数对",
+    "checked": 1600,
+    "distinct": 1600,
+    "injective": true,
+    "round_trip_ok": true,
+    "note": "把 (分子, 分母) 两两配成一个编号，就得到有理数的枚举"
+  },
+  "rationals": {
+    "checked": 60,
+    "first_twelve": [
+      {
+        "index": 0,
+        "value": "1"
+      },
+      {
+        "index": 1,
+    

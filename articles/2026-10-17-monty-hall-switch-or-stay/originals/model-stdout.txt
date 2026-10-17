@@ -1,0 +1,66 @@
+{
+  "exact_three_doors": {
+    "cases": 9,
+    "stay_wins": 3,
+    "switch_wins": 6,
+    "stay_rate": "1/3",
+    "switch_rate": "2/3",
+    "note": "主持人知道车在哪，且必须开一只羊"
+  },
+  "exact_three_doors_cases": [
+    {
+      "car": 0,
+      "pick": 0,
+      "host_opens": 1,
+      "switch_to": 2,
+      "stay_wins": true,
+      "switch_wins": false
+    },
+    {
+      "car": 0,
+      "pick": 1,
+      "host_opens": 2,
+      "switch_to": 0,
+      "stay_wins": false,
+      "switch_wins": true
+    },
+    {
+      "car": 0,
+      "pick": 2,
+      "host_opens": 1,
+      "switch_to": 0,
+      "stay_wins": false,
+      "switch_wins": true
+    },
+    {
+      "car": 1,
+      "pick": 0,
+      "host_opens": 2,
+      "switch_to": 1,
+      "stay_wins": false,
+      "switch_wins": true
+    },
+    {
+      "car": 1,
+      "pick": 1,
+      "host_opens": 0,
+      "switch_to": 2,
+      "stay_wins": true,
+      "switch_wins": false
+    },
+    {
+      "car": 1,
+      "pick": 2,
+      "host_opens": 0,
+      "switch_to": 1,
+      "stay_wins": false,
+      "switch_wins": true
+    },
+    {
+      "car": 2,
+      "pick": 0,
+      "host_opens": 1,
+      "switch_to": 2,
+      "stay_wins": false,
+      "switch_wins": true
+    
