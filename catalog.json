@@ -618,7 +618,9 @@
     "public_sha256": "97cbb76fc60abf29e575739eda52cdc9975acf96f8b345efca8a24b6c9fc4cd6",
     "images": 7,
     "status": "archived_article",
-    "related_versions": []
+    "related_versions": [
+      "2026-10-23-hopper-early-compilers"
+    ]
   },
   {
     "id": "2026-10-10-lamport-causal-clocks",
@@ -717,7 +719,9 @@
     "public_sha256": "11fd88b5ee1457a9a32f54fec1a51a4abdb2f287d3b88a38eeab7e2a925c6cc3",
     "images": 8,
     "status": "archived_article",
-    "related_versions": []
+    "related_versions": [
+      "2026-10-23-quaternion-rotation-steps"
+    ]
   },
   {
     "id": "2026-10-10-raft-shared-log",
@@ -973,7 +977,9 @@
     "public_sha256": "c277b909d3cddda34c83e3873c166503f649b3353883adcbf435f39c604f12d3",
     "images": 7,
     "status": "archived_article",
-    "related_versions": []
+    "related_versions": [
+      "2026-10-23-ccd-inverse-kinematics"
+    ]
   },
   {
     "id": "2026-10-11-kalman-trusting-noise",
@@ -1406,7 +1412,9 @@
     "series_order": 5,
     "batch": "student-exploration-30",
     "status": "archived_article",
-    "related_versions": [],
+    "related_versions": [
+      "2026-10-23-fencing-stale-writers"
+    ],
     "title": "锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-leases-fencing-old-worker/read.md",
@@ -2108,5 +2116,343 @@
     "images": 17,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-23-aba-reused-address",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "明明又是 A，为什么这次比较不算数？把 ABA 问题放慢到六步",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-aba-reused-address/read.md",
+    "public_sha256": "8cf64019310579196056bd87e63c3e7258e973a3f4479593f00886d3bba3b06f",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-abrash-software-rendering",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "一面墙没变，为什么还要算第二遍？Abrash笔下的Quake表面缓存",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-abrash-software-rendering/read.md",
+    "public_sha256": "d6f9c5bd76f2b65438310583c5cc6ca85ff25c619a783f3606a81e8cb4c30287",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-alias-weighted-sampling",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "先把概率摆整齐，抽签就只剩一步：Alias method 的整数实验",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-alias-weighted-sampling/read.md",
+    "public_sha256": "81f10489a080fd55ba48dbd5bd646c1e8ff7bdc3592141375f2361a16f087905",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-arithmetic-coding-intervals",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "三个字母，为什么能变成一个小数？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-arithmetic-coding-intervals/read.md",
+    "public_sha256": "36a8ebefe5f47267739da4fd6169c18a1ef94ea708df9a931ef26c8872b9f965",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-backus-fortran-history",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "写得像公式，还要跑得像手写：Backus 团队面对的那道难题",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-backus-fortran-history/read.md",
+    "public_sha256": "aab2be82beb067155da36b106525424762dcbd27b83cf97e4942069fed492b75",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-ccd-inverse-kinematics",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [
+      "2026-10-11-inverse-kinematics-reaching"
+    ],
+    "status": "archived_article",
+    "title": "手够不到那个点，为什么不让关节一个个试？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-ccd-inverse-kinematics/read.md",
+    "public_sha256": "d3d7edbc3c81f6b3f6753e68806076e99ebdaafbf2f2445eb9c8ebb57f66a1ca",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-conjugate-gradient-directions",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "共轭梯度：每一步都下坡，为什么还要记住上一步的方向？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-conjugate-gradient-directions/read.md",
+    "public_sha256": "d649ded0775fb6e3a4feb72b6e3de0e4959dc770e821de20b8cd1eea247f9364",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-delta-debugging",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "一万行输入出了错，先别盯一万行：把失败样例一点点缩小",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-delta-debugging/read.md",
+    "public_sha256": "a8e51f4976d3f1e7b3b52740e0aa6218e4d3f161e7a312ada64a266ed2097ce6",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-dining-philosophers-progress",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "五个人都很守规矩，为什么谁也吃不上？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-dining-philosophers-progress/read.md",
+    "public_sha256": "7a9eed4e6596f35f30a4a1428746b057219469861c1f6bb97a9321f4d31a9d9f",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-engelbart-nls-history",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "不只是鼠标：1968年的NLS，怎样让两个人谈同一处知识",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-engelbart-nls-history/read.md",
+    "public_sha256": "94790d9efbb1cbd4eb772850dbfd3dba1f7bff8c97d3850ce10e2b88df4ca56f",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-event-sourcing-replay",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "库存只剩5件，能不能知道它是怎样变成5的？从一本事件账本讲起",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-event-sourcing-replay/read.md",
+    "public_sha256": "364083f6bcab9f2653747a71506a5f5923b8e5664430b4554ffca0d80bbfdb04",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-fencing-stale-writers",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [
+      "2026-10-12-leases-fencing-old-worker"
+    ],
+    "status": "archived_article",
+    "title": "旧领导者醒了，为什么不能让它继续写？租约与栅栏令牌",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-fencing-stale-writers/read.md",
+    "public_sha256": "e7a2ea694761960895d55a3c4f6da01952584096a956ea9cc9239ab21087d87c",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-hazard-pointer-reclamation",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "节点已经删掉，为什么还不能free？用一台小状态机拆开Hazard Pointers",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-hazard-pointer-reclamation/read.md",
+    "public_sha256": "fe44059ae3cc88c10d19a6b89376de009eafce5d9a819fcb261163cd78fb59eb",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-hopper-early-compilers",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [
+      "2026-10-10-hopper-compilers"
+    ],
+    "status": "archived_article",
+    "title": "Grace Hopper与早期编译：让电脑替人搬代码，究竟改变了什么？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-hopper-early-compilers/read.md",
+    "public_sha256": "b88fc8ff5b7f42f896afb026d34ce22d7afe8c9d07a7288b61538d082bbec540",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-incremental-build-dependencies",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "只改一行，为什么又构建一遍？把增量构建拆成可检查的计算",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-incremental-build-dependencies/read.md",
+    "public_sha256": "f2657cfcb1e26231e5c1de1cd45ec979bb2658bc83cb77fb803320c98ffca07e",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-iterative-deepening-search",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "迭代加深搜索：为什么宁愿重走几遍，也不把路全记下来？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-iterative-deepening-search/read.md",
+    "public_sha256": "7510869656424fc590cc7fd43feff65b44ff2e38fcd23e0c201d730a819ff9c6",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-karatsuba-three-products",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "乘法拆小以后，为什么反而少算了一次？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-karatsuba-three-products/read.md",
+    "public_sha256": "e69699cb54762c3977b79dd5b71b2afedfd430590cc5c89ce4eaf69e8bdc0ffb",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-knuth-tex-line-breaking",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "Knuth 为什么停下写书，去研究一行字在哪里结束？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-knuth-tex-line-breaking/read.md",
+    "public_sha256": "77d117e799e0d86e7c67a093891707b4abc14563957a21aa73e792d6810840f5",
+    "images": 11
+  },
+  {
+    "id": "2026-10-23-liskov-clu-abstraction",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "Liskov与CLU：换掉数据结构，为什么调用者可以一行不改？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-liskov-clu-abstraction/read.md",
+    "public_sha256": "3ee9a63b3db8c1165e779ae4fbac15e0cfae1bf82f39f4bf35ca888a331e38b5",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-newton-root-finding",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "切线明明指向答案，牛顿法为什么还会绕圈？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-newton-root-finding/read.md",
+    "public_sha256": "d002c2052235c7a68e87b06d59faf5cdad09f5958cf2efabbe2196d8d77cc6bb",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-perspective-depth-buffer",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "一块屏幕位置，为什么只记一个深度？从遮挡到 Z-fighting",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-perspective-depth-buffer/read.md",
+    "public_sha256": "cbe0b994531ba2d44c062a2149898095691a05bd2e850322734736fd28b2ef17",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-poisson-disk-sampling",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "泊松圆盘采样：随机撒点，怎样不挤成一团？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-poisson-disk-sampling/read.md",
+    "public_sha256": "7ce5633dfa5a68e8fa28bbcb1fae7affc09fb697d445b89f490058a8cc4d12bf",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-quaternion-rotation-steps",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [
+      "2026-10-10-quaternion-rotation"
+    ],
+    "status": "archived_article",
+    "title": "四元数旋转：相机抬到头顶，为什么两个旋钮突然像同一个？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-quaternion-rotation-steps/read.md",
+    "public_sha256": "18aafe5e4add80702877235917fb7545031dd81fcc9c9d208b2bfd66f4c9b1ee",
+    "images": 15
+  },
+  {
+    "id": "2026-10-23-raster-edge-functions",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "三角形里究竟哪些像素？从三个边测试到“这条边归谁”",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-raster-edge-functions/read.md",
+    "public_sha256": "bdfb5fb2afefc7c4ede5a59ca65e9beff55d777239ba9fec802011da6079fdfe",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-robin-hood-probing",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "Robin Hood 哈希：把住得近的键请走，为什么查找反而更稳？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-robin-hood-probing/read.md",
+    "public_sha256": "d88b4ffef24123af682cbfee4a151d6f1390a670b73f34ae24743de961908d7f",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-seam-carving-paths",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "把图片缩窄，却不把所有东西一起压扁：沿着一条像素缝，走进动态规划",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-seam-carving-paths/read.md",
+    "public_sha256": "e6a2de77e85a68c8d814d0363c4ad5b3706588b69c4c69d27d0e997c843105cc",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-svd-low-rank",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "一张矩阵，怎样拆成一层层有用的结构？从方格到奇异值分解",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-svd-low-rank/read.md",
+    "public_sha256": "b03ec7a2e2554bf17740a60aa7df84cf43755647d5d90655d56e66ce480b36fe",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-sweep-line-events",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "扫描线：一万个时间段，怎样找到最拥挤的那一刻？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-sweep-line-events/read.md",
+    "public_sha256": "c486a3ce5b2eed41f2b47553493de9afbf324c41135150991ed1589aecf67004",
+    "images": 16
+  },
+  {
+    "id": "2026-10-23-treap-random-priorities",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "Treap：给搜索树一副骰子，为什么反而不容易长歪？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-treap-random-priorities/read.md",
+    "public_sha256": "c70a09c3df72c000a08c384017e723b0bf74dfb08f38f1fa3eaf749318a146d9",
+    "images": 15
+  },
+  {
+    "id": "2026-10-23-vector-clock-causality",
+    "collection": "student-exploration-series-2026-10-11",
+    "related_versions": [],
+    "status": "archived_article",
+    "title": "三个数字，为什么比一个时间戳多知道这么多？",
+    "date": "2026-10-23",
+    "path": "articles/2026-10-23-vector-clock-causality/read.md",
+    "public_sha256": "4b974d9f97f4d8fdf5eb6309ab9b9c5a3699ad1f445e04bfa107d6f5fcd1b15a",
+    "images": 16
   }
 ]

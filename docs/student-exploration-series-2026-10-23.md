@@ -1,0 +1,36 @@
+# 从算法到技术史：30篇探索文章
+
+2026年10月23日归档。以下为30篇完整成稿版本；与旧稿同题的文章保留版本关联，不把版本数当作独立主题数。
+
+- [三个字母，为什么能变成一个小数？](../articles/2026-10-23-arithmetic-coding-intervals/read.md)
+- [先把概率摆整齐，抽签就只剩一步：Alias method 的整数实验](../articles/2026-10-23-alias-weighted-sampling/read.md)
+- [乘法拆小以后，为什么反而少算了一次？](../articles/2026-10-23-karatsuba-three-products/read.md)
+- [Treap：给搜索树一副骰子，为什么反而不容易长歪？](../articles/2026-10-23-treap-random-priorities/read.md)
+- [Robin Hood 哈希：把住得近的键请走，为什么查找反而更稳？](../articles/2026-10-23-robin-hood-probing/read.md)
+- [迭代加深搜索：为什么宁愿重走几遍，也不把路全记下来？](../articles/2026-10-23-iterative-deepening-search/read.md)
+- [Grace Hopper与早期编译：让电脑替人搬代码，究竟改变了什么？](../articles/2026-10-23-hopper-early-compilers/read.md)
+- [Knuth 为什么停下写书，去研究一行字在哪里结束？](../articles/2026-10-23-knuth-tex-line-breaking/read.md)
+- [扫描线：一万个时间段，怎样找到最拥挤的那一刻？](../articles/2026-10-23-sweep-line-events/read.md)
+- [Liskov与CLU：换掉数据结构，为什么调用者可以一行不改？](../articles/2026-10-23-liskov-clu-abstraction/read.md)
+- [泊松圆盘采样：随机撒点，怎样不挤成一团？](../articles/2026-10-23-poisson-disk-sampling/read.md)
+- [四元数旋转：相机抬到头顶，为什么两个旋钮突然像同一个？](../articles/2026-10-23-quaternion-rotation-steps/read.md)
+- [一块屏幕位置，为什么只记一个深度？从遮挡到 Z-fighting](../articles/2026-10-23-perspective-depth-buffer/read.md)
+- [三角形里究竟哪些像素？从三个边测试到“这条边归谁”](../articles/2026-10-23-raster-edge-functions/read.md)
+- [把图片缩窄，却不把所有东西一起压扁：沿着一条像素缝，走进动态规划](../articles/2026-10-23-seam-carving-paths/read.md)
+- [一面墙没变，为什么还要算第二遍？Abrash笔下的Quake表面缓存](../articles/2026-10-23-abrash-software-rendering/read.md)
+- [手够不到那个点，为什么不让关节一个个试？](../articles/2026-10-23-ccd-inverse-kinematics/read.md)
+- [写得像公式，还要跑得像手写：Backus 团队面对的那道难题](../articles/2026-10-23-backus-fortran-history/read.md)
+- [切线明明指向答案，牛顿法为什么还会绕圈？](../articles/2026-10-23-newton-root-finding/read.md)
+- [共轭梯度：每一步都下坡，为什么还要记住上一步的方向？](../articles/2026-10-23-conjugate-gradient-directions/read.md)
+- [一张矩阵，怎样拆成一层层有用的结构？从方格到奇异值分解](../articles/2026-10-23-svd-low-rank/read.md)
+- [明明又是 A，为什么这次比较不算数？把 ABA 问题放慢到六步](../articles/2026-10-23-aba-reused-address/read.md)
+- [节点已经删掉，为什么还不能free？用一台小状态机拆开Hazard Pointers](../articles/2026-10-23-hazard-pointer-reclamation/read.md)
+- [五个人都很守规矩，为什么谁也吃不上？](../articles/2026-10-23-dining-philosophers-progress/read.md)
+- [三个数字，为什么比一个时间戳多知道这么多？](../articles/2026-10-23-vector-clock-causality/read.md)
+- [旧领导者醒了，为什么不能让它继续写？租约与栅栏令牌](../articles/2026-10-23-fencing-stale-writers/read.md)
+- [不只是鼠标：1968年的NLS，怎样让两个人谈同一处知识](../articles/2026-10-23-engelbart-nls-history/read.md)
+- [一万行输入出了错，先别盯一万行：把失败样例一点点缩小](../articles/2026-10-23-delta-debugging/read.md)
+- [只改一行，为什么又构建一遍？把增量构建拆成可检查的计算](../articles/2026-10-23-incremental-build-dependencies/read.md)
+- [库存只剩5件，能不能知道它是怎样变成5的？从一本事件账本讲起](../articles/2026-10-23-event-sourcing-replay/read.md)
+
+原创正文采用CC BY 4.0；图片、代码和第三方材料按各篇来源说明。共473张正文配图；四元数文章的Shoemake原图仅提供原站链接，不随公开仓库归档。
