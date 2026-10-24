@@ -1,0 +1,206 @@
+[
+  {
+    "file": "01-job.png",
+    "width": 1062,
+    "height": 706,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "先把一次具体任务需要与不需要的资源画开。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "02-deputy.png",
+    "width": 1062,
+    "height": 579,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "混淆代理人的关键是请求指定对象时悄悄借用了另一来源的权力。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "03-reference.png",
+    "width": 1062,
+    "height": 642,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "能力同时指向对象并限定动作，不是可任意换目标的路径字符串。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "04-slots.png",
+    "width": 1062,
+    "height": 530,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "同一个数字3在不同主体表里可以指向不同对象；猜数不会生成权利。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "05-attenuation.png",
+    "width": 1062,
+    "height": 732,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "内层权利集合是外层子集；复制引用与扩大权限不是一回事。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "06-compartments.png",
+    "width": 1062,
+    "height": 569,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "让转换器接触照片与输出，统计任务保留在另一隔间，减少不相关权力。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "07-revoke.png",
+    "width": 1062,
+    "height": 578,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "间接层保存开关，关闭之后阻止后续经此层发起的操作。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "08-direct.png",
+    "width": 1062,
+    "height": 666,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "撤销只覆盖经过门的路径，不撤销已泄露直达权或已经复制的数据。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "09-directory.png",
+    "width": 1062,
+    "height": 739,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "目录能力可能允许命名其范围内多个对象；按任务选择授权粒度。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "10-tests.png",
+    "width": 1062,
+    "height": 706,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "五种调用结果由results.json读取，未操作真实文件或账号。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "11-identity.png",
+    "width": 1062,
+    "height": 709,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "避免把能力引用等同于登录凭据，区分身份识别和具体操作授权。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "12-revoke-test.png",
+    "width": 1062,
+    "height": 530,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "展示转发门关闭后的拒绝，以及已授予直接引用仍可使用的反例。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  }
+]

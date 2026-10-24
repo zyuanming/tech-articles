@@ -1,0 +1,131 @@
+[
+  {
+    "file": "01-target.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创推导或模型输出",
+    "purpose": "分开输入、程序与末状态要求",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "02-forward.png",
+    "width": 840,
+    "height": 647,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创推导或模型输出",
+    "purpose": "相邻输入4和5跨越成功门槛",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "03-back-one.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创推导或模型输出",
+    "purpose": "从输出条件替换出输入条件",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "04-back-two.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创推导或模型输出",
+    "purpose": "倒推条件的顺序与执行顺序相反",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "05-weakness.png",
+    "width": 840,
+    "height": 520,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创推导或模型输出",
+    "purpose": "集合包含说明弱条件不等于更不可靠",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "06-boundary.png",
+    "width": 840,
+    "height": 700,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创推导或模型输出",
+    "purpose": "具体边界例与一般不等式证明相互对照",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "07-square.png",
+    "width": 840,
+    "height": 619,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创推导或模型输出",
+    "purpose": "后置条件的原像可以是不连续集合",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "08-erase.png",
+    "width": 840,
+    "height": 614,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创推导或模型输出",
+    "purpose": "多对一操作仍可倒推条件，无需恢复唯一旧值",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "09-branch.png",
+    "width": 840,
+    "height": 615,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创推导或模型输出",
+    "purpose": "条件分别限制进入各分支的状态",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "10-all-choices.png",
+    "width": 840,
+    "height": 545,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创推导或模型输出",
+    "purpose": "保证全部许可选择成功不同于存在一条成功路",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "11-loop.png",
+    "width": 840,
+    "height": 715,
+    "min_font_px": 40,
+    "effective_font_at_354": 16.86,
+    "identity": "原创推导或模型输出",
+    "purpose": "非负整数严格减少同时给出保持性与终止理由",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "12-nontermination.png",
+    "width": 840,
+    "height": 695,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创推导或模型输出",
+    "purpose": "部分正确性不能代替必定终止",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "originals/photos/dijkstra.jpg",
+    "width": 1200,
+    "height": 1600,
+    "min_font_px": "NOT_MEASURED",
+    "identity": "真实肖像：Edsger W. Dijkstra，Hamilton Richards摄",
+    "purpose": "展示本文关键人物真实身份",
+    "geometry_and_pixel_checks": "NOT_APPLICABLE_PHOTO"
+  }
+]

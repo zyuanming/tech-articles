@@ -1,0 +1,1050 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 758,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "连接方式对比",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "同一地面，两种连接",
+        "box": [
+          35,
+          42,
+          431,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "刚性固定",
+        "box": [
+          150,
+          683,
+          318,
+          723
+        ],
+        "size": 42
+      },
+      {
+        "text": "柔性悬挂",
+        "box": [
+          605,
+          683,
+          773,
+          723
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 858,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "模型和坐标定义",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "支撑输入 y，质量块输出 x",
+        "box": [
+          35,
+          42,
+          540,
+          90
+        ],
+        "size": 44
+      },
+      {
+        "text": "支撑 y",
+        "box": [
+          370,
+          133,
+          485,
+          179
+        ],
+        "size": 42
+      },
+      {
+        "text": "质量 m；位置 x",
+        "box": [
+          300,
+          623,
+          589,
+          664
+        ],
+        "size": 42
+      },
+      {
+        "text": "水平向右为正",
+        "box": [
+          300,
+          783,
+          552,
+          823
+        ],
+        "size": 42
+      },
+      {
+        "text": "弹簧 k",
+        "box": [
+          180,
+          363,
+          297,
+          403
+        ],
+        "size": 42
+      },
+      {
+        "text": "阻尼 b",
+        "box": [
+          710,
+          364,
+          829,
+          403
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "稳态时间序列：0.2Hz",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "慢慢移动：几乎跟着支撑走",
+        "box": [
+          35,
+          42,
+          563,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "时间 / s",
+        "box": [
+          751,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "位移 / 输入振幅",
+        "box": [
+          35,
+          153,
+          322,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "-1.2",
+        "box": [
+          42.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1.2",
+        "box": [
+          57.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "7.5",
+        "box": [
+          481.0,
+          583.0,
+          539.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "15",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "灰：支撑    蓝：质量块",
+        "box": [
+          100,
+          753,
+          516,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "稳态时间序列：1Hz",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "共振区：输出可以比输入更大",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "时间 / s",
+        "box": [
+          751,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "位移 / 输入振幅",
+        "box": [
+          35,
+          153,
+          322,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "-6",
+        "box": [
+          77.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "6",
+        "box": [
+          92.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1.5",
+        "box": [
+          481.0,
+          583.0,
+          539.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "3",
+        "box": [
+          878.0,
+          583.0,
+          901.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "灰：支撑    蓝：质量块",
+        "box": [
+          100,
+          753,
+          516,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "稳态时间序列：5Hz",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "快速输入：质量块来不及跟随",
+        "box": [
+          35,
+          42,
+          607,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "时间 / s",
+        "box": [
+          751,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "位移 / 输入振幅",
+        "box": [
+          35,
+          153,
+          322,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "-1.2",
+        "box": [
+          42.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1.2",
+        "box": [
+          57.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.3",
+        "box": [
+          481.0,
+          583.0,
+          539.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.6",
+        "box": [
+          861.0,
+          583.0,
+          919.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "灰：支撑    蓝：质量块",
+        "box": [
+          100,
+          753,
+          516,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "单级传递曲线",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "频率决定隔振还是放大",
+        "box": [
+          35,
+          42,
+          475,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "频率比 r = f/f0",
+        "box": [
+          630,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "输出 / 输入振幅",
+        "box": [
+          35,
+          153,
+          322,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "3",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "6",
+        "box": [
+          92.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2.5",
+        "box": [
+          481.0,
+          583.0,
+          539.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "5",
+        "box": [
+          878.0,
+          583.0,
+          901.0,
+          615.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 1480,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "阻尼强弱比较",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "阻尼：压峰值，也增加高频通路",
+        "box": [
+          35,
+          42,
+          651,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "频率比 r",
+        "box": [
+          738,
+          645,
+          890,
+          685
+        ],
+        "size": 42
+      },
+      {
+        "text": "输出 / 输入振幅",
+        "box": [
+          35,
+          153,
+          322,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "3",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "6",
+        "box": [
+          92.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "5",
+        "box": [
+          498.0,
+          583.0,
+          521.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "10",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：0.1     橙：0.5",
+        "box": [
+          170,
+          753,
+          502,
+          793
+        ],
+        "size": 42
+      },
+      {
+        "text": "频率比 r",
+        "box": [
+          738,
+          1405,
+          890,
+          1445
+        ],
+        "size": 42
+      },
+      {
+        "text": "高频局部放大",
+        "box": [
+          35,
+          913,
+          287,
+          954
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          1306.0,
+          115.0,
+          1339.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.3",
+        "box": [
+          57.0,
+          1146.0,
+          115.0,
+          1179.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.6",
+        "box": [
+          57.0,
+          986.0,
+          115.0,
+          1019.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          118.0,
+          1343.0,
+          141.0,
+          1375.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "6",
+        "box": [
+          498.0,
+          1343.0,
+          521.0,
+          1376.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "10",
+        "box": [
+          867.0,
+          1343.0,
+          914.0,
+          1376.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 939,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "多级悬挂主链",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "四级主链：下级也会反作用于上级",
+        "box": [
+          35,
+          42,
+          695,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "第 1 级",
+        "box": [
+          680,
+          283,
+          806,
+          323
+        ],
+        "size": 42
+      },
+      {
+        "text": "第 2 级",
+        "box": [
+          680,
+          433,
+          806,
+          473
+        ],
+        "size": 42
+      },
+      {
+        "text": "第 3 级",
+        "box": [
+          680,
+          583,
+          806,
+          623
+        ],
+        "size": 42
+      },
+      {
+        "text": "第 4 级",
+        "box": [
+          680,
+          733,
+          806,
+          773
+        ],
+        "size": 42
+      },
+      {
+        "text": "底端：测试镜",
+        "box": [
+          290,
+          862,
+          542,
+          904
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "两级耦合频响",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "两级必须联立求解",
+        "box": [
+          35,
+          42,
+          387,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "频率 / Hz",
+        "box": [
+          720,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "振幅比的 log10",
+        "box": [
+          35,
+          153,
+          320,
+          200
+        ],
+        "size": 42
+      },
+      {
+        "text": "-4",
+        "box": [
+          77.0,
+          547.0,
+          115.0,
+          578.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "-1",
+        "box": [
+          77.0,
+          387.0,
+          115.0,
+          418.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          226.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "5",
+        "box": [
+          498.0,
+          583.0,
+          521.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "10",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：单级    绿：两级",
+        "box": [
+          130,
+          753,
+          504,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 709,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "限制与其他扰动",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "悬挂只处理特定的扰动路径",
+        "box": [
+          35,
+          42,
+          563,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "地面",
+        "box": [
+          60,
+          203,
+          144,
+          243
+        ],
+        "size": 42
+      },
+      {
+        "text": "悬挂",
+        "box": [
+          390,
+          203,
+          474,
+          242
+        ],
+        "size": 42
+      },
+      {
+        "text": "镜子",
+        "box": [
+          740,
+          202,
+          824,
+          244
+        ],
+        "size": 42
+      },
+      {
+        "text": "材料热运动",
+        "box": [
+          110,
+          433,
+          320,
+          473
+        ],
+        "size": 42
+      },
+      {
+        "text": "其他非支撑路径",
+        "box": [
+          100,
+          633,
+          394,
+          674
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "../originals/photos/suspension.jpg",
+    "width": 2250,
+    "height": 3000,
+    "identity": "Caltech/MIT/LIGO Laboratory 真实悬挂照片",
+    "min_font_px": "NOT_MEASURED",
+    "purpose": "实际多级悬挂与光学元件"
+  }
+]

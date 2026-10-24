@@ -1,0 +1,130 @@
+[
+  {
+    "file": "01-loop.png",
+    "width": 840,
+    "height": 564,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "把开关网络放回电源与负载回路",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "02-relay-0.png",
+    "width": 840,
+    "height": 614,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "区分控制电流、机械作用与触点导通状态",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "03-relay-1.png",
+    "width": 840,
+    "height": 614,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "区分控制电流、机械作用与触点导通状态",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "04-series.png",
+    "width": 840,
+    "height": 685,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "四种状态逐个沿导线走，右框为导通值",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "05-parallel.png",
+    "width": 840,
+    "height": 586,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "分支结构与至少一条完整路径的含义",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "06-before.png",
+    "width": 840,
+    "height": 683,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "同一输入重复出现，不等于同一个实体触点",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "07-after.png",
+    "width": 840,
+    "height": 697,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "分配律在同一电路对象上的几何意义",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "08-table.png",
+    "width": 840,
+    "height": 819,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "穷举八态验证两个表达式而非只挑一个成功输入",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "09-counterexample.png",
+    "width": 840,
+    "height": 540,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "一个反例足以否决错误简化",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "10-complement.png",
+    "width": 840,
+    "height": 623,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "常开常闭按线圈未激励的正常位置命名",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "11-xor.png",
+    "width": 840,
+    "height": 670,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "从自然语言恰好一个反向合成接线",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "12-delay.png",
+    "width": 840,
+    "height": 948,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "不同接点切换时刻展示稳态逻辑模型的边界",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "originals/photos/shannon.jpg",
+    "width": 284,
+    "height": 400,
+    "min_font_px": "NOT_MEASURED",
+    "identity": "真实肖像：Claude Shannon；Konrad Jacobs摄，©MFO",
+    "purpose": "展示本文关键人物真实身份"
+  }
+]

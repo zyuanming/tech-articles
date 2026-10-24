@@ -1,0 +1,986 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 889,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "镜片分段与中央开口",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "十八段围成主镜，中心留有开口",
+        "box": [
+          35,
+          41,
+          651,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "布局示意，非尺寸图",
+        "box": [
+          235,
+          813,
+          613,
+          854
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 769,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "相同入射方向与不同镜面反射方向",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "方向有偏差：同一颗星出现两个像",
+        "box": [
+          35,
+          42,
+          695,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "镜片",
+        "box": [
+          200,
+          692,
+          284,
+          734
+        ],
+        "size": 42
+      },
+      {
+        "text": "探测面",
+        "box": [
+          680,
+          693,
+          806,
+          733
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 1151,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "相长相消的连续波形",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "先加电场，再算强度",
+        "box": [
+          35,
+          42,
+          431,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "周期进度",
+        "box": [
+          722,
+          575,
+          890,
+          616
+        ],
+        "size": 42
+      },
+      {
+        "text": "同相：振幅加倍",
+        "box": [
+          35,
+          173,
+          329,
+          214
+        ],
+        "size": 42
+      },
+      {
+        "text": "-2",
+        "box": [
+          77.0,
+          476.0,
+          115.0,
+          508.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          361.0,
+          115.0,
+          394.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          246.0,
+          115.0,
+          278.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          513.0,
+          141.0,
+          546.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          498.0,
+          513.0,
+          521.0,
+          544.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          878.0,
+          513.0,
+          901.0,
+          545.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "周期进度",
+        "box": [
+          722,
+          1075,
+          890,
+          1116
+        ],
+        "size": 42
+      },
+      {
+        "text": "反相：振幅抵消",
+        "box": [
+          35,
+          673,
+          329,
+          713
+        ],
+        "size": 42
+      },
+      {
+        "text": "-2",
+        "box": [
+          77.0,
+          976.0,
+          115.0,
+          1008.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          861.0,
+          115.0,
+          894.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          746.0,
+          115.0,
+          778.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          1013.0,
+          141.0,
+          1046.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          498.0,
+          1013.0,
+          521.0,
+          1044.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          878.0,
+          1013.0,
+          901.0,
+          1045.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "光程到相位的线性转换",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "多走一个波长，多转一整圈",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "光程差 / 波长",
+        "box": [
+          645,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "相位差 / 度",
+        "box": [
+          35,
+          153,
+          238,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "180",
+        "box": [
+          45.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "360",
+        "box": [
+          45.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          481.0,
+          583.0,
+          539.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          878.0,
+          583.0,
+          901.0,
+          614.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 688,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "反射位移双程系数",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "镜子后退，去和回都增加路程",
+        "box": [
+          35,
+          41,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "原位置",
+        "box": [
+          450,
+          613,
+          576,
+          653
+        ],
+        "size": 42
+      },
+      {
+        "text": "新位置",
+        "box": [
+          700,
+          613,
+          826,
+          653
+        ],
+        "size": 42
+      },
+      {
+        "text": "增加 δ",
+        "box": [
+          560,
+          208,
+          678,
+          248
+        ],
+        "size": 42
+      },
+      {
+        "text": "再加 δ",
+        "box": [
+          560,
+          483,
+          678,
+          524
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 729,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "区分倾斜和活塞",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "倾斜与平移是两件事",
+        "box": [
+          35,
+          42,
+          431,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "改变方向",
+        "box": [
+          100,
+          652,
+          268,
+          694
+        ],
+        "size": 42
+      },
+      {
+        "text": "保持方向",
+        "box": [
+          610,
+          653,
+          778,
+          694
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 862,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "相位箭头与强度",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "四分之一拍：用勾股定理相加",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "1",
+        "box": [
+          420,
+          668,
+          443,
+          699
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          730,
+          398,
+          753,
+          429
+        ],
+        "size": 42
+      },
+      {
+        "text": "√2",
+        "box": [
+          340,
+          362,
+          405,
+          404
+        ],
+        "size": 42
+      },
+      {
+        "text": "强度 = (√2)² = 2",
+        "box": [
+          220,
+          781,
+          523,
+          827
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 725,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "光程相位和中心强度",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "中心亮度随镜片位移周期变化",
+        "box": [
+          35,
+          41,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "镜片后退 / 微米",
+        "box": [
+          603,
+          645,
+          890,
+          690
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化强度",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          418.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          405.0,
+          583.0,
+          463.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          726.0,
+          583.0,
+          749.0,
+          614.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 829,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "两孔径远场分布非Webb真实PSF",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "中心变暗，能量分到其他方向",
+        "box": [
+          35,
+          41,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "方向坐标 u",
+        "box": [
+          687,
+          645,
+          890,
+          686
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化强度",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          418.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "-2",
+        "box": [
+          111.0,
+          583.0,
+          149.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          498.0,
+          583.0,
+          521.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          878.0,
+          583.0,
+          901.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：同相   橙：半拍错位",
+        "box": [
+          95,
+          753,
+          543,
+          794
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "两波长约束",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "增加一种颜色，减少单色歧义",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "镜片后退 / 微米",
+        "box": [
+          603,
+          645,
+          890,
+          690
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化强度",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          418.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          405.0,
+          583.0,
+          463.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          726.0,
+          583.0,
+          749.0,
+          614.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：2 微米   绿：2.5 微米",
+        "box": [
+          90,
+          753,
+          555,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "11.png",
+    "width": 960,
+    "height": 879,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "已知多样性辅助相位恢复",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "让隐藏误差显露在不同观测中",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "同一个未知镜面状态",
+        "box": [
+          220,
+          162,
+          598,
+          204
+        ],
+        "size": 42
+      },
+      {
+        "text": "已知离焦甲",
+        "box": [
+          100,
+          403,
+          310,
+          443
+        ],
+        "size": 42
+      },
+      {
+        "text": "已知离焦乙",
+        "box": [
+          560,
+          403,
+          770,
+          443
+        ],
+        "size": 42
+      },
+      {
+        "text": "预测 ↔ 观测",
+        "box": [
+          90,
+          653,
+          319,
+          694
+        ],
+        "size": 42
+      },
+      {
+        "text": "预测 ↔ 观测",
+        "box": [
+          550,
+          653,
+          779,
+          694
+        ],
+        "size": 42
+      },
+      {
+        "text": "共同约束镜面误差",
+        "box": [
+          240,
+          802,
+          576,
+          844
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "../originals/photos/webb-test.jpeg",
+    "width": 4201,
+    "height": 3361,
+    "identity": "NASA/Chris Gunn CC BY2.0 实物照片",
+    "min_font_px": "NOT_MEASURED",
+    "purpose": "真实Webb分段镜与地面测试"
+  }
+]

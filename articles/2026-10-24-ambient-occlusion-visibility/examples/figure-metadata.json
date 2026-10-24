@@ -1,0 +1,240 @@
+[
+  {
+    "file": "assets/01-render.png",
+    "width": 960,
+    "height": 601,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实际场景基线与AO输出",
+    "identity": "原创射线程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/02-hemisphere.png",
+    "width": 960,
+    "height": 801,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "半球的二维切面和法线方向",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/03-eight.png",
+    "width": 960,
+    "height": 876,
+    "minimum_font_px": 40,
+    "effective_at_354px": 14.75,
+    "purpose": "八个真实余弦采样方向投影到单位圆及遮挡结果",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/04-cosine.png",
+    "width": 960,
+    "height": 760,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "余弦权重的投影直觉",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/05-distance.png",
+    "width": 960,
+    "height": 600,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一采样方向不同遮蔽距离的实际对照",
+    "identity": "原创射线程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/06-lift.png",
+    "width": 960,
+    "height": 601,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实际几何抬升改变遮蔽",
+    "identity": "原创射线程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/07-samples.png",
+    "width": 960,
+    "height": 601,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一序列前缀的采样数对照",
+    "identity": "原创射线程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/08-offset.png",
+    "width": 960,
+    "height": 841,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "自相交与偏移量风险示意",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/09-light-direction.png",
+    "width": 960,
+    "height": 790,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "单个可见比例不能保存环境亮度方向",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/10-screen.png",
+    "width": 960,
+    "height": 822,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "屏幕空间方法的可见信息限制",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/11-normal.png",
+    "width": 960,
+    "height": 790,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "局部法线控制采样半球朝向",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/12-double.png",
+    "width": 960,
+    "height": 631,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "两次遮蔽乘法的数值反例",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/13-bounce.png",
+    "width": 960,
+    "height": 792,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "AO遗漏颜色串染的机制示意",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/14-profile.png",
+    "width": 960,
+    "height": 846,
+    "minimum_font_px": 40,
+    "effective_at_354px": 14.75,
+    "purpose": "128方向计算得到的地面可达率剖面",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  }
+]

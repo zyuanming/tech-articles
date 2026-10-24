@@ -1,0 +1,43 @@
+{
+  "input_red": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "input_transparent_blue": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "bad_half_white": [
+    0.75,
+    0.5,
+    0.75
+  ],
+  "correct_half_white": [
+    1.0,
+    0.5,
+    0.5
+  ],
+  "two_layers_premult": [
+    0.5,
+    0.0,
+    0.25
+  ],
+  "two_layers_alpha": 0.75,
+  "two_layers_straight": [
+    0.6666666666666666,
+    0.0,
+    0.3333333333333333
+  ],
+  "linear_half_srgb": 0.7353569830524495,
+  "low_alpha": 0.00392156862745098,
+  "low_original_red": 0.4,
+  "low_quantized_pm_red": 0.0,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}

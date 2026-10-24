@@ -1,0 +1,206 @@
+[
+  {
+    "file": "01-load.png",
+    "width": 1062,
+    "height": 564,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "用相同时间轴揭示两项长任务与两项短任务的不均衡。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "02-dag.png",
+    "width": 1062,
+    "height": 869,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "节点数字为耗时；箭头给出不可违反的先后条件。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "03-deque.png",
+    "width": 1062,
+    "height": 407,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "主人取较新端B；窃取者拿较早端A，队列里的都是尚未开始的任务。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "04-local.png",
+    "width": 1062,
+    "height": 567,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "把正在执行的B和仍可领取的A分开，避免把窃取误解为抢走CPU。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "05-initial.png",
+    "width": 1062,
+    "height": 564,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "分叉阶段与最初任务领取；时间单位是教学模型设定。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "06-static.png",
+    "width": 1062,
+    "height": 564,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "未迁移任务时，甲的长尾决定完成时间。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "07-transfer.png",
+    "width": 1062,
+    "height": 568,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "B继续由甲计算，迁移的是尚未开始的A。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "08-stolen.png",
+    "width": 1062,
+    "height": 564,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "和固定分区图保持同一时间尺度，空闲仍未完全消失。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "09-bounds.png",
+    "width": 1062,
+    "height": 530,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "把总工作摊分和依赖最长链分开，不能把任务总数当可并行度。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "10-race.png",
+    "width": 1062,
+    "height": 739,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "真实并发deque必须保证两个领取者只有一个成功；图不是实现代码。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "11-grain.png",
+    "width": 1062,
+    "height": 848,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "共同轴显示有效计算比例g/(g+1)，不冒充真实runtime基准。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "12-output.png",
+    "width": 1062,
+    "height": 442,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "从results.json读取两轮离散调度模型的真实输出。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "file": "01-three-things.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "区分源码、工具和产物三种对象",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "02-output.png",
+    "width": 840,
+    "height": 565,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "无害星号模型直接展示源码与产物不一致",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "03-diff.png",
+    "width": 840,
+    "height": 455,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "逐字符对照无害标记，不将图伪装成软件截图",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "04-bootstrap.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "工具源码与工具可执行体不同，构建需要已有工具",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "05-two-cases.png",
+    "width": 840,
+    "height": 585,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "概念状态机区分应用改写与工具规则传递",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "06-generations.png",
+    "width": 840,
+    "height": 535,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "四代相同源码配上保留标记的工具会重复异常结果",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "07-repeat.png",
+    "width": 840,
+    "height": 537,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "确定性和正确性是不同性质",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "08-signature.png",
+    "width": 840,
+    "height": 506,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "真实性验证不能替代源码产物对应验证",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "09-ddc-first.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "DDC第一阶段得到实现相同源码含义的工具，字节可不同",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "10-ddc-second.png",
+    "width": 840,
+    "height": 515,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "第二阶段使用待检源码所规定的生成规则",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "11-compare.png",
+    "width": 840,
+    "height": 556,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "精确指出DDC比较对象，避免误认为不同编译器需相同机器码",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "12-boundary.png",
+    "width": 840,
+    "height": 547,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "DDC不把恶意或错误源码自动变成安全程序",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "originals/photos/ken-thompson-2019.jpg",
+    "width": 329,
+    "height": 349,
+    "min_font_px": "NOT_MEASURED",
+    "identity": "真实肖像：Ken Thompson，2019；仓库已有裁切版本",
+    "purpose": "展示本文关键人物真实身份",
+    "geometry_and_pixel_checks": "NOT_APPLICABLE_PHOTO"
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "file": "01-printer.png",
+    "width": 1062,
+    "height": 617,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "展示待服务与正在服务的区别；队首B在靠近打印机的一端。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "02-jumps.png",
+    "width": 1062,
+    "height": 597,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "事件时刻0、1、4、6、7、8、10用点标出；时刻4有两个事件。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "03-input.png",
+    "width": 1062,
+    "height": 618,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "给出贯穿例子全部输入，单位为模拟分钟。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "04-create.png",
+    "width": 1062,
+    "height": 707,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "完成事件来自处理当前到达，而不是事先已知全部未来。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "05-at-one.png",
+    "width": 1062,
+    "height": 780,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "时刻1处理后只需关注日历最小事件，不扫描2和3。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "06-tie.png",
+    "width": 1062,
+    "height": 442,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "用同一时刻的两个状态解释明确事件优先级的必要性。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "07-key.png",
+    "width": 1062,
+    "height": 699,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "完整排序键是时刻、优先级、唯一递增编号，而非拿任务内容硬比较。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "08-service.png",
+    "width": 1062,
+    "height": 998,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "服务色条与等待值同源于模型输出，区分服务时间和排队时间。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "09-area.png",
+    "width": 1062,
+    "height": 673,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "阶梯面积按真实时间宽度算，不按事件个数平均队长。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "10-cancel.png",
+    "width": 1062,
+    "height": 538,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "惰性取消通过代号识别旧预约；是另一个独立提醒例，不改变打印模型。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "11-timeout.png",
+    "width": 1062,
+    "height": 537,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "取走与超时不交换，不能把同刻处理顺序当无关实现细节。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "12-zero.png",
+    "width": 1062,
+    "height": 657,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "零延迟自预约可使模拟时间停住；事件驱动也需要终止条件。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  }
+]

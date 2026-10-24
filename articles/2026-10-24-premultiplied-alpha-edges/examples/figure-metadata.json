@@ -1,0 +1,240 @@
+[
+  {
+    "file": "assets/01-edge.png",
+    "width": 960,
+    "height": 921,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "真实运行输出展示透明蓝污染红色边缘",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/02-rgba.png",
+    "width": 960,
+    "height": 561,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "区分RGB储存值与alpha贡献",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/03-coverage.png",
+    "width": 960,
+    "height": 570,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "提醒alpha压缩后丢失子像素空间布局",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/04-over.png",
+    "width": 960,
+    "height": 733,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "用贡献面积解释source-over加权",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/05-two-alpha.png",
+    "width": 960,
+    "height": 589,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "显示两透明层合成后未覆盖部分",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/06-wrong-filter.png",
+    "width": 960,
+    "height": 569,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "连续插值真实结果及中点读数",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/07-right-filter.png",
+    "width": 960,
+    "height": 569,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "连续插值真实结果及中点读数",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/08-blur.png",
+    "width": 960,
+    "height": 590,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一圆形同一滤波器下对照结果",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/09-associate.png",
+    "width": 960,
+    "height": 624,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "两种分组合成保留同一遮挡次序",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/10-order.png",
+    "width": 960,
+    "height": 571,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "展示source-over非交换",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/11-linear.png",
+    "width": 960,
+    "height": 656,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实际灰度对照区分编码空间与线性光",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/12-precision.png",
+    "width": 960,
+    "height": 676,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "极低alpha下量化反例，明确8位条件",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/13-double.png",
+    "width": 960,
+    "height": 620,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "黑底红渐变演示双重乘alpha",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/14-cutout.png",
+    "width": 960,
+    "height": 620,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "区分透明合成与alpha测试",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  }
+]

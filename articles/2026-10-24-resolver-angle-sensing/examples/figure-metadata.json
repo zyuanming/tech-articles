@@ -1,0 +1,846 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 779,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "建立角度零位和正方向",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "角度是一根轴的方向",
+        "box": [
+          35,
+          42,
+          431,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "0°",
+        "box": [
+          805,
+          401,
+          844,
+          435
+        ],
+        "size": 42
+      },
+      {
+        "text": "30°",
+        "box": [
+          650,
+          266,
+          712,
+          300
+        ],
+        "size": 42
+      },
+      {
+        "text": "从右方起，逆时针为正",
+        "box": [
+          80,
+          703,
+          500,
+          744
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 705,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "30度的正交投影与归一化幅度",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "圆上的位置，拆成横向和竖向",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "C = 0.866",
+        "box": [
+          380,
+          617,
+          554,
+          650
+        ],
+        "size": 42
+      },
+      {
+        "text": "S = 0.5",
+        "box": [
+          650,
+          467,
+          775,
+          500
+        ],
+        "size": 42
+      },
+      {
+        "text": "半径 = 1",
+        "box": [
+          120,
+          183,
+          269,
+          223
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 818,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "一条正弦幅度不能唯一确定全周角度",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "只看一条投影，分不清两处",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "30°",
+        "box": [
+          224,
+          610,
+          286,
+          644
+        ],
+        "size": 42
+      },
+      {
+        "text": "150°",
+        "box": [
+          662,
+          610,
+          747,
+          644
+        ],
+        "size": 42
+      },
+      {
+        "text": "两处的 S 都是 0.5",
+        "box": [
+          190,
+          743,
+          512,
+          783
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 809,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "线圈有效磁轴正交的概念模型，不是绕组施工图",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "正交方向，给出不同的耦合",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "余弦方向",
+        "box": [
+          160,
+          733,
+          328,
+          774
+        ],
+        "size": 42
+      },
+      {
+        "text": "正弦方向",
+        "box": [
+          600,
+          733,
+          768,
+          774
+        ],
+        "size": 42
+      },
+      {
+        "text": "转子方向",
+        "box": [
+          520,
+          153,
+          688,
+          194
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 838,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "分清载波快振荡与轴角度缓慢变化",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "轴没转，电压也在来回振荡",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "励磁周期",
+        "box": [
+          722,
+          645,
+          890,
+          686
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化电压",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "-1",
+        "box": [
+          77.0,
+          547.0,
+          115.0,
+          578.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          498.0,
+          583.0,
+          521.0,
+          614.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          878.0,
+          583.0,
+          901.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "灰：励磁　橙：30°的S路",
+        "box": [
+          45,
+          763,
+          510,
+          803
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 779,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "同励磁参考用于两路同步解调",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "四个时刻，保留同一个参考",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "参考",
+        "box": [
+          40,
+          193,
+          124,
+          234
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          298,
+          180,
+          321,
+          211
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          468,
+          180,
+          491,
+          213
+        ],
+        "size": 42
+      },
+      {
+        "text": "-1",
+        "box": [
+          631,
+          180,
+          669,
+          211
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          808,
+          180,
+          831,
+          213
+        ],
+        "size": 42
+      },
+      {
+        "text": "S路",
+        "box": [
+          40,
+          343,
+          107,
+          383
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          281,
+          330,
+          339,
+          363
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          468,
+          330,
+          491,
+          363
+        ],
+        "size": 42
+      },
+      {
+        "text": "-0.5",
+        "box": [
+          614,
+          330,
+          687,
+          363
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          808,
+          330,
+          831,
+          363
+        ],
+        "size": 42
+      },
+      {
+        "text": "C路",
+        "box": [
+          40,
+          493,
+          109,
+          533
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.866",
+        "box": [
+          258,
+          480,
+          363,
+          513
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          468,
+          480,
+          491,
+          513
+        ],
+        "size": 42
+      },
+      {
+        "text": "-0.866",
+        "box": [
+          590,
+          480,
+          710,
+          513
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          808,
+          480,
+          831,
+          513
+        ],
+        "size": 42
+      },
+      {
+        "text": "两路都乘上排，再求和",
+        "box": [
+          60,
+          703,
+          480,
+          744
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 838,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "负系数表现为与励磁反相而非负的峰峰值",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "倒转半圈，幅度的符号会翻转",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "励磁周期",
+        "box": [
+          722,
+          645,
+          890,
+          686
+        ],
+        "size": 42
+      },
+      {
+        "text": "S路电压",
+        "box": [
+          35,
+          153,
+          186,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "-1",
+        "box": [
+          77.0,
+          547.0,
+          115.0,
+          578.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          498.0,
+          583.0,
+          521.0,
+          614.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          878.0,
+          583.0,
+          901.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：30°　橙：210°",
+        "box": [
+          50,
+          763,
+          408,
+          803
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 879,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "四象限的符号组合",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "先看正负，再确定角度",
+        "box": [
+          35,
+          42,
+          475,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "C− S+",
+        "box": [
+          130,
+          227,
+          238,
+          260
+        ],
+        "size": 42
+      },
+      {
+        "text": "C+ S+",
+        "box": [
+          570,
+          227,
+          678,
+          260
+        ],
+        "size": 42
+      },
+      {
+        "text": "C− S−",
+        "box": [
+          130,
+          577,
+          238,
+          610
+        ],
+        "size": 42
+      },
+      {
+        "text": "C+ S−",
+        "box": [
+          570,
+          577,
+          678,
+          610
+        ],
+        "size": 42
+      },
+      {
+        "text": "横轴 C；竖轴 S",
+        "box": [
+          150,
+          803,
+          431,
+          844
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 822,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "相同通道增益与角度比值关系",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "一起放大，不改变指向",
+        "box": [
+          35,
+          41,
+          475,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "S / C 不变",
+        "box": [
+          460,
+          742,
+          641,
+          787
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 849,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "增益不匹配对整圈轨迹的影响",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "两路放大量不同，圆会变成椭圆",
+        "box": [
+          35,
+          41,
+          651,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "灰：理想　橙：S路偏小",
+        "box": [
+          90,
+          773,
+          535,
+          814
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "11.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "角度包裹与跨零差值",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "跨过零位，不代表倒转一整圈",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "355° → 5°",
+        "box": [
+          75,
+          176,
+          260,
+          210
+        ],
+        "size": 42
+      },
+      {
+        "text": "短变化是 +10°",
+        "box": [
+          150,
+          772,
+          413,
+          813
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "apollo-radar.png",
+    "width": 2555,
+    "height": 2050,
+    "identity": "NASA-S-69-3788 历史接口图单页渲染",
+    "min_font_px": "NOT_MEASURED",
+    "purpose": "交会雷达天线角度与数字接口实证"
+  }
+]

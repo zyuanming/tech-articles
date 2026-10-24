@@ -1,0 +1,464 @@
+{
+  "single_debt": [
+    [
+      "发送前",
+      0
+    ],
+    [
+      "工作已发出",
+      1
+    ],
+    [
+      "对方收到",
+      1
+    ],
+    [
+      "回执收到",
+      0
+    ]
+  ],
+  "exploration": {
+    "states": 37,
+    "terminal_states": 1,
+    "max_outstanding": 3,
+    "false_positive": 0
+  },
+  "labels": [
+    "R发送两件工作后空闲",
+    "A接收首次工作",
+    "B接收首次工作",
+    "A完成并向B派生工作",
+    "B已挂在树上，回追加回执",
+    "A收到追加回执，回父回执",
+    "R收到A回执，仍等B",
+    "B完成第一件，仍有一件",
+    "B完成第二件，回父回执",
+    "R收到最后回执，检测结束"
+  ],
+  "trace": [
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            1,
+            2
+          ]
+        },
+        "A": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "B": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        }
+      },
+      "flight": [
+        [
+          "work",
+          "R",
+          "A",
+          1,
+          "a"
+        ],
+        [
+          "work",
+          "R",
+          "B",
+          2,
+          "b"
+        ]
+      ],
+      "sent": 2,
+      "completed": 0,
+      "acks": 0
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            1,
+            2
+          ]
+        },
+        "A": {
+          "parent": [
+            "R",
+            1
+          ],
+          "queue": [
+            "a"
+          ],
+          "out": []
+        },
+        "B": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        }
+      },
+      "flight": [
+        [
+          "work",
+          "R",
+          "B",
+          2,
+          "b"
+        ]
+      ],
+      "sent": 2,
+      "completed": 0,
+      "acks": 0
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            1,
+            2
+          ]
+        },
+        "A": {
+          "parent": [
+            "R",
+            1
+          ],
+          "queue": [
+            "a"
+          ],
+          "out": []
+        },
+        "B": {
+          "parent": [
+            "R",
+            2
+          ],
+          "queue": [
+            "b"
+          ],
+          "out": []
+        }
+      },
+      "flight": [],
+      "sent": 2,
+      "completed": 0,
+      "acks": 0
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            1,
+            2
+          ]
+        },
+        "A": {
+          "parent": [
+            "R",
+            1
+          ],
+          "queue": [],
+          "out": [
+            3
+          ]
+        },
+        "B": {
+          "parent": [
+            "R",
+            2
+          ],
+          "queue": [
+            "b"
+          ],
+          "out": []
+        }
+      },
+      "flight": [
+        [
+          "work",
+          "A",
+          "B",
+          3,
+          "c"
+        ]
+      ],
+      "sent": 3,
+      "completed": 1,
+      "acks": 0
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            1,
+            2
+          ]
+        },
+        "A": {
+          "parent": [
+            "R",
+            1
+          ],
+          "queue": [],
+          "out": [
+            3
+          ]
+        },
+        "B": {
+          "parent": [
+            "R",
+            2
+          ],
+          "queue": [
+            "b",
+            "c"
+          ],
+          "out": []
+        }
+      },
+      "flight": [
+        [
+          "ack",
+          "B",
+          "A",
+          3,
+          ""
+        ]
+      ],
+      "sent": 3,
+      "completed": 1,
+      "acks": 0
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            1,
+            2
+          ]
+        },
+        "A": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "B": {
+          "parent": [
+            "R",
+            2
+          ],
+          "queue": [
+            "b",
+            "c"
+          ],
+          "out": []
+        }
+      },
+      "flight": [
+        [
+          "ack",
+          "A",
+          "R",
+          1,
+          ""
+        ]
+      ],
+      "sent": 3,
+      "completed": 1,
+      "acks": 1
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            2
+          ]
+        },
+        "A": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "B": {
+          "parent": [
+            "R",
+            2
+          ],
+          "queue": [
+            "b",
+            "c"
+          ],
+          "out": []
+        }
+      },
+      "flight": [],
+      "sent": 3,
+      "completed": 1,
+      "acks": 2
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            2
+          ]
+        },
+        "A": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "B": {
+          "parent": [
+            "R",
+            2
+          ],
+          "queue": [
+            "c"
+          ],
+          "out": []
+        }
+      },
+      "flight": [],
+      "sent": 3,
+      "completed": 2,
+      "acks": 2
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": [
+            2
+          ]
+        },
+        "A": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "B": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        }
+      },
+      "flight": [
+        [
+          "ack",
+          "B",
+          "R",
+          2,
+          ""
+        ]
+      ],
+      "sent": 3,
+      "completed": 3,
+      "acks": 2
+    },
+    {
+      "nodes": {
+        "R": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "A": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        },
+        "B": {
+          "parent": null,
+          "queue": [],
+          "out": []
+        }
+      },
+      "flight": [],
+      "sent": 3,
+      "completed": 3,
+      "acks": 3
+    }
+  ],
+  "debt_rows": [
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      4,
+      2,
+      1,
+      0
+    ],
+    [
+      5,
+      2,
+      0,
+      0
+    ],
+    [
+      6,
+      1,
+      0,
+      0
+    ],
+    [
+      7,
+      1,
+      0,
+      0
+    ],
+    [
+      8,
+      1,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      0
+    ]
+  ]
+}

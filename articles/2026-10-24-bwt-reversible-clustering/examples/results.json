@@ -1,0 +1,318 @@
+{
+  "input": "BANANA$",
+  "rotations": [
+    "BANANA$",
+    "ANANA$B",
+    "NANA$BA",
+    "ANA$BAN",
+    "NA$BANA",
+    "A$BANAN",
+    "$BANANA"
+  ],
+  "rows": [
+    "$BANANA",
+    "A$BANAN",
+    "ANA$BAN",
+    "ANANA$B",
+    "BANANA$",
+    "NA$BANA",
+    "NANA$BA"
+  ],
+  "last": "ANNB$AA",
+  "first": "$AAABNN",
+  "lf": [
+    1,
+    5,
+    6,
+    4,
+    0,
+    2,
+    3
+  ],
+  "walk": [
+    [
+      4,
+      "$",
+      0
+    ],
+    [
+      0,
+      "A",
+      1
+    ],
+    [
+      1,
+      "N",
+      5
+    ],
+    [
+      5,
+      "A",
+      2
+    ],
+    [
+      2,
+      "N",
+      6
+    ],
+    [
+      6,
+      "A",
+      3
+    ],
+    [
+      3,
+      "B",
+      4
+    ]
+  ],
+  "backward": "$ANANAB",
+  "inverse": "BANANA$",
+  "table_steps": [
+    [
+      "$",
+      "A",
+      "A",
+      "A",
+      "B",
+      "N",
+      "N"
+    ],
+    [
+      "$B",
+      "A$",
+      "AN",
+      "AN",
+      "BA",
+      "NA",
+      "NA"
+    ],
+    [
+      "$BA",
+      "A$B",
+      "ANA",
+      "ANA",
+      "BAN",
+      "NA$",
+      "NAN"
+    ],
+    [
+      "$BAN",
+      "A$BA",
+      "ANA$",
+      "ANAN",
+      "BANA",
+      "NA$B",
+      "NANA"
+    ],
+    [
+      "$BANA",
+      "A$BAN",
+      "ANA$B",
+      "ANANA",
+      "BANAN",
+      "NA$BA",
+      "NANA$"
+    ],
+    [
+      "$BANAN",
+      "A$BANA",
+      "ANA$BA",
+      "ANANA$",
+      "BANANA",
+      "NA$BAN",
+      "NANA$B"
+    ],
+    [
+      "$BANANA",
+      "A$BANAN",
+      "ANA$BAN",
+      "ANANA$B",
+      "BANANA$",
+      "NA$BANA",
+      "NANA$BA"
+    ]
+  ],
+  "mtf_codes": [
+    1,
+    3,
+    0,
+    3,
+    3,
+    3,
+    0
+  ],
+  "mtf": [
+    {
+      "char": "A",
+      "before": [
+        "$",
+        "A",
+        "B",
+        "N"
+      ],
+      "index": 1,
+      "after": [
+        "A",
+        "$",
+        "B",
+        "N"
+      ]
+    },
+    {
+      "char": "N",
+      "before": [
+        "A",
+        "$",
+        "B",
+        "N"
+      ],
+      "index": 3,
+      "after": [
+        "N",
+        "A",
+        "$",
+        "B"
+      ]
+    },
+    {
+      "char": "N",
+      "before": [
+        "N",
+        "A",
+        "$",
+        "B"
+      ],
+      "index": 0,
+      "after": [
+        "N",
+        "A",
+        "$",
+        "B"
+      ]
+    },
+    {
+      "char": "B",
+      "before": [
+        "N",
+        "A",
+        "$",
+        "B"
+      ],
+      "index": 3,
+      "after": [
+        "B",
+        "N",
+        "A",
+        "$"
+      ]
+    },
+    {
+      "char": "$",
+      "before": [
+        "B",
+        "N",
+        "A",
+        "$"
+      ],
+      "index": 3,
+      "after": [
+        "$",
+        "B",
+        "N",
+        "A"
+      ]
+    },
+    {
+      "char": "A",
+      "before": [
+        "$",
+        "B",
+        "N",
+        "A"
+      ],
+      "index": 3,
+      "after": [
+        "A",
+        "$",
+        "B",
+        "N"
+      ]
+    },
+    {
+      "char": "A",
+      "before": [
+        "A",
+        "$",
+        "B",
+        "N"
+      ],
+      "index": 0,
+      "after": [
+        "A",
+        "$",
+        "B",
+        "N"
+      ]
+    }
+  ],
+  "tests": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      27
+    ],
+    [
+      4,
+      81
+    ],
+    [
+      5,
+      243
+    ],
+    [
+      6,
+      729
+    ],
+    [
+      7,
+      2187
+    ]
+  ],
+  "total": 3280,
+  "comparison": [
+    {
+      "input": "BANANA$",
+      "output": "ANNB$AA",
+      "length": 7,
+      "runs_before": 7,
+      "runs_after": 5
+    },
+    {
+      "input": "ABABAB$",
+      "output": "BBB$AAA",
+      "length": 7,
+      "runs_before": 7,
+      "runs_after": 3
+    },
+    {
+      "input": "ABCD$",
+      "output": "D$ABC",
+      "length": 5,
+      "runs_before": 5,
+      "runs_after": 5
+    }
+  ],
+  "python": "3.12.14"
+}

@@ -1,0 +1,1106 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 749,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "平面波到达顺序",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "斜着来的波，在阵列上依次到达",
+        "box": [
+          35,
+          42,
+          651,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "正面同时到达",
+        "box": [
+          60,
+          673,
+          312,
+          714
+        ],
+        "size": 42
+      },
+      {
+        "text": "左先到，右后到",
+        "box": [
+          515,
+          673,
+          809,
+          714
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 859,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "路程差三角几何",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "间距投影，才是额外声程",
+        "box": [
+          35,
+          42,
+          519,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "θ = 30°",
+        "box": [
+          240,
+          455,
+          369,
+          490
+        ],
+        "size": 42
+      },
+      {
+        "text": "d = 7.5 cm",
+        "box": [
+          350,
+          654,
+          546,
+          690
+        ],
+        "size": 42
+      },
+      {
+        "text": "投影 = 3.75 cm",
+        "box": [
+          390,
+          283,
+          667,
+          323
+        ],
+        "size": 42
+      },
+      {
+        "text": "辅助线与传播方向垂直",
+        "box": [
+          150,
+          783,
+          570,
+          824
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 909,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "到达时间表",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "同一波峰：A 最先，D 最后",
+        "box": [
+          35,
+          42,
+          552,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "A",
+        "box": [
+          40,
+          190,
+          66,
+          221
+        ],
+        "size": 42
+      },
+      {
+        "text": "0 μs",
+        "box": [
+          180,
+          238,
+          259,
+          278
+        ],
+        "size": 42
+      },
+      {
+        "text": "B",
+        "box": [
+          40,
+          340,
+          68,
+          371
+        ],
+        "size": 42
+      },
+      {
+        "text": "25 μs",
+        "box": [
+          380,
+          388,
+          482,
+          428
+        ],
+        "size": 42
+      },
+      {
+        "text": "C",
+        "box": [
+          40,
+          489,
+          67,
+          522
+        ],
+        "size": 42
+      },
+      {
+        "text": "50 μs",
+        "box": [
+          580,
+          538,
+          682,
+          578
+        ],
+        "size": 42
+      },
+      {
+        "text": "D",
+        "box": [
+          40,
+          640,
+          69,
+          671
+        ],
+        "size": 42
+      },
+      {
+        "text": "75 μs",
+        "box": [
+          780,
+          689,
+          882,
+          728
+        ],
+        "size": 42
+      },
+      {
+        "text": "向右：时间增加",
+        "box": [
+          310,
+          833,
+          604,
+          874
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 813,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "补偿时间与到达相加",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "先到的多等一会儿，全部对齐",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "A",
+        "box": [
+          35,
+          228,
+          61,
+          259
+        ],
+        "size": 42
+      },
+      {
+        "text": "0 + 75 = 75 μs",
+        "box": [
+          220,
+          288,
+          476,
+          328
+        ],
+        "size": 42
+      },
+      {
+        "text": "B",
+        "box": [
+          35,
+          378,
+          63,
+          409
+        ],
+        "size": 42
+      },
+      {
+        "text": "25 + 50 = 75 μs",
+        "box": [
+          220,
+          438,
+          500,
+          478
+        ],
+        "size": 42
+      },
+      {
+        "text": "C",
+        "box": [
+          35,
+          527,
+          62,
+          560
+        ],
+        "size": 42
+      },
+      {
+        "text": "50 + 25 = 75 μs",
+        "box": [
+          220,
+          588,
+          500,
+          628
+        ],
+        "size": 42
+      },
+      {
+        "text": "D",
+        "box": [
+          35,
+          678,
+          64,
+          709
+        ],
+        "size": 42
+      },
+      {
+        "text": "75 + 0 = 75 μs",
+        "box": [
+          220,
+          738,
+          476,
+          778
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 1349,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "四路原始相位错位",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "未补偿：每路相差四分之一周",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "A",
+        "box": [
+          35,
+          238,
+          61,
+          269
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          138,
+          345,
+          161,
+          378
+        ],
+        "size": 42
+      },
+      {
+        "text": "300 μs",
+        "box": [
+          807,
+          345,
+          932,
+          385
+        ],
+        "size": 42
+      },
+      {
+        "text": "B",
+        "box": [
+          35,
+          488,
+          63,
+          519
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          138,
+          595,
+          161,
+          628
+        ],
+        "size": 42
+      },
+      {
+        "text": "300 μs",
+        "box": [
+          807,
+          595,
+          932,
+          635
+        ],
+        "size": 42
+      },
+      {
+        "text": "C",
+        "box": [
+          35,
+          737,
+          62,
+          770
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          138,
+          845,
+          161,
+          878
+        ],
+        "size": 42
+      },
+      {
+        "text": "300 μs",
+        "box": [
+          807,
+          845,
+          932,
+          885
+        ],
+        "size": 42
+      },
+      {
+        "text": "D",
+        "box": [
+          35,
+          988,
+          64,
+          1019
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          138,
+          1095,
+          161,
+          1128
+        ],
+        "size": 42
+      },
+      {
+        "text": "300 μs",
+        "box": [
+          807,
+          1095,
+          932,
+          1135
+        ],
+        "size": 42
+      },
+      {
+        "text": "各行振幅：−1 到 +1",
+        "box": [
+          180,
+          1272,
+          544,
+          1314
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "对齐相加",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "对齐后相加，四个波峰一起到",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "时间 / 微秒",
+        "box": [
+          687,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "相对声压",
+        "box": [
+          35,
+          153,
+          203,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "-4",
+        "box": [
+          77.0,
+          547.0,
+          115.0,
+          578.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "150",
+        "box": [
+          475.0,
+          583.0,
+          545.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "300",
+        "box": [
+          855.0,
+          583.0,
+          925.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：一路   橙：四路之和",
+        "box": [
+          90,
+          753,
+          538,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "方向扫描模型",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "来波固定 30°，试着朝不同方向听",
+        "box": [
+          35,
+          42,
+          682,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "假设方向 / 度",
+        "box": [
+          645,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化振幅",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          57.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "−90",
+        "box": [
+          95.0,
+          583.0,
+          165.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "−30",
+        "box": [
+          348.3333333333333,
+          583.0,
+          418.3333333333333,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "30",
+        "box": [
+          613.6666666666666,
+          583.0,
+          660.6666666666666,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "90",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          616.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 828,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "方向扫描模型",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "更长阵列，对方向误差更敏感",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "假设方向 / 度",
+        "box": [
+          645,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化振幅",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          57.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "−90",
+        "box": [
+          95.0,
+          583.0,
+          165.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "−30",
+        "box": [
+          348.3333333333333,
+          583.0,
+          418.3333333333333,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "30",
+        "box": [
+          613.6666666666666,
+          583.0,
+          660.6666666666666,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "90",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "蓝：四元   绿：八元",
+        "box": [
+          150,
+          753,
+          514,
+          793
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "方向扫描模型",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "间距一个波长：出现重复主峰",
+        "box": [
+          35,
+          42,
+          607,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "假设方向 / 度",
+        "box": [
+          645,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "归一化振幅",
+        "box": [
+          35,
+          153,
+          245,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.5",
+        "box": [
+          57.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "1",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "−90",
+        "box": [
+          95.0,
+          583.0,
+          165.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "−30",
+        "box": [
+          348.3333333333333,
+          583.0,
+          418.3333333333333,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "30",
+        "box": [
+          613.6666666666666,
+          583.0,
+          660.6666666666666,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "90",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          616.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 888,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "宽带时延与固定相移区别",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "25 微秒，不总是四分之一周",
+        "box": [
+          35,
+          42,
+          578,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "10 kHz",
+        "box": [
+          35,
+          125,
+          165,
+          160
+        ],
+        "size": 42
+      },
+      {
+        "text": "25 微秒",
+        "box": [
+          135,
+          413,
+          275,
+          453
+        ],
+        "size": 42
+      },
+      {
+        "text": "100 微秒",
+        "box": [
+          690,
+          413,
+          853,
+          453
+        ],
+        "size": 42
+      },
+      {
+        "text": "20 kHz",
+        "box": [
+          35,
+          525,
+          165,
+          560
+        ],
+        "size": 42
+      },
+      {
+        "text": "25 微秒",
+        "box": [
+          135,
+          813,
+          275,
+          853
+        ],
+        "size": 42
+      },
+      {
+        "text": "100 微秒",
+        "box": [
+          690,
+          813,
+          853,
+          853
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "11.png",
+    "width": 960,
+    "height": 788,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "平面近似的边界",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "近场要按每条真实距离算延时",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "远场平面近似",
+        "box": [
+          55,
+          713,
+          307,
+          753
+        ],
+        "size": 42
+      },
+      {
+        "text": "近场波面弯曲",
+        "box": [
+          520,
+          713,
+          772,
+          753
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "../originals/photos/transducer.jpg",
+    "width": 4000,
+    "height": 1800,
+    "identity": "NOAA Ocean Exploration 换能器实物照片",
+    "min_font_px": "NOT_MEASURED",
+    "purpose": "真实船底阵列"
+  }
+]

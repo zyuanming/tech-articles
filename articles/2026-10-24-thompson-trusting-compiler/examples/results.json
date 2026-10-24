@@ -1,0 +1,80 @@
+{
+  "application": {
+    "kind": "application",
+    "text": "HELLO"
+  },
+  "compiler_source": {
+    "kind": "compiler-source",
+    "specified_marker": false
+  },
+  "normal": {
+    "kind": "output",
+    "text": "HELLO"
+  },
+  "marked": {
+    "kind": "output",
+    "text": "HELLO*"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "tool": {
+        "kind": "compiler",
+        "marker": true
+      },
+      "source": {
+        "kind": "compiler-source",
+        "specified_marker": false
+      },
+      "output": "HELLO*"
+    },
+    {
+      "generation": 1,
+      "tool": {
+        "kind": "compiler",
+        "marker": true
+      },
+      "source": {
+        "kind": "compiler-source",
+        "specified_marker": false
+      },
+      "output": "HELLO*"
+    },
+    {
+      "generation": 2,
+      "tool": {
+        "kind": "compiler",
+        "marker": true
+      },
+      "source": {
+        "kind": "compiler-source",
+        "specified_marker": false
+      },
+      "output": "HELLO*"
+    },
+    {
+      "generation": 3,
+      "tool": {
+        "kind": "compiler",
+        "marker": true
+      },
+      "source": {
+        "kind": "compiler-source",
+        "specified_marker": false
+      },
+      "output": "HELLO*"
+    }
+  ],
+  "reference": {
+    "kind": "compiler",
+    "marker": false
+  },
+  "candidate": {
+    "kind": "compiler",
+    "marker": true
+  },
+  "repeatable": true,
+  "matches_source": false,
+  "source_sha256": "f351a62f2283a99332c26d478a20526a8aa758b563660d8c87d60d5e6e3567d7",
+  "python": "3.12.14"
+}

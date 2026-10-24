@@ -1,0 +1,342 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 467,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "明确起点/终点位置和加减速两段",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "四米外，要停住而非路过",
+      "起点 0 m",
+      "切换 2 m",
+      "终点 4 m",
+      "从静止出发，最终也静止"
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "4秒三角形面积为4米",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "速度图的面积就是位移",
+      "速度 v",
+      "速度 / m/s",
+      "0",
+      "2",
+      "4",
+      "0",
+      "1",
+      "2",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "同一行程位置曲线变化",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "前半越来越快，后半减速",
+      "位置 x",
+      "位置 / m",
+      "0",
+      "2",
+      "4",
+      "0",
+      "2",
+      "4",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "理想瞬时切换输入，不代表现实电机能瞬变",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "加速度在中途换一次符号",
+      "加速度",
+      "加速度 / m/s²",
+      "0",
+      "2",
+      "4",
+      "−1",
+      "0",
+      "1",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "刹车距离由速度三角形得到",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "从每秒两米刹到零",
+      "刹车速度",
+      "速度 / m/s",
+      "0",
+      "1",
+      "2",
+      "0",
+      "1",
+      "2",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "v正向时恰好停在4米的状态曲线",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "刹车线把位置与速度连起",
+      "刹停曲线",
+      "速度 / m/s",
+      "0",
+      "2",
+      "4",
+      "0",
+      "1",
+      "2",
+      "3",
+      "位置 / m"
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "改变切换时刻同时改变停止位置",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "早刹停不够，晚刹就过头",
+      "早 1.5s",
+      "准 2s",
+      "晚 2.5s",
+      "速度 / m/s",
+      "0",
+      "2",
+      "4",
+      "0",
+      "1",
+      "2",
+      "3",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "两端加速度限制形成速度包络并证明时间下界",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "任何合法速度都在屋顶下",
+      "起点限制",
+      "终点限制",
+      "速度上界",
+      "0",
+      "2",
+      "4",
+      "0",
+      "2",
+      "4",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "限制速度后最优形状改为梯形",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "再加限速，会多出巡航段",
+      "上限 1 m/s",
+      "速度 / m/s",
+      "0",
+      "1",
+      "4",
+      "5",
+      "0",
+      "1",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "明确平滑曲线未被声明为同一行程最优解",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "平滑动作是另一项约束",
+      "瞬时切换",
+      "平滑示意",
+      "加速度 / m/s²",
+      "0",
+      "2",
+      "4",
+      "−1",
+      "0",
+      "1",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "11.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "事件延迟0.1秒使完全刹停位置变4.41米",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "切换晚一点，终点就变了",
+      "准时",
+      "晚 0.1s",
+      "位置 / m",
+      "0",
+      "2",
+      "4",
+      "0",
+      "2",
+      "4",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "12.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "起点改为位置3速度3时刹停在7.5米，不能立即回到目标",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "已经过快，最强刹车也会越过",
+      "从 x=3 起",
+      "速度 / m/s",
+      "3",
+      "4",
+      "6",
+      "8",
+      "0",
+      "1",
+      "2",
+      "3",
+      "位置 / m"
+    ]
+  }
+]

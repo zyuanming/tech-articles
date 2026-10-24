@@ -1,0 +1,88 @@
+{
+  "stdout": "8\n",
+  "tests": [
+    {
+      "input": [],
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "input": [
+        -5,
+        -1
+      ],
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "input": [
+        3,
+        -2,
+        5,
+        0
+      ],
+      "expected": 8,
+      "actual": 8
+    },
+    {
+      "input": [
+        1,
+        2,
+        3
+      ],
+      "expected": 6,
+      "actual": 6
+    },
+    {
+      "input": [
+        0
+      ],
+      "expected": 0,
+      "actual": 0
+    }
+  ],
+  "errors": {
+    "missing": "缺少片段: 不存在",
+    "cycle": "循环引用: 主程序 → A → 主程序"
+  },
+  "trace": [
+    {
+      "value": 3,
+      "before": 0,
+      "after": 3
+    },
+    {
+      "value": -2,
+      "before": 3,
+      "after": 3
+    },
+    {
+      "value": 5,
+      "before": 3,
+      "after": 8
+    },
+    {
+      "value": 0,
+      "before": 8,
+      "after": 8
+    }
+  ],
+  "broken_result": 5,
+  "presentation_order": [
+    "主程序",
+    "扫描",
+    "函数定义",
+    "初值"
+  ],
+  "expanded_lines": [
+    "def sum_positive(values):",
+    "    total = 0",
+    "    for value in values:",
+    "        if value > 0:",
+    "            total += value",
+    "    return total",
+    "values = [3, -2, 5, 0]",
+    "print(sum_positive(values))"
+  ],
+  "python_version": "3.12.14"
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "file": "01-two-outputs.png",
+    "width": 840,
+    "height": 660,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "同一份源面向执行者与读者产生两种派生物",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "02-values.png",
+    "width": 840,
+    "height": 740,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "同一贯穿输入逐步执行，零与负数不改变累积值",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "03-orders.png",
+    "width": 840,
+    "height": 806,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "空间两列不是同一顺序，仅对照不同的组织目的",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "04-reference.png",
+    "width": 840,
+    "height": 615,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "把名字的使用处与定义体一一对应",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "05-dependencies.png",
+    "width": 840,
+    "height": 630,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "递归展开沿有向依赖边继续，最终到无引用片段",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "06-first-expand.png",
+    "width": 840,
+    "height": 598,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "一次展开后仍有两个未解析的片段引用",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "07-expanded.png",
+    "width": 840,
+    "height": 705,
+    "min_font_px": 32,
+    "effective_font_at_354": 13.49,
+    "identity": "原创教学示意",
+    "purpose": "实际生成Python文件的完整行序与缩进",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "08-indent.png",
+    "width": 840,
+    "height": 624,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "同一递归展开还要携带外层缩进上下文",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "09-missing.png",
+    "width": 840,
+    "height": 460,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "实际解析器把未定义引用作为错误输出",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "10-cycle.png",
+    "width": 840,
+    "height": 509,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "当前递归路径发现循环，不误禁正常重复引用",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "11-test.png",
+    "width": 840,
+    "height": 670,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "实际执行错误变体，说明解释与测试职责不同",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "12-workflow.png",
+    "width": 840,
+    "height": 630,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "明确权威源与派生产物的维护路径",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "originals/photos/knuth-2011.jpg",
+    "width": 2256,
+    "height": 1496,
+    "min_font_px": "NOT_MEASURED",
+    "identity": "真实肖像：Donald Knuth，Alex Handy摄，2011 CHM活动",
+    "purpose": "展示本文关键人物真实身份"
+  }
+]

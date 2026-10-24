@@ -1,0 +1,131 @@
+[
+  {
+    "file": "01-layers.png",
+    "width": 840,
+    "height": 565,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "区分机器指令、控制序列与数据通路",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "02-datapath.png",
+    "width": 840,
+    "height": 485,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "A存累加值，MAR存地址，MDR存读数，内存存操作数",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "03-step.png",
+    "width": 840,
+    "height": 485,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "同一ADD指令的连续状态变化",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "04-step.png",
+    "width": 840,
+    "height": 485,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "同一ADD指令的连续状态变化",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "05-step.png",
+    "width": 840,
+    "height": 580,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "同一ADD指令的连续状态变化",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "06-control-bits.png",
+    "width": 840,
+    "height": 510,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "三个独立控制位逐拍激活，不是存储数据的位",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "07-next.png",
+    "width": 840,
+    "height": 525,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "微地址与程序地址是两本不同的编号",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "08-branch.png",
+    "width": 840,
+    "height": 450,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "状态标志参与微序列下一址选择",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "09-conflict.png",
+    "width": 840,
+    "height": 546,
+    "min_font_px": 36,
+    "effective_font_at_354": 15.17,
+    "identity": "原创教学示意",
+    "purpose": "独立控制位不能不受约束地任意组合",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "10-encoding.png",
+    "width": 840,
+    "height": 505,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "三个互斥动作可编码，但需要译码器且丢失任意并行组合",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "11-two-addresses.png",
+    "width": 840,
+    "height": 525,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "程序计数器与微程序计数器不同层次",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "12-limits.png",
+    "width": 840,
+    "height": 460,
+    "min_font_px": 34,
+    "effective_font_at_354": 14.33,
+    "identity": "原创教学示意",
+    "purpose": "微程序只调度已有硬件能力，不能无限替代硬件",
+    "geometry_and_pixel_checks": true
+  },
+  {
+    "file": "originals/photos/wilkes-with-delay-lines.jpg",
+    "width": 1170,
+    "height": 1600,
+    "min_font_px": "NOT_MEASURED",
+    "identity": "真实历史照片：Maurice Wilkes与EDSAC延迟线管组；非EDSAC II控制矩阵",
+    "purpose": "展示本文关键人物真实身份",
+    "geometry_and_pixel_checks": "NOT_APPLICABLE_PHOTO"
+  }
+]

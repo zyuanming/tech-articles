@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>只把正数加起来</title>
+<style>body{max-width:760px;margin:32px auto;padding:0 24px;font-family:"Noto Sans CJK SC",sans-serif;font-size:32px;line-height:1.6;color:#163047;background:#fff}h1{font-size:42px}h2{font-size:36px}pre{font-size:32px;line-height:1.5;background:#e9f2fa;padding:20px;white-space:pre-wrap}code{font-family:monospace}.name{color:#1763a6;font-weight:bold}</style>
+<h1>只把正数加起来</h1>
+<p>输入是一串整数。目标是忽略零和负数，返回所有正数之和。先看完整程序要做哪两件事：提供算法，再给出一次调用。</p>
+<div class="name">片段：主程序</div><pre><code>&lt;&lt;函数定义&gt;&gt;
+values = [3, -2, 5, 0]
+print(sum_positive(values))</code></pre>
+<h2>最值得解释的循环</h2>
+<p>逐个读数，只有当前数大于零，才把它加进累积值。处理完前几个数时，total等于那些已处理数中的正数之和。</p>
+<div class="name">片段：扫描</div><pre><code>for value in values:
+    if value &gt; 0:
+        total += value</code></pre>
+<h2>把循环放进一个函数</h2>
+<p>函数先准备累积值，再执行上面的扫描，最后返回它。片段引用所在行的缩进，会加到展开内容的每一行前面。</p>
+<div class="name">片段：函数定义</div><pre><code>def sum_positive(values):
+    &lt;&lt;初值&gt;&gt;
+    &lt;&lt;扫描&gt;&gt;
+    return total</code></pre>
+<h2>空输入也有答案</h2>
+<p>没读任何数时，正数之和是零。因此不能把初值随便选成输入的第一个元素。</p>
+<div class="name">片段：初值</div><pre><code>total = 0</code></pre></html>

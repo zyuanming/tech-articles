@@ -1,0 +1,329 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 579,
+    "min_font_px": 42,
+    "effective_at_354": 15.4875,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "认识弹簧、位置与速度，建立状态对象",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "位置和速度一起才是状态",
+      "速度 v",
+      "弹簧拉回，阻尼耗散",
+      "位置 x = 1，速度 v = 0"
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "解析模型中位置与速度的变化，不是设备实测",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "越过原点以后仍会回来",
+      "位置 x",
+      "速度 v",
+      "无量纲",
+      "0",
+      "4",
+      "8",
+      "12",
+      "−1",
+      "0",
+      "1",
+      "时间 t"
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "同一轨迹的能量单调性",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "位置起伏，能量却不回涨",
+      "能量 E",
+      "E",
+      "0",
+      "4",
+      "8",
+      "12",
+      "0",
+      "0.25",
+      "0.5",
+      "时间 t"
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "相平面螺旋表现位置和速度共同收敛",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "把时间藏进一条状态轨迹",
+      "有阻尼",
+      "速度 v",
+      "−1",
+      "0",
+      "1",
+      "−1",
+      "0",
+      "1",
+      "位置 x"
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "能量恒定的反例：稳定不等于趋于原点",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "没有阻尼，就一直绕圈",
+      "无阻尼",
+      "速度 v",
+      "−1",
+      "0",
+      "1",
+      "−1",
+      "0",
+      "1",
+      "位置 x"
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "正定函数与可能向负无穷下降的量比较",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "记账量必须分得清远近",
+      "x²",
+      "x",
+      "候选量",
+      "−1",
+      "0",
+      "1",
+      "−1",
+      "0",
+      "2",
+      "位置 x"
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 800,
+    "min_font_px": 42,
+    "effective_at_354": 15.4875,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "能量子水平集给出留在邻域内的几何理由",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "能量不增，把轨迹圈住",
+      "外圈：E 更大",
+      "内圈：E 更小"
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "局部系统x´=-x+x³的证书仅在绝对值小于1有效",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "只在这一段，变化率为负",
+      "V 的变化率",
+      "−x²+x⁴",
+      "−1",
+      "0",
+      "1",
+      "0",
+      "1",
+      "2",
+      "位置 x"
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 549,
+    "min_font_px": 42,
+    "effective_at_354": 15.4875,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "标明局部吸引域和两个非零平衡点",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "同一规则，也有不同去向",
+      "−1",
+      "0",
+      "1",
+      "圈内回原点，圈外向外走"
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "前向Euler离散特征值模长平方随步长改变",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "步长太大，会造出假发散",
+      "模长平方",
+      "1−h+h²",
+      "0",
+      "1",
+      "2",
+      "0",
+      "1",
+      "2",
+      "3",
+      "步长 h"
+    ]
+  },
+  {
+    "file": "11.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "x´=-x与x´=-x³不同收敛速度的精确解",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "趋近的速度也可能很慢",
+      "指数衰减",
+      "慢衰减",
+      "初值均为 1",
+      "0",
+      "4",
+      "8",
+      "12",
+      "0",
+      "0.5",
+      "1",
+      "时间 t"
+    ]
+  },
+  {
+    "file": "12.png",
+    "width": 960,
+    "height": 848,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "有限几条曲线与对所有初态成立的代数证明分开",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "一张证书覆盖一片初态",
+      "初值 0.4",
+      "初值 0.7",
+      "初值 1",
+      "速度 v",
+      "−1",
+      "0",
+      "1",
+      "−1",
+      "0",
+      "1",
+      "位置 x"
+    ]
+  }
+]

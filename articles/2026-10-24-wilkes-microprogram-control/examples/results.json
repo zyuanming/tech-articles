@@ -1,0 +1,100 @@
+{
+  "initial": {
+    "A": 3,
+    "memory_address": 7,
+    "memory_value": 5
+  },
+  "trace": [
+    {
+      "microaddress": 10,
+      "op": "address",
+      "before": {
+        "A": 3,
+        "MAR": 0,
+        "MDR": 0,
+        "IR_address": 7
+      },
+      "after": {
+        "A": 3,
+        "MAR": 7,
+        "MDR": 0,
+        "IR_address": 7
+      },
+      "next": 11
+    },
+    {
+      "microaddress": 11,
+      "op": "read",
+      "before": {
+        "A": 3,
+        "MAR": 7,
+        "MDR": 0,
+        "IR_address": 7
+      },
+      "after": {
+        "A": 3,
+        "MAR": 7,
+        "MDR": 5,
+        "IR_address": 7
+      },
+      "next": 12
+    },
+    {
+      "microaddress": 12,
+      "op": "add",
+      "before": {
+        "A": 3,
+        "MAR": 7,
+        "MDR": 5,
+        "IR_address": 7
+      },
+      "after": {
+        "A": 8,
+        "MAR": 7,
+        "MDR": 5,
+        "IR_address": 7
+      },
+      "next": 0
+    }
+  ],
+  "words": [
+    [
+      1,
+      0,
+      0,
+      11
+    ],
+    [
+      0,
+      1,
+      0,
+      12
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "columns": [
+    "地址入MAR",
+    "读入MDR",
+    "加法入A",
+    "下一址"
+  ],
+  "zero_branch": [
+    {
+      "A": 0,
+      "Z": 1,
+      "next": 20
+    },
+    {
+      "A": 8,
+      "Z": 0,
+      "next": 0
+    }
+  ],
+  "checks": 256,
+  "python": "3.12.14"
+}

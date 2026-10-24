@@ -1,0 +1,240 @@
+[
+  {
+    "file": "assets/01-route.png",
+    "width": 960,
+    "height": 848,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "按事件计算得到的实际访问格序列",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/02-fixed-step.png",
+    "width": 960,
+    "height": 848,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "固定参数步长1.3漏掉射线短暂经过的格(1,0)",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/03-parameter.png",
+    "width": 960,
+    "height": 848,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "参数增量与坐标位移对应",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/04-first-x.png",
+    "width": 960,
+    "height": 831,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "连续两次边界事件的计算状态",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/05-first-y.png",
+    "width": 960,
+    "height": 831,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "连续两次边界事件的计算状态",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/06-ledger.png",
+    "width": 960,
+    "height": 653,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实际精确分数状态表，便于核对增量更新",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/07-negative.png",
+    "width": 960,
+    "height": 848,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "负向射线及对应访问格",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/08-zero.png",
+    "width": 960,
+    "height": 876,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "零分量不做除零，事件设为无穷",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/09-corner.png",
+    "width": 960,
+    "height": 848,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "正长度遍历约定跳过只触及角点的邻格",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/10-entry.png",
+    "width": 960,
+    "height": 731,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "包围盒裁剪与网格初始化顺序示意",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/11-three-d.png",
+    "width": 960,
+    "height": 771,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实际三维访问立方格投影",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/12-candidate.png",
+    "width": 960,
+    "height": 721,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "网格候选与物体精确交点的区别",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/13-cell-size.png",
+    "width": 960,
+    "height": 690,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "一般格宽对跨轴时间增量的作用",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/14-tests.png",
+    "width": 960,
+    "height": 636,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实验范围与独立验证方法概览",
+    "identity": "原创实验说明",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  }
+]

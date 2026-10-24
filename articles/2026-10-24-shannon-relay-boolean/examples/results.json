@@ -1,0 +1,171 @@
+{
+  "rows": [
+    {
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "ab": 0,
+      "ac": 0,
+      "F": 0,
+      "G": 0
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "c": 1,
+      "ab": 0,
+      "ac": 0,
+      "F": 0,
+      "G": 0
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "c": 0,
+      "ab": 0,
+      "ac": 0,
+      "F": 0,
+      "G": 0
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "c": 1,
+      "ab": 0,
+      "ac": 0,
+      "F": 0,
+      "G": 0
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "ab": 0,
+      "ac": 0,
+      "F": 0,
+      "G": 0
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 1,
+      "ab": 0,
+      "ac": 1,
+      "F": 1,
+      "G": 1
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "c": 0,
+      "ab": 1,
+      "ac": 0,
+      "F": 1,
+      "G": 1
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "c": 1,
+      "ab": 1,
+      "ac": 1,
+      "F": 1,
+      "G": 1
+    }
+  ],
+  "pairs": [
+    {
+      "a": 0,
+      "b": 0,
+      "AND": 0,
+      "OR": 0,
+      "XOR": 0,
+      "NOT_OR": 1
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "AND": 0,
+      "OR": 1,
+      "XOR": 1,
+      "NOT_OR": 0
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "AND": 0,
+      "OR": 1,
+      "XOR": 1,
+      "NOT_OR": 0
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "AND": 1,
+      "OR": 1,
+      "XOR": 0,
+      "NOT_OR": 0
+    }
+  ],
+  "contacts_before": 4,
+  "contacts_after": 3,
+  "trace": [
+    {
+      "t": 0,
+      "command": 0,
+      "new": 0,
+      "old": 1,
+      "output": 1
+    },
+    {
+      "t": 1,
+      "command": 0,
+      "new": 0,
+      "old": 1,
+      "output": 1
+    },
+    {
+      "t": 2,
+      "command": 1,
+      "new": 0,
+      "old": 1,
+      "output": 1
+    },
+    {
+      "t": 3,
+      "command": 1,
+      "new": 0,
+      "old": 0,
+      "output": 0
+    },
+    {
+      "t": 4,
+      "command": 1,
+      "new": 0,
+      "old": 0,
+      "output": 0
+    },
+    {
+      "t": 5,
+      "command": 1,
+      "new": 1,
+      "old": 0,
+      "output": 1
+    },
+    {
+      "t": 6,
+      "command": 1,
+      "new": 1,
+      "old": 0,
+      "output": 1
+    },
+    {
+      "t": 7,
+      "command": 1,
+      "new": 1,
+      "old": 0,
+      "output": 1
+    }
+  ],
+  "trace_units": "arbitrary teaching units; not measured"
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "file": "assets/01-sharp.png",
+    "width": 960,
+    "height": 591,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "两种实际轮廓提取结果，红点标真角",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/02-signs.png",
+    "width": 960,
+    "height": 853,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "格角正负采样与缺失内部位置",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/03-cut-corner.png",
+    "width": 960,
+    "height": 853,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一交点可以连接成不同内部轮廓",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/04-normals.png",
+    "width": 960,
+    "height": 853,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "两条外法线分别垂直于两段边界",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/05-tangent-lines.png",
+    "width": 960,
+    "height": 934,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "两条切线交汇提供格内候选顶点",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/06-error.png",
+    "width": 960,
+    "height": 851,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "实际误差场与两处候选分数",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/07-dual-connect.png",
+    "width": 960,
+    "height": 881,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "由原网格变号边连接相邻格代表点",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/08-full-grid.png",
+    "width": 960,
+    "height": 925,
+    "minimum_font_px": 46,
+    "effective_at_354px": 16.96,
+    "purpose": "实际均匀网格dual轮廓及每格顶点",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/09-three-d.png",
+    "width": 960,
+    "height": 881,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "沿三维网格边观察四相邻体素连接四边形的投影",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/10-flat.png",
+    "width": 960,
+    "height": 936,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "平行法线导致欠约束，不强行求逆",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/11-outside.png",
+    "width": 960,
+    "height": 1044,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "近乎平行切线使无约束交点出格",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/12-bounded.png",
+    "width": 960,
+    "height": 1231,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "有界最优不同于简单逐坐标裁剪",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/13-hidden.png",
+    "width": 960,
+    "height": 931,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "采样分辨率无法保证捕捉格内小结构",
+    "identity": "原创几何示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/14-resolution.png",
+    "width": 960,
+    "height": 790,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一盒形两档网格的实际结果",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  }
+]

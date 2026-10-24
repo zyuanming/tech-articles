@@ -1,0 +1,341 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "流量与体积的面积关系",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "流量曲线下面，藏着总水量",
+      "流量",
+      "流量 / L/s",
+      "0",
+      "1",
+      "2",
+      "0",
+      "2",
+      "5",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "矩形近似偏低的可见空隙",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "左端矩形遗漏了上面的水",
+      "真实流量",
+      "矩形顶",
+      "流量 / L/s",
+      "0",
+      "1",
+      "2",
+      "0",
+      "2",
+      "5",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "单个梯形面积6升而真实14/3升",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "两点连直线，又多算一块",
+      "真实曲线",
+      "端点直线",
+      "流量 / L/s",
+      "0",
+      "1",
+      "2",
+      "0",
+      "2",
+      "5",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 851,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "三个等距采样点确定二次插值曲线",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "中间多问一次，看见弯曲",
+      "穿过三点",
+      "流量 / L/s",
+      "0",
+      "1",
+      "2",
+      "0",
+      "2",
+      "5",
+      "时间 / s"
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 849,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "用常数、一次与二次决定权重",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "检查三种最简单的形状",
+      "常数 1",
+      "直线 z",
+      "平方 z²",
+      "函数值",
+      "−1",
+      "0",
+      "1",
+      "−1",
+      "0",
+      "1",
+      "新坐标 z"
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 598,
+    "min_font_px": 42,
+    "effective_at_354": 15.4875,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "权重柱长共用每份75像素的比例",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "同一份高度，中间算四份",
+      "左",
+      "1",
+      "中",
+      "4",
+      "右",
+      "1",
+      "权重 1 : 4 : 1"
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 849,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "对称积分使三次多项式也能精确",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "三次项的两半正好抵消",
+      "z³",
+      "有符号高度",
+      "−1",
+      "0",
+      "1",
+      "−1",
+      "0",
+      "1",
+      "坐标 z"
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 844,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "插值抛物线甚至局部为负，不能当作真实函数",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "四次曲线已经不再精确",
+      "x⁴",
+      "三点抛物线",
+      "函数值",
+      "0",
+      "1",
+      "2",
+      "0",
+      "8",
+      "16",
+      "x"
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 849,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "同一x4积分的真实误差，纵轴为对数",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "步距减半，误差缩到十六分一",
+      "log10误差",
+      "误差对数",
+      "2",
+      "4",
+      "8",
+      "16",
+      "−4",
+      "−2",
+      "0",
+      "小段数 n"
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 844,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "两层Simpson恰好漏采的反例",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "五个零读数，也可能漏掉波峰",
+      "真实函数",
+      "采样判断",
+      "sin²(2πx)",
+      "0",
+      "0.5",
+      "1",
+      "2",
+      "0",
+      "0.5",
+      "1",
+      "x"
+    ]
+  },
+  {
+    "file": "11.png",
+    "width": 960,
+    "height": 545,
+    "min_font_px": 42,
+    "effective_at_354": 15.4875,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "非等距节点不能套标准1:4:1",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "不等距采样，不能照搬权重",
+      "0",
+      "0.5",
+      "2",
+      "三点仍在，左右间隔不同",
+      "0.5",
+      "1.5"
+    ]
+  },
+  {
+    "file": "12.png",
+    "width": 960,
+    "height": 844,
+    "min_font_px": 40,
+    "effective_at_354": 14.75,
+    "identity": "原创模型计算或教学示意",
+    "purpose": "自适应的采样位置示意，不冒称已实现可靠积分器",
+    "checks": {
+      "bounds": true,
+      "overlap": true,
+      "font_cmap": true,
+      "pixels": true,
+      "contrast": true
+    },
+    "labels": [
+      "把额外采样放在变化快处",
+      "窄峰示意",
+      "函数值",
+      "0",
+      "1",
+      "2",
+      "0",
+      "0.5",
+      "1",
+      "x"
+    ]
+  }
+]

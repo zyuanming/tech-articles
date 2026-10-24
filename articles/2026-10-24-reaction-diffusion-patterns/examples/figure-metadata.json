@@ -1,0 +1,257 @@
+[
+  {
+    "file": "assets/01-pattern.png",
+    "width": 960,
+    "height": 903,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "6000步V浓度真实输出，固定色标",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/02-two-fields.png",
+    "width": 960,
+    "height": 602,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "单格两种浓度，用容器高度解释数值",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/03-reaction.png",
+    "width": 960,
+    "height": 702,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "反应项配对变化及实际手算数值",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/04-laplacian.png",
+    "width": 960,
+    "height": 890,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "四邻域差分与中心V浓度",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/05-step.png",
+    "width": 960,
+    "height": 770,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一尺度有符号增量条及一步结果",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/06-sync.png",
+    "width": 960,
+    "height": 650,
+    "minimum_font_px": 40,
+    "effective_at_354px": 14.75,
+    "purpose": "一维扩散对照，原地更新改变实际规则",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/07-time-0.png",
+    "width": 960,
+    "height": 903,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "时间序列第0步V浓度，色标不变",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/08-time-250.png",
+    "width": 960,
+    "height": 903,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "时间序列第250步V浓度，色标不变",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/09-time-1000.png",
+    "width": 960,
+    "height": 903,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "时间序列第1000步V浓度，色标不变",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/10-time-3000.png",
+    "width": 960,
+    "height": 903,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "时间序列第3000步V浓度，色标不变",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/11-parameters.png",
+    "width": 960,
+    "height": 1589,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "两组参数6000步实际结果，固定色标",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/12-boundary.png",
+    "width": 960,
+    "height": 721,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "边界条件示意，不是额外反应规则",
+    "identity": "原创教学示意",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/13-timestep.png",
+    "width": 960,
+    "height": 620,
+    "minimum_font_px": 40,
+    "effective_at_354px": 14.75,
+    "purpose": "纯扩散单脉冲在两步长下的实际结果",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/14-no-seed.png",
+    "width": 960,
+    "height": 762,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "均匀平衡态的真实计算与解释",
+    "identity": "原创程序运行结果",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  },
+  {
+    "file": "assets/15-two-maps.png",
+    "width": 960,
+    "height": 690,
+    "minimum_font_px": 42,
+    "effective_at_354px": 15.49,
+    "purpose": "同一时刻U和V在同一色标的实际对照",
+    "identity": "原创数值模拟输出",
+    "checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": false,
+      "font_floor": true,
+      "pixel_contrast": true,
+      "nonempty_glyphs": true
+    }
+  }
+]

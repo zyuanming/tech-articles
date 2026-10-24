@@ -1,0 +1,206 @@
+[
+  {
+    "file": "01-inflight.png",
+    "width": 1062,
+    "height": 559,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "本地空闲不覆盖尚未到达的工作消息。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "02-two-messages.png",
+    "width": 1062,
+    "height": 577,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "区分业务工作消息与检测用回执，回执不产生新业务任务。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "03-debt.png",
+    "width": 1062,
+    "height": 618,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "欠账在发送时建立，收到回执才消除，覆盖工作和回执的传输时间。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "04-tree.png",
+    "width": 1062,
+    "height": 686,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "首次工作建立参与树；父关系是回执责任，不是固定网络拓扑。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "05-cross.png",
+    "width": 1062,
+    "height": 686,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "橙色交叉边是追加工作，B仍保留首次父边R。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "06-early-ack.png",
+    "width": 1062,
+    "height": 706,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "早回执只解除追加发送者的账；本地未完成工作仍被首次父边兜住。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "07-contract.png",
+    "width": 1062,
+    "height": 687,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "A退出不使整个系统结束，R还持有对B的未结账。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "08-last-ack.png",
+    "width": 1062,
+    "height": 689,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "全体业务已停与根已获知结束不是同一瞬间；迟报比错报安全。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "09-ledger.png",
+    "width": 1062,
+    "height": 1146,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "从实际消息轨迹读取，追加消息使A暂时增加一笔而根始终等着父边回执。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "10-cycle.png",
+    "width": 1062,
+    "height": 617,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "任意业务通信图可有环，把每条消息都作父责任会形成相互等待。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "11-zeros.png",
+    "width": 1062,
+    "height": 530,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "最后一行仅在本文协议不变量和通信前提满足时成立。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "12-explore.png",
+    "width": 1062,
+    "height": 618,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "实际穷举37个去重状态，未见错误宣布；不把有限模型冒充一般形式证明。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  }
+]

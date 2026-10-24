@@ -1,0 +1,206 @@
+[
+  {
+    "file": "01-records.png",
+    "width": 1062,
+    "height": 530,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "同一记录满足y=2x；两次独立读取可能拼出不存在的版本。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "02-torn.png",
+    "width": 1062,
+    "height": 709,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "纵向向下为事件次序；读者前后拿到不同版本。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "03-parity.png",
+    "width": 1062,
+    "height": 427,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "写入前后各加一；偶数只允许尝试，不足以单独证明本次复制有效。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "04-accept.png",
+    "width": 1062,
+    "height": 588,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "开始与结束都是同一偶数，才接纳中间复制的字段。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "05-collision.png",
+    "width": 1062,
+    "height": 970,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "以完整可复算交错显示0到2的变化如何暴露拼接读。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "06-local-copy.png",
+    "width": 1062,
+    "height": 717,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "读者副本只有验证成功才能交付，不能把外部副作用放进可重试段。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "07-enumeration.png",
+    "width": 1062,
+    "height": 557,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "两种抽象动作数量不同，交错数不可当性能比较；列出实际穷举结果。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "08-writers.png",
+    "width": 1062,
+    "height": 618,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "没有写者互斥时，奇偶不再代表是否存在写入。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "09-pointer.png",
+    "width": 1062,
+    "height": 739,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "事后发现序号变化不能撤销对已释放对象的访问。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "10-starvation.png",
+    "width": 1062,
+    "height": 564,
+    "min_font_px": 44,
+    "effective_at_354_px": 14.666666666666666,
+    "purpose": "每次读段都与写段相交，说明lockless读者不等于保证有限步完成。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "11-wrap.png",
+    "width": 1062,
+    "height": 578,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "模4序号经过两次完整写入回绕，说明有限位宽需要额外时长界限。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  },
+  {
+    "file": "12-fit.png",
+    "width": 1062,
+    "height": 618,
+    "min_font_px": 46,
+    "effective_at_354_px": 15.333333333333334,
+    "purpose": "把前面反例转为选择条件，不把序列锁推广为通用读写锁替代品。",
+    "identity": "原创机制示意",
+    "geometry_checks": {
+      "canvas": true,
+      "declared_boxes": true,
+      "text_overlap": true,
+      "font_minimum": true,
+      "contrast_and_pixels": true,
+      "glyph_masks": true
+    }
+  }
+]

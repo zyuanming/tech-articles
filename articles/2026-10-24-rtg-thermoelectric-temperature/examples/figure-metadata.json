@@ -1,0 +1,770 @@
+[
+  {
+    "file": "01.png",
+    "width": 960,
+    "height": 578,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "区分热流与电输出",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "热源和散热端，缺一不可",
+        "box": [
+          35,
+          42,
+          519,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "热源",
+        "box": [
+          95,
+          233,
+          179,
+          273
+        ],
+        "size": 42
+      },
+      {
+        "text": "转换材料",
+        "box": [
+          400,
+          233,
+          568,
+          274
+        ],
+        "size": 42
+      },
+      {
+        "text": "冷端",
+        "box": [
+          775,
+          233,
+          859,
+          273
+        ],
+        "size": 42
+      },
+      {
+        "text": "电能 → 负载",
+        "box": [
+          350,
+          503,
+          579,
+          543
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "02.png",
+    "width": 960,
+    "height": 468,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "开路电压的作用平衡示意",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "开路：有电压，没有持续电流",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "热端",
+        "box": [
+          100,
+          143,
+          184,
+          183
+        ],
+        "size": 42
+      },
+      {
+        "text": "冷端",
+        "box": [
+          750,
+          143,
+          834,
+          183
+        ],
+        "size": 42
+      },
+      {
+        "text": "扩散趋势",
+        "box": [
+          340,
+          198,
+          508,
+          239
+        ],
+        "size": 42
+      },
+      {
+        "text": "电场作用抵消",
+        "box": [
+          310,
+          393,
+          562,
+          433
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "03.png",
+    "width": 960,
+    "height": 738,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "热通路与电连接方向",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "一对材料：热并排走，电接续走",
+        "box": [
+          35,
+          42,
+          651,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "共同热面",
+        "box": [
+          350,
+          123,
+          518,
+          164
+        ],
+        "size": 42
+      },
+      {
+        "text": "材料甲",
+        "box": [
+          65,
+          313,
+          191,
+          353
+        ],
+        "size": 42
+      },
+      {
+        "text": "材料乙",
+        "box": [
+          740,
+          313,
+          866,
+          353
+        ],
+        "size": 42
+      },
+      {
+        "text": "两个冷端输出",
+        "box": [
+          280,
+          663,
+          532,
+          703
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "04.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "可手算电压斜率",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "常系数模型：温差乘以系数",
+        "box": [
+          35,
+          42,
+          563,
+          84
+        ],
+        "size": 44
+      },
+      {
+        "text": "温差 / K",
+        "box": [
+          744,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "开路电压 / V",
+        "box": [
+          35,
+          153,
+          263,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.04",
+        "box": [
+          33.0,
+          386.0,
+          115.0,
+          419.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.08",
+        "box": [
+          33.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "100",
+        "box": [
+          475.0,
+          583.0,
+          545.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "200",
+        "box": [
+          855.0,
+          583.0,
+          925.0,
+          616.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "05.png",
+    "width": 960,
+    "height": 519,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "串联累计电压非串联温差",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "电串联：沿连接方向累计电压",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "0.08 V",
+        "box": [
+          120,
+          263,
+          236,
+          295
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.16 V",
+        "box": [
+          410,
+          263,
+          526,
+          295
+        ],
+        "size": 42
+      },
+      {
+        "text": "0.24 V",
+        "box": [
+          700,
+          263,
+          816,
+          295
+        ],
+        "size": 42
+      },
+      {
+        "text": "每一对仍跨过同样的温差",
+        "box": [
+          130,
+          442,
+          592,
+          484
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "06.png",
+    "width": 960,
+    "height": 714,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "闭合电路的串联分压",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "带负载时，要扣掉内部压降",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "8 V",
+        "box": [
+          110,
+          593,
+          168,
+          625
+        ],
+        "size": 42
+      },
+      {
+        "text": "内阻 4 Ω",
+        "box": [
+          295,
+          128,
+          453,
+          169
+        ],
+        "size": 42
+      },
+      {
+        "text": "负载",
+        "box": [
+          660,
+          588,
+          744,
+          628
+        ],
+        "size": 42
+      },
+      {
+        "text": "4 Ω",
+        "box": [
+          700,
+          647,
+          765,
+          679
+        ],
+        "size": 42
+      },
+      {
+        "text": "1 A",
+        "box": [
+          380,
+          588,
+          439,
+          619
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "07.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "固定温差负载匹配曲线",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "电压高，不等于输出功率大",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "负载 / Ω",
+        "box": [
+          739,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "负载功率 / W",
+        "box": [
+          35,
+          153,
+          275,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "2",
+        "box": [
+          92.0,
+          386.0,
+          115.0,
+          418.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          92.0,
+          227.0,
+          115.0,
+          258.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          118.0,
+          583.0,
+          141.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          270.0,
+          583.0,
+          293.0,
+          614.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "12",
+        "box": [
+          563.0,
+          583.0,
+          610.0,
+          615.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "20",
+        "box": [
+          867.0,
+          583.0,
+          914.0,
+          616.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "08.png",
+    "width": 960,
+    "height": 595,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "同尺度热电功率分流",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "另加热输入假设：稳态能量账",
+        "box": [
+          35,
+          42,
+          607,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "输入 100 W",
+        "box": [
+          50,
+          153,
+          260,
+          193
+        ],
+        "size": 42
+      },
+      {
+        "text": "电输出 4 W",
+        "box": [
+          50,
+          303,
+          255,
+          343
+        ],
+        "size": 42
+      },
+      {
+        "text": "排热 96 W",
+        "box": [
+          50,
+          453,
+          236,
+          493
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "09.png",
+    "width": 960,
+    "height": 709,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "散热鳍片的作用",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "真空中的散热面靠辐射排热",
+        "box": [
+          35,
+          42,
+          563,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "鳍片增加有效辐射面积",
+        "box": [
+          160,
+          633,
+          580,
+          674
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "10.png",
+    "width": 960,
+    "height": 724,
+    "min_font_px": 42,
+    "effective_font_at_354px": 15.4875,
+    "identity": "原创教学示意",
+    "purpose": "冷端温度影响温差",
+    "geometry_check": "passed",
+    "glyph_cmap_check": "passed",
+    "text_overlap_check": "passed",
+    "canvas_bounds_check": "passed",
+    "text_pixel_contrast_check": "passed",
+    "text_boxes": [
+      {
+        "text": "热端不变，冷端升温也会掉电压",
+        "box": [
+          35,
+          41,
+          651,
+          85
+        ],
+        "size": 44
+      },
+      {
+        "text": "冷端温度 / K",
+        "box": [
+          660,
+          645,
+          890,
+          689
+        ],
+        "size": 42
+      },
+      {
+        "text": "开路电压 / V",
+        "box": [
+          35,
+          153,
+          263,
+          197
+        ],
+        "size": 42
+      },
+      {
+        "text": "0",
+        "box": [
+          92.0,
+          546.0,
+          115.0,
+          579.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "4",
+        "box": [
+          92.0,
+          387.0,
+          115.0,
+          418.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "8",
+        "box": [
+          92.0,
+          226.0,
+          115.0,
+          259.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "300",
+        "box": [
+          95.0,
+          583.0,
+          165.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "350",
+        "box": [
+          475.0,
+          583.0,
+          545.0,
+          616.0
+        ],
+        "size": 42
+      },
+      {
+        "text": "400",
+        "box": [
+          855.0,
+          583.0,
+          925.0,
+          616.0
+        ],
+        "size": 42
+      }
+    ]
+  },
+  {
+    "file": "../originals/photos/rtg.jpg",
+    "width": 1080,
+    "height": 1371,
+    "identity": "NASA/JPL-Caltech 实物照片，已有许可素材副本",
+    "min_font_px": "NOT_MEASURED",
+    "purpose": "真实RTG散热鳍片"
+  }
+]
