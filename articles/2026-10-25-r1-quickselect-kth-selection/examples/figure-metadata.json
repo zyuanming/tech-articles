@@ -1,0 +1,173 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1207,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "独立封面：原数组与仅保留一侧的候选链",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-rank.png",
+    "width": 1062,
+    "height": 964,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "把原位置、排序后的序号和零起始索引区分开",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-partition.png",
+    "width": 1062,
+    "height": 1209,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "呈现三路分区的实际数组、等值处理和组内无序",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-shrink.png",
+    "width": 1062,
+    "height": 1426,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "完整跟踪三轮候选和进右侧时的排名重编号",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-duplicates.png",
+    "width": 1062,
+    "height": 954,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "显示等值排名区间与只剔除一个主元的退化原因",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-memory.png",
+    "width": 1062,
+    "height": 1292,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "可见的输入与输出列表共存，约束实现的空间承诺",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-work.png",
+    "width": 1062,
+    "height": 1787,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同尺度逐轮工作条，揭示几何收缩与逐项剥离的面积差",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-random-pivot.png",
+    "width": 1062,
+    "height": 1014,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "按排序名次标出好主元集合，解释概率而非保证次次对半",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-topk.png",
+    "width": 1062,
+    "height": 1159,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "把重复值边界转化为top-k的精确数量与并列选择问题",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  }
+]

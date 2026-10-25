@@ -23700,6 +23700,76 @@
     "sha256": "0594b69f80f30588a87dd9ed673e871833294955fe7190e7fc9b14af4ceb62f4"
   },
   {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/00-cover.png",
+    "bytes": 81363,
+    "sha256": "d0e6593ce9af6f062a1816100373b3f0e15d2367037bf1dcae3e4b0010a87143"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/01-rank.png",
+    "bytes": 87625,
+    "sha256": "b7fd320a2796e1ef5be00c12c11cad64d26194f3750ff4c6eb317a4659b5576e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/02-partition.png",
+    "bytes": 69608,
+    "sha256": "59c1b026d3e7fa1155e129301f4941c0e8d4d0dee8dd35095f5f52f23513ee61"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/03-shrink.png",
+    "bytes": 109124,
+    "sha256": "f8f2d20fe067e4db5dc3c0bfa70a8c91c6d30f86554af6b3f949a7ab98c0f5e1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/04-duplicates.png",
+    "bytes": 80602,
+    "sha256": "6bf6086f5f8094af6b397cf13107069579b22f8e0ecc057b68ea90c9d3257f28"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/05-memory.png",
+    "bytes": 103309,
+    "sha256": "10360b091d700639f68fd25c838e42b58bfa7b4313b20b291c2d385b0d99b90f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/06-work.png",
+    "bytes": 115621,
+    "sha256": "76c5e8ec9843978c2cd7ce50d84ee2fa52754d3859a42d148bba4714aecb3f97"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/07-random-pivot.png",
+    "bytes": 99585,
+    "sha256": "cff2fe8138bcb85f2428e283231af17037f9e53a6b17d5c4d4074b7c129514a6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/08-topk.png",
+    "bytes": 101892,
+    "sha256": "bdcd6b68f39ba44d24a015a720e75ba94e7ee65aacdf4b768fe798c390bc3b10"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/build_figures.py",
+    "bytes": 9926,
+    "sha256": "edbae31e58c508480a4ed9cda9cc569b4a440584706a74f0baa3759fcdbf68b2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/figure-metadata.json",
+    "bytes": 4387,
+    "sha256": "f88ce29e207daef4201509d521202cec32d5421bcd98c684b7cc5c0266fe7cc0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/results.json",
+    "bytes": 15027,
+    "sha256": "966e091532ddd85c97af31c54a2b5c20e311fadaf67d60b75bfe92e815ac9e12"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/run_examples.py",
+    "bytes": 2616,
+    "sha256": "3d9e97e57a20955f765b4194d9b65031be33ee317a6785209633516a8ed74af0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/selection.py",
+    "bytes": 1882,
+    "sha256": "b25fa9e1844758b4140a69af1b63e24c2628492377dab6aa81bc2313812ea85d"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
