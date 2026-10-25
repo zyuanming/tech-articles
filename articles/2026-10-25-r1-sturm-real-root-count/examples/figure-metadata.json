@@ -1,0 +1,585 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1359,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "把根的位置与单调下降的变化数对齐",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          -2.0,
+          2.0
+        ],
+        "yrange": [
+          -6,
+          6
+        ],
+        "samples": 401,
+        "labels": [
+          "上图：p=x³−x；横轴 x，纵轴 p"
+        ]
+      },
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          -2,
+          2
+        ],
+        "yrange": [
+          0,
+          3
+        ],
+        "samples": 8,
+        "labels": [
+          "下图：同一 x 上的符号变化数 V(x)"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-touch.png",
+    "width": 1062,
+    "height": 1036,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "明确偶重根的接触形状和采样漏根",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          0.5,
+          1.5
+        ],
+        "yrange": [
+          0,
+          1
+        ],
+        "samples": 401,
+        "labels": [
+          "q=(x−1)²(x+2)；横轴 x，纵轴 q"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-derivative.png",
+    "width": 1062,
+    "height": 1079,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "简单根处的局部斜率及导数的计数作用",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          0.75,
+          1.25
+        ],
+        "yrange": [
+          -0.5,
+          0.703125
+        ],
+        "samples": 401,
+        "labels": [
+          "蓝：p=x³−x",
+          "棕：x=1 处切线 y=2(x−1)"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-division.png",
+    "width": 1062,
+    "height": 1060,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "完整执行首项相除、乘回、相减及负余数",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-chain.png",
+    "width": 1062,
+    "height": 1290,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "第二次除法、停止条件与完整链的次数",
+    "numeric_geometry": [
+      {
+        "kind": "degree-bars",
+        "values": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "pixels_per_degree": 125
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-sign-table.png",
+    "width": 1062,
+    "height": 1243,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "端点及根点的完整符号表与删零规则",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-middle-zero.png",
+    "width": 1062,
+    "height": 1074,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "以实际三条曲线解释中间项过零不增减变化数",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          0.5,
+          0.6
+        ],
+        "yrange": [
+          -0.5,
+          0.5
+        ],
+        "samples": 401,
+        "labels": [
+          "蓝 S₀；棕 S₁；绿 S₂",
+          "横轴 x；纵轴各链项值"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-root-drop.png",
+    "width": 1062,
+    "height": 1100,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "主算例根左右及恰在根上的完整符号变化",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-endpoints.png",
+    "width": 1062,
+    "height": 1343,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "根端点的四种区间约定避免无声多算少算",
+    "numeric_geometry": [
+      {
+        "kind": "endpoint-inclusion",
+        "convention": "(]",
+        "count": 2,
+        "roots": [
+          -1,
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "endpoint-inclusion",
+        "convention": "[]",
+        "count": 3,
+        "roots": [
+          -1,
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "endpoint-inclusion",
+        "convention": "()",
+        "count": 1,
+        "roots": [
+          -1,
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "endpoint-inclusion",
+        "convention": "[)",
+        "count": 2,
+        "roots": [
+          -1,
+          0,
+          1
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-tree.png",
+    "width": 1062,
+    "height": 1330,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "执行树的前两层与中点根的唯一归属",
+    "numeric_geometry": [
+      {
+        "kind": "executed-isolation-tree",
+        "node_ids": [
+          0,
+          1,
+          12,
+          2,
+          7,
+          13,
+          18
+        ],
+        "source": "results.json"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-isolates.png",
+    "width": 1062,
+    "height": 1350,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "实际隔离输出与统一坐标下的半开小区间",
+    "numeric_geometry": [
+      {
+        "kind": "half-open-interval",
+        "a": "-5/4",
+        "b": "-1",
+        "xrange": [
+          -2,
+          2
+        ],
+        "pixel_bounds": [
+          280.0,
+          330.0
+        ],
+        "count": 1
+      },
+      {
+        "kind": "half-open-interval",
+        "a": "-1/4",
+        "b": "0",
+        "xrange": [
+          -2,
+          2
+        ],
+        "pixel_bounds": [
+          480.0,
+          530.0
+        ],
+        "count": 1
+      },
+      {
+        "kind": "half-open-interval",
+        "a": "3/4",
+        "b": "1",
+        "xrange": [
+          -2,
+          2
+        ],
+        "pixel_bounds": [
+          680.0,
+          730.0
+        ],
+        "count": 1
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-squarefree.png",
+    "width": 1062,
+    "height": 1118,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "重复因子移除前后的实际形状与根位置",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          -3.0,
+          2.0
+        ],
+        "yrange": [
+          -16.0,
+          4.0
+        ],
+        "samples": 401,
+        "labels": [
+          "蓝：q=(x−1)²(x+2)",
+          "棕：平方自由部分 (x−1)(x+2)"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-wrong-scale.png",
+    "width": 1062,
+    "height": 972,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "无实根反例揭示任意负缩放破坏Sturm性质",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          -2.0,
+          2.0
+        ],
+        "yrange": [
+          0,
+          5
+        ],
+        "samples": 401,
+        "labels": [
+          "p=x²+1，横轴 x；纵轴 p"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-rounding.png",
+    "width": 1062,
+    "height": 1225,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "输入系数舍入改变根数的真实可复算反例",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-curves",
+        "source": "results.json",
+        "xrange": [
+          -2.0,
+          2.0
+        ],
+        "yrange": [
+          -1,
+          4
+        ],
+        "samples": 401,
+        "labels": [
+          "蓝：精确系数；棕：常数先舍入",
+          "横轴 u=(x−1)/10⁻¹⁰",
+          "纵轴函数值 / 10⁻²⁰",
+          "灰虚线：0"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-irrational.png",
+    "width": 1062,
+    "height": 990,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确有理数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "无理根的精确有理包围区间及独立平方核算",
+    "numeric_geometry": [
+      {
+        "kind": "rational-isolation",
+        "a": "45/32",
+        "b": "91/64",
+        "width": "1/64",
+        "sqrt_marker": "illustrative float only"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-live-report.png",
+    "width": 1062,
+    "height": 1405,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "默认Chromium localhost真实只读教学报告截图，不是SymPy官方界面",
+    "purpose": "实际执行的Fraction/SymPy对照与隔离结果",
+    "numeric_geometry": "报告读数直接读取results.json；无数量编码条形",
+    "checks": [
+      "browser-1062-and-354",
+      "document-overflow",
+      "text-bounds",
+      "font-size",
+      "glyph-cmap",
+      "PNG-ink",
+      "actual-dimensions",
+      "actual-output-readings"
+    ],
+    "manual_checks_required": [
+      "contrast",
+      "text-overlap",
+      "phone-scale-glyphs"
+    ]
+  }
+]

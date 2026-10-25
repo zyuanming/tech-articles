@@ -25270,6 +25270,121 @@
     "sha256": "13be11f77ace33f32120d5f29a041c58a13eac49e4abadb0cbdf7cf6f365bf0c"
   },
   {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/00-cover.png",
+    "bytes": 88545,
+    "sha256": "b7947c66bc6dca0fbe9d22be70186a625d67c9214b5aee2e68052a69c22dd57e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/01-touch.png",
+    "bytes": 67040,
+    "sha256": "da4e3031faba5a870cdbfeb5b34de295718cfb9e6b53db02f7e69a8126297ca4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/02-derivative.png",
+    "bytes": 90241,
+    "sha256": "cc082cc0e28837ef40451f60c3d8a9c92053ecb2d8582006294e38421652832d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/03-division.png",
+    "bytes": 111633,
+    "sha256": "3cd674de988e400dd6a95c76a8d1bc155a255b3553c3d2f213d2532e0d576cde"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/04-chain.png",
+    "bytes": 111659,
+    "sha256": "70f50f428a83bb0d3dad87911ecf5efc2445b4a2ab9a9bec492c8b46565aea5e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/05-sign-table.png",
+    "bytes": 65643,
+    "sha256": "0f71796b4f2dbf3318ce4387d89710729f67eb388436fde7fd0870b0f572a320"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/06-middle-zero.png",
+    "bytes": 90981,
+    "sha256": "10084642588ece003edfcff4e9de6da761dfdca0be6d26693b32ab9a5cad1518"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/07-root-drop.png",
+    "bytes": 96131,
+    "sha256": "d1928f550a5cb5f790ffb75057d69fe7326be934489b7013fe18c5063d6e3461"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/08-endpoints.png",
+    "bytes": 83569,
+    "sha256": "634ebf8a7ee4731c12491d6e11c9eabd71cab2d4741fc3c6e615797a995c23a1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/09-tree.png",
+    "bytes": 79548,
+    "sha256": "f0c681b19105d1dc3f681a3170cab3c43cba6528aeacb070da7db5a70f8e016e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/10-isolates.png",
+    "bytes": 97639,
+    "sha256": "fa0f678781467b4ce1bc045c204422f8959edc2320e5471d5023ecd88042269c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/11-squarefree.png",
+    "bytes": 98939,
+    "sha256": "08917796be688e936c528cbddf8706c53e4ce1d75c6e87ec1e70c376ae4410f0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/12-wrong-scale.png",
+    "bytes": 75300,
+    "sha256": "4188b7c0596545d48e6d5f13fc21bbc0e359bcfe7e05900c014f2a2548da2f5d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/13-rounding.png",
+    "bytes": 124026,
+    "sha256": "06f12c683f6d46d5b4a16d7b13f568cbd9176ebb8c1211ff678764a762738f08"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/14-irrational.png",
+    "bytes": 103301,
+    "sha256": "f7f50a8e40a151dd2da2efbd7e93fb233fde379fe77299ff0deea21a0af06be7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/assets/15-live-report.png",
+    "bytes": 154897,
+    "sha256": "f7bef4b34d174bde9d3630ee624432bfa915f07e3463dd44283c22728676b93d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/build_figures.py",
+    "bytes": 16573,
+    "sha256": "8273cf4dd95d9258d078e42d4b321c0f7fb8671bdc1fdb5f14d7c99174539578"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/capture_report.py",
+    "bytes": 3277,
+    "sha256": "366eb311ccf90b487d37c2293924ed514ba37b202cc061d0d84149dc849d39de"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/figure-metadata.json",
+    "bytes": 13398,
+    "sha256": "87486d00ed0d45fb7f4a16975a3b3e2a42e0de319c9f2f35fcdc81c62313f1e3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/report.html",
+    "bytes": 2524,
+    "sha256": "b8a96b78d7960240212c6787e99c71c4b9deb2b82d92949d6b5397f1f57ca986"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/results.json",
+    "bytes": 155927,
+    "sha256": "a36d2b188901ee59dab70847c80fb996ae5658457d2b62864d55ce367872e086"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/run_examples.py",
+    "bytes": 6365,
+    "sha256": "125a19101b1aea46109f5495532952ddc7dd91f665d3d1b6dedac2ed288b3a18"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sturm-real-root-count/examples/sturm_exact.py",
+    "bytes": 3949,
+    "sha256": "16e07c514becbfc1976e69d41245c7d62ae652fe6dc1a5b9b66cedac4ba9dfa3"
+  },
+  {
     "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/00-cover.png",
     "bytes": 73260,
     "sha256": "8539df3a9795bdad87ad6814996b1285f39a7b82de9fe8153a257b5539293302"
