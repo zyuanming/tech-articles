@@ -1,0 +1,59 @@
+{
+  "upstream_commit": "f9fa2eb9a32a5efc529e2d86f0b59f35b1e9028d",
+  "identity": "Local execution on upstream real test images, not new observations or attitude ground truth",
+  "compatibility": "np.math.factorial replaced by math.factorial in temporary copy; math import added",
+  "parameters": {
+    "distortion": [
+      -0.2,
+      0.1
+    ],
+    "solve_timeout_ms": 30000,
+    "return_visual": true,
+    "return_images": true
+  },
+  "database": "bundled default_database.npz, hip_main; not redistributed",
+  "rows": [
+    {
+      "RA": 230.66735971690508,
+      "Dec": 11.034222635156596,
+      "Roll": 332.27980666284935,
+      "FOV": 11.426214258294436,
+      "distortion": 0.0004037665278039889,
+      "RMSE": 6.460598759923153,
+      "Matches": 11,
+      "epoch_equinox": 2000,
+      "epoch_proper_motion": 2023.0,
+      "input": "2019-07-29T204726_Alt40_Azi-135_Try1.tiff",
+      "input_sha256": "f5d6c27ac7e8e2114fbeb45196380703e138031819714db7e39f3e101b32b557",
+      "display_percentiles": [
+        1,
+        99.9
+      ],
+      "display_limits": [
+        2368.0,
+        4256.0
+      ]
+    },
+    {
+      "RA": 240.46407740375525,
+      "Dec": 28.940573467352813,
+      "Roll": 329.04910092283376,
+      "FOV": 11.4215566101019,
+      "distortion": 0.0009845328422750925,
+      "RMSE": 5.024352328649261,
+      "Matches": 16,
+      "epoch_equinox": 2000,
+      "epoch_proper_motion": 2023.0,
+      "input": "2019-07-29T204726_Alt60_Azi-135_Try1.tiff",
+      "input_sha256": "f288f6e1fb3a1299626956e3d44740c0260348c65dd9296ac8e07bb27524a5e9",
+      "display_percentiles": [
+        1,
+        99.9
+      ],
+      "display_limits": [
+        1760.0,
+        3200.0
+      ]
+    }
+  ]
+}

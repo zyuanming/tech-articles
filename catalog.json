@@ -3017,6 +3017,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-star-tracker-pattern-identification",
+    "title": "一张没有星名的照片，怎样告诉飞船朝哪边？星敏感器的图案识别",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/read.md",
+    "public_sha256": "3912d21d4d9bf1d7ea491ff1fecd04bd6257393eafab92b73d0ca0f656600a08",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-stencil-shadow-volumes",
     "title": "模板阴影体：不画一块黑贴纸，怎样用“进入和退出”找出阴影？",
     "date": "2026-10-25",

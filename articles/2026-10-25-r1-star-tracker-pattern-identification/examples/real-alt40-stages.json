@@ -1,0 +1,32 @@
+{
+  "identity": "Exact returned stage arrays; no pixel editing",
+  "shape": [
+    768,
+    1024
+  ],
+  "removed_dtype": "float32",
+  "mask_dtype": "bool",
+  "background": "local_mean",
+  "filtsize": 25,
+  "sigma_mode": "global_root_square",
+  "sigma": 2,
+  "binary_open": true,
+  "threshold": 325.98126220703125,
+  "display_percentiles": [
+    1,
+    99.9
+  ],
+  "display_limits": [
+    -331.366455078125,
+    493.4471218261856
+  ],
+  "mask_true_pixels": 153,
+  "crop_xyxy": [
+    236,
+    278,
+    276,
+    318
+  ],
+  "crop_scale": 12,
+  "crop_mask_true_pixels": 14
+}

@@ -26340,6 +26340,181 @@
     "sha256": "1971ea2e7992a787d577591a9639204829f780a71e628c2a70215fd02df07089"
   },
   {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/00-cover.png",
+    "bytes": 67806,
+    "sha256": "9889192a4e54e285ed45fef01d8f2176c6e0bc6ea9e805ed0c1b89a0d5e09983"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/01-attitude.png",
+    "bytes": 81701,
+    "sha256": "81c075db2299ef96aae99066cee7d047055f6c8441dc4ffeb70a786e3dac7209"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/02-centroid.png",
+    "bytes": 90932,
+    "sha256": "a463fe625c955905363c5076ae1ab8c013dfc87a9520339a692efd8719e4d44b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/03-extraction.png",
+    "bytes": 105613,
+    "sha256": "10c88ecacca57aacabcdd2fffea437bb4d242c7bf1db34923e77a12ec53bb26b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/04-pinhole.png",
+    "bytes": 73015,
+    "sha256": "b27004a144dce8c299d5766cd21eac89028dbcb50b23c6e5e75ca3bb32795e9d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/05-rays.png",
+    "bytes": 94503,
+    "sha256": "0ff19994cf47b26a4874c36f5a4b9797da53002b5e5ba66d9588809b021df13c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/06-angles.png",
+    "bytes": 79782,
+    "sha256": "5b33b8fb2226ed1c575a05c9b4d9594e83b134ea7f7e487e95f21667c4f26382"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/07-invariant.png",
+    "bytes": 117751,
+    "sha256": "3fa35c42838140587e9fba3bbbd9cc35dbaf99306e1b1ff63d9748aba74ccf99"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/08-candidates.png",
+    "bytes": 105551,
+    "sha256": "f014dd63c547b03399f832da4c4d263fee7543c9a062e3dfb40f1782b29c3332"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/09-permutations.png",
+    "bytes": 136572,
+    "sha256": "2449cf6c26b7c9dd6aa05859cb53997564ecf6fbea73f175eb82f96f539a9c6e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/10-validation.png",
+    "bytes": 114132,
+    "sha256": "ea39d7408071d0354b5a0b8b3ec423230545e60e359f27cab7100ec8a5b42ac4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/11-frame.png",
+    "bytes": 78350,
+    "sha256": "579e5bb2d8ddb3ee3b2f9dab042fae0ce6ea4c6729d0320e9e1d212a11a9a700"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/12-rotation.png",
+    "bytes": 104469,
+    "sha256": "d0c29bf3a89f5a63705a4948133ae2b0219f2f89d9c3f40532e159199a82ff83"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/13-conditioning.png",
+    "bytes": 82704,
+    "sha256": "3888628340d2c6fab4ea12877034197ac7414a58a75d3669b7c0f33dd6807044"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/14-calibration.png",
+    "bytes": 123732,
+    "sha256": "90b9a73d9683a3e4f1dbb3fe6cd5aec5408e8e3c18c22a6635500b0094379da5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/15-real-detail.png",
+    "bytes": 114388,
+    "sha256": "5b7acc0c0c90c56bba33a2af72892f6a8c8db1a4a61e9646e24e9fd1eaf188ac"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/16-real-extraction-stages.png",
+    "bytes": 595321,
+    "sha256": "26be8ade80e2010335618da9f8586c229ff4269577443b0d6077ac70b9f69518"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/real-alt40-centroids.png",
+    "bytes": 322805,
+    "sha256": "67b2c6c307f379ce3caa198c72dd67f02eb1bb48f92a04a5ed743cdd2304a76b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/real-alt40-display.png",
+    "bytes": 633575,
+    "sha256": "052011f59b652e542d0f31f7d0c41edb1810c4e8e088de4d38b9a23da708938b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/real-alt40-matches.png",
+    "bytes": 4699,
+    "sha256": "5241caeb3f6e80be4cd8d945c08bca5bda091b5283a4f9a4148a1cfa6b91f0a4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/real-alt60-display.png",
+    "bytes": 617534,
+    "sha256": "039636e34da2cbf0d8730b17b40351954295ec168aa84658fa053b7aa9910bd9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/assets/real-alt60-matches.png",
+    "bytes": 5434,
+    "sha256": "917eb2036d61cd9e7dde5364f4166526f06744c384519b5657d71df2a281fba8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/build_figures.py",
+    "bytes": 20861,
+    "sha256": "cdc120d55b1f7a3f6e5268ba1c38980bc0def033003fdb403c36b16dd461b73e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/figure-metadata.json",
+    "bytes": 10714,
+    "sha256": "9d9e3e9d1017b43034c993ab4ef1c4608a564516d8b2f9fa7278ee15334bffc6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/real-alt40-stages.json",
+    "bytes": 569,
+    "sha256": "f81bca70563325d8826b8631010c387e534495ce879830cf1be61ef58c6baeb7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/real-alt40-stages.npz",
+    "bytes": 2452294,
+    "sha256": "7b29c2470eac01c333542a72b721532463c1a0b0529134c71c2f69520f0a0ba9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/real-results.json",
+    "bytes": 1700,
+    "sha256": "1f1522070a6fef75b8c54dba5f695891129fb6e426c811ab07a6b38a6e3cbc5e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/results.json",
+    "bytes": 7862,
+    "sha256": "fbdb5121446aa6d5fb54ef852e2baf2d0cf56e8b4e026a0bd58ed3e20f985d7a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/run_examples.py",
+    "bytes": 6995,
+    "sha256": "609d99d760a551589f529183b38bd9b80e7b445936e16db92b7a7d09476a7a9b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/run_tetra3.py",
+    "bytes": 4514,
+    "sha256": "33e94459331cad61b7e30c874248fdd0608a8afd312a510c8a4d4f5578494e8a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/examples/synthetic-sensor.tiff",
+    "bytes": 1572986,
+    "sha256": "6a66b98aa5b17840b3f20506d33730a8f4c2d4660f8194baf8df07e700e7042c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/originals/photos/2019-07-29T204726_Alt40_Azi-135_Try1.tiff",
+    "bytes": 1573184,
+    "sha256": "f5d6c27ac7e8e2114fbeb45196380703e138031819714db7e39f3e101b32b557"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/originals/photos/2019-07-29T204726_Alt60_Azi-135_Try1.tiff",
+    "bytes": 1573184,
+    "sha256": "f288f6e1fb3a1299626956e3d44740c0260348c65dd9296ac8e07bb27524a5e9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/originals/tetra3/LICENSE.txt",
+    "bytes": 11375,
+    "sha256": "098bcc8a868371332df729fe1221933ae307a6256455fafd39d5c189d0502486"
+  },
+  {
+    "path": "articles/2026-10-25-r1-star-tracker-pattern-identification/originals/tetra3/README.rst",
+    "bytes": 2209,
+    "sha256": "e7526e5082116b19f902d9fb4decd3e8f051de4781022bc1a847c1a70a8b1e99"
+  },
+  {
     "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/00-cover.png",
     "bytes": 68788,
     "sha256": "acc9d860ec76bfaca2679eb14b21cd82e30da931ca33b89a6481d44a7921be60"

@@ -1,0 +1,381 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1037,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "从无名亮点到恒星身份与相机姿态的任务封面",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-attitude.png",
+    "width": 1062,
+    "height": 1109,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "两幅成像框中中心星不动而离轴星转动，体现单星剩余滚转自由度",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-centroid.png",
+    "width": 1062,
+    "height": 1209,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "3×3实际权重解释亚像素质心；横列x纵行y",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-extraction.png",
+    "width": 1062,
+    "height": 1367,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一合成输入四星和孤点坐标，说明亮度排序之前须筛选",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-pinhole.png",
+    "width": 1062,
+    "height": 1232,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "虚拟像平面相似三角形解释像素偏移为何除焦距",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-rays.png",
+    "width": 1062,
+    "height": 1199,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一星点偏移、相机坐标约定和单位视线坐标",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-angles.png",
+    "width": 1062,
+    "height": 1178,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "三对角距数值与标号逐一对应；连接像素只定位",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-invariant.png",
+    "width": 1062,
+    "height": 1234,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际改变相机方向后的投影对照解释球面角距不变量",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-candidates.png",
+    "width": 1062,
+    "height": 1347,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "两套具体顶点关系与相同角距签名，展示不同身份可产生歧义",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-permutations.png",
+    "width": 1062,
+    "height": 1222,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "逐个排列核对有标签角距，找回无序签名丢掉的对应关系",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-validation.png",
+    "width": 1062,
+    "height": 1189,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同像素尺度显示第四星残差0和63.25及真实2像素门槛",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-frame.png",
+    "width": 1062,
+    "height": 1232,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "投影减法构造第二正交轴，再由叉积补右手第三轴",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-rotation.png",
+    "width": 1062,
+    "height": 1347,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际两基底同投影并标三轴，先分解后重组算出相机光轴",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-conditioning.png",
+    "width": 1062,
+    "height": 1324,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "由1/sin角距共轴展示两星过近的数值敏感性",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-calibration.png",
+    "width": 1062,
+    "height": 1332,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一星点径向偏移在两个焦距平面上的方向差，明确非角度比例图",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-real-detail.png",
+    "width": 1062,
+    "height": 1274,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "ESA tetra3实际软件返回图的标明裁剪/3倍最近邻放大；中文讲解新加，整体按上游Apache2保留通知",
+    "purpose": "软件原返回画布保真局部放大并配中文图例，派生图依上游Apache2",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-real-extraction-stages.png",
+    "width": 1062,
+    "height": 1927,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "ESA tetra3实际返回数组的明示显示映射/缩览/最近邻局部；Apache2派生，不是手绘像素",
+    "purpose": "同一实测输入去背景与阈值/开运算真实阶段全幅及保真局部，呈现从背景隆起到离散像素团的变化",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/real-alt40-centroids.png",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3真实测试输入的明示显示派生或软件实际返回图，非原创摄影",
+    "purpose": "真实星场/提取结果/匹配结果；图注解释其身份"
+  },
+  {
+    "file": "assets/real-alt40-display.png",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3真实测试输入的明示显示派生或软件实际返回图，非原创摄影",
+    "purpose": "真实星场/提取结果/匹配结果；图注解释其身份"
+  },
+  {
+    "file": "assets/real-alt40-matches.png",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3真实测试输入的明示显示派生或软件实际返回图，非原创摄影",
+    "purpose": "真实星场/提取结果/匹配结果；图注解释其身份"
+  },
+  {
+    "file": "assets/real-alt60-display.png",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3真实测试输入的明示显示派生或软件实际返回图，非原创摄影",
+    "purpose": "真实星场/提取结果/匹配结果；图注解释其身份"
+  },
+  {
+    "file": "assets/real-alt60-matches.png",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3真实测试输入的明示显示派生或软件实际返回图，非原创摄影",
+    "purpose": "真实星场/提取结果/匹配结果；图注解释其身份"
+  },
+  {
+    "file": "originals/photos/2019-07-29T204726_Alt40_Azi-135_Try1.tiff",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3项目原TIFF，未改字节；正文链接下载",
+    "purpose": "保留可验证原测试图"
+  },
+  {
+    "file": "originals/photos/2019-07-29T204726_Alt60_Azi-135_Try1.tiff",
+    "width": 1024,
+    "height": 768,
+    "min_font_px": null,
+    "identity": "ESA tetra3项目原TIFF，未改字节；正文链接下载",
+    "purpose": "保留可验证原测试图"
+  }
+]

@@ -28,3 +28,4 @@
 24. [一行算式，怎样长成一棵树？沿着 Wirth 的递归下降走完一次解析](../articles/2026-10-25-r1-wirth-recursive-descent/read.md)
 25. [把一块厚透镜切成一圈圈，为什么还能聚光？Fresnel 透镜保留的是面朝哪里](../articles/2026-10-25-r1-fresnel-stepped-lens/read.md)
 26. [关掉电，字为什么还在？电泳墨水把一页画面留在颜料的位置里](../articles/2026-10-25-r1-electrophoretic-display/read.md)
+27. [一张没有星名的照片，怎样告诉飞船朝哪边？星敏感器的图案识别](../articles/2026-10-25-r1-star-tracker-pattern-identification/read.md)
