@@ -2797,6 +2797,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-count-min-sketch-frequency",
+    "title": "Count-Min Sketch：只留一张小表，怎样估计一个键出现了几次？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/read.md",
+    "public_sha256": "2b89cde66042f058330d6d4793b9fb30c538db945a87c031d0e2dee8a018005f",
+    "images": 14,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-karger-random-contraction",
     "title": "随机合并顶点，为什么能找到最小割？Karger 的随机收缩",
     "date": "2026-10-25",

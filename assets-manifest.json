@@ -23810,6 +23810,111 @@
     "sha256": "bb2fa97dbedeec31721c2669371358ad217f499ced77ba66d0e746bb9d4e3ec0"
   },
   {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/00-cover.png",
+    "bytes": 93417,
+    "sha256": "4d9fda974e1b0b88b4d2890769aceb435dc0d23cc57e873a844bc79052894e6d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/01-stream.png",
+    "bytes": 87365,
+    "sha256": "e83c053c95671d5eeb31fd6c0c1dd2a05135e828db845c16d8866501a7a8c211"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/02-hashes.png",
+    "bytes": 85209,
+    "sha256": "681203a0b8fb583f34a62149f217ac771d6fa73324fb64e8c66223a3b429b4e6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/03-updates.png",
+    "bytes": 133220,
+    "sha256": "38e108baffccf8df1672cf5b89b788e7362232fc284312c74b7e71fcc475f127"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/04-query.png",
+    "bytes": 104015,
+    "sha256": "aea5e588e1d4dac6359099b8ffdfaca475b9805b21ca3d214adb74fca207d020"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/05-noise.png",
+    "bytes": 103658,
+    "sha256": "1279580184a0ff70676cf392f9f188746382ace89887c9d11530f21c2f70cd0c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/06-absent.png",
+    "bytes": 101345,
+    "sha256": "432f123f9664355f8bdad3708f81e8d17dd38bb1afa79b53bf34d084994761b9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/07-merge.png",
+    "bytes": 137671,
+    "sha256": "2b76987e7f7ee4fd3f758359c0c3361951d045aa2a492bfba429da3398c016c8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/08-one-row.png",
+    "bytes": 114687,
+    "sha256": "780beccd917a8c06786ccc006c739ea6a4d68b1741d051a7363fc6b9ead0c300"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/09-depth.png",
+    "bytes": 113020,
+    "sha256": "ebc6ac84792bd04afb3e32d91d0c6d5d1b88c863267d14e8f5e0d09a4a1db027"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/10-sizing.png",
+    "bytes": 189574,
+    "sha256": "b1f8e659d5010fdead0cf8f4cde782fa340ab5d05e95bc25bd181f809355b1ba"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/11-deletions.png",
+    "bytes": 125098,
+    "sha256": "fb27aabfaece321dd6153dabf53d951e6b670d33fa2f2df3ea142dde7d418154"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/12-experiment.png",
+    "bytes": 143289,
+    "sha256": "65d35ed7698d2bb963e79e9db40a8ab9d556360e4c6dfcfb8a220fc2e775abc0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/13-live-demo.png",
+    "bytes": 146287,
+    "sha256": "8cae222fc9d1a566111c582be5378ec1b1d1ebd55620082a21ea69c22bac7778"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/build_figures.py",
+    "bytes": 14573,
+    "sha256": "87487384a247eec7ff7c6f42b06f0bd434e9eddf8ab211ecc4763df975b24ca6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/capture_demo.py",
+    "bytes": 1724,
+    "sha256": "66043caffd665aa60bb2e7434ecd9078cd59b04fcc683b06dfe4b04a512dd99e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/cms.py",
+    "bytes": 2260,
+    "sha256": "dedfbd4afd0bc47e14d4e6fca0a11df13ded02a2e12bed63ffa4cefaf49a562b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/demo_web.py",
+    "bytes": 2893,
+    "sha256": "ee00f38a2c6d9be5b3aa7920ad0a19cc40be0c20d5de4a8e1a37a39072a9d7b7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/figure-metadata.json",
+    "bytes": 6894,
+    "sha256": "d069058ebc092b5ba1e0d91e953a6ef7c42fcb1d8b30d35c6d44aa7e9f933b58"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/results.json",
+    "bytes": 7427,
+    "sha256": "6bc3586b825d980faae316be1a5a3c550472695a86e3fc8641db03cbc06a0024"
+  },
+  {
+    "path": "articles/2026-10-25-r1-count-min-sketch-frequency/examples/run_examples.py",
+    "bytes": 4761,
+    "sha256": "4c6db84bb1c13fe26195b78b783c9c2d8a052513d9f91295c1a04db5ba95f4ed"
+  },
+  {
     "path": "articles/2026-10-25-r1-karger-random-contraction/assets/00-cover.png",
     "bytes": 80918,
     "sha256": "02d2fa4886efd0b6df3e1fb488aef986b97f4ef26a2da6069d92a8417ce55b3a"
