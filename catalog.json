@@ -2874,6 +2874,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-electrophoretic-display",
+    "title": "关掉电，字为什么还在？电泳墨水把一页画面留在颜料的位置里",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-electrophoretic-display/read.md",
+    "public_sha256": "1680a0a24ec23b0a26422ccf6b31247f4aa3a0b779d11e80e25b05ee431e5246",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-epoll-readiness-draining",
     "title": "epoll 已经说“可读”，为什么程序还会等住？从六个字节看懂就绪与排空",
     "date": "2026-10-25",

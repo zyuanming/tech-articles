@@ -24700,6 +24700,141 @@
     "sha256": "4c6db84bb1c13fe26195b78b783c9c2d8a052513d9f91295c1a04db5ba95f4ed"
   },
   {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/00-cover.png",
+    "bytes": 76221,
+    "sha256": "3b3f4e07edf16b99b01adbd1225adca04746c11f8a7bdb0d155f2fd4cc1f7000"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/01-light.png",
+    "bytes": 82781,
+    "sha256": "9f0075dfa22d3e341b8e392d8456ac73f3386f60e5a308938dc7081ef58ff252"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/02-section.png",
+    "bytes": 100555,
+    "sha256": "f2e892254bf579d072d5ad89db06505fa007577ae52a37418f8d45c6be364251"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/03-polarity.png",
+    "bytes": 59506,
+    "sha256": "b6accfa9efd8e60bfced2ae026a689454ae17854d84df454dc4a75808bdfcb24"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/04-drift.png",
+    "bytes": 93576,
+    "sha256": "978ab68f5bc2bdaae0389fd9b611469a7d926a243ff732c6a0cd67785d802463"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/05-pixels.png",
+    "bytes": 114743,
+    "sha256": "5eca5594f94a519668d769b4af36e878ee9d03baaa0aa28cb719623ad197e77b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/06-history.png",
+    "bytes": 108489,
+    "sha256": "d292516430901316939b4a8c76ad713f24296190ee9d2b541f0254727e33d266"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/07-reset.png",
+    "bytes": 83133,
+    "sha256": "3a662763155255c1143a05bb3763144b93670908bfde931fa633bba3bfc6aab3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/08-waveform.png",
+    "bytes": 102103,
+    "sha256": "79cf605b6247715f65a074a886d5c07a2e730e52f850fcfa5db4bfc5e6d486f8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/09-grayscale.png",
+    "bytes": 106847,
+    "sha256": "22ad7a0bf94f3ee913ebad9e55ef090eb2778e6ae65bf4bedf555e7b8fc724e8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/10-energy.png",
+    "bytes": 136572,
+    "sha256": "f8aaac437eae90e86cae6375b07a8b3090c7c67d6000576ba152f1820ef04b1c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/11-color.png",
+    "bytes": 115050,
+    "sha256": "1357f762c713fafb381427e97dc361ada8246b2e59bd4ec6dbcbe9e2e18ef072"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/12-balance.png",
+    "bytes": 103227,
+    "sha256": "c2c430c528ccc251bb50a3115c92b36606dfcb90099ed83e4e950091e3d2f20c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/assets/13-mobility.png",
+    "bytes": 108215,
+    "sha256": "297fdc21d92b13e63239669019d777173902cf75d9d2ff7535a301be3c1738d1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/examples/build_figures.py",
+    "bytes": 15695,
+    "sha256": "c2dfc873aeb2ae2d2962ccfb32c7538c8c75f5e76550587e89cf6cf2365e0f0f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/examples/figure-metadata.json",
+    "bytes": 8130,
+    "sha256": "2f4e8602813bc7aed6db9cc0e42fe0a11186f21d0372cee49e1bdbe003deb869"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/examples/results.json",
+    "bytes": 9750,
+    "sha256": "339effda89d5787aab2cf61f64ea29969497cd7ee293fdbb425166633e1e484e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/examples/run_examples.py",
+    "bytes": 2699,
+    "sha256": "f5bb23e1e45be989943ecb4d00d09feffffcc1d7843ef38391d6aa7df44b495b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/fancyepd/LICENSE",
+    "bytes": 1068,
+    "sha256": "139292fdb5850dd767f1868a90eeab90d044d7e02a965543079c09e7e5c9c490"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/fancyepd/README.upstream.txt",
+    "bytes": 8581,
+    "sha256": "26431e5523f11d3e8d8a5ce5190d9e4188865029da2b0fb6be816a96ac133da0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/openbook/LICENSE.txt",
+    "bytes": 2958,
+    "sha256": "5aec98f0cbcbebee23b0f201012b569b134f3f54c956dd4b431ecd5a1a3ac3de"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/openbook/README.upstream.txt",
+    "bytes": 12881,
+    "sha256": "757d7b2cdd3407d4890cf39edae0c81afdfa7ec190763334541fc6a28521f07e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/photos/fancyepd-black_and_red.jpg",
+    "bytes": 622670,
+    "sha256": "2cb577c0474482ea06317db0a34d5c5b389dfa74d41de754beeec14f12a04b94"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/photos/fancyepd-black_and_yellow.jpg",
+    "bytes": 262176,
+    "sha256": "b365442107b0c429c8f4d8fe19f17712a36d5da7f6acf809a54c8e3d76795d02"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/photos/fancyepd-mandelbrot.jpg",
+    "bytes": 379097,
+    "sha256": "5a2a61b18f635b6fdab987ef75cf1a0d46579fbfe4584a378f253dcf78d8528e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/photos/openbook-board.jpg",
+    "bytes": 386007,
+    "sha256": "402e485851ed606ac31ade3891960f1cee7e540aa491178af12390a889249624"
+  },
+  {
+    "path": "articles/2026-10-25-r1-electrophoretic-display/originals/photos/openbook-book-rev5.jpg",
+    "bytes": 411635,
+    "sha256": "be88fbb3df84dec602cdeb433a6d89f45019a90ee0612092aafe9e59db425ea8"
+  },
+  {
     "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/00-cover.png",
     "bytes": 65784,
     "sha256": "d5c46e7d8e4d3c01c9e64340288c711d23ebaf7059dee1555f06ae383a062a46"

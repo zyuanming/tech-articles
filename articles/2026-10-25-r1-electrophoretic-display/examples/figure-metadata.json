@@ -1,0 +1,308 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1039,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "封面用颜料前后位置连接电压更新与图像保持",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-light.png",
+    "width": 1062,
+    "height": 1069,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "区分反射式颜料与发光像素，并说明前照明的作用",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-section.png",
+    "width": 1062,
+    "height": 1089,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "标观看侧、两电极、透明液体、两种粒子与教学极性约定",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-polarity.png",
+    "width": 1062,
+    "height": 1232,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一观看方向并列两种电压，明确粒子方向由符号决定",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-drift.png",
+    "width": 1062,
+    "height": 1069,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "共轴时间尺把迁移率、电场、速度、位移依次算通",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-pixels.png",
+    "width": 1062,
+    "height": 1207,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "区分材料容器和矩阵寻址，不把每胶囊等同像素",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-history.png",
+    "width": 1062,
+    "height": 1217,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "两行相同位移尺度展示状态历史对终点的影响",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-reset.png",
+    "width": 1062,
+    "height": 1267,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "用同一坐标与实际轨迹显示重置消除教学模型的初态差",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-waveform.png",
+    "width": 1062,
+    "height": 1297,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "分开擦除激活写入三职责，解释可见闪烁来自光学往返",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-grayscale.png",
+    "width": 1062,
+    "height": 1217,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "区分单像素反射灰度与多个二值像素的面积比例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-energy.png",
+    "width": 1062,
+    "height": 1342,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "使用同一比例尺与假设数据比较更新次数对能量的作用",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-color.png",
+    "width": 1062,
+    "height": 1299,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "并列滤色片路线与多颜料路线，不以RGB发光像素解释所有彩色电泳屏",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-balance.png",
+    "width": 1062,
+    "height": 1222,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "反例展示电压时间积分为零与位置回原处不是一回事",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-mobility.png",
+    "width": 1062,
+    "height": 1269,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "共轴迁移率反例解释为何速度和驱动时间需要标定",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "originals/photos/fancyepd-black_and_red.jpg",
+    "width": 987,
+    "height": 1251,
+    "identity": "第三方项目文档实拍原件；不改像素",
+    "purpose": "真实设备或可见显示结果",
+    "min_font_px": null
+  },
+  {
+    "file": "originals/photos/fancyepd-black_and_yellow.jpg",
+    "width": 737,
+    "height": 773,
+    "identity": "第三方项目文档实拍原件；不改像素",
+    "purpose": "真实设备或可见显示结果",
+    "min_font_px": null
+  },
+  {
+    "file": "originals/photos/fancyepd-mandelbrot.jpg",
+    "width": 493,
+    "height": 803,
+    "identity": "第三方项目文档实拍原件；不改像素",
+    "purpose": "真实设备或可见显示结果",
+    "min_font_px": null
+  },
+  {
+    "file": "originals/photos/openbook-board.jpg",
+    "width": 1800,
+    "height": 992,
+    "identity": "第三方项目文档实拍原件；不改像素",
+    "purpose": "真实设备或可见显示结果",
+    "min_font_px": null
+  },
+  {
+    "file": "originals/photos/openbook-book-rev5.jpg",
+    "width": 1920,
+    "height": 1080,
+    "identity": "第三方项目文档实拍原件；不改像素",
+    "purpose": "真实设备或可见显示结果",
+    "min_font_px": null
+  }
+]
