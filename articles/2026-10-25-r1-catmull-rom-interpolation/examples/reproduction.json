@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "pillow": "12.3.0",
+  "fonttools": "4.61.1",
+  "chromium": "154.0.8037.57",
+  "units": "arbitrary two-dimensional coordinates; not seconds",
+  "model": "original CPU teaching model"
+}

@@ -2797,6 +2797,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-catmull-rom-interpolation",
+    "title": "Catmull–Rom 插值：给出必经点，怎样自动连成平滑曲线？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/read.md",
+    "public_sha256": "e19a7483e60372187725d47b916c7e373fb0036a05aaf315eda20181636c17f1",
+    "images": 23,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-count-min-sketch-frequency",
     "title": "Count-Min Sketch：只留一张小表，怎样估计一个键出现了几次？",
     "date": "2026-10-25",

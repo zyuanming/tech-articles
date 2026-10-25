@@ -23810,6 +23810,156 @@
     "sha256": "bb2fa97dbedeec31721c2669371358ad217f499ced77ba66d0e746bb9d4e3ec0"
   },
   {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/00-cover.png",
+    "bytes": 79793,
+    "sha256": "19ecc949d3b1dba8fda3b8e4c989d83e3e4c3a73d277615ca916a10809421f8a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/01-four-points.png",
+    "bytes": 67406,
+    "sha256": "a49b273ae56cb02f4a5b93bea2ba5814d1f98cce7c74356cf50ce0fdab96381a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/02-tangents.png",
+    "bytes": 83239,
+    "sha256": "813246d1bd1b307fac8728e61707bc08b42559a65e26caec38ef80ffbdcd3d0e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/03-basis.png",
+    "bytes": 103169,
+    "sha256": "179ae2eea063eb6918001d2729cd06771af55c329d68ea0f18d86c95f6734b81"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/04-one-evaluation.png",
+    "bytes": 84257,
+    "sha256": "6b9945442ae873bf462454a9eb083f0db385ce20c1bda61c7ccb34bcee914fed"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/05-trace.png",
+    "bytes": 67733,
+    "sha256": "f57aa2efa29caeb72d7d2b5b8d44708f91c2b6a7ffaf253a41ae2f24a8d1cecd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/06-continuity.png",
+    "bytes": 94303,
+    "sha256": "182201c91fe8750dc3496b1f447f0eb35f42759e348a127293b868780ead7686"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/07-local-edit.png",
+    "bytes": 85914,
+    "sha256": "4de873ac553fe788f1dfb93de92fb6a3b5c32ed584e0c4c43057c155ffc70fce"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/08-knots.png",
+    "bytes": 117529,
+    "sha256": "ee0a2bdcb555c4a515c6e516ca40763163d239340f85b8e74b17fd47db99e87a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/09-three-curves.png",
+    "bytes": 73596,
+    "sha256": "e9cad694e61ee07a0225858aa9474bcddf133db33cf4b36eb04f7c3ee864e3c4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/10-parameter-scale.png",
+    "bytes": 117918,
+    "sha256": "06e0c2d8d7050722ce7854aba1c5c055ecf166e1b3b62d319da83112e7dba1d1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/11-pyramid.png",
+    "bytes": 100390,
+    "sha256": "943d8d4b987e01a7db208204ff203565a12d57603bcece1f96477206eee61d28"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/12-bezier.png",
+    "bytes": 67907,
+    "sha256": "f5b96b507764b026b2888ec7f197c3e174d3c72641ce5963bdefe9b9214917de"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/13-loop-context.png",
+    "bytes": 72757,
+    "sha256": "e00b26e2eeba494fac3bf55f3a0d31b583a124ac725eff852de10e50b1bcd683"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/14-loop-zoom.png",
+    "bytes": 79988,
+    "sha256": "62e470114c3f611f40e99f49e2bd4f990a8eae22cf2229e2ad3b514df753c57c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/15-overshoot.png",
+    "bytes": 88594,
+    "sha256": "cd287f70f7bb19af561026f8ffe598ba6b7dd37e80f1eedb4d43a7fcef7f78bb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/16-global-crossing.png",
+    "bytes": 96908,
+    "sha256": "1a00f2692081ccd9f37b78769489e569ab9a016ba57bbac049abd7d16baa41e0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/17-endpoints.png",
+    "bytes": 85453,
+    "sha256": "6a6f139fbeebccab3130ad4e0d2bad24fba8ac3c650c4737f762b95bc1b27a5f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/18-speed.png",
+    "bytes": 113060,
+    "sha256": "e2bfc61013aa26e7f10cc6f323196d83e48ffd57a5901a124d67fef716dd3153"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/19-zero-speed.png",
+    "bytes": 70387,
+    "sha256": "079ef839b8ce0101bee3c61360c01fb6d057f5423cc100031f3c271bb0b34252"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/20-recursion-geometry.png",
+    "bytes": 155693,
+    "sha256": "3b2bec1c68a94f632236af113bda154baf19c5cfd475a327f145e5663e8b709a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/21-viewer.png",
+    "bytes": 104107,
+    "sha256": "2aa7dba692606e47d67cece5c9b48ea356b0d49520c9cff5382871e1113352cb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/22-parameter-closeup.png",
+    "bytes": 81266,
+    "sha256": "5be94954cf15bf9ef31d22aa442c586cd988ee7c1041b03e224990d194eac199"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/build_figures.py",
+    "bytes": 17263,
+    "sha256": "578f1555e7abb245599b6319c2e9ff76bf5198d040a61a16eac0d5d685e4dda0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/capture_ui.py",
+    "bytes": 1747,
+    "sha256": "24e8857d4ded9ab59a4c8d989992100e5c854f63f38c90109a949d2d9cd3cbea"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/figure-metadata.json",
+    "bytes": 27082,
+    "sha256": "bfa8229c9f456b28d17216b17eb8f201ced34a1203574ff4f3739e2f71c8a2af"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/model.py",
+    "bytes": 7558,
+    "sha256": "e04ac6dc8ebe38f53a622f86e06e25946a9711fe7ddbf9db9d11f206bc2a00f0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/reproduction.json",
+    "bytes": 231,
+    "sha256": "cfaca33f77a43414147bdc6a8d84c01582d87fb982ed84820fb6b8362efcd624"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/results.json",
+    "bytes": 999252,
+    "sha256": "942a657b07d8ea5731cf1760278e87c3b5faf0ebafe5c1c19486bc75ccee48b8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-catmull-rom-interpolation/examples/ui.py",
+    "bytes": 3248,
+    "sha256": "b8e5eb85c43f9264c481bd55d1f465bf8ad8bad74fc53547d681ab62aa7cb902"
+  },
+  {
     "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/00-cover.png",
     "bytes": 93417,
     "sha256": "4d9fda974e1b0b88b4d2890769aceb435dc0d23cc57e873a844bc79052894e6d"

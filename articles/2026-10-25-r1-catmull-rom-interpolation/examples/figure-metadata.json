@@ -1,0 +1,1208 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 971,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "可见路线任务与实际计算轨迹",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -1.5,
+          -0.461304309536491,
+          11.5,
+          3.5239473197864655
+        ],
+        "pixels_per_unit": 66.15384615384616,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            10.0,
+            1.0
+          ]
+        ],
+        "curve_count": 5,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-four-points.png",
+    "width": 1062,
+    "height": 976,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "四点只确定中段，控制多边形与曲线区分",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.4614816,
+          6.9,
+          3.5380256
+        ],
+        "pixels_per_unit": 107.51324563186185,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-tangents.png",
+    "width": 1062,
+    "height": 1088,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "邻点差分确定端点导数，箭头按真实向量比例",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.4614816,
+          6.9,
+          3.5380256
+        ],
+        "pixels_per_unit": 110.25641025641025,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-basis.png",
+    "width": 1062,
+    "height": 1284,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "Hermite四条件与真实基函数曲线，负权重可见",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.1,
+          -0.2,
+          1.1,
+          1.15
+        ],
+        "pixels_per_unit": 281.4814814814815,
+        "control_points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "curve_count": 4,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-one-evaluation.png",
+    "width": 1062,
+    "height": 941,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "四份数值贡献逐项核算",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-trace.png",
+    "width": 1062,
+    "height": 1148,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "五个实际插值位置和非等距分布",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.4614816,
+          6.9,
+          3.5380256
+        ],
+        "pixels_per_unit": 110.25641025641025,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-continuity.png",
+    "width": 1062,
+    "height": 1095,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "C1共享导数与非均匀局部参数尺度",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -1.5,
+          -0.461304309536491,
+          11.5,
+          3.5239473197864655
+        ],
+        "pixels_per_unit": 66.15384615384616,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            10.0,
+            1.0
+          ]
+        ],
+        "curve_count": 5,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-local-edit.png",
+    "width": 1062,
+    "height": 1539,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实局部编辑与远处未变曲线，同轴对照",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -1.5,
+          -0.6749999999999999,
+          11.5,
+          5.175
+        ],
+        "pixels_per_unit": 63.24786324786325,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            10.0,
+            1.0
+          ]
+        ],
+        "curve_count": 5,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      },
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -1.5,
+          -0.6749999999999999,
+          11.5,
+          5.175
+        ],
+        "pixels_per_unit": 63.24786324786325,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            4.5
+          ],
+          [
+            6.0,
+            0.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            10.0,
+            1.0
+          ]
+        ],
+        "curve_count": 5,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-knots.png",
+    "width": 1062,
+    "height": 1193,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "三种结点分配，数值与轴段长绑定",
+    "numeric_geometry": [
+      {
+        "kind": "knot-axis",
+        "alpha": 0,
+        "positions": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "interval_pixels": [
+          94.40356861041771,
+          94.40356861041771,
+          94.40356861041771
+        ],
+        "scale": 94.40356861041771,
+        "source": "main[k].knots and main[k].h"
+      },
+      {
+        "kind": "knot-axis",
+        "alpha": 0.5,
+        "positions": [
+          0.0,
+          1.4953487812212205,
+          3.2736281912601433,
+          5.172457113376085
+        ],
+        "interval_pixels": [
+          141.16626126452198,
+          167.87592229410257,
+          179.25622642841782
+        ],
+        "scale": 94.40356861041771,
+        "source": "main[k].knots and main[k].h"
+      },
+      {
+        "kind": "knot-axis",
+        "alpha": 1,
+        "positions": [
+          0.0,
+          2.23606797749979,
+          5.39834563766817,
+          9.00389691313216
+        ],
+        "interval_pixels": [
+          211.09279673145937,
+          298.5302960568968,
+          340.3769072116438
+        ],
+        "scale": 94.40356861041771,
+        "source": "main[k].knots and main[k].h"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-three-curves.png",
+    "width": 1062,
+    "height": 1093,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "三参数曲线真实叠加与共享控制点",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.4614816,
+          6.9,
+          3.5380256
+        ],
+        "pixels_per_unit": 110.25641025641025,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 3,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-parameter-scale.png",
+    "width": 1062,
+    "height": 825,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "非均匀加权差分和导数尺度实际值",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-pyramid.png",
+    "width": 1062,
+    "height": 1321,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "Barry–Goldman层层结果，用实际数值暴露外推",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-bezier.png",
+    "width": 1062,
+    "height": 1249,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实际Bezier控制多边形与曲线等价转换",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          0.55,
+          1.8,
+          4.45,
+          3.5333333333333337
+        ],
+        "pixels_per_unit": 220.5128205128205,
+        "control_points": [
+          [
+            1.0,
+            2.0
+          ],
+          [
+            1.6666666666666665,
+            2.5
+          ],
+          [
+            3.1666666666666665,
+            3.3333333333333335
+          ],
+          [
+            4.0,
+            3.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-loop-context.png",
+    "width": 1062,
+    "height": 1073,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "单段反例完整控制点与三参数同轴真实输出",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -8.551604878515626,
+          -10.7,
+          4.895637401953126,
+          12.7
+        ],
+        "pixels_per_unit": 19.230769230769234,
+        "control_points": [
+          [
+            -7.0,
+            -8.0
+          ],
+          [
+            2.0,
+            3.0
+          ],
+          [
+            3.0,
+            4.0
+          ],
+          [
+            -1.0,
+            10.0
+          ]
+        ],
+        "curve_count": 3,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-loop-zoom.png",
+    "width": 1062,
+    "height": 1123,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "均匀段真实双参数交点及注明坐标的局部放大",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          2.931,
+          3.5073444651055308,
+          3.469009365637258,
+          4.0153141342560685
+        ],
+        "pixels_per_unit": 964.6245233882017,
+        "control_points": [
+          [
+            -7.0,
+            -8.0
+          ],
+          [
+            2.0,
+            3.0
+          ],
+          [
+            3.0,
+            4.0
+          ],
+          [
+            -1.0,
+            10.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-overshoot.png",
+    "width": 1062,
+    "height": 1123,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "向心参数纵坐标过冲反例与实算极值",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.44999999999999996,
+          -0.16440412620437472,
+          3.45,
+          1.2604316342335395
+        ],
+        "pixels_per_unit": 220.5128205128205,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            2.0,
+            1.0
+          ],
+          [
+            3.0,
+            0.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-global-crossing.png",
+    "width": 1062,
+    "height": 1133,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "向心全路径非相邻段真实交点",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -3.9,
+          -2.4844763348918466,
+          3.9,
+          1.7143185675041566
+        ],
+        "pixels_per_unit": 110.25641025641026,
+        "control_points": [
+          [
+            -3.0,
+            -2.0
+          ],
+          [
+            -2.0,
+            -1.0
+          ],
+          [
+            2.0,
+            1.0
+          ],
+          [
+            -2.0,
+            1.0
+          ],
+          [
+            2.0,
+            -1.0
+          ],
+          [
+            3.0,
+            -2.0
+          ]
+        ],
+        "curve_count": 5,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-endpoints.png",
+    "width": 1062,
+    "height": 1053,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "外推虚拟端点与首段的真实构造",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -1.75,
+          -2.75,
+          4.75,
+          3.75
+        ],
+        "pixels_per_unit": 66.15384615384616,
+        "control_points": [
+          [
+            -1.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/18-speed.png",
+    "width": 1062,
+    "height": 1611,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实等参数与近似等弧长标记比较",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.4614816,
+          6.9,
+          3.5380256
+        ],
+        "pixels_per_unit": 90.01108936620992,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      },
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.4614816,
+          6.9,
+          3.5380256
+        ],
+        "pixels_per_unit": 90.01108936620992,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/19-zero-speed.png",
+    "width": 1062,
+    "height": 1053,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "反向共线结点零导数的退化边界",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -1.3,
+          -0.21544066142452184,
+          1.3,
+          1.1585357384466768
+        ],
+        "pixels_per_unit": 312.96025174836313,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1.0,
+            1.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/20-recursion-geometry.png",
+    "width": 1062,
+    "height": 2461,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "递归每层编号位置、外推几何和第三层明确局部放大",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.6749999999999999,
+          6.9,
+          5.175
+        ],
+        "pixels_per_unit": 73.50427350427351,
+        "control_points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            2.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            0.0
+          ]
+        ],
+        "curve_count": 3,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      },
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          -0.8999999999999999,
+          -0.6749999999999999,
+          6.9,
+          5.175
+        ],
+        "pixels_per_unit": 73.50427350427351,
+        "control_points": [
+          [
+            1.5,
+            3.0
+          ],
+          [
+            2.5,
+            2.5
+          ],
+          [
+            3.0,
+            4.5
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      },
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          1.85,
+          2.225,
+          3.025,
+          3.4
+        ],
+        "pixels_per_unit": 365.95744680851067,
+        "control_points": [
+          [
+            2.25,
+            2.625
+          ],
+          [
+            2.625,
+            3.0
+          ]
+        ],
+        "curve_count": 1,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/22-parameter-closeup.png",
+    "width": 1062,
+    "height": 1121,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同一个不均匀点集三参数化的中段共同局部放大",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-plot",
+        "bounds": [
+          1.7580741457812499,
+          2.82,
+          3.5859583776562505,
+          4.18
+        ],
+        "pixels_per_unit": 404.4117647058824,
+        "control_points": [
+          [
+            -7.0,
+            -8.0
+          ],
+          [
+            2.0,
+            3.0
+          ],
+          [
+            3.0,
+            4.0
+          ],
+          [
+            -1.0,
+            10.0
+          ]
+        ],
+        "curve_count": 3,
+        "source": "results.json coordinates; affine transform shared for every curve in this panel"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/21-viewer.png",
+    "width": 1062,
+    "height": 1354,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "真实默认Chromium 154.0.8037.57 截图；自制Python教学应用",
+    "purpose": "切换参数并计算当前位置；示例u=.5",
+    "checks": [
+      "actual-http-app",
+      "actual-parameter-switch",
+      "readout-assertion",
+      "actual-dimensions",
+      "CSS-font-minimum-40"
+    ]
+  }
+]
