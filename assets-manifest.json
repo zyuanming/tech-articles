@@ -23650,6 +23650,56 @@
     "sha256": "10045bd7483789b011ee8c8458b148187afd06c27d83943f87d5dd8ed3783b33"
   },
   {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/00-cover.png",
+    "bytes": 61951,
+    "sha256": "a67f8c9d79b752cda6fa67f690989c39d2e7f667f82f74e12ac55752a2442883"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/01-trie.png",
+    "bytes": 65765,
+    "sha256": "a691b29965453c5bd02cd397f6b468a4f5535d1ce4e4617cd3ff4f22991347bb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/02-failure.png",
+    "bytes": 92008,
+    "sha256": "3d27d8dbbdc28b9298378e5de9e1647fca77fb16c743524dfdcfde4dd4e5dc7a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/03-trace.png",
+    "bytes": 80376,
+    "sha256": "ca926ec0143454c44022f0c6878081222ff8f8082e2723ede59ccc54ab355f01"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/04-overlap.png",
+    "bytes": 65960,
+    "sha256": "0a291e1270b9e2e07306ac9658cafbf60f19d0c3364a13fed2a6c4a5b1592289"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/05-stream.png",
+    "bytes": 70430,
+    "sha256": "d9b3a07a750674ca0132e161bbc324a32fdbc822cdcedf7bd7842262575ae835"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/ac.py",
+    "bytes": 3931,
+    "sha256": "a5917f15d712b95187c9b82e19077179866db9ad87f55d05997bfaeb817efd05"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/build_figures.py",
+    "bytes": 6844,
+    "sha256": "b2fce675a9e63b4a06f137c75518f6d2c334ac4045e5da218f61d57dd48e52ce"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/figure-metadata.json",
+    "bytes": 2899,
+    "sha256": "705772482a03639437ffc5c64a5a3c2c516c11c9908872db761559589c4a67e0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/results.json",
+    "bytes": 2597,
+    "sha256": "0594b69f80f30588a87dd9ed673e871833294955fe7190e7fc9b14af4ceb62f4"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

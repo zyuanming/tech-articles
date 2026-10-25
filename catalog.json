@@ -2784,5 +2784,16 @@
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-25-r1-aho-corasick-shared-search",
+    "title": "一段文字要找一千个关键词，为什么可以只向前读一遍？Aho–Corasick 多模式匹配",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/read.md",
+    "public_sha256": "0930a55754822a08e2c5b34c7ca767787f17c5a144688f864eccf2e58d9f6ec1",
+    "images": 6,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   }
 ]

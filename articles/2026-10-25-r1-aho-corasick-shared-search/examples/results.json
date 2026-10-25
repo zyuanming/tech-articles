@@ -1,0 +1,196 @@
+{
+  "patterns": [
+    "he",
+    "she",
+    "his",
+    "hers"
+  ],
+  "text": "ushershis",
+  "hits": [
+    [
+      "she",
+      1,
+      4
+    ],
+    [
+      "he",
+      2,
+      4
+    ],
+    [
+      "hers",
+      2,
+      6
+    ],
+    [
+      "his",
+      6,
+      9
+    ]
+  ],
+  "trace": [
+    {
+      "i": 0,
+      "ch": "u",
+      "before": "根",
+      "fallback": [],
+      "state": "根",
+      "hits": []
+    },
+    {
+      "i": 1,
+      "ch": "s",
+      "before": "根",
+      "fallback": [],
+      "state": "s",
+      "hits": []
+    },
+    {
+      "i": 2,
+      "ch": "h",
+      "before": "s",
+      "fallback": [],
+      "state": "sh",
+      "hits": []
+    },
+    {
+      "i": 3,
+      "ch": "e",
+      "before": "sh",
+      "fallback": [],
+      "state": "she",
+      "hits": [
+        [
+          "she",
+          1,
+          4
+        ],
+        [
+          "he",
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "i": 4,
+      "ch": "r",
+      "before": "she",
+      "fallback": [
+        "he"
+      ],
+      "state": "her",
+      "hits": []
+    },
+    {
+      "i": 5,
+      "ch": "s",
+      "before": "her",
+      "fallback": [],
+      "state": "hers",
+      "hits": [
+        [
+          "hers",
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "i": 6,
+      "ch": "h",
+      "before": "hers",
+      "fallback": [
+        "s"
+      ],
+      "state": "sh",
+      "hits": []
+    },
+    {
+      "i": 7,
+      "ch": "i",
+      "before": "sh",
+      "fallback": [
+        "h"
+      ],
+      "state": "hi",
+      "hits": []
+    },
+    {
+      "i": 8,
+      "ch": "s",
+      "before": "hi",
+      "fallback": [],
+      "state": "his",
+      "hits": [
+        [
+          "his",
+          6,
+          9
+        ]
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "label": "根",
+      "fail": "根",
+      "end": []
+    },
+    {
+      "label": "h",
+      "fail": "根",
+      "end": []
+    },
+    {
+      "label": "he",
+      "fail": "根",
+      "end": [
+        0
+      ]
+    },
+    {
+      "label": "s",
+      "fail": "根",
+      "end": []
+    },
+    {
+      "label": "sh",
+      "fail": "h",
+      "end": []
+    },
+    {
+      "label": "she",
+      "fail": "he",
+      "end": [
+        1
+      ]
+    },
+    {
+      "label": "hi",
+      "fail": "根",
+      "end": []
+    },
+    {
+      "label": "his",
+      "fail": "s",
+      "end": [
+        2
+      ]
+    },
+    {
+      "label": "her",
+      "fail": "根",
+      "end": []
+    },
+    {
+      "label": "hers",
+      "fail": "s",
+      "end": [
+        3
+      ]
+    }
+  ],
+  "cases": 8001,
+  "split_tests": 10
+}
