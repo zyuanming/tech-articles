@@ -24205,6 +24205,131 @@
     "sha256": "b25fa9e1844758b4140a69af1b63e24c2628492377dab6aa81bc2313812ea85d"
   },
   {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/00-cover.png",
+    "bytes": 65949,
+    "sha256": "ed5e44080d05c1225c0d197ed70bdd4b306d4d3c886be3e647ece7814148ce3f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/01-values.png",
+    "bytes": 89490,
+    "sha256": "ccbda513d94d376041f26827ee598589b96cf85f3c35adf4cdd3941f694620c2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/02-curve.png",
+    "bytes": 108273,
+    "sha256": "9731e68411923de2ddfb1778bf4d5309d3d826daea78ef4c68ca5e0561dc31a2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/03-steps.png",
+    "bytes": 76653,
+    "sha256": "4d2881f76703ddac9a5f56025eb2ac8cff3deb266f636ffcf278e2ce92d7dae2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/04-gradients.png",
+    "bytes": 70199,
+    "sha256": "57b07738a58f3610e0b094d147eb7523cf954ed8d8f25954e59efcfc0d07c447"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/05-downsample.png",
+    "bytes": 55154,
+    "sha256": "38775528680053485ccf162bcf6e15378d26148bd86d61f2120081a190d49306"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/06-blur.png",
+    "bytes": 85498,
+    "sha256": "7de7b8f119f13dedfee5393019e9071f323e428cbebca98127b9bd316121fa63"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/07-colors.png",
+    "bytes": 80200,
+    "sha256": "ae984171d85c441f0a3501151d8c1b3900715ec12261aee8f1b23e4cce09b737"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/08-alpha.png",
+    "bytes": 104190,
+    "sha256": "5c97cc4b9756ccb15f30aaa53d501be8f910c414afa0ab3e373bd21a2c6efd87"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/09-premult.png",
+    "bytes": 113562,
+    "sha256": "aec4197f613fef0925761d7c419b9106d91a74be80a979d15c79c71561dc3295"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/10-quantization.png",
+    "bytes": 91805,
+    "sha256": "869fc19369ba35391882537ec7f6561dd1e5442f6181a56441fb3b7e1214dbd7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/11-workflow.png",
+    "bytes": 112183,
+    "sha256": "4f3cfc6a3aed5dec29e06b8417b4a31e2640ae0ad7003f7c95df9b52eb09738e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/12-output-errors.png",
+    "bytes": 66850,
+    "sha256": "074cd66e711d8701ec8fcb96bda06dd00304d01b5173e1d679f027255180b2f1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/13-approximation.png",
+    "bytes": 102030,
+    "sha256": "7dd5ef0054039ea0f2ed679aa61d568829b8981adde21effe853cdf0d653c5ba"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/14-image-result.png",
+    "bytes": 83087,
+    "sha256": "28237ac68ee8df347eec71cef9c454595c94a75488ba17a3aabfd52166916df9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/15-live-demo.png",
+    "bytes": 99752,
+    "sha256": "04f43981ad42d31977aa9a49a4e508fff8b195dbd3403710080cd3ece0ba2849"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/assets/16-source-gradient.png",
+    "bytes": 99536,
+    "sha256": "7f8432aaa8cd668af244e48b14fe9947862357485ca85f1a1e1d0fdbf43b776b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/build_figures.py",
+    "bytes": 14667,
+    "sha256": "e14ca9cf589f5963901cb9e1df476d03e19822ce3935f4288e86b0464fa4d7ac"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/capture_demo.py",
+    "bytes": 2086,
+    "sha256": "2c90f4ef640198a2ff53f1ac8c2ed8d7a7c63aecef531c617442730fb8fc7db0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/demo_web.py",
+    "bytes": 2679,
+    "sha256": "259b8f30302e0816fd8258be24f8947de53e98c4e907689cbf47319783d9dc44"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/figure-metadata.json",
+    "bytes": 8299,
+    "sha256": "a172c13cb9a2533ae23881928e81eea78df4247f73149cc477968b7bb88f0b96"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/results.json",
+    "bytes": 165968,
+    "sha256": "39a68ea528ba5a295688425a98f9577d196d36cf7c6951c19ac9680092516b2d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/run_examples.py",
+    "bytes": 4270,
+    "sha256": "5698a9c476a7b756d55b4271d11ff4846c01e705b98d5b7a994e120bcb83eb89"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/examples/srgb.py",
+    "bytes": 1322,
+    "sha256": "81537bde13de3e7952eb3ec9f7ed41f27ecb499462850e22d115ceb00a36e864"
+  },
+  {
+    "path": "articles/2026-10-25-r1-srgb-linear-light/originals/W3C-LICENSE.txt",
+    "bytes": 2438,
+    "sha256": "1971ea2e7992a787d577591a9639204829f780a71e628c2a70215fd02df07089"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

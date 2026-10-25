@@ -2839,5 +2839,16 @@
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-25-r1-srgb-linear-light",
+    "title": "sRGB 与线性光：黑白各取一半，为什么有时是128，有时是188？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-srgb-linear-light/read.md",
+    "public_sha256": "c9187ddbd85c0247c50a0d1503132c28325e6b06058749ba298e5f0d99a94e38",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   }
 ]

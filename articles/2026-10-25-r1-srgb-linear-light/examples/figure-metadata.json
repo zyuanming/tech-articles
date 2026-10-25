@@ -1,0 +1,322 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1217,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "封面：实际128/188色块先呈现可见差异",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-values.png",
+    "width": 1062,
+    "height": 1287,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "区分8位整数、归一化编码S和线性分量L",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-curve.png",
+    "width": 1062,
+    "height": 2287,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一解码曲线全域和暗部局部放大，轴范围明确",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-steps.png",
+    "width": 1062,
+    "height": 1367,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "黑白两输入分别解码后汇合，再编码量化的完整数据链",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-gradients.png",
+    "width": 1062,
+    "height": 1179,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "真实数值渐变对比，并区分物理线性与感知均匀",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-downsample.png",
+    "width": 1062,
+    "height": 1325,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "棋盘面积平均的真实输出，对照源区域与两种缩小结果",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-blur.png",
+    "width": 1062,
+    "height": 1377,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际三点滤波结果与边界像素，展示暗边来源",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-colors.png",
+    "width": 1062,
+    "height": 1429,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "红绿混合实际色块，说明每个颜色通道都需正确表示",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-alpha.png",
+    "width": 1062,
+    "height": 1401,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "多个透明权重实际合成，分开颜色曲线与alpha本身",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-premult.png",
+    "width": 1062,
+    "height": 1366,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一线性空间下分离预乘问题，真实透明边缘效果",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-quantization.png",
+    "width": 1062,
+    "height": 1287,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一暗部输入的两种8位量化实际条带和唯一值计数",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-workflow.png",
+    "width": 1062,
+    "height": 1149,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "颜色与非颜色数据两条路径，防止对全部纹理统一gamma处理",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-output-errors.png",
+    "width": 1062,
+    "height": 1347,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "漏编码和重复编码的真实中灰对比",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-approximation.png",
+    "width": 1062,
+    "height": 1247,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际比较近似幂函数误差，尤其暗部差异",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-image-result.png",
+    "width": 1062,
+    "height": 1607,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "真正执行二维区域缩小，保留源图与两种全部输出像素",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-source-gradient.png",
+    "width": 1062,
+    "height": 1337,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "依据W3C CSS Color4文字条件的重计算与新排版；非原SVG",
+    "purpose": "许可下复算W3C13.4两个相关渐变条件；不是原图或原页面截图",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-live-demo.png",
+    "width": 1062,
+    "height": 1579,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "原创Python教学网页真实浏览器执行截图；非显示器光度测量",
+    "purpose": "实际点击计算与返回数据，核PNG编码身份",
+    "checks": [
+      "browser-click",
+      "returned-data",
+      "no-overflow",
+      "sRGB-chunk",
+      "actual-dimensions"
+    ]
+  }
+]

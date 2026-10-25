@@ -7,3 +7,4 @@
 3. [随机合并顶点，为什么能找到最小割？Karger 的随机收缩](../articles/2026-10-25-r1-karger-random-contraction/read.md)
 4. [Count-Min Sketch：只留一张小表，怎样估计一个键出现了几次？](../articles/2026-10-25-r1-count-min-sketch-frequency/read.md)
 5. [外部归并排序：文件比内存大，怎样一块一块排成全局有序？](../articles/2026-10-25-r1-external-merge-sort/read.md)
+6. [sRGB 与线性光：黑白各取一半，为什么有时是128，有时是188？](../articles/2026-10-25-r1-srgb-linear-light/read.md)
