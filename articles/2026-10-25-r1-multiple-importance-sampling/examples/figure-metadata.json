@@ -1,0 +1,416 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 835,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实球渲染预览，建立有限样本噪声和组合策略的任务",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-area.png",
+    "width": 1062,
+    "height": 945,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "从同宽矩形面积引入积分，避免把高度与区域贡献混淆",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-density.png",
+    "width": 1062,
+    "height": 1515,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "两方案密度高度和区域概率的对应，保持共轴比例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-sampling.png",
+    "width": 1062,
+    "height": 1297,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "累计概率分段与同一组随机数的实际区域选择",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-tail.png",
+    "width": 1062,
+    "height": 1325,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同轴显示稀有样本的大贡献，解释无偏与噪声并存",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-outcomes.png",
+    "width": 1062,
+    "height": 1245,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "穷尽双样本四事件及概率，比较天真平均与MIS而非只展示好运一次",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-pointwise.png",
+    "width": 1062,
+    "height": 1487,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "权重随位置变化，明确交叉求概率而非比较不同样本点",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-unbiased.png",
+    "width": 1062,
+    "height": 1215,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "用每个区域期望分摊说明权重和为1与重复计数错误",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-counts.png",
+    "width": 1062,
+    "height": 1355,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "3比1样本预算的实际权重与组内平均，防漏n或多除一次",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-power.png",
+    "width": 1062,
+    "height": 1195,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同点实际balance/power权重及精确反例，阻止绝对最优误解",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-perfect.png",
+    "width": 1062,
+    "height": 1297,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "第二个确切反例：一策略精确匹配目标时MIS增加方差",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-support.png",
+    "width": 1062,
+    "height": 1435,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "两种支持集合逐格对照，明确联合覆盖条件",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-measure.png",
+    "width": 1062,
+    "height": 1342,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实几何距离与面法线示意，面积密度转立体角密度后才可组合",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-scene.png",
+    "width": 1062,
+    "height": 1613,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实际球及环境方向表，明确材质、光、离散模型参考身份",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-renders.png",
+    "width": 1062,
+    "height": 1295,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "四种策略的完整真实计算结果，同预算同显示条件",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-zoom.png",
+    "width": 1062,
+    "height": 1665,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同一高光局部的实际噪声放大，避免缩略图掩盖差别",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-error.png",
+    "width": 1062,
+    "height": 1295,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实线性误差图与固定饱和显示范围，区分图像和统计",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-statistics.png",
+    "width": 1062,
+    "height": 1485,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "解析期望误差与单种子误差并列，防止挑一次结果概括优劣",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/18-flow.png",
+    "width": 1062,
+    "height": 1486,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "逐样本实际执行顺序，标明交叉求PDF和最后的平均层级",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/19-mixture.png",
+    "width": 1062,
+    "height": 1225,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "单样本混合路径与固定多样本模型分清，避免混用系数",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/21-directions.png",
+    "width": 1062,
+    "height": 1423,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "独立截面的真实向量反射运算和两种材质瓣，补全光照方向关系",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/20-live-ui.png",
+    "width": 1062,
+    "height": 1336,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "真实本地HTTP查看器截图，读实跑JSON",
+    "purpose": "现场切换四种结果，显示实际方法/预算/误差",
+    "checks": [
+      "real-browser",
+      "decode",
+      "interaction",
+      "no-overflow"
+    ]
+  }
+]

@@ -10,3 +10,4 @@
 6. [sRGB 与线性光：黑白各取一半，为什么有时是128，有时是188？](../articles/2026-10-25-r1-srgb-linear-light/read.md)
 7. [法线贴图与切线空间：一张紫蓝色图片，怎样让平面显出凹凸？](../articles/2026-10-25-r1-normal-map-tangent-space/read.md)
 8. [模板阴影体：不画一块黑贴纸，怎样用“进入和退出”找出阴影？](../articles/2026-10-25-r1-stencil-shadow-volumes/read.md)
+9. [多重重要性采样：两种抽样办法各有盲区，怎样合起来减少噪点？](../articles/2026-10-25-r1-multiple-importance-sampling/read.md)

@@ -2830,6 +2830,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-multiple-importance-sampling",
+    "title": "多重重要性采样：两种抽样办法各有盲区，怎样合起来减少噪点？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-multiple-importance-sampling/read.md",
+    "public_sha256": "c2f47e4a77b16e229a286dc2e9c8f947d9ff6f5dc7627ad148625bd5b9f65887",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-normal-map-tangent-space",
     "title": "法线贴图与切线空间：一张紫蓝色图片，怎样让平面显出凹凸？",
     "date": "2026-10-25",
