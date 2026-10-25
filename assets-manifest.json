@@ -25110,6 +25110,151 @@
     "sha256": "13be11f77ace33f32120d5f29a041c58a13eac49e4abadb0cbdf7cf6f365bf0c"
   },
   {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/00-cover.png",
+    "bytes": 73260,
+    "sha256": "8539df3a9795bdad87ad6814996b1285f39a7b82de9fe8153a257b5539293302"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/01-samples.png",
+    "bytes": 68816,
+    "sha256": "e312df00478e1445a10355595c43a7894b81fc7f66a59c1e799040e4d540e366"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/02-memory.png",
+    "bytes": 76655,
+    "sha256": "b63e78b65b13a376261eb1e853ae8c30a0682a0ea147adbd712b6b65793e81b5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/03-three-steps.png",
+    "bytes": 75955,
+    "sha256": "11830fb284bcf0b488633a2f2200e30a0bb958fd8a5ea80a3e3320d985705e3a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/04-encoding.png",
+    "bytes": 72319,
+    "sha256": "14680671a8a86f62285c169b5d8e4112519418e341d112a5482c4cb2092ffeef"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/05-delay.png",
+    "bytes": 66481,
+    "sha256": "6654a3e306143205b47433e45f2a23e6704d3a175cbe01de8ab7b3620a8b4f39"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/06-algebra.png",
+    "bytes": 82655,
+    "sha256": "6c332dac60645d7cbb32a11ea0955c6f6756c5883a89522957f0a3124e874c5d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/07-inverse.png",
+    "bytes": 89483,
+    "sha256": "080f79d2877565a316c32ceadc3f8b9c06f4cf2f3b3734b568e8ea6119409862"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/08-impulse.png",
+    "bytes": 65109,
+    "sha256": "bb81a15e545e487512d67a6281c5d2132c3d7960168f9c8d18389f42bb7465fa"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/09-convolution.png",
+    "bytes": 99856,
+    "sha256": "1b0ec08e6f1114a42e03a027958563ca5cfeb9c92eec8ee7a5a8e3f093c4aab4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/10-step.png",
+    "bytes": 84467,
+    "sha256": "6e8d3946bb97e77baaf1263e7dcd29185e14c7c8e4c0c38cd47b2aac10e717c7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/11-boundary.png",
+    "bytes": 79891,
+    "sha256": "8cfc8afc6696c268f2f727360a844cf42f47191b79d59adf03d0ce68a3d840ff"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/12-initial.png",
+    "bytes": 91803,
+    "sha256": "c1bce24812c9d17a4503d75613965ae6e5ac805eb3abec310683c91a57f01b4e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/13-complex.png",
+    "bytes": 99685,
+    "sha256": "4edab9f515d7cf25d5e7c0749ab07b19a6feafb0c2476da20d3e88a3d951e3b0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/14-convergence.png",
+    "bytes": 92871,
+    "sha256": "106e72289c06b95aa50e3af06dbbc68576d730c94bdcdbab596df2f1d3c7da2b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/15-two-sequences.png",
+    "bytes": 83239,
+    "sha256": "d024b28845438b00a02dd704ef1d3b224a8eb31ac6a92617124d02749f037535"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/16-roc.png",
+    "bytes": 113837,
+    "sha256": "e2f5b42f9bd0b436530347e6a0cf81dae0e930f16d39dd75faebec1fabf474e2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/17-stability.png",
+    "bytes": 145986,
+    "sha256": "516e056b0befe32e82e3d38187750837a5929033e56a3b1c0c3f0546733c68c2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/18-frequency.png",
+    "bytes": 88874,
+    "sha256": "2f73d835383a44cfb32c536cfc6e11d66e60f8ef0dd50d4253fda5cc76b3bd26"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/19-sinusoids.png",
+    "bytes": 140762,
+    "sha256": "bb3228d1fc079efb53f229ec5ac81947dd7eeb5b53d9fa743a8970c03cf4d8d9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/20-chunks.png",
+    "bytes": 104051,
+    "sha256": "f9e68dd2888b36e74d4643bdf1176ae12f2d6ab8f8af500d5cadadaea1deae5d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/21-viewer.png",
+    "bytes": 147386,
+    "sha256": "84185a63945fa12deef43d3bc0dd486548cca4061952316dc1ae070fa0099889"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/build_figures.py",
+    "bytes": 19239,
+    "sha256": "c4ee2720a5199c8cb4226aa07388abc4134727da02d411db4cbf76b05cac3093"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/capture_ui.py",
+    "bytes": 3152,
+    "sha256": "b9164cbbc8f0c2ae7488f025aabf9d324e40c8d74572e1c141480b3e02b28031"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/figure-metadata.json",
+    "bytes": 18824,
+    "sha256": "9a84b81c11c38c51c5ff9c38889ea10bc4734abfaee361e31de4b6530044de26"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/model.py",
+    "bytes": 4554,
+    "sha256": "68cea9394b631c0b1d6ae728f8c92a8530704b6125fc7f04ac945fb3db7dd7ac"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/reproduction.json",
+    "bytes": 145,
+    "sha256": "d483703b6e2700549315bbaa06978207f073e42378bf158a69e31243321c87e4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/results.json",
+    "bytes": 45435,
+    "sha256": "f6a5277d5cc9d8556ea52b03392dcf1f471c95efcb22ac155f0622cd4ef46519"
+  },
+  {
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/examples/ui.py",
+    "bytes": 4368,
+    "sha256": "ae710d0af70b5b6a3463d0d352d54f3341da0c9c8f235eead800268f3bfd2466"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

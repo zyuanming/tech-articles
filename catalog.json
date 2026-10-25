@@ -2894,5 +2894,16 @@
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-25-r1-z-transform-recurrence",
+    "title": "Z 变换与递推：上一拍还没忘掉，怎样一次看清整条响应？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-z-transform-recurrence/read.md",
+    "public_sha256": "04f0dbd52bde9f15c37773ead43c1450f60f0f9d981aa22d2197cf67d7df6ddb",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   }
 ]

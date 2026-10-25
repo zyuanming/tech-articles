@@ -12,3 +12,4 @@
 8. [模板阴影体：不画一块黑贴纸，怎样用“进入和退出”找出阴影？](../articles/2026-10-25-r1-stencil-shadow-volumes/read.md)
 9. [多重重要性采样：两种抽样办法各有盲区，怎样合起来减少噪点？](../articles/2026-10-25-r1-multiple-importance-sampling/read.md)
 10. [Catmull–Rom 插值：给出必经点，怎样自动连成平滑曲线？](../articles/2026-10-25-r1-catmull-rom-interpolation/read.md)
+11. [Z 变换与递推：上一拍还没忘掉，怎样一次看清整条响应？](../articles/2026-10-25-r1-z-transform-recurrence/read.md)

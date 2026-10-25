@@ -1,0 +1,820 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1020,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实际输入输出结果，提出递推记忆问题",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          9.0
+        ],
+        "yrange": [
+          0.0,
+          3.0
+        ],
+        "samples": 10,
+        "source": "results.json arrays",
+        "labels": [
+          "灰：输入 x[n]",
+          "蓝：输出 y[n]"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-samples.png",
+    "width": 1062,
+    "height": 920,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "序号、数值与离散采样身份",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          7.0
+        ],
+        "yrange": [
+          0.0,
+          2.5
+        ],
+        "samples": 8,
+        "source": "results.json arrays",
+        "labels": [
+          "点的位置是 n，竖线高度是 x[n]"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-memory.png",
+    "width": 1062,
+    "height": 940,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "反馈/单位延迟和状态读写顺序",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-three-steps.png",
+    "width": 1062,
+    "height": 1100,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "逐拍实算和状态覆盖次序",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-encoding.png",
+    "width": 1062,
+    "height": 1020,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "系数与幂次对应时刻，不是仅换字母",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-delay.png",
+    "width": 1062,
+    "height": 990,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "系数右移一格与幂次相乘的对应",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-algebra.png",
+    "width": 1062,
+    "height": 1115,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "移位代入、同类项消元与零状态前提",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-inverse.png",
+    "width": 1062,
+    "height": 1226,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "几何级数展开与系数反演及收敛条件",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-impulse.png",
+    "width": 1062,
+    "height": 930,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "单位冲激和实际递推衰减尾迹",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          8.0
+        ],
+        "yrange": [
+          0.0,
+          1.0
+        ],
+        "samples": 9,
+        "source": "results.json arrays",
+        "labels": [
+          "h[n] = 0.5ⁿ，n≥0"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-convolution.png",
+    "width": 1062,
+    "height": 2160,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "两份输入贡献、延迟和实际叠加结果",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          7.0
+        ],
+        "yrange": [
+          0.0,
+          3.0
+        ],
+        "samples": 8,
+        "source": "results.json arrays",
+        "labels": [
+          "第0拍输入1：1 × h[n]"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          7.0
+        ],
+        "yrange": [
+          0.0,
+          3.0
+        ],
+        "samples": 8,
+        "source": "results.json arrays",
+        "labels": [
+          "第1拍输入2：2 × h[n−1]"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          7.0
+        ],
+        "yrange": [
+          0.0,
+          3.0
+        ],
+        "samples": 8,
+        "source": "results.json arrays",
+        "labels": [
+          "两条相加：y[n]"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-step.png",
+    "width": 1062,
+    "height": 1039,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "阶跃响应与未归一化增益的明确区别",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          15.0
+        ],
+        "yrange": [
+          0.0,
+          2.0
+        ],
+        "samples": 16,
+        "source": "results.json arrays",
+        "labels": [
+          "蓝：原规则，稳态增益2",
+          "绿：输入也乘0.5，稳态增益1"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-boundary.png",
+    "width": 1062,
+    "height": 870,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "单边延迟从实际首项导出初始状态",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-initial.png",
+    "width": 1062,
+    "height": 1140,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "零状态/零输入/完整响应的实际分解",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          9.0
+        ],
+        "yrange": [
+          0.0,
+          4.0
+        ],
+        "samples": 10,
+        "source": "results.json arrays",
+        "labels": [
+          "蓝：零状态输入响应",
+          "绿：初始记忆产生的响应",
+          "红：完整输出 = 蓝 + 绿"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-complex.png",
+    "width": 1062,
+    "height": 1326,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "复平面中实际复数/倒数与单位圆同尺度",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-complex-plane",
+        "pixels_per_unit": 150,
+        "z": [
+          1.0000000000000002,
+          1.7320508075688772
+        ],
+        "inverse": [
+          0.25000000000000006,
+          -0.43301270189221924
+        ],
+        "unit_radius": 1
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-convergence.png",
+    "width": 1062,
+    "height": 1870,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "级数项的实际收敛/边界/发散数值",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          5.0
+        ],
+        "yrange": [
+          0.0,
+          1.0
+        ],
+        "samples": 6,
+        "source": "results.json arrays",
+        "labels": [
+          "|z|=1，公比=0.5"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          5.0
+        ],
+        "yrange": [
+          0.0,
+          1.0
+        ],
+        "samples": 6,
+        "source": "results.json arrays",
+        "labels": [
+          "|z|=0.5，公比=1"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          5.0
+        ],
+        "yrange": [
+          0.0,
+          32.0
+        ],
+        "samples": 6,
+        "source": "results.json arrays",
+        "labels": [
+          "|z|=0.25，公比=2"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-two-sequences.png",
+    "width": 1062,
+    "height": 1540,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同有理式的右侧/左侧序列和不同支持",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          -5.0,
+          7.0
+        ],
+        "yrange": [
+          0.0,
+          1.0
+        ],
+        "samples": 13,
+        "source": "results.json arrays",
+        "labels": [
+          "右侧：n≥0 为 0.5ⁿ"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          -5.0,
+          7.0
+        ],
+        "yrange": [
+          -32.0,
+          0.0
+        ],
+        "samples": 13,
+        "source": "results.json arrays",
+        "labels": [
+          "左侧：n<0 为 −0.5ⁿ"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-roc.png",
+    "width": 1062,
+    "height": 2200,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "两个ROC与单位圆、极点零点的实际几何",
+    "numeric_geometry": [
+      {
+        "kind": "equal-aspect-z-plane",
+        "pole": 0.5,
+        "unit_radius": 1,
+        "pixels_per_unit": 210,
+        "region": "outside"
+      },
+      {
+        "kind": "equal-aspect-z-plane",
+        "pole": 0.5,
+        "unit_radius": 1,
+        "pixels_per_unit": 210,
+        "region": "inside"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-stability.png",
+    "width": 1062,
+    "height": 2540,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "衰减/临界/增长冲激与因果BIBO条件",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          15.0
+        ],
+        "yrange": [
+          0.0,
+          1.0
+        ],
+        "samples": 16,
+        "source": "results.json arrays",
+        "labels": [
+          "a=0.5：单位冲激输出"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          15.0
+        ],
+        "yrange": [
+          0.0,
+          1.0
+        ],
+        "samples": 16,
+        "source": "results.json arrays",
+        "labels": [
+          "a=1：单位冲激输出"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          15.0
+        ],
+        "yrange": [
+          0.0,
+          4.177248169415656
+        ],
+        "samples": 16,
+        "source": "results.json arrays",
+        "labels": [
+          "a=1.1：单位冲激输出"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          15.0
+        ],
+        "yrange": [
+          0.0,
+          16.0
+        ],
+        "samples": 16,
+        "source": "results.json arrays",
+        "labels": [
+          "a=1：改为每拍输入1，输出持续增长"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/18-frequency.png",
+    "width": 1062,
+    "height": 1063,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "由实际复数频响得到幅度随离散频率变化",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          1.0
+        ],
+        "yrange": [
+          0.0,
+          2.0
+        ],
+        "samples": 257,
+        "source": "results.json arrays",
+        "labels": [
+          "横轴 ω/π；纵轴幅度增益 |H|"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/19-sinusoids.png",
+    "width": 1062,
+    "height": 1710,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实际时域余弦输出与频域预测交叉核验",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          32.0,
+          63.0
+        ],
+        "yrange": [
+          -2.0,
+          2.0
+        ],
+        "samples": 32,
+        "source": "results.json arrays",
+        "labels": [
+          "灰输入／蓝递推／棕理论稳态（重合）"
+        ]
+      },
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          32.0,
+          63.0
+        ],
+        "yrange": [
+          -2.0,
+          2.0
+        ],
+        "samples": 32,
+        "source": "results.json arrays",
+        "labels": [
+          "灰输入／蓝递推／棕理论稳态（重合）"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/20-chunks.png",
+    "width": 1062,
+    "height": 1120,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实SciPy分块状态与重置错误的输出差异",
+    "numeric_geometry": [
+      {
+        "kind": "numeric-shared-axis",
+        "xrange": [
+          0.0,
+          9.0
+        ],
+        "yrange": [
+          0.0,
+          3.0
+        ],
+        "samples": 10,
+        "source": "results.json arrays",
+        "labels": [
+          "蓝：完整或正确接续，逐项相同",
+          "红：第4拍错误重置状态"
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/21-viewer.png",
+    "width": 1062,
+    "height": 1634,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "自制教学应用实际Chromium截图；非官方SciPy界面或设备实测",
+    "purpose": "实际递推/SciPy对照与内部初态展示",
+    "checks": [
+      "real-browser",
+      "interactive-inputs",
+      "default-browser-settings",
+      "no-horizontal-overflow",
+      "actual-dimensions"
+    ]
+  }
+]
