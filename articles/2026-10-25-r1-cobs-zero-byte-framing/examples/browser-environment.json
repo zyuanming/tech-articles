@@ -1,0 +1,9 @@
+{
+  "browser": "Chromium",
+  "version": "154.0.8037.57",
+  "viewports": [
+    1062,
+    354
+  ],
+  "capture": "real local HTTP teaching app; no hardware"
+}

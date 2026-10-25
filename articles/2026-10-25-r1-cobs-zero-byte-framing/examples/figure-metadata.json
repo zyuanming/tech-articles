@@ -1,0 +1,347 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 704,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "独立封面：原始零与帧末定界符的不同职责",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-ambiguity.png",
+    "width": 1062,
+    "height": 849,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一数据两种分包解释，read返回不提供语义边界",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-zero-groups.png",
+    "width": 1062,
+    "height": 1084,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "显式保留连续零之间及末零之后的空组",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-encode-copy.png",
+    "width": 1062,
+    "height": 929,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "第一次复制两个非零字节，显示真实p/c和待回填字节",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-encode-zero.png",
+    "width": 1062,
+    "height": 739,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "第一次回填03并为下块预留位置",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-encode-double-zero.png",
+    "width": 1062,
+    "height": 913,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "先封闭33所在块，再由连续零封闭零数据块",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-encode-end.png",
+    "width": 1062,
+    "height": 829,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "原末零后的待填位置必须最终填01",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-code-chain.png",
+    "width": 1062,
+    "height": 1159,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "全部5个码字位置的跳跃链及终点",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-decode-first.png",
+    "width": 1062,
+    "height": 660,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "逐块显示已恢复前缀，补零条件来自解码trace",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-decode-last.png",
+    "width": 1062,
+    "height": 935,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "逐块显示已恢复前缀，补零条件来自解码trace",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-full-block.png",
+    "width": 1062,
+    "height": 874,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "254个数据位置与FF码字语义，以及数据FF的反例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-boundary-conventions.png",
+    "width": 1062,
+    "height": 1529,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "253/254/255/508输入长度下的真实两约定码字与长度",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-full-then-zero.png",
+    "width": 1062,
+    "height": 734,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "FF后真实末零需要01 01，不能错误删掉",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-empty-payload.png",
+    "width": 1062,
+    "height": 1104,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "空payload/单零/连零/无零的线缆序列区分",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-receive-chunks.png",
+    "width": 1062,
+    "height": 1894,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "任意read分段，第四次跨包且留下下包前缀",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-errors.png",
+    "width": 1062,
+    "height": 799,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实跑显示可检出的长度错误和不可检出的数据错误",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-resync.png",
+    "width": 1062,
+    "height": 779,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "真实丢定界符反例：拼接合法但payload错，后继66恢复",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-live-viewer.png",
+    "width": 1062,
+    "height": 1303,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "原创教学HTTP界面真实Chromium截图；点击执行Python字节接收模型",
+    "purpose": "第四次read跨越包界，交出主例同时保留下一包01",
+    "checks": [
+      "real-click",
+      "actual-Python-response",
+      "page-identity",
+      "no-console-errors",
+      "desktop-mobile-overflow",
+      "text-overlap",
+      "glyph-cmap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  }
+]

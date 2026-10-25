@@ -1,0 +1,905 @@
+{
+  "payload": [
+    17,
+    34,
+    0,
+    51,
+    0,
+    0,
+    68,
+    0
+  ],
+  "encoded": [
+    3,
+    17,
+    34,
+    2,
+    51,
+    1,
+    2,
+    68,
+    1
+  ],
+  "frame": [
+    3,
+    17,
+    34,
+    2,
+    51,
+    1,
+    2,
+    68,
+    1,
+    0
+  ],
+  "input_groups": [
+    [
+      17,
+      34
+    ],
+    [
+      51
+    ],
+    [],
+    [
+      68
+    ],
+    []
+  ],
+  "enc_trace": [
+    {
+      "index": 0,
+      "value": 17,
+      "action": "copy",
+      "before": {
+        "pointer": 0,
+        "count": 1,
+        "out": [
+          0
+        ]
+      },
+      "pointer": 0,
+      "count": 2,
+      "out": [
+        0,
+        17
+      ],
+      "completed_codes": []
+    },
+    {
+      "index": 1,
+      "value": 34,
+      "action": "copy",
+      "before": {
+        "pointer": 0,
+        "count": 2,
+        "out": [
+          0,
+          17
+        ]
+      },
+      "pointer": 0,
+      "count": 3,
+      "out": [
+        0,
+        17,
+        34
+      ],
+      "completed_codes": []
+    },
+    {
+      "index": 2,
+      "value": 0,
+      "action": "zero",
+      "before": {
+        "pointer": 0,
+        "count": 3,
+        "out": [
+          0,
+          17,
+          34
+        ]
+      },
+      "pointer": 3,
+      "count": 1,
+      "out": [
+        3,
+        17,
+        34,
+        0
+      ],
+      "completed_codes": [
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "value": 51,
+      "action": "copy",
+      "before": {
+        "pointer": 3,
+        "count": 1,
+        "out": [
+          3,
+          17,
+          34,
+          0
+        ]
+      },
+      "pointer": 3,
+      "count": 2,
+      "out": [
+        3,
+        17,
+        34,
+        0,
+        51
+      ],
+      "completed_codes": [
+        0
+      ]
+    },
+    {
+      "index": 4,
+      "value": 0,
+      "action": "zero",
+      "before": {
+        "pointer": 3,
+        "count": 2,
+        "out": [
+          3,
+          17,
+          34,
+          0,
+          51
+        ]
+      },
+      "pointer": 5,
+      "count": 1,
+      "out": [
+        3,
+        17,
+        34,
+        2,
+        51,
+        0
+      ],
+      "completed_codes": [
+        0,
+        3
+      ]
+    },
+    {
+      "index": 5,
+      "value": 0,
+      "action": "zero",
+      "before": {
+        "pointer": 5,
+        "count": 1,
+        "out": [
+          3,
+          17,
+          34,
+          2,
+          51,
+          0
+        ]
+      },
+      "pointer": 6,
+      "count": 1,
+      "out": [
+        3,
+        17,
+        34,
+        2,
+        51,
+        1,
+        0
+      ],
+      "completed_codes": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "index": 6,
+      "value": 68,
+      "action": "copy",
+      "before": {
+        "pointer": 6,
+        "count": 1,
+        "out": [
+          3,
+          17,
+          34,
+          2,
+          51,
+          1,
+          0
+        ]
+      },
+      "pointer": 6,
+      "count": 2,
+      "out": [
+        3,
+        17,
+        34,
+        2,
+        51,
+        1,
+        0,
+        68
+      ],
+      "completed_codes": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "index": 7,
+      "value": 0,
+      "action": "zero",
+      "before": {
+        "pointer": 6,
+        "count": 2,
+        "out": [
+          3,
+          17,
+          34,
+          2,
+          51,
+          1,
+          0,
+          68
+        ]
+      },
+      "pointer": 8,
+      "count": 1,
+      "out": [
+        3,
+        17,
+        34,
+        2,
+        51,
+        1,
+        2,
+        68,
+        0
+      ],
+      "completed_codes": [
+        0,
+        3,
+        5,
+        6
+      ]
+    }
+  ],
+  "dec_trace": [
+    {
+      "start": 0,
+      "code": 3,
+      "count": 2,
+      "next": 3,
+      "copied": [
+        17,
+        34
+      ],
+      "add_zero": true,
+      "out": [
+        17,
+        34,
+        0
+      ]
+    },
+    {
+      "start": 3,
+      "code": 2,
+      "count": 1,
+      "next": 5,
+      "copied": [
+        51
+      ],
+      "add_zero": true,
+      "out": [
+        17,
+        34,
+        0,
+        51,
+        0
+      ]
+    },
+    {
+      "start": 5,
+      "code": 1,
+      "count": 0,
+      "next": 6,
+      "copied": [],
+      "add_zero": true,
+      "out": [
+        17,
+        34,
+        0,
+        51,
+        0,
+        0
+      ]
+    },
+    {
+      "start": 6,
+      "code": 2,
+      "count": 1,
+      "next": 8,
+      "copied": [
+        68
+      ],
+      "add_zero": true,
+      "out": [
+        17,
+        34,
+        0,
+        51,
+        0,
+        0,
+        68,
+        0
+      ]
+    },
+    {
+      "start": 8,
+      "code": 1,
+      "count": 0,
+      "next": 9,
+      "copied": [],
+      "add_zero": false,
+      "out": [
+        17,
+        34,
+        0,
+        51,
+        0,
+        0,
+        68,
+        0
+      ]
+    }
+  ],
+  "tiny": [
+    {
+      "input": [],
+      "encoded": [
+        1
+      ],
+      "wire": [
+        1,
+        0
+      ],
+      "codes": [
+        0
+      ]
+    },
+    {
+      "input": [
+        0
+      ],
+      "encoded": [
+        1,
+        1
+      ],
+      "wire": [
+        1,
+        1,
+        0
+      ],
+      "codes": [
+        0,
+        1
+      ]
+    },
+    {
+      "input": [
+        0,
+        0
+      ],
+      "encoded": [
+        1,
+        1,
+        1
+      ],
+      "wire": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "codes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "input": [
+        17
+      ],
+      "encoded": [
+        2,
+        17
+      ],
+      "wire": [
+        2,
+        17,
+        0
+      ],
+      "codes": [
+        0
+      ]
+    },
+    {
+      "input": [
+        255
+      ],
+      "encoded": [
+        2,
+        255
+      ],
+      "wire": [
+        2,
+        255,
+        0
+      ],
+      "codes": [
+        0
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "n": 253,
+      "plain": 254,
+      "compact": 254,
+      "plain_codes": [
+        254
+      ],
+      "compact_codes": [
+        254
+      ],
+      "plain_blocks": [
+        253
+      ],
+      "compact_blocks": [
+        253
+      ]
+    },
+    {
+      "n": 254,
+      "plain": 256,
+      "compact": 255,
+      "plain_codes": [
+        255,
+        1
+      ],
+      "compact_codes": [
+        255
+      ],
+      "plain_blocks": [
+        254,
+        0
+      ],
+      "compact_blocks": [
+        254
+      ]
+    },
+    {
+      "n": 255,
+      "plain": 257,
+      "compact": 257,
+      "plain_codes": [
+        255,
+        2
+      ],
+      "compact_codes": [
+        255,
+        2
+      ],
+      "plain_blocks": [
+        254,
+        1
+      ],
+      "compact_blocks": [
+        254,
+        1
+      ]
+    },
+    {
+      "n": 508,
+      "plain": 511,
+      "compact": 510,
+      "plain_codes": [
+        255,
+        255,
+        1
+      ],
+      "compact_codes": [
+        255,
+        255
+      ],
+      "plain_blocks": [
+        254,
+        254,
+        0
+      ],
+      "compact_blocks": [
+        254,
+        254
+      ]
+    }
+  ],
+  "after_full_zero": {
+    "n": 255,
+    "encoded_length": 257,
+    "codes": [
+      255,
+      1,
+      1
+    ],
+    "blocks": [
+      254,
+      0,
+      0
+    ]
+  },
+  "chunks": [
+    {
+      "chunk": [
+        3,
+        17
+      ],
+      "buffer": [
+        3,
+        17
+      ],
+      "drop": false,
+      "emitted": [],
+      "packets": [],
+      "errors": []
+    },
+    {
+      "chunk": [
+        34,
+        2,
+        51
+      ],
+      "buffer": [
+        3,
+        17,
+        34,
+        2,
+        51
+      ],
+      "drop": false,
+      "emitted": [],
+      "packets": [],
+      "errors": []
+    },
+    {
+      "chunk": [
+        1
+      ],
+      "buffer": [
+        3,
+        17,
+        34,
+        2,
+        51,
+        1
+      ],
+      "drop": false,
+      "emitted": [],
+      "packets": [],
+      "errors": []
+    },
+    {
+      "chunk": [
+        2,
+        68,
+        1,
+        0,
+        1
+      ],
+      "buffer": [
+        1
+      ],
+      "drop": false,
+      "emitted": [
+        [
+          17,
+          34,
+          0,
+          51,
+          0,
+          0,
+          68,
+          0
+        ]
+      ],
+      "packets": [
+        [
+          17,
+          34,
+          0,
+          51,
+          0,
+          0,
+          68,
+          0
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "chunk": [
+        0
+      ],
+      "buffer": [],
+      "drop": false,
+      "emitted": [
+        []
+      ],
+      "packets": [
+        [
+          17,
+          34,
+          0,
+          51,
+          0,
+          0,
+          68,
+          0
+        ],
+        []
+      ],
+      "errors": []
+    }
+  ],
+  "stream": [
+    3,
+    17,
+    34,
+    2,
+    51,
+    1,
+    2,
+    68,
+    1,
+    0,
+    1,
+    0
+  ],
+  "errors": [
+    {
+      "name": "data_flip",
+      "input": [
+        3,
+        16,
+        34,
+        2,
+        51,
+        1,
+        2,
+        68,
+        1
+      ],
+      "accepted": true,
+      "output": [
+        16,
+        34,
+        0,
+        51,
+        0,
+        0,
+        68,
+        0
+      ],
+      "codes": [
+        0,
+        3,
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "name": "bad_code",
+      "input": [
+        11,
+        17,
+        34,
+        2,
+        51,
+        1,
+        2,
+        68,
+        1
+      ],
+      "accepted": false,
+      "error": "code exceeds frame",
+      "codes": [
+        0
+      ]
+    },
+    {
+      "name": "zero_inside",
+      "input": [
+        2,
+        0
+      ],
+      "accepted": false,
+      "error": "zero inside encoded frame",
+      "codes": [
+        0
+      ]
+    }
+  ],
+  "lost_delimiter": {
+    "chunk": [
+      3,
+      17,
+      34,
+      2,
+      51,
+      1,
+      2,
+      68,
+      1,
+      1,
+      0,
+      2,
+      102,
+      0
+    ],
+    "buffer": [],
+    "drop": false,
+    "emitted": [
+      [
+        17,
+        34,
+        0,
+        51,
+        0,
+        0,
+        68,
+        0,
+        0
+      ],
+      [
+        102
+      ]
+    ],
+    "packets": [
+      [
+        17,
+        34,
+        0,
+        51,
+        0,
+        0,
+        68,
+        0,
+        0
+      ],
+      [
+        102
+      ]
+    ],
+    "errors": [],
+    "first_codes": [
+      0,
+      3,
+      5,
+      6,
+      8,
+      9
+    ]
+  },
+  "overflow": {
+    "chunk": [
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      0,
+      2,
+      102,
+      0
+    ],
+    "buffer": [],
+    "drop": false,
+    "emitted": [
+      [
+        102
+      ]
+    ],
+    "packets": [
+      [
+        102
+      ]
+    ],
+    "errors": [
+      "frame too long"
+    ]
+  },
+  "sync": {
+    "chunk": [
+      51,
+      1,
+      2,
+      68,
+      1,
+      0,
+      2,
+      102,
+      0
+    ],
+    "buffer": [],
+    "drop": false,
+    "emitted": [
+      [
+        102
+      ]
+    ],
+    "packets": [
+      [
+        102
+      ]
+    ],
+    "errors": []
+  },
+  "budget": [
+    {
+      "n": 0,
+      "plain_upper": 1,
+      "compact_upper": 1
+    },
+    {
+      "n": 8,
+      "plain_upper": 9,
+      "compact_upper": 9
+    },
+    {
+      "n": 254,
+      "plain_upper": 256,
+      "compact_upper": 255
+    },
+    {
+      "n": 255,
+      "plain_upper": 257,
+      "compact_upper": 257
+    },
+    {
+      "n": 508,
+      "plain_upper": 511,
+      "compact_upper": 510
+    },
+    {
+      "n": 1000,
+      "plain_upper": 1004,
+      "compact_upper": 1004
+    },
+    {
+      "n": 1500,
+      "plain_upper": 1506,
+      "compact_upper": 1506
+    }
+  ],
+  "checks": {
+    "exhaustive_payloads": 3280,
+    "random_payloads": 1200,
+    "random_seed": 2026102518,
+    "boundary_lengths": 1025,
+    "all_frame_partitions": 512
+  }
+}

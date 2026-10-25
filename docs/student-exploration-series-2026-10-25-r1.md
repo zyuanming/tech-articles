@@ -19,3 +19,4 @@
 15. [Chebyshev 等波纹：为什么误差一上一下，反而能保证最坏情况最好？](../articles/2026-10-25-r1-chebyshev-equiripple/read.md)
 16. [有人对两边说不同的话，大家还能一致吗？拜占庭口信算法逐轮算给你看](../articles/2026-10-25-r1-byzantine-oral-messages/read.md)
 17. [令牌桶：平均每秒只许两份，为什么能一下放行六份？](../articles/2026-10-25-r1-token-bucket-bursts/read.md)
+18. [数据里也有 00，怎样用 00 给包划边界？把 COBS 逐字节走一遍](../articles/2026-10-25-r1-cobs-zero-byte-framing/read.md)

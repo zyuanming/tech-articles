@@ -2841,6 +2841,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-cobs-zero-byte-framing",
+    "title": "数据里也有 00，怎样用 00 给包划边界？把 COBS 逐字节走一遍",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-cobs-zero-byte-framing/read.md",
+    "public_sha256": "9f3b9578946fe64c88f1b454ab8676820fa036c1b9f33d6ecd8039360ed66dbd",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-count-min-sketch-frequency",
     "title": "Count-Min Sketch：只留一张小表，怎样估计一个键出现了几次？",
     "date": "2026-10-25",
