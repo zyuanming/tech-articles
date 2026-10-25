@@ -23810,6 +23810,116 @@
     "sha256": "bb2fa97dbedeec31721c2669371358ad217f499ced77ba66d0e746bb9d4e3ec0"
   },
   {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/00-cover.png",
+    "bytes": 71699,
+    "sha256": "1891aaf50d3781d2394261015ee6ba2c52cb14016b3e3c50a061aefb538e708a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/01-rounding.png",
+    "bytes": 80866,
+    "sha256": "c66d2ecbc04ed014b44279f28ad69f7c24b00bd26b40606ad0dbca33022dcc73"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/02-split.png",
+    "bytes": 123298,
+    "sha256": "9587d7cbaa33b5b95ed7bf3ea2e797c6800171621383ab0d04e9668ac36da681"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/03-free-lists.png",
+    "bytes": 96702,
+    "sha256": "ebf7a8a44a70f7b467039461f34080b3679e580bcab0f17894dc25822aaaaf0c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/04-allocated.png",
+    "bytes": 88710,
+    "sha256": "d5b62265b11eb7d8a99ec94e27a962d082aa0631c71f4f5d6d543829313d44a3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/05-xor.png",
+    "bytes": 66248,
+    "sha256": "2009c60c9055c5bc6ca6140d6e42c511b662bd07cd42055f4c1cfd17d54f5392"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/06-base.png",
+    "bytes": 96571,
+    "sha256": "faee73ec39ce5fcf518810d346e293f36c3ddf3d570ec2eaeffdd3453b467651"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/07-free-a.png",
+    "bytes": 116540,
+    "sha256": "c2fa187d4616d1acd91655cc158b0f9fc3732a300820183854aec3808c5dfb73"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/08-free-b.png",
+    "bytes": 119028,
+    "sha256": "064c7417b14880740714c3e3440b9914088fde328dff858a09808d0f66008d7d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/09-free-c.png",
+    "bytes": 121078,
+    "sha256": "b0f455898d3ab5c0c79eb141f507497f27b44e0dceedd1b805ba518301257879"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/10-tree.png",
+    "bytes": 66702,
+    "sha256": "0d5fb25a079b474c87a1e484209fc591e0427eef95b3615d6cb141f7b14eb3cc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/11-fragment.png",
+    "bytes": 116826,
+    "sha256": "5d21e652c66d5cd357a72c284babb1c93e6c0deb99475695e00a40fb01cad86a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/12-recovery.png",
+    "bytes": 115283,
+    "sha256": "caab9de0153c1e37d318a3736c707f16343c40507ea7cc60aed71f65edc2302a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/13-arenas.png",
+    "bytes": 72473,
+    "sha256": "ebd4fa29b037c72f1935cc12cc7858ad57ec17896ae7e1bc0024dbe651f3ab61"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/14-metadata.png",
+    "bytes": 100802,
+    "sha256": "e9f8c72fdca614ee7b9d628d94abd0a33a09fcea7f80b3f1c467b29acc397a81"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/15-viewer.png",
+    "bytes": 307573,
+    "sha256": "310044ce86380b5ea164f4da58ef2a95b248b04c8e7d93ed4c6ff598b8269788"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/examples/buddy.py",
+    "bytes": 8990,
+    "sha256": "dff0f662783b97f935980b1beb326fad94453205a7330f7ecbe900837da913f2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/examples/build_figures.py",
+    "bytes": 9765,
+    "sha256": "f070c4a1f3182f0743b71ee57f9375932697d77bc854f1dd8e5fbdb512c0f31d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/examples/figure-metadata.json",
+    "bytes": 8013,
+    "sha256": "a24c39ebed667adc8a1f9cc11a956d90ce8c38769073d693862119f3a5c5453a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/examples/figurekit.py",
+    "bytes": 2937,
+    "sha256": "c11b45804aafc5a7f6cab593663bad8b9810aab0df27af53bb50ea65e58bd21e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/examples/results.json",
+    "bytes": 35790,
+    "sha256": "5b89446d502979908c6b36fd37fa8133a95d7a2fd27b2ce22a2aee8bfb521255"
+  },
+  {
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/examples/viewer.html",
+    "bytes": 4333,
+    "sha256": "16cef092933781ff80754a34f1587e4c9e015499893cdead2639072d4a1673cf"
+  },
+  {
     "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/00-cover.png",
     "bytes": 72356,
     "sha256": "d8f69b623d1e570768ac431ce578c90fab7e288281364a97b444c2d0a45b43c7"

@@ -1,0 +1,318 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 842,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "用相邻但非伙伴反例引出合并规则",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/01-rounding.png",
+    "width": 1062,
+    "height": 904,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "共轴展示请求与保留块、内部碎片",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/02-split.png",
+    "width": 1062,
+    "height": 1377,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "真实事件逐层展示64→32→16的分裂",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/03-free-lists.png",
+    "width": 1062,
+    "height": 892,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "A分配后每阶空闲表与地址条对应",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/04-allocated.png",
+    "width": 1062,
+    "height": 1017,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "不同请求占用全部arena以及内部碎片累计",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/05-xor.png",
+    "width": 1062,
+    "height": 832,
+    "min_font_px": 44,
+    "effective_min_font_at_354": 14.67,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "二进制逐位说明固定伙伴为何能用XOR求得",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/06-base.png",
+    "width": 1062,
+    "height": 883,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一非零arena在order0处的绝对地址XOR反例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/07-free-a.png",
+    "width": 1062,
+    "height": 1202,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "释放后不满足空闲条件，不能合并",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/08-free-b.png",
+    "width": 1062,
+    "height": 1377,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "B释放与A合并，检查下一层后停止",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/09-free-c.png",
+    "width": 1062,
+    "height": 1492,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "最后一次释放逐层恢复根块与空闲表",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/10-tree.png",
+    "width": 1062,
+    "height": 1072,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "真实贯穿例子的分裂树显示兄弟与共同父块",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/11-fragment.png",
+    "width": 1062,
+    "height": 1078,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "相邻同大小空闲块不具有同父关系的失败反例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/12-recovery.png",
+    "width": 1062,
+    "height": 1311,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "失败状态到全部释放再申请成功的实跑对照",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/13-arenas.png",
+    "width": 1062,
+    "height": 922,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "独立管理域不会因地址相邻而跨界合并",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/14-metadata.png",
+    "width": 1062,
+    "height": 974,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "区分模型容量、分配记录、空闲表和语言对象开销",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  },
+  {
+    "file": "assets/15-viewer.png",
+    "width": 1062,
+    "height": 4131,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "实际Chromium原创HTTP教学界面截图；354 CSS px，deviceScaleFactor=3",
+    "purpose": "显示实跑JSON的失败状态、区间表与各阶空闲表",
+    "checks": [
+      "all-events-mobile-overflow",
+      "desktop-overflow",
+      "browser-errors",
+      "actual-dimensions"
+    ],
+    "license": "CC-BY-4.0"
+  }
+]

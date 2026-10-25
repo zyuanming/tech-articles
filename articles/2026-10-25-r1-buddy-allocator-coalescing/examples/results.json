@@ -1,0 +1,2001 @@
+{
+  "model": "buddy-teaching-1.0",
+  "base": 4104,
+  "total": 64,
+  "unit": 8,
+  "top": 3,
+  "rounding": [
+    {
+      "request": 1,
+      "order": 0,
+      "size": 8,
+      "waste": 7
+    },
+    {
+      "request": 8,
+      "order": 0,
+      "size": 8,
+      "waste": 0
+    },
+    {
+      "request": 9,
+      "order": 1,
+      "size": 16,
+      "waste": 7
+    },
+    {
+      "request": 13,
+      "order": 1,
+      "size": 16,
+      "waste": 3
+    },
+    {
+      "request": 16,
+      "order": 1,
+      "size": 16,
+      "waste": 0
+    },
+    {
+      "request": 17,
+      "order": 2,
+      "size": 32,
+      "waste": 15
+    },
+    {
+      "request": 32,
+      "order": 2,
+      "size": 32,
+      "waste": 0
+    },
+    {
+      "request": 33,
+      "order": 3,
+      "size": 64,
+      "waste": 31
+    },
+    {
+      "request": 64,
+      "order": 3,
+      "size": 64,
+      "waste": 0
+    }
+  ],
+  "main": [
+    {
+      "title": "初始整块空闲",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "free_bytes": 64,
+      "largest": 64,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 32,
+        "order": 2
+      }
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 16,
+        "order": 1
+      }
+    },
+    {
+      "title": "分配 A：请求 13 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 3,
+      "detail": null
+    },
+    {
+      "title": "分配 B：请求 9 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 10,
+      "detail": null
+    },
+    {
+      "title": "分配 C：请求 17 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 25,
+      "detail": null
+    },
+    {
+      "title": "释放 A，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 22,
+      "detail": null
+    },
+    {
+      "title": "A 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 22,
+      "detail": null
+    },
+    {
+      "title": "释放 B，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 15,
+      "detail": null
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 15,
+      "detail": {
+        "buddy": 0,
+        "old_order": 1,
+        "order": 2
+      }
+    },
+    {
+      "title": "B 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 15,
+      "detail": null
+    },
+    {
+      "title": "释放 C，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 0,
+      "detail": {
+        "buddy": 0,
+        "old_order": 2,
+        "order": 3
+      }
+    },
+    {
+      "title": "C 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "free_bytes": 64,
+      "largest": 64,
+      "internal": 0,
+      "detail": null
+    }
+  ],
+  "fragment": [
+    {
+      "title": "初始整块空闲",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "free_bytes": 64,
+      "largest": 64,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 32,
+        "order": 2
+      }
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 16,
+        "order": 1
+      }
+    },
+    {
+      "title": "分配 P：请求 16 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "分配 Q：请求 16 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "Q",
+          "request": 16
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "Q",
+          "request": 16
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          48
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 0,
+      "detail": {
+        "left": 32,
+        "right": 48,
+        "order": 1
+      }
+    },
+    {
+      "title": "分配 R：请求 16 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "Q",
+          "request": 16
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "R",
+          "request": 16
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          48
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "分配 S：请求 16 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "Q",
+          "request": 16
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "R",
+          "request": 16
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "释放 Q，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "R",
+          "request": 16
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "Q 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "R",
+          "request": 16
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "释放 R，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "R 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16,
+          32
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 16,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "T 请求 17 字节失败",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "P",
+          "request": 16
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16,
+          32
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 16,
+      "internal": 0,
+      "detail": {
+        "target": 2
+      }
+    },
+    {
+      "title": "释放 P，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16,
+          32
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 16,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          32
+        ],
+        [],
+        []
+      ],
+      "free_bytes": 16,
+      "largest": 16,
+      "internal": 0,
+      "detail": {
+        "buddy": 16,
+        "old_order": 1,
+        "order": 2
+      }
+    },
+    {
+      "title": "P 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "S",
+          "request": 16
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          32
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "释放 S，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 48,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          32
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "buddy": 32,
+        "old_order": 1,
+        "order": 2
+      }
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 0,
+      "detail": {
+        "buddy": 0,
+        "old_order": 2,
+        "order": 3
+      }
+    },
+    {
+      "title": "S 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "free_bytes": 64,
+      "largest": 64,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 32,
+        "order": 2
+      }
+    },
+    {
+      "title": "分配 T：请求 17 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "T",
+          "request": 17
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 15,
+      "detail": null
+    }
+  ],
+  "fragment_before": 11,
+  "fragment_failed": 12,
+  "xor": {
+    "base": 4104,
+    "offset": 16,
+    "size": 16,
+    "address": 4120,
+    "partner": 0,
+    "correct": 4104,
+    "wrong": 4104
+  },
+  "xor_bad": {
+    "base": 4104,
+    "offset": 8,
+    "size": 8,
+    "address": 4112,
+    "correct": 4104,
+    "wrong": 4120
+  },
+  "arenas": [
+    {
+      "base": 8192,
+      "total": 32,
+      "free": 32,
+      "accepted": false
+    },
+    {
+      "base": 8224,
+      "total": 32,
+      "free": 32,
+      "accepted": false
+    }
+  ],
+  "alternate": [
+    {
+      "title": "初始整块空闲",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "free_bytes": 64,
+      "largest": 64,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 32,
+        "order": 2
+      }
+    },
+    {
+      "title": "对半分裂",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "left": 0,
+        "right": 16,
+        "order": 1
+      }
+    },
+    {
+      "title": "分配 A：请求 13 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          16
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 3,
+      "detail": null
+    },
+    {
+      "title": "分配 B：请求 9 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 10,
+      "detail": null
+    },
+    {
+      "title": "分配 C：请求 17 字节",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "used",
+          "name": "C",
+          "request": 17
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 25,
+      "detail": null
+    },
+    {
+      "title": "释放 C，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 10,
+      "detail": null
+    },
+    {
+      "title": "C 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "A",
+          "request": 13
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 10,
+      "detail": null
+    },
+    {
+      "title": "释放 A，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 7,
+      "detail": null
+    },
+    {
+      "title": "A 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "used",
+          "name": "B",
+          "request": 9
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          0
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 7,
+      "detail": null
+    },
+    {
+      "title": "释放 B，检查伙伴",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 16,
+          "order": 1,
+          "kind": "free",
+          "name": "空闲"
+        },
+        {
+          "offset": 16,
+          "size": 16,
+          "order": 1,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [
+          0
+        ],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 48,
+      "largest": 32,
+      "internal": 0,
+      "detail": null
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 32,
+          "order": 2,
+          "kind": "pending",
+          "name": "处理中"
+        },
+        {
+          "offset": 32,
+          "size": 32,
+          "order": 2,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [
+          32
+        ],
+        []
+      ],
+      "free_bytes": 32,
+      "largest": 32,
+      "internal": 0,
+      "detail": {
+        "buddy": 0,
+        "old_order": 1,
+        "order": 2
+      }
+    },
+    {
+      "title": "同阶伙伴合并",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "pending",
+          "name": "处理中"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "free_bytes": 0,
+      "largest": 0,
+      "internal": 0,
+      "detail": {
+        "buddy": 32,
+        "old_order": 2,
+        "order": 3
+      }
+    },
+    {
+      "title": "B 释放完成",
+      "blocks": [
+        {
+          "offset": 0,
+          "size": 64,
+          "order": 3,
+          "kind": "free",
+          "name": "空闲"
+        }
+      ],
+      "free_lists": [
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "free_bytes": 64,
+      "largest": 64,
+      "internal": 0,
+      "detail": null
+    }
+  ],
+  "colors": {
+    "free": "#d7eee2",
+    "used": "#dbe9fa",
+    "pending": "#ffdfab",
+    "waste": "#f3c5c0",
+    "ink": "#142d42"
+  },
+  "tests": {
+    "seed": 19019,
+    "operations": 2000,
+    "allocations": 867,
+    "failures": 269,
+    "oracle": "per-byte occupied cells, aligned target windows"
+  }
+}

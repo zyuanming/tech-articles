@@ -2797,6 +2797,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-buddy-allocator-coalescing",
+    "title": "Buddy 分配器：空闲内存明明挨着，为什么还不能合并？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/read.md",
+    "public_sha256": "be92cff1828dfe5a76e8ae113c2fd433536ff4ab2c17585c3719b774a3e1c8cd",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-byzantine-oral-messages",
     "title": "有人对两边说不同的话，大家还能一致吗？拜占庭口信算法逐轮算给你看",
     "date": "2026-10-25",

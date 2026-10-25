@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Buddy 分配器实验台</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:#142d42;font:16px/1.6 sans-serif}main{max-width:760px;margin:auto;padding:18px}h1{font-size:25px;line-height:1.3;margin:8px 0}h2{font-size:19px}p{margin:12px 0}.tag{font-size:14px}select,button,input{font:inherit;max-width:100%}select{width:100%;padding:8px}input{width:100%}button{padding:6px 20px;background:#176297;color:white;border:0;border-radius:6px}#bar{display:flex;height:72px;margin:24px 0 6px}#bar>div{display:flex;align-items:center;justify-content:center;border:1px solid #142d42;position:relative}#bar span{z-index:1}table{border-collapse:collapse;width:100%;font-size:16px}td,th{border-bottom:1px solid #b6c5ce;text-align:left;padding:7px 3px}#stats{background:#e5eef7;padding:12px;border-radius:8px}.legend{font-size:14px}#detail{border-left:4px solid #176297;padding-left:12px}code{font:16px monospace}footer{font-size:14px;margin-top:20px}
+</style><main>
+<p class="tag">原创教学模型 · v1.0</p><h1>Buddy 分配器实验台</h1>
+<p>同一段地址，跟着每一步看块如何变化。</p>
+<label for="scenario">选择运行序列</label><select id="scenario"><option value="main">A、B、C：分裂与合并</option><option value="fragment" selected>相邻空闲但请求失败</option></select>
+<p><label for="step">事件 <span id="counter"></span></label><input id="step" type="range" min="0" value="12"></p>
+<button id="prev">上一步</button> <button id="next">下一步</button>
+<h2 id="title"></h2><p class="tag">基址 <code id="base"></code> · 总容量 <span id="total"></span> 字节<br>下方区间以相对偏移计，右端不含。</p>
+<div id="bar"></div><p class="legend">绿色：空闲　蓝色：占用<br>粉色：块内未用　橙色：处理中</p>
+<div id="stats"></div><h2>当前块</h2><table><thead><tr><th>区间</th><th>状态</th><th>order</th></tr></thead><tbody id="blocks"></tbody></table>
+<h2>空闲表：只列起点</h2><table><thead><tr><th>order</th><th>块大小</th><th>偏移</th></tr></thead><tbody id="lists"></tbody></table>
+<p id="detail"></p><footer>读取 buddy.py 实际生成的 results.json。<br>这是算法状态回放，不是操作系统监视器。</footer>
+</main><script>
+let data;const $=s=>document.querySelector(s);
+function render(){let seq=data[$('#scenario').value],i=+$('#step').value;$('#step').max=seq.length-1;i=Math.min(i,seq.length-1);$('#step').value=i;let s=seq[i];$('#counter').textContent=`${i} / ${seq.length-1}`;$('#title').textContent=s.title;$('#base').textContent='0x'+data.base.toString(16);$('#total').textContent=data.total;
+$('#bar').innerHTML='';s.blocks.forEach(b=>{let e=document.createElement('div');e.style.width=100*b.size/data.total+'%';e.style.background=data.colors[b.kind];if(b.kind==='used')e.style.background=`linear-gradient(to right,${data.colors.used} ${100*b.request/b.size}%,${data.colors.waste} ${100*b.request/b.size}%)`;let t=document.createElement('span');t.textContent=b.name==='处理中'?'处理':b.name;e.append(t);$('#bar').append(e)});
+$('#stats').textContent=`表内空闲 ${s.free_bytes} 字节 · 最大表内块 ${s.largest} 字节 · 块内未用 ${s.internal} 字节`;
+$('#blocks').innerHTML=s.blocks.map(b=>`<tr><td>[${b.offset}, ${b.offset+b.size})</td><td>${b.name}</td><td>${b.order}</td></tr>`).join('');
+$('#lists').innerHTML=s.free_lists.map((t,k)=>`<tr><td>${k}</td><td>${data.unit*2**k}</td><td>${t.join(', ')||'空'}</td></tr>`).join('');
+$('#detail').textContent=$('#scenario').value==='fragment'&&i===data.fragment_failed?'请求 17 字节要用 32 字节块。Q 与 R 相邻，却不是同父伙伴；order 2 及以上空闲表为空。':'上方地址条、块表与空闲表来自同一个事件。橙色块暂未入空闲表，表示一次操作内部正在处理。';}
+fetch('results.json').then(r=>r.json()).then(x=>{data=x;render();window.ready=true});$('#step').oninput=render;$('#scenario').onchange=()=>{$('#step').value=0;render()};$('#prev').onclick=()=>{$('#step').value=Math.max(0,+$('#step').value-1);render()};$('#next').onclick=()=>{$('#step').value=Math.min(+$('#step').max,+$('#step').value+1);render()};
+</script></html>
