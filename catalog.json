@@ -2907,6 +2907,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-mccarthy-lisp-evaluator",
+    "title": "一张表怎样成为程序？沿着 McCarthy 的 Lisp 求值器走完一次递归",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/read.md",
+    "public_sha256": "37fed9d7527eaaa6c51b310c95f6ec07f0cc10114c3b4fb249e55dc90be8fa2b",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-multiple-importance-sampling",
     "title": "多重重要性采样：两种抽样办法各有盲区，怎样合起来减少噪点？",
     "date": "2026-10-25",

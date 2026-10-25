@@ -1,0 +1,3597 @@
+{
+  "quoted": {
+    "source": "'(car '(a b))",
+    "result": "(car (quote (a b)))",
+    "steps": 1,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "quote",
+        "parent": 0,
+        "value": "(car (quote (a b)))"
+      },
+      {
+        "n": 2,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "(car (quote (a b)))"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(quote (car (quote (a b))))",
+        "env": [],
+        "result": "(car (quote (a b)))"
+      }
+    ]
+  },
+  "executed": {
+    "source": "(car '(a b))",
+    "result": "a",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 4,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "car",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "a"
+      },
+      {
+        "n": 7,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "a"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(car (quote (a b)))",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (a b))",
+        "env": [],
+        "result": "(a b)"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "car",
+        "env": [],
+        "args": [
+          "(a b)"
+        ],
+        "result": "a"
+      }
+    ]
+  },
+  "simple": {
+    "source": "((lambda (x y) (cons (car x) y)) '(a b) '(c))",
+    "result": "(a c)",
+    "steps": 10,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "quote",
+        "parent": 2,
+        "value": "(c)"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "(c)"
+      },
+      {
+        "n": 7,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "(lambda (x y) (cons (car x) y))",
+        "values": [
+          "(a b)",
+          "(c)"
+        ]
+      },
+      {
+        "n": 8,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 9,
+        "kind": "bind",
+        "parent": 3,
+        "params": [
+          "x",
+          "y"
+        ],
+        "values": [
+          "(a b)",
+          "(c)"
+        ],
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ]
+      },
+      {
+        "n": 10,
+        "kind": "enter",
+        "parent": 4,
+        "call": 4
+      },
+      {
+        "n": 11,
+        "kind": "enter",
+        "parent": 5,
+        "call": 5
+      },
+      {
+        "n": 12,
+        "kind": "enter",
+        "parent": 6,
+        "call": 6
+      },
+      {
+        "n": 13,
+        "kind": "lookup",
+        "parent": 6,
+        "name": "x",
+        "index": 0,
+        "value": "(a b)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ]
+      },
+      {
+        "n": 14,
+        "kind": "return",
+        "parent": 6,
+        "call": 6,
+        "value": "(a b)"
+      },
+      {
+        "n": 15,
+        "kind": "arguments",
+        "parent": 5,
+        "fn": "car",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 16,
+        "kind": "enter",
+        "parent": 7,
+        "call": 7
+      },
+      {
+        "n": 17,
+        "kind": "return",
+        "parent": 7,
+        "call": 7,
+        "value": "a"
+      },
+      {
+        "n": 18,
+        "kind": "return",
+        "parent": 5,
+        "call": 5,
+        "value": "a"
+      },
+      {
+        "n": 19,
+        "kind": "enter",
+        "parent": 8,
+        "call": 8
+      },
+      {
+        "n": 20,
+        "kind": "lookup",
+        "parent": 8,
+        "name": "y",
+        "index": 1,
+        "value": "(c)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ]
+      },
+      {
+        "n": 21,
+        "kind": "return",
+        "parent": 8,
+        "call": 8,
+        "value": "(c)"
+      },
+      {
+        "n": 22,
+        "kind": "arguments",
+        "parent": 4,
+        "fn": "cons",
+        "values": [
+          "a",
+          "(c)"
+        ]
+      },
+      {
+        "n": 23,
+        "kind": "enter",
+        "parent": 9,
+        "call": 9
+      },
+      {
+        "n": 24,
+        "kind": "return",
+        "parent": 9,
+        "call": 9,
+        "value": "(a c)"
+      },
+      {
+        "n": 25,
+        "kind": "return",
+        "parent": 4,
+        "call": 4,
+        "value": "(a c)"
+      },
+      {
+        "n": 26,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "(a c)"
+      },
+      {
+        "n": 27,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "(a c)"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "((lambda (x y) (cons (car x) y)) (quote (a b)) (quote (c)))",
+        "env": [],
+        "result": "(a c)"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (a b))",
+        "env": [],
+        "result": "(a b)"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (c))",
+        "env": [],
+        "result": "(c)"
+      },
+      {
+        "id": 3,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "(lambda (x y) (cons (car x) y))",
+        "env": [],
+        "args": [
+          "(a b)",
+          "(c)"
+        ],
+        "result": "(a c)"
+      },
+      {
+        "id": 4,
+        "parent": 3,
+        "kind": "eval",
+        "expr": "(cons (car x) y)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ],
+        "result": "(a c)"
+      },
+      {
+        "id": 5,
+        "parent": 4,
+        "kind": "eval",
+        "expr": "(car x)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 6,
+        "parent": 5,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ],
+        "result": "(a b)"
+      },
+      {
+        "id": 7,
+        "parent": 5,
+        "kind": "apply",
+        "expr": "car",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ],
+        "args": [
+          "(a b)"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 8,
+        "parent": 4,
+        "kind": "eval",
+        "expr": "y",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ],
+        "result": "(c)"
+      },
+      {
+        "id": 9,
+        "parent": 4,
+        "kind": "apply",
+        "expr": "cons",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "y",
+            "(c)"
+          ]
+        ],
+        "args": [
+          "a",
+          "(c)"
+        ],
+        "result": "(a c)"
+      }
+    ]
+  },
+  "recursive": {
+    "source": "((label first\n (lambda (x)\n  (cond ((atom x) x)\n        (t (first (car x))))))\n '((a b) c))",
+    "result": "a",
+    "steps": 31,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "((a b) c)"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "((a b) c)"
+      },
+      {
+        "n": 4,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "(label first (lambda (x) (cond ((atom x) x) (t (first (car x))))))",
+        "values": [
+          "((a b) c)"
+        ]
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "label",
+        "parent": 2,
+        "name": "first",
+        "value": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+        "env": [
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 7,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 8,
+        "kind": "bind",
+        "parent": 3,
+        "params": [
+          "x"
+        ],
+        "values": [
+          "((a b) c)"
+        ],
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 9,
+        "kind": "enter",
+        "parent": 4,
+        "call": 4
+      },
+      {
+        "n": 10,
+        "kind": "enter",
+        "parent": 5,
+        "call": 5
+      },
+      {
+        "n": 11,
+        "kind": "enter",
+        "parent": 6,
+        "call": 6
+      },
+      {
+        "n": 12,
+        "kind": "lookup",
+        "parent": 6,
+        "name": "x",
+        "index": 0,
+        "value": "((a b) c)",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 13,
+        "kind": "return",
+        "parent": 6,
+        "call": 6,
+        "value": "((a b) c)"
+      },
+      {
+        "n": 14,
+        "kind": "arguments",
+        "parent": 5,
+        "fn": "atom",
+        "values": [
+          "((a b) c)"
+        ]
+      },
+      {
+        "n": 15,
+        "kind": "enter",
+        "parent": 7,
+        "call": 7
+      },
+      {
+        "n": 16,
+        "kind": "return",
+        "parent": 7,
+        "call": 7,
+        "value": "nil"
+      },
+      {
+        "n": 17,
+        "kind": "return",
+        "parent": 5,
+        "call": 5,
+        "value": "nil"
+      },
+      {
+        "n": 18,
+        "kind": "test",
+        "parent": 4,
+        "clause": 0,
+        "test": "(atom x)",
+        "value": "nil",
+        "selected": false
+      },
+      {
+        "n": 19,
+        "kind": "enter",
+        "parent": 8,
+        "call": 8
+      },
+      {
+        "n": 20,
+        "kind": "return",
+        "parent": 8,
+        "call": 8,
+        "value": "t"
+      },
+      {
+        "n": 21,
+        "kind": "test",
+        "parent": 4,
+        "clause": 1,
+        "test": "t",
+        "value": "t",
+        "selected": true
+      },
+      {
+        "n": 22,
+        "kind": "enter",
+        "parent": 9,
+        "call": 9
+      },
+      {
+        "n": 23,
+        "kind": "enter",
+        "parent": 10,
+        "call": 10
+      },
+      {
+        "n": 24,
+        "kind": "enter",
+        "parent": 11,
+        "call": 11
+      },
+      {
+        "n": 25,
+        "kind": "lookup",
+        "parent": 11,
+        "name": "x",
+        "index": 0,
+        "value": "((a b) c)",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 26,
+        "kind": "return",
+        "parent": 11,
+        "call": 11,
+        "value": "((a b) c)"
+      },
+      {
+        "n": 27,
+        "kind": "arguments",
+        "parent": 10,
+        "fn": "car",
+        "values": [
+          "((a b) c)"
+        ]
+      },
+      {
+        "n": 28,
+        "kind": "enter",
+        "parent": 12,
+        "call": 12
+      },
+      {
+        "n": 29,
+        "kind": "return",
+        "parent": 12,
+        "call": 12,
+        "value": "(a b)"
+      },
+      {
+        "n": 30,
+        "kind": "return",
+        "parent": 10,
+        "call": 10,
+        "value": "(a b)"
+      },
+      {
+        "n": 31,
+        "kind": "arguments",
+        "parent": 9,
+        "fn": "first",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 32,
+        "kind": "enter",
+        "parent": 13,
+        "call": 13
+      },
+      {
+        "n": 33,
+        "kind": "lookup",
+        "parent": 13,
+        "name": "first",
+        "index": 1,
+        "value": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 34,
+        "kind": "enter",
+        "parent": 14,
+        "call": 14
+      },
+      {
+        "n": 35,
+        "kind": "bind",
+        "parent": 14,
+        "params": [
+          "x"
+        ],
+        "values": [
+          "(a b)"
+        ],
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 36,
+        "kind": "enter",
+        "parent": 15,
+        "call": 15
+      },
+      {
+        "n": 37,
+        "kind": "enter",
+        "parent": 16,
+        "call": 16
+      },
+      {
+        "n": 38,
+        "kind": "enter",
+        "parent": 17,
+        "call": 17
+      },
+      {
+        "n": 39,
+        "kind": "lookup",
+        "parent": 17,
+        "name": "x",
+        "index": 0,
+        "value": "(a b)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 40,
+        "kind": "return",
+        "parent": 17,
+        "call": 17,
+        "value": "(a b)"
+      },
+      {
+        "n": 41,
+        "kind": "arguments",
+        "parent": 16,
+        "fn": "atom",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 42,
+        "kind": "enter",
+        "parent": 18,
+        "call": 18
+      },
+      {
+        "n": 43,
+        "kind": "return",
+        "parent": 18,
+        "call": 18,
+        "value": "nil"
+      },
+      {
+        "n": 44,
+        "kind": "return",
+        "parent": 16,
+        "call": 16,
+        "value": "nil"
+      },
+      {
+        "n": 45,
+        "kind": "test",
+        "parent": 15,
+        "clause": 0,
+        "test": "(atom x)",
+        "value": "nil",
+        "selected": false
+      },
+      {
+        "n": 46,
+        "kind": "enter",
+        "parent": 19,
+        "call": 19
+      },
+      {
+        "n": 47,
+        "kind": "return",
+        "parent": 19,
+        "call": 19,
+        "value": "t"
+      },
+      {
+        "n": 48,
+        "kind": "test",
+        "parent": 15,
+        "clause": 1,
+        "test": "t",
+        "value": "t",
+        "selected": true
+      },
+      {
+        "n": 49,
+        "kind": "enter",
+        "parent": 20,
+        "call": 20
+      },
+      {
+        "n": 50,
+        "kind": "enter",
+        "parent": 21,
+        "call": 21
+      },
+      {
+        "n": 51,
+        "kind": "enter",
+        "parent": 22,
+        "call": 22
+      },
+      {
+        "n": 52,
+        "kind": "lookup",
+        "parent": 22,
+        "name": "x",
+        "index": 0,
+        "value": "(a b)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 53,
+        "kind": "return",
+        "parent": 22,
+        "call": 22,
+        "value": "(a b)"
+      },
+      {
+        "n": 54,
+        "kind": "arguments",
+        "parent": 21,
+        "fn": "car",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 55,
+        "kind": "enter",
+        "parent": 23,
+        "call": 23
+      },
+      {
+        "n": 56,
+        "kind": "return",
+        "parent": 23,
+        "call": 23,
+        "value": "a"
+      },
+      {
+        "n": 57,
+        "kind": "return",
+        "parent": 21,
+        "call": 21,
+        "value": "a"
+      },
+      {
+        "n": 58,
+        "kind": "arguments",
+        "parent": 20,
+        "fn": "first",
+        "values": [
+          "a"
+        ]
+      },
+      {
+        "n": 59,
+        "kind": "enter",
+        "parent": 24,
+        "call": 24
+      },
+      {
+        "n": 60,
+        "kind": "lookup",
+        "parent": 24,
+        "name": "first",
+        "index": 2,
+        "value": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 61,
+        "kind": "enter",
+        "parent": 25,
+        "call": 25
+      },
+      {
+        "n": 62,
+        "kind": "bind",
+        "parent": 25,
+        "params": [
+          "x"
+        ],
+        "values": [
+          "a"
+        ],
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 63,
+        "kind": "enter",
+        "parent": 26,
+        "call": 26
+      },
+      {
+        "n": 64,
+        "kind": "enter",
+        "parent": 27,
+        "call": 27
+      },
+      {
+        "n": 65,
+        "kind": "enter",
+        "parent": 28,
+        "call": 28
+      },
+      {
+        "n": 66,
+        "kind": "lookup",
+        "parent": 28,
+        "name": "x",
+        "index": 0,
+        "value": "a",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 67,
+        "kind": "return",
+        "parent": 28,
+        "call": 28,
+        "value": "a"
+      },
+      {
+        "n": 68,
+        "kind": "arguments",
+        "parent": 27,
+        "fn": "atom",
+        "values": [
+          "a"
+        ]
+      },
+      {
+        "n": 69,
+        "kind": "enter",
+        "parent": 29,
+        "call": 29
+      },
+      {
+        "n": 70,
+        "kind": "return",
+        "parent": 29,
+        "call": 29,
+        "value": "t"
+      },
+      {
+        "n": 71,
+        "kind": "return",
+        "parent": 27,
+        "call": 27,
+        "value": "t"
+      },
+      {
+        "n": 72,
+        "kind": "test",
+        "parent": 26,
+        "clause": 0,
+        "test": "(atom x)",
+        "value": "t",
+        "selected": true
+      },
+      {
+        "n": 73,
+        "kind": "enter",
+        "parent": 30,
+        "call": 30
+      },
+      {
+        "n": 74,
+        "kind": "lookup",
+        "parent": 30,
+        "name": "x",
+        "index": 0,
+        "value": "a",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ]
+      },
+      {
+        "n": 75,
+        "kind": "return",
+        "parent": 30,
+        "call": 30,
+        "value": "a"
+      },
+      {
+        "n": 76,
+        "kind": "return",
+        "parent": 26,
+        "call": 26,
+        "value": "a"
+      },
+      {
+        "n": 77,
+        "kind": "return",
+        "parent": 25,
+        "call": 25,
+        "value": "a"
+      },
+      {
+        "n": 78,
+        "kind": "return",
+        "parent": 24,
+        "call": 24,
+        "value": "a"
+      },
+      {
+        "n": 79,
+        "kind": "return",
+        "parent": 20,
+        "call": 20,
+        "value": "a"
+      },
+      {
+        "n": 80,
+        "kind": "return",
+        "parent": 15,
+        "call": 15,
+        "value": "a"
+      },
+      {
+        "n": 81,
+        "kind": "return",
+        "parent": 14,
+        "call": 14,
+        "value": "a"
+      },
+      {
+        "n": 82,
+        "kind": "return",
+        "parent": 13,
+        "call": 13,
+        "value": "a"
+      },
+      {
+        "n": 83,
+        "kind": "return",
+        "parent": 9,
+        "call": 9,
+        "value": "a"
+      },
+      {
+        "n": 84,
+        "kind": "return",
+        "parent": 4,
+        "call": 4,
+        "value": "a"
+      },
+      {
+        "n": 85,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "a"
+      },
+      {
+        "n": 86,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "a"
+      },
+      {
+        "n": 87,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "a"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "((label first (lambda (x) (cond ((atom x) x) (t (first (car x)))))) (quote ((a b) c)))",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote ((a b) c))",
+        "env": [],
+        "result": "((a b) c)"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "(label first (lambda (x) (cond ((atom x) x) (t (first (car x))))))",
+        "env": [],
+        "args": [
+          "((a b) c)"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 3,
+        "parent": 2,
+        "kind": "apply",
+        "expr": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+        "env": [
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "((a b) c)"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 4,
+        "parent": 3,
+        "kind": "eval",
+        "expr": "(cond ((atom x) x) (t (first (car x))))",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 5,
+        "parent": 4,
+        "kind": "eval",
+        "expr": "(atom x)",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "nil"
+      },
+      {
+        "id": 6,
+        "parent": 5,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "((a b) c)"
+      },
+      {
+        "id": 7,
+        "parent": 5,
+        "kind": "apply",
+        "expr": "atom",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "((a b) c)"
+        ],
+        "result": "nil"
+      },
+      {
+        "id": 8,
+        "parent": 4,
+        "kind": "eval",
+        "expr": "t",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "t"
+      },
+      {
+        "id": 9,
+        "parent": 4,
+        "kind": "eval",
+        "expr": "(first (car x))",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 10,
+        "parent": 9,
+        "kind": "eval",
+        "expr": "(car x)",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "(a b)"
+      },
+      {
+        "id": 11,
+        "parent": 10,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "((a b) c)"
+      },
+      {
+        "id": 12,
+        "parent": 10,
+        "kind": "apply",
+        "expr": "car",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "((a b) c)"
+        ],
+        "result": "(a b)"
+      },
+      {
+        "id": 13,
+        "parent": 9,
+        "kind": "apply",
+        "expr": "first",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "(a b)"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 14,
+        "parent": 13,
+        "kind": "apply",
+        "expr": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+        "env": [
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "(a b)"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 15,
+        "parent": 14,
+        "kind": "eval",
+        "expr": "(cond ((atom x) x) (t (first (car x))))",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 16,
+        "parent": 15,
+        "kind": "eval",
+        "expr": "(atom x)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "nil"
+      },
+      {
+        "id": 17,
+        "parent": 16,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "(a b)"
+      },
+      {
+        "id": 18,
+        "parent": 16,
+        "kind": "apply",
+        "expr": "atom",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "(a b)"
+        ],
+        "result": "nil"
+      },
+      {
+        "id": 19,
+        "parent": 15,
+        "kind": "eval",
+        "expr": "t",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "t"
+      },
+      {
+        "id": 20,
+        "parent": 15,
+        "kind": "eval",
+        "expr": "(first (car x))",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 21,
+        "parent": 20,
+        "kind": "eval",
+        "expr": "(car x)",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 22,
+        "parent": 21,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "(a b)"
+      },
+      {
+        "id": 23,
+        "parent": 21,
+        "kind": "apply",
+        "expr": "car",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "(a b)"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 24,
+        "parent": 20,
+        "kind": "apply",
+        "expr": "first",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "a"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 25,
+        "parent": 24,
+        "kind": "apply",
+        "expr": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+        "env": [
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "a"
+        ],
+        "result": "a"
+      },
+      {
+        "id": 26,
+        "parent": 25,
+        "kind": "eval",
+        "expr": "(cond ((atom x) x) (t (first (car x))))",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 27,
+        "parent": 26,
+        "kind": "eval",
+        "expr": "(atom x)",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "t"
+      },
+      {
+        "id": 28,
+        "parent": 27,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      },
+      {
+        "id": 29,
+        "parent": 27,
+        "kind": "apply",
+        "expr": "atom",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "args": [
+          "a"
+        ],
+        "result": "t"
+      },
+      {
+        "id": 30,
+        "parent": 26,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "a"
+          ],
+          [
+            "x",
+            "(a b)"
+          ],
+          [
+            "x",
+            "((a b) c)"
+          ],
+          [
+            "first",
+            "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+          ]
+        ],
+        "result": "a"
+      }
+    ]
+  },
+  "safe_cond": {
+    "source": "(cond (t 'ok) (t (car 'a)))",
+    "result": "ok",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "t"
+      },
+      {
+        "n": 3,
+        "kind": "test",
+        "parent": 0,
+        "clause": 0,
+        "test": "t",
+        "value": "t",
+        "selected": true
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "quote",
+        "parent": 2,
+        "value": "ok"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "ok"
+      },
+      {
+        "n": 7,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "ok"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(cond (t (quote ok)) (t (car (quote a))))",
+        "env": [],
+        "result": "ok"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "t",
+        "env": [],
+        "result": "t"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote ok)",
+        "env": [],
+        "result": "ok"
+      }
+    ]
+  },
+  "nil_atom": {
+    "source": "(atom nil)",
+    "result": "t",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "nil"
+      },
+      {
+        "n": 3,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "atom",
+        "values": [
+          "nil"
+        ]
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "t"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "t"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(atom nil)",
+        "env": [],
+        "result": "t"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "nil",
+        "env": [],
+        "result": "nil"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "atom",
+        "env": [],
+        "args": [
+          "nil"
+        ],
+        "result": "t"
+      }
+    ]
+  },
+  "empty_eq": {
+    "source": "(eq nil '())",
+    "result": "t",
+    "steps": 4,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "nil"
+      },
+      {
+        "n": 3,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 4,
+        "kind": "quote",
+        "parent": 2,
+        "value": "nil"
+      },
+      {
+        "n": 5,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "nil"
+      },
+      {
+        "n": 6,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "eq",
+        "values": [
+          "nil",
+          "nil"
+        ]
+      },
+      {
+        "n": 7,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 8,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "t"
+      },
+      {
+        "n": 9,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "t"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(eq nil (quote nil))",
+        "env": [],
+        "result": "t"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "nil",
+        "env": [],
+        "result": "nil"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote nil)",
+        "env": [],
+        "result": "nil"
+      },
+      {
+        "id": 3,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "eq",
+        "env": [],
+        "args": [
+          "nil",
+          "nil"
+        ],
+        "result": "t"
+      }
+    ]
+  },
+  "eq_same": {
+    "source": "(eq 'a 'a)",
+    "result": "t",
+    "steps": 4,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "a"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "a"
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "quote",
+        "parent": 2,
+        "value": "a"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "a"
+      },
+      {
+        "n": 7,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "eq",
+        "values": [
+          "a",
+          "a"
+        ]
+      },
+      {
+        "n": 8,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 9,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "t"
+      },
+      {
+        "n": 10,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "t"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(eq (quote a) (quote a))",
+        "env": [],
+        "result": "t"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote a)",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote a)",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 3,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "eq",
+        "env": [],
+        "args": [
+          "a",
+          "a"
+        ],
+        "result": "t"
+      }
+    ]
+  },
+  "eq_different": {
+    "source": "(eq 'a 'b)",
+    "result": "nil",
+    "steps": 4,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "a"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "a"
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "quote",
+        "parent": 2,
+        "value": "b"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "b"
+      },
+      {
+        "n": 7,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "eq",
+        "values": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "n": 8,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 9,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "nil"
+      },
+      {
+        "n": 10,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "nil"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(eq (quote a) (quote b))",
+        "env": [],
+        "result": "nil"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote a)",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote b)",
+        "env": [],
+        "result": "b"
+      },
+      {
+        "id": 3,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "eq",
+        "env": [],
+        "args": [
+          "a",
+          "b"
+        ],
+        "result": "nil"
+      }
+    ]
+  },
+  "car": {
+    "source": "(car '(a b))",
+    "result": "a",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 4,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "car",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "a"
+      },
+      {
+        "n": 7,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "a"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(car (quote (a b)))",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (a b))",
+        "env": [],
+        "result": "(a b)"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "car",
+        "env": [],
+        "args": [
+          "(a b)"
+        ],
+        "result": "a"
+      }
+    ]
+  },
+  "cdr": {
+    "source": "(cdr '(a b))",
+    "result": "(b)",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 4,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "cdr",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "(b)"
+      },
+      {
+        "n": 7,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "(b)"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(cdr (quote (a b)))",
+        "env": [],
+        "result": "(b)"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (a b))",
+        "env": [],
+        "result": "(a b)"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "cdr",
+        "env": [],
+        "args": [
+          "(a b)"
+        ],
+        "result": "(b)"
+      }
+    ]
+  },
+  "cons": {
+    "source": "(cons 'a '(b))",
+    "result": "(a b)",
+    "steps": 4,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "a"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "a"
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "quote",
+        "parent": 2,
+        "value": "(b)"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "(b)"
+      },
+      {
+        "n": 7,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "cons",
+        "values": [
+          "a",
+          "(b)"
+        ]
+      },
+      {
+        "n": 8,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 9,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "(a b)"
+      },
+      {
+        "n": 10,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "(a b)"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(cons (quote a) (quote (b)))",
+        "env": [],
+        "result": "(a b)"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote a)",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (b))",
+        "env": [],
+        "result": "(b)"
+      },
+      {
+        "id": 3,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "cons",
+        "env": [],
+        "args": [
+          "a",
+          "(b)"
+        ],
+        "result": "(a b)"
+      }
+    ]
+  },
+  "pair": {
+    "source": "(cons 'a 'b)",
+    "result": "(a . b)",
+    "steps": 4,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "a"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "a"
+      },
+      {
+        "n": 4,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 5,
+        "kind": "quote",
+        "parent": 2,
+        "value": "b"
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "b"
+      },
+      {
+        "n": 7,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "cons",
+        "values": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "n": 8,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 9,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "(a . b)"
+      },
+      {
+        "n": 10,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "(a . b)"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(cons (quote a) (quote b))",
+        "env": [],
+        "result": "(a . b)"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote a)",
+        "env": [],
+        "result": "a"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote b)",
+        "env": [],
+        "result": "b"
+      },
+      {
+        "id": 3,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "cons",
+        "env": [],
+        "args": [
+          "a",
+          "b"
+        ],
+        "result": "(a . b)"
+      }
+    ]
+  },
+  "list_atom": {
+    "source": "(atom '(a b))",
+    "result": "nil",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "(a b)"
+      },
+      {
+        "n": 4,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "atom",
+        "values": [
+          "(a b)"
+        ]
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "nil"
+      },
+      {
+        "n": 7,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "nil"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(atom (quote (a b)))",
+        "env": [],
+        "result": "nil"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote (a b))",
+        "env": [],
+        "result": "(a b)"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "atom",
+        "env": [],
+        "args": [
+          "(a b)"
+        ],
+        "result": "nil"
+      }
+    ]
+  },
+  "non_nil_truth": {
+    "source": "(cond ('anything 'yes))",
+    "result": "yes",
+    "steps": 3,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "anything"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "anything"
+      },
+      {
+        "n": 4,
+        "kind": "test",
+        "parent": 0,
+        "clause": 0,
+        "test": "(quote anything)",
+        "value": "anything",
+        "selected": true
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "quote",
+        "parent": 2,
+        "value": "yes"
+      },
+      {
+        "n": 7,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "yes"
+      },
+      {
+        "n": 8,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "yes"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "(cond ((quote anything) (quote yes)))",
+        "env": [],
+        "result": "yes"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote anything)",
+        "env": [],
+        "result": "anything"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote yes)",
+        "env": [],
+        "result": "yes"
+      }
+    ]
+  },
+  "dynamic": {
+    "source": "((lambda (x) (f)) 'inner)",
+    "result": "inner",
+    "steps": 7,
+    "events": [
+      {
+        "n": 0,
+        "kind": "enter",
+        "parent": 0,
+        "call": 0
+      },
+      {
+        "n": 1,
+        "kind": "enter",
+        "parent": 1,
+        "call": 1
+      },
+      {
+        "n": 2,
+        "kind": "quote",
+        "parent": 1,
+        "value": "inner"
+      },
+      {
+        "n": 3,
+        "kind": "return",
+        "parent": 1,
+        "call": 1,
+        "value": "inner"
+      },
+      {
+        "n": 4,
+        "kind": "arguments",
+        "parent": 0,
+        "fn": "(lambda (x) (f))",
+        "values": [
+          "inner"
+        ]
+      },
+      {
+        "n": 5,
+        "kind": "enter",
+        "parent": 2,
+        "call": 2
+      },
+      {
+        "n": 6,
+        "kind": "bind",
+        "parent": 2,
+        "params": [
+          "x"
+        ],
+        "values": [
+          "inner"
+        ],
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ]
+      },
+      {
+        "n": 7,
+        "kind": "enter",
+        "parent": 3,
+        "call": 3
+      },
+      {
+        "n": 8,
+        "kind": "arguments",
+        "parent": 3,
+        "fn": "f",
+        "values": []
+      },
+      {
+        "n": 9,
+        "kind": "enter",
+        "parent": 4,
+        "call": 4
+      },
+      {
+        "n": 10,
+        "kind": "lookup",
+        "parent": 4,
+        "name": "f",
+        "index": 1,
+        "value": "(lambda nil x)",
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ]
+      },
+      {
+        "n": 11,
+        "kind": "enter",
+        "parent": 5,
+        "call": 5
+      },
+      {
+        "n": 12,
+        "kind": "bind",
+        "parent": 5,
+        "params": [],
+        "values": [],
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ]
+      },
+      {
+        "n": 13,
+        "kind": "enter",
+        "parent": 6,
+        "call": 6
+      },
+      {
+        "n": 14,
+        "kind": "lookup",
+        "parent": 6,
+        "name": "x",
+        "index": 0,
+        "value": "inner",
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ]
+      },
+      {
+        "n": 15,
+        "kind": "return",
+        "parent": 6,
+        "call": 6,
+        "value": "inner"
+      },
+      {
+        "n": 16,
+        "kind": "return",
+        "parent": 5,
+        "call": 5,
+        "value": "inner"
+      },
+      {
+        "n": 17,
+        "kind": "return",
+        "parent": 4,
+        "call": 4,
+        "value": "inner"
+      },
+      {
+        "n": 18,
+        "kind": "return",
+        "parent": 3,
+        "call": 3,
+        "value": "inner"
+      },
+      {
+        "n": 19,
+        "kind": "return",
+        "parent": 2,
+        "call": 2,
+        "value": "inner"
+      },
+      {
+        "n": 20,
+        "kind": "return",
+        "parent": 0,
+        "call": 0,
+        "value": "inner"
+      }
+    ],
+    "calls": [
+      {
+        "id": 0,
+        "parent": null,
+        "kind": "eval",
+        "expr": "((lambda (x) (f)) (quote inner))",
+        "env": [
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "result": "inner"
+      },
+      {
+        "id": 1,
+        "parent": 0,
+        "kind": "eval",
+        "expr": "(quote inner)",
+        "env": [
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "result": "inner"
+      },
+      {
+        "id": 2,
+        "parent": 0,
+        "kind": "apply",
+        "expr": "(lambda (x) (f))",
+        "env": [
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "args": [
+          "inner"
+        ],
+        "result": "inner"
+      },
+      {
+        "id": 3,
+        "parent": 2,
+        "kind": "eval",
+        "expr": "(f)",
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "result": "inner"
+      },
+      {
+        "id": 4,
+        "parent": 3,
+        "kind": "apply",
+        "expr": "f",
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "args": [],
+        "result": "inner"
+      },
+      {
+        "id": 5,
+        "parent": 4,
+        "kind": "apply",
+        "expr": "(lambda nil x)",
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "args": [],
+        "result": "inner"
+      },
+      {
+        "id": 6,
+        "parent": 5,
+        "kind": "eval",
+        "expr": "x",
+        "env": [
+          [
+            "x",
+            "inner"
+          ],
+          [
+            "f",
+            "(lambda nil x)"
+          ],
+          [
+            "x",
+            "outer"
+          ]
+        ],
+        "result": "inner"
+      }
+    ]
+  },
+  "errors": [
+    {
+      "name": "eager_branch",
+      "source": "(cons 'ok (car 'a))",
+      "error": "car: pair required"
+    },
+    {
+      "name": "missing_quote",
+      "source": "(car (a b))",
+      "error": "unbound: b"
+    },
+    {
+      "name": "unbound",
+      "source": "missing",
+      "error": "unbound: missing"
+    },
+    {
+      "name": "car_nil",
+      "source": "(car nil)",
+      "error": "car: pair required"
+    },
+    {
+      "name": "deep_eq",
+      "source": "(eq '(a) '(a))",
+      "error": "eq: symbols only"
+    },
+    {
+      "name": "arity",
+      "source": "(car 'a 'b)",
+      "error": "arity: expected 1"
+    },
+    {
+      "name": "no_clause",
+      "source": "(cond (nil 'a))",
+      "error": "cond: no true clause"
+    },
+    {
+      "name": "loop",
+      "source": "((label loop (lambda (x) (loop x))) 'a)",
+      "error": "step limit"
+    },
+    {
+      "name": "escaped_lambda",
+      "source": "((lambda (f) (f)) ((lambda (x) '(lambda () x)) 'gone))",
+      "error": "unbound: x"
+    }
+  ],
+  "structure": {
+    "root": 0,
+    "nodes": [
+      {
+        "id": 0,
+        "type": "pair",
+        "car": 1,
+        "cdr": 2
+      },
+      {
+        "id": 1,
+        "type": "atom",
+        "value": "a"
+      },
+      {
+        "id": 2,
+        "type": "pair",
+        "car": 3,
+        "cdr": 4
+      },
+      {
+        "id": 3,
+        "type": "atom",
+        "value": "b"
+      },
+      {
+        "id": 4,
+        "type": "atom",
+        "value": "nil"
+      }
+    ]
+  },
+  "nested_structure": {
+    "root": 0,
+    "nodes": [
+      {
+        "id": 0,
+        "type": "pair",
+        "car": 1,
+        "cdr": 6
+      },
+      {
+        "id": 1,
+        "type": "pair",
+        "car": 2,
+        "cdr": 3
+      },
+      {
+        "id": 2,
+        "type": "atom",
+        "value": "a"
+      },
+      {
+        "id": 3,
+        "type": "pair",
+        "car": 4,
+        "cdr": 5
+      },
+      {
+        "id": 4,
+        "type": "atom",
+        "value": "b"
+      },
+      {
+        "id": 5,
+        "type": "atom",
+        "value": "nil"
+      },
+      {
+        "id": 6,
+        "type": "pair",
+        "car": 7,
+        "cdr": 8
+      },
+      {
+        "id": 7,
+        "type": "atom",
+        "value": "c"
+      },
+      {
+        "id": 8,
+        "type": "atom",
+        "value": "nil"
+      }
+    ]
+  },
+  "recursive_frames": [
+    {
+      "id": 3,
+      "parent": 2,
+      "kind": "apply",
+      "expr": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+      "env": [
+        [
+          "first",
+          "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+        ]
+      ],
+      "args": [
+        "((a b) c)"
+      ],
+      "result": "a"
+    },
+    {
+      "id": 14,
+      "parent": 13,
+      "kind": "apply",
+      "expr": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+      "env": [
+        [
+          "x",
+          "((a b) c)"
+        ],
+        [
+          "first",
+          "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+        ]
+      ],
+      "args": [
+        "(a b)"
+      ],
+      "result": "a"
+    },
+    {
+      "id": 25,
+      "parent": 24,
+      "kind": "apply",
+      "expr": "(lambda (x) (cond ((atom x) x) (t (first (car x)))))",
+      "env": [
+        [
+          "x",
+          "(a b)"
+        ],
+        [
+          "x",
+          "((a b) c)"
+        ],
+        [
+          "first",
+          "(lambda (x) (cond ((atom x) x) (t (first (car x)))))"
+        ]
+      ],
+      "args": [
+        "a"
+      ],
+      "result": "a"
+    }
+  ],
+  "tests": {
+    "success_cases": 16,
+    "error_cases": 9,
+    "parse_roundtrips": 5,
+    "evaluation_order": "left-to-right",
+    "step_limit_case": 100
+  }
+}

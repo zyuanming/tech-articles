@@ -25000,6 +25000,121 @@
     "sha256": "07fee9c43e4f5fbabedf12b736a2cfb463fa337a6e61a2e3c7754182e29d0454"
   },
   {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/00-cover.png",
+    "bytes": 60965,
+    "sha256": "156a596148edd389be9948d7966e319bcb2fd66d736ef75617e057c498e8428d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/01-pairs.png",
+    "bytes": 42184,
+    "sha256": "dffeca84d03382bd6fd572dd2008f7fec40178d209d60ab011370cae5f396385"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/02-quote.png",
+    "bytes": 79748,
+    "sha256": "3fe419597580fb1bbc3acbe32ffe5153e02d6e85b78ea6c04c6ba46294f961ec"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/03-operations.png",
+    "bytes": 58617,
+    "sha256": "3da4de1a0a894b36d68d16aac054a0c9ad751e42b8db5909d59fe17f7dd2d3fe"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/04-predicates.png",
+    "bytes": 56891,
+    "sha256": "9b18767014d31947521051346c32894aad93a691b3b0f0fa62d3428f7592bda9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/05-cond.png",
+    "bytes": 71685,
+    "sha256": "31cdf363a756174b386addbbde060122ae9c98692ba4007651622dc72ce3eaab"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/06-eval-apply.png",
+    "bytes": 90971,
+    "sha256": "2a0d96d7b40369fdce7dc67ff1a2ae00c42e08d77f7d5460ce1b40ffa740cc6c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/07-binding.png",
+    "bytes": 72567,
+    "sha256": "3a3dd13b4d90b5a1b5a646ac5cd0c052d5b1bb30d1f0be44c9cb38d09d7f533a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/08-call-frames.png",
+    "bytes": 68425,
+    "sha256": "d96a06488fa98870511c5b6a1291d66fe3878bc98a7761fdae548996227c3239"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/09-recursive-env.png",
+    "bytes": 104489,
+    "sha256": "78a74ece816631367bcf963527e651d7cb8ce29187b1e004191293697403cff6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/10-recursion-tree.png",
+    "bytes": 70328,
+    "sha256": "35d3eac352034912d4042a6084c5c3b4d2e7b02a1862ae56066871db7dd2cbf3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/11-dynamic.png",
+    "bytes": 62586,
+    "sha256": "9a0ee670a868787a6dec9e61ca727c8dc059d6e06a9512bc2b6cde991a2d6c21"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/12-errors.png",
+    "bytes": 104685,
+    "sha256": "1bd3acb79d1806d4f3ec91cfd011a8a17c1538f815f071d9d3d99373ce69ab0c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/13-live-evaluator.png",
+    "bytes": 102838,
+    "sha256": "9e2cd74d88bb9b72541987c0ccdcad68e4fd1caa1bffcdbaecdebed0ffb1bdad"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/assets/14-nested-pairs.png",
+    "bytes": 60878,
+    "sha256": "e58b24243240fed252ed2acb798cddfeb48e6d505eca3644576728fcca78d317"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/build_figures.py",
+    "bytes": 10161,
+    "sha256": "1a9d69d3d344fac8b84ef44eae6cf30ab84abfee6858109537e3e808f53bf182"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/evaluator.py",
+    "bytes": 7271,
+    "sha256": "908116c868d11608d9cd4b33d3e38f5b8eb167a707fef4512fa8e1ef58425e04"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/experiment.py",
+    "bytes": 3450,
+    "sha256": "b034d48ce8886df6d5a2bd7f32d80bb8e61c1045f72d97a55f32dd54624b1f96"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/figure-metadata.json",
+    "bytes": 7054,
+    "sha256": "2e144c7837a6e72f1737ef3694812db188b44bb7b4561cfa6a5a9263a9f9d968"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/figurekit.py",
+    "bytes": 2937,
+    "sha256": "c11b45804aafc5a7f6cab593663bad8b9810aab0df27af53bb50ea65e58bd21e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/index.html",
+    "bytes": 2676,
+    "sha256": "24291a7dddc3aa254416f2e52c98895b629c3b72a322c7743f3ad6b872e146aa"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/results.json",
+    "bytes": 64299,
+    "sha256": "b816e8555a048d629fffc07659c4819c41b83cb2140748d0db317513e78cc20b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/examples/server.py",
+    "bytes": 1543,
+    "sha256": "879f348478f9c64942fd9d7bae290a875bc72aa967e691362eb1ce75d1b93be1"
+  },
+  {
     "path": "articles/2026-10-25-r1-multiple-importance-sampling/assets/00-cover.png",
     "bytes": 116815,
     "sha256": "bc83b67c24f4c91542aa1d7f0864d1b9c3a6f20c046ca73c58e26123753e0566"
