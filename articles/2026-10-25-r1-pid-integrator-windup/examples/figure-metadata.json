@@ -1,0 +1,741 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1295,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "三策略的实际响应与可达范围",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          60.0
+        ],
+        "yrange": [
+          0.0,
+          1.6
+        ],
+        "labels": [
+          "灰：目标 r",
+          "无抗饱和",
+          "条件积分",
+          "回算 Tt=1s"
+        ],
+        "source": "results.json",
+        "samples": 601
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-loop.png",
+    "width": 1062,
+    "height": 1030,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "执行器/对象/反馈身份与两个不同控制量",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-saturation.png",
+    "width": 1062,
+    "height": 1105,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实限幅曲线与非线性区域",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          -1.0,
+          2.0
+        ],
+        "yrange": [
+          -0.1,
+          1.1
+        ],
+        "labels": [
+          "横轴 v；纵轴 u=clip(v,0,1)"
+        ],
+        "source": "results.json",
+        "samples": 61
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-pid-terms.png",
+    "width": 1062,
+    "height": 1155,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "PID三作用和PI实验范围",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-integral-steps.png",
+    "width": 1062,
+    "height": 1170,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "连续三拍累积误差的真实增量",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-plant.png",
+    "width": 1062,
+    "height": 1220,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "模型对象、时间常数与不可达目标",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          20.0
+        ],
+        "yrange": [
+          0.0,
+          1.6
+        ],
+        "labels": [
+          "蓝：从0开始，恒定满功率",
+          "绿：可达稳态上限 y=1",
+          "红：目标 r=1.5"
+        ],
+        "source": "results.json",
+        "samples": 201
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-order.png",
+    "width": 1062,
+    "height": 1320,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "控制计算与状态更新的明确次序",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-windup.png",
+    "width": 1062,
+    "height": 1210,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "控制命令与实际动作分离及积分积累",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          20.0
+        ],
+        "yrange": [
+          0.0,
+          9.0
+        ],
+        "labels": [
+          "红：未限幅请求 v",
+          "绿：实际功率 u",
+          "蓝：积分状态 I"
+        ],
+        "source": "results.json",
+        "samples": 201
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-drop-state.png",
+    "width": 1062,
+    "height": 1250,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同一降目标时刻的P/I/v/u数值分解",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-conditional.png",
+    "width": 1062,
+    "height": 1730,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "上下限四种积分方向的规则与反例",
+    "numeric_geometry": [
+      {
+        "kind": "conditional-direction",
+        "v": 1.2,
+        "integral_rate": 0.2,
+        "point_x": 850.0,
+        "scale": 500,
+        "arrow": "direction only; not increment magnitude"
+      },
+      {
+        "kind": "conditional-direction",
+        "v": 1.2,
+        "integral_rate": -0.2,
+        "point_x": 850.0,
+        "scale": 500,
+        "arrow": "direction only; not increment magnitude"
+      },
+      {
+        "kind": "conditional-direction",
+        "v": -0.2,
+        "integral_rate": -0.2,
+        "point_x": 150.0,
+        "scale": 500,
+        "arrow": "direction only; not increment magnitude"
+      },
+      {
+        "kind": "conditional-direction",
+        "v": -0.2,
+        "integral_rate": 0.2,
+        "point_x": 150.0,
+        "scale": 500,
+        "arrow": "direction only; not increment magnitude"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-conditional-state.png",
+    "width": 1062,
+    "height": 1155,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "冻结积分状态的实际曲线及恢复条件",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          60.0
+        ],
+        "yrange": [
+          -0.1,
+          8.0
+        ],
+        "labels": [
+          "绿：条件积分 I",
+          "红：普通积分 I"
+        ],
+        "source": "results.json",
+        "samples": 601
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-backcalc-loop.png",
+    "width": 1062,
+    "height": 1000,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "回算反馈路径、符号和时间常数",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-backcalc-step.png",
+    "width": 1062,
+    "height": 990,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "回算第一拍逐项代入及负积分的含义",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-controls.png",
+    "width": 1062,
+    "height": 1215,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "三方法实际执行量与饱和退出时间",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          60.0
+        ],
+        "yrange": [
+          -0.1,
+          1.1
+        ],
+        "labels": [
+          "无抗饱和",
+          "条件积分",
+          "回算 Tt=1s"
+        ],
+        "source": "results.json",
+        "samples": 601
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-integral-compare.png",
+    "width": 1062,
+    "height": 1215,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "内部积分状态、回算平衡与稳态非零I",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          60.0
+        ],
+        "yrange": [
+          -1.0,
+          8.0
+        ],
+        "labels": [
+          "无抗饱和",
+          "条件积分",
+          "回算 Tt=1s"
+        ],
+        "source": "results.json",
+        "samples": 601
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-recovery.png",
+    "width": 1062,
+    "height": 1150,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同一误差带与观察窗定义的恢复时间",
+    "numeric_geometry": [
+      {
+        "kind": "common-scale-bar",
+        "values": [
+          32.6,
+          16.5,
+          10.700000000000003
+        ],
+        "pixels_per_second": 21.16564417177914
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-time-constant.png",
+    "width": 1062,
+    "height": 1195,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同一模型不同回算时间的真实响应",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          60.0
+        ],
+        "yrange": [
+          0.0,
+          1.6
+        ],
+        "labels": [
+          "Tt=0.2s",
+          "Tt=1s",
+          "Tt=5s",
+          "灰：目标"
+        ],
+        "source": "results.json",
+        "samples": 601
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-discrete-limit.png",
+    "width": 1062,
+    "height": 1355,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "明确隔离的Euler回算稳定性反例",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          8.0
+        ],
+        "yrange": [
+          -18.0,
+          28.0
+        ],
+        "labels": [
+          "Tt=0.2s；因子 0.5",
+          "Tt=0.1s；因子 0",
+          "Tt=0.04s；因子 -1.5"
+        ],
+        "source": "results.json",
+        "samples": 9
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/18-pid-check.png",
+    "width": 1062,
+    "height": 1205,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "带滤波D的独立补充仿真，明确PI范围",
+    "numeric_geometry": [
+      {
+        "kind": "shared-numeric-axis",
+        "xrange": [
+          0.0,
+          60.0
+        ],
+        "yrange": [
+          0.0,
+          1.1
+        ],
+        "labels": [
+          "无抗饱和",
+          "条件积分",
+          "回算 Tt=1s"
+        ],
+        "source": "results.json",
+        "samples": 601
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/19-derivative.png",
+    "width": 1062,
+    "height": 1020,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "微分突跳的具体数值与测量微分区别",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/20-tracking-point.png",
+    "width": 1062,
+    "height": 900,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "前馈情况下的跟踪点与符号反例",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/21-transfer.png",
+    "width": 1062,
+    "height": 920,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "非零积分的实际作用与手动自动状态衔接",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/23-thermal-balance.png",
+    "width": 1062,
+    "height": 930,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "热收支解释一阶归一化模型，不冒充真实结构",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/24-integral-area.png",
+    "width": 1062,
+    "height": 1050,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "误差乘时间的矩形面积与积分状态的对应",
+    "numeric_geometry": [
+      {
+        "kind": "sampled-error-area",
+        "heights": [
+          1.5,
+          1.4801986733067554,
+          1.460789439152323
+        ],
+        "width_seconds": 0.1,
+        "pixels_per_error": 250.0
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/22-viewer.png",
+    "width": 1062,
+    "height": 1980,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "自制教学应用默认Chromium实际截图，不是原厂界面或设备实测",
+    "purpose": "模型实际运行及20秒状态/恢复指标",
+    "checks": [
+      "real-browser",
+      "all18input-combinations",
+      "no-overflow",
+      "dynamic-label-bounds",
+      "actual-dimensions"
+    ]
+  }
+]

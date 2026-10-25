@@ -24630,6 +24630,166 @@
     "sha256": "a9b2588c3d29c73ba2cd599255e5e6367db076ee579dffc34bb61d625f1dce02"
   },
   {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/00-cover.png",
+    "bytes": 95588,
+    "sha256": "71af70469af5d7eedfa227bf9e35164c9941dd13532d29db06ed92783bb780ae"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/01-loop.png",
+    "bytes": 78502,
+    "sha256": "e8157a8f64a1ea390abbebe21a041007d07f6201250694bedb2f5c52c7ad7b42"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/02-saturation.png",
+    "bytes": 70785,
+    "sha256": "b0f10c85634b36abeacbd5be1c7af52406cb1ba66341914854e19eee892df82f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/03-pid-terms.png",
+    "bytes": 98721,
+    "sha256": "8ad58da7070240b685f9a2ce474267552051c61153244dfea29ac5409b8a33ec"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/04-integral-steps.png",
+    "bytes": 117760,
+    "sha256": "e1d7aaf6dd77bbfe190958e34bd6428f39302ad1fdfd8cb8b90d5b7846c70f80"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/05-plant.png",
+    "bytes": 118813,
+    "sha256": "cf8f4ac1178a5e53faf79f6a8d4f6ebb54d0d027040cb892e171eb5930252a9d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/06-order.png",
+    "bytes": 105040,
+    "sha256": "f3685e3e8e46c19e64bfd1707a7c53b15c4dd54ecb3f734594c35e8d369828d8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/07-windup.png",
+    "bytes": 108114,
+    "sha256": "fcb99b2d2d0e8abea46c3df9ea8e78e2d654428d234dbdeb251d8362a0a4a585"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/08-drop-state.png",
+    "bytes": 101071,
+    "sha256": "12074774813689b2c775d4e432c68af78e9993b51f86c5a961c63455d9d7ed36"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/09-conditional.png",
+    "bytes": 135834,
+    "sha256": "a497689d4fb256bc33e58e2d8a85575ba447a9d8b2a8ff78ec1b683f8d37f9ed"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/10-conditional-state.png",
+    "bytes": 118872,
+    "sha256": "213d0bb547f99c9ff49e2168b8713f275a4c37e4129f09fabe593076e3352b70"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/11-backcalc-loop.png",
+    "bytes": 88370,
+    "sha256": "8d19dc85e34626aec0d6fbdc0a07b31aa8ee0be0f393f7e91686d961ad2dced7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/12-backcalc-step.png",
+    "bytes": 104851,
+    "sha256": "e5ea71400226cffccd4b9ecd9cb33206d4d02e8aa14d55b159d535b34bdc2688"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/13-controls.png",
+    "bytes": 105488,
+    "sha256": "818625cf5a7e2f03c9018eb9d2d0c2aa5fcf6b33c229adb18a64c0fb0ad61eba"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/14-integral-compare.png",
+    "bytes": 111339,
+    "sha256": "2cf9cae274692c8c30457fa1d5495fefa07f9126b12c56cd4c5003f65cf2f827"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/15-recovery.png",
+    "bytes": 101074,
+    "sha256": "171e60015e8e6a851a1c91eb3d9fd82cdaaac39a7ad8bbbcfadfd52ec1629864"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/16-time-constant.png",
+    "bytes": 96641,
+    "sha256": "f8ece7751dc615ff145916c8a63d187032352abfc92d3215fe7076b31f0ec150"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/17-discrete-limit.png",
+    "bytes": 140878,
+    "sha256": "162acd3a0b6ce72df78a908cfe285282f0557c5ab19dbf42a96906cee35012e0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/18-pid-check.png",
+    "bytes": 120177,
+    "sha256": "27ebffbe3ad24387f2c7de2ceda5779c3e426640c38af9d7842aaa2e43dc46ab"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/19-derivative.png",
+    "bytes": 131763,
+    "sha256": "991b831a21167ed80d503c6d86074271a62943546b6f2d39b1d4d56deaab8521"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/20-tracking-point.png",
+    "bytes": 121633,
+    "sha256": "9c407b019e61f75e2d53e25d07141e6333ac4e2dcd90c0a52fecc13e434aba33"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/21-transfer.png",
+    "bytes": 116688,
+    "sha256": "a99778b02cfaef06effeadeeb7043ac748c4b11afc9d5f2ac2a7cf853033f5f3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/22-viewer.png",
+    "bytes": 180294,
+    "sha256": "da4a000aa67e7a1db966438334ef6fe837347367ce73eeac8f196b502af1f79a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/23-thermal-balance.png",
+    "bytes": 103919,
+    "sha256": "dcb9523811d1ffac786d02b6ab88fe0516259421709b3c4d06054ae9e628f98f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/assets/24-integral-area.png",
+    "bytes": 98010,
+    "sha256": "a26d97c48a2cea75f1e4ed8ad31ee1eb7d7f49034eec585151bbaf2ab182deef"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/build_figures.py",
+    "bytes": 21286,
+    "sha256": "1b55952d42b95e16e07e416a0e9670a066b30071cd23e6914b92a3937e862085"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/capture_ui.py",
+    "bytes": 2784,
+    "sha256": "b90dd660c5d7ab46617ee0bb771c616224736c755006d0155a469e0386d7e8b6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/figure-metadata.json",
+    "bytes": 17764,
+    "sha256": "736eec7d60631c5cf2f424e14ca6969b089e08adcbcce8ba0af980569ab2bb95"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/model.py",
+    "bytes": 5127,
+    "sha256": "03319c354a6f298120875c80141d85e9d3ee127f6b6c661e0d7ab5748352c9f7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/reproduction.json",
+    "bytes": 77,
+    "sha256": "407534f039c128f3c10a34deed7a768c3c45e56ad5b41fe98a054170e754abfd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/results.json",
+    "bytes": 1646780,
+    "sha256": "4f1d2b73bcf205eac80092ce08c98e5f80c8def36c67ca5f6d51c84d92ee921d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/examples/ui.py",
+    "bytes": 4351,
+    "sha256": "633d0c3ec55159e461057b3d3fd6501a48f50688b480d9100674f2d24c592a26"
+  },
+  {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/00-cover.png",
     "bytes": 81363,
     "sha256": "d0e6593ce9af6f062a1816100373b3f0e15d2367037bf1dcae3e4b0010a87143"

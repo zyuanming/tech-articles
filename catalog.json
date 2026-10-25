@@ -2863,6 +2863,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-pid-integrator-windup",
+    "title": "PID 积分饱和：加热已经到顶，为什么降了目标还不肯停？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-pid-integrator-windup/read.md",
+    "public_sha256": "aa961b5f7825248b9b445b55a532c3b04d8f4589485101c2855c7be4827a95ae",
+    "images": 25,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-quickselect-kth-selection",
     "title": "只想知道第六小，为什么要把所有数排好？Quickselect 的分区选择",
     "date": "2026-10-25",
