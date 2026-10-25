@@ -23810,6 +23810,131 @@
     "sha256": "bb2fa97dbedeec31721c2669371358ad217f499ced77ba66d0e746bb9d4e3ec0"
   },
   {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/00-cover.png",
+    "bytes": 72356,
+    "sha256": "d8f69b623d1e570768ac431ce578c90fab7e288281364a97b444c2d0a45b43c7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/01-channel.png",
+    "bytes": 140998,
+    "sha256": "4336e0e41377acf36f55a1178dc0992dd9476f0d29dbd1c19eced1a953566052"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/02-bad-first.png",
+    "bytes": 75641,
+    "sha256": "34f3b65d7642b6ff2e576546f57098824a95143c5c00c39818e059e4afb8ee59"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/03-bad-relays.png",
+    "bytes": 71118,
+    "sha256": "c52e44dda9af9a34b0165e142d09c136ac4d53e598df55b630b8ec845e9c8a8f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/04-bad-vectors.png",
+    "bytes": 101000,
+    "sha256": "ddc31b6a0f8e0f8eb9906555f72b9598ac47a0a4e62790aa76c8ccc04e410175"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/05-majority.png",
+    "bytes": 88414,
+    "sha256": "ee96350c99ef789259b72734d264fa2976e6e7f95302284e95915cf0e3a23558"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/06-good-commander.png",
+    "bytes": 92582,
+    "sha256": "f1304420724f896705db65f3bbc5ec92456dfe8de6379bb488c972bca6e199df"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/07-good-vectors.png",
+    "bytes": 110154,
+    "sha256": "9f936121deb0ed604fa5361e19f0c3313cb7b93c72792907ea3e27f3223cfb1f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/08-missing.png",
+    "bytes": 118623,
+    "sha256": "cdd0d0b1a967a1d8ff173bc44cdf580b6f3b459744523b587c0eed0990ed716e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/09-recursion-tree.png",
+    "bytes": 141620,
+    "sha256": "8f2b3241846ff16162d6dab7485c2b134ae4982680fd378691e8dc4e8d246f69"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/10-honest-subtree.png",
+    "bytes": 123635,
+    "sha256": "d8cfdb8f7a1dbdcb636dd34a048674ce7a8a66a2e160ddea355dcebe0708d705"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/11-faulty-subtree.png",
+    "bytes": 119015,
+    "sha256": "d4a8c33d56219bd5d332acd49190261bf65de31ea18b771e705bb5631d8508a0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/12-top-reduction.png",
+    "bytes": 93227,
+    "sha256": "b47c3e219207795e9e728f2622527658361b76df0560dbc90deb12623cea0c9e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/13-growth.png",
+    "bytes": 99397,
+    "sha256": "0c83fd8818178d264beab41f34219dda6cd2d1b9c524887ec5060e1810a10875"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/14-three-worlds.png",
+    "bytes": 137883,
+    "sha256": "88db4760e8e0e18301967c236f184294bf6183f320541789a3eae2dfb8b61003"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/15-guarantees.png",
+    "bytes": 131973,
+    "sha256": "d0f99424d81847e954002f1e72f7b333545bfac7ff3d74d3c55b439577eddbc2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/assets/16-live-report.png",
+    "bytes": 219856,
+    "sha256": "d39944f552fa4f84f918f6a1d53acfa1cd194e342a0fb15f4217ba318df76dba"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/build_figures.py",
+    "bytes": 13250,
+    "sha256": "bc17c9421b41e6822fb8404def9d68784aee0fb6e01ae528d3a9e86702c99e1c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/capture_report.py",
+    "bytes": 2654,
+    "sha256": "efa8dc6db4fa491ba2b61b7045cfa7eab8eb3b51320fa7d66698420df6caaac3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/figure-metadata.json",
+    "bytes": 24390,
+    "sha256": "6d62f0fc4b97612c16cd6e6ac737073148414ceefbf0673e061566fd2d4acd51"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/figure_canvas.py",
+    "bytes": 4344,
+    "sha256": "e7be7ce6a00a392a5027e1fbccde8f74ee65db57831c5191f11f681f6d5c915e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/om.py",
+    "bytes": 2465,
+    "sha256": "52b9ff4e5a4a53a0c8a2cc69533896aab8bd6c76e91f4ef9756eecd94c8d64e1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/report.html",
+    "bytes": 2675,
+    "sha256": "0d8459ee4fef88b1c6013b9839c1dc3b45d45863ff8424f5e5cfa4165ab4adc3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/results.json",
+    "bytes": 84864,
+    "sha256": "c0d4fb7008ff947a089c00d2db2215e6ab75c1112e1819d73d8050551230c01d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/examples/run_examples.py",
+    "bytes": 4241,
+    "sha256": "86692f924cc51d7621d81adccefb4262108caa82f14a02ab74951a1b068f0348"
+  },
+  {
     "path": "articles/2026-10-25-r1-catmull-rom-interpolation/assets/00-cover.png",
     "bytes": 79793,
     "sha256": "19ecc949d3b1dba8fda3b8e4c989d83e3e4c3a73d277615ca916a10809421f8a"

@@ -2797,6 +2797,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-byzantine-oral-messages",
+    "title": "有人对两边说不同的话，大家还能一致吗？拜占庭口信算法逐轮算给你看",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-byzantine-oral-messages/read.md",
+    "public_sha256": "5716e0d33942e90607ab2bb588cbfbebe1f80c815a739a5dcf57e3be4607c91b",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-catmull-rom-interpolation",
     "title": "Catmull–Rom 插值：给出必经点，怎样自动连成平滑曲线？",
     "date": "2026-10-25",

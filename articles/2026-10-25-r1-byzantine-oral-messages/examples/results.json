@@ -1,0 +1,5108 @@
+{
+  "python": "3.12.14",
+  "model": "synchronous oral messages; no digital signatures",
+  "default": "退",
+  "bad_c": {
+    "nodes": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "m": 1,
+    "faulty": [
+      "C"
+    ],
+    "command": "进",
+    "result": {
+      "A": "退",
+      "B": "退",
+      "D": "退"
+    },
+    "loyal": {
+      "A": "退",
+      "B": "退",
+      "D": "退"
+    },
+    "events": [
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "A",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "B",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "D",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      }
+    ],
+    "reductions": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      }
+    ],
+    "slots": 9,
+    "sent": 9,
+    "rounds": 2,
+    "agreement": true,
+    "validity": null,
+    "top": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      }
+    ],
+    "round_counts": {
+      "1": 3,
+      "2": 6
+    }
+  },
+  "good_c": {
+    "nodes": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "m": 1,
+    "faulty": [
+      "D"
+    ],
+    "command": "进",
+    "result": {
+      "A": "进",
+      "B": "进",
+      "D": "进"
+    },
+    "loyal": {
+      "A": "进",
+      "B": "进"
+    },
+    "events": [
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "A",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "B",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "D",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      }
+    ],
+    "reductions": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退"
+        ],
+        "value": "进",
+        "counts": {
+          "进": 2,
+          "退": 1
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进",
+        "counts": {
+          "进": 3,
+          "退": 0
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进",
+        "counts": {
+          "进": 3,
+          "退": 0
+        }
+      }
+    ],
+    "slots": 9,
+    "sent": 9,
+    "rounds": 2,
+    "agreement": true,
+    "validity": true,
+    "top": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退"
+        ],
+        "value": "进",
+        "counts": {
+          "进": 2,
+          "退": 1
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进",
+        "counts": {
+          "进": 3,
+          "退": 0
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进",
+        "counts": {
+          "进": 3,
+          "退": 0
+        }
+      }
+    ],
+    "round_counts": {
+      "1": 3,
+      "2": 6
+    }
+  },
+  "missing": {
+    "nodes": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "m": 1,
+    "faulty": [
+      "C"
+    ],
+    "command": "进",
+    "result": {
+      "A": "退",
+      "B": "退",
+      "D": "退"
+    },
+    "loyal": {
+      "A": "退",
+      "B": "退",
+      "D": "退"
+    },
+    "events": [
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "A",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "B",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "D",
+        "round": 1,
+        "raw": null,
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      }
+    ],
+    "reductions": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      }
+    ],
+    "slots": 9,
+    "sent": 8,
+    "rounds": 2,
+    "agreement": true,
+    "validity": null,
+    "top": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      }
+    ],
+    "round_counts": {
+      "1": 3,
+      "2": 6
+    }
+  },
+  "higher": {
+    "nodes": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "m": 2,
+    "faulty": [
+      "B",
+      "C"
+    ],
+    "command": "进",
+    "result": {
+      "A": "退",
+      "B": "退",
+      "D": "退",
+      "E": "退",
+      "F": "退",
+      "G": "退"
+    },
+    "loyal": {
+      "A": "退",
+      "D": "退",
+      "E": "退",
+      "F": "退",
+      "G": "退"
+    },
+    "events": [
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "A",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "B",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "D",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "E",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "F",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "G",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "E",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "F",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "G",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "E",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "F",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "G",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "E",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "F",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "G",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "sender": "E",
+        "target": "A",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "sender": "E",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "sender": "E",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "sender": "E",
+        "target": "F",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "sender": "E",
+        "target": "G",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "sender": "F",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "sender": "F",
+        "target": "B",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "sender": "F",
+        "target": "D",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "sender": "F",
+        "target": "E",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "sender": "F",
+        "target": "G",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "sender": "G",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "sender": "G",
+        "target": "B",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "sender": "G",
+        "target": "D",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "sender": "G",
+        "target": "E",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "sender": "G",
+        "target": "F",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "B"
+        ],
+        "sender": "B",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "B"
+        ],
+        "sender": "B",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "B"
+        ],
+        "sender": "B",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "D"
+        ],
+        "sender": "D",
+        "target": "E",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "D"
+        ],
+        "sender": "D",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "D"
+        ],
+        "sender": "D",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "E"
+        ],
+        "sender": "E",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "E"
+        ],
+        "sender": "E",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "E"
+        ],
+        "sender": "E",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "E"
+        ],
+        "sender": "E",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "F"
+        ],
+        "sender": "F",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "F"
+        ],
+        "sender": "F",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "F"
+        ],
+        "sender": "F",
+        "target": "E",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "F"
+        ],
+        "sender": "F",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "G"
+        ],
+        "sender": "G",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "G"
+        ],
+        "sender": "G",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "G"
+        ],
+        "sender": "G",
+        "target": "E",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A",
+          "G"
+        ],
+        "sender": "G",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "A"
+        ],
+        "sender": "A",
+        "target": "E",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "A"
+        ],
+        "sender": "A",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "A"
+        ],
+        "sender": "A",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "D"
+        ],
+        "sender": "D",
+        "target": "E",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "D"
+        ],
+        "sender": "D",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "D"
+        ],
+        "sender": "D",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "E"
+        ],
+        "sender": "E",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "E"
+        ],
+        "sender": "E",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "E"
+        ],
+        "sender": "E",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "E"
+        ],
+        "sender": "E",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "F"
+        ],
+        "sender": "F",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "F"
+        ],
+        "sender": "F",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "F"
+        ],
+        "sender": "F",
+        "target": "E",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "F"
+        ],
+        "sender": "F",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "G"
+        ],
+        "sender": "G",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "G"
+        ],
+        "sender": "G",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "G"
+        ],
+        "sender": "G",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "B",
+          "G"
+        ],
+        "sender": "G",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "A"
+        ],
+        "sender": "A",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "A"
+        ],
+        "sender": "A",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "A"
+        ],
+        "sender": "A",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "B"
+        ],
+        "sender": "B",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "B"
+        ],
+        "sender": "B",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "B"
+        ],
+        "sender": "B",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "E"
+        ],
+        "sender": "E",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "E"
+        ],
+        "sender": "E",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "E"
+        ],
+        "sender": "E",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "E"
+        ],
+        "sender": "E",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "F"
+        ],
+        "sender": "F",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "F"
+        ],
+        "sender": "F",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "F"
+        ],
+        "sender": "F",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "F"
+        ],
+        "sender": "F",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "G"
+        ],
+        "sender": "G",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "G"
+        ],
+        "sender": "G",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "G"
+        ],
+        "sender": "G",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D",
+          "G"
+        ],
+        "sender": "G",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "A"
+        ],
+        "sender": "A",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "A"
+        ],
+        "sender": "A",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "B"
+        ],
+        "sender": "B",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "B"
+        ],
+        "sender": "B",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "D"
+        ],
+        "sender": "D",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "D"
+        ],
+        "sender": "D",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "F"
+        ],
+        "sender": "F",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "F"
+        ],
+        "sender": "F",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "F"
+        ],
+        "sender": "F",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "F"
+        ],
+        "sender": "F",
+        "target": "G",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "G"
+        ],
+        "sender": "G",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "G"
+        ],
+        "sender": "G",
+        "target": "B",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "G"
+        ],
+        "sender": "G",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E",
+          "G"
+        ],
+        "sender": "G",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "A"
+        ],
+        "sender": "A",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "A"
+        ],
+        "sender": "A",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "B"
+        ],
+        "sender": "B",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "B"
+        ],
+        "sender": "B",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "D"
+        ],
+        "sender": "D",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "D"
+        ],
+        "sender": "D",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "E"
+        ],
+        "sender": "E",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "E"
+        ],
+        "sender": "E",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "E"
+        ],
+        "sender": "E",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "E"
+        ],
+        "sender": "E",
+        "target": "G",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "G"
+        ],
+        "sender": "G",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "G"
+        ],
+        "sender": "G",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "G"
+        ],
+        "sender": "G",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F",
+          "G"
+        ],
+        "sender": "G",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "A"
+        ],
+        "sender": "A",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "A"
+        ],
+        "sender": "A",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "B"
+        ],
+        "sender": "B",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "B"
+        ],
+        "sender": "B",
+        "target": "F",
+        "round": 3,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "D"
+        ],
+        "sender": "D",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "D"
+        ],
+        "sender": "D",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "E"
+        ],
+        "sender": "E",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "E"
+        ],
+        "sender": "E",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "E"
+        ],
+        "sender": "E",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "E"
+        ],
+        "sender": "E",
+        "target": "F",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "F"
+        ],
+        "sender": "F",
+        "target": "A",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "F"
+        ],
+        "sender": "F",
+        "target": "B",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "F"
+        ],
+        "sender": "F",
+        "target": "D",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G",
+          "F"
+        ],
+        "sender": "F",
+        "target": "E",
+        "round": 3,
+        "raw": "退",
+        "value": "退"
+      }
+    ],
+    "reductions": [
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "target": "E",
+        "depth": 1,
+        "columns": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "target": "F",
+        "depth": 1,
+        "columns": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "target": "G",
+        "depth": 1,
+        "columns": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "target": "E",
+        "depth": 1,
+        "columns": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "target": "F",
+        "depth": 1,
+        "columns": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "target": "G",
+        "depth": 1,
+        "columns": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "target": "E",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "target": "F",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "target": "G",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "target": "F",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "E"
+        ],
+        "target": "G",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "退",
+          "进",
+          "进",
+          "进"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "target": "E",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "F"
+        ],
+        "target": "G",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "target": "E",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "vector": [
+          "退",
+          "退",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "G"
+        ],
+        "target": "F",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "vector": [
+          "退",
+          "进",
+          "退",
+          "退",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "E",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "F",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "G",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      }
+    ],
+    "slots": 156,
+    "sent": 156,
+    "rounds": 3,
+    "agreement": true,
+    "validity": null,
+    "top": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "E",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "F",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "G",
+        "depth": 2,
+        "columns": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退",
+          "进",
+          "退",
+          "退"
+        ],
+        "value": "退",
+        "counts": {
+          "进": 3,
+          "退": 3
+        }
+      }
+    ],
+    "round_counts": {
+      "1": 6,
+      "2": 30,
+      "3": 120
+    }
+  },
+  "growth": [
+    {
+      "n": 2,
+      "m": 0,
+      "rounds": 1,
+      "by_round": [
+        1
+      ],
+      "slots": 1
+    },
+    {
+      "n": 4,
+      "m": 1,
+      "rounds": 2,
+      "by_round": [
+        3,
+        6
+      ],
+      "slots": 9
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "rounds": 3,
+      "by_round": [
+        6,
+        30,
+        120
+      ],
+      "slots": 156
+    },
+    {
+      "n": 10,
+      "m": 3,
+      "rounds": 4,
+      "by_round": [
+        9,
+        72,
+        504,
+        3024
+      ],
+      "slots": 3609
+    }
+  ],
+  "tests": {
+    "n4_ternary_cases": 83,
+    "n7_seeded_cases": 100,
+    "seeded_runs": [
+      {
+        "seed": 20261025,
+        "faulty": [
+          "D",
+          "G"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261026,
+        "faulty": [
+          "C",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261027,
+        "faulty": [
+          "A",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261028,
+        "faulty": [
+          "E",
+          "G"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261029,
+        "faulty": [
+          "E",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261030,
+        "faulty": [
+          "E",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261031,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261032,
+        "faulty": [
+          "F",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261033,
+        "faulty": [
+          "F",
+          "E"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261034,
+        "faulty": [
+          "C",
+          "E"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261035,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261036,
+        "faulty": [
+          "A",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261037,
+        "faulty": [
+          "D",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261038,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261039,
+        "faulty": [
+          "E",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261040,
+        "faulty": [
+          "G",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261041,
+        "faulty": [
+          "G",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261042,
+        "faulty": [
+          "E",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261043,
+        "faulty": [
+          "E",
+          "B"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261044,
+        "faulty": [
+          "F",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261045,
+        "faulty": [
+          "F",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261046,
+        "faulty": [
+          "C",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261047,
+        "faulty": [
+          "F",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261048,
+        "faulty": [
+          "A",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261049,
+        "faulty": [
+          "A",
+          "D"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261050,
+        "faulty": [
+          "C",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261051,
+        "faulty": [
+          "F",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261052,
+        "faulty": [
+          "F",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261053,
+        "faulty": [
+          "D",
+          "B"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261054,
+        "faulty": [
+          "B",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261055,
+        "faulty": [
+          "E",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261056,
+        "faulty": [
+          "B",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261057,
+        "faulty": [
+          "G",
+          "B"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261058,
+        "faulty": [
+          "C",
+          "F"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261059,
+        "faulty": [
+          "B",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261060,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261061,
+        "faulty": [
+          "C",
+          "F"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261062,
+        "faulty": [
+          "B",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261063,
+        "faulty": [
+          "E",
+          "B"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261064,
+        "faulty": [
+          "C",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261065,
+        "faulty": [
+          "D",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261066,
+        "faulty": [
+          "A",
+          "B"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261067,
+        "faulty": [
+          "A",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261068,
+        "faulty": [
+          "G",
+          "B"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261069,
+        "faulty": [
+          "G",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261070,
+        "faulty": [
+          "A",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261071,
+        "faulty": [
+          "D",
+          "F"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261072,
+        "faulty": [
+          "G",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261073,
+        "faulty": [
+          "C",
+          "B"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261074,
+        "faulty": [
+          "A",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261075,
+        "faulty": [
+          "A",
+          "B"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261076,
+        "faulty": [
+          "B",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261077,
+        "faulty": [
+          "C",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261078,
+        "faulty": [
+          "D",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261079,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261080,
+        "faulty": [
+          "E",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261081,
+        "faulty": [
+          "D",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261082,
+        "faulty": [
+          "C",
+          "D"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261083,
+        "faulty": [
+          "B",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261084,
+        "faulty": [
+          "G",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261085,
+        "faulty": [
+          "F",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261086,
+        "faulty": [
+          "B",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261087,
+        "faulty": [
+          "F",
+          "B"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261088,
+        "faulty": [
+          "E",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261089,
+        "faulty": [
+          "G",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261090,
+        "faulty": [
+          "B",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261091,
+        "faulty": [
+          "B",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261092,
+        "faulty": [
+          "C",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261093,
+        "faulty": [
+          "E",
+          "D"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261094,
+        "faulty": [
+          "E",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261095,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261096,
+        "faulty": [
+          "A",
+          "B"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261097,
+        "faulty": [
+          "E",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261098,
+        "faulty": [
+          "B",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261099,
+        "faulty": [
+          "E",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261100,
+        "faulty": [
+          "B",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261101,
+        "faulty": [
+          "F",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261102,
+        "faulty": [
+          "E",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261103,
+        "faulty": [
+          "C",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261104,
+        "faulty": [
+          "F",
+          "G"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261105,
+        "faulty": [
+          "A",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261106,
+        "faulty": [
+          "F",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261107,
+        "faulty": [
+          "E",
+          "F"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261108,
+        "faulty": [
+          "B",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261109,
+        "faulty": [
+          "A",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261110,
+        "faulty": [
+          "B",
+          "F"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261111,
+        "faulty": [
+          "D",
+          "B"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261112,
+        "faulty": [
+          "A",
+          "E"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261113,
+        "faulty": [
+          "A",
+          "C"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261114,
+        "faulty": [
+          "C",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261115,
+        "faulty": [
+          "B",
+          "C"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": null
+      },
+      {
+        "seed": 20261116,
+        "faulty": [
+          "A",
+          "G"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261117,
+        "faulty": [
+          "G",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261118,
+        "faulty": [
+          "F",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261119,
+        "faulty": [
+          "G",
+          "D"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261120,
+        "faulty": [
+          "D",
+          "E"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261121,
+        "faulty": [
+          "E",
+          "A"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261122,
+        "faulty": [
+          "E",
+          "G"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261123,
+        "faulty": [
+          "G",
+          "E"
+        ],
+        "command": "退",
+        "agreement": true,
+        "validity": true
+      },
+      {
+        "seed": 20261124,
+        "faulty": [
+          "G",
+          "A"
+        ],
+        "command": "进",
+        "agreement": true,
+        "validity": true
+      }
+    ]
+  },
+  "under": {
+    "nodes": [
+      "C",
+      "A",
+      "B"
+    ],
+    "m": 1,
+    "faulty": [
+      "B"
+    ],
+    "command": "进",
+    "result": {
+      "A": "退",
+      "B": "进"
+    },
+    "loyal": {
+      "A": "退"
+    },
+    "events": [
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "A",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "B",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      }
+    ],
+    "reductions": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B"
+        ],
+        "vector": [
+          "进",
+          "退"
+        ],
+        "value": "退"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B"
+        ],
+        "vector": [
+          "进",
+          "进"
+        ],
+        "value": "进"
+      }
+    ],
+    "slots": 4,
+    "sent": 4,
+    "rounds": 2,
+    "agreement": true,
+    "validity": false
+  },
+  "worlds": [
+    {
+      "name": "世界一：C忠诚，B恶意",
+      "bad": "B",
+      "direct": {
+        "A": "进",
+        "B": "进"
+      },
+      "relay": {
+        "A": "退",
+        "B": "进"
+      },
+      "view": {
+        "A": [
+          "进",
+          "退"
+        ],
+        "B": [
+          "进",
+          "进"
+        ]
+      }
+    },
+    {
+      "name": "世界二：C恶意",
+      "bad": "C",
+      "direct": {
+        "A": "进",
+        "B": "退"
+      },
+      "relay": {
+        "A": "退",
+        "B": "进"
+      },
+      "view": {
+        "A": [
+          "进",
+          "退"
+        ],
+        "B": [
+          "退",
+          "进"
+        ]
+      }
+    },
+    {
+      "name": "世界三：C忠诚，A恶意",
+      "bad": "A",
+      "direct": {
+        "A": "退",
+        "B": "退"
+      },
+      "relay": {
+        "A": "退",
+        "B": "进"
+      },
+      "view": {
+        "A": [
+          "退",
+          "退"
+        ],
+        "B": [
+          "退",
+          "进"
+        ]
+      }
+    }
+  ],
+  "exercise": {
+    "nodes": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "m": 1,
+    "faulty": [
+      "C"
+    ],
+    "command": "进",
+    "result": {
+      "A": "进",
+      "B": "进",
+      "D": "进"
+    },
+    "loyal": {
+      "A": "进",
+      "B": "进",
+      "D": "进"
+    },
+    "events": [
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "A",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "B",
+        "round": 1,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "sender": "C",
+        "target": "D",
+        "round": 1,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "B",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "A"
+        ],
+        "sender": "A",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "A",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "B"
+        ],
+        "sender": "B",
+        "target": "D",
+        "round": 2,
+        "raw": "进",
+        "value": "进"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "A",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      },
+      {
+        "path": [
+          "C",
+          "D"
+        ],
+        "sender": "D",
+        "target": "B",
+        "round": 2,
+        "raw": "退",
+        "value": "退"
+      }
+    ],
+    "reductions": [
+      {
+        "path": [
+          "C"
+        ],
+        "target": "A",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "B",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      },
+      {
+        "path": [
+          "C"
+        ],
+        "target": "D",
+        "depth": 1,
+        "columns": [
+          "A",
+          "B",
+          "D"
+        ],
+        "vector": [
+          "进",
+          "进",
+          "退"
+        ],
+        "value": "进"
+      }
+    ],
+    "slots": 9,
+    "sent": 9,
+    "rounds": 2,
+    "agreement": true,
+    "validity": null
+  }
+}

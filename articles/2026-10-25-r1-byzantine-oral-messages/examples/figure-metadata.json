@@ -1,0 +1,1104 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1204,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "一次坏指挥官广播造成分裂，口信算法让忠诚接收者统一结果",
+    "numeric_geometry": [
+      {
+        "kind": "message-fan",
+        "events": [
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "A",
+            "round": 1,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "B",
+            "round": 1,
+            "raw": "退",
+            "value": "退"
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "D",
+            "round": 1,
+            "raw": "退",
+            "value": "退"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-channel.png",
+    "width": 1062,
+    "height": 1231,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "把直接发送者识别与不可验证转述放在同一具体路径区分",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-bad-first.png",
+    "width": 1062,
+    "height": 1088,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "坏C的全部首轮定向发送与三个不同直收值",
+    "numeric_geometry": [
+      {
+        "kind": "message-fan",
+        "events": [
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "A",
+            "round": 1,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "B",
+            "round": 1,
+            "raw": "退",
+            "value": "退"
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "D",
+            "round": 1,
+            "raw": "退",
+            "value": "退"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-bad-relays.png",
+    "width": 1062,
+    "height": 1294,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "列全六条有方向的二轮消息，避免把双向转述简成一条线",
+    "numeric_geometry": [
+      {
+        "kind": "all-second-round-events",
+        "source": "bad_c.events",
+        "events": [
+          {
+            "path": [
+              "C",
+              "A"
+            ],
+            "sender": "A",
+            "target": "B",
+            "round": 2,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A"
+            ],
+            "sender": "A",
+            "target": "D",
+            "round": 2,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "sender": "B",
+            "target": "A",
+            "round": 2,
+            "raw": "退",
+            "value": "退"
+          },
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "sender": "B",
+            "target": "D",
+            "round": 2,
+            "raw": "退",
+            "value": "退"
+          },
+          {
+            "path": [
+              "C",
+              "D"
+            ],
+            "sender": "D",
+            "target": "A",
+            "round": 2,
+            "raw": "退",
+            "value": "退"
+          },
+          {
+            "path": [
+              "C",
+              "D"
+            ],
+            "sender": "D",
+            "target": "B",
+            "round": 2,
+            "raw": "退",
+            "value": "退"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-bad-vectors.png",
+    "width": 1062,
+    "height": 1163,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "三个接收者的完整有序向量及自身直收项定位",
+    "numeric_geometry": [
+      {
+        "kind": "ordered-vectors",
+        "rows": [
+          {
+            "path": [
+              "C"
+            ],
+            "target": "A",
+            "depth": 1,
+            "columns": [
+              "A",
+              "B",
+              "D"
+            ],
+            "vector": [
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 1,
+              "退": 2
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "B",
+            "depth": 1,
+            "columns": [
+              "A",
+              "B",
+              "D"
+            ],
+            "vector": [
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 1,
+              "退": 2
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "D",
+            "depth": 1,
+            "columns": [
+              "A",
+              "B",
+              "D"
+            ],
+            "vector": [
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 1,
+              "退": 2
+            }
+          }
+        ],
+        "own_cell": "green background"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-majority.png",
+    "width": 1062,
+    "height": 1112,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "实际向量的计数几何及统一默认值的必要位置",
+    "numeric_geometry": [
+      {
+        "kind": "count-dots",
+        "counts": {
+          "进": 1,
+          "退": 2
+        }
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-good-commander.png",
+    "width": 1062,
+    "height": 1514,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "好指挥官首轮一致值与坏副官对不同目标的矛盾转述",
+    "numeric_geometry": [
+      {
+        "kind": "message-fan",
+        "events": [
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "A",
+            "round": 1,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "B",
+            "round": 1,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "sender": "C",
+            "target": "D",
+            "round": 1,
+            "raw": "进",
+            "value": "进"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-good-vectors.png",
+    "width": 1062,
+    "height": 1087,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "好C坏D时向量不必完全相同但多数仍保留原命令",
+    "numeric_geometry": [
+      {
+        "kind": "ordered-vectors",
+        "rows": [
+          {
+            "path": [
+              "C"
+            ],
+            "target": "A",
+            "depth": 1,
+            "columns": [
+              "A",
+              "B",
+              "D"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退"
+            ],
+            "value": "进",
+            "counts": {
+              "进": 2,
+              "退": 1
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "B",
+            "depth": 1,
+            "columns": [
+              "A",
+              "B",
+              "D"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "进"
+            ],
+            "value": "进",
+            "counts": {
+              "进": 3,
+              "退": 0
+            }
+          }
+        ],
+        "own_cell": "green background"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-missing.png",
+    "width": 1062,
+    "height": 1248,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "把未到、确认缺报与默认退却区分并展示计数口径",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-recursion-tree.png",
+    "width": 1062,
+    "height": 1839,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "实际OM2局部递归树、第三轮叶子与不重访节点边界",
+    "numeric_geometry": [
+      {
+        "kind": "selected-recursion-tree",
+        "children": [
+          "B",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "leaves": [
+          {
+            "path": [
+              "C",
+              "A",
+              "D"
+            ],
+            "sender": "D",
+            "target": "B",
+            "round": 3,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A",
+              "D"
+            ],
+            "sender": "D",
+            "target": "E",
+            "round": 3,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A",
+              "D"
+            ],
+            "sender": "D",
+            "target": "F",
+            "round": 3,
+            "raw": "进",
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A",
+              "D"
+            ],
+            "sender": "D",
+            "target": "G",
+            "round": 3,
+            "raw": "进",
+            "value": "进"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-honest-subtree.png",
+    "width": 1062,
+    "height": 1317,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "从忠诚子指挥官A的五项向量逐行归约到顶层一列",
+    "numeric_geometry": [
+      {
+        "kind": "subproblem-reductions",
+        "path": [
+          "C",
+          "A"
+        ],
+        "rows": [
+          {
+            "path": [
+              "C",
+              "A"
+            ],
+            "target": "D",
+            "depth": 1,
+            "columns": [
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "进",
+              "进",
+              "进"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A"
+            ],
+            "target": "E",
+            "depth": 1,
+            "columns": [
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "退",
+              "进",
+              "进",
+              "进",
+              "进"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A"
+            ],
+            "target": "F",
+            "depth": 1,
+            "columns": [
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "进",
+              "进",
+              "进"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "A"
+            ],
+            "target": "G",
+            "depth": 1,
+            "columns": [
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "退",
+              "进",
+              "进",
+              "进",
+              "进"
+            ],
+            "value": "进"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-faulty-subtree.png",
+    "width": 1062,
+    "height": 1358,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "坏B子问题靠其余忠诚者交换实现一致的归约结果",
+    "numeric_geometry": [
+      {
+        "kind": "subproblem-reductions",
+        "path": [
+          "C",
+          "B"
+        ],
+        "rows": [
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "target": "A",
+            "depth": 1,
+            "columns": [
+              "A",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "target": "D",
+            "depth": 1,
+            "columns": [
+              "A",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "target": "E",
+            "depth": 1,
+            "columns": [
+              "A",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "target": "F",
+            "depth": 1,
+            "columns": [
+              "A",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退"
+            ],
+            "value": "进"
+          },
+          {
+            "path": [
+              "C",
+              "B"
+            ],
+            "target": "G",
+            "depth": 1,
+            "columns": [
+              "A",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退"
+            ],
+            "value": "进"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-top-reduction.png",
+    "width": 1062,
+    "height": 1318,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "五位忠诚者的顶层全向量及实际平票默认输出",
+    "numeric_geometry": [
+      {
+        "kind": "top-level-matrix",
+        "source": "higher.top",
+        "rows": [
+          {
+            "path": [
+              "C"
+            ],
+            "target": "A",
+            "depth": 2,
+            "columns": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 3,
+              "退": 3
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "D",
+            "depth": 2,
+            "columns": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 3,
+              "退": 3
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "E",
+            "depth": 2,
+            "columns": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 3,
+              "退": 3
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "F",
+            "depth": 2,
+            "columns": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 3,
+              "退": 3
+            }
+          },
+          {
+            "path": [
+              "C"
+            ],
+            "target": "G",
+            "depth": 2,
+            "columns": [
+              "A",
+              "B",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "vector": [
+              "进",
+              "进",
+              "退",
+              "进",
+              "退",
+              "退"
+            ],
+            "value": "退",
+            "counts": {
+              "进": 3,
+              "退": 3
+            }
+          }
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-growth.png",
+    "width": 1062,
+    "height": 1538,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "用实际计数共轴展示固定参数递归展开的增长，避免各行独立缩放",
+    "numeric_geometry": [
+      {
+        "kind": "shared-axis-bars",
+        "source": "growth.slots",
+        "scale": 0.1884178442781934,
+        "lengths": [
+          0.1884178442781934,
+          1.6957605985037407,
+          29.393183707398173,
+          680.0
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-three-worlds.png",
+    "width": 1062,
+    "height": 2148,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "三个世界并置，显露两个忠诚者各自无法区分的局部观察",
+    "numeric_geometry": [
+      {
+        "kind": "indistinguishable-world-projections",
+        "source": "worlds"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-guarantees.png",
+    "width": 1062,
+    "height": 1083,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创口信算法图或同步模型示意；执行数值来自 results.json",
+    "purpose": "把一般正确性论证的两种分支和各自理由明确分开",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-live-report.png",
+    "width": 1062,
+    "height": 2068,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "默认Chromium实际执行报告截图，原创教学程序，非真实网络实测",
+    "purpose": "实际主例输出、消息计数、有限测试与越界失败证据",
+    "checks": [
+      "browser-widths-1062-354",
+      "text-bounds",
+      "font-size",
+      "actual-output",
+      "image-dimensions"
+    ],
+    "numeric_geometry": "DOM结果直接读取results.json"
+  }
+]

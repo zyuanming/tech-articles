@@ -17,3 +17,4 @@
 13. [Sturm 实根计数：曲线没变号，为什么区间里仍然有根？](../articles/2026-10-25-r1-sturm-real-root-count/read.md)
 14. [中国剩余定理：只留下几次除法的余数，怎样把原数合回来？](../articles/2026-10-25-r1-chinese-remainder-reconstruction/read.md)
 15. [Chebyshev 等波纹：为什么误差一上一下，反而能保证最坏情况最好？](../articles/2026-10-25-r1-chebyshev-equiripple/read.md)
+16. [有人对两边说不同的话，大家还能一致吗？拜占庭口信算法逐轮算给你看](../articles/2026-10-25-r1-byzantine-oral-messages/read.md)
