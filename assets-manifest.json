@@ -23960,6 +23960,116 @@
     "sha256": "b8e5eb85c43f9264c481bd55d1f465bf8ad8bad74fc53547d681ab62aa7cb902"
   },
   {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/01-task.png",
+    "bytes": 61492,
+    "sha256": "57bb543979d7feb1df8abb0a5a90892b21859da41f3e10b78dde33f3168be56b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/02-unbalanced.png",
+    "bytes": 57951,
+    "sha256": "a0f6c29cd1b16d950e36d413b68d274f606676b4f77500293bb49041cb0fdca5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/03-balanced.png",
+    "bytes": 48000,
+    "sha256": "fc3773503941d7b1ca8edd1b5cfcaba7d2134387a89c5bee1ddbd983eca04f82"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/04-objectives.png",
+    "bytes": 67514,
+    "sha256": "d14e04d93ec92743d7fee711200b4e7952dc169ce423d7de51eb06da9cbf11b6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/05-projection.png",
+    "bytes": 73534,
+    "sha256": "95997b73543ce1df06643d17278cef971c4c11668961802b6895b97b36e2d7e5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/06-recurrence.png",
+    "bytes": 69981,
+    "sha256": "b45b8f101c5319c31b3559e8c314d455d45feacc1af3118af96e0d340e16247f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/07-decomposition.png",
+    "bytes": 78068,
+    "sha256": "f7ba930fc3583e53baf7d41e492776f75e08248186e6c7ac984fb771e328b0cc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/08-proof.png",
+    "bytes": 75003,
+    "sha256": "21a8b70a035176a8c72fbd5fa0ea92b7a201df1799be456f06795710ce3a5c9c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/09-exchange.png",
+    "bytes": 70768,
+    "sha256": "f6591d0761a2da7e91403ef5eac802bc40fbba64a25f3cc4bb790e25cfe7a7e9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/10-exchange.png",
+    "bytes": 68271,
+    "sha256": "850ffab62d270abb42401ec6f66f2626258cbf8f77fb041c2eace422b88ab791"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/11-grid-trap.png",
+    "bytes": 66763,
+    "sha256": "fd30adc98331a34e39492ddb33b4b2d6f742ab6494d8a9996b5ce383801ad7b4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/12-outside.png",
+    "bytes": 61331,
+    "sha256": "61adc5ddd4176aacbc61e0bfde3992fc8f2e3c67be2d08e7e30f5f4ba1c899cf"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/13-truncation.png",
+    "bytes": 72948,
+    "sha256": "cc20fc8aed686ef12eb58613ef4ef64f5e07f1df6ff4d64c829c0ed26d33c384"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/14-live-report.png",
+    "bytes": 192927,
+    "sha256": "c71f08c43f17c3b73e10dea522210771e2f58be7ea8e6f7762f45e9a2e916b5b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/assets/cover.png",
+    "bytes": 60630,
+    "sha256": "266b7b77f699e03abdb76a3a16047aec88e669eb7bc7ae0c35a04251eafacf54"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/build_figures.py",
+    "bytes": 9377,
+    "sha256": "2f8525c67d3c75cc4af48f4f821c883067a82ee178a89d5eb4400612d4106dcc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/capture_report.py",
+    "bytes": 2841,
+    "sha256": "c32024d5bcfe676bbba9af2e31aab2117c0acad8b92bc0d49216fe5de949bb17"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/figure-metadata.json",
+    "bytes": 13170,
+    "sha256": "b72fd78c744708f3796b6193ace63a60d3dd56841648678ce7d33302d0f67104"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/figure_canvas.py",
+    "bytes": 4347,
+    "sha256": "b1fb6eba961fdd914d616005f6a6f1515cd8ff9770d7c5d1918378cfba9c4c08"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/report.html",
+    "bytes": 2244,
+    "sha256": "0d6cd9d4b428832531e82b1f7228b600776e520e03846e8f954786c1a09d9f8b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/results.json",
+    "bytes": 304867,
+    "sha256": "10a2d1aab496a8ef3e5932b3dfc2036a7117444f02da16b7c75509b090fadcb6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/examples/run_examples.py",
+    "bytes": 5356,
+    "sha256": "c790bbffd491a888ddbdefa115a9142c5f3af8b1ba9ccd6c2362b97bd5f088fe"
+  },
+  {
     "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/00-cover.png",
     "bytes": 76463,
     "sha256": "3d376b5e6f92cb7a6d8537dcc3177f33b570f3784474b83aa1e41b036d0ca5fe"

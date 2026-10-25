@@ -1,0 +1,599 @@
+[
+  {
+    "file": "assets/cover.png",
+    "width": 1062,
+    "height": 915,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "独立封面：有界误差带与交错峰",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.15,
+          0.15
+        ],
+        "mapping": [
+          200,
+          962,
+          220,
+          600
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-task.png",
+    "width": 1062,
+    "height": 991,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "在同一横坐标解释函数值与有符号竖直误差",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.05,
+          1.05
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      },
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.05,
+          1.05
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-unbalanced.png",
+    "width": 1062,
+    "height": 930,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "单侧误差的真实形状和待均衡的上下界",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.3,
+          0.05
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-balanced.png",
+    "width": 1062,
+    "height": 931,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "实际误差曲线的五个等幅交错峰",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.15,
+          0.15
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-objectives.png",
+    "width": 1062,
+    "height": 931,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "同一目标/区间/次数预算下两种误差准则的实跑差异",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.16,
+          0.25
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      },
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.16,
+          0.25
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-projection.png",
+    "width": 1062,
+    "height": 1098,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "半圆角度到横坐标的实际投影，解释峰间距不等",
+    "numeric_geometry": [
+      {
+        "radius": 350,
+        "points_from": "results.json cosine.x/theta/T4",
+        "note": "angle and projection geometry use computed values"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-recurrence.png",
+    "width": 1062,
+    "height": 1280,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "同一点从T0、T1到T4的可逐项执行递推",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-decomposition.png",
+    "width": 1062,
+    "height": 1679,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "分离目标/候选/残差，显示T4最高次项抵消后的表示转换",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.2,
+          1
+        ],
+        "mapping": [
+          200,
+          962,
+          230,
+          520
+        ]
+      },
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.2,
+          1
+        ],
+        "mapping": [
+          200,
+          962,
+          680,
+          970
+        ]
+      },
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.2,
+          1
+        ],
+        "mapping": [
+          200,
+          962,
+          1130,
+          1420
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-proof.png",
+    "width": 1062,
+    "height": 890,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "正负修正需求逼出四个互异根；中点只表示根存在的间隔",
+    "numeric_geometry": [
+      {
+        "nodes": "main.nodes",
+        "signs": "main.peaks",
+        "zero_positions": "interval midpoints schematic, not actual root locations"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-exchange.png",
+    "width": 1062,
+    "height": 933,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "实跑交换第1轮：参考幅度与全驻点最大值对照",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.18,
+          0.15
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-exchange.png",
+    "width": 1062,
+    "height": 933,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "实跑交换第2轮：参考幅度与全驻点最大值对照",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.18,
+          0.15
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-grid-trap.png",
+    "width": 1062,
+    "height": 932,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "原候选的五点网格漏掉±1/√2的真正极值",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -0.3,
+          0.05
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-outside.png",
+    "width": 1062,
+    "height": 932,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "同一多项式在扩大横轴后的实际误差，否定外推保证",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1.5,
+          1.5
+        ],
+        "ylim": [
+          -0.2,
+          3
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-truncation.png",
+    "width": 1062,
+    "height": 1006,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创多项式计算图或教学示意；执行数值来自 results.json",
+    "purpose": "新函数常数逼近的精确反例，区分Chebyshev截断与真正minimax",
+    "numeric_geometry": [
+      {
+        "x_values": "results.json curve grid",
+        "y_values": "results.json curve",
+        "xlim": [
+          -1,
+          1
+        ],
+        "ylim": [
+          -1.3,
+          2.1
+        ],
+        "mapping": [
+          200,
+          962,
+          200,
+          650
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-live-report.png",
+    "width": 1062,
+    "height": 1858,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "实际默认Chromium本地只读教学报告截图",
+    "purpose": "显示真实执行交换迭代、精确复核与版本",
+    "numeric_geometry": "表格数值直接读取results.json，无数量编码图元",
+    "checks": [
+      "browser-1062-and-354",
+      "font-size",
+      "text-bounds",
+      "actual-readings",
+      "document-overflow",
+      "actual-dimensions",
+      "ink"
+    ],
+    "manual_checks_required": [
+      "glyphs",
+      "contrast",
+      "overlap"
+    ]
+  }
+]

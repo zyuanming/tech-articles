@@ -2808,6 +2808,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-chebyshev-equiripple",
+    "title": "Chebyshev 等波纹：为什么误差一上一下，反而能保证最坏情况最好？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-chebyshev-equiripple/read.md",
+    "public_sha256": "b1108c922de856b34aec87a8eef5fe781e68aa72572169011f3ac0f15c75491a",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-chinese-remainder-reconstruction",
     "title": "中国剩余定理：只留下几次除法的余数，怎样把原数合回来？",
     "date": "2026-10-25",
