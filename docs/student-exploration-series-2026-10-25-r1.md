@@ -24,3 +24,4 @@
 20. [epoll 已经说“可读”，为什么程序还会等住？从六个字节看懂就绪与排空](../articles/2026-10-25-r1-epoll-readiness-draining/read.md)
 21. [一张表怎样成为程序？沿着 McCarthy 的 Lisp 求值器走完一次递归](../articles/2026-10-25-r1-mccarthy-lisp-evaluator/read.md)
 22. [Ritchie 的 C 声明：为什么一对括号，能把“一排指针”变成“指向一排”？](../articles/2026-10-25-r1-ritchie-c-declarations/read.md)
+23. [发送已经开始，为什么还没完成？从 Hoare CSP 看两个进程怎样会合](../articles/2026-10-25-r1-hoare-csp-rendezvous/read.md)

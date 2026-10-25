@@ -24925,6 +24925,86 @@
     "sha256": "c2e52fab41d2798e4f4b18b5a6d9670c696ea24e3b58027d92ec49fe8674b5a4"
   },
   {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/00-cover.png",
+    "bytes": 66662,
+    "sha256": "a42b0b17050d8b2e1c5a371c2a8fdffded33576c2b39e71aea1674ba64c3240b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/01-program.png",
+    "bytes": 83784,
+    "sha256": "72a40820fd7714d2021f2a4012760f48bea8b5f4b95f26ef65dcf56251183692"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/02-arrival.png",
+    "bytes": 89275,
+    "sha256": "9a8c0ae6e564d90e8c9c7b54cb77794b3fb76b4c1572e104aece03997126fc67"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/03-trace.png",
+    "bytes": 111126,
+    "sha256": "1485a35e959ad76b56602584f7ce444edaa642bb7a08846d4be7669851f1bb75"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/04-order.png",
+    "bytes": 93423,
+    "sha256": "c792056c9c4fc664c5fc743d02b4fc84f9540c83ec850ed51efbdb843c60c020"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/05-deadlock.png",
+    "bytes": 101464,
+    "sha256": "5acf220b98f56ed85b740fe621c656fe111a37b3d7bcb8dc285c5740f30ca787"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/06-buffer.png",
+    "bytes": 92007,
+    "sha256": "d72c028b8f70c5c94ac82a73ee39d6a7ccfabd4106431577cc55bd209cba6a68"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/07-burst.png",
+    "bytes": 76776,
+    "sha256": "13addc7b4b3bf0122b6ac5a7d0974fa429cb11f6fcfedbfd18fa35b31c14ed31"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/08-live-pipeline.png",
+    "bytes": 191225,
+    "sha256": "8fbb037bfd7f11ab0f097faf1e8ff9ebf0492b32ae17d618010c45ef806bff54"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/09-live-deadlock.png",
+    "bytes": 180410,
+    "sha256": "11becdc4b8ca6e747f6284a5e7a3d461c658ddcc6f7964b0eff3512f629e88d6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/10-matching.png",
+    "bytes": 74825,
+    "sha256": "f2d31bd7b4bef6e98814db64d389802a026cdd735f4c384334f54d12eea8e2da"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/examples/build_figures.py",
+    "bytes": 13113,
+    "sha256": "02d351ce1cbec1b1a1f0eb9639b1d40c8903b129dea166142d5344b55d266b2c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/examples/experiment.py",
+    "bytes": 7292,
+    "sha256": "16ac10059a9ead00e7e5ffbb2e392296219c52e75bb42cc4f357bf26665d860a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/examples/figure-metadata.json",
+    "bytes": 43602,
+    "sha256": "3dda9d254d9af8b03d6a5a7f3b4959061bc76989a30e2270fa61d38348c8e726"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/examples/results.json",
+    "bytes": 25261,
+    "sha256": "3f6ccebf4575526c5811d105b28a68b4b2e9d1d4b9d72236f2026b01afc152f1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/examples/viewer.html",
+    "bytes": 4747,
+    "sha256": "6ab000ab29a367033fa0828d0897f17ed2ac83120b190c134e9297edf35c228d"
+  },
+  {
     "path": "articles/2026-10-25-r1-karger-random-contraction/assets/00-cover.png",
     "bytes": 80918,
     "sha256": "02d2fa4886efd0b6df3e1fb488aef986b97f4ef26a2da6069d92a8417ce55b3a"

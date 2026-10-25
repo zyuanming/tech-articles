@@ -1,0 +1,2200 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 901,
+    "minimum_font_px": 44,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "独立封面：把会合表示为两边共同跨过的门槛",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "发送已经开始，为什么还没完成？",
+        "bbox": [
+          48,
+          40,
+          828,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 12106,
+        "box": null
+      },
+      {
+        "text": "P 准备发送",
+        "bbox": [
+          70,
+          180,
+          313,
+          228
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4322,
+        "box": null
+      },
+      {
+        "text": "M 准备接收",
+        "bbox": [
+          650,
+          180,
+          902,
+          228
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4728,
+        "box": null
+      },
+      {
+        "text": "值 2",
+        "bbox": [
+          420,
+          385,
+          527,
+          442
+        ],
+        "font_px": 60,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 1987,
+        "box": [
+          370,
+          345,
+          690,
+          485
+        ]
+      },
+      {
+        "text": "一次会合：传值，同时推进双方",
+        "bbox": [
+          65,
+          715,
+          765,
+          764
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10093,
+        "box": null
+      },
+      {
+        "text": "Hoare CSP 的同步通信",
+        "bbox": [
+          65,
+          810,
+          509,
+          853
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6290,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/01-program.png",
+    "width": 1062,
+    "height": 1168,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "列出贯穿例的每条本地指令与数据流",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "把任务拆成三个顺序进程",
+        "bbox": [
+          48,
+          40,
+          620,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10277,
+        "box": null
+      },
+      {
+        "text": "P",
+        "bbox": [
+          72,
+          200,
+          107,
+          241
+        ],
+        "font_px": 56,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 525,
+        "box": [
+          48,
+          175,
+          358,
+          860
+        ]
+      },
+      {
+        "text": "M!2",
+        "bbox": [
+          68,
+          310,
+          136,
+          341
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 815,
+        "box": [
+          48,
+          175,
+          358,
+          860
+        ]
+      },
+      {
+        "text": "M!5",
+        "bbox": [
+          68,
+          392,
+          136,
+          423
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 833,
+        "box": [
+          48,
+          175,
+          358,
+          860
+        ]
+      },
+      {
+        "text": "M",
+        "bbox": [
+          398,
+          200,
+          443,
+          241
+        ],
+        "font_px": 56,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 811,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "P?x",
+        "bbox": [
+          394,
+          310,
+          458,
+          341
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 651,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "x := x + 10",
+        "bbox": [
+          394,
+          392,
+          570,
+          423
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1249,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "C!x",
+        "bbox": [
+          394,
+          474,
+          452,
+          505
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 602,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "P?x",
+        "bbox": [
+          394,
+          556,
+          458,
+          587
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 651,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "x := x + 10",
+        "bbox": [
+          394,
+          638,
+          570,
+          669
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1249,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "C!x",
+        "bbox": [
+          394,
+          720,
+          452,
+          751
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 602,
+        "box": [
+          374,
+          175,
+          684,
+          860
+        ]
+      },
+      {
+        "text": "C",
+        "bbox": [
+          724,
+          200,
+          760,
+          243
+        ],
+        "font_px": 56,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 470,
+        "box": [
+          700,
+          175,
+          1010,
+          860
+        ]
+      },
+      {
+        "text": "M?y",
+        "bbox": [
+          720,
+          310,
+          792,
+          349
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 857,
+        "box": [
+          700,
+          175,
+          1010,
+          860
+        ]
+      },
+      {
+        "text": "记下 y",
+        "bbox": [
+          720,
+          392,
+          830,
+          434
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1059,
+        "box": [
+          700,
+          175,
+          1010,
+          860
+        ]
+      },
+      {
+        "text": "M?y",
+        "bbox": [
+          720,
+          474,
+          792,
+          513
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 857,
+        "box": [
+          700,
+          175,
+          1010,
+          860
+        ]
+      },
+      {
+        "text": "记下 y",
+        "bbox": [
+          720,
+          556,
+          830,
+          598
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1059,
+        "box": [
+          700,
+          175,
+          1010,
+          860
+        ]
+      },
+      {
+        "text": "P 产出 [2, 5]；M 每次加 10",
+        "bbox": [
+          70,
+          915,
+          587,
+          962
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6044,
+        "box": null
+      },
+      {
+        "text": "C 最终按顺序记下 [12, 15]",
+        "bbox": [
+          70,
+          995,
+          575,
+          1042
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7045,
+        "box": null
+      },
+      {
+        "text": "! 是发送；? 是接收；竖排是本地顺序",
+        "bbox": [
+          70,
+          1080,
+          720,
+          1120
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9110,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/02-arrival.png",
+    "width": 1062,
+    "height": 1069,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "由实际三状态解释先到等待、另一方准备及同时推进",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "先到的一方，要停在哪里？",
+        "bbox": [
+          48,
+          40,
+          672,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9688,
+        "box": null
+      },
+      {
+        "text": "状态 0：P0  M0",
+        "bbox": [
+          65,
+          180,
+          377,
+          224
+        ],
+        "font_px": 46,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3779,
+        "box": null
+      },
+      {
+        "text": "M!2",
+        "bbox": [
+          90,
+          280,
+          164,
+          314
+        ],
+        "font_px": 44,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 969,
+        "box": [
+          65,
+          260,
+          450,
+          350
+        ]
+      },
+      {
+        "text": "内部准备",
+        "bbox": [
+          635,
+          280,
+          811,
+          322
+        ],
+        "font_px": 44,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 2981,
+        "box": [
+          610,
+          260,
+          995,
+          350
+        ]
+      },
+      {
+        "text": "只推进 M 的准备",
+        "bbox": [
+          80,
+          375,
+          370,
+          414
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4174,
+        "box": null
+      },
+      {
+        "text": "状态 1：P0  M1",
+        "bbox": [
+          65,
+          440,
+          377,
+          484
+        ],
+        "font_px": 46,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3497,
+        "box": null
+      },
+      {
+        "text": "M!2",
+        "bbox": [
+          90,
+          540,
+          164,
+          574
+        ],
+        "font_px": 44,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 969,
+        "box": [
+          65,
+          520,
+          450,
+          610
+        ]
+      },
+      {
+        "text": "P?x",
+        "bbox": [
+          635,
+          540,
+          706,
+          574
+        ],
+        "font_px": 44,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 799,
+        "box": [
+          610,
+          520,
+          995,
+          610
+        ]
+      },
+      {
+        "text": "传值；P、M 一起越过通信",
+        "bbox": [
+          80,
+          635,
+          547,
+          674
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5711,
+        "box": null
+      },
+      {
+        "text": "状态 2：P1  M2",
+        "bbox": [
+          65,
+          700,
+          377,
+          744
+        ],
+        "font_px": 46,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3512,
+        "box": null
+      },
+      {
+        "text": "P 已完成",
+        "bbox": [
+          90,
+          800,
+          260,
+          843
+        ],
+        "font_px": 44,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 2452,
+        "box": [
+          65,
+          780,
+          450,
+          870
+        ]
+      },
+      {
+        "text": "M 得到 x=2",
+        "bbox": [
+          635,
+          800,
+          849,
+          842
+        ],
+        "font_px": 44,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 2813,
+        "box": [
+          610,
+          780,
+          995,
+          870
+        ]
+      },
+      {
+        "text": "数字表示已完成指令数，不表示秒数",
+        "bbox": [
+          65,
+          980,
+          737,
+          1021
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10116,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/03-trace.png",
+    "width": 1062,
+    "height": 1262,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "逐事件保存值传递与局部计算，不能只呈现最终输出",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "流水线的一条完整执行轨迹",
+        "bbox": [
+          48,
+          40,
+          672,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 11246,
+        "box": null
+      },
+      {
+        "text": "动作完成后",
+        "bbox": [
+          55,
+          170,
+          265,
+          210
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3182,
+        "box": null
+      },
+      {
+        "text": "指令位置",
+        "bbox": [
+          685,
+          170,
+          853,
+          210
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2631,
+        "box": null
+      },
+      {
+        "text": "1. P → M  交接 2",
+        "bbox": [
+          55,
+          255,
+          356,
+          296
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2927,
+        "box": null
+      },
+      {
+        "text": "P1  M1  C0",
+        "bbox": [
+          685,
+          255,
+          880,
+          288
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1828,
+        "box": null
+      },
+      {
+        "text": "2. M: 2+10=12",
+        "bbox": [
+          55,
+          370,
+          318,
+          402
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2445,
+        "box": null
+      },
+      {
+        "text": "P1  M2  C0",
+        "bbox": [
+          685,
+          370,
+          880,
+          403
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1889,
+        "box": null
+      },
+      {
+        "text": "3. M → C  交接 12",
+        "bbox": [
+          55,
+          485,
+          380,
+          526
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3198,
+        "box": null
+      },
+      {
+        "text": "P1  M3  C1",
+        "bbox": [
+          685,
+          485,
+          880,
+          518
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1795,
+        "box": null
+      },
+      {
+        "text": "4. P → M  交接 5",
+        "bbox": [
+          55,
+          600,
+          356,
+          641
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2990,
+        "box": null
+      },
+      {
+        "text": "P2  M4  C1",
+        "bbox": [
+          685,
+          600,
+          880,
+          633
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1832,
+        "box": null
+      },
+      {
+        "text": "5. M: 5+10=15",
+        "bbox": [
+          55,
+          715,
+          318,
+          747
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2496,
+        "box": null
+      },
+      {
+        "text": "P2  M5  C1",
+        "bbox": [
+          685,
+          715,
+          880,
+          748
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1859,
+        "box": null
+      },
+      {
+        "text": "6. C: 记下 12",
+        "bbox": [
+          55,
+          830,
+          287,
+          869
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2196,
+        "box": null
+      },
+      {
+        "text": "P2  M5  C2",
+        "bbox": [
+          685,
+          830,
+          880,
+          863
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1920,
+        "box": null
+      },
+      {
+        "text": "7. M → C  交接 15",
+        "bbox": [
+          55,
+          945,
+          380,
+          986
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3121,
+        "box": null
+      },
+      {
+        "text": "P2  M6  C3",
+        "bbox": [
+          685,
+          945,
+          880,
+          978
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1975,
+        "box": null
+      },
+      {
+        "text": "8. C: 记下 15",
+        "bbox": [
+          55,
+          1060,
+          287,
+          1099
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2230,
+        "box": null
+      },
+      {
+        "text": "P2  M6  C4",
+        "bbox": [
+          685,
+          1060,
+          880,
+          1093
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1951,
+        "box": null
+      },
+      {
+        "text": "! 与 ? 配成一次事件，不是两次转移",
+        "bbox": [
+          55,
+          1175,
+          674,
+          1214
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7781,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/04-order.png",
+    "width": 1062,
+    "height": 1280,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "真实可达图中的菱形：内部记录与下一次会合可交换",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "局部顺序，并不等于全局唯一顺序",
+        "bbox": [
+          48,
+          40,
+          828,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 13162,
+        "box": null
+      },
+      {
+        "text": "状态 3",
+        "bbox": [
+          337,
+          190,
+          454,
+          230
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1647,
+        "box": [
+          315,
+          170,
+          725,
+          315
+        ]
+      },
+      {
+        "text": "P1  M3  C1",
+        "bbox": [
+          337,
+          252,
+          532,
+          285
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1795,
+        "box": [
+          315,
+          170,
+          725,
+          315
+        ]
+      },
+      {
+        "text": "状态 4",
+        "bbox": [
+          82,
+          540,
+          199,
+          580
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1630,
+        "box": [
+          60,
+          520,
+          470,
+          665
+        ]
+      },
+      {
+        "text": "P2  M4  C1",
+        "bbox": [
+          82,
+          602,
+          277,
+          635
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1832,
+        "box": [
+          60,
+          520,
+          470,
+          665
+        ]
+      },
+      {
+        "text": "状态 5",
+        "bbox": [
+          612,
+          540,
+          729,
+          580
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1648,
+        "box": [
+          590,
+          520,
+          1000,
+          665
+        ]
+      },
+      {
+        "text": "P1  M3  C2",
+        "bbox": [
+          612,
+          602,
+          807,
+          635
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1856,
+        "box": [
+          590,
+          520,
+          1000,
+          665
+        ]
+      },
+      {
+        "text": "状态 7",
+        "bbox": [
+          337,
+          920,
+          454,
+          960
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1558,
+        "box": [
+          315,
+          900,
+          725,
+          1045
+        ]
+      },
+      {
+        "text": "P2  M4  C2",
+        "bbox": [
+          337,
+          982,
+          532,
+          1015
+        ],
+        "font_px": 42,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1893,
+        "box": [
+          315,
+          900,
+          725,
+          1045
+        ]
+      },
+      {
+        "text": "P → M  交接 5",
+        "bbox": [
+          65,
+          340,
+          310,
+          378
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2449,
+        "box": null
+      },
+      {
+        "text": "C: 记下 12",
+        "bbox": [
+          650,
+          340,
+          829,
+          377
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1599,
+        "box": null
+      },
+      {
+        "text": "C: 记下 12",
+        "bbox": [
+          65,
+          820,
+          244,
+          857
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1599,
+        "box": null
+      },
+      {
+        "text": "P → M  交接 5",
+        "bbox": [
+          650,
+          820,
+          895,
+          858
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2449,
+        "box": null
+      },
+      {
+        "text": "两条路线都可到达下方同一状态",
+        "bbox": [
+          60,
+          1110,
+          676,
+          1153
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9792,
+        "box": null
+      },
+      {
+        "text": "非确定 ≠ 各占一半，也不保证公平",
+        "bbox": [
+          60,
+          1190,
+          709,
+          1232
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7550,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/05-deadlock.png",
+    "width": 1062,
+    "height": 1180,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "原程序初始死锁及改序后真实两次会合",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "两个发送者，凑不成一次会合",
+        "bbox": [
+          48,
+          40,
+          724,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10616,
+        "box": null
+      },
+      {
+        "text": "A 当前",
+        "bbox": [
+          70,
+          180,
+          212,
+          228
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2216,
+        "box": null
+      },
+      {
+        "text": "B!2",
+        "bbox": [
+          95,
+          290,
+          169,
+          327
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 1057,
+        "box": [
+          70,
+          265,
+          470,
+          365
+        ]
+      },
+      {
+        "text": "后面才有 B?y",
+        "bbox": [
+          70,
+          430,
+          317,
+          476
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3359,
+        "box": null
+      },
+      {
+        "text": "B 当前",
+        "bbox": [
+          590,
+          180,
+          734,
+          228
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2318,
+        "box": null
+      },
+      {
+        "text": "A!5",
+        "bbox": [
+          615,
+          290,
+          686,
+          327
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 945,
+        "box": [
+          590,
+          265,
+          990,
+          365
+        ]
+      },
+      {
+        "text": "后面才有 A?x",
+        "bbox": [
+          590,
+          430,
+          833,
+          471
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3213,
+        "box": null
+      },
+      {
+        "text": "可达状态 1；可执行转移 0",
+        "bbox": [
+          65,
+          550,
+          597,
+          595
+        ],
+        "font_px": 46,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 7599,
+        "box": null
+      },
+      {
+        "text": "修复：B 改成先收后发",
+        "bbox": [
+          65,
+          700,
+          539,
+          746
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7552,
+        "box": null
+      },
+      {
+        "text": "A → B  交接 2",
+        "bbox": [
+          75,
+          820,
+          360,
+          866
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3437,
+        "box": null
+      },
+      {
+        "text": "A1  B1",
+        "bbox": [
+          700,
+          820,
+          819,
+          851
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1195,
+        "box": null
+      },
+      {
+        "text": "B → A  交接 5",
+        "bbox": [
+          75,
+          930,
+          360,
+          976
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3460,
+        "box": null
+      },
+      {
+        "text": "A2  B2",
+        "bbox": [
+          700,
+          930,
+          819,
+          961
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1317,
+        "box": null
+      },
+      {
+        "text": "改变协议顺序，比催促调度更有用",
+        "bbox": [
+          65,
+          1090,
+          695,
+          1132
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9783,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/06-buffer.png",
+    "width": 1062,
+    "height": 1316,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "实际入队与出队分开，显示每条有向通道的占用",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "一格缓冲：发送完成的含义改变了",
+        "bbox": [
+          48,
+          40,
+          828,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 12673,
+        "box": null
+      },
+      {
+        "text": "动作 / 状态",
+        "bbox": [
+          45,
+          175,
+          248,
+          219
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2714,
+        "box": null
+      },
+      {
+        "text": "A → B",
+        "bbox": [
+          500,
+          175,
+          614,
+          206
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 964,
+        "box": null
+      },
+      {
+        "text": "B → A",
+        "bbox": [
+          795,
+          175,
+          909,
+          206
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 964,
+        "box": null
+      },
+      {
+        "text": "开始",
+        "bbox": [
+          45,
+          275,
+          125,
+          313
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1174,
+        "box": null
+      },
+      {
+        "text": "A0  B0",
+        "bbox": [
+          45,
+          340,
+          158,
+          371
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1264,
+        "box": null
+      },
+      {
+        "text": "空",
+        "bbox": [
+          535,
+          300,
+          583,
+          344
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 832,
+        "box": [
+          500,
+          270,
+          715,
+          385
+        ]
+      },
+      {
+        "text": "空",
+        "bbox": [
+          830,
+          300,
+          878,
+          344
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 832,
+        "box": [
+          795,
+          270,
+          1010,
+          385
+        ]
+      },
+      {
+        "text": "A>B: put 2",
+        "bbox": [
+          45,
+          465,
+          233,
+          504
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1890,
+        "box": null
+      },
+      {
+        "text": "A1  B0",
+        "bbox": [
+          45,
+          530,
+          158,
+          561
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1148,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          535,
+          490,
+          562,
+          526
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 352,
+        "box": [
+          500,
+          460,
+          715,
+          575
+        ]
+      },
+      {
+        "text": "空",
+        "bbox": [
+          830,
+          490,
+          878,
+          534
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 832,
+        "box": [
+          795,
+          460,
+          1010,
+          575
+        ]
+      },
+      {
+        "text": "B>A: put 5",
+        "bbox": [
+          45,
+          655,
+          233,
+          693
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1908,
+        "box": null
+      },
+      {
+        "text": "A1  B1",
+        "bbox": [
+          45,
+          720,
+          158,
+          749
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1032,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          535,
+          680,
+          562,
+          716
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 352,
+        "box": [
+          500,
+          650,
+          715,
+          765
+        ]
+      },
+      {
+        "text": "5",
+        "bbox": [
+          830,
+          680,
+          857,
+          716
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 375,
+        "box": [
+          795,
+          650,
+          1010,
+          765
+        ]
+      },
+      {
+        "text": "B>A: take 5",
+        "bbox": [
+          45,
+          845,
+          249,
+          879
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2154,
+        "box": null
+      },
+      {
+        "text": "A2  B1",
+        "bbox": [
+          45,
+          910,
+          158,
+          940
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1099,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          535,
+          870,
+          562,
+          906
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 352,
+        "box": [
+          500,
+          840,
+          715,
+          955
+        ]
+      },
+      {
+        "text": "空",
+        "bbox": [
+          830,
+          870,
+          878,
+          914
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 832,
+        "box": [
+          795,
+          840,
+          1010,
+          955
+        ]
+      },
+      {
+        "text": "A>B: take 2",
+        "bbox": [
+          45,
+          1035,
+          249,
+          1069
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2136,
+        "box": null
+      },
+      {
+        "text": "A2  B2",
+        "bbox": [
+          45,
+          1100,
+          158,
+          1130
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1166,
+        "box": null
+      },
+      {
+        "text": "空",
+        "bbox": [
+          535,
+          1060,
+          583,
+          1104
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 832,
+        "box": [
+          500,
+          1030,
+          715,
+          1145
+        ]
+      },
+      {
+        "text": "空",
+        "bbox": [
+          830,
+          1060,
+          878,
+          1104
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 832,
+        "box": [
+          795,
+          1030,
+          1010,
+          1145
+        ]
+      },
+      {
+        "text": "put = 入队；take = 出队；一格一个值",
+        "bbox": [
+          45,
+          1225,
+          709,
+          1268
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6135,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/07-burst.png",
+    "width": 1062,
+    "height": 1070,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "从两次真实入队抵达双满队列死锁，保留尚未执行的接收",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "一格缓冲，也会被协议填死",
+        "bbox": [
+          48,
+          40,
+          672,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10647,
+        "box": null
+      },
+      {
+        "text": "A>B: put 2",
+        "bbox": [
+          65,
+          180,
+          281,
+          225
+        ],
+        "font_px": 46,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2453,
+        "box": null
+      },
+      {
+        "text": "B>A: put 5",
+        "bbox": [
+          65,
+          265,
+          281,
+          310
+        ],
+        "font_px": 46,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2476,
+        "box": null
+      },
+      {
+        "text": "A>B = [2]",
+        "bbox": [
+          100,
+          465,
+          278,
+          508
+        ],
+        "font_px": 44,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 1840,
+        "box": [
+          70,
+          435,
+          470,
+          575
+        ]
+      },
+      {
+        "text": "B>A = [5]",
+        "bbox": [
+          610,
+          465,
+          788,
+          508
+        ],
+        "font_px": 44,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 1857,
+        "box": [
+          580,
+          435,
+          980,
+          575
+        ]
+      },
+      {
+        "text": "A 当前 B!3",
+        "bbox": [
+          70,
+          650,
+          272,
+          692
+        ],
+        "font_px": 44,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 2699,
+        "box": null
+      },
+      {
+        "text": "接收仍排在后面",
+        "bbox": [
+          70,
+          750,
+          364,
+          791
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4753,
+        "box": null
+      },
+      {
+        "text": "B 当前 A!6",
+        "bbox": [
+          580,
+          650,
+          782,
+          692
+        ],
+        "font_px": 44,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 2743,
+        "box": null
+      },
+      {
+        "text": "接收仍排在后面",
+        "bbox": [
+          580,
+          750,
+          874,
+          791
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4753,
+        "box": null
+      },
+      {
+        "text": "容量 1，两个方向都已满",
+        "bbox": [
+          65,
+          890,
+          561,
+          935
+        ],
+        "font_px": 46,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7450,
+        "box": null
+      },
+      {
+        "text": "穷举 4 个状态，发现 1 个死锁",
+        "bbox": [
+          65,
+          980,
+          611,
+          1022
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6720,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/10-matching.png",
+    "width": 1062,
+    "height": 1031,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "identity": "原创教学模型图，来自实际有限状态枚举结果",
+    "license": "CC-BY-4.0",
+    "purpose": "从流水线真实初始状态辨认互指名称与尚未就绪的下游通信",
+    "data": "examples/results.json",
+    "checks": [
+      "glyph-cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop",
+      "PNG-dimensions"
+    ],
+    "geometry": "状态数量/路径/队列格占用/指令位置由JSON计算；坐标为无物理单位的排版常量",
+    "texts": [
+      {
+        "text": "不是任意一发一收都能配对",
+        "bbox": [
+          48,
+          40,
+          672,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10799,
+        "box": null
+      },
+      {
+        "text": "P 当前：M!2",
+        "bbox": [
+          95,
+          215,
+          372,
+          263
+        ],
+        "font_px": 50,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 3476,
+        "box": [
+          65,
+          180,
+          995,
+          320
+        ]
+      },
+      {
+        "text": "P 与 M：互相指定，整数可接收",
+        "bbox": [
+          95,
+          346,
+          651,
+          385
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7146,
+        "box": null
+      },
+      {
+        "text": "M 当前：P?x",
+        "bbox": [
+          95,
+          445,
+          377,
+          493
+        ],
+        "font_px": 50,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 3498,
+        "box": [
+          65,
+          410,
+          995,
+          550
+        ]
+      },
+      {
+        "text": "M 与 C：M 当前尚未向 C 发送",
+        "bbox": [
+          95,
+          576,
+          616,
+          615
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5914,
+        "box": null
+      },
+      {
+        "text": "C 当前：M?y",
+        "bbox": [
+          95,
+          675,
+          378,
+          730
+        ],
+        "font_px": 50,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 3544,
+        "box": [
+          65,
+          640,
+          995,
+          780
+        ]
+      },
+      {
+        "text": "C 已经等着，也不能提前拿到结果",
+        "bbox": [
+          65,
+          940,
+          719,
+          983
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10328,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/08-live-pipeline.png",
+    "width": 1062,
+    "height": 1632,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "effective_minimum_px": 13.333333333333334,
+    "identity": "真实浏览器截图：Finite Rendezvous Lab 1.0状态图查看器；非历史软件",
+    "license": "CC-BY-4.0",
+    "purpose": "真实查看器中交接12后的两个后续动作",
+    "data": "examples/results.json",
+    "browser": "Chromium 154.0.8037.57; Playwright; 1062 CSS px; DPR 1",
+    "geometry": "浏览器原始布局；截图未重绘",
+    "checks": [
+      "actual-HTTP-app",
+      "page-title",
+      "nonblank",
+      "all-six-scenarios",
+      "button-state-change",
+      "no-page-errors",
+      "mobile-no-overflow",
+      "HTTP503-recovery"
+    ]
+  },
+  {
+    "file": "assets/09-live-deadlock.png",
+    "width": 1062,
+    "height": 1437,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "effective_minimum_px": 13.333333333333334,
+    "identity": "真实浏览器截图：Finite Rendezvous Lab 1.0状态图查看器；非历史软件",
+    "license": "CC-BY-4.0",
+    "purpose": "真实查看器中满队列死锁及当前待执行发送",
+    "data": "examples/results.json",
+    "browser": "Chromium 154.0.8037.57; Playwright; 1062 CSS px; DPR 1",
+    "geometry": "浏览器原始布局；截图未重绘",
+    "checks": [
+      "actual-HTTP-app",
+      "page-title",
+      "nonblank",
+      "all-six-scenarios",
+      "button-state-change",
+      "no-page-errors",
+      "mobile-no-overflow",
+      "HTTP503-recovery"
+    ]
+  }
+]

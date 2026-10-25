@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>会合实验 · 实跑状态图查看器</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#faf7ef;color:#192d3b;font:42px/1.5 'Noto Sans CJK SC',sans-serif}main{padding:36px;max-width:1062px;margin:auto}h1{font-size:50px;margin:0 0 20px}h2{font-size:44px;margin:22px 0 12px}p{margin:12px 0}select,button{font:inherit;color:inherit;border:2px solid #165b70;border-radius:10px;padding:12px;background:#e1efeb;max-width:100%;white-space:normal}button{cursor:pointer;margin:8px 10px 8px 0}select{width:100%}.box{padding:20px;border:2px solid #165b70;border-radius:14px;margin-top:22px;background:#fff}.bad{color:#8c3038;font-weight:bold}.row{border-top:1px solid #becbc8;padding:12px 0;overflow-wrap:anywhere}.small{font-size:40px}#error{color:#8c3038}#choices{display:flex;flex-wrap:wrap}footer{font-size:40px;margin-top:28px}a{color:#165b70}
+@media(max-width:600px){body{font-size:16px}main{padding:14px}h1{font-size:23px}h2{font-size:19px}.small,footer{font-size:14px}.box{padding:12px}button,select{padding:9px}button{margin-right:6px}}
+</style>
+<main><h1>会合实验：查看实跑状态</h1><p id="identity">正在载入 Python 枚举结果…</p><div id="error" role="alert"></div><button id="retry" hidden>重新载入</button>
+<label for="scenario">选择程序与缓冲容量</label><select id="scenario" disabled></select>
+<section id="report" hidden><div class="box"><p id="totals"></p><p id="state"></p><div id="actors"></div><div id="queues"></div></div><h2>此刻可以完成的动作</h2><div id="choices"></div><p id="status"></p><button id="reset">回到初始状态</button><p class="small" id="history"></p></section>
+<footer>有限教学模型，不是 CSP 编译器。<br>数据来自 experiment.py 的实际穷举。<br>位置 = 已完成本地指令数。</footer></main>
+<script>
+let data, run, state=0, history=[];
+const names={arrival:'先到等待 · 容量 0',pipeline:'三进程流水线 · 容量 0',deadlock:'双方先发 · 容量 0',reordered:'B 先收后发 · 容量 0',buffered:'双方先发 · 每方向容量 1',burst:'各发两次 · 每方向容量 1'};
+const $=id=>document.getElementById(id);
+function op(a){if(!a)return '完成';if(a[0]==='send')return '发送 '+a[1]+'!'+a[2];if(a[0]==='recv')return '接收 '+a[1]+'?'+a[2];if(a[0]==='add')return a[1]+' 加 '+a[2];if(a[0]==='record')return '记下 '+a[1];return '内部准备'}
+function draw(){const s=run.states[state];$('totals').textContent=`穷举：${run.state_count} 状态 / ${run.edge_count} 转移 / ${run.deadlocks.length} 死锁`;$('state').textContent='当前状态 '+state;
+$('actors').replaceChildren();for(const p of Object.keys(run.program)){const d=document.createElement('div');d.className='row';const local=Object.entries(s.local[p]).map(([k,v])=>k+'='+v).join('，')||'尚无局部值';d.textContent=p+'：位置 '+s.pc[p]+' · '+op(run.program[p][s.pc[p]])+'；'+local+(s.output[p].length?'；已记 '+JSON.stringify(s.output[p]):'');$('actors').append(d)}
+$('queues').textContent=run.capacity? '队列：'+Object.entries(s.queues).map(([k,v])=>k+' '+JSON.stringify(v)).join('；'):'通信边无缓冲';$('choices').replaceChildren();const es=run.edges.filter(e=>e.from===state);for(const e of es){const b=document.createElement('button');b.textContent=e.label;b.onclick=()=>{history.push(e.label);state=e.to;draw()};$('choices').append(b)}
+$('status').className=run.deadlocks.includes(state)?'bad':'';$('status').textContent=run.deadlocks.includes(state)?'死锁：程序未完，已无可执行动作':run.complete.includes(state)?'全部程序完成':'可选择以上任一合法动作';$('history').textContent='已走动作：'+(history.join(' / ')||'无');}
+function choose(){run=data.runs[$('scenario').value];state=0;history=[];draw()}
+async function load(){try{$('error').textContent='';$('retry').hidden=true;const response=await fetch('results.json');if(!response.ok)throw new Error('HTTP '+response.status);data=await response.json();if(!data.runs?.pipeline)throw new Error('结果结构不完整');$('identity').textContent=data.model+' · Python '+data.python;$('scenario').replaceChildren();for(const key of Object.keys(data.runs)){const o=document.createElement('option');o.value=key;o.textContent=names[key];$('scenario').append(o)}$('scenario').disabled=false;$('report').hidden=false;choose()}catch(e){$('report').hidden=true;$('scenario').disabled=true;$('error').textContent='结果加载失败：'+e.message+'。可重新载入。';$('retry').hidden=false}}
+$('scenario').onchange=choose;$('reset').onclick=choose;$('retry').onclick=load;load();
+</script></html>

@@ -2896,6 +2896,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-hoare-csp-rendezvous",
+    "title": "发送已经开始，为什么还没完成？从 Hoare CSP 看两个进程怎样会合",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/read.md",
+    "public_sha256": "596c52cf34eb7d594ac47b3309973c4d33f3cd181d9cc05134d972b188b853fc",
+    "images": 11,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-karger-random-contraction",
     "title": "随机合并顶点，为什么能找到最小割？Karger 的随机收缩",
     "date": "2026-10-25",
