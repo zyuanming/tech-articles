@@ -1,0 +1,4362 @@
+{
+  "phases": [
+    {
+      "phase": 0,
+      "run_count": 4,
+      "read_blocks": 12,
+      "write_blocks": 12,
+      "read_bytes": 192,
+      "write_bytes": 192
+    },
+    {
+      "phase": 1,
+      "run_count": 2,
+      "read_blocks": 12,
+      "write_blocks": 12,
+      "read_bytes": 192,
+      "write_bytes": 192
+    },
+    {
+      "phase": 2,
+      "run_count": 1,
+      "read_blocks": 12,
+      "write_blocks": 12,
+      "read_bytes": 192,
+      "write_bytes": 192
+    }
+  ],
+  "initial": [
+    {
+      "file": "p0-r0.bin",
+      "input": [
+        [
+          17,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sorted": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          17,
+          0
+        ]
+      ],
+      "bytes": 48
+    },
+    {
+      "file": "p0-r1.bin",
+      "input": [
+        [
+          8,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          6,
+          11
+        ]
+      ],
+      "sorted": [
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          15,
+          8
+        ]
+      ],
+      "bytes": 48
+    },
+    {
+      "file": "p0-r2.bin",
+      "input": [
+        [
+          14,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          13,
+          17
+        ]
+      ],
+      "sorted": [
+        [
+          0,
+          15
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          14,
+          12
+        ]
+      ],
+      "bytes": 48
+    },
+    {
+      "file": "p0-r3.bin",
+      "input": [
+        [
+          9,
+          18
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          18,
+          22
+        ],
+        [
+          3,
+          23
+        ]
+      ],
+      "sorted": [
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          18,
+          22
+        ]
+      ],
+      "bytes": 48
+    }
+  ],
+  "merges": [
+    {
+      "inputs": [
+        "p0-r0.bin",
+        "p0-r1.bin",
+        "p0-r2.bin"
+      ],
+      "output": "p1-r0.bin",
+      "steps": [
+        {
+          "heap_before": [
+            {
+              "run": 2,
+              "record": [
+                0,
+                15
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                1,
+                3
+              ]
+            }
+          ],
+          "chosen": [
+            0,
+            15
+          ],
+          "run": 2,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                1,
+                3
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              0,
+              15
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                4,
+                1
+              ]
+            ],
+            [
+              [
+                3,
+                7
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                1,
+                3
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            }
+          ],
+          "chosen": [
+            1,
+            3
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [
+              [
+                3,
+                7
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            }
+          ],
+          "chosen": [
+            2,
+            9
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                3,
+                7
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              2,
+              9
+            ]
+          ],
+          "remaining": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                3,
+                7
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            }
+          ],
+          "chosen": [
+            3,
+            7
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [
+              [
+                8,
+                6
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            }
+          ],
+          "chosen": [
+            4,
+            1
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                5
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              4,
+              1
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                9,
+                2
+              ]
+            ],
+            [
+              [
+                8,
+                6
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                5
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            }
+          ],
+          "chosen": [
+            4,
+            5
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [
+              [
+                8,
+                6
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 2,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            }
+          ],
+          "chosen": [
+            5,
+            13
+          ],
+          "run": 2,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                7,
+                16
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              5,
+              13
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                8,
+                6
+              ]
+            ],
+            [
+              [
+                10,
+                14
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                7,
+                16
+              ]
+            }
+          ],
+          "chosen": [
+            6,
+            11
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 2,
+              "record": [
+                7,
+                16
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                8,
+                6
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [],
+            [
+              [
+                10,
+                14
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 2,
+              "record": [
+                7,
+                16
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                8,
+                6
+              ]
+            }
+          ],
+          "chosen": [
+            7,
+            16
+          ],
+          "run": 2,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                8,
+                6
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                10,
+                14
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              7,
+              16
+            ]
+          ],
+          "remaining": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                8,
+                6
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                10,
+                14
+              ]
+            }
+          ],
+          "chosen": [
+            8,
+            6
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                10,
+                14
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                11,
+                10
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [
+              [
+                15,
+                8
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                10,
+                14
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                11,
+                10
+              ]
+            }
+          ],
+          "chosen": [
+            9,
+            2
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 2,
+              "record": [
+                10,
+                14
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                11,
+                10
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              9,
+              2
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                17,
+                0
+              ]
+            ],
+            [
+              [
+                15,
+                8
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 2,
+              "record": [
+                10,
+                14
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                11,
+                10
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            }
+          ],
+          "chosen": [
+            10,
+            14
+          ],
+          "run": 2,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                11,
+                10
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                13,
+                17
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                17,
+                0
+              ]
+            ],
+            [
+              [
+                15,
+                8
+              ]
+            ],
+            [
+              [
+                14,
+                12
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                11,
+                10
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                13,
+                17
+              ]
+            }
+          ],
+          "chosen": [
+            11,
+            10
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                13,
+                17
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              11,
+              10
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                17,
+                0
+              ]
+            ],
+            [],
+            [
+              [
+                14,
+                12
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            },
+            {
+              "run": 2,
+              "record": [
+                13,
+                17
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            }
+          ],
+          "chosen": [
+            12,
+            4
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 2,
+              "record": [
+                13,
+                17
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [],
+            [
+              [
+                14,
+                12
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 2,
+              "record": [
+                13,
+                17
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "chosen": [
+            13,
+            17
+          ],
+          "run": 2,
+          "heap_after": [
+            {
+              "run": 2,
+              "record": [
+                14,
+                12
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              13,
+              17
+            ]
+          ],
+          "remaining": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 2,
+              "record": [
+                14,
+                12
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            }
+          ],
+          "chosen": [
+            14,
+            12
+          ],
+          "run": 2,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                15,
+                8
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "chosen": [
+            15,
+            8
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              15,
+              8
+            ]
+          ],
+          "remaining": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "chosen": [
+            17,
+            0
+          ],
+          "run": 0,
+          "heap_after": [],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            [],
+            []
+          ]
+        }
+      ],
+      "events": [
+        {
+          "kind": "read",
+          "file": "p0-r0.bin",
+          "records": [
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r1.bin",
+          "records": [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r2.bin",
+          "records": [
+            [
+              0,
+              15
+            ],
+            [
+              5,
+              13
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r1.bin",
+          "records": [
+            [
+              6,
+              11
+            ],
+            [
+              8,
+              6
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r0.bin",
+          "records": [
+            [
+              4,
+              5
+            ],
+            [
+              9,
+              2
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r2.bin",
+          "records": [
+            [
+              7,
+              16
+            ],
+            [
+              10,
+              14
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              5,
+              13
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              7,
+              16
+            ],
+            [
+              8,
+              6
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r1.bin",
+          "records": [
+            [
+              11,
+              10
+            ],
+            [
+              15,
+              8
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r0.bin",
+          "records": [
+            [
+              12,
+              4
+            ],
+            [
+              17,
+              0
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              9,
+              2
+            ],
+            [
+              10,
+              14
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r2.bin",
+          "records": [
+            [
+              13,
+              17
+            ],
+            [
+              14,
+              12
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              11,
+              10
+            ],
+            [
+              12,
+              4
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              13,
+              17
+            ],
+            [
+              14,
+              12
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              15,
+              8
+            ],
+            [
+              17,
+              0
+            ]
+          ]
+        }
+      ],
+      "records": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          17,
+          0
+        ]
+      ],
+      "phase": 1
+    },
+    {
+      "inputs": [
+        "p0-r3.bin"
+      ],
+      "output": "p1-r1.bin",
+      "steps": [
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                2,
+                19
+              ]
+            }
+          ],
+          "chosen": [
+            2,
+            19
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                3,
+                23
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              2,
+              19
+            ]
+          ],
+          "remaining": [
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                3,
+                23
+              ]
+            }
+          ],
+          "chosen": [
+            3,
+            23
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                9,
+                18
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "chosen": [
+            5,
+            21
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              5,
+              21
+            ]
+          ],
+          "remaining": [
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "chosen": [
+            9,
+            18
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            16,
+            20
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                18,
+                22
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              16,
+              20
+            ]
+          ],
+          "remaining": [
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                18,
+                22
+              ]
+            }
+          ],
+          "chosen": [
+            18,
+            22
+          ],
+          "run": 0,
+          "heap_after": [],
+          "output_buffer": [],
+          "remaining": [
+            []
+          ]
+        }
+      ],
+      "events": [
+        {
+          "kind": "read",
+          "file": "p0-r3.bin",
+          "records": [
+            [
+              2,
+              19
+            ],
+            [
+              3,
+              23
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r1.bin",
+          "records": [
+            [
+              2,
+              19
+            ],
+            [
+              3,
+              23
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r3.bin",
+          "records": [
+            [
+              5,
+              21
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r1.bin",
+          "records": [
+            [
+              5,
+              21
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p0-r3.bin",
+          "records": [
+            [
+              16,
+              20
+            ],
+            [
+              18,
+              22
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p1-r1.bin",
+          "records": [
+            [
+              16,
+              20
+            ],
+            [
+              18,
+              22
+            ]
+          ]
+        }
+      ],
+      "records": [
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          18,
+          22
+        ]
+      ],
+      "phase": 1
+    },
+    {
+      "inputs": [
+        "p1-r0.bin",
+        "p1-r1.bin"
+      ],
+      "output": "p2-r0.bin",
+      "steps": [
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                0,
+                15
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            }
+          ],
+          "chosen": [
+            0,
+            15
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                1,
+                3
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              0,
+              15
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                3,
+                23
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                1,
+                3
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            }
+          ],
+          "chosen": [
+            1,
+            3
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                3,
+                7
+              ]
+            ],
+            [
+              [
+                3,
+                23
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                2,
+                9
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            }
+          ],
+          "chosen": [
+            2,
+            9
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                3,
+                7
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              2,
+              9
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                3,
+                23
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                2,
+                19
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                3,
+                7
+              ]
+            }
+          ],
+          "chosen": [
+            2,
+            19
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                3,
+                7
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                3,
+                23
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                3,
+                7
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                3,
+                23
+              ]
+            }
+          ],
+          "chosen": [
+            3,
+            7
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                3,
+                23
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              3,
+              7
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                4,
+                5
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                3,
+                23
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            }
+          ],
+          "chosen": [
+            3,
+            23
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                9,
+                18
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                1
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "chosen": [
+            4,
+            1
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                5
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              4,
+              1
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                9,
+                18
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                4,
+                5
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "chosen": [
+            4,
+            5
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                6,
+                11
+              ]
+            ],
+            [
+              [
+                9,
+                18
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                5,
+                13
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            }
+          ],
+          "chosen": [
+            5,
+            13
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                6,
+                11
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              5,
+              13
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                9,
+                18
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                5,
+                21
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                6,
+                11
+              ]
+            }
+          ],
+          "chosen": [
+            5,
+            21
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                6,
+                11
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "chosen": [
+            6,
+            11
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                7,
+                16
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              6,
+              11
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                8,
+                6
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                7,
+                16
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "chosen": [
+            7,
+            16
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                8,
+                6
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                8,
+                6
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "chosen": [
+            8,
+            6
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              8,
+              6
+            ]
+          ],
+          "remaining": [
+            [
+              [
+                10,
+                14
+              ]
+            ],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                9,
+                2
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            }
+          ],
+          "chosen": [
+            9,
+            2
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                10,
+                14
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                9,
+                18
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                10,
+                14
+              ]
+            }
+          ],
+          "chosen": [
+            9,
+            18
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                10,
+                14
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              9,
+              18
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                10,
+                14
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            10,
+            14
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                11,
+                10
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                12,
+                4
+              ]
+            ],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                11,
+                10
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            11,
+            10
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              11,
+              10
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                12,
+                4
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            12,
+            4
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                13,
+                17
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                14,
+                12
+              ]
+            ],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                13,
+                17
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            13,
+            17
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                14,
+                12
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              13,
+              17
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                14,
+                12
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            14,
+            12
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                15,
+                8
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [
+              [
+                17,
+                0
+              ]
+            ],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                15,
+                8
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            }
+          ],
+          "chosen": [
+            15,
+            8
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              15,
+              8
+            ]
+          ],
+          "remaining": [
+            [],
+            [
+              [
+                18,
+                22
+              ]
+            ]
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                16,
+                20
+              ]
+            },
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            }
+          ],
+          "chosen": [
+            16,
+            20
+          ],
+          "run": 1,
+          "heap_after": [
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                18,
+                22
+              ]
+            }
+          ],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 0,
+              "record": [
+                17,
+                0
+              ]
+            },
+            {
+              "run": 1,
+              "record": [
+                18,
+                22
+              ]
+            }
+          ],
+          "chosen": [
+            17,
+            0
+          ],
+          "run": 0,
+          "heap_after": [
+            {
+              "run": 1,
+              "record": [
+                18,
+                22
+              ]
+            }
+          ],
+          "output_buffer": [
+            [
+              17,
+              0
+            ]
+          ],
+          "remaining": [
+            [],
+            []
+          ]
+        },
+        {
+          "heap_before": [
+            {
+              "run": 1,
+              "record": [
+                18,
+                22
+              ]
+            }
+          ],
+          "chosen": [
+            18,
+            22
+          ],
+          "run": 1,
+          "heap_after": [],
+          "output_buffer": [],
+          "remaining": [
+            [],
+            []
+          ]
+        }
+      ],
+      "events": [
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r1.bin",
+          "records": [
+            [
+              2,
+              19
+            ],
+            [
+              3,
+              23
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              2,
+              9
+            ],
+            [
+              2,
+              19
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              23
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r1.bin",
+          "records": [
+            [
+              5,
+              21
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              5,
+              13
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              5,
+              13
+            ],
+            [
+              5,
+              21
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              7,
+              16
+            ],
+            [
+              8,
+              6
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              16
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              9,
+              2
+            ],
+            [
+              10,
+              14
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              8,
+              6
+            ],
+            [
+              9,
+              2
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r1.bin",
+          "records": [
+            [
+              16,
+              20
+            ],
+            [
+              18,
+              22
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              9,
+              18
+            ],
+            [
+              10,
+              14
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              11,
+              10
+            ],
+            [
+              12,
+              4
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              11,
+              10
+            ],
+            [
+              12,
+              4
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              13,
+              17
+            ],
+            [
+              14,
+              12
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              13,
+              17
+            ],
+            [
+              14,
+              12
+            ]
+          ]
+        },
+        {
+          "kind": "read",
+          "file": "p1-r0.bin",
+          "records": [
+            [
+              15,
+              8
+            ],
+            [
+              17,
+              0
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              15,
+              8
+            ],
+            [
+              16,
+              20
+            ]
+          ]
+        },
+        {
+          "kind": "write",
+          "file": "p2-r0.bin",
+          "records": [
+            [
+              17,
+              0
+            ],
+            [
+              18,
+              22
+            ]
+          ]
+        }
+      ],
+      "records": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          18,
+          22
+        ]
+      ],
+      "phase": 2
+    }
+  ],
+  "output": [
+    [
+      0,
+      15
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      19
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      23
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      5,
+      21
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      16
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      11,
+      10
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      14,
+      12
+    ],
+    [
+      15,
+      8
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      17,
+      0
+    ],
+    [
+      18,
+      22
+    ]
+  ],
+  "input_bytes": 192,
+  "output_bytes": 192,
+  "output_sha256": "1bea310e6b43638818c41ca02b086bb3eecb138a7dff91307d533232e2c33a33",
+  "keys": [
+    17,
+    4,
+    9,
+    1,
+    12,
+    4,
+    8,
+    3,
+    15,
+    2,
+    11,
+    6,
+    14,
+    5,
+    10,
+    0,
+    7,
+    13,
+    9,
+    2,
+    16,
+    5,
+    18,
+    3
+  ],
+  "config": {
+    "record_bytes": 8,
+    "block_records": 2,
+    "chunk_records": 6,
+    "fan_in": 3,
+    "data_buffer_blocks": 4
+  },
+  "python": "3.12.14",
+  "total_blocks": 72,
+  "logical_bytes": 1152,
+  "fan_comparison": [
+    {
+      "fan": 2,
+      "buffer_blocks": 3,
+      "passes": 2,
+      "blocks": 72,
+      "counts": [
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "fan": 3,
+      "buffer_blocks": 4,
+      "passes": 2,
+      "blocks": 72,
+      "counts": [
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "fan": 4,
+      "buffer_blocks": 5,
+      "passes": 1,
+      "blocks": 48,
+      "counts": [
+        4,
+        1
+      ]
+    }
+  ],
+  "large": {
+    "phases": [
+      {
+        "phase": 0,
+        "run_count": 40,
+        "read_blocks": 313,
+        "write_blocks": 313,
+        "read_bytes": 80000,
+        "write_bytes": 80000
+      },
+      {
+        "phase": 1,
+        "run_count": 5,
+        "read_blocks": 313,
+        "write_blocks": 313,
+        "read_bytes": 80000,
+        "write_bytes": 80000
+      },
+      {
+        "phase": 2,
+        "run_count": 1,
+        "read_blocks": 313,
+        "write_blocks": 313,
+        "read_bytes": 80000,
+        "write_bytes": 80000
+      }
+    ],
+    "input_bytes": 80000,
+    "output_bytes": 80000,
+    "output_sha256": "8260c21a0c19e1bd10b0091863c5381c1e18f048d6dbb614388168b339d8a33f",
+    "n": 10000,
+    "chunk": 256,
+    "block": 32,
+    "fan": 8,
+    "seed": 20261025
+  },
+  "checks": {
+    "file_cases": 445,
+    "large_cases": 1
+  },
+  "partial": {
+    "phases": [
+      {
+        "phase": 0,
+        "run_count": 2,
+        "read_blocks": 3,
+        "write_blocks": 3,
+        "read_bytes": 40,
+        "write_bytes": 40
+      },
+      {
+        "phase": 1,
+        "run_count": 1,
+        "read_blocks": 3,
+        "write_blocks": 3,
+        "read_bytes": 40,
+        "write_bytes": 40
+      }
+    ],
+    "initial": [
+      {
+        "file": "p0-r0.bin",
+        "input": [
+          [
+            5,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "sorted": [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "bytes": 24
+      },
+      {
+        "file": "p0-r1.bin",
+        "input": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "sorted": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "bytes": 16
+      }
+    ],
+    "merges": [
+      {
+        "inputs": [
+          "p0-r0.bin",
+          "p0-r1.bin"
+        ],
+        "output": "p1-r0.bin",
+        "steps": [
+          {
+            "heap_before": [
+              {
+                "run": 1,
+                "record": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "run": 0,
+                "record": [
+                  1,
+                  1
+                ]
+              }
+            ],
+            "chosen": [
+              0,
+              3
+            ],
+            "run": 1,
+            "heap_after": [
+              {
+                "run": 0,
+                "record": [
+                  1,
+                  1
+                ]
+              },
+              {
+                "run": 1,
+                "record": [
+                  3,
+                  4
+                ]
+              }
+            ],
+            "output_buffer": [
+              [
+                0,
+                3
+              ]
+            ],
+            "remaining": [
+              [
+                [
+                  4,
+                  2
+                ]
+              ],
+              []
+            ]
+          },
+          {
+            "heap_before": [
+              {
+                "run": 0,
+                "record": [
+                  1,
+                  1
+                ]
+              },
+              {
+                "run": 1,
+                "record": [
+                  3,
+                  4
+                ]
+              }
+            ],
+            "chosen": [
+              1,
+              1
+            ],
+            "run": 0,
+            "heap_after": [
+              {
+                "run": 1,
+                "record": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "run": 0,
+                "record": [
+                  4,
+                  2
+                ]
+              }
+            ],
+            "output_buffer": [],
+            "remaining": [
+              [],
+              []
+            ]
+          },
+          {
+            "heap_before": [
+              {
+                "run": 1,
+                "record": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "run": 0,
+                "record": [
+                  4,
+                  2
+                ]
+              }
+            ],
+            "chosen": [
+              3,
+              4
+            ],
+            "run": 1,
+            "heap_after": [
+              {
+                "run": 0,
+                "record": [
+                  4,
+                  2
+                ]
+              }
+            ],
+            "output_buffer": [
+              [
+                3,
+                4
+              ]
+            ],
+            "remaining": [
+              [],
+              []
+            ]
+          },
+          {
+            "heap_before": [
+              {
+                "run": 0,
+                "record": [
+                  4,
+                  2
+                ]
+              }
+            ],
+            "chosen": [
+              4,
+              2
+            ],
+            "run": 0,
+            "heap_after": [
+              {
+                "run": 0,
+                "record": [
+                  5,
+                  0
+                ]
+              }
+            ],
+            "output_buffer": [],
+            "remaining": [
+              [],
+              []
+            ]
+          },
+          {
+            "heap_before": [
+              {
+                "run": 0,
+                "record": [
+                  5,
+                  0
+                ]
+              }
+            ],
+            "chosen": [
+              5,
+              0
+            ],
+            "run": 0,
+            "heap_after": [],
+            "output_buffer": [
+              [
+                5,
+                0
+              ]
+            ],
+            "remaining": [
+              [],
+              []
+            ]
+          }
+        ],
+        "events": [
+          {
+            "kind": "read",
+            "file": "p0-r0.bin",
+            "records": [
+              [
+                1,
+                1
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "kind": "read",
+            "file": "p0-r1.bin",
+            "records": [
+              [
+                0,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "kind": "write",
+            "file": "p1-r0.bin",
+            "records": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "kind": "write",
+            "file": "p1-r0.bin",
+            "records": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          {
+            "kind": "read",
+            "file": "p0-r0.bin",
+            "records": [
+              [
+                5,
+                0
+              ]
+            ]
+          },
+          {
+            "kind": "write",
+            "file": "p1-r0.bin",
+            "records": [
+              [
+                5,
+                0
+              ]
+            ]
+          }
+        ],
+        "records": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "phase": 1
+      }
+    ],
+    "output": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "input_bytes": 40,
+    "output_bytes": 40,
+    "output_sha256": "e4ec22168a082bf851f1d48a2b5fd04f6110e57b3b3bf9f08fbed3b0bb3cac17"
+  },
+  "stable": [
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      19
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      23
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      5,
+      21
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      18
+    ]
+  ],
+  "concat_boundary": [
+    17,
+    2
+  ]
+}

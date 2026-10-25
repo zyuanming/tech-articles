@@ -1,0 +1,283 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1365,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "封面展示初始有序段与全局归并目标",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-units.png",
+    "width": 1062,
+    "height": 1301,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "用同一文件解释8字节记录、16字节块和数据缓冲预算",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-runs.png",
+    "width": 1062,
+    "height": 1619,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "完整输入四批与各自排序结果，显示阶段内部排序而非全量内存排序",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-concat.png",
+    "width": 1062,
+    "height": 1077,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "反例证明各run内部有序不意味着拼接后有序",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-memory.png",
+    "width": 1062,
+    "height": 1157,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "统一四块预算展示生成段和三路归并阶段的空间分工",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-heads.png",
+    "width": 1062,
+    "height": 1247,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "完整列出前六步候选头和值，解释正确性不依赖扫描整段",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-refill.png",
+    "width": 1062,
+    "height": 1317,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "区分输入缓冲耗尽与整个有序段结束",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-flush.png",
+    "width": 1062,
+    "height": 1347,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "前三个实际输出块及独立五记录用例的非满尾块",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-heap.png",
+    "width": 1062,
+    "height": 1537,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际heap前后状态显示候选更新和堆序而非全排序",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-passes.png",
+    "width": 1062,
+    "height": 1347,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "展示4→2→1完整谱系并显式说明孤段复制策略",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-io.png",
+    "width": 1062,
+    "height": 1199,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际分阶段非空块与字节计数，明确计量边界",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-fanin.png",
+    "width": 1062,
+    "height": 1577,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一文件二/三/四路实跑，展示增加内存才跨过一趟阈值",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-stability.png",
+    "width": 1062,
+    "height": 1327,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际输出重复键的序号，解释复合比较带来的稳定性",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-file-run.png",
+    "width": 1062,
+    "height": 1527,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "真实10000记录文件排序的run数量及逻辑块读写结果",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-live-demo.png",
+    "width": 1062,
+    "height": 1723,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "原创教学网页真实浏览器执行截图",
+    "purpose": "实际创建二进制临时文件并运行外部归并，展示文件尺寸/趟数/结果",
+    "checks": [
+      "actual-browser",
+      "button-execution",
+      "returned-json",
+      "viewport-overflow"
+    ]
+  }
+]

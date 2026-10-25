@@ -2808,6 +2808,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-external-merge-sort",
+    "title": "外部归并排序：文件比内存大，怎样一块一块排成全局有序？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-external-merge-sort/read.md",
+    "public_sha256": "d1f3b6ec9af3225328845fe4018a0c210bad3b8bf09197615ff3373cd75811c1",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-karger-random-contraction",
     "title": "随机合并顶点，为什么能找到最小割？Karger 的随机收缩",
     "date": "2026-10-25",
