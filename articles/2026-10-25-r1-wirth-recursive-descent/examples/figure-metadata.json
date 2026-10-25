@@ -1,0 +1,2666 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1191,
+    "minimum_font_px": 44,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "独立封面：把输入与分层的运算依赖联系起来",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "一行算式，怎样长成一棵树？",
+        "bbox": [
+          48,
+          40,
+          724,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9706,
+        "box": null
+      },
+      {
+        "text": "12-3*2-1",
+        "bbox": [
+          80,
+          175,
+          356,
+          232
+        ],
+        "font_px": 70,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3695,
+        "box": null
+      },
+      {
+        "text": "12",
+        "bbox": [
+          133.359375,
+          706,
+          186.359375,
+          742
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 620,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          394.01302083333337,
+          881,
+          421.01302083333337,
+          918
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 375,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          641.3463541666667,
+          881,
+          668.3463541666667,
+          917
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 352,
+        "box": null
+      },
+      {
+        "text": "1",
+        "bbox": [
+          888.6796875,
+          531,
+          915.6796875,
+          566
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 268,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          519.7890625,
+          706,
+          541.7890625,
+          744
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 148,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          337.171875,
+          531,
+          354.171875,
+          546
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          615.421875,
+          356,
+          632.421875,
+          371
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "Wirth 与递归下降",
+        "bbox": [
+          70,
+          1015,
+          504,
+          1069
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7299,
+        "box": null
+      },
+      {
+        "text": "把文法写成会互相调用的函数",
+        "bbox": [
+          70,
+          1100,
+          642,
+          1143
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10047,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/01-tokens.png",
+    "width": 1062,
+    "height": 987,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "显示多位数字合并、半开区间与EOF位置",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "字符位置与 token 不是一回事",
+        "bbox": [
+          48,
+          40,
+          730,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10670,
+        "box": null
+      },
+      {
+        "text": "1",
+        "bbox": [
+          70,
+          180,
+          101,
+          221
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 381,
+        "box": null
+      },
+      {
+        "text": "0",
+        "bbox": [
+          70,
+          265,
+          92,
+          296
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 310,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          185,
+          180,
+          216,
+          222
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 474,
+        "box": null
+      },
+      {
+        "text": "1",
+        "bbox": [
+          185,
+          265,
+          207,
+          294
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 193,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          300,
+          180,
+          319,
+          198
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 60,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          300,
+          265,
+          322,
+          295
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 265,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          415,
+          180,
+          446,
+          223
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 496,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          415,
+          265,
+          437,
+          296
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 275,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          530,
+          180,
+          556,
+          225
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 194,
+        "box": null
+      },
+      {
+        "text": "4",
+        "bbox": [
+          530,
+          265,
+          552,
+          294
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 270,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          645,
+          180,
+          676,
+          222
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 474,
+        "box": null
+      },
+      {
+        "text": "5",
+        "bbox": [
+          645,
+          265,
+          667,
+          295
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 281,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          760,
+          180,
+          779,
+          198
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 60,
+        "box": null
+      },
+      {
+        "text": "6",
+        "bbox": [
+          760,
+          265,
+          782,
+          296
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 316,
+        "box": null
+      },
+      {
+        "text": "1",
+        "bbox": [
+          875,
+          180,
+          906,
+          221
+        ],
+        "font_px": 56,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 381,
+        "box": null
+      },
+      {
+        "text": "7",
+        "bbox": [
+          875,
+          265,
+          897,
+          294
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 195,
+        "box": null
+      },
+      {
+        "text": "上行是字符；下行是从零起的位置",
+        "bbox": [
+          70,
+          345,
+          700,
+          386
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8683,
+        "box": null
+      },
+      {
+        "text": "12",
+        "bbox": [
+          75,
+          460,
+          128,
+          496
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 620,
+        "box": [
+          55,
+          440,
+          293,
+          615
+        ]
+      },
+      {
+        "text": "0 → 2",
+        "bbox": [
+          75,
+          540,
+          177,
+          571
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 774,
+        "box": [
+          55,
+          440,
+          293,
+          615
+        ]
+      },
+      {
+        "text": "-",
+        "bbox": [
+          327,
+          460,
+          344,
+          475
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 52,
+        "box": [
+          307,
+          440,
+          545,
+          615
+        ]
+      },
+      {
+        "text": "2 → 3",
+        "bbox": [
+          327,
+          540,
+          429,
+          571
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 739,
+        "box": [
+          307,
+          440,
+          545,
+          615
+        ]
+      },
+      {
+        "text": "3",
+        "bbox": [
+          579,
+          460,
+          606,
+          497
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 375,
+        "box": [
+          559,
+          440,
+          797,
+          615
+        ]
+      },
+      {
+        "text": "3 → 4",
+        "bbox": [
+          579,
+          540,
+          681,
+          571
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 744,
+        "box": [
+          559,
+          440,
+          797,
+          615
+        ]
+      },
+      {
+        "text": "*",
+        "bbox": [
+          831,
+          460,
+          853,
+          498
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 148,
+        "box": [
+          811,
+          440,
+          1049,
+          615
+        ]
+      },
+      {
+        "text": "4 → 5",
+        "bbox": [
+          831,
+          540,
+          933,
+          570
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 750,
+        "box": [
+          811,
+          440,
+          1049,
+          615
+        ]
+      },
+      {
+        "text": "2",
+        "bbox": [
+          75,
+          670,
+          102,
+          706
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 352,
+        "box": [
+          55,
+          650,
+          293,
+          825
+        ]
+      },
+      {
+        "text": "5 → 6",
+        "bbox": [
+          75,
+          750,
+          177,
+          781
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 796,
+        "box": [
+          55,
+          650,
+          293,
+          825
+        ]
+      },
+      {
+        "text": "-",
+        "bbox": [
+          327,
+          670,
+          344,
+          685
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 52,
+        "box": [
+          307,
+          650,
+          545,
+          825
+        ]
+      },
+      {
+        "text": "6 → 7",
+        "bbox": [
+          327,
+          750,
+          429,
+          781
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 710,
+        "box": [
+          307,
+          650,
+          545,
+          825
+        ]
+      },
+      {
+        "text": "1",
+        "bbox": [
+          579,
+          670,
+          606,
+          705
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 268,
+        "box": [
+          559,
+          650,
+          797,
+          825
+        ]
+      },
+      {
+        "text": "7 → 8",
+        "bbox": [
+          579,
+          750,
+          681,
+          781
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 735,
+        "box": [
+          559,
+          650,
+          797,
+          825
+        ]
+      },
+      {
+        "text": "EOF",
+        "bbox": [
+          831,
+          670,
+          921,
+          707
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 1212,
+        "box": [
+          811,
+          650,
+          1049,
+          825
+        ]
+      },
+      {
+        "text": "8 → 8",
+        "bbox": [
+          831,
+          750,
+          933,
+          781
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 881,
+        "box": [
+          811,
+          650,
+          1049,
+          825
+        ]
+      },
+      {
+        "text": "区间含起点、不含终点；EOF 不占字符",
+        "bbox": [
+          65,
+          900,
+          749,
+          939
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8000,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/02-number.png",
+    "width": 1062,
+    "height": 875,
+    "minimum_font_px": 44,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "逐位十进制累积和遇非数字结束",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "读到第二位，为什么不是第二个数？",
+        "bbox": [
+          48,
+          40,
+          880,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 12231,
+        "box": null
+      },
+      {
+        "text": "读字符 1（位置 0）",
+        "bbox": [
+          65,
+          190,
+          476,
+          236
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5379,
+        "box": null
+      },
+      {
+        "text": "0 × 10 + 1 = 1",
+        "bbox": [
+          90,
+          280,
+          489,
+          329
+        ],
+        "font_px": 64,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3977,
+        "box": null
+      },
+      {
+        "text": "读字符 2（位置 1）",
+        "bbox": [
+          65,
+          420,
+          476,
+          466
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5303,
+        "box": null
+      },
+      {
+        "text": "1 × 10 + 2 = 12",
+        "bbox": [
+          90,
+          510,
+          524,
+          559
+        ],
+        "font_px": 64,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4474,
+        "box": null
+      },
+      {
+        "text": "接下来是 −：数字结束，减号留下",
+        "bbox": [
+          65,
+          690,
+          715,
+          733
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8823,
+        "box": null
+      },
+      {
+        "text": "交出一个 NUM，值为 12",
+        "bbox": [
+          65,
+          780,
+          584,
+          827
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6033,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/03-grammar.png",
+    "width": 1062,
+    "height": 1087,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "把文法层级、循环与括号递归关系合成源码结构图",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "每一层只接自己负责的运算",
+        "bbox": [
+          48,
+          40,
+          672,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10972,
+        "box": null
+      },
+      {
+        "text": "expr()",
+        "bbox": [
+          160,
+          200,
+          302,
+          255
+        ],
+        "font_px": 52,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 2003,
+        "box": [
+          125,
+          180,
+          960,
+          350
+        ]
+      },
+      {
+        "text": "term 后接若干 + 或 − 与 term",
+        "bbox": [
+          160,
+          280,
+          677,
+          318
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 5531,
+        "box": [
+          125,
+          180,
+          960,
+          350
+        ]
+      },
+      {
+        "text": "term()",
+        "bbox": [
+          160,
+          440,
+          311,
+          493
+        ],
+        "font_px": 52,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 2036,
+        "box": [
+          125,
+          420,
+          960,
+          590
+        ]
+      },
+      {
+        "text": "factor 后接若干 * 与 factor",
+        "bbox": [
+          160,
+          520,
+          633,
+          558
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 5295,
+        "box": [
+          125,
+          420,
+          960,
+          590
+        ]
+      },
+      {
+        "text": "factor()",
+        "bbox": [
+          160,
+          680,
+          337,
+          733
+        ],
+        "font_px": 52,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 2510,
+        "box": [
+          125,
+          660,
+          960,
+          830
+        ]
+      },
+      {
+        "text": "NUM，或 ( expr )",
+        "bbox": [
+          160,
+          760,
+          466,
+          803
+        ],
+        "font_px": 40,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 3123,
+        "box": [
+          125,
+          660,
+          960,
+          830
+        ]
+      },
+      {
+        "text": "左侧回边：括号内部重新调用 expr",
+        "bbox": [
+          125,
+          920,
+          767,
+          966
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9450,
+        "box": null
+      },
+      {
+        "text": "纵向箭头：按层调用；不是求值顺序",
+        "bbox": [
+          125,
+          1000,
+          765,
+          1039
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9022,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/04-trace.png",
+    "width": 1062,
+    "height": 1334,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "从实际调用事件展示初段识别12与交回减号",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "先进入，再带着子树返回",
+        "bbox": [
+          48,
+          40,
+          620,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9498,
+        "box": null
+      },
+      {
+        "text": "0  进入 expr",
+        "bbox": [
+          70,
+          180,
+          303,
+          227
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2622,
+        "box": null
+      },
+      {
+        "text": "游标 0",
+        "bbox": [
+          700,
+          180,
+          817,
+          220
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1762,
+        "box": null
+      },
+      {
+        "text": "1  进入 term",
+        "bbox": [
+          135,
+          295,
+          375,
+          336
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2515,
+        "box": null
+      },
+      {
+        "text": "游标 0",
+        "bbox": [
+          700,
+          295,
+          817,
+          335
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1762,
+        "box": null
+      },
+      {
+        "text": "2  进入 factor",
+        "bbox": [
+          200,
+          410,
+          463,
+          451
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2946,
+        "box": null
+      },
+      {
+        "text": "游标 0",
+        "bbox": [
+          700,
+          410,
+          817,
+          450
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1762,
+        "box": null
+      },
+      {
+        "text": "3  吃掉 12",
+        "bbox": [
+          200,
+          525,
+          391,
+          567
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2394,
+        "box": null
+      },
+      {
+        "text": "游标 0",
+        "bbox": [
+          700,
+          525,
+          817,
+          565
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1762,
+        "box": null
+      },
+      {
+        "text": "5  返回 factor",
+        "bbox": [
+          200,
+          640,
+          463,
+          681
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3431,
+        "box": null
+      },
+      {
+        "text": "游标 1",
+        "bbox": [
+          700,
+          640,
+          817,
+          680
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1649,
+        "box": null
+      },
+      {
+        "text": "6  返回 term",
+        "bbox": [
+          135,
+          755,
+          375,
+          796
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3116,
+        "box": null
+      },
+      {
+        "text": "游标 1",
+        "bbox": [
+          700,
+          755,
+          817,
+          795
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1649,
+        "box": null
+      },
+      {
+        "text": "7  吃掉 -",
+        "bbox": [
+          70,
+          870,
+          227,
+          912
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1794,
+        "box": null
+      },
+      {
+        "text": "游标 1",
+        "bbox": [
+          700,
+          870,
+          817,
+          910
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1649,
+        "box": null
+      },
+      {
+        "text": "8  进入 term",
+        "bbox": [
+          135,
+          985,
+          375,
+          1026
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2677,
+        "box": null
+      },
+      {
+        "text": "游标 2",
+        "bbox": [
+          700,
+          985,
+          817,
+          1025
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1711,
+        "box": null
+      },
+      {
+        "text": "缩进表示调用深度；游标只在吃掉后前移",
+        "bbox": [
+          65,
+          1160,
+          785,
+          1199
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10739,
+        "box": null
+      },
+      {
+        "text": "term 看见 − 就返回，交给 expr 处理",
+        "bbox": [
+          65,
+          1240,
+          735,
+          1286
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8607,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/05-build.png",
+    "width": 1062,
+    "height": 799,
+    "minimum_font_px": 42,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "保留实际AST逐次构建，解释优先级与左折叠",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "第 1 次运算节点构建：*",
+        "bbox": [
+          48,
+          40,
+          592,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8651,
+        "box": null
+      },
+      {
+        "text": "事件 18；当前 token：-",
+        "bbox": [
+          65,
+          170,
+          530,
+          213
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5195,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          146.6796875,
+          491,
+          173.6796875,
+          528
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 375,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          888.6796875,
+          491,
+          915.6796875,
+          527
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 352,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          519.7890625,
+          316,
+          541.7890625,
+          354
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 148,
+        "box": null
+      },
+      {
+        "text": "这棵子树求值为 6",
+        "bbox": [
+          65,
+          625,
+          438,
+          671
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6298,
+        "box": null
+      },
+      {
+        "text": "term 先构建乘法子树，再整棵交回",
+        "bbox": [
+          65,
+          710,
+          714,
+          751
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9569,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/06-build.png",
+    "width": 1062,
+    "height": 979,
+    "minimum_font_px": 42,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "保留实际AST逐次构建，解释优先级与左折叠",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "第 2 次运算节点构建：-",
+        "bbox": [
+          48,
+          40,
+          586,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8664,
+        "box": null
+      },
+      {
+        "text": "事件 20；当前 token：-",
+        "bbox": [
+          65,
+          170,
+          530,
+          213
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5226,
+        "box": null
+      },
+      {
+        "text": "12",
+        "bbox": [
+          133.359375,
+          491,
+          186.359375,
+          527
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 620,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          517.6796875,
+          666,
+          544.6796875,
+          703
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 375,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          888.6796875,
+          666,
+          915.6796875,
+          702
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 352,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          705.2890625,
+          491,
+          727.2890625,
+          529
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 148,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          429.921875,
+          316,
+          446.921875,
+          331
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "这棵子树求值为 6",
+        "bbox": [
+          65,
+          800,
+          438,
+          846
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6298,
+        "box": null
+      },
+      {
+        "text": "expr 把原来的 left 放到新节点左边",
+        "bbox": [
+          65,
+          885,
+          706,
+          931
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9216,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/07-build.png",
+    "width": 1062,
+    "height": 1149,
+    "minimum_font_px": 42,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "保留实际AST逐次构建，解释优先级与左折叠",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "第 3 次运算节点构建：-",
+        "bbox": [
+          48,
+          40,
+          586,
+          90
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8681,
+        "box": null
+      },
+      {
+        "text": "事件 28；当前 token：EOF",
+        "bbox": [
+          65,
+          170,
+          598,
+          213
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6232,
+        "box": null
+      },
+      {
+        "text": "12",
+        "bbox": [
+          133.359375,
+          666,
+          186.359375,
+          702
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 620,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          394.01302083333337,
+          841,
+          421.01302083333337,
+          878
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 375,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          641.3463541666667,
+          841,
+          668.3463541666667,
+          877
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 352,
+        "box": null
+      },
+      {
+        "text": "1",
+        "bbox": [
+          888.6796875,
+          491,
+          915.6796875,
+          526
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 268,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          519.7890625,
+          666,
+          541.7890625,
+          704
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 148,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          337.171875,
+          491,
+          354.171875,
+          506
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          615.421875,
+          316,
+          632.421875,
+          331
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "这棵子树求值为 5",
+        "bbox": [
+          65,
+          975,
+          438,
+          1021
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6245,
+        "box": null
+      },
+      {
+        "text": "再次使用整个 left；形成左结合",
+        "bbox": [
+          65,
+          1060,
+          643,
+          1101
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8142,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/08-parentheses.png",
+    "width": 1062,
+    "height": 1159,
+    "minimum_font_px": 42,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "对照括号如何改变AST归属与结果",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "括号让 factor 再进入一次 expr",
+        "bbox": [
+          48,
+          40,
+          748,
+          97
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9686,
+        "box": null
+      },
+      {
+        "text": "12-(3*2-1)",
+        "bbox": [
+          65,
+          180,
+          360,
+          245
+        ],
+        "font_px": 64,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3904,
+        "box": null
+      },
+      {
+        "text": "12",
+        "bbox": [
+          133.359375,
+          501,
+          186.359375,
+          537
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 620,
+        "box": null
+      },
+      {
+        "text": "3",
+        "bbox": [
+          394.01302083333337,
+          851,
+          421.01302083333337,
+          888
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 375,
+        "box": null
+      },
+      {
+        "text": "2",
+        "bbox": [
+          641.3463541666667,
+          851,
+          668.3463541666667,
+          887
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 352,
+        "box": null
+      },
+      {
+        "text": "1",
+        "bbox": [
+          888.6796875,
+          676,
+          915.6796875,
+          711
+        ],
+        "font_px": 48,
+        "contrast": 11.992994898629906,
+        "ink_pixels": 268,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          519.7890625,
+          676,
+          541.7890625,
+          714
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 148,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          708.171875,
+          501,
+          725.171875,
+          516
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "-",
+        "bbox": [
+          429.921875,
+          326,
+          446.921875,
+          341
+        ],
+        "font_px": 48,
+        "contrast": 10.974570943538332,
+        "ink_pixels": 52,
+        "box": null
+      },
+      {
+        "text": "内树求值：5；整式：7",
+        "bbox": [
+          65,
+          985,
+          550,
+          1032
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6385,
+        "box": null
+      },
+      {
+        "text": "括号影响树形，但不单独成为运算节点",
+        "bbox": [
+          65,
+          1070,
+          779,
+          1111
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10537,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/09-choice.png",
+    "width": 1062,
+    "height": 1114,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "将FIRST选择、循环退出与非法输入区分",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "看一个 token，怎样选路？",
+        "bbox": [
+          48,
+          40,
+          666,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8512,
+        "box": null
+      },
+      {
+        "text": "NUM",
+        "bbox": [
+          65,
+          180,
+          173,
+          216
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1567,
+        "box": null
+      },
+      {
+        "text": "factor：读一个整数",
+        "bbox": [
+          440,
+          180,
+          789,
+          219
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4034,
+        "box": null
+      },
+      {
+        "text": "(",
+        "bbox": [
+          65,
+          320,
+          81,
+          369
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 234,
+        "box": null
+      },
+      {
+        "text": "factor：读括号中的 expr",
+        "bbox": [
+          440,
+          320,
+          880,
+          363
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5132,
+        "box": null
+      },
+      {
+        "text": "*",
+        "bbox": [
+          65,
+          460,
+          87,
+          498
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 148,
+        "box": null
+      },
+      {
+        "text": "term：继续读一个 factor",
+        "bbox": [
+          440,
+          460,
+          887,
+          499
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4865,
+        "box": null
+      },
+      {
+        "text": "+ 或 −",
+        "bbox": [
+          65,
+          600,
+          188,
+          646
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1247,
+        "box": null
+      },
+      {
+        "text": "term：返回给 expr",
+        "bbox": [
+          440,
+          600,
+          781,
+          643
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3943,
+        "box": null
+      },
+      {
+        "text": ") 或 EOF",
+        "bbox": [
+          65,
+          740,
+          241,
+          791
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2390,
+        "box": null
+      },
+      {
+        "text": "expr：停止循环并返回",
+        "bbox": [
+          440,
+          740,
+          842,
+          783
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5197,
+        "box": null
+      },
+      {
+        "text": "以上选择都发生在对应的文法位置",
+        "bbox": [
+          65,
+          940,
+          695,
+          982
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9459,
+        "box": null
+      },
+      {
+        "text": "例如 factor 开头遇到 *，必须报错",
+        "bbox": [
+          65,
+          1025,
+          689,
+          1066
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8567,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/10-first-follow.png",
+    "width": 1062,
+    "height": 1159,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "由固定点计算结果展示FIRST/FOLLOW与空尾部选择",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "能开头，和能跟在后面，是两件事",
+        "bbox": [
+          48,
+          40,
+          828,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 13280,
+        "box": null
+      },
+      {
+        "text": "E / expr",
+        "bbox": [
+          65,
+          180,
+          240,
+          231
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1989,
+        "box": null
+      },
+      {
+        "text": "FIRST: (  NUM",
+        "bbox": [
+          65,
+          258,
+          324,
+          301
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2792,
+        "box": null
+      },
+      {
+        "text": "FOLLOW: )  EOF",
+        "bbox": [
+          65,
+          325,
+          364,
+          368
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3216,
+        "box": null
+      },
+      {
+        "text": "T / term",
+        "bbox": [
+          65,
+          400,
+          248,
+          449
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1945,
+        "box": null
+      },
+      {
+        "text": "FIRST: (  NUM",
+        "bbox": [
+          65,
+          478,
+          324,
+          521
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2792,
+        "box": null
+      },
+      {
+        "text": "FOLLOW: )  +  -  EOF",
+        "bbox": [
+          65,
+          545,
+          440,
+          588
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3395,
+        "box": null
+      },
+      {
+        "text": "F / factor",
+        "bbox": [
+          65,
+          620,
+          271,
+          669
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2349,
+        "box": null
+      },
+      {
+        "text": "FIRST: (  NUM",
+        "bbox": [
+          65,
+          698,
+          324,
+          741
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2792,
+        "box": null
+      },
+      {
+        "text": "FOLLOW: )  *  +  -  EOF",
+        "bbox": [
+          65,
+          765,
+          478,
+          808
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3512,
+        "box": null
+      },
+      {
+        "text": "R 是加减尾部： + T R | − T R | ε",
+        "bbox": [
+          65,
+          910,
+          605,
+          955
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5534,
+        "box": null
+      },
+      {
+        "text": "ε 不吃字符；只在 ) 或 EOF 时选择",
+        "bbox": [
+          65,
+          990,
+          688,
+          1034
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7790,
+        "box": null
+      },
+      {
+        "text": "EOF 是输入结束标记；ε 是空串",
+        "bbox": [
+          65,
+          1070,
+          646,
+          1111
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 7844,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/11-left-recursion.png",
+    "width": 1062,
+    "height": 1120,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "有界错误探针与改写文法并列说明左递归风险",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "还没吃字符，就又调用自己",
+        "bbox": [
+          48,
+          40,
+          672,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10363,
+        "box": null
+      },
+      {
+        "text": "错误直译：E → E − T | T",
+        "bbox": [
+          65,
+          180,
+          571,
+          235
+        ],
+        "font_px": 48,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5770,
+        "box": null
+      },
+      {
+        "text": "E 深度 0，游标 0",
+        "bbox": [
+          65,
+          280,
+          389,
+          323
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4429,
+        "box": null
+      },
+      {
+        "text": "E 深度 1，游标 0",
+        "bbox": [
+          155,
+          385,
+          479,
+          428
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4302,
+        "box": null
+      },
+      {
+        "text": "E 深度 2，游标 0",
+        "bbox": [
+          245,
+          490,
+          569,
+          533
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4368,
+        "box": null
+      },
+      {
+        "text": "E 深度 3，游标 0",
+        "bbox": [
+          335,
+          595,
+          659,
+          638
+        ],
+        "font_px": 44,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 4388,
+        "box": null
+      },
+      {
+        "text": "仅演示前四次进入；主动截断探针",
+        "bbox": [
+          65,
+          750,
+          665,
+          789
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 8303,
+        "box": null
+      },
+      {
+        "text": "改写：E → T { − T }",
+        "bbox": [
+          65,
+          850,
+          483,
+          902
+        ],
+        "font_px": 50,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3861,
+        "box": null
+      },
+      {
+        "text": "先读 T，再循环：left = (− left T)",
+        "bbox": [
+          65,
+          945,
+          661,
+          989
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 6361,
+        "box": null
+      },
+      {
+        "text": "消除左递归后，仍要检查选择冲突",
+        "bbox": [
+          65,
+          1030,
+          695,
+          1072
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9594,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/12-error-map.png",
+    "width": 1062,
+    "height": 1219,
+    "minimum_font_px": 40,
+    "identity": "原创机制图；数值与树来自实跑JSON",
+    "license": "CC-BY-4.0",
+    "purpose": "区分词法、缺操作数、尾部残留和缺右括号",
+    "data": "examples/results.json",
+    "geometry": "节点/边/步骤取自JSON；坐标和字号为版式常量，无数量轴",
+    "checks": [
+      "cmap",
+      "text-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-minimum",
+      "contrast",
+      "ink",
+      "line-text",
+      "dynamic-crop",
+      "PNG-size"
+    ],
+    "texts": [
+      {
+        "text": "程序拒绝的，是哪个位置？",
+        "bbox": [
+          48,
+          40,
+          672,
+          91
+        ],
+        "font_px": 52,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 10591,
+        "box": null
+      },
+      {
+        "text": "12@3",
+        "bbox": [
+          65,
+          180,
+          216,
+          234
+        ],
+        "font_px": 58,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2438,
+        "box": null
+      },
+      {
+        "text": "位置 2：遇到 @",
+        "bbox": [
+          65,
+          275,
+          371,
+          321
+        ],
+        "font_px": 44,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 4292,
+        "box": null
+      },
+      {
+        "text": "期待 数字、+ - * ( ) 或空白",
+        "bbox": [
+          65,
+          340,
+          521,
+          382
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 5084,
+        "box": null
+      },
+      {
+        "text": "12-3**2",
+        "bbox": [
+          65,
+          410,
+          268,
+          457
+        ],
+        "font_px": 58,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2447,
+        "box": null
+      },
+      {
+        "text": "位置 5：遇到 *",
+        "bbox": [
+          65,
+          505,
+          350,
+          547
+        ],
+        "font_px": 44,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 3810,
+        "box": null
+      },
+      {
+        "text": "期待 NUM 或 (",
+        "bbox": [
+          65,
+          570,
+          316,
+          612
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 3305,
+        "box": null
+      },
+      {
+        "text": "12 3",
+        "bbox": [
+          65,
+          640,
+          175,
+          685
+        ],
+        "font_px": 58,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1435,
+        "box": null
+      },
+      {
+        "text": "位置 3：遇到 NUM",
+        "bbox": [
+          65,
+          735,
+          428,
+          777
+        ],
+        "font_px": 44,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 5025,
+        "box": null
+      },
+      {
+        "text": "期待 EOF",
+        "bbox": [
+          65,
+          800,
+          229,
+          839
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 2224,
+        "box": null
+      },
+      {
+        "text": "(12-3",
+        "bbox": [
+          65,
+          870,
+          201,
+          929
+        ],
+        "font_px": 58,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1833,
+        "box": null
+      },
+      {
+        "text": "位置 5：遇到 EOF",
+        "bbox": [
+          65,
+          965,
+          412,
+          1007
+        ],
+        "font_px": 44,
+        "contrast": 7.559032170494891,
+        "ink_pixels": 4701,
+        "box": null
+      },
+      {
+        "text": "期待 )",
+        "bbox": [
+          65,
+          1030,
+          167,
+          1072
+        ],
+        "font_px": 40,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 1549,
+        "box": null
+      },
+      {
+        "text": "位置从零起算；EOF 定位在文本末尾",
+        "bbox": [
+          65,
+          1130,
+          741,
+          1171
+        ],
+        "font_px": 42,
+        "contrast": 13.25512970272645,
+        "ink_pixels": 9640,
+        "box": null
+      }
+    ]
+  },
+  {
+    "file": "assets/13-live-result.png",
+    "width": 1062,
+    "height": 1765,
+    "minimum_font_px": 40,
+    "identity": "真实Chromium截图；原创教学程序v1；Python3.12.14",
+    "license": "CC-BY-4.0",
+    "purpose": "Python实际解析成功：token与依创建顺序的运算节点",
+    "data": "实际HTTP POST /parse返回",
+    "checks": [
+      "live-browser",
+      "PNG-size",
+      "desktop-mobile-layout"
+    ],
+    "geometry": "浏览器真实渲染；不由绘图脚本重建"
+  },
+  {
+    "file": "assets/14-live-error.png",
+    "width": 1062,
+    "height": 1471,
+    "minimum_font_px": 40,
+    "identity": "真实Chromium截图；原创教学程序v1；Python3.12.14",
+    "license": "CC-BY-4.0",
+    "purpose": "Python实际错误：位置5的第二个乘号",
+    "data": "实际HTTP POST /parse返回",
+    "checks": [
+      "live-browser",
+      "PNG-size",
+      "desktop-mobile-layout"
+    ],
+    "geometry": "浏览器真实渲染；不由绘图脚本重建"
+  }
+]

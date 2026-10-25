@@ -1,0 +1,6054 @@
+{
+  "python": "3.12.14",
+  "runs": {
+    "12-3*2-1": {
+      "source": "12-3*2-1",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 7,
+          "end": 8
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 3,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 5,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 7,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "op": "*",
+          "left": 1,
+          "right": 2,
+          "value": null
+        },
+        {
+          "id": 4,
+          "op": "-",
+          "left": 0,
+          "right": 3,
+          "value": null
+        },
+        {
+          "id": 5,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 6,
+          "op": "-",
+          "left": 4,
+          "right": 5,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "-",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "3",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 12,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 13,
+          "action": "consume",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "consume",
+          "detail": "2",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 16,
+          "action": "build",
+          "detail": "NUM",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 18,
+          "action": "build",
+          "detail": "*",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "term",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 20,
+          "action": "build",
+          "detail": "-",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 21,
+          "action": "consume",
+          "detail": "-",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 22,
+          "action": "enter",
+          "detail": "term",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 23,
+          "action": "enter",
+          "detail": "factor",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 24,
+          "action": "consume",
+          "detail": "1",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 25,
+          "action": "build",
+          "detail": "NUM",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 26,
+          "action": "return",
+          "detail": "factor",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 27,
+          "action": "return",
+          "detail": "term",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 5
+        },
+        {
+          "step": 28,
+          "action": "build",
+          "detail": "-",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 29,
+          "action": "return",
+          "detail": "expr",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 30,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 7,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 6,
+      "values": [
+        12,
+        3,
+        2,
+        6,
+        6,
+        1,
+        5
+      ],
+      "value": 5
+    },
+    "12-(3*2-1)": {
+      "source": "12-(3*2-1)",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "(",
+          "value": null,
+          "text": "(",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 7,
+          "end": 8
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 8,
+          "end": 9
+        },
+        {
+          "kind": ")",
+          "value": null,
+          "text": ")",
+          "start": 9,
+          "end": 10
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 10,
+          "end": 10
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 4,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 6,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 8,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "op": "*",
+          "left": 1,
+          "right": 2,
+          "value": null
+        },
+        {
+          "id": 4,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 5,
+          "op": "-",
+          "left": 3,
+          "right": 4,
+          "value": null
+        },
+        {
+          "id": 6,
+          "op": "-",
+          "left": 0,
+          "right": 5,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "-",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "(",
+          "index": 2,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "enter",
+          "detail": "expr",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 12,
+          "action": "enter",
+          "detail": "term",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 13,
+          "action": "enter",
+          "detail": "factor",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "consume",
+          "detail": "3",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "build",
+          "detail": "NUM",
+          "index": 4,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 16,
+          "action": "return",
+          "detail": "factor",
+          "index": 4,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 17,
+          "action": "consume",
+          "detail": "*",
+          "index": 4,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 18,
+          "action": "enter",
+          "detail": "factor",
+          "index": 5,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 19,
+          "action": "consume",
+          "detail": "2",
+          "index": 5,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 20,
+          "action": "build",
+          "detail": "NUM",
+          "index": 6,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 21,
+          "action": "return",
+          "detail": "factor",
+          "index": 6,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 22,
+          "action": "build",
+          "detail": "*",
+          "index": 6,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 23,
+          "action": "return",
+          "detail": "term",
+          "index": 6,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 24,
+          "action": "consume",
+          "detail": "-",
+          "index": 6,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 25,
+          "action": "enter",
+          "detail": "term",
+          "index": 7,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 26,
+          "action": "enter",
+          "detail": "factor",
+          "index": 7,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 27,
+          "action": "consume",
+          "detail": "1",
+          "index": 7,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 28,
+          "action": "build",
+          "detail": "NUM",
+          "index": 8,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 4
+        },
+        {
+          "step": 29,
+          "action": "return",
+          "detail": "factor",
+          "index": 8,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 4
+        },
+        {
+          "step": 30,
+          "action": "return",
+          "detail": "term",
+          "index": 8,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 4
+        },
+        {
+          "step": 31,
+          "action": "build",
+          "detail": "-",
+          "index": 8,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 5
+        },
+        {
+          "step": 32,
+          "action": "return",
+          "detail": "expr",
+          "index": 8,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 5
+        },
+        {
+          "step": 33,
+          "action": "consume",
+          "detail": ")",
+          "index": 8,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 34,
+          "action": "return",
+          "detail": "factor",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 35,
+          "action": "return",
+          "detail": "term",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 5
+        },
+        {
+          "step": 36,
+          "action": "build",
+          "detail": "-",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 37,
+          "action": "return",
+          "detail": "expr",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 38,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 9,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 6,
+      "values": [
+        12,
+        3,
+        2,
+        6,
+        1,
+        5,
+        7
+      ],
+      "value": 7
+    },
+    "(12-3)*2-1": {
+      "source": "(12-3)*2-1",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "(",
+          "value": null,
+          "text": "(",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": ")",
+          "value": null,
+          "text": ")",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 7,
+          "end": 8
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 8,
+          "end": 9
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 9,
+          "end": 10
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 10,
+          "end": 10
+        }
+      ],
+      "digits": [
+        {
+          "pos": 1,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 2,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 4,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 7,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 9,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "-",
+          "left": 0,
+          "right": 1,
+          "value": null
+        },
+        {
+          "id": 3,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 4,
+          "op": "*",
+          "left": 2,
+          "right": 3,
+          "value": null
+        },
+        {
+          "id": 5,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 6,
+          "op": "-",
+          "left": 4,
+          "right": 5,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "(",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "enter",
+          "detail": "expr",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 5,
+          "action": "enter",
+          "detail": "term",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 6,
+          "action": "enter",
+          "detail": "factor",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "12",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "build",
+          "detail": "NUM",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 9,
+          "action": "return",
+          "detail": "factor",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 10,
+          "action": "return",
+          "detail": "term",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 11,
+          "action": "consume",
+          "detail": "-",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 12,
+          "action": "enter",
+          "detail": "term",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 13,
+          "action": "enter",
+          "detail": "factor",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "consume",
+          "detail": "3",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "build",
+          "detail": "NUM",
+          "index": 4,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 16,
+          "action": "return",
+          "detail": "factor",
+          "index": 4,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "term",
+          "index": 4,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 1
+        },
+        {
+          "step": 18,
+          "action": "build",
+          "detail": "-",
+          "index": 4,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 2
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "expr",
+          "index": 4,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 2
+        },
+        {
+          "step": 20,
+          "action": "consume",
+          "detail": ")",
+          "index": 4,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 21,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 22,
+          "action": "consume",
+          "detail": "*",
+          "index": 5,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 23,
+          "action": "enter",
+          "detail": "factor",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 24,
+          "action": "consume",
+          "detail": "2",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 25,
+          "action": "build",
+          "detail": "NUM",
+          "index": 7,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 26,
+          "action": "return",
+          "detail": "factor",
+          "index": 7,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 27,
+          "action": "build",
+          "detail": "*",
+          "index": 7,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 4
+        },
+        {
+          "step": 28,
+          "action": "return",
+          "detail": "term",
+          "index": 7,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 4
+        },
+        {
+          "step": 29,
+          "action": "consume",
+          "detail": "-",
+          "index": 7,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 30,
+          "action": "enter",
+          "detail": "term",
+          "index": 8,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 31,
+          "action": "enter",
+          "detail": "factor",
+          "index": 8,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 32,
+          "action": "consume",
+          "detail": "1",
+          "index": 8,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 33,
+          "action": "build",
+          "detail": "NUM",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 34,
+          "action": "return",
+          "detail": "factor",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 35,
+          "action": "return",
+          "detail": "term",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 5
+        },
+        {
+          "step": 36,
+          "action": "build",
+          "detail": "-",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 37,
+          "action": "return",
+          "detail": "expr",
+          "index": 9,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 38,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 9,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 6,
+      "values": [
+        12,
+        3,
+        9,
+        2,
+        18,
+        1,
+        17
+      ],
+      "value": 17
+    },
+    "12-3**2": {
+      "source": "12-3**2",
+      "ok": false,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 7,
+          "end": 7
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 3,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 6,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "-",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "3",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 12,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 13,
+          "action": "consume",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        }
+      ],
+      "error": {
+        "stage": "syntax",
+        "pos": 5,
+        "expected": "NUM 或 (",
+        "found": "*"
+      }
+    },
+    "12 3": {
+      "source": "12 3",
+      "ok": false,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 4,
+          "end": 4
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 3,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "return",
+          "detail": "expr",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": 0
+        }
+      ],
+      "error": {
+        "stage": "syntax",
+        "pos": 3,
+        "expected": "EOF",
+        "found": "NUM"
+      }
+    },
+    "(12-3": {
+      "source": "(12-3",
+      "ok": false,
+      "tokens": [
+        {
+          "kind": "(",
+          "value": null,
+          "text": "(",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 5,
+          "end": 5
+        }
+      ],
+      "digits": [
+        {
+          "pos": 1,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 2,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 4,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "-",
+          "left": 0,
+          "right": 1,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "(",
+          "index": 0,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "enter",
+          "detail": "expr",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 5,
+          "action": "enter",
+          "detail": "term",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 6,
+          "action": "enter",
+          "detail": "factor",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "12",
+          "index": 1,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "build",
+          "detail": "NUM",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 9,
+          "action": "return",
+          "detail": "factor",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 10,
+          "action": "return",
+          "detail": "term",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 11,
+          "action": "consume",
+          "detail": "-",
+          "index": 2,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 12,
+          "action": "enter",
+          "detail": "term",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 13,
+          "action": "enter",
+          "detail": "factor",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "consume",
+          "detail": "3",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "build",
+          "detail": "NUM",
+          "index": 4,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 16,
+          "action": "return",
+          "detail": "factor",
+          "index": 4,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "term",
+          "index": 4,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 1
+        },
+        {
+          "step": 18,
+          "action": "build",
+          "detail": "-",
+          "index": 4,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 2
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "expr",
+          "index": 4,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 2
+        }
+      ],
+      "error": {
+        "stage": "syntax",
+        "pos": 5,
+        "expected": ")",
+        "found": "EOF"
+      }
+    },
+    "12@3": {
+      "source": "12@3",
+      "ok": false,
+      "tokens": [],
+      "digits": [],
+      "nodes": [],
+      "events": [],
+      "error": {
+        "stage": "lex",
+        "pos": 2,
+        "expected": "数字、+ - * ( ) 或空白",
+        "found": "@"
+      }
+    },
+    "": {
+      "source": "",
+      "ok": false,
+      "tokens": [
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 0,
+          "end": 0
+        }
+      ],
+      "digits": [],
+      "nodes": [],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        }
+      ],
+      "error": {
+        "stage": "syntax",
+        "pos": 0,
+        "expected": "NUM 或 (",
+        "found": "EOF"
+      }
+    },
+    "-2": {
+      "source": "-2",
+      "ok": false,
+      "tokens": [
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 1,
+          "end": 2
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 2,
+          "end": 2
+        }
+      ],
+      "digits": [
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        }
+      ],
+      "nodes": [],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        }
+      ],
+      "error": {
+        "stage": "syntax",
+        "pos": 0,
+        "expected": "NUM 或 (",
+        "found": "-"
+      }
+    },
+    " 12 - 3 * 2 - 1 ": {
+      "source": " 12 - 3 * 2 - 1 ",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 8,
+          "end": 9
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 10,
+          "end": 11
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 12,
+          "end": 13
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 14,
+          "end": 15
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 16,
+          "end": 16
+        }
+      ],
+      "digits": [
+        {
+          "pos": 1,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 2,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 6,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 10,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 14,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "op": "*",
+          "left": 1,
+          "right": 2,
+          "value": null
+        },
+        {
+          "id": 4,
+          "op": "-",
+          "left": 0,
+          "right": 3,
+          "value": null
+        },
+        {
+          "id": 5,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 6,
+          "op": "-",
+          "left": 4,
+          "right": 5,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "-",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "3",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 12,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 13,
+          "action": "consume",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "consume",
+          "detail": "2",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 16,
+          "action": "build",
+          "detail": "NUM",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 18,
+          "action": "build",
+          "detail": "*",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "term",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 20,
+          "action": "build",
+          "detail": "-",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 21,
+          "action": "consume",
+          "detail": "-",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 22,
+          "action": "enter",
+          "detail": "term",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 23,
+          "action": "enter",
+          "detail": "factor",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 24,
+          "action": "consume",
+          "detail": "1",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 25,
+          "action": "build",
+          "detail": "NUM",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 26,
+          "action": "return",
+          "detail": "factor",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 27,
+          "action": "return",
+          "detail": "term",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 5
+        },
+        {
+          "step": 28,
+          "action": "build",
+          "detail": "-",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 29,
+          "action": "return",
+          "detail": "expr",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 30,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 7,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 6,
+      "values": [
+        12,
+        3,
+        2,
+        6,
+        6,
+        1,
+        5
+      ],
+      "value": 5
+    },
+    "1+2*3": {
+      "source": "1+2*3",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "+",
+          "value": null,
+          "text": "+",
+          "start": 1,
+          "end": 2
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 5,
+          "end": 5
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 2,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 4,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 2,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 3,
+          "op": "*",
+          "left": 1,
+          "right": 2,
+          "value": null
+        },
+        {
+          "id": 4,
+          "op": "+",
+          "left": 0,
+          "right": 3,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "1",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "+",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "2",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 12,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 13,
+          "action": "consume",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "consume",
+          "detail": "3",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 16,
+          "action": "build",
+          "detail": "NUM",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 18,
+          "action": "build",
+          "detail": "*",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "term",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 20,
+          "action": "build",
+          "detail": "+",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 21,
+          "action": "return",
+          "detail": "expr",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 22,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 5,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 4,
+      "values": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "value": 7
+    },
+    "2*3*4": {
+      "source": "2*3*4",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 1,
+          "end": 2
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "NUM",
+          "value": 4,
+          "text": "4",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 5,
+          "end": 5
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 2,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 4,
+          "digit": 4,
+          "before": 0,
+          "after": 4
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "*",
+          "left": 0,
+          "right": 1,
+          "value": null
+        },
+        {
+          "id": 3,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 4
+        },
+        {
+          "id": 4,
+          "op": "*",
+          "left": 2,
+          "right": 3,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "2",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "consume",
+          "detail": "*",
+          "index": 1,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 7,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "consume",
+          "detail": "3",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 10,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 2
+        },
+        {
+          "step": 12,
+          "action": "consume",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 13,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "consume",
+          "detail": "4",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "build",
+          "detail": "NUM",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 16,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 17,
+          "action": "build",
+          "detail": "*",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 4
+        },
+        {
+          "step": 18,
+          "action": "return",
+          "detail": "term",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 4
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "expr",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 20,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 5,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 4,
+      "values": [
+        2,
+        3,
+        6,
+        4,
+        24
+      ],
+      "value": 24
+    },
+    "12-6-1": {
+      "source": "12-6-1",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "NUM",
+          "value": 6,
+          "text": "6",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 6,
+          "end": 6
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 3,
+          "digit": 6,
+          "before": 0,
+          "after": 6
+        },
+        {
+          "pos": 5,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 6
+        },
+        {
+          "id": 2,
+          "op": "-",
+          "left": 0,
+          "right": 1,
+          "value": null
+        },
+        {
+          "id": 3,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 4,
+          "op": "-",
+          "left": 2,
+          "right": 3,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "-",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "6",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 12,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 13,
+          "action": "return",
+          "detail": "term",
+          "index": 3,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 1
+        },
+        {
+          "step": 14,
+          "action": "build",
+          "detail": "-",
+          "index": 3,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": 2
+        },
+        {
+          "step": 15,
+          "action": "consume",
+          "detail": "-",
+          "index": 3,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 16,
+          "action": "enter",
+          "detail": "term",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 17,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 18,
+          "action": "consume",
+          "detail": "1",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 19,
+          "action": "build",
+          "detail": "NUM",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 20,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 21,
+          "action": "return",
+          "detail": "term",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 22,
+          "action": "build",
+          "detail": "-",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 23,
+          "action": "return",
+          "detail": "expr",
+          "index": 5,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 24,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 5,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 4,
+      "values": [
+        12,
+        6,
+        6,
+        1,
+        5
+      ],
+      "value": 5
+    },
+    "12-(6-1)": {
+      "source": "12-(6-1)",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "(",
+          "value": null,
+          "text": "(",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "NUM",
+          "value": 6,
+          "text": "6",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": ")",
+          "value": null,
+          "text": ")",
+          "start": 7,
+          "end": 8
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 4,
+          "digit": 6,
+          "before": 0,
+          "after": 6
+        },
+        {
+          "pos": 6,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 6
+        },
+        {
+          "id": 2,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 3,
+          "op": "-",
+          "left": 1,
+          "right": 2,
+          "value": null
+        },
+        {
+          "id": 4,
+          "op": "-",
+          "left": 0,
+          "right": 3,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "-",
+          "index": 1,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "(",
+          "index": 2,
+          "look": "(",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "enter",
+          "detail": "expr",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 12,
+          "action": "enter",
+          "detail": "term",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 13,
+          "action": "enter",
+          "detail": "factor",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "consume",
+          "detail": "6",
+          "index": 3,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "build",
+          "detail": "NUM",
+          "index": 4,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 16,
+          "action": "return",
+          "detail": "factor",
+          "index": 4,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "term",
+          "index": 4,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 1
+        },
+        {
+          "step": 18,
+          "action": "consume",
+          "detail": "-",
+          "index": 4,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 19,
+          "action": "enter",
+          "detail": "term",
+          "index": 5,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 20,
+          "action": "enter",
+          "detail": "factor",
+          "index": 5,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 21,
+          "action": "consume",
+          "detail": "1",
+          "index": 5,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 22,
+          "action": "build",
+          "detail": "NUM",
+          "index": 6,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 23,
+          "action": "return",
+          "detail": "factor",
+          "index": 6,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 24,
+          "action": "return",
+          "detail": "term",
+          "index": 6,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr",
+            "term"
+          ],
+          "node": 2
+        },
+        {
+          "step": 25,
+          "action": "build",
+          "detail": "-",
+          "index": 6,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 3
+        },
+        {
+          "step": 26,
+          "action": "return",
+          "detail": "expr",
+          "index": 6,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor",
+            "expr"
+          ],
+          "node": 3
+        },
+        {
+          "step": 27,
+          "action": "consume",
+          "detail": ")",
+          "index": 6,
+          "look": ")",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 28,
+          "action": "return",
+          "detail": "factor",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 3
+        },
+        {
+          "step": 29,
+          "action": "return",
+          "detail": "term",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 30,
+          "action": "build",
+          "detail": "-",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 31,
+          "action": "return",
+          "detail": "expr",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 32,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 7,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 4,
+      "values": [
+        12,
+        6,
+        1,
+        5,
+        7
+      ],
+      "value": 7
+    },
+    "12+3*2-1": {
+      "source": "12+3*2-1",
+      "ok": true,
+      "tokens": [
+        {
+          "kind": "NUM",
+          "value": 12,
+          "text": "12",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "+",
+          "value": null,
+          "text": "+",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "NUM",
+          "value": 3,
+          "text": "3",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "*",
+          "value": null,
+          "text": "*",
+          "start": 4,
+          "end": 5
+        },
+        {
+          "kind": "NUM",
+          "value": 2,
+          "text": "2",
+          "start": 5,
+          "end": 6
+        },
+        {
+          "kind": "-",
+          "value": null,
+          "text": "-",
+          "start": 6,
+          "end": 7
+        },
+        {
+          "kind": "NUM",
+          "value": 1,
+          "text": "1",
+          "start": 7,
+          "end": 8
+        },
+        {
+          "kind": "EOF",
+          "value": null,
+          "text": "",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "digits": [
+        {
+          "pos": 0,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "pos": 1,
+          "digit": 2,
+          "before": 1,
+          "after": 12
+        },
+        {
+          "pos": 3,
+          "digit": 3,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "pos": 5,
+          "digit": 2,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "pos": 7,
+          "digit": 1,
+          "before": 0,
+          "after": 1
+        }
+      ],
+      "nodes": [
+        {
+          "id": 0,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 12
+        },
+        {
+          "id": 1,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 3
+        },
+        {
+          "id": 2,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 2
+        },
+        {
+          "id": 3,
+          "op": "*",
+          "left": 1,
+          "right": 2,
+          "value": null
+        },
+        {
+          "id": 4,
+          "op": "+",
+          "left": 0,
+          "right": 3,
+          "value": null
+        },
+        {
+          "id": 5,
+          "op": "NUM",
+          "left": null,
+          "right": null,
+          "value": 1
+        },
+        {
+          "id": 6,
+          "op": "-",
+          "left": 4,
+          "right": 5,
+          "value": null
+        }
+      ],
+      "events": [
+        {
+          "step": 0,
+          "action": "enter",
+          "detail": "expr",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 1,
+          "action": "enter",
+          "detail": "term",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 2,
+          "action": "enter",
+          "detail": "factor",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 3,
+          "action": "consume",
+          "detail": "12",
+          "index": 0,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 4,
+          "action": "build",
+          "detail": "NUM",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 5,
+          "action": "return",
+          "detail": "factor",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 0
+        },
+        {
+          "step": 6,
+          "action": "return",
+          "detail": "term",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 0
+        },
+        {
+          "step": 7,
+          "action": "consume",
+          "detail": "+",
+          "index": 1,
+          "look": "+",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 8,
+          "action": "enter",
+          "detail": "term",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 9,
+          "action": "enter",
+          "detail": "factor",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 10,
+          "action": "consume",
+          "detail": "3",
+          "index": 2,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 11,
+          "action": "build",
+          "detail": "NUM",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 12,
+          "action": "return",
+          "detail": "factor",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 1
+        },
+        {
+          "step": 13,
+          "action": "consume",
+          "detail": "*",
+          "index": 3,
+          "look": "*",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 14,
+          "action": "enter",
+          "detail": "factor",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 15,
+          "action": "consume",
+          "detail": "2",
+          "index": 4,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 16,
+          "action": "build",
+          "detail": "NUM",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 17,
+          "action": "return",
+          "detail": "factor",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 2
+        },
+        {
+          "step": 18,
+          "action": "build",
+          "detail": "*",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 19,
+          "action": "return",
+          "detail": "term",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 3
+        },
+        {
+          "step": 20,
+          "action": "build",
+          "detail": "+",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": 4
+        },
+        {
+          "step": 21,
+          "action": "consume",
+          "detail": "-",
+          "index": 5,
+          "look": "-",
+          "stack": [
+            "expr"
+          ],
+          "node": null
+        },
+        {
+          "step": 22,
+          "action": "enter",
+          "detail": "term",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": null
+        },
+        {
+          "step": 23,
+          "action": "enter",
+          "detail": "factor",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 24,
+          "action": "consume",
+          "detail": "1",
+          "index": 6,
+          "look": "NUM",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": null
+        },
+        {
+          "step": 25,
+          "action": "build",
+          "detail": "NUM",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 26,
+          "action": "return",
+          "detail": "factor",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term",
+            "factor"
+          ],
+          "node": 5
+        },
+        {
+          "step": 27,
+          "action": "return",
+          "detail": "term",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr",
+            "term"
+          ],
+          "node": 5
+        },
+        {
+          "step": 28,
+          "action": "build",
+          "detail": "-",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 29,
+          "action": "return",
+          "detail": "expr",
+          "index": 7,
+          "look": "EOF",
+          "stack": [
+            "expr"
+          ],
+          "node": 6
+        },
+        {
+          "step": 30,
+          "action": "consume",
+          "detail": "EOF",
+          "index": 7,
+          "look": "EOF",
+          "stack": [],
+          "node": null
+        }
+      ],
+      "root": 6,
+      "values": [
+        12,
+        3,
+        2,
+        6,
+        18,
+        1,
+        17
+      ],
+      "value": 17
+    }
+  },
+  "sets": {
+    "grammar": {
+      "S": [
+        [
+          "E",
+          "EOF"
+        ]
+      ],
+      "E": [
+        [
+          "T",
+          "R"
+        ]
+      ],
+      "R": [
+        [
+          "+",
+          "T",
+          "R"
+        ],
+        [
+          "-",
+          "T",
+          "R"
+        ],
+        []
+      ],
+      "T": [
+        [
+          "F",
+          "Q"
+        ]
+      ],
+      "Q": [
+        [
+          "*",
+          "F",
+          "Q"
+        ],
+        []
+      ],
+      "F": [
+        [
+          "NUM"
+        ],
+        [
+          "(",
+          "E",
+          ")"
+        ]
+      ]
+    },
+    "first": {
+      "S": [
+        "(",
+        "NUM"
+      ],
+      "E": [
+        "(",
+        "NUM"
+      ],
+      "R": [
+        "+",
+        "-",
+        "epsilon"
+      ],
+      "T": [
+        "(",
+        "NUM"
+      ],
+      "Q": [
+        "*",
+        "epsilon"
+      ],
+      "F": [
+        "(",
+        "NUM"
+      ]
+    },
+    "follow": {
+      "S": [
+        "END"
+      ],
+      "E": [
+        ")",
+        "EOF"
+      ],
+      "R": [
+        ")",
+        "EOF"
+      ],
+      "T": [
+        ")",
+        "+",
+        "-",
+        "EOF"
+      ],
+      "Q": [
+        ")",
+        "+",
+        "-",
+        "EOF"
+      ],
+      "F": [
+        ")",
+        "*",
+        "+",
+        "-",
+        "EOF"
+      ]
+    },
+    "select": {
+      "S": [
+        {
+          "rhs": [
+            "E",
+            "EOF"
+          ],
+          "look": [
+            "(",
+            "NUM"
+          ]
+        }
+      ],
+      "E": [
+        {
+          "rhs": [
+            "T",
+            "R"
+          ],
+          "look": [
+            "(",
+            "NUM"
+          ]
+        }
+      ],
+      "R": [
+        {
+          "rhs": [
+            "+",
+            "T",
+            "R"
+          ],
+          "look": [
+            "+"
+          ]
+        },
+        {
+          "rhs": [
+            "-",
+            "T",
+            "R"
+          ],
+          "look": [
+            "-"
+          ]
+        },
+        {
+          "rhs": [],
+          "look": [
+            ")",
+            "EOF"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "rhs": [
+            "F",
+            "Q"
+          ],
+          "look": [
+            "(",
+            "NUM"
+          ]
+        }
+      ],
+      "Q": [
+        {
+          "rhs": [
+            "*",
+            "F",
+            "Q"
+          ],
+          "look": [
+            "*"
+          ]
+        },
+        {
+          "rhs": [],
+          "look": [
+            ")",
+            "+",
+            "-",
+            "EOF"
+          ]
+        }
+      ],
+      "F": [
+        {
+          "rhs": [
+            "NUM"
+          ],
+          "look": [
+            "NUM"
+          ]
+        },
+        {
+          "rhs": [
+            "(",
+            "E",
+            ")"
+          ],
+          "look": [
+            "("
+          ]
+        }
+      ]
+    }
+  },
+  "checks": {
+    "exhaustive_count": 9331,
+    "valid_count": 45,
+    "alphabet": "1+-*()",
+    "max_length": 5,
+    "limits": {
+      "((((((((((((((((((((((((((((((((1))))))))))))))))))))))))))))))))": true,
+      "(((((((((((((((((((((((((((((((((1)))))))))))))))))))))))))))))))))": false,
+      "111111111": true,
+      "1111111111": false,
+      "                                                                                                                                                                                                                                                                ": false,
+      "                                                                                                                                                                                                                                                                 ": false
+    }
+  },
+  "left_recursion": [
+    {
+      "depth": 0,
+      "index": 0
+    },
+    {
+      "depth": 1,
+      "index": 0
+    },
+    {
+      "depth": 2,
+      "index": 0
+    },
+    {
+      "depth": 3,
+      "index": 0
+    }
+  ]
+}

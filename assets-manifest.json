@@ -26570,6 +26570,116 @@
     "sha256": "f09dc3a0158c04efe6878030ec2788b97fda7be7882331ffb13f5fe3460aa053"
   },
   {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/00-cover.png",
+    "bytes": 61645,
+    "sha256": "d32d9539b39eeefa2d4b3e8d9ac9cac549eb8842efb6dc9f07b2bd9c1cfed6c4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/01-tokens.png",
+    "bytes": 64667,
+    "sha256": "1f5b6e5ba1a802e411171b2c6b1b40cd18d8de0e8d613a22e41d7db0f81a3bd3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/02-number.png",
+    "bytes": 71002,
+    "sha256": "41db8bd3415928a42ccd21a71655c2c15fe4f658cdbd4b9ff2ac1868b4fa8176"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/03-grammar.png",
+    "bytes": 84693,
+    "sha256": "a7dcbb46c07db7bfedfdaac7d2b0d475158687fac44b14b67c0dcaedff878295"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/04-trace.png",
+    "bytes": 120001,
+    "sha256": "2828fa1c822558c28679712bd344895b162141cb316dff620152897a39937c07"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/05-build.png",
+    "bytes": 58895,
+    "sha256": "e2be19f48a1e4a7826e4de8481694c4290d9b2e77e5110a24195a64a05e40b73"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/06-build.png",
+    "bytes": 62146,
+    "sha256": "a0dc3d74ba61e871e84b90cd19af7592763f39941fb50824356f195f0a6e5d35"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/07-build.png",
+    "bytes": 66562,
+    "sha256": "145a1c6cc52f4d6e53f0027057c417dd88d8b44ebc6dd2636c6029e1cd81586f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/08-parentheses.png",
+    "bytes": 64558,
+    "sha256": "92d2fa336fedc5cb9e236111d82f51abd01858195b2ee4424917e795072d6fb7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/09-choice.png",
+    "bytes": 105942,
+    "sha256": "e72f3de9dd264793e4b88625f8a73b27c980e51865d3c40a2c605ca4ddbb94bf"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/10-first-follow.png",
+    "bytes": 89023,
+    "sha256": "58fa5a581140f342e64791da75fde6c9c640e2bd24a925cf901a4fb6ccb287dc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/11-left-recursion.png",
+    "bytes": 106178,
+    "sha256": "90b907ae674f536f250d78021cc58ae0c851c1d896ad6e23227fbaa1a0ac8a7a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/12-error-map.png",
+    "bytes": 97746,
+    "sha256": "34a8592c2b5e273aa000fa8cd6f860eec8d8a97e50b23cd78bb29b05ce3f85c0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/13-live-result.png",
+    "bytes": 161315,
+    "sha256": "6d5708b730a4e03fec5b7bea4b4b704279b031a5f59c9101540000fc5ba09c7c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/assets/14-live-error.png",
+    "bytes": 129087,
+    "sha256": "33c65eee7ea5530ab588e0e285f64f3bcb39d1acd81a0730c45f69675700217d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/build_figures.py",
+    "bytes": 11462,
+    "sha256": "fe9afead5d2dffabc148c039ddeee3109cf63b37a8f5da77882cbbdbe716b933"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/experiment.py",
+    "bytes": 4511,
+    "sha256": "5ebcb8b021381cd0d1a1ab681c9b41a793f05431a18d3347c0d1976a2c1b09c6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/figure-metadata.json",
+    "bytes": 53713,
+    "sha256": "7e1a74a0ed03f3e8a04501b1bc0644c356ac87c71fb3189590d5caa718e41dfb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/parser.py",
+    "bytes": 4836,
+    "sha256": "4beb28941d8dc4e3facd140653234791b16674852cea17425ff8eee5eee0ee7e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/results.json",
+    "bytes": 117487,
+    "sha256": "2374c645a4e04d68f2bdbf86ddee13238d9d9be1f6abeb24d41bf724992075cc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/server.py",
+    "bytes": 1914,
+    "sha256": "33329513228a14f26e13d8cedd4bce9047f87c643830851eaa85f5a79e7c6939"
+  },
+  {
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/examples/viewer.html",
+    "bytes": 4188,
+    "sha256": "ec488afb27b59c7161478d08001de8a0e6fa94641e8caac4e60715f1f60b0dfb"
+  },
+  {
     "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/00-cover.png",
     "bytes": 73260,
     "sha256": "8539df3a9795bdad87ad6814996b1285f39a7b82de9fe8153a257b5539293302"

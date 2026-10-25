@@ -3028,6 +3028,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-wirth-recursive-descent",
+    "title": "一行算式，怎样长成一棵树？沿着 Wirth 的递归下降走完一次解析",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-wirth-recursive-descent/read.md",
+    "public_sha256": "6b7bb303681bd7789c782583ddbc1b4c1359ba0509180b84591c657829241945",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-z-transform-recurrence",
     "title": "Z 变换与递推：上一拍还没忘掉，怎样一次看清整条响应？",
     "date": "2026-10-25",
