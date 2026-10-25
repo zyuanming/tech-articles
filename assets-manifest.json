@@ -24925,6 +24925,146 @@
     "sha256": "c2e52fab41d2798e4f4b18b5a6d9670c696ea24e3b58027d92ec49fe8674b5a4"
   },
   {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/00-cover.png",
+    "bytes": 48069,
+    "sha256": "a7ad74a636b505475822a394ba84d788a988a16752dc908e64bf2b95274bd324"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/01-steps.png",
+    "bytes": 128058,
+    "sha256": "0c02d4b7b474be42b3175469c733614f20193cbf4bef32395708abfc3298a679"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/02-snell.png",
+    "bytes": 89662,
+    "sha256": "b8b3feb46b32091849485167608d72f648c89451be07cd77b06c87979063a1ed"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/03-rays.png",
+    "bytes": 73321,
+    "sha256": "a310f26dd0e478dd35319dd23cf93647b1e9efe3a5c4ad6a2344fa93467ee756"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/04-translation.png",
+    "bytes": 70846,
+    "sha256": "edb96271c267189a05ec15c5b6def2629c47a76d5aa7d6543e58c211dd97a2ad"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/05-sphere.png",
+    "bytes": 76504,
+    "sha256": "d73c7a74fc45c5c74299bbaebe60c337da61b330a0427a921be022f0e18bac40"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/06-zone.png",
+    "bytes": 85245,
+    "sha256": "1bd0346bb41f92986cf8163e3cd6705d95208c464550542fb24a1c2293af1b26"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/07-pitch.png",
+    "bytes": 70452,
+    "sha256": "7b8f23c888f5fac68f076537aea85bfcde826b2190b7c43f8bc5efea401528eb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/08-edges.png",
+    "bytes": 117294,
+    "sha256": "b6006fbf37229a303452873e191a68aede588267b8bd475c49112b643566cb7e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/09-dispersion.png",
+    "bytes": 81879,
+    "sha256": "aae187f9ef485ea836ce5a2a95e5c54621160e7072ddf374094ab290c55ba315"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/10-loss.png",
+    "bytes": 93592,
+    "sha256": "34ddd4daa7bcce1a5b9e6a281aaf1e08fd4abf58dbe43e4a8b2652fed6b859a1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/11-reverse.png",
+    "bytes": 65919,
+    "sha256": "783cff42cc081bf8c02cef6272d4a59f2d8610bdb12c3347bc6369c37b639422"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/12-imaging.png",
+    "bytes": 70346,
+    "sha256": "56dd7d514e734a1bc2196546fe8c5cd960d0cab23b75d962cac0a1338aa04a7c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/assets/13-ring-section.png",
+    "bytes": 86772,
+    "sha256": "55bfd42f04bfed0d8e1cad3d4ec59b89abdeb727cec7ac3367ffc0171d3fe697"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/examples/build_figures.py",
+    "bytes": 12309,
+    "sha256": "c77571c3fff0d3add5927962df10989563dffd338727be1b90ebe566490cd25c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/examples/figure-metadata.json",
+    "bytes": 9918,
+    "sha256": "8d8669e1dcb3b18d7270f9a031d882ef010e636195dc16ab09b8c25b01dd6dae"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/examples/figure_canvas.py",
+    "bytes": 2972,
+    "sha256": "8807499dcc5feb2e083ad22ec2542450874cc1e455bec5d6727c1a2ced9e9bc4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/examples/results.json",
+    "bytes": 90343,
+    "sha256": "15de1fe9c431ddd8b6d6c6428319c1d55882d9f569ff8c33332c030f0c66ad85"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/examples/trace.py",
+    "bytes": 3566,
+    "sha256": "adb0db972eb6650da8552213468e1704e652603e711197342e98c5bcf981445b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/LICENSE-June-Glasses-GPL-3.0.txt",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photo-manifest.json",
+    "bytes": 2875,
+    "sha256": "873a11539665ba252d19a3397797fc804314c559e810953a63b07e7886cee8a1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-cardboard-2.jpg",
+    "bytes": 477629,
+    "sha256": "f7fd71e4aa3d57dbf136a65ff7068f532109d4d82e0e28afe39cf260e09ac4da"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-device-2.jpg",
+    "bytes": 451241,
+    "sha256": "c034782d88c8627daf91b6246ce9047fc830eafd9239ddc3d3fe796c3eede0cd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-device-3.jpg",
+    "bytes": 511647,
+    "sha256": "96a6366f2cde1694f9e8003dd6f90b05b19990164c106c3d9a7d56e9cbb690c0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-hud-2.jpg",
+    "bytes": 494053,
+    "sha256": "51d959aa3e94980f68f7072342bfa292ff3b7dcec2ab337f9c0feb91ac3855d7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-hud-4.jpg",
+    "bytes": 193619,
+    "sha256": "09fdfc03cb27201a6e5332f06acac3c386385d511f9c68ac3e540ac7cd08d6ce"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-hud-6.jpg",
+    "bytes": 226317,
+    "sha256": "0d93b1c239a8d85431d6702bd91bb38fa4c1092684f5a68360cc9c0f55ed6027"
+  },
+  {
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/originals/photos/june-making-2.jpg",
+    "bytes": 395927,
+    "sha256": "3aaae4dd1ae4173ee977d991d03f6a21728832ea736d710ec045fb344e86c585"
+  },
+  {
     "path": "articles/2026-10-25-r1-hoare-csp-rendezvous/assets/00-cover.png",
     "bytes": 66662,
     "sha256": "a42b0b17050d8b2e1c5a371c2a8fdffded33576c2b39e71aea1674ba64c3240b"

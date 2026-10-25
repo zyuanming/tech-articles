@@ -1,0 +1,79 @@
+[
+  {
+    "original": "cardboard(2).jpg",
+    "file": "originals/photos/june-cardboard-2.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 2400,
+    "height": 1800,
+    "bytes": 477629,
+    "sha256": "f7fd71e4aa3d57dbf136a65ff7068f532109d4d82e0e28afe39cf260e09ac4da",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  },
+  {
+    "original": "making(2).jpg",
+    "file": "originals/photos/june-making-2.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 2400,
+    "height": 1800,
+    "bytes": 395927,
+    "sha256": "3aaae4dd1ae4173ee977d991d03f6a21728832ea736d710ec045fb344e86c585",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  },
+  {
+    "original": "device(2).jpg",
+    "file": "originals/photos/june-device-2.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 2400,
+    "height": 1800,
+    "bytes": 451241,
+    "sha256": "c034782d88c8627daf91b6246ce9047fc830eafd9239ddc3d3fe796c3eede0cd",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  },
+  {
+    "original": "device(3).jpg",
+    "file": "originals/photos/june-device-3.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 2400,
+    "height": 1800,
+    "bytes": 511647,
+    "sha256": "96a6366f2cde1694f9e8003dd6f90b05b19990164c106c3d9a7d56e9cbb690c0",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  },
+  {
+    "original": "hud(2).jpg",
+    "file": "originals/photos/june-hud-2.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 1799,
+    "height": 2399,
+    "bytes": 494053,
+    "sha256": "51d959aa3e94980f68f7072342bfa292ff3b7dcec2ab337f9c0feb91ac3855d7",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  },
+  {
+    "original": "hud(4).jpg",
+    "file": "originals/photos/june-hud-4.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 1800,
+    "height": 1375,
+    "bytes": 193619,
+    "sha256": "09fdfc03cb27201a6e5332f06acac3c386385d511f9c68ac3e540ac7cd08d6ce",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  },
+  {
+    "original": "hud(6).jpg",
+    "file": "originals/photos/june-hud-6.jpg",
+    "source_commit": "5cb0a0e185b1e890d7701af918ed61c152dd4a54",
+    "width": 1665,
+    "height": 1260,
+    "bytes": 226317,
+    "sha256": "0d93b1c239a8d85431d6702bd91bb38fa4c1092684f5a68360cc9c0f55ed6027",
+    "changes": "none; filename changed only",
+    "license": "GNU GPL v3; project-documentation scope inference"
+  }
+]

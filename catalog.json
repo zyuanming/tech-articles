@@ -2896,6 +2896,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-fresnel-stepped-lens",
+    "title": "把一块厚透镜切成一圈圈，为什么还能聚光？Fresnel 透镜保留的是面朝哪里",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-fresnel-stepped-lens/read.md",
+    "public_sha256": "f6c13699c9713cd4c43347255cd7b10b01a089ad29347de85d7d46e56c8e5429",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-hoare-csp-rendezvous",
     "title": "发送已经开始，为什么还没完成？从 Hoare CSP 看两个进程怎样会合",
     "date": "2026-10-25",

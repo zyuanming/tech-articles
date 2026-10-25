@@ -1,0 +1,359 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 937,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "独立封面：各高度光线向同一焦点转向",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-steps.png",
+    "width": 1062,
+    "height": 1517,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "连续面分区、分离、平移的三步概念图；不表示实际光程不变",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-snell.png",
+    "width": 1062,
+    "height": 1036,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "同一r40光线的入射角、出射角与向轴偏转角",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-rays.png",
+    "width": 1062,
+    "height": 1342,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "半径越大所需转向越大；逐半径实际Snell计算",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-translation.png",
+    "width": 1062,
+    "height": 1047,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "反例：保留局部法线仅保方向，轴向位置改变仍会改变截点",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-sphere.png",
+    "width": 1062,
+    "height": 1147,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "另一个明确曲面模型：同近轴焦距不保证边缘焦点相同",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-zone.png",
+    "width": 1062,
+    "height": 1197,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "一条平斜面内光束不能全交一点；残差由实跑算出",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-pitch.png",
+    "width": 1062,
+    "height": 1117,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "共轴绘出不同槽距产生的焦面径向几何残差范围",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-edges.png",
+    "width": 1062,
+    "height": 1137,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "槽缘宽度固定时的局部占比反例，非实机效率",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-dispersion.png",
+    "width": 1062,
+    "height": 1177,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "固定斜面、改变n的实际重算，分清材料色散与阶梯",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-loss.png",
+    "width": 1062,
+    "height": 1167,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "用实际界面Fresnel反射公式核双表面首程透过率",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-reverse.png",
+    "width": 1062,
+    "height": 1497,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "同一路径的聚光与准直互逆，灯塔目标与聚光相连",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-imaging.png",
+    "width": 1062,
+    "height": 1027,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "有限物距例子解释成像需要点到点对应，不只是总收光",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-ring-section.png",
+    "width": 1062,
+    "height": 1307,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创几何光学教学图；非实机照片/实测",
+    "purpose": "同心环正面与局部工作面/槽壁截面的身份对应",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "originals/photos/june-cardboard-2.jpg",
+    "width": 2400,
+    "height": 1800,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  },
+  {
+    "file": "originals/photos/june-device-2.jpg",
+    "width": 2400,
+    "height": 1800,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  },
+  {
+    "file": "originals/photos/june-device-3.jpg",
+    "width": 2400,
+    "height": 1800,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  },
+  {
+    "file": "originals/photos/june-hud-2.jpg",
+    "width": 1799,
+    "height": 2399,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  },
+  {
+    "file": "originals/photos/june-hud-4.jpg",
+    "width": 1800,
+    "height": 1375,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  },
+  {
+    "file": "originals/photos/june-hud-6.jpg",
+    "width": 1665,
+    "height": 1260,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  },
+  {
+    "file": "originals/photos/june-making-2.jpg",
+    "width": 2400,
+    "height": 1800,
+    "min_font_px": null,
+    "identity": "June Glasses 第一方项目原照片；GPL v3；字节未修改",
+    "purpose": "实物、装配或相机记录的光学效果，详见图注",
+    "checks": [
+      "original-bytes-kept",
+      "actual-dimensions"
+    ],
+    "font_exception": "原照片内固有内容，不是原创教学标注"
+  }
+]
