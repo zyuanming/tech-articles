@@ -1,0 +1,550 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1176,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "原数、三个余数通道与有范围的重建关系",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-division.png",
+    "width": 1062,
+    "height": 1268,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "同一整数的三次实际分组和余数含义",
+    "numeric_geometry": [
+      {
+        "kind": "division-groups",
+        "source": "main.division",
+        "objects": 23
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-sieve.png",
+    "width": 1062,
+    "height": 1348,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "列全首轮35个候选及后两次真实筛选",
+    "numeric_geometry": [
+      {
+        "kind": "candidate-filter",
+        "source": "main.filters",
+        "stage_counts": [
+          35,
+          7,
+          1
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-period.png",
+    "width": 1062,
+    "height": 890,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "同余类的真实等距数轴与共同周期",
+    "numeric_geometry": [
+      {
+        "kind": "numberline",
+        "range": [
+          -92,
+          243
+        ],
+        "marks": [
+          -82,
+          23,
+          128,
+          233
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-isolate-channel.png",
+    "width": 1062,
+    "height": 1113,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "隔离其他模通道，再把目标通道的余数校准成1",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-inverse.png",
+    "width": 1062,
+    "height": 1162,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "完整小余数乘法表说明模逆与普通倒数区别",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-euclid-backsub.png",
+    "width": 1062,
+    "height": 1312,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "一次完整欧几里得除法和回代建立模逆",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-basis.png",
+    "width": 1062,
+    "height": 1368,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "完整选择基矩阵和各自乘积来源",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-weighted.png",
+    "width": 1062,
+    "height": 1236,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "逐通道核实加权贡献与总和满足全部条件",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-normalize.png",
+    "width": 1062,
+    "height": 852,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "共轴长度把总和拆成完整周期与最小非负代表",
+    "numeric_geometry": [
+      {
+        "kind": "shared-scale-sum",
+        "segments": [
+          105,
+          105,
+          23
+        ],
+        "pixels_per_unit": 3.8626609442060085
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-uniqueness.png",
+    "width": 1062,
+    "height": 1186,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "从相同余数到差为共同周期倍数的证明结构",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-bijection.png",
+    "width": 1062,
+    "height": 2571,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "所有105余数组合的完整可视化检验，非缩略抽样",
+    "numeric_geometry": [
+      {
+        "kind": "exhaustive-bijection",
+        "source": "main.all_rows",
+        "items": 105
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-centered.png",
+    "width": 1062,
+    "height": 1162,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "非负与对称代表的不同区间及相同余数",
+    "numeric_geometry": [
+      {
+        "kind": "numberline",
+        "range": [
+          0,
+          104
+        ],
+        "marks": [
+          0,
+          52,
+          88,
+          104
+        ]
+      },
+      {
+        "kind": "numberline",
+        "range": [
+          -52,
+          52
+        ],
+        "marks": [
+          -52,
+          -17,
+          0,
+          52
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-compatible.png",
+    "width": 1062,
+    "height": 1294,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "非互素相容系统的完整一个周期候选交集",
+    "numeric_geometry": [
+      {
+        "kind": "noncoprime-candidate-grid",
+        "source": "noncoprime[0]"
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-incompatible.png",
+    "width": 1062,
+    "height": 1219,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "非互素冲突是共同因子上的信息矛盾",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-merge-trace.png",
+    "width": 1062,
+    "height": 1566,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "贯穿例从2mod3到8mod15再到23mod105的实际合并",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-general-merge.png",
+    "width": 1062,
+    "height": 1097,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "非互素合并的一次完整约化、模逆及最小周期",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-modular-calculation.png",
+    "width": 1062,
+    "height": 1374,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "实际整数表达式在三个小模通道的计算与重建",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/18-bound.png",
+    "width": 1062,
+    "height": 1092,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "有符号重建的事前界与模数积不足的实际混淆",
+    "numeric_geometry": [
+      {
+        "kind": "numberline",
+        "range": [
+          -200,
+          200
+        ],
+        "marks": [
+          -100,
+          0,
+          100
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/19-bad-residue.png",
+    "width": 1062,
+    "height": 1237,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "输入错误沿选择基传播，区分一致重建与错误检测",
+    "numeric_geometry": [
+      {
+        "kind": "numberline",
+        "range": [
+          0,
+          60
+        ],
+        "marks": [
+          23,
+          44
+        ]
+      }
+    ],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/20-overflow.png",
+    "width": 1062,
+    "height": 1077,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创精确整数算法图或教学示意；执行数值来自 results.json",
+    "purpose": "实际可复算的定宽中间值回绕与错误模结果",
+    "numeric_geometry": [],
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/21-live-report.png",
+    "width": 1062,
+    "height": 1784,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "默认Chromium localhost真实只读教学报告截图，不是SymPy官方界面",
+    "purpose": "实际执行的CRT/SymPy对照、无解判断和有符号重建",
+    "numeric_geometry": "报告读数直接读取results.json；无数量编码条形",
+    "checks": [
+      "browser-1062-and-354",
+      "document-overflow",
+      "text-bounds",
+      "font-size",
+      "glyph-cmap",
+      "PNG-ink",
+      "actual-dimensions",
+      "actual-output-readings"
+    ],
+    "manual_checks_required": [
+      "contrast",
+      "text-overlap",
+      "phone-scale-glyphs"
+    ]
+  }
+]

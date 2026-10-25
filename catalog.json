@@ -2808,6 +2808,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-chinese-remainder-reconstruction",
+    "title": "中国剩余定理：只留下几次除法的余数，怎样把原数合回来？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/read.md",
+    "public_sha256": "31a1b698b5fd3d6199ced5f7cd7398a55d87e19f8b30cd7070a4e1cf087ea28c",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-count-min-sketch-frequency",
     "title": "Count-Min Sketch：只留一张小表，怎样估计一个键出现了几次？",
     "date": "2026-10-25",

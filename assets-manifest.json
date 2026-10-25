@@ -23960,6 +23960,156 @@
     "sha256": "b8e5eb85c43f9264c481bd55d1f465bf8ad8bad74fc53547d681ab62aa7cb902"
   },
   {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/00-cover.png",
+    "bytes": 76463,
+    "sha256": "3d376b5e6f92cb7a6d8537dcc3177f33b570f3784474b83aa1e41b036d0ca5fe"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/01-division.png",
+    "bytes": 88752,
+    "sha256": "bc30e002ba4ae965708fd294cbb073b8d436333002a15be37f6506bdb7fd7df2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/02-sieve.png",
+    "bytes": 140872,
+    "sha256": "6ec1ab5707ebd1903eff81af44c2f5298e48483169f22666871d2957defce35b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/03-period.png",
+    "bytes": 87939,
+    "sha256": "ec11492e07b20e6bf16c60cd5885294155870e4a2948f8f87cfda49ba5e8e37f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/04-isolate-channel.png",
+    "bytes": 97646,
+    "sha256": "6373b597b97515a5d2f57bc382b0c4265c835f638d028d9bcdc943c6c24f0123"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/05-inverse.png",
+    "bytes": 110369,
+    "sha256": "20ab052e13d0593f5dfb1641bd7c744e9a6df356aba7b884746aa47e036165ac"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/06-euclid-backsub.png",
+    "bytes": 105033,
+    "sha256": "60a20d0706963396e56b78a3945def07af7b884cd30a785e35951a15a017b7cb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/07-basis.png",
+    "bytes": 83425,
+    "sha256": "8e68e668258a24b54b0dcf66728962e78f1e81a43ce2d64fe1a33eaef7748287"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/08-weighted.png",
+    "bytes": 95162,
+    "sha256": "8a851e01d18af168c59c4e8f6ab2014d15606de325ebf5ccabf16e3f0b311562"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/09-normalize.png",
+    "bytes": 81259,
+    "sha256": "3a2136cc3937fc6b97e8848ed0871c90512a2f7fe9b7e9503ffbbcc1e5a5f954"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/10-uniqueness.png",
+    "bytes": 102780,
+    "sha256": "7924ec5c65bce913b91ed1a9b11730ce9c4616b9d7ab3569df86efa7834a544c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/11-bijection.png",
+    "bytes": 244155,
+    "sha256": "80daab82f08ab0c86b187702c9730d125ae72325ac403a1c4b772645936936cf"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/12-centered.png",
+    "bytes": 107585,
+    "sha256": "a6f7bba96ba3c939c54a8a0735fa5d12a78f2935d60e6c323ff0fcb788b75850"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/13-compatible.png",
+    "bytes": 116035,
+    "sha256": "62b03b6a63b6d7bb9b762e2e4809ee97e1ba919d08ab12c2ad731909d9882b47"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/14-incompatible.png",
+    "bytes": 116817,
+    "sha256": "218b6572900ac95f4adcec9ae0a2ac228250cd922e2f30e3b4677f1405f54060"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/15-merge-trace.png",
+    "bytes": 99186,
+    "sha256": "31b9bc20b96948774dc04915a7931ecef688146c61efea3a6d47f05b70c72db4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/16-general-merge.png",
+    "bytes": 133081,
+    "sha256": "df8e6dbac6e12d262c2886ad2135d12ba3763ff6dddabc53d3a42a5659380d33"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/17-modular-calculation.png",
+    "bytes": 138441,
+    "sha256": "42757675b135c2598cd69ebea4d4fc7ccfa96206412b7a7ca7bbc28778cfe642"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/18-bound.png",
+    "bytes": 142270,
+    "sha256": "1bc248e9d398ac0e80d947e462606c749d9f92db0a1c47887b87af7e58e44cd7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/19-bad-residue.png",
+    "bytes": 121228,
+    "sha256": "65a73ab8921ac7349ad281d75da3263790db23130c51d64499b10287e9b3622a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/20-overflow.png",
+    "bytes": 142614,
+    "sha256": "8686469d25efe76835e9a8ed0041ef744a25745d3eaf1ecba9b1e5f5580516de"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/assets/21-live-report.png",
+    "bytes": 188441,
+    "sha256": "d2fdc78daf5e7a30b3d85c5346da0fe7940247cb8986b3105c20a739432d23d8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/build_figures.py",
+    "bytes": 15531,
+    "sha256": "1c4297ebd7bc84fc7d8ba659491d2e863507cbacf64777cc33e4b3b6bdfcc66c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/capture_report.py",
+    "bytes": 3354,
+    "sha256": "91d2fad61ffbaac5e2cc1f8f07d14a9effd2477b2550ba29aba5b82fbd63f2ec"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/crt_exact.py",
+    "bytes": 2957,
+    "sha256": "c351ff7b427e08182b4dcf7936fdbd05fa7cb5b21ac26e343dc5a858e1fa4af0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/figure-metadata.json",
+    "bytes": 13540,
+    "sha256": "b463080a797e7333b2a47bbf0cbc21b5de71c0c52c46d37613f87a350e76ec88"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/figure_canvas.py",
+    "bytes": 4340,
+    "sha256": "72dbed755de8eb267e7e098829a96350ac65e2588decb408b91477e5818a74d4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/report.html",
+    "bytes": 2422,
+    "sha256": "1dabad61f3e5e16507e8d9d225cd9699e42544e796b3a2efc6fc20b1e3996537"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/results.json",
+    "bytes": 16595,
+    "sha256": "3a9ab783a496003063fe126c852bbbea9b7f280bf0322cf44394a52cb74f2c25"
+  },
+  {
+    "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/examples/run_examples.py",
+    "bytes": 5698,
+    "sha256": "a1908c9276892e60a0cb192fabd2b7d67fc996608298db3c949c190da422e9b1"
+  },
+  {
     "path": "articles/2026-10-25-r1-count-min-sketch-frequency/assets/00-cover.png",
     "bytes": 93417,
     "sha256": "4d9fda974e1b0b88b4d2890769aceb435dc0d23cc57e873a844bc79052894e6d"

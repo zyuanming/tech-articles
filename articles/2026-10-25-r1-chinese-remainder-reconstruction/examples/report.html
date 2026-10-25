@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>余数重建：实际计算报告</title><style>
+*{box-sizing:border-box}body{margin:0;padding:48px;background:#f8fafc;color:#142d42;font:40px/1.55 "Noto Sans CJK SC",sans-serif}h1{font-size:50px;margin:0 0 20px}h2{font-size:44px;margin:35px 0 10px}p{margin:18px 0}table{border-collapse:collapse;width:100%;table-layout:fixed}th,td{font-size:40px;text-align:left;padding:12px 8px;border-bottom:2px solid #b4c7d5}small{display:block;font-size:40px;margin-top:30px}strong{color:#166c57}.panel{padding:24px;border-left:8px solid #176297;background:#e4eef6;margin:24px 0}@media(max-width:600px){body{font-size:18px;padding:16px}h1{font-size:24px}h2{font-size:21px}th,td,small{font-size:17px;padding:9px 3px}.panel{padding:12px;border-left-width:4px}}
+</style><body><h1>余数重建 · 实际计算报告</h1><p>Python 精确整数实现；读取本次执行生成的 JSON。</p><h2>三组条件的输出</h2><p>① 模3/5/7，余2/3/2<br>② 模6/8，余2/6<br>③ 模6/8，余2/3</p><table><thead><tr><th>条件</th><th>非负代表</th><th>周期</th></tr></thead><tbody id="results"></tbody></table><div class="panel"><h2>有符号整数计算</h2><p id="calc"></p><p id="decode"></p></div><h2>独立核验</h2><p id="brute"></p><p id="cas"></p><p id="versions"></p><small>本文只读教学报告，不是 SymPy 官方界面。刷新只重新读取结果，不会运行 Python。</small><script>
+fetch('results.json').then(r=>r.json()).then(d=>{
+const tr=(label,x,m)=>`<tr><td>${label}</td><td>${x}</td><td>${m}</td></tr>`;
+document.querySelector('#results').innerHTML=tr('①',d.main.x,d.main.M)+tr('②',d.noncoprime[0].result[0],d.noncoprime[0].result[1])+tr('③','无解','—');
+const c=d.calculation;document.querySelector('#calc').textContent=`${c.A} × ${c.B} − ${c.C} = ${c.value}`;
+document.querySelector('#decode').textContent=`模5/7/11重建为 ${c.raw}；居中代表 ${c.centered}。`;
+document.querySelector('#brute').textContent=`小模数穷举：${d.verification.exhaustive_pairs} 组一致`;
+document.querySelector('#cas').textContent=`SymPy 独立对照：${d.verification.cas_checks} 组一致`;
+document.querySelector('#versions').textContent=`Python ${d.versions.python}；SymPy ${d.versions.sympy}`;
+document.body.dataset.ready='true';});
+</script></body></html>
