@@ -1,0 +1,199 @@
+{
+  "license": "CC0-1.0",
+  "environment": {
+    "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+    "system": "Linux",
+    "machine": "x86_64",
+    "standard": "C11",
+    "flags": [
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic-errors",
+      "-fdiagnostics-color=never"
+    ]
+  },
+  "values": {
+    "stdc": 201112,
+    "char_bit": 8,
+    "samples": [
+      10,
+      20,
+      30
+    ],
+    "grid": [
+      [
+        10,
+        20,
+        30
+      ],
+      [
+        40,
+        50,
+        60
+      ]
+    ],
+    "links_indices": [
+      2,
+      0,
+      1
+    ],
+    "links_values": [
+      30,
+      10,
+      20
+    ],
+    "sample_count": 3,
+    "int_bytes": 4,
+    "array_bytes": 12,
+    "pointer_bytes": 8,
+    "links_bytes": 24,
+    "row_pointer_bytes": 8,
+    "row_bytes": 12,
+    "param_bytes": 8,
+    "grid_param_row_bytes": 12,
+    "p_step_elements": 1,
+    "p_step_bytes": 4,
+    "rows_step_rows": 1,
+    "rows_step_bytes": 12,
+    "element_step_bytes": 4,
+    "element_next_value": 20,
+    "p_next_value": 20,
+    "rows_next_first": 40,
+    "row_second": 20,
+    "pick_index": 1,
+    "pick_value": 20,
+    "reader_value": 20,
+    "value_pointer_result": 20,
+    "function_param_value": 20,
+    "const_pointer_write": 11
+  },
+  "compile": {
+    "command": [
+      "gcc",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-pedantic-errors",
+      "-fdiagnostics-color=never",
+      "main.c",
+      "-o",
+      "demo"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "main.c: In function 'param_size':\nmain.c:14:19: warning: 'sizeof' on array function parameter 'a' will return size of 'int *' [-Wsizeof-array-argument]\n   14 |     return sizeof a;\n      |                   ^\nmain.c:12:30: note: declared here\n   12 | static size_t param_size(int a[3])\n      |                          ~~~~^~~~\n"
+  },
+  "execution": {
+    "command": [
+      "./demo"
+    ],
+    "returncode": 0,
+    "stdout": "{\n\"stdc\":201112,\n\"char_bit\":8,\n\"samples\":[10,20,30],\n\"grid\":[[10,20,30],[40,50,60]],\n\"links_indices\":[2,0,1],\n\"links_values\":[30,10,20],\n\"sample_count\":3,\n\"int_bytes\":4,\n\"array_bytes\":12,\n\"pointer_bytes\":8,\n\"links_bytes\":24,\n\"row_pointer_bytes\":8,\n\"row_bytes\":12,\n\"param_bytes\":8,\n\"grid_param_row_bytes\":12,\n\"p_step_elements\":1,\n\"p_step_bytes\":4,\n\"rows_step_rows\":1,\n\"rows_step_bytes\":12,\n\"element_step_bytes\":4,\n\"element_next_value\":20,\n\"p_next_value\":20,\n\"rows_next_first\":40,\n\"row_second\":20,\n\"pick_index\":1,\n\"pick_value\":20,\n\"reader_value\":20,\n\"value_pointer_result\":20,\n\"function_param_value\":20,\n\"const_pointer_write\":11\n}\n",
+    "stderr": ""
+  },
+  "negative_cases": {
+    "wrong_row": {
+      "source": "int main(void) {\n  int a[3]={10,20,30};\n  int (*row)[3]=a;\n  return (*row)[1];\n}\n",
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "-fdiagnostics-color=never",
+        "-Werror",
+        "-fsyntax-only",
+        "wrong_row.c"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "wrong_row.c: In function 'main':\nwrong_row.c:3:17: error: initialization of 'int (*)[3]' from incompatible pointer type 'int *' [-Wincompatible-pointer-types]\n    3 |   int (*row)[3]=a;\n      |                 ^\n"
+    },
+    "call_integer_pointer": {
+      "source": "int main(void) {\n  int a=20; int *p=&a;\n  return p(1);\n}\n",
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "-fdiagnostics-color=never",
+        "-Werror",
+        "-fsyntax-only",
+        "call_integer_pointer.c"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "call_integer_pointer.c: In function 'main':\ncall_integer_pointer.c:3:10: error: called object 'p' is not a function or function pointer\n    3 |   return p(1);\n      |          ^\ncall_integer_pointer.c:2:18: note: declared here\n    2 |   int a=20; int *p=&a;\n      |                  ^\n"
+    },
+    "function_returns_array": {
+      "source": "int bad(void)[3];\n",
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "-fdiagnostics-color=never",
+        "-Werror",
+        "-fsyntax-only",
+        "function_returns_array.c"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "function_returns_array.c:1:5: error: 'bad' declared as function returning an array\n    1 | int bad(void)[3];\n      |     ^~~\n"
+    },
+    "array_of_functions": {
+      "source": "int bad[3](void);\n",
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "-fdiagnostics-color=never",
+        "-Werror",
+        "-fsyntax-only",
+        "array_of_functions.c"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "array_of_functions.c:1:5: error: declaration of 'bad' as array of functions\n    1 | int bad[3](void);\n      |     ^~~\n"
+    },
+    "const_pointer_reassign": {
+      "source": "typedef int *IntPtr;\nint main(void) {\n  int a[3]={10,20,30};\n  const IntPtr p=a;\n  p=a+1;\n  return *p;\n}\n",
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "-fdiagnostics-color=never",
+        "-Werror",
+        "-fsyntax-only",
+        "const_pointer_reassign.c"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "const_pointer_reassign.c: In function 'main':\nconst_pointer_reassign.c:5:4: error: assignment of read-only variable 'p'\n    5 |   p=a+1;\n      |    ^\n"
+    },
+    "const_pointee_write": {
+      "source": "int main(void) {\n  int a[3]={10,20,30};\n  const int *p=a;\n  *p=11;\n  return *p;\n}\n",
+      "command": [
+        "gcc",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic-errors",
+        "-fdiagnostics-color=never",
+        "-Werror",
+        "-fsyntax-only",
+        "const_pointee_write.c"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "const_pointee_write.c: In function 'main':\nconst_pointee_write.c:4:5: error: assignment of read-only location '*p'\n    4 |   *p=11;\n      |     ^\n"
+    }
+  }
+}

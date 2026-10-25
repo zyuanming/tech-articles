@@ -25750,6 +25750,116 @@
     "sha256": "b25fa9e1844758b4140a69af1b63e24c2628492377dab6aa81bc2313812ea85d"
   },
   {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/00-cover.png",
+    "bytes": 51078,
+    "sha256": "e91a4d8e7a834b5caff31336c6c621ac095ad0d3d57d5bc927907fd6050b8b4e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/01-object.png",
+    "bytes": 85994,
+    "sha256": "6832f7df1f2d4adf5b5edba9ea9f6ae1dfd19eca7e182654943f69b83b8eb807"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/02-build.png",
+    "bytes": 90870,
+    "sha256": "a158fdeeaf8b6b5978a3f1b8b8ff93d671003219f34e2c7eb4dea16281a82a83"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/03-binding.png",
+    "bytes": 92502,
+    "sha256": "177961f5048cb2c14f343378f2236974fba0186182eb799ef11a790e74e6ecdd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/04-links.png",
+    "bytes": 74949,
+    "sha256": "648d21833f60d2443e8f2a4c35388afdca207f0ae33856ba47f9e1feef7cd379"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/05-row.png",
+    "bytes": 86307,
+    "sha256": "d83ebdcea566a84f63c3bb2ad32200e919cebf7eff7b587c350255880ca32939"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/06-steps.png",
+    "bytes": 101953,
+    "sha256": "05daff73db11d5ff5290247655928e2e24dba73058a461bc7117fb40d169a8ef"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/07-functions.png",
+    "bytes": 96308,
+    "sha256": "3930453856a9afc11c1542478f6cfab6582f1973e0d3f54d4fb58fa3d4ce3926"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/07b-reader-type.png",
+    "bytes": 96653,
+    "sha256": "a9281d5b70d54a6949700813cd56380abb590cb16eba2f9a6f211fe01c44e6ce"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/08-reader.png",
+    "bytes": 82445,
+    "sha256": "c2567f7f66b1ecc293b4cd4e7abb4c2bd1fd444a08abb6bf0c869ced077892d0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/09-sizes.png",
+    "bytes": 98679,
+    "sha256": "9095dce54e0921d8fdb217196fb1b61c895fae73d42249faa9b4021d9d2348a4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/10-parameters.png",
+    "bytes": 95782,
+    "sha256": "54ee124f1ff4d0e5a4d362e70e84aa9aab5cff36d163a80bdb249f1dd9c85d35"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/11-typedef.png",
+    "bytes": 100916,
+    "sha256": "a7dabd1c8f65a572961ce318c805e7db42a92879269d343b5fafe8e123398552"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/12-run-report.png",
+    "bytes": 218401,
+    "sha256": "9471995da554c19ad897ec4560969210911fea88a1be9acfd1e097b70a9e2320"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/13-wrong-row.png",
+    "bytes": 208580,
+    "sha256": "556e4719536240b1b4c71e533ea60bdd7ce794cde6a5378e61d0349ca2c1b7c1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/assets/14-illegal-return.png",
+    "bytes": 168470,
+    "sha256": "ee2b8a610484daaa9a092401872abb12415fd625b9c2279de4ba29fa8b57382b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/examples/build_figures.py",
+    "bytes": 14337,
+    "sha256": "0655cc1bdbe80baa1e5391a0fb8dc5aee0b62c86d35861630a83d4019216acaa"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/examples/experiment.py",
+    "bytes": 3035,
+    "sha256": "db8f2c85eaeb01024d7b023b6abe472eab53cdae81bbe3670ab62dfb5a3620fb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/examples/figure-metadata.json",
+    "bytes": 50304,
+    "sha256": "9b450fb619b84a8f02f75adcfbf22471bea8d655116d33f00f26dbf958df92d1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/examples/main.c",
+    "bytes": 3311,
+    "sha256": "739aa47bb8038f611c368de886a7cf6977570952bd0dcdd9d4d328d9f8db26bd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/examples/results.json",
+    "bytes": 6311,
+    "sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/examples/viewer.html",
+    "bytes": 3884,
+    "sha256": "567625fd7d4b5d3ebdd2aae948d968cb66885d83d718dfe37fa3557f6d1467c1"
+  },
+  {
     "path": "articles/2026-10-25-r1-srgb-linear-light/assets/00-cover.png",
     "bytes": 65949,
     "sha256": "ed5e44080d05c1225c0d197ed70bdd4b306d4d3c886be3e647ece7814148ce3f"

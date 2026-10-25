@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C11 实验记录查看器</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f4eb;color:#182b3d;font:42px/1.45 "Noto Sans CJK SC",sans-serif}main{padding:42px;max-width:1062px;margin:auto}h1{font-size:52px;margin:0 0 25px}h2{font-size:46px;margin:28px 0 16px}p{margin:16px 0}select{font:inherit;width:100%;padding:14px;background:white;color:#182b3d;border:3px solid #12637a}pre{font:40px/1.45 "DejaVu Sans Mono",monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#e0eee8;padding:24px;margin:16px 0}table{width:100%;border-collapse:collapse}td{padding:12px 6px;border-bottom:2px solid #adb9b9}td:last-child{text-align:right} .id{border-left:7px solid #12637a;padding-left:22px}.error{color:#873f3f}code{overflow-wrap:anywhere}button{font:inherit} @media(max-width:600px){body{font-size:16px}main{padding:16px}h1{font-size:24px}h2{font-size:20px}pre{font-size:15px;padding:12px}select{padding:8px}}
+</style>
+<main><h1>C11 实验记录查看器</h1>
+<p class="id">读取已实际编译运行的 results.json。选项用于查看记录，不在浏览器内重新编译。</p>
+<label for="mode">查看样例</label><select id="mode">
+<option value="success">成功：同一个采样值</option>
+<option value="wrong_row">拒绝：错误的数组指针</option>
+<option value="function_returns_array">拒绝：函数直接返回数组</option>
+<option value="array_of_functions">拒绝：把函数放进数组</option>
+<option value="call_integer_pointer">拒绝：把数据指针当函数</option>
+<option value="const_pointer_reassign">拒绝：修改 const 指针</option>
+<option value="const_pointee_write">拒绝：经 const int * 写入</option>
+</select><section id="content" aria-live="polite">读取中……</section></main>
+<script>
+const content=document.querySelector('#content'), mode=document.querySelector('#mode');
+let data;
+const el=(tag,text)=>{const x=document.createElement(tag);x.textContent=text;return x;};
+function draw(){
+ content.replaceChildren();
+ content.append(el('p',data.environment.compiler),el('p',data.environment.system+' / '+data.environment.machine+' / '+data.environment.standard));
+ if(mode.value==='success'){
+  content.append(el('h2','编译和运行均退出 0'));
+  content.append(el('pre','gcc -std=c11 -Wall -Wextra\n  -pedantic-errors main.c\n  -o demo\n./demo'));
+  content.append(el('p','上方为命令换行展示；另加关闭诊断颜色的选项。下表从实际标准输出 JSON 解析。'));
+  const t=document.createElement('table');
+  const rows=[['(*row)[1]',data.values.row_second],['*pick(1)',data.values.pick_value],['*(*reader)(1)',data.values.reader_value],['sizeof samples',data.values.array_bytes],['sizeof p',data.values.pointer_bytes],['参数 sizeof a',data.values.param_bytes]];
+  for(const [k,v] of rows){const r=el('tr','');r.append(el('td',k),el('td',String(v)));t.append(r);}content.append(t);
+  content.append(el('p','sizeof 的单位是字节。本次编译另有数组形参 sizeof 警告，完整原文在 JSON 中保留。'));
+ }else{
+  const r=data.negative_cases[mode.value];
+  content.append(el('h2','仅编译；退出 '+r.returncode+'，未运行'));
+  content.append(el('p','C11 + -Wall + -Wextra + -pedantic-errors + -Werror + -fsyntax-only'));
+  content.append(el('h2','提交给 GCC 的代码'),el('pre',r.source));
+  content.append(el('h2','GCC 原始诊断'),el('pre',r.stderr));
+ }
+}
+mode.addEventListener('change',()=>{if(data)draw();});
+fetch('results.json').then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(d=>{data=d;draw();}).catch(e=>{content.replaceChildren(el('p','记录读取失败：'+e.message+'。请确认相邻 results.json 存在，并通过 HTTP 打开本页。'));});
+</script></html>

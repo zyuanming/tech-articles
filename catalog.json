@@ -2962,6 +2962,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-ritchie-c-declarations",
+    "title": "Ritchie 的 C 声明：为什么一对括号，能把“一排指针”变成“指向一排”？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-ritchie-c-declarations/read.md",
+    "public_sha256": "29d2f382e205abd592d511a378789eff332ac1ed8af2ae61f128ed19dd9407b4",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-srgb-linear-light",
     "title": "sRGB 与线性光：黑白各取一半，为什么有时是128，有时是188？",
     "date": "2026-10-25",

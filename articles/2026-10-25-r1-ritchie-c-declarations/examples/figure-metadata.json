@@ -1,0 +1,2069 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 808,
+    "minimum_font_px": 46,
+    "mobile_width": 354,
+    "effective_minimum_px": 15.333333333333334,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "独立封面：以括号引出指针与数组的组合",
+    "text_audit": [
+      {
+        "text": "C 声明：名字外面是什么？",
+        "bbox": [
+          48,
+          38,
+          665,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *p[3];",
+        "bbox": [
+          60,
+          170,
+          445,
+          232
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 64,
+        "contrast": 13.15
+      },
+      {
+        "text": "先是一排指针",
+        "bbox": [
+          70,
+          280,
+          358,
+          326
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "int (*p)[3];",
+        "bbox": [
+          60,
+          410,
+          522,
+          472
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 64,
+        "contrast": 13.15
+      },
+      {
+        "text": "先是指向整排的指针",
+        "bbox": [
+          70,
+          520,
+          502,
+          566
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "从怎样使用，读回怎样声明",
+        "bbox": [
+          95,
+          655,
+          647,
+          700
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "e91a4d8e7a834b5caff31336c6c621ac095ad0d3d57d5bc927907fd6050b8b4e",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/01-object.png",
+    "width": 1062,
+    "height": 1005,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "effective_minimum_px": 13.333333333333334,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "定义数组、下标、元素地址与解引用",
+    "text_audit": [
+      {
+        "text": "先找到要读的那个值",
+        "bbox": [
+          48,
+          38,
+          516,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int samples[3] = {10,20,30};",
+        "bbox": [
+          60,
+          165,
+          802,
+          207
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "10",
+        "bbox": [
+          101,
+          302,
+          157,
+          341
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 12.0
+      },
+      {
+        "text": "s[0]",
+        "bbox": [
+          101,
+          394,
+          197,
+          430
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 40,
+        "contrast": 13.15
+      },
+      {
+        "text": "20",
+        "bbox": [
+          391,
+          302,
+          447,
+          341
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 10.93
+      },
+      {
+        "text": "s[1]",
+        "bbox": [
+          391,
+          394,
+          487,
+          430
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 40,
+        "contrast": 13.15
+      },
+      {
+        "text": "30",
+        "bbox": [
+          681,
+          302,
+          737,
+          341
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 12.0
+      },
+      {
+        "text": "s[2]",
+        "bbox": [
+          681,
+          394,
+          777,
+          430
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 40,
+        "contrast": 13.15
+      },
+      {
+        "text": "图中 s 代表 samples；下标从 0 开始",
+        "bbox": [
+          60,
+          455,
+          733,
+          501
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "p：元素地址",
+        "bbox": [
+          95,
+          585,
+          342,
+          633
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 10.93
+      },
+      {
+        "text": "10",
+        "bbox": [
+          820,
+          585,
+          876,
+          624
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *p = &samples[0];",
+        "bbox": [
+          60,
+          730,
+          641,
+          775
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "*p = 10    p[1] = 20",
+        "bbox": [
+          60,
+          815,
+          614,
+          860
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "箭头表示指向关系，不是额外复制值",
+        "bbox": [
+          60,
+          915,
+          732,
+          957
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "6832f7df1f2d4adf5b5edba9ea9f6ae1dfd19eca7e182654943f69b83b8eb807",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/02-build.png",
+    "width": 1062,
+    "height": 1104,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "从整行指针的使用逐步回推声明",
+    "text_audit": [
+      {
+        "text": "反过来：由取样动作构造声明",
+        "bbox": [
+          48,
+          38,
+          724,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "row",
+        "bbox": [
+          60,
+          170,
+          169,
+          205
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 60,
+        "contrast": 13.15
+      },
+      {
+        "text": "先拿到指向一整行的指针",
+        "bbox": [
+          60,
+          250,
+          522,
+          291
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "(*row)",
+        "bbox": [
+          60,
+          380,
+          277,
+          434
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 60,
+        "contrast": 13.15
+      },
+      {
+        "text": "解引用，得到整行",
+        "bbox": [
+          60,
+          460,
+          396,
+          501
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "(*row)[1]",
+        "bbox": [
+          60,
+          590,
+          385,
+          644
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 60,
+        "contrast": 13.15
+      },
+      {
+        "text": "再取下标 1，读到 20",
+        "bbox": [
+          60,
+          670,
+          443,
+          711
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "int (*row)[3];",
+        "bbox": [
+          60,
+          845,
+          549,
+          897
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 58,
+        "contrast": 13.15
+      },
+      {
+        "text": "把使用中的下标换成声明中的长度",
+        "bbox": [
+          60,
+          945,
+          690,
+          986
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "星号与括号的结构留下，前面写 int",
+        "bbox": [
+          60,
+          1015,
+          711,
+          1056
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "a158fdeeaf8b6b5978a3f1b8b8ff93d671003219f34e2c7eb4dea16281a82a83",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/03-binding.png",
+    "width": 1062,
+    "height": 1213,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "比较下标先结合与括号强制先解引用",
+    "text_audit": [
+      {
+        "text": "同一组符号，两棵结合结构",
+        "bbox": [
+          48,
+          38,
+          672,
+          89
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *links[3];",
+        "bbox": [
+          60,
+          170,
+          549,
+          222
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 58,
+        "contrast": 13.15
+      },
+      {
+        "text": "links → 数组",
+        "bbox": [
+          125,
+          300,
+          384,
+          344
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "每个元素 → 指针 → int",
+        "bbox": [
+          125,
+          460,
+          592,
+          504
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "int (*row)[3];",
+        "bbox": [
+          60,
+          600,
+          549,
+          652
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 58,
+        "contrast": 13.15
+      },
+      {
+        "text": "row → 指针",
+        "bbox": [
+          125,
+          730,
+          366,
+          774
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "所指对象 → 数组 → int",
+        "bbox": [
+          125,
+          890,
+          592,
+          934
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "[]、调用 () 比前缀 * 结合更紧",
+        "bbox": [
+          60,
+          1050,
+          594,
+          1094
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "分组括号把 (*row) 先包成一个整体",
+        "bbox": [
+          60,
+          1120,
+          706,
+          1165
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "177961f5048cb2c14f343378f2236974fba0186182eb799ef11a790e74e6ecdd",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/04-links.png",
+    "width": 1062,
+    "height": 1224,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "实际links重排同一批样本的访问顺序",
+    "text_audit": [
+      {
+        "text": "指针数组：每格可以指向不同位置",
+        "bbox": [
+          48,
+          38,
+          828,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *links[3];",
+        "bbox": [
+          60,
+          165,
+          532,
+          216
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 56,
+        "contrast": 13.15
+      },
+      {
+        "text": "指针格",
+        "bbox": [
+          70,
+          265,
+          208,
+          309
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "samples",
+        "bbox": [
+          700,
+          265,
+          894,
+          310
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "links[0]",
+        "bbox": [
+          82,
+          398,
+          284,
+          435
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 42,
+        "contrast": 10.93
+      },
+      {
+        "text": "[0] 10",
+        "bbox": [
+          723,
+          398,
+          889,
+          439
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "links[1]",
+        "bbox": [
+          82,
+          598,
+          284,
+          635
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 42,
+        "contrast": 10.93
+      },
+      {
+        "text": "[1] 20",
+        "bbox": [
+          723,
+          598,
+          889,
+          639
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "links[2]",
+        "bbox": [
+          82,
+          798,
+          284,
+          835
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 42,
+        "contrast": 10.93
+      },
+      {
+        "text": "[2] 30",
+        "bbox": [
+          723,
+          798,
+          889,
+          839
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "*links[0] = 30",
+        "bbox": [
+          60,
+          1035,
+          498,
+          1081
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "左列存地址；右列才存采样整数",
+        "bbox": [
+          60,
+          1135,
+          648,
+          1176
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "648d21833f60d2443e8f2a4c35388afdca207f0ae33856ba47f9e1feef7cd379",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/05-row.png",
+    "width": 1062,
+    "height": 1125,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "指针变量与所指数组大小分开",
+    "text_audit": [
+      {
+        "text": "数组指针：一个指针，指向整行",
+        "bbox": [
+          48,
+          38,
+          776,
+          89
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int (*row)[3] = &samples;",
+        "bbox": [
+          60,
+          165,
+          722,
+          207
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "row 指针本身：8 字节",
+        "bbox": [
+          100,
+          320,
+          550,
+          364
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 10.93
+      },
+      {
+        "text": "10",
+        "bbox": [
+          105,
+          622,
+          161,
+          661
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 12.0
+      },
+      {
+        "text": "20",
+        "bbox": [
+          395,
+          622,
+          451,
+          661
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 10.93
+      },
+      {
+        "text": "30",
+        "bbox": [
+          685,
+          622,
+          741,
+          661
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 50,
+        "contrast": 12.0
+      },
+      {
+        "text": "*row 整行：12 字节",
+        "bbox": [
+          90,
+          735,
+          477,
+          777
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 12.0
+      },
+      {
+        "text": "(*row)[1] = 20",
+        "bbox": [
+          60,
+          865,
+          515,
+          913
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 54,
+        "contrast": 13.15
+      },
+      {
+        "text": "字节数为本次 Linux x86_64 实测",
+        "bbox": [
+          60,
+          965,
+          668,
+          1008
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "格子等宽表示同类元素，不表示地址值",
+        "bbox": [
+          60,
+          1035,
+          774,
+          1077
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "d83ebdcea566a84f63c3bb2ad32200e919cebf7eff7b587c350255880ca32939",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/06-steps.png",
+    "width": 1062,
+    "height": 1220,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "同一数组中两种指针的合法步进及目标",
+    "text_audit": [
+      {
+        "text": "加一，究竟跨过多大对象？",
+        "bbox": [
+          48,
+          38,
+          672,
+          89
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "二维 grid：两行，每行三个 int",
+        "bbox": [
+          60,
+          150,
+          630,
+          198
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "10",
+        "bbox": [
+          96,
+          325,
+          147,
+          361
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "20",
+        "bbox": [
+          246,
+          325,
+          297,
+          361
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 10.93
+      },
+      {
+        "text": "30",
+        "bbox": [
+          396,
+          325,
+          447,
+          361
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "40",
+        "bbox": [
+          546,
+          325,
+          597,
+          361
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "50",
+        "bbox": [
+          696,
+          325,
+          747,
+          361
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "60",
+        "bbox": [
+          846,
+          325,
+          897,
+          361
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 46,
+        "contrast": 12.0
+      },
+      {
+        "text": "第 0 行",
+        "bbox": [
+          75,
+          220,
+          201,
+          261
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "第 1 行",
+        "bbox": [
+          525,
+          220,
+          651,
+          261
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "element：一步 4 字节",
+        "bbox": [
+          65,
+          510,
+          499,
+          552
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "rows：一步 12 字节",
+        "bbox": [
+          65,
+          700,
+          453,
+          742
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "从起点加一：分别到 20 与下一行",
+        "bbox": [
+          60,
+          810,
+          671,
+          851
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "下一行的首个整数为 40",
+        "bbox": [
+          60,
+          880,
+          494,
+          921
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "element = grid[0];",
+        "bbox": [
+          60,
+          975,
+          515,
+          1016
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "rows = grid;",
+        "bbox": [
+          60,
+          1045,
+          363,
+          1086
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "长度共用字节比例；不越出各自数组",
+        "bbox": [
+          60,
+          1130,
+          732,
+          1172
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "05daff73db11d5ff5290247655928e2e24dba73058a461bc7117fb40d169a8ef",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/07-functions.png",
+    "width": 1062,
+    "height": 1256,
+    "minimum_font_px": 44,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.666666666666666,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "明确函数与函数指针两条不同使用链",
+    "text_audit": [
+      {
+        "text": "函数返回指针；指针指向函数",
+        "bbox": [
+          48,
+          38,
+          724,
+          89
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *pick(int i);",
+        "bbox": [
+          60,
+          165,
+          592,
+          216
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "pick(1)：先调用函数",
+        "bbox": [
+          65,
+          265,
+          469,
+          313
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "得到 samples[1] 的地址",
+        "bbox": [
+          65,
+          425,
+          530,
+          473
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "*pick(1)：沿地址读到 20",
+        "bbox": [
+          65,
+          585,
+          549,
+          633
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "int (*value)(int);",
+        "bbox": [
+          60,
+          745,
+          624,
+          792
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "value：先拿到函数指针",
+        "bbox": [
+          65,
+          845,
+          527,
+          888
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "(*value)(1)：调用所指函数",
+        "bbox": [
+          65,
+          1005,
+          588,
+          1052
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "返回 int；此例得到 20",
+        "bbox": [
+          65,
+          1165,
+          497,
+          1208
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "3930453856a9afc11c1542478f6cfab6582f1973e0d3f54d4fb58fa3d4ce3926",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/07b-reader-type.png",
+    "width": 1062,
+    "height": 1340,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "复杂声明的类型组合层次，与调用执行链区分",
+    "text_audit": [
+      {
+        "text": "从 reader 向外：四层类型",
+        "bbox": [
+          48,
+          38,
+          645,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *(*reader)(int);",
+        "bbox": [
+          60,
+          165,
+          638,
+          208
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "reader",
+        "bbox": [
+          85,
+          322,
+          258,
+          359
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "这个名字代表一个指针",
+        "bbox": [
+          85,
+          400,
+          505,
+          441
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "(*reader)",
+        "bbox": [
+          85,
+          552,
+          345,
+          595
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "所指的是接收 int 的函数",
+        "bbox": [
+          85,
+          630,
+          535,
+          671
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "(*reader)(int)",
+        "bbox": [
+          85,
+          782,
+          490,
+          825
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "该函数返回一个指针",
+        "bbox": [
+          85,
+          860,
+          463,
+          900
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "int",
+        "bbox": [
+          85,
+          1012,
+          172,
+          1048
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "返回指针的目标是整数",
+        "bbox": [
+          85,
+          1090,
+          505,
+          1130
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "这些是声明片段，不是运行次序",
+        "bbox": [
+          60,
+          1250,
+          648,
+          1292
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "a9281d5b70d54a6949700813cd56380abb590cb16eba2f9a6f211fe01c44e6ce",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/08-reader.png",
+    "width": 1062,
+    "height": 1208,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "函数指针返回数据指针的实际调用过程",
+    "text_audit": [
+      {
+        "text": "把两种能力接起来：reader",
+        "bbox": [
+          48,
+          38,
+          675,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "int *(*reader)(int);",
+        "bbox": [
+          60,
+          165,
+          638,
+          208
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "reader = pick;",
+        "bbox": [
+          60,
+          245,
+          465,
+          291
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "reader",
+        "bbox": [
+          85,
+          385,
+          258,
+          422
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "选中 pick 函数",
+        "bbox": [
+          85,
+          460,
+          354,
+          506
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "(*reader)(1)",
+        "bbox": [
+          85,
+          595,
+          432,
+          638
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "调用它，传入下标 1",
+        "bbox": [
+          85,
+          670,
+          454,
+          711
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "samples + 1",
+        "bbox": [
+          85,
+          805,
+          403,
+          851
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 12.0
+      },
+      {
+        "text": "返回采样元素的地址",
+        "bbox": [
+          85,
+          880,
+          463,
+          920
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 12.0
+      },
+      {
+        "text": "*(*reader)(1)",
+        "bbox": [
+          85,
+          1015,
+          461,
+          1058
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 10.93
+      },
+      {
+        "text": "解引用，结果 20",
+        "bbox": [
+          85,
+          1090,
+          393,
+          1131
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 10.93
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "c2567f7f66b1ecc293b4cd4e7abb4c2bd1fd444a08abb6bf0c869ced077892d0",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/09-sizes.png",
+    "width": 1062,
+    "height": 1302,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "共轴实测尺寸比较，避免把数组等同指针",
+    "text_audit": [
+      {
+        "text": "sizeof：问的是哪一个对象？",
+        "bbox": [
+          48,
+          38,
+          708,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "samples 整个数组：12 B",
+        "bbox": [
+          65,
+          175,
+          553,
+          223
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "p 指针变量：8 B",
+        "bbox": [
+          65,
+          360,
+          385,
+          409
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "links 指针数组：24 B",
+        "bbox": [
+          65,
+          545,
+          479,
+          588
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "*row 所指整行：12 B",
+        "bbox": [
+          65,
+          730,
+          481,
+          773
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "参数 a 调整后：8 B",
+        "bbox": [
+          65,
+          915,
+          437,
+          958
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "B 表示字节；各条从同一起点量起",
+        "bbox": [
+          60,
+          1140,
+          685,
+          1182
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "仅报告本次 GCC / x86_64 结果",
+        "bbox": [
+          60,
+          1210,
+          627,
+          1254
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "9095dce54e0921d8fdb217196fb1b61c895fae73d42249faa9b4021d9d2348a4",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/10-parameters.png",
+    "width": 1062,
+    "height": 1179,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "区分数组表达式转换与参数声明调整并保留行宽",
+    "text_audit": [
+      {
+        "text": "参数调整：只调整最外一层",
+        "bbox": [
+          48,
+          38,
+          672,
+          88
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "在 param_size 调用中，只转换实参",
+        "bbox": [
+          60,
+          165,
+          723,
+          212
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "samples",
+        "bbox": [
+          60,
+          245,
+          262,
+          291
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "&samples[0]",
+        "bbox": [
+          60,
+          405,
+          378,
+          451
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "函数参数声明：数组写法调整为指针",
+        "bbox": [
+          60,
+          565,
+          732,
+          606
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "int a[3]  →  int *a",
+        "bbox": [
+          60,
+          650,
+          563,
+          689
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "int a[2][3]",
+        "bbox": [
+          60,
+          750,
+          378,
+          793
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "int (*a)[3]",
+        "bbox": [
+          60,
+          910,
+          378,
+          953
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 48,
+        "contrast": 13.15
+      },
+      {
+        "text": "外层调整后，内层仍是一行三个 int",
+        "bbox": [
+          60,
+          1020,
+          711,
+          1061
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "所以 sizeof *a 仍为 12 字节",
+        "bbox": [
+          60,
+          1090,
+          562,
+          1131
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "54ee124f1ff4d0e5a4d362e70e84aa9aab5cff36d163a80bdb249f1dd9c85d35",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/11-typedef.png",
+    "width": 1062,
+    "height": 1188,
+    "minimum_font_px": 42,
+    "mobile_width": 354,
+    "effective_minimum_px": 14.0,
+    "identity": "原创教学示意；数值来自实际C11程序",
+    "license": "CC-BY-4.0",
+    "purpose": "给复杂类型起名并展示限定符附着层级",
+    "text_audit": [
+      {
+        "text": "typedef：给已经形成的类型命名",
+        "bbox": [
+          48,
+          38,
+          806,
+          95
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 52,
+        "contrast": 13.15
+      },
+      {
+        "text": "typedef int Row[3];",
+        "bbox": [
+          60,
+          170,
+          586,
+          215
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "Row *row;",
+        "bbox": [
+          60,
+          255,
+          309,
+          296
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "Row 是整行；row 指向整行",
+        "bbox": [
+          65,
+          335,
+          604,
+          378
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "typedef int *Reader(int);",
+        "bbox": [
+          60,
+          485,
+          722,
+          527
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "Reader *reader;",
+        "bbox": [
+          60,
+          570,
+          475,
+          611
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "Reader 是函数类型；reader 是指针",
+        "bbox": [
+          65,
+          650,
+          728,
+          691
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 13.15
+      },
+      {
+        "text": "typedef int *IntPtr;",
+        "bbox": [
+          60,
+          800,
+          614,
+          845
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 46,
+        "contrast": 13.15
+      },
+      {
+        "text": "const IntPtr p = samples;",
+        "bbox": [
+          60,
+          885,
+          722,
+          927
+        ],
+        "font": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+        "size": 44,
+        "contrast": 13.15
+      },
+      {
+        "text": "固定的是指针 p；目标仍可改",
+        "bbox": [
+          85,
+          1005,
+          650,
+          1053
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 44,
+        "contrast": 10.93
+      },
+      {
+        "text": "*p = 11 合法；p = p+1 被拒",
+        "bbox": [
+          85,
+          1070,
+          589,
+          1116
+        ],
+        "font": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "size": 42,
+        "contrast": 10.93
+      }
+    ],
+    "checks": [
+      "cmap",
+      "bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink",
+      "dynamic-crop"
+    ],
+    "data": "examples/results.json",
+    "geometry": "样本格数/指针目标/比例条由values计算；其余为排版坐标，不表示物理地址",
+    "sha256": "a7dabd1c8f65a572961ce318c805e7db42a92879269d343b5fafe8e123398552",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/12-run-report.png",
+    "width": 1062,
+    "height": 1853,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "effective_minimum_px": 13.333333333333334,
+    "identity": "真实Chromium截图：本次GCC实验记录查看器，不是终端或历史原机",
+    "license": "CC-BY-4.0（原创页面）；GCC诊断短句见sources.md",
+    "purpose": "实际三路径取样与sizeof结果",
+    "data": "examples/results.json",
+    "capture": "Chromium 1062px viewport, deviceScaleFactor=1, fullPage=true；真实HTTP教学页面",
+    "checks": [
+      "浏览器原始截图",
+      "手机354实显无水平溢出",
+      "pre全文换行可见"
+    ],
+    "sha256": "9471995da554c19ad897ec4560969210911fea88a1be9acfd1e097b70a9e2320",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/13-wrong-row.png",
+    "width": 1062,
+    "height": 1896,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "effective_minimum_px": 13.333333333333334,
+    "identity": "真实Chromium截图：本次GCC实验记录查看器，不是终端或历史原机",
+    "license": "CC-BY-4.0（原创页面）；GCC诊断短句见sources.md",
+    "purpose": "实际类型不兼容诊断",
+    "data": "examples/results.json",
+    "capture": "Chromium 1062px viewport, deviceScaleFactor=1, fullPage=true；真实HTTP教学页面",
+    "checks": [
+      "浏览器原始截图",
+      "手机354实显无水平溢出",
+      "pre全文换行可见"
+    ],
+    "sha256": "556e4719536240b1b4c71e533ea60bdd7ce794cde6a5378e61d0349ca2c1b7c1",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  },
+  {
+    "file": "assets/14-illegal-return.png",
+    "width": 1062,
+    "height": 1548,
+    "minimum_font_px": 40,
+    "mobile_width": 354,
+    "effective_minimum_px": 13.333333333333334,
+    "identity": "真实Chromium截图：本次GCC实验记录查看器，不是终端或历史原机",
+    "license": "CC-BY-4.0（原创页面）；GCC诊断短句见sources.md",
+    "purpose": "实际非法返回类型诊断",
+    "data": "examples/results.json",
+    "capture": "Chromium 1062px viewport, deviceScaleFactor=1, fullPage=true；真实HTTP教学页面",
+    "checks": [
+      "浏览器原始截图",
+      "手机354实显无水平溢出",
+      "pre全文换行可见"
+    ],
+    "sha256": "ee2b8a610484daaa9a092401872abb12415fd625b9c2279de4ba29fa8b57382b",
+    "results_sha256": "22111cc932a0041cc137bfdbbc1a01a893d9071be1935acc4337a65740cff526"
+  }
+]
