@@ -173,5 +173,45 @@ c.text(65,965,f"直接取 <= {t['threshold']}，会拿到 {len(t['below'])+len(t
 c.text(65,1060,'并列项选谁，需另定规则；展示有序还要排序')
 c.save('08-topk.png','把重复值边界转化为top-k的精确数量与并列选择问题')
 
+c=Canvas('分区不是瞬间搬完：逐项扫描')
+c.text(65,135,'橙格：正在读取；右侧蓝格：尚未读取',40)
+c.text(65,210,'左侧格子已处理；下方是本步追加后的组',40)
+for j,index in enumerate([0,1,len(DATA['scan'])-1]):
+ st=DATA['scan'][index];y=330+j*510
+ c.text(65,y,f"读第 {index+1} 项：{st['value']} 进入"+{'less':'小于组','equal':'等于组','greater':'大于组'}[st['group']],44,ORANGE)
+ row(c,DATA['input'],y+85,highlight=index)
+ for z,(key,label) in enumerate([('less','小于'),('equal','等于'),('greater','大于')]):
+  x=65+z*330;c.text(x,y+215,label,40,COL[z]);c.text(x,y+280,nums(st[key]) or '空',42,COL[z])
+ c.text(65,y+370,f"尚未读取：{nums(st['unread']) if st['unread'] else '无'}",40)
+ if j==1:c.text(65,y+445,'中间若干步略去；下段已累计其处理结果',40)
+c.save('09-scan-steps.png','用真实逐项追加快照连接输入、当前读数、未读后缀和三个输出组')
+
+c=Canvas('随机执行：样本范围比均值更宽')
+c.text(65,135,'线：样本最小至最大；圆点：样本均值',40)
+c.text(65,210,f"每种长度 {DATA['experiments'][0]['trials']} 次；种子 {DATA['sample_plot']['seed_start']} 至 {DATA['sample_plot']['seed_end']}",40)
+c.text(65,285,'共用横轴：分区访问项数，不是时间',40)
+x0=180;span=760;axismax=DATA['sample_plot']['axis_max']
+c.line((x0,390),(x0+span,390),INK)
+for v in DATA['sample_plot']['ticks']:
+ x=x0+span*v/axismax;c.line((x,380),(x,405),INK);c.text(x-24,420,str(v),40)
+lengths=[];ranges=[]
+for j,r in enumerate(DATA['experiments']):
+ y=535+j*220
+ c.text(65,y,f"n = {r['n']}",42)
+ low=x0+span*r['min_visits']/axismax;hi=x0+span*r['max_visits']/axismax;mu=x0+span*r['mean_visits']/axismax
+ c.line((low,y+95),(hi,y+95),BLUE)
+ c.line((low,y+80),(low,y+110),BLUE);c.line((hi,y+80),(hi,y+110),BLUE)
+ c.d.ellipse((mu-9,y+86,mu+9,y+104),fill=ORANGE)
+ c.text(65,y+135,f"范围 {r['min_visits']}–{r['max_visits']}；均值 {r['mean_visits']:.3f}",40)
+ lengths.append(hi-low);ranges.append(r['max_visits']-r['min_visits'])
+assert sorted(range(len(ranges)),key=lambda i:ranges[i])==sorted(range(len(lengths)),key=lambda i:lengths[i])
+c.text(65,1685,'有限种子的观测极值，不是理论最坏界',40)
+c.text(65,1760,'目标为下中位值；也不是置信区间',40)
+c.save('10-sample-range.png','把既有实验的样本极值与均值共尺度展示，避免平均值被读成单次保证')
+
+# Keep independently captured browser figure metadata when regenerating diagrams.
+meta_path=ROOT/'examples/figure-metadata.json'
+if meta_path.exists():
+ meta.extend(row for row in json.loads(meta_path.read_text()) if row['file']=='assets/11-numpy-live.png')
 (ROOT/'examples/figure-metadata.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'figures':len(meta),'all_geometry_checks':'PASS'},ensure_ascii=False))

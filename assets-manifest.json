@@ -23855,24 +23855,54 @@
     "sha256": "bdcd6b68f39ba44d24a015a720e75ba94e7ee65aacdf4b768fe798c390bc3b10"
   },
   {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/09-scan-steps.png",
+    "bytes": 166201,
+    "sha256": "4d643b96c74043e1e8958f9a84d6943d15d989c69ca3413319c5c18cf9b6d86b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/10-sample-range.png",
+    "bytes": 159253,
+    "sha256": "2817dee675f2e48f5ea9fb71cfe4c9031a6a29bd4dec623ef3666b832f4fa529"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/11-numpy-live.png",
+    "bytes": 147203,
+    "sha256": "98173b44b2262f0c159823dac4b551f91a4dad4250f0fa85eab750f52ab341c3"
+  },
+  {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/build_figures.py",
-    "bytes": 9926,
-    "sha256": "edbae31e58c508480a4ed9cda9cc569b4a440584706a74f0baa3759fcdbf68b2"
+    "bytes": 12622,
+    "sha256": "f6de5852ede43dafaa85748e3e4011d28b8af13e6a044e14ee14772a8936ed64"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/capture_demo.py",
+    "bytes": 5687,
+    "sha256": "813219f4002e0fa1650f5927a2820df507e3eb61f95972cd4a380782e78de892"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/demo_web.py",
+    "bytes": 4718,
+    "sha256": "752fc0818c5564d82f8c7469fad7d3365e8f099dfda1092f699c0e8b7f97dd02"
   },
   {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/figure-metadata.json",
-    "bytes": 4387,
-    "sha256": "f88ce29e207daef4201509d521202cec32d5421bcd98c684b7cc5c0266fe7cc0"
+    "bytes": 5996,
+    "sha256": "2d5cbe08807764445b36e993424db66c35926e7f0fcd4489b1da4515f857b283"
+  },
+  {
+    "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/numpy-result.json",
+    "bytes": 446,
+    "sha256": "fafa10243a81c660b1515d11b5b2698fd5d0d2cb5e92e6f7279ca1132f9a0ea9"
   },
   {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/results.json",
-    "bytes": 15027,
-    "sha256": "966e091532ddd85c97af31c54a2b5c20e311fadaf67d60b75bfe92e815ac9e12"
+    "bytes": 17597,
+    "sha256": "ba98bb78331fa653fe9543d0b448525051329f23a7b164efa99df2a5d0e40c5e"
   },
   {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/run_examples.py",
-    "bytes": 2616,
-    "sha256": "3d9e97e57a20955f765b4194d9b65031be33ee317a6785209633516a8ed74af0"
+    "bytes": 3123,
+    "sha256": "0476cbf0255b2789ecf233ec0977e1912089f1c7d923ba4ab1c908b1d09f5b2a"
   },
   {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/examples/selection.py",

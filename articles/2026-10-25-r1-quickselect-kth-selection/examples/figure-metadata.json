@@ -169,5 +169,63 @@
       "ink-pixels",
       "actual-dimensions"
     ]
+  },
+  {
+    "file": "assets/09-scan-steps.png",
+    "width": 1062,
+    "height": 1817,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "用真实逐项追加快照连接输入、当前读数、未读后缀和三个输出组",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-sample-range.png",
+    "width": 1062,
+    "height": 1857,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "把既有实验的样本极值与均值共尺度展示，避免平均值被读成单次保证",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-numpy-live.png",
+    "width": 1062,
+    "height": 1424,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "真实本地原创教学网页截图；点击后实际执行NumPy 2.4.6",
+    "purpose": "显示同一输入的真实分区结果、指定位置、版本和输入未变",
+    "checks": [
+      "real-click",
+      "response-assertions",
+      "browser-overflow",
+      "computed-font-size",
+      "text-box-overlap",
+      "glyph-cmap",
+      "contrast",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
   }
 ]

@@ -2801,8 +2801,8 @@
     "title": "只想知道第六小，为什么要把所有数排好？Quickselect 的分区选择",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/read.md",
-    "public_sha256": "9b800e60c2f7807eccdba84ec4fe8993b3b6c121b525200782941a720cb5ea8c",
-    "images": 9,
+    "public_sha256": "76c7f118077f1db1e7317ecd9a39e6e9dbc346b8694cb67ee2a31112d686b276",
+    "images": 12,
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"

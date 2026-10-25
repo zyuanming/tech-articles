@@ -8,6 +8,16 @@ A = [8, 3, 7, 3, 9, 1, 6, 3, 5]
 K = 6
 main = trace(A, K, lambda a, r: [5, 7, 6][r])
 assert main['answer'] == sorted(A)[K-1] == 6
+scan=[]
+parts={'less':[], 'equal':[], 'greater':[]}
+pivot=main['rows'][0]['p']
+for i,x in enumerate(A):
+    group='less' if x<pivot else 'greater' if x>pivot else 'equal'
+    parts[group].append(x)
+    scan.append(dict(index=i,value=x,group=group,unread=A[i+1:],
+                     **{key:values.copy() for key,values in parts.items()}))
+assert all(parts[key]==main['rows'][0][key] for key in parts)
+
 checks = 0
 for n in range(1, 8):
     for a in product([-1, 0, 1], repeat=n):
@@ -44,9 +54,10 @@ for n in [64,128,256,512,1024]:
         visits.append(trace(list(range(n)),n//2,lambda a,r:rng.choice(a))['visits'])
     experiments.append(dict(n=n, trials=len(visits),mean_visits=statistics.mean(visits),
                             ratio=statistics.mean(visits)/n,min_visits=min(visits),max_visits=max(visits)))
-data=dict(input=A,k=K,index=K-1,sorted=sorted(A),main=main,
+data=dict(input=A,k=K,index=K-1,sorted=sorted(A),main=main,scan=scan,
           duplicate=trace(A,4,lambda a,r:3),all_equal=trace([3]*9,6,lambda a,r:3),
           costs=costs,experiments=experiments,
+          sample_plot=dict(axis_max=6400,ticks=[0,2000,4000,6000],seed_start=0,seed_end=199),
           good_pivots=dict(n=16,ranks=list(range(1,17)),good=list(range(5,13)),max_side=11),
           topk=dict(k=3,threshold=3,below=[1],equal=[3,3,3],needed=2),
           validation=dict(exhaustive_cases=checks,random_cases=500,python=platform.python_version(),seed=20261025))
