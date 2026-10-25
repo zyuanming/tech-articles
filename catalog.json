@@ -2797,6 +2797,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-karger-random-contraction",
+    "title": "随机合并顶点，为什么能找到最小割？Karger 的随机收缩",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-karger-random-contraction/read.md",
+    "public_sha256": "b8cb97d804c73734758d95ebafb51634888e8088013cd7858fbdc7219cc660a7",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-quickselect-kth-selection",
     "title": "只想知道第六小，为什么要把所有数排好？Quickselect 的分区选择",
     "date": "2026-10-25",
