@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "fonttools": "4.61.1",
+  "playwright": "1.62.0",
+  "arithmetic": "fractions.Fraction",
+  "randomness": "none"
+}

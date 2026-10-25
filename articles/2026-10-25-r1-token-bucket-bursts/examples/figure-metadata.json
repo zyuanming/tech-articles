@@ -1,0 +1,309 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 905,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "独立封面：并置短时额度与长期补充速率",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-two-paths.png",
+    "width": 1062,
+    "height": 1039,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "分清数据包路径与虚拟额度账本，统一单位",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-same-time.png",
+    "width": 1062,
+    "height": 889,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "A/B/C三步用同轴库存条逐一展示同刻顺序和不补充",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-refill-steps.png",
+    "width": 1062,
+    "height": 885,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "D/E/F逐步补充与拒绝不扣费，用同一时序算出每个前后值",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-token-trace.png",
+    "width": 1062,
+    "height": 959,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "实际模型所有事件的额度折线与接受名单对照",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-idle-cap.png",
+    "width": 1062,
+    "height": 999,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "无消费空闲曲线显示达上限后继续等待不会额外积存",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-window-budget.png",
+    "width": 1062,
+    "height": 839,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "共同长度单位可加的两来源预算；推导任意区间界",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-long-average.png",
+    "width": 1062,
+    "height": 949,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "不同时间尺度共轴比较平均上界，区分长期与短窗",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-fluid-burst.png",
+    "width": 1062,
+    "height": 929,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "流体近似下B/(p-r)耗尽时间，显式不同于原子扣包",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-police-shape.png",
+    "width": 1062,
+    "height": 1299,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "同一输入两种动作的实际到达至放行时间线，标超大包",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-fifo-wait.png",
+    "width": 1062,
+    "height": 909,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "F实际等候分为队前等待与队首缺额等待，长度从结果计算",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-size-initial.png",
+    "width": 1062,
+    "height": 1049,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "费用超过B与初始余额不足的不同后果，初值同轴比较",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-fixed-window.png",
+    "width": 1062,
+    "height": 929,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "固定窗跨边界四请求反例，和明确另设B2的桶比较",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-atomicity.png",
+    "width": 1062,
+    "height": 1079,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创教学示意；执行数值来自 results.json",
+    "purpose": "两个调用读同一余额的具体交错，指出原子边界",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-rfc-meter.png",
+    "width": 1062,
+    "height": 1880,
+    "min_font_px": 22,
+    "effective_min_font_at_354": 7.33,
+    "identity": "RFC3290 Fig4 ASCII转录渲染，非原站截图；Internet Society (2002)",
+    "purpose": "保留相关原始ASCII图及完整许可，说明测量结果与后续动作分开",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ],
+    "source_diagram_min_font_px": 37,
+    "teaching_labels_min_font_px": 40,
+    "exception": "底部完整原许可通知22px，为史料附件；原ASCII37px保留左右边距（354宽约12.3px）；中文解释40px及以上"
+  },
+  {
+    "file": "assets/15-model-live.png",
+    "width": 1062,
+    "height": 1734,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "本地原创教学网页真实Chromium截图；点击后执行Python Fraction模型",
+    "purpose": "展示真实可复现输入输出与独立检查，不是tc或网络设备实测",
+    "checks": [
+      "real-click",
+      "response-equals-results",
+      "browser-overflow",
+      "text-overlap",
+      "glyph-cmap",
+      "font-size",
+      "contrast",
+      "ink-pixels"
+    ]
+  }
+]

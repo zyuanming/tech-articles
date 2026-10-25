@@ -25770,6 +25770,141 @@
     "sha256": "16e07c514becbfc1976e69d41245c7d62ae652fe6dc1a5b9b66cedac4ba9dfa3"
   },
   {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/00-cover.png",
+    "bytes": 63322,
+    "sha256": "e457282394f9c2759d4e6836b9fc2d7a488499d3172cf9deabb37439a004772f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/01-two-paths.png",
+    "bytes": 94423,
+    "sha256": "756b0c1f4e21f544580047d268cbb195a81a712361f03ab5385c8427bc256fd3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/02-same-time.png",
+    "bytes": 66821,
+    "sha256": "297fc4b6c6cc898b1ebc007df52eae7dd190ec9d5a671ea50df3bc3cbce97669"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/03-refill-steps.png",
+    "bytes": 76368,
+    "sha256": "9d88fd379739f1b997f8665774ad60219394b732889eac52b81a5f3b286bfab1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/04-token-trace.png",
+    "bytes": 67917,
+    "sha256": "f0d72b859414f18b0aa6dcfbb9d7a890d5f859990b74bff31294266cf7a2ea24"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/05-idle-cap.png",
+    "bytes": 85954,
+    "sha256": "33c2ceb3946a2680410ce1b5bf118794bb7387ebb202fc43a26e6fe6c581773d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/06-window-budget.png",
+    "bytes": 77210,
+    "sha256": "3407c30739bcaa43bc6f116e352ca281f8da000583cba83c51d65ae1b4c1a8a5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/07-long-average.png",
+    "bytes": 72848,
+    "sha256": "210ed84363ee73b126af1e19d6092bcaf90d4cb8985fd3835bd028d431624d7e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/08-fluid-burst.png",
+    "bytes": 89976,
+    "sha256": "a31ec091b1cf8d7add9824dd41dfe6d1383d200d0668a5ec505ca4b51abd9902"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/09-police-shape.png",
+    "bytes": 98329,
+    "sha256": "25a2009ab6f94f9cafe56aef9838ea0a6ebe29c9372136d661d66c1be06d3d65"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/10-fifo-wait.png",
+    "bytes": 81353,
+    "sha256": "08cce42f207280b7744b76f455fa91598e8870a2b4c5b2a7d25446aab101f550"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/11-size-initial.png",
+    "bytes": 67877,
+    "sha256": "bafe532509e1bb46958d49e37b5f4ae7035d7c45bf0f76ad206de591702869d1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/12-fixed-window.png",
+    "bytes": 79816,
+    "sha256": "d87e4e4ab9eaf43e6a729dace31abe92ae7e7ed34499eb4a19504aef4076ded8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/13-atomicity.png",
+    "bytes": 71469,
+    "sha256": "d54fa007caca50d59f23f4e8dba38e78608de7b4b630f258594a6bb1d346de16"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/14-rfc-meter.png",
+    "bytes": 215695,
+    "sha256": "8da7f125e85d1514940a73c6f0e02df9de41b8342e3178e4db83724ceba97c07"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/assets/15-model-live.png",
+    "bytes": 143980,
+    "sha256": "83ebd9a7fa27f16d003e09aac77b27266df9f8c695d8060a30afb6616bda0282"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/build_figures.py",
+    "bytes": 11250,
+    "sha256": "c3952461d5de76547f52a956b8e1af4fd6c37d3735f117c645054171f57ee8d0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/capture_demo.py",
+    "bytes": 3569,
+    "sha256": "b40c4ce0c7b1c0eb7e108dad1f89a4695b60d29929c00bbab889310b3aa64f28"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/demo_web.py",
+    "bytes": 2867,
+    "sha256": "048e3bb05b68bde1950964919e51564327216f881b9f4d1e48fc619fa7227b2f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/environment.json",
+    "bytes": 161,
+    "sha256": "a602596469c84364b4c3220a1314e8672f8f3fa46f8dc5956647c016cbf63db7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/figure-metadata.json",
+    "bytes": 8196,
+    "sha256": "aca1d296176f781c175826d360dbfda5bf0a389cb7cc01d87245d6d7dffdbafc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/figurekit.py",
+    "bytes": 2937,
+    "sha256": "c11b45804aafc5a7f6cab593663bad8b9810aab0df27af53bb50ea65e58bd21e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/model.py",
+    "bytes": 2469,
+    "sha256": "531ec14d827c6beebc1b9050ee1bfc1dc254673a7bb8d22960ee71c2db4d2f53"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/render_source.py",
+    "bytes": 3142,
+    "sha256": "f5a9eb275d3c6a65fac85df83b016d46cf42892a25507414ef0e33e296469e6f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/results.json",
+    "bytes": 10560,
+    "sha256": "49198d74ea5b40d54320276bfabd767b5b7f0f054a886b4d230d0e4d97e78a2e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/examples/run_examples.py",
+    "bytes": 4003,
+    "sha256": "aab8086090b295f60fd5ed754f650bc82d02b54cbf079675c1fc5cad027946de"
+  },
+  {
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/originals/rfc3290-figure4.txt",
+    "bytes": 2007,
+    "sha256": "f09dc3a0158c04efe6878030ec2788b97fda7be7882331ffb13f5fe3460aa053"
+  },
+  {
     "path": "articles/2026-10-25-r1-z-transform-recurrence/assets/00-cover.png",
     "bytes": 73260,
     "sha256": "8539df3a9795bdad87ad6814996b1285f39a7b82de9fe8153a257b5539293302"

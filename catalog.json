@@ -2951,6 +2951,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-token-bucket-bursts",
+    "title": "令牌桶：平均每秒只许两份，为什么能一下放行六份？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-token-bucket-bursts/read.md",
+    "public_sha256": "fec61a08509627307e2579c5e53dff79f9af52c066bd0a32816a7f3a6127489f",
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-z-transform-recurrence",
     "title": "Z 变换与递推：上一拍还没忘掉，怎样一次看清整条响应？",
     "date": "2026-10-25",
