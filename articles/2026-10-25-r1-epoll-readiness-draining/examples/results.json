@@ -1,0 +1,658 @@
+{
+  "environment": {
+    "system": "Linux",
+    "observed_kernel_release": "6.18.55",
+    "python": "3.12.14",
+    "family": "AF_UNIX",
+    "type": "SOCK_STREAM",
+    "poll_timeout_seconds": 0
+  },
+  "partial": [
+    {
+      "mode": "LT",
+      "payload": "abcdef",
+      "sent": 6,
+      "before": "abcdef",
+      "after_wait": "abcdef",
+      "first_event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "first_read": {
+        "kind": "data",
+        "text": "ab",
+        "bytes": 2
+      },
+      "remaining": "cdef",
+      "second_event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "drained": [
+        {
+          "kind": "data",
+          "text": "cd",
+          "bytes": 2
+        },
+        {
+          "kind": "data",
+          "text": "ef",
+          "bytes": 2
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ],
+      "after_drain": [],
+      "next_event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "next_reads": [
+        {
+          "kind": "data",
+          "text": "XY",
+          "bytes": 2
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ]
+    },
+    {
+      "mode": "ET",
+      "payload": "abcdef",
+      "sent": 6,
+      "before": "abcdef",
+      "after_wait": "abcdef",
+      "first_event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "first_read": {
+        "kind": "data",
+        "text": "ab",
+        "bytes": 2
+      },
+      "remaining": "cdef",
+      "second_event": [],
+      "drained": [
+        {
+          "kind": "data",
+          "text": "cd",
+          "bytes": 2
+        },
+        {
+          "kind": "data",
+          "text": "ef",
+          "bytes": 2
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ],
+      "after_drain": [],
+      "next_event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "next_reads": [
+        {
+          "kind": "data",
+          "text": "XY",
+          "bytes": 2
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ]
+    }
+  ],
+  "new_activity": {
+    "first": [
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN"
+        ]
+      }
+    ],
+    "read": {
+      "kind": "data",
+      "text": "ab",
+      "bytes": 2
+    },
+    "quiet": [],
+    "before": "cdef",
+    "added": "XY",
+    "active": [
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN"
+        ]
+      }
+    ],
+    "after": "cdefXY",
+    "tail": [
+      {
+        "kind": "data",
+        "text": "cd",
+        "bytes": 2
+      },
+      {
+        "kind": "data",
+        "text": "ef",
+        "bytes": 2
+      },
+      {
+        "kind": "data",
+        "text": "XY",
+        "bytes": 2
+      },
+      {
+        "kind": "EAGAIN"
+      }
+    ]
+  },
+  "stale": {
+    "event": [
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN"
+        ]
+      }
+    ],
+    "earlier_reader": {
+      "kind": "data",
+      "text": "Z",
+      "bytes": 1
+    },
+    "later_reader": {
+      "kind": "EAGAIN"
+    }
+  },
+  "framing": [
+    {
+      "sent": "HEL",
+      "event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "reads": [
+        {
+          "kind": "data",
+          "text": "HEL",
+          "bytes": 3
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ],
+      "messages": [],
+      "pending": "HEL"
+    },
+    {
+      "sent": "LO\n",
+      "event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "reads": [
+        {
+          "kind": "data",
+          "text": "LO\n",
+          "bytes": 3
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ],
+      "messages": [
+        "HELLO"
+      ],
+      "pending": ""
+    },
+    {
+      "sent": "A\nB\n",
+      "event": [
+        {
+          "endpoint": "B",
+          "flags": [
+            "EPOLLIN"
+          ]
+        }
+      ],
+      "reads": [
+        {
+          "kind": "data",
+          "text": "A\nB\n",
+          "bytes": 4
+        },
+        {
+          "kind": "EAGAIN"
+        }
+      ],
+      "messages": [
+        "A",
+        "B"
+      ],
+      "pending": ""
+    }
+  ],
+  "eof": {
+    "payload": "END",
+    "event": [
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN",
+          "EPOLLRDHUP"
+        ]
+      }
+    ],
+    "reads": [
+      {
+        "kind": "data",
+        "text": "EN",
+        "bytes": 2
+      },
+      {
+        "kind": "data",
+        "text": "D",
+        "bytes": 1
+      },
+      {
+        "kind": "EOF",
+        "text": "",
+        "bytes": 0
+      }
+    ]
+  },
+  "oneshot": {
+    "first": [
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN"
+        ]
+      }
+    ],
+    "reads": [
+      {
+        "kind": "data",
+        "text": "ab",
+        "bytes": 2
+      },
+      {
+        "kind": "EAGAIN"
+      }
+    ],
+    "disabled": [],
+    "rearmed": [
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN"
+        ]
+      }
+    ],
+    "rest": [
+      {
+        "kind": "data",
+        "text": "cd",
+        "bytes": 2
+      },
+      {
+        "kind": "EAGAIN"
+      }
+    ]
+  },
+  "writing": {
+    "payload_bytes": 65536,
+    "requested_sndbuf": 4096,
+    "effective_sndbuf": 8192,
+    "initial": [
+      {
+        "endpoint": "A",
+        "flags": [
+          "EPOLLOUT"
+        ]
+      }
+    ],
+    "writes": [
+      {
+        "kind": "data",
+        "offered": 65536,
+        "accepted": 8064,
+        "remaining": 57472
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 57472,
+        "accepted": 0,
+        "remaining": 57472
+      },
+      {
+        "kind": "data",
+        "offered": 57472,
+        "accepted": 8064,
+        "remaining": 49408
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 49408,
+        "accepted": 0,
+        "remaining": 49408
+      },
+      {
+        "kind": "data",
+        "offered": 49408,
+        "accepted": 8064,
+        "remaining": 41344
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 41344,
+        "accepted": 0,
+        "remaining": 41344
+      },
+      {
+        "kind": "data",
+        "offered": 41344,
+        "accepted": 8064,
+        "remaining": 33280
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 33280,
+        "accepted": 0,
+        "remaining": 33280
+      },
+      {
+        "kind": "data",
+        "offered": 33280,
+        "accepted": 8064,
+        "remaining": 25216
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 25216,
+        "accepted": 0,
+        "remaining": 25216
+      },
+      {
+        "kind": "data",
+        "offered": 25216,
+        "accepted": 8064,
+        "remaining": 17152
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 17152,
+        "accepted": 0,
+        "remaining": 17152
+      },
+      {
+        "kind": "data",
+        "offered": 17152,
+        "accepted": 8064,
+        "remaining": 9088
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 9088,
+        "accepted": 0,
+        "remaining": 9088
+      },
+      {
+        "kind": "data",
+        "offered": 9088,
+        "accepted": 8064,
+        "remaining": 1024
+      },
+      {
+        "kind": "EAGAIN",
+        "offered": 1024,
+        "accepted": 0,
+        "remaining": 1024
+      },
+      {
+        "kind": "data",
+        "offered": 1024,
+        "accepted": 1024,
+        "remaining": 0
+      }
+    ],
+    "recovery": [
+      {
+        "receiver_total": 8064,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 16128,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 24192,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 32256,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 40320,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 48384,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 56448,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      },
+      {
+        "receiver_total": 64512,
+        "event": [
+          {
+            "endpoint": "A",
+            "flags": [
+              "EPOLLOUT"
+            ]
+          }
+        ]
+      }
+    ],
+    "received_bytes": 65536,
+    "after_disable": []
+  },
+  "fairness": {
+    "payloads": {
+      "A": "abcdef",
+      "B": "UV"
+    },
+    "budget_bytes": 2,
+    "initial": [
+      {
+        "endpoint": "A",
+        "flags": [
+          "EPOLLIN"
+        ]
+      },
+      {
+        "endpoint": "B",
+        "flags": [
+          "EPOLLIN"
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "before": [
+          "A",
+          "B"
+        ],
+        "endpoint": "A",
+        "read": {
+          "kind": "data",
+          "text": "ab",
+          "bytes": 2
+        },
+        "after": [
+          "B",
+          "A"
+        ]
+      },
+      {
+        "before": [
+          "B",
+          "A"
+        ],
+        "endpoint": "B",
+        "read": {
+          "kind": "data",
+          "text": "UV",
+          "bytes": 2
+        },
+        "after": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "before": [
+          "A",
+          "B"
+        ],
+        "endpoint": "A",
+        "read": {
+          "kind": "data",
+          "text": "cd",
+          "bytes": 2
+        },
+        "after": [
+          "B",
+          "A"
+        ]
+      },
+      {
+        "before": [
+          "B",
+          "A"
+        ],
+        "endpoint": "B",
+        "read": {
+          "kind": "EAGAIN"
+        },
+        "after": [
+          "A"
+        ]
+      },
+      {
+        "before": [
+          "A"
+        ],
+        "endpoint": "A",
+        "read": {
+          "kind": "data",
+          "text": "ef",
+          "bytes": 2
+        },
+        "after": [
+          "A"
+        ]
+      },
+      {
+        "before": [
+          "A"
+        ],
+        "endpoint": "A",
+        "read": {
+          "kind": "EAGAIN"
+        },
+        "after": []
+      }
+    ],
+    "final_events": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "browser": "154.0.8037.57",
+  "css_width": 354,
+  "device_scale_factor": 3,
+  "identity": "真实点击后重新执行本地实验的浏览器截图",
+  "checks": [
+    {
+      "mode": "LT",
+      "width": 354,
+      "scroll": 354,
+      "minFont": 14.0184
+    },
+    {
+      "mode": "ET",
+      "width": 354,
+      "scroll": 354,
+      "minFont": 14.0184
+    },
+    {
+      "mode": "LT",
+      "width": 1062,
+      "scroll": 1062,
+      "minFont": 42
+    },
+    {
+      "mode": "ET",
+      "width": 1062,
+      "scroll": 1062,
+      "minFont": 42
+    }
+  ],
+  "experiment_environment": {
+    "system": "Linux",
+    "observed_kernel_release": "6.18.55",
+    "python": "3.12.14",
+    "family": "AF_UNIX",
+    "type": "SOCK_STREAM",
+    "poll_timeout_seconds": 0
+  },
+  "lt_second": [
+    {
+      "endpoint": "B",
+      "flags": [
+        "EPOLLIN"
+      ]
+    }
+  ],
+  "et_second": []
+}

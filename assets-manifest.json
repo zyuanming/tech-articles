@@ -24700,6 +24700,116 @@
     "sha256": "4c6db84bb1c13fe26195b78b783c9c2d8a052513d9f91295c1a04db5ba95f4ed"
   },
   {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/00-cover.png",
+    "bytes": 65784,
+    "sha256": "d5c46e7d8e4d3c01c9e64340288c711d23ebaf7059dee1555f06ae383a062a46"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/01-objects.png",
+    "bytes": 103291,
+    "sha256": "831d30bf5d71ceee298645c2f66d4e3dbc407f4e183c4b97961722448ee4bf00"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/02-wait.png",
+    "bytes": 63748,
+    "sha256": "55801d35f7cd8e28fa288f6f72155da7bf457616829bc07afd1685a5f673ffdc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/03-lt-et.png",
+    "bytes": 79288,
+    "sha256": "59d05ba90f475eb03b64b7fd6a31a3b27f84417ebd07c1422380dccc80bac1f2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/04-drain.png",
+    "bytes": 73691,
+    "sha256": "21d0eca94ae29dc5fca7fd0511afc792a6827c3b38b9bb6944cf078114c70e04"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/05-read-results.png",
+    "bytes": 100495,
+    "sha256": "eb45c7b75e0c13dfc3e13555bb65a3ec52d20deb5f569def19b68193d70de7dc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/06-stale.png",
+    "bytes": 91533,
+    "sha256": "2be6fcf468a96df310e30df99ce8ec9ad99778ece2239be1cbf0bfc953cb1854"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/07-framing.png",
+    "bytes": 117815,
+    "sha256": "bfaf83d5ba8255544df8da28fc9f26cd277040f643bcfeb64e7e414f66b8c86c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/08-eof.png",
+    "bytes": 78495,
+    "sha256": "9d909652d2b98982213d3aab859f69c128d1d0c0fa8c9de983f6bb5dba0f73b8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/09-partial-write.png",
+    "bytes": 113352,
+    "sha256": "5cf5b5cbdf504de1ee79ecd59a4b9ebebb12bdc55913982fb31f9c55f65745f3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/10-output-policy.png",
+    "bytes": 130629,
+    "sha256": "2a359cf103c902651537a94ae23a87a942bba9aaa2d4935ea23ba4dc00cf9083"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/11-fairness.png",
+    "bytes": 114821,
+    "sha256": "fb6f64c8cd564c5f04edcd73c91929bf2add999ece17b7004765bd79055b5260"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/12-oneshot.png",
+    "bytes": 82821,
+    "sha256": "6bbe3f353da0bf29c9acc09f2082dfc12daa28b443c76b3f5670954f9f83cbda"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/13-new-activity.png",
+    "bytes": 85953,
+    "sha256": "f99b505e6b3aaabc6ccaa5b9c3b70dc802e6b1b692e3c0ce68e03f4933f47390"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/assets/14-live-demo.png",
+    "bytes": 145830,
+    "sha256": "7d7df29bcd9a35cad3fd2581f8a9bb20fd75b33c5b2c8d17029cbf08feab5cfd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/build_figures.py",
+    "bytes": 13314,
+    "sha256": "4448ccba9fac285b02db4b423f4071903ba1917cc8dce64b3c34ef9daf8f4209"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/capture_demo.py",
+    "bytes": 2927,
+    "sha256": "a0ca7ee19671e1f48eb26f8f8e33a1065b1d6325d5144994d173ccc263a2c487"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/demo-capture.json",
+    "bytes": 890,
+    "sha256": "5982c9499bfd8dc858e693ff6173d796d7117a95d8670b682866c59d19283fef"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/demo_web.py",
+    "bytes": 3578,
+    "sha256": "583dfdf1de9453911b4507e8f5671bcfd2b70d8f7cbdb982a5c07b7fcc8e8001"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/experiment.py",
+    "bytes": 9834,
+    "sha256": "6d6cffbd4c3537bb1ba073c7c7cdee33efa80e41c9944b8122112377ab112055"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/figure-metadata.json",
+    "bytes": 7650,
+    "sha256": "571a724619a2d9828cc4a94d5f5f09547c0a36bfeac571fc5ef1fe26d2adfeaa"
+  },
+  {
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/examples/results.json",
+    "bytes": 11126,
+    "sha256": "9c3e08db48b22ecf9a74c11f73dfe08ac6aef9f5356bcf8a972715d500ce44eb"
+  },
+  {
     "path": "articles/2026-10-25-r1-external-merge-sort/assets/00-cover.png",
     "bytes": 89358,
     "sha256": "72dbe073567a882f65c2edf58fbc27eace125287aec79b0709efb11b72e7296c"

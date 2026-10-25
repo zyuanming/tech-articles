@@ -1,0 +1,285 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 753,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "独立封面：将通知和字节两个对象并置",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/01-objects.png",
+    "width": 1062,
+    "height": 988,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "分离socket缓冲区、兴趣集合、返回事件，避免把事件当消息",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/02-wait.png",
+    "width": 1062,
+    "height": 741,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "真实peek前后比较，说明wait不读取字节",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/03-lt-et.png",
+    "width": 1062,
+    "height": 1105,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "同输入同读量的并列操作时序，定位通知差异",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/04-drain.png",
+    "width": 1062,
+    "height": 964,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "将cdef分两次搬出并实际触及EAGAIN，格子数来自数据",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/05-read-results.png",
+    "width": 1062,
+    "height": 1216,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "分开数据、暂时无数据、EOF、EINTR及真实错误，拒绝混淆终止条件",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/06-stale.png",
+    "width": 1062,
+    "height": 805,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "真实先读后读实验解释就绪状态可以在处理前变化",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/07-framing.png",
+    "width": 1062,
+    "height": 1553,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "三轮实际分段输入与解析输出，展示半条和两条消息",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/08-eof.png",
+    "width": 1062,
+    "height": 945,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "半关闭时真实尾部EN、D及零返回的顺序",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/09-partial-write.png",
+    "width": 1062,
+    "height": 1023,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "实测部分写与应用未发送队列，用同比例段长避免虚构大小",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/10-output-policy.png",
+    "width": 1062,
+    "height": 1038,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "发送结果分支：部分写推进、EAGAIN保留、空队列撤销及异常边界",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/11-fairness.png",
+    "width": 1062,
+    "height": 1358,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "真实轮转读取序列，显现B及时获得服务与A继续排空",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/12-oneshot.png",
+    "width": 1062,
+    "height": 1188,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "不用ET仍能演示ONESHOT暂停与MOD重装，防止把二者等同",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/13-new-activity.png",
+    "width": 1062,
+    "height": 1023,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.333333333333334,
+    "identity": "原创结构示意／本地实验数据图；非内核监控截图",
+    "purpose": "独立实跑未排空时新增字节的通知，约束布尔边沿误读",
+    "checks": [
+      "glyph-cmap",
+      "canvas-bounds",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "ink-pixels",
+      "actual-size"
+    ]
+  },
+  {
+    "file": "assets/14-live-demo.png",
+    "width": 1062,
+    "height": 1629,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "真实点击后重新执行本地实验的浏览器截图",
+    "purpose": "真实操作本地教学界面，查看运行环境及ET逐步结果",
+    "checks": [
+      "live-response",
+      "mobile-desktop",
+      "both-modes",
+      "overflow",
+      "computed-font-size",
+      "actual-size"
+    ]
+  }
+]

@@ -2874,6 +2874,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-epoll-readiness-draining",
+    "title": "epoll 已经说“可读”，为什么程序还会等住？从六个字节看懂就绪与排空",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-epoll-readiness-draining/read.md",
+    "public_sha256": "3f33351b5e78fc7e2bb85423995ea7b57b59ccdb25a6528631dd16ca41d29d9a",
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-external-merge-sort",
     "title": "外部归并排序：文件比内存大，怎样一块一块排成全局有序？",
     "date": "2026-10-25",

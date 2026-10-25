@@ -21,3 +21,4 @@
 17. [令牌桶：平均每秒只许两份，为什么能一下放行六份？](../articles/2026-10-25-r1-token-bucket-bursts/read.md)
 18. [数据里也有 00，怎样用 00 给包划边界？把 COBS 逐字节走一遍](../articles/2026-10-25-r1-cobs-zero-byte-framing/read.md)
 19. [Buddy 分配器：空闲内存明明挨着，为什么还不能合并？](../articles/2026-10-25-r1-buddy-allocator-coalescing/read.md)
+20. [epoll 已经说“可读”，为什么程序还会等住？从六个字节看懂就绪与排空](../articles/2026-10-25-r1-epoll-readiness-draining/read.md)
