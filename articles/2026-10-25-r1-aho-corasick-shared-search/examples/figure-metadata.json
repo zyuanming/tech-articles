@@ -112,5 +112,211 @@
       "ink-pixels",
       "actual-dimensions"
     ]
+  },
+  {
+    "file": "assets/13-live-demo.png",
+    "width": 1062,
+    "height": 1506,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "真实本地教学web界面截图；Playwright点击调用Python实时运算",
+    "purpose": "同时展示双块输入、四输出和实际测试摘要",
+    "checks": [
+      "real-click",
+      "response-assertions",
+      "browser-overflow",
+      "computed-font-size",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-insert.png",
+    "width": 1062,
+    "height": 1547,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "按四个词的插入顺序区分复用前缀与新增路径",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-bfs.png",
+    "width": 1062,
+    "height": 1897,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "把深度层级与实际FIFO队列连接，说明构建的依赖顺序",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-build-failure.png",
+    "width": 1062,
+    "height": 1127,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "从父节点的已知失败边推导子节点的失败边",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-output-link.png",
+    "width": 1062,
+    "height": 1397,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "分开失败转移与输出枚举，突出输出游标不修改主状态",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-fallback-steps.png",
+    "width": 1062,
+    "height": 1467,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "展开原轨迹的全部三次失败回退，标清同字符只消费一次",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-depth.png",
+    "width": 1062,
+    "height": 1309,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "用同一执行轨迹画消费上升与失败下降，连接摊还计数",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-output-count.png",
+    "width": 1062,
+    "height": 1707,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "用九条同尺度区间显示输出量不能被输入长度取代",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-multi-failure.png",
+    "width": 1062,
+    "height": 1079,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创教学示意；数值来自 visual-results.json",
+    "purpose": "在显式变体中显示同一字符连续两次失败，到根后才消费",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-source-trie.png",
+    "width": 1062,
+    "height": 870,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "第三方MIT ASCII图文本重排渲染；非原站截图；Andrew Gallant，1.1.5",
+    "purpose": "保存原文ASCII结构、状态编号与终止标记，并加中文读图说明",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-source-failure.png",
+    "width": 1062,
+    "height": 1100,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "第三方MIT ASCII图文本重排渲染；非原站截图；Andrew Gallant，1.1.5",
+    "purpose": "保存原文ASCII结构、状态编号与终止标记，并加中文读图说明",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
   }
 ]

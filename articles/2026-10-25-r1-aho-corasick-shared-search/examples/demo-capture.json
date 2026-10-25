@@ -1,0 +1,32 @@
+{
+  "python": "3.12.14",
+  "first": [],
+  "middle": "sh",
+  "second": [
+    [
+      "she",
+      1,
+      4
+    ],
+    [
+      "he",
+      2,
+      4
+    ],
+    [
+      "hers",
+      2,
+      6
+    ],
+    [
+      "his",
+      6,
+      9
+    ]
+  ],
+  "splits": 10,
+  "cases": 8001,
+  "browser": "154.0.8037.57",
+  "viewport_width": 1062,
+  "min_font_px": 42
+}

@@ -1,0 +1,565 @@
+{
+  "patterns": [
+    "he",
+    "she",
+    "his",
+    "hers"
+  ],
+  "text": "ushershis",
+  "insertions": [
+    {
+      "pattern": "he",
+      "path": [
+        "h",
+        "he"
+      ],
+      "shared": [],
+      "new": [
+        "h",
+        "he"
+      ]
+    },
+    {
+      "pattern": "she",
+      "path": [
+        "s",
+        "sh",
+        "she"
+      ],
+      "shared": [],
+      "new": [
+        "s",
+        "sh",
+        "she"
+      ]
+    },
+    {
+      "pattern": "his",
+      "path": [
+        "h",
+        "hi",
+        "his"
+      ],
+      "shared": [
+        "h"
+      ],
+      "new": [
+        "hi",
+        "his"
+      ]
+    },
+    {
+      "pattern": "hers",
+      "path": [
+        "h",
+        "he",
+        "her",
+        "hers"
+      ],
+      "shared": [
+        "h",
+        "he"
+      ],
+      "new": [
+        "her",
+        "hers"
+      ]
+    }
+  ],
+  "bfs": [
+    {
+      "pop": "h",
+      "depth": 1,
+      "before": [
+        "h",
+        "s"
+      ],
+      "after": [
+        "s",
+        "he",
+        "hi"
+      ]
+    },
+    {
+      "pop": "s",
+      "depth": 1,
+      "before": [
+        "s",
+        "he",
+        "hi"
+      ],
+      "after": [
+        "he",
+        "hi",
+        "sh"
+      ]
+    },
+    {
+      "pop": "he",
+      "depth": 2,
+      "before": [
+        "he",
+        "hi",
+        "sh"
+      ],
+      "after": [
+        "hi",
+        "sh",
+        "her"
+      ]
+    },
+    {
+      "pop": "hi",
+      "depth": 2,
+      "before": [
+        "hi",
+        "sh",
+        "her"
+      ],
+      "after": [
+        "sh",
+        "her",
+        "his"
+      ]
+    },
+    {
+      "pop": "sh",
+      "depth": 2,
+      "before": [
+        "sh",
+        "her",
+        "his"
+      ],
+      "after": [
+        "her",
+        "his",
+        "she"
+      ]
+    },
+    {
+      "pop": "her",
+      "depth": 3,
+      "before": [
+        "her",
+        "his",
+        "she"
+      ],
+      "after": [
+        "his",
+        "she",
+        "hers"
+      ]
+    },
+    {
+      "pop": "his",
+      "depth": 3,
+      "before": [
+        "his",
+        "she",
+        "hers"
+      ],
+      "after": [
+        "she",
+        "hers"
+      ]
+    },
+    {
+      "pop": "she",
+      "depth": 3,
+      "before": [
+        "she",
+        "hers"
+      ],
+      "after": [
+        "hers"
+      ]
+    },
+    {
+      "pop": "hers",
+      "depth": 4,
+      "before": [
+        "hers"
+      ],
+      "after": []
+    }
+  ],
+  "layers": [
+    [
+      "根"
+    ],
+    [
+      "h",
+      "s"
+    ],
+    [
+      "he",
+      "hi",
+      "sh"
+    ],
+    [
+      "her",
+      "his",
+      "she"
+    ],
+    [
+      "hers"
+    ]
+  ],
+  "build_step": {
+    "parent": "sh",
+    "char": "e",
+    "parent_fail": "h",
+    "child": "she",
+    "child_fail": "he"
+  },
+  "multi": {
+    "i": 9,
+    "ch": "x",
+    "before": "his",
+    "fallback": [
+      "s",
+      "根"
+    ],
+    "state": "根",
+    "hits": []
+  },
+  "output_chain": [
+    {
+      "state": "she",
+      "outputs": [
+        "she"
+      ]
+    },
+    {
+      "state": "he",
+      "outputs": [
+        "he"
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "i": 0,
+      "ch": "u",
+      "before": "根",
+      "fallback": [],
+      "state": "根",
+      "hits": []
+    },
+    {
+      "i": 1,
+      "ch": "s",
+      "before": "根",
+      "fallback": [],
+      "state": "s",
+      "hits": []
+    },
+    {
+      "i": 2,
+      "ch": "h",
+      "before": "s",
+      "fallback": [],
+      "state": "sh",
+      "hits": []
+    },
+    {
+      "i": 3,
+      "ch": "e",
+      "before": "sh",
+      "fallback": [],
+      "state": "she",
+      "hits": [
+        [
+          "she",
+          1,
+          4
+        ],
+        [
+          "he",
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "i": 4,
+      "ch": "r",
+      "before": "she",
+      "fallback": [
+        "he"
+      ],
+      "state": "her",
+      "hits": []
+    },
+    {
+      "i": 5,
+      "ch": "s",
+      "before": "her",
+      "fallback": [],
+      "state": "hers",
+      "hits": [
+        [
+          "hers",
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "i": 6,
+      "ch": "h",
+      "before": "hers",
+      "fallback": [
+        "s"
+      ],
+      "state": "sh",
+      "hits": []
+    },
+    {
+      "i": 7,
+      "ch": "i",
+      "before": "sh",
+      "fallback": [
+        "h"
+      ],
+      "state": "hi",
+      "hits": []
+    },
+    {
+      "i": 8,
+      "ch": "s",
+      "before": "hi",
+      "fallback": [],
+      "state": "his",
+      "hits": [
+        [
+          "his",
+          6,
+          9
+        ]
+      ]
+    }
+  ],
+  "events": [
+    {
+      "depth": 0,
+      "kind": "start",
+      "label": "起点"
+    },
+    {
+      "depth": 0,
+      "kind": "consume",
+      "label": "u",
+      "i": 0
+    },
+    {
+      "depth": 1,
+      "kind": "consume",
+      "label": "s",
+      "i": 1
+    },
+    {
+      "depth": 2,
+      "kind": "consume",
+      "label": "h",
+      "i": 2
+    },
+    {
+      "depth": 3,
+      "kind": "consume",
+      "label": "e",
+      "i": 3
+    },
+    {
+      "depth": 2,
+      "kind": "fail",
+      "label": "he",
+      "i": 4
+    },
+    {
+      "depth": 3,
+      "kind": "consume",
+      "label": "r",
+      "i": 4
+    },
+    {
+      "depth": 4,
+      "kind": "consume",
+      "label": "s",
+      "i": 5
+    },
+    {
+      "depth": 1,
+      "kind": "fail",
+      "label": "s",
+      "i": 6
+    },
+    {
+      "depth": 2,
+      "kind": "consume",
+      "label": "h",
+      "i": 6
+    },
+    {
+      "depth": 1,
+      "kind": "fail",
+      "label": "h",
+      "i": 7
+    },
+    {
+      "depth": 2,
+      "kind": "consume",
+      "label": "i",
+      "i": 7
+    },
+    {
+      "depth": 3,
+      "kind": "consume",
+      "label": "s",
+      "i": 8
+    }
+  ],
+  "rises": 8,
+  "drops": 5,
+  "fail_count": 3,
+  "dense": {
+    "patterns": [
+      "a",
+      "aa",
+      "aaa"
+    ],
+    "text": "aaaa",
+    "hits": [
+      [
+        "a",
+        0,
+        1
+      ],
+      [
+        "aa",
+        0,
+        2
+      ],
+      [
+        "a",
+        1,
+        2
+      ],
+      [
+        "aaa",
+        0,
+        3
+      ],
+      [
+        "aa",
+        1,
+        3
+      ],
+      [
+        "a",
+        2,
+        3
+      ],
+      [
+        "aaa",
+        1,
+        4
+      ],
+      [
+        "aa",
+        2,
+        4
+      ],
+      [
+        "a",
+        3,
+        4
+      ]
+    ],
+    "trace": [
+      {
+        "i": 0,
+        "ch": "a",
+        "before": "根",
+        "fallback": [],
+        "state": "a",
+        "hits": [
+          [
+            "a",
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "i": 1,
+        "ch": "a",
+        "before": "a",
+        "fallback": [],
+        "state": "aa",
+        "hits": [
+          [
+            "aa",
+            0,
+            2
+          ],
+          [
+            "a",
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "i": 2,
+        "ch": "a",
+        "before": "aa",
+        "fallback": [],
+        "state": "aaa",
+        "hits": [
+          [
+            "aaa",
+            0,
+            3
+          ],
+          [
+            "aa",
+            1,
+            3
+          ],
+          [
+            "a",
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "i": 3,
+        "ch": "a",
+        "before": "aaa",
+        "fallback": [
+          "aa"
+        ],
+        "state": "aaa",
+        "hits": [
+          [
+            "aaa",
+            1,
+            4
+          ],
+          [
+            "aa",
+            2,
+            4
+          ],
+          [
+            "a",
+            3,
+            4
+          ]
+        ]
+      }
+    ]
+  }
+}

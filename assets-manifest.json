@@ -23680,6 +23680,61 @@
     "sha256": "d9b3a07a750674ca0132e161bbc324a32fdbc822cdcedf7bd7842262575ae835"
   },
   {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/06-insert.png",
+    "bytes": 139067,
+    "sha256": "edecd27575c94636e4aeaa0ed08b010a81c581764c4c6358e33e82d6d76eb5d8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/07-bfs.png",
+    "bytes": 121140,
+    "sha256": "3bf3fdc4325e76f389f9d83f952e4afdf0195c7b4b0e2c384a65ab1edeeb9817"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/08-build-failure.png",
+    "bytes": 84831,
+    "sha256": "e951dd250ba01afcd14d7ebf78d0376178a320cd53c2dbce876da2b2a35722c2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/09-output-link.png",
+    "bytes": 128251,
+    "sha256": "83483390653d0936abb72ed2893bb0372a75568e8454a2167273be99c26b0929"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/10-fallback-steps.png",
+    "bytes": 137769,
+    "sha256": "c83b78449f40618949487a132d646155931b9a9101649ae8051d7a2a78cbfd29"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/11-depth.png",
+    "bytes": 120476,
+    "sha256": "2ef8e4333323828fddb3e139cee6d459e18385ef03644994a22bee238c78cc86"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/12-output-count.png",
+    "bytes": 98479,
+    "sha256": "d9c6941434a2560f1602a8b0c90e92b6b9961bb47cc03cbeb8311a15953b6ce1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/13-live-demo.png",
+    "bytes": 132858,
+    "sha256": "0b5e2e6cafef38b10844660d571ffe2bace9efaa9d887a74fc8b5611e2956986"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/14-multi-failure.png",
+    "bytes": 114351,
+    "sha256": "a10be3833e6f58c0f0833385dc745673bd64ddfbc3ebe1b49857d3f415c2082d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/15-source-trie.png",
+    "bytes": 89957,
+    "sha256": "d098b0ae392c9fbfb2e19c9a7088b3a2c403512890ac7b7747029f5ac42343b0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/assets/16-source-failure.png",
+    "bytes": 104785,
+    "sha256": "d7334379b5c46b1b9bf554f08233cd6d0b863e6c9749394b00190ddf17b08915"
+  },
+  {
     "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/ac.py",
     "bytes": 3931,
     "sha256": "a5917f15d712b95187c9b82e19077179866db9ad87f55d05997bfaeb817efd05"
@@ -23690,14 +23745,69 @@
     "sha256": "b2fce675a9e63b4a06f137c75518f6d2c334ac4045e5da218f61d57dd48e52ce"
   },
   {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/build_visual_figures.py",
+    "bytes": 7758,
+    "sha256": "e3c47b520386fe9319f121b54994aea81a2963abbf4962e77dca40738b7795a9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/capture_demo.py",
+    "bytes": 2383,
+    "sha256": "b0aa81f97693be0abcb22dc12f2eddc8e491d0a6c4675f2a8ef406341f5b8d6f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/demo-capture.json",
+    "bytes": 359,
+    "sha256": "ac319b2f6faf331d248a91b2a85e18454c35b7be724da240e92eddcde0d38c26"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/demo_web.py",
+    "bytes": 3517,
+    "sha256": "dd5d0ce92ad377a5a7db1dc6a8c7f65cc26387b555c01be0c8e754bebc330095"
+  },
+  {
     "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/figure-metadata.json",
-    "bytes": 2899,
-    "sha256": "705772482a03639437ffc5c64a5a3c2c516c11c9908872db761559589c4a67e0"
+    "bytes": 8417,
+    "sha256": "4269db26aed2f762c73e6b87543d1c3464cb546eaa6f6b8d0add26e452821381"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/render_source_figures.py",
+    "bytes": 2208,
+    "sha256": "0fdae3d84ea4c46442988c0b7f37e06fc09632832c778a685486dc63c32da8be"
   },
   {
     "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/results.json",
     "bytes": 2597,
     "sha256": "0594b69f80f30588a87dd9ed673e871833294955fe7190e7fc9b14af4ceb62f4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/visual-results.json",
+    "bytes": 7648,
+    "sha256": "b042ba0c7de162be361cc1d065c7a5c48418fc8285ec097c08d04da135fb45eb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/visual_figurekit.py",
+    "bytes": 2945,
+    "sha256": "d1c7dff48587828772ab9fe9ae4764793defdcf34a43fe17da444352820e9675"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/examples/visual_model.py",
+    "bytes": 3027,
+    "sha256": "9f34e0e1d816dde7cd01a9ff1d0bb74cd637228247ec5354200775932d7c12a6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/originals/LICENSE-MIT.txt",
+    "bytes": 1081,
+    "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/originals/design-failure.txt",
+    "bytes": 140,
+    "sha256": "5ee90787916e7d83661fff3b223083c6bcd721b190c2a8aced9ebc3c1814e309"
+  },
+  {
+    "path": "articles/2026-10-25-r1-aho-corasick-shared-search/originals/design-trie.txt",
+    "bytes": 77,
+    "sha256": "bb2fa97dbedeec31721c2669371358ad217f499ced77ba66d0e746bb9d4e3ec0"
   },
   {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/00-cover.png",
