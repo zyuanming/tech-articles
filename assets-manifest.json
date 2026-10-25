@@ -24510,6 +24510,261 @@
     "sha256": "1971ea2e7992a787d577591a9639204829f780a71e628c2a70215fd02df07089"
   },
   {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/00-cover.png",
+    "bytes": 68788,
+    "sha256": "acc9d860ec76bfaca2679eb14b21cd82e30da931ca33b89a6481d44a7921be60"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/01-scene.png",
+    "bytes": 123267,
+    "sha256": "e3cc4f51843f91f19bc6b21467f70368ea0b02e82745acb63b3d844d09ee9afd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/02-buffers.png",
+    "bytes": 83409,
+    "sha256": "3e0cc1a4ec6b60c686995da374467d9731280631c60757d8667666325e78fd9c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/03-zpass.png",
+    "bytes": 118291,
+    "sha256": "a72e5b4d49d45de43ccd7dbf38ddd3265db36eb576106b259c05bdf762aa7b0b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/04-eye-inside.png",
+    "bytes": 87988,
+    "sha256": "5732ab13e31815f7d2b72098c03d29a70156b8cab73e0647ecad812639d0958a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/05-near-clip.png",
+    "bytes": 103354,
+    "sha256": "36a73bde612cd4e610baa4194a3f9fa6b1409d89203bf0fdf6409290bbb39cbe"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/06-zfail.png",
+    "bytes": 114226,
+    "sha256": "b183040751026f63b226dde0cd11f5f33849fa789d9ce15045dc0845d20ed993"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/07-caps.png",
+    "bytes": 106933,
+    "sha256": "808d0fcfd647c8fccd21a9146ceca722c3cf390b347960442bfad1da76697dd0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/08-light-facing.png",
+    "bytes": 93202,
+    "sha256": "fd1b4a49aaac814b5ffb8e0a0a5a99fc82617f41b51cd9827a2f11a953ac8cca"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/09-silhouette.png",
+    "bytes": 86925,
+    "sha256": "6e61ddc32425725f4abfa8a18eb007287b8d03df00a5618fa65e0fd87449633a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/10-extrusion.png",
+    "bytes": 105827,
+    "sha256": "10deecd7d69a6e2d24c808fc0f5ed588478b98ac0e0159aa5e8a2c73ab4e480e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/11-winding.png",
+    "bytes": 65001,
+    "sha256": "c7e062c0d54711e19af6310816a6914da5768c13587c02308fdafd61f505e68b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/12-render-inside.png",
+    "bytes": 101414,
+    "sha256": "493a8bbdcb9ccf52273823c22e0cc92c2a8e2ff0e252267b20fca6222dfeb623"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/13-missing-cap-render.png",
+    "bytes": 99766,
+    "sha256": "c8a99257a77028798e155542e6c4e64a285a17c4cdd696053d84c31fb3547d38"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/14-wrap.png",
+    "bytes": 149324,
+    "sha256": "2c71bb9b363ae9bab50b5d0ee1fc827ccd990e27a76871d2ea617cbb600e5166"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/15-multiple-lights.png",
+    "bytes": 89793,
+    "sha256": "1e747e5032e27c168fafcc8a1d2b25b09243bb7766c13d892c1098f1b9d74979"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/16-verification.png",
+    "bytes": 140345,
+    "sha256": "5981937e9ed3816f32135cc9ee22a2da305e0d716589c91973975c17e7b19132"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/assets/17-live-ui.png",
+    "bytes": 119282,
+    "sha256": "e320987353e82519784a29c4f418d3336036c6ed71ba80d1f257ac25fab66a59"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/build_figures.py",
+    "bytes": 15806,
+    "sha256": "f152bd925b6508c4797b40c2453c81bbce6be8697b3b1de2609899bb526b1460"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/capture_ui.py",
+    "bytes": 1713,
+    "sha256": "84d8e0861b9230c9efc08927e1e93730db1f20b21dc00e1aefc3abd4a6744c9c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/figure-metadata.json",
+    "bytes": 9219,
+    "sha256": "fcafe7ca02012966e1459142aa9fc3343d3913bb16b9f68606664dd7626dacb6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-count.png",
+    "bytes": 517,
+    "sha256": "c1c11797149a8a8c5b07a11936fe3501225d3b4f07175f92b56e156ca3407623"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-depth.png",
+    "bytes": 1539,
+    "sha256": "c66065286146d2f3ee10f0086f7757843e1a60f107a294e2c306014115f40223"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-error.png",
+    "bytes": 435,
+    "sha256": "a3ec2be2b3d5b9ecf663aa5c3eb2b2c0f30b15569d43d69243ca2ac497a0c376"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-no-far-cap.png",
+    "bytes": 1309,
+    "sha256": "e4540f61237f873d84379bc50d31d29d9dada1eb8e10e1bb19a64d40e90692af"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-truth.png",
+    "bytes": 1309,
+    "sha256": "e4540f61237f873d84379bc50d31d29d9dada1eb8e10e1bb19a64d40e90692af"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-unshadowed.png",
+    "bytes": 1334,
+    "sha256": "4309931d5cc852773499be48592f3dd08d64b933ba78180c0f79cbcc2184b4c5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-zfail.png",
+    "bytes": 1309,
+    "sha256": "e4540f61237f873d84379bc50d31d29d9dada1eb8e10e1bb19a64d40e90692af"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-zpass-count.png",
+    "bytes": 520,
+    "sha256": "3b06a44908a0ad61279462dd1002a1ba703b171f1378c0a75da06beee28ee77e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/inside-zpass.png",
+    "bytes": 1017,
+    "sha256": "0ee9e1dd669f823f6c0bfe62258a325fde68ad7a529bb17f97777b45f3576f29"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-count.png",
+    "bytes": 613,
+    "sha256": "a62b4f0bc625a682d0a761ce23a1bf60241f9a31d86bf0ddb248e115dfe7b92d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-depth.png",
+    "bytes": 2706,
+    "sha256": "3c9c72336a5d93bbf70f2babf57c0e1f7c4daddafde980748ec2586feaa6703a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-error.png",
+    "bytes": 392,
+    "sha256": "950e7707b8e8c0940fb85023d41cbb046fcee95dcdb00654db3ae4ecaebc6562"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-no-far-cap.png",
+    "bytes": 6365,
+    "sha256": "b14cfbbddb87e5184803e9a055ad93208dd6f182f335c049ad5dba5b4efde983"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-truth.png",
+    "bytes": 6306,
+    "sha256": "95b11a4ea894d79ba5c82b8f2e5a89e52eb440e45f1444ab7568b99c97fa42dd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-unshadowed.png",
+    "bytes": 6160,
+    "sha256": "d28ff12e7ce16660d623cd08f618d2e4d167295111547b917e0a271c1a13f020"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-zfail.png",
+    "bytes": 6306,
+    "sha256": "95b11a4ea894d79ba5c82b8f2e5a89e52eb440e45f1444ab7568b99c97fa42dd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-zpass-count.png",
+    "bytes": 613,
+    "sha256": "a62b4f0bc625a682d0a761ce23a1bf60241f9a31d86bf0ddb248e115dfe7b92d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/other-light-zpass.png",
+    "bytes": 6306,
+    "sha256": "95b11a4ea894d79ba5c82b8f2e5a89e52eb440e45f1444ab7568b99c97fa42dd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-count.png",
+    "bytes": 643,
+    "sha256": "7682337c94b5307ffff28312dc519b4a043545db18367c38fa70b012f9a55ba0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-depth.png",
+    "bytes": 2706,
+    "sha256": "3c9c72336a5d93bbf70f2babf57c0e1f7c4daddafde980748ec2586feaa6703a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-error.png",
+    "bytes": 392,
+    "sha256": "950e7707b8e8c0940fb85023d41cbb046fcee95dcdb00654db3ae4ecaebc6562"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-no-far-cap.png",
+    "bytes": 6108,
+    "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-truth.png",
+    "bytes": 6108,
+    "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-unshadowed.png",
+    "bytes": 6036,
+    "sha256": "1dcb1fdc7a337ddbd2dac08f7afe0b2af56807657e2fa54de8a36ef365923ec4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-zfail.png",
+    "bytes": 6108,
+    "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-zpass-count.png",
+    "bytes": 643,
+    "sha256": "7682337c94b5307ffff28312dc519b4a043545db18367c38fa70b012f9a55ba0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/output/outside-zpass.png",
+    "bytes": 6108,
+    "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/results.json",
+    "bytes": 17433,
+    "sha256": "d8aede5a36f156d3c8123bf7f5baccd1e3dbab0897e802548e1da20d70548393"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/shadow_model.py",
+    "bytes": 9678,
+    "sha256": "61e2f701067442bd64da32bd781460affe9528ba0feed63a900cd1a15b9e922b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/examples/ui.py",
+    "bytes": 2540,
+    "sha256": "13be11f77ace33f32120d5f29a041c58a13eac49e4abadb0cbdf7cf6f365bf0c"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

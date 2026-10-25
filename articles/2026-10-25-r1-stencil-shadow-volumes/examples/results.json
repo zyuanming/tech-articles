@@ -1,0 +1,1122 @@
+{
+  "ray_demo": {
+    "P": [
+      1.0,
+      1.0,
+      0.0
+    ],
+    "C": [
+      5.0,
+      -7.0,
+      5.0
+    ],
+    "L": [
+      -3.0,
+      -4.0,
+      6.0
+    ],
+    "B": [
+      0.65,
+      0.5625,
+      0.5249999999999999
+    ],
+    "light_enter": 0.0875,
+    "light_leave": 0.26666666666666666,
+    "eye_blocked": false,
+    "light_blocked": true
+  },
+  "version": "1.0",
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "units": "arbitrary scene units",
+  "bounds": [
+    [
+      -0.65,
+      -0.65,
+      0.0
+    ],
+    [
+      0.65,
+      0.65,
+      1.6
+    ]
+  ],
+  "light": [
+    -3.0,
+    -4.0,
+    6.0
+  ],
+  "vertices": [
+    [
+      -0.65,
+      -0.65,
+      0.0
+    ],
+    [
+      0.65,
+      -0.65,
+      0.0
+    ],
+    [
+      -0.65,
+      0.65,
+      0.0
+    ],
+    [
+      0.65,
+      0.65,
+      0.0
+    ],
+    [
+      -0.65,
+      -0.65,
+      1.6
+    ],
+    [
+      0.65,
+      -0.65,
+      1.6
+    ],
+    [
+      -0.65,
+      0.65,
+      1.6
+    ],
+    [
+      0.65,
+      0.65,
+      1.6
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      1
+    ],
+    [
+      4,
+      5,
+      7
+    ],
+    [
+      4,
+      7,
+      6
+    ],
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      5,
+      4
+    ],
+    [
+      2,
+      6,
+      7
+    ],
+    [
+      2,
+      7,
+      3
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      0,
+      6,
+      2
+    ],
+    [
+      1,
+      3,
+      7
+    ],
+    [
+      1,
+      7,
+      5
+    ]
+  ],
+  "volume_vertices": [
+    [
+      -0.65,
+      -0.65,
+      0.0
+    ],
+    [
+      0.65,
+      -0.65,
+      0.0
+    ],
+    [
+      -0.65,
+      0.65,
+      0.0
+    ],
+    [
+      0.65,
+      0.65,
+      0.0
+    ],
+    [
+      -0.65,
+      -0.65,
+      1.6
+    ],
+    [
+      0.65,
+      -0.65,
+      1.6
+    ],
+    [
+      -0.65,
+      0.65,
+      1.6
+    ],
+    [
+      0.65,
+      0.65,
+      1.6
+    ],
+    [
+      44.0,
+      63.0,
+      -114.0
+    ],
+    [
+      70.0,
+      63.0,
+      -114.0
+    ],
+    [
+      44.0,
+      89.0,
+      -114.0
+    ],
+    [
+      70.0,
+      89.0,
+      -114.0
+    ],
+    [
+      44.0,
+      63.0,
+      -82.0
+    ],
+    [
+      70.0,
+      63.0,
+      -82.0
+    ],
+    [
+      44.0,
+      89.0,
+      -82.0
+    ],
+    [
+      70.0,
+      89.0,
+      -82.0
+    ]
+  ],
+  "volume_faces": [
+    [
+      4,
+      5,
+      7
+    ],
+    [
+      4,
+      7,
+      6
+    ],
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      5,
+      4
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      0,
+      6,
+      2
+    ],
+    [
+      15,
+      13,
+      12
+    ],
+    [
+      14,
+      15,
+      12
+    ],
+    [
+      13,
+      9,
+      8
+    ],
+    [
+      12,
+      13,
+      8
+    ],
+    [
+      14,
+      12,
+      8
+    ],
+    [
+      10,
+      14,
+      8
+    ],
+    [
+      0,
+      2,
+      10
+    ],
+    [
+      0,
+      10,
+      8
+    ],
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      7,
+      5,
+      13
+    ],
+    [
+      7,
+      13,
+      15
+    ],
+    [
+      6,
+      7,
+      15
+    ],
+    [
+      6,
+      15,
+      14
+    ],
+    [
+      5,
+      1,
+      9
+    ],
+    [
+      5,
+      9,
+      13
+    ],
+    [
+      2,
+      6,
+      14
+    ],
+    [
+      2,
+      14,
+      10
+    ]
+  ],
+  "geometry": {
+    "dots": [
+      -10.14,
+      -10.14,
+      7.436000000000002,
+      7.436000000000002,
+      6.968000000000001,
+      6.968000000000001,
+      -9.672,
+      -9.672,
+      4.888000000000001,
+      4.888000000000001,
+      -7.592,
+      -7.592
+    ],
+    "light_facing": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    "silhouette": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "front_count": 6,
+    "back_count": 6,
+    "side_count": 12,
+    "k": 20.0
+  },
+  "illustration_far": [
+    [
+      1.7000000000000002,
+      2.7,
+      -6.0
+    ],
+    [
+      4.3,
+      2.7,
+      -6.0
+    ],
+    [
+      1.7000000000000002,
+      5.300000000000001,
+      -6.0
+    ],
+    [
+      4.3,
+      5.300000000000001,
+      -6.0
+    ],
+    [
+      1.7000000000000002,
+      2.7,
+      -2.8000000000000007
+    ],
+    [
+      4.3,
+      2.7,
+      -2.8000000000000007
+    ],
+    [
+      1.7000000000000002,
+      5.300000000000001,
+      -2.8000000000000007
+    ],
+    [
+      4.3,
+      5.300000000000001,
+      -2.8000000000000007
+    ]
+  ],
+  "intervals": {
+    "before": {
+      "p": 1,
+      "start": 0,
+      "end": 10,
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": 0,
+      "zfail": 0,
+      "truth": 0
+    },
+    "inside": {
+      "p": 4,
+      "start": 0,
+      "end": 10,
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": 1,
+      "zfail": 1,
+      "truth": 1
+    },
+    "after": {
+      "p": 8,
+      "start": 0,
+      "end": 10,
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": 0,
+      "zfail": 0,
+      "truth": 0
+    },
+    "eye_inside": {
+      "p": 4,
+      "start": 3,
+      "end": 10,
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": 0,
+      "zfail": 1,
+      "truth": 1
+    },
+    "near_cut": {
+      "p": 8,
+      "start": 3,
+      "end": 10,
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": -1,
+      "zfail": 0,
+      "truth": 0
+    },
+    "far_cut": {
+      "p": 4,
+      "start": 0,
+      "end": 5,
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": 1,
+      "zfail": 0,
+      "truth": 1
+    },
+    "no_front": {
+      "p": 1,
+      "start": 0,
+      "end": 10,
+      "events": [
+        [
+          6,
+          -1
+        ]
+      ],
+      "zpass": 0,
+      "zfail": 1,
+      "truth": 0
+    },
+    "no_back": {
+      "p": 4,
+      "start": 0,
+      "end": 10,
+      "events": [
+        [
+          2,
+          1
+        ]
+      ],
+      "zpass": 1,
+      "zfail": 0,
+      "truth": 1
+    }
+  },
+  "wrap": [
+    0,
+    255,
+    0
+  ],
+  "saturate": [
+    0,
+    0,
+    1
+  ],
+  "overlap": {
+    "intervals": [
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "points": [
+      1,
+      2.5,
+      4,
+      6.5,
+      8
+    ],
+    "counts": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ]
+  },
+  "wrap_256": 0,
+  "interval_tests": 484,
+  "renders": {
+    "outside": {
+      "camera": [
+        5.0,
+        -7.0,
+        5.0
+      ],
+      "target": [
+        0,
+        0,
+        0.6
+      ],
+      "light": [
+        -3.0,
+        -4.0,
+        6.0
+      ],
+      "width": 160,
+      "height": 128,
+      "valid": 15286,
+      "shadow": 567,
+      "zfail_errors": 0,
+      "zpass_errors": 0,
+      "missing_far_errors": 0,
+      "zpass_counts": {
+        "0": 14719,
+        "1": 567
+      },
+      "camera_inside": false,
+      "geometry": {
+        "dots": [
+          -10.14,
+          -10.14,
+          7.436000000000002,
+          7.436000000000002,
+          6.968000000000001,
+          6.968000000000001,
+          -9.672,
+          -9.672,
+          4.888000000000001,
+          4.888000000000001,
+          -7.592,
+          -7.592
+        ],
+        "light_facing": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "silhouette": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "front_count": 6,
+        "back_count": 6,
+        "side_count": 12,
+        "k": 20.0
+      }
+    },
+    "inside": {
+      "camera": [
+        0.8,
+        1.1,
+        0.6
+      ],
+      "target": [
+        0,
+        -1,
+        0.3
+      ],
+      "light": [
+        -3.0,
+        -4.0,
+        6.0
+      ],
+      "width": 160,
+      "height": 128,
+      "valid": 18392,
+      "shadow": 16321,
+      "zfail_errors": 0,
+      "zpass_errors": 18392,
+      "missing_far_errors": 0,
+      "zpass_counts": {
+        "-1": 2071,
+        "0": 16321
+      },
+      "camera_inside": true,
+      "geometry": {
+        "dots": [
+          -10.14,
+          -10.14,
+          7.436000000000002,
+          7.436000000000002,
+          6.968000000000001,
+          6.968000000000001,
+          -9.672,
+          -9.672,
+          4.888000000000001,
+          4.888000000000001,
+          -7.592,
+          -7.592
+        ],
+        "light_facing": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "silhouette": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "front_count": 6,
+        "back_count": 6,
+        "side_count": 12,
+        "k": 20.0
+      }
+    },
+    "other-light": {
+      "camera": [
+        5.0,
+        -7.0,
+        5.0
+      ],
+      "target": [
+        0,
+        0,
+        0.6
+      ],
+      "light": [
+        4.0,
+        -2.0,
+        5.0
+      ],
+      "width": 160,
+      "height": 128,
+      "valid": 15286,
+      "shadow": 134,
+      "zfail_errors": 0,
+      "zpass_errors": 0,
+      "missing_far_errors": 1914,
+      "zpass_counts": {
+        "0": 15152,
+        "1": 134
+      },
+      "camera_inside": false,
+      "geometry": {
+        "dots": [
+          -8.450000000000001,
+          -8.450000000000001,
+          5.746,
+          5.746,
+          2.8080000000000003,
+          2.8080000000000003,
+          -5.512,
+          -5.512,
+          -9.672,
+          -9.672,
+          6.968000000000001,
+          6.968000000000001
+        ],
+        "light_facing": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "silhouette": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "front_count": 6,
+        "back_count": 6,
+        "side_count": 12,
+        "k": 20.0
+      }
+    }
+  },
+  "outputs": {
+    "outside-unshadowed": {
+      "file": "examples/output/outside-unshadowed.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "1dcb1fdc7a337ddbd2dac08f7afe0b2af56807657e2fa54de8a36ef365923ec4"
+    },
+    "outside-zfail": {
+      "file": "examples/output/outside-zfail.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+    },
+    "outside-zpass": {
+      "file": "examples/output/outside-zpass.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+    },
+    "outside-no-far-cap": {
+      "file": "examples/output/outside-no-far-cap.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+    },
+    "outside-truth": {
+      "file": "examples/output/outside-truth.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "f5251fd78192ea0f48050825977f7f2cfff4271bf7afecd95899d62281637c69"
+    },
+    "outside-depth": {
+      "file": "examples/output/outside-depth.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "3c9c72336a5d93bbf70f2babf57c0e1f7c4daddafde980748ec2586feaa6703a"
+    },
+    "outside-count": {
+      "file": "examples/output/outside-count.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "7682337c94b5307ffff28312dc519b4a043545db18367c38fa70b012f9a55ba0"
+    },
+    "outside-zpass-count": {
+      "file": "examples/output/outside-zpass-count.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "7682337c94b5307ffff28312dc519b4a043545db18367c38fa70b012f9a55ba0"
+    },
+    "outside-error": {
+      "file": "examples/output/outside-error.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "950e7707b8e8c0940fb85023d41cbb046fcee95dcdb00654db3ae4ecaebc6562"
+    },
+    "inside-unshadowed": {
+      "file": "examples/output/inside-unshadowed.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "4309931d5cc852773499be48592f3dd08d64b933ba78180c0f79cbcc2184b4c5"
+    },
+    "inside-zfail": {
+      "file": "examples/output/inside-zfail.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "e4540f61237f873d84379bc50d31d29d9dada1eb8e10e1bb19a64d40e90692af"
+    },
+    "inside-zpass": {
+      "file": "examples/output/inside-zpass.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "0ee9e1dd669f823f6c0bfe62258a325fde68ad7a529bb17f97777b45f3576f29"
+    },
+    "inside-no-far-cap": {
+      "file": "examples/output/inside-no-far-cap.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "e4540f61237f873d84379bc50d31d29d9dada1eb8e10e1bb19a64d40e90692af"
+    },
+    "inside-truth": {
+      "file": "examples/output/inside-truth.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "e4540f61237f873d84379bc50d31d29d9dada1eb8e10e1bb19a64d40e90692af"
+    },
+    "inside-depth": {
+      "file": "examples/output/inside-depth.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "c66065286146d2f3ee10f0086f7757843e1a60f107a294e2c306014115f40223"
+    },
+    "inside-count": {
+      "file": "examples/output/inside-count.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "c1c11797149a8a8c5b07a11936fe3501225d3b4f07175f92b56e156ca3407623"
+    },
+    "inside-zpass-count": {
+      "file": "examples/output/inside-zpass-count.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "3b06a44908a0ad61279462dd1002a1ba703b171f1378c0a75da06beee28ee77e"
+    },
+    "inside-error": {
+      "file": "examples/output/inside-error.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "a3ec2be2b3d5b9ecf663aa5c3eb2b2c0f30b15569d43d69243ca2ac497a0c376"
+    },
+    "other-light-unshadowed": {
+      "file": "examples/output/other-light-unshadowed.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "d28ff12e7ce16660d623cd08f618d2e4d167295111547b917e0a271c1a13f020"
+    },
+    "other-light-zfail": {
+      "file": "examples/output/other-light-zfail.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "95b11a4ea894d79ba5c82b8f2e5a89e52eb440e45f1444ab7568b99c97fa42dd"
+    },
+    "other-light-zpass": {
+      "file": "examples/output/other-light-zpass.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "95b11a4ea894d79ba5c82b8f2e5a89e52eb440e45f1444ab7568b99c97fa42dd"
+    },
+    "other-light-no-far-cap": {
+      "file": "examples/output/other-light-no-far-cap.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "b14cfbbddb87e5184803e9a055ad93208dd6f182f335c049ad5dba5b4efde983"
+    },
+    "other-light-truth": {
+      "file": "examples/output/other-light-truth.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "95b11a4ea894d79ba5c82b8f2e5a89e52eb440e45f1444ab7568b99c97fa42dd"
+    },
+    "other-light-depth": {
+      "file": "examples/output/other-light-depth.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "3c9c72336a5d93bbf70f2babf57c0e1f7c4daddafde980748ec2586feaa6703a"
+    },
+    "other-light-count": {
+      "file": "examples/output/other-light-count.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "a62b4f0bc625a682d0a761ce23a1bf60241f9a31d86bf0ddb248e115dfe7b92d"
+    },
+    "other-light-zpass-count": {
+      "file": "examples/output/other-light-zpass-count.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "a62b4f0bc625a682d0a761ce23a1bf60241f9a31d86bf0ddb248e115dfe7b92d"
+    },
+    "other-light-error": {
+      "file": "examples/output/other-light-error.png",
+      "size": [
+        160,
+        128
+      ],
+      "sha256": "950e7707b8e8c0940fb85023d41cbb046fcee95dcdb00654db3ae4ecaebc6562"
+    }
+  }
+}

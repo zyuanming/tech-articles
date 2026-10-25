@@ -2861,5 +2861,16 @@
     "status": "archived_article",
     "related_versions": [],
     "collection": "student-exploration-series-2026-10-11"
+  },
+  {
+    "id": "2026-10-25-r1-stencil-shadow-volumes",
+    "title": "模板阴影体：不画一块黑贴纸，怎样用“进入和退出”找出阴影？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-stencil-shadow-volumes/read.md",
+    "public_sha256": "5573bf8ea6af89f2e403fb17f0ffc0dc1ff51701fc5e9943d2e8366f5a8c568c",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
   }
 ]

@@ -1,0 +1,341 @@
+[
+  {
+    "file": "assets/00-cover.png",
+    "width": 1062,
+    "height": 1149,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "真实执行的完整阴影渲染，建立技术对象与用途",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/01-scene.png",
+    "width": 1062,
+    "height": 1629,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "JSON绑定同一P、相机C、灯L与实算遮挡B，眼线无阻挡而灯线有阻挡",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/02-buffers.png",
+    "width": 1062,
+    "height": 959,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实际深度图和模板计数图，配色/范围/有效像素明确",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/03-zpass.png",
+    "width": 1062,
+    "height": 1775,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "三个接收点完整穿越步骤，共用区间与比例轴",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/04-eye-inside.png",
+    "width": 1062,
+    "height": 1018,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同一轴上的相机进入体内反例，初值失效",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/05-near-clip.png",
+    "width": 1062,
+    "height": 1019,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "近裁剪丢入口而眼睛在外的独立反例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/06-zfail.png",
+    "width": 1062,
+    "height": 1775,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "相同三点的后半视线计数，从闭合末端0倒推体内",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/07-caps.png",
+    "width": 1062,
+    "height": 1489,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "漏前盖/漏后盖及远裁剪的确定反例",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/08-light-facing.png",
+    "width": 1062,
+    "height": 1219,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "盒子实际三角网格的光源朝向分类，区分两个参考方向",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/09-silhouette.png",
+    "width": 1062,
+    "height": 1269,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "从实际邻接数组选出的6条灯光轮廓边，内部对角线不误挤出",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/10-extrusion.png",
+    "width": 1062,
+    "height": 1569,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同实际构造的k=2可视化，k与实际20明确区分，三部分闭合",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/11-winding.png",
+    "width": 1062,
+    "height": 1179,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "共享边有向绕序的局部放大，避免生成体面方向失衡",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/12-render-inside.png",
+    "width": 1062,
+    "height": 1579,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "同三维场景相机进入阴影体的实际正确/错误/计数/误差四联图",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/13-missing-cap-render.png",
+    "width": 1062,
+    "height": 1049,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实际另一个灯位置暴露漏后盖错误，避免只用恰巧通过场景",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/14-wrap.png",
+    "width": 1062,
+    "height": 1968,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "实算环绕与饱和顺序反例以及重叠数，明确8位整周期风险",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/15-multiple-lights.png",
+    "width": 1062,
+    "height": 1049,
+    "min_font_px": 40,
+    "effective_min_font_at_354": 13.33,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "两个实际灯位置不同模板，与逐灯独立重建/加光流程相联系",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/16-verification.png",
+    "width": 1062,
+    "height": 1219,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14.0,
+    "identity": "原创CPU模型输出或教学示意；执行数值来自 results.json",
+    "purpose": "两个独立几何问题的交叉验证规模与未验证范围",
+    "checks": [
+      "canvas",
+      "declared-box",
+      "text-overlap",
+      "font-size",
+      "contrast",
+      "glyph-cmap",
+      "ink-pixels",
+      "actual-dimensions"
+    ]
+  },
+  {
+    "file": "assets/17-live-ui.png",
+    "width": 1062,
+    "height": 1381,
+    "min_font_px": 42,
+    "effective_min_font_at_354": 14,
+    "identity": "实际Chromium HTTP教学查看器截图；原始模型图最近邻显示",
+    "purpose": "实际程序版本、输入视角、结果与误差可见；真实切换三种数据后截图",
+    "checks": [
+      "browser-image-decode",
+      "browser-no-overflow",
+      "computed-font-size",
+      "actual-dimensions",
+      "real-select-interaction"
+    ]
+  }
+]
