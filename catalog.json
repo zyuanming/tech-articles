@@ -2830,6 +2830,17 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-normal-map-tangent-space",
+    "title": "法线贴图与切线空间：一张紫蓝色图片，怎样让平面显出凹凸？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/read.md",
+    "public_sha256": "dee2d002154066b1ab251bc47236f50fbc98833ad50d3fa477d57853ac7b0b38",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": [],
+    "collection": "student-exploration-series-2026-10-11"
+  },
+  {
     "id": "2026-10-25-r1-quickselect-kth-selection",
     "title": "只想知道第六小，为什么要把所有数排好？Quickselect 的分区选择",
     "date": "2026-10-25",

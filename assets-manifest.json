@@ -24105,6 +24105,186 @@
     "sha256": "07fee9c43e4f5fbabedf12b736a2cfb463fa337a6e61a2e3c7754182e29d0454"
   },
   {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/00-cover.png",
+    "bytes": 75010,
+    "sha256": "b923a2f281c9302c409d0ddd269034dea527d40e589c06424533f21db801a997"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/01-normal.png",
+    "bytes": 70924,
+    "sha256": "611485190a8df6e86bf9d1f736317c45aa47b405c37ba028d1cf7ddc3eec825b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/02-texture.png",
+    "bytes": 82117,
+    "sha256": "f77a43caf59fdb2268ec32dbacb29507809683145c415db4df3e50eab1967d8d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/03-unpack.png",
+    "bytes": 93384,
+    "sha256": "f83aa0343b020fdc5d0b5c812976d7d575a9cf56590180d08e7ab74c9b51a5cc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/04-frame.png",
+    "bytes": 39257,
+    "sha256": "ad7d532d836a617016651d18aa645098187b9030d674a78455ef5bc4a5f4347a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/05-basis.png",
+    "bytes": 64628,
+    "sha256": "7dc08862fb78c7d2b8e872257428b4d986b18216f63ea37ddf7833c3f5262755"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/06-light.png",
+    "bytes": 77338,
+    "sha256": "ef9b2c4c9b605690a4fe0bdc5e234f6eb6339cfc74887794db7416d92306c028"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/07-triangle.png",
+    "bytes": 88546,
+    "sha256": "3937bfcd30775fdd213844e37cfb25c47a9d73354be7356e9b199da62e6e9bbd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/08-rotation.png",
+    "bytes": 93799,
+    "sha256": "ac3aff35a414215482160570e12c8e3ddf67301cc1bb43399547b403d01e8066"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/09-mirror.png",
+    "bytes": 100107,
+    "sha256": "b5323c866912060078cb5ebaef4090bbb50467ce0d465f8333d6668da585d48f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/10-green.png",
+    "bytes": 89979,
+    "sha256": "d9accea76a7fcc8c4409f2368cdcd3cf8a057987be9b700d818849e597821516"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/11-filter-scale.png",
+    "bytes": 98231,
+    "sha256": "abcab0c0dc863ba1db439515d0a50391076554de0e3f9f47a99f927852af2287"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/12-data.png",
+    "bytes": 99172,
+    "sha256": "b20ffc8e0d44b108b160bddaf0bf1e8a3d6d6750c5cc94f73cdbd8446205e590"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/13-limits.png",
+    "bytes": 92683,
+    "sha256": "9c5ed307110a15779d8af51968b4a375a15dabfe452b80d676a2e3eb432bbb79"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/14-pipeline.png",
+    "bytes": 100405,
+    "sha256": "2cef387b8036eb70451fcb4ed1e31420a7b8ed637432e0811c732e7977a13846"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/15-live-demo.png",
+    "bytes": 139397,
+    "sha256": "7bc1b8d24072a9eda2b58ea672f39f775e6f86193a7f357b35cf4e4ac7e50aa8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/assets/16-official-compare.jpg",
+    "bytes": 392666,
+    "sha256": "a9b2588c3d29c73ba2cd599255e5e6367db076ee579dffc34bb61d625f1dce02"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/build_figures.py",
+    "bytes": 13096,
+    "sha256": "4fdf308e16cb030d8fe490422f07fb8b8d194b6ba4de854fa3ce74c1df4e6deb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/capture_demo.py",
+    "bytes": 1394,
+    "sha256": "79d8b8933526fa5d5b9a5d0b7c348b790e531c39e75603bc3061d96e4aab896f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/demo_web.py",
+    "bytes": 3063,
+    "sha256": "7532a0d7fae7d62ce83a6684c203962941e3103b75cb67830af2ccb2fda8c4b4"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/figure-metadata.json",
+    "bytes": 8257,
+    "sha256": "54920062de43d2e8d0bb21c14f900382da57118161718cb5d3e3f3af8f562765"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/normal_map.py",
+    "bytes": 3264,
+    "sha256": "3be7b23946b8d58f17f36e23b8f09b60c858aae4fe14a2f824f7f9f05293da57"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/flat.png",
+    "bytes": 287,
+    "sha256": "455e675dcf3fe03a71fe48d4c180efa99014c9d7caf2aa58685ecbf679fc17b9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/gamma-wrong.png",
+    "bytes": 886,
+    "sha256": "e8f7e43d96975b0f895e7250c98d32eb6c9f817acb172d6aa31a18978cdb9cf0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/green-flip.png",
+    "bytes": 862,
+    "sha256": "a7e7663cd907191d68b897bdc489ce3861affc579724ccac14653d31a404b379"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/mapped.png",
+    "bytes": 863,
+    "sha256": "62a3133b7d39ee12aedf9b8ca9a5a1796678f5c08540a011fda0fb64d07c4d26"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/normal-map-data.png",
+    "bytes": 870,
+    "sha256": "ed944c0b83d4dc58eec048e30f37f7d7dc2caae64f9fb95744995489d4c933e3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/other-light.png",
+    "bytes": 858,
+    "sha256": "ef93e6ec183466408c502ad4e4df9c0eacd7bbe318ff691ea19553d1c4afb067"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/rotated-correct.png",
+    "bytes": 860,
+    "sha256": "ddce800bad4aeaf38412e6da03fa2fd8e3f738df6b988a312d53630eb6cc4072"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/output/rotated-wrong.png",
+    "bytes": 854,
+    "sha256": "ede068f0483258925330411b717522c808065abb03e2180fb94bc677f19fb9ef"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/results.json",
+    "bytes": 13865,
+    "sha256": "c03a15bf0c410125a3e0db0452be45d21b48c9191565d69a23f90f45ae3289f2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/examples/run_examples.py",
+    "bytes": 3944,
+    "sha256": "2518389258894684153aa50ec61f7a4e95aef772dfef0972e2b4ab61f078c1b7"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/originals/CC0-1.0.txt",
+    "bytes": 6534,
+    "sha256": "2b6e78a19ed6c410f99e07d13eb4f65c0745e7e46dea57451d8d1828d8d70f99"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/originals/CompareNormal-LICENSE.txt",
+    "bytes": 859,
+    "sha256": "bf195fe8f7a6309e3fff3e4c0f5a5e0f6fdc3120f38e7f0e9bb17b221dde850d"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/originals/Khronos-Mark.txt",
+    "bytes": 590,
+    "sha256": "eb51a39b4d19188373c6adc987b228d8f885cb395b674a5584521b70dc0dfa47"
+  },
+  {
+    "path": "articles/2026-10-25-r1-normal-map-tangent-space/originals/photos/CompareNormal-original.jpg",
+    "bytes": 392666,
+    "sha256": "a9b2588c3d29c73ba2cd599255e5e6367db076ee579dffc34bb61d625f1dce02"
+  },
+  {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/00-cover.png",
     "bytes": 81363,
     "sha256": "d0e6593ce9af6f062a1816100373b3f0e15d2367037bf1dcae3e4b0010a87143"
