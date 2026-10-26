@@ -26140,6 +26140,21 @@
     "sha256": "30e218a39977fe7fb133908b393f8b294a945a92839d12b3221d259c3590574f"
   },
   {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/12-rump-formation.png",
+    "bytes": 118956,
+    "sha256": "e6b22f36528a23297bb761b170b55a4bbfbe6af5895e13a8bf9d0673c04fd9d2"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/13-ferreira-deposit-a.png",
+    "bytes": 95998,
+    "sha256": "ad1c30da671e81768ff06a5064a750b9ef512b65c7feb98024f4b9fc3fa83104"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/14-ferreira-deposit-e.png",
+    "bytes": 76945,
+    "sha256": "c9e6bc52d06f8e3e69b424c2bef4411d71a5e0409c4a7387d71c81a094cef782"
+  },
+  {
     "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/examples/build_figures.py",
     "bytes": 14756,
     "sha256": "68fd66d0047d179b1569a845d85f20835a792d94673f43975bd4a848286370cc"
@@ -26168,6 +26183,16 @@
     "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/ipj-bio/README.upstream.txt",
     "bytes": 2242,
     "sha256": "80fb6193a5ac6b6ddb9ed6229b81fb77487e6fa11a0391031f3a0a9dbcd326cf"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/papers/rump-2024-figure6-page.png",
+    "bytes": 828698,
+    "sha256": "9a417103b5f443b6663b23b1e3a0f7d9026ddf3471bd2e92261b46a0e4de90b5"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/photos/ferreira-2022-figure7a-e.png",
+    "bytes": 433612,
+    "sha256": "8e2acc7ed18d1ad0ab3b09a103113b55faf649f0d4fa834ad9994d68afef9cfd"
   },
   {
     "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/photos/ipj-bio-assembled.jpg",
