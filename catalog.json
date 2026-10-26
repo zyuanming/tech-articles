@@ -2797,6 +2797,19 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-babbage-finite-differences",
+    "title": "【待补真实素材稿】不再一行行乘：Babbage 差分机怎样只用加法造出数表？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/read.md",
+    "public_sha256": "0f3dbe5927c059883527d59cf6c73a513623c2633a8552dc297fe5579a065251",
+    "images": 11,
+    "status": "draft_pending_materials",
+    "related_versions": [],
+    "review_status": "HOLD_visual_evidence",
+    "collection": "drafts-pending-materials",
+    "draft_notice": "尚缺可辨认的真实差分机整体、数位或机构局部及相关历史输出素材。现有图是数学与机械数位的教学表示，不是实机照片、原机构图纸或历史制表实物。"
+  },
+  {
     "id": "2026-10-25-r1-buddy-allocator-coalescing",
     "title": "Buddy 分配器：空闲内存明明挨着，为什么还不能合并？",
     "date": "2026-10-25",

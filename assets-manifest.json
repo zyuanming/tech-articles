@@ -23810,6 +23810,81 @@
     "sha256": "bb2fa97dbedeec31721c2669371358ad217f499ced77ba66d0e746bb9d4e3ec0"
   },
   {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/00-cover.png",
+    "bytes": 86356,
+    "sha256": "97f1ef79b45d442939544cbbe796be3c7b74f3f0cda6e4a3fdd9c82f40ddeadb"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/01-direct.png",
+    "bytes": 44200,
+    "sha256": "90ccdc730dd18933df24f2902b250faf66082991e1b8e6be2497ec39f71b4387"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/02-table.png",
+    "bytes": 82177,
+    "sha256": "f21667d7511d35367db71e2ac29f3c8fcc988d7cb66944cac481876658fe147f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/03-update.png",
+    "bytes": 102042,
+    "sha256": "461f8187ef42024fe84950f7581b864bf8d2c5355a4f847d4f7c81df72bac13e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/04-order.png",
+    "bytes": 86845,
+    "sha256": "a7c7cfcf9174f429f3bc2167f4cb4864c08835adf71b7ec58fbeaf03e565f85a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/05-registers.png",
+    "bytes": 88528,
+    "sha256": "9cdb68d48f448082af996bf5a4b527a8f9892b1ec9517e44328cefdb2b665ad6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/06-carry.png",
+    "bytes": 75012,
+    "sha256": "6f8d182e2b01e64a1d68bdbf08e85b9f7eee7c31c78695def26c8d693c9a58e0"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/07-errors.png",
+    "bytes": 69957,
+    "sha256": "6cd433ec471919feedd99ea5ed9028ca97107209d161484697d99753e29c1778"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/08-overflow.png",
+    "bytes": 103273,
+    "sha256": "5801feb1675593c83192865697e8bb066f67b2333fb8175745c9c37a9a2ae2de"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/09-step.png",
+    "bytes": 75794,
+    "sha256": "b62182484c52f5b1e342b9adda8214ad8753d234f88be2eb751e6394b3a0659e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/assets/10-boundary.png",
+    "bytes": 70603,
+    "sha256": "069187fa917231f3744c38ec8c0740a97256aeac700bcfa5cc4dfabe439e2817"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/examples/build_figures.py",
+    "bytes": 9666,
+    "sha256": "3cc119419ac6a2cadcf400e18926e5115f744b87201e0bebf563f20abc9fb36e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/examples/figure-metadata.json",
+    "bytes": 5307,
+    "sha256": "4af332e237ae7b2c01c4bd22a1f55fc3ef75a71b6117116c241482de0d911bb1"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/examples/results.json",
+    "bytes": 4845,
+    "sha256": "cb1fb95e736e2fb8d6ffb4c1da13a519b02b2b1a92c858d1faebe72de8c665b8"
+  },
+  {
+    "path": "articles/2026-10-25-r1-babbage-finite-differences/examples/run_examples.py",
+    "bytes": 3099,
+    "sha256": "0c2866cfe3f3a3dc3560cc67e29cdcd6320917bf0665ddc1411206d791333a3e"
+  },
+  {
     "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/assets/00-cover.png",
     "bytes": 71699,
     "sha256": "1891aaf50d3781d2394261015ee6ba2c52cb14016b3e3c50a061aefb538e708a"
