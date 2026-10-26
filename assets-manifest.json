@@ -26465,6 +26465,11 @@
     "sha256": "b4e2e4d6d916017e029ee12b1932045bf3aea636046e371bdf43ac6b904eb9a9"
   },
   {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/16-romy-measured-beat.png",
+    "bytes": 170303,
+    "sha256": "3fc7391d14da9b27aa93edb58871af7cae189befcaa996b37f1985c0344102dd"
+  },
+  {
     "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/build_figures.py",
     "bytes": 13601,
     "sha256": "b60370cc314abb5727590c87f4025cc249efa98916a7d6c6dd98754c01800684"
@@ -26488,6 +26493,11 @@
     "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/run_examples.py",
     "bytes": 3762,
     "sha256": "2abc2c632c4d8b3e64bce9ae8a2b72572982ffc1837898800e30176401985f5f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/originals/photos/romy-2021-figure2.jpg",
+    "bytes": 1205885,
+    "sha256": "085af2c32d02a34da314628272b0b063ae411e25f474cf357515afd1cfb0f808"
   },
   {
     "path": "articles/2026-10-25-r1-srgb-linear-light/assets/00-cover.png",

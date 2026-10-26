@@ -1,6 +1,6 @@
 # 2026年10月25日：逐篇重写 r1
 
-以下 27 篇为已正式审读通过的文章。新版本采用独立路径，保留此前公开稿件；各篇说明来源、原创图片与许可边界。
+以下 28 篇为已正式审读通过的文章。新版本采用独立路径，保留此前公开稿件；各篇说明来源、原创图片与许可边界。
 
 1. [一段文字要找一千个关键词，为什么可以只向前读一遍？Aho–Corasick 多模式匹配](../articles/2026-10-25-r1-aho-corasick-shared-search/read.md)
 2. [只想知道第六小，为什么要把所有数排好？Quickselect 的分区选择](../articles/2026-10-25-r1-quickselect-kth-selection/read.md)
@@ -30,10 +30,11 @@
 26. [关掉电，字为什么还在？电泳墨水把一页画面留在颜料的位置里](../articles/2026-10-25-r1-electrophoretic-display/read.md)
 27. [一张没有星名的照片，怎样告诉飞船朝哪边？星敏感器的图案识别](../articles/2026-10-25-r1-star-tracker-pattern-identification/read.md)
 
+28. [Sagnac 效应：两束光绕同一个圈，为什么能测出转动？](../articles/2026-10-25-r1-sagnac-rotation-light/read.md)（原第 29 篇，已补真实装置与实测拍频图并复审）
+
 ## 待补真实素材稿
 
-以下稿件先公开完整文字与已有配图，整体仍为 HOLD；不计入上面的 27 篇正式通过稿。各篇开头及来源说明列明具体缺口，补齐后需重新审读。
+以下稿件先公开完整文字与已有配图，整体仍为 HOLD；不计入上面的 28 篇正式通过稿。各篇开头及来源说明列明具体缺口，补齐后需重新审读。
 
 - 原第 24 篇：[【待补真实素材稿】不再一行行乘：Babbage 差分机怎样只用加法造出数表？](../articles/2026-10-25-r1-babbage-finite-differences/read.md)。状态：待补真实素材。
 - 原第 27 篇：[【待补真实素材稿】电压怎样变成一滴墨水？从压电腔体的压力波到喷嘴断滴](../articles/2026-10-25-r1-piezo-inkjet-pressure/read.md)。状态：待补真实素材。
-- 原第 29 篇：[【待补真实素材稿】Sagnac 效应：两束光绕同一个圈，为什么能测出转动？](../articles/2026-10-25-r1-sagnac-rotation-light/read.md)。状态：待补真实素材。
