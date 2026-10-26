@@ -26080,6 +26080,101 @@
     "sha256": "633d0c3ec55159e461057b3d3fd6501a48f50688b480d9100674f2d24c592a26"
   },
   {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/00-cover.png",
+    "bytes": 73436,
+    "sha256": "2e94797d09cf39f9bddec7cca1a96dbb3e6d321be525a6ff234da5782e8df959"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/01-structure.png",
+    "bytes": 82185,
+    "sha256": "b7e36a8bf4777dc23c7675ba95be2f6a0628ed83c624ca1d084c38403ddc0589"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/02-wall-motion.png",
+    "bytes": 84970,
+    "sha256": "3e72ae5202e171c865bfef84526475e3338e3302664cd9e02323c172a367c913"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/03-volume-account.png",
+    "bytes": 130254,
+    "sha256": "61a3e0eacc702267ef5cf2b025e50fc13d7734e4664e47b96d1884060ad4f886"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/04-reflection.png",
+    "bytes": 97666,
+    "sha256": "d76ca3dc62029b7e6dafb340c0ebc1b9768b367f6d99dc992a289dd878d4f013"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/05-wave-timing.png",
+    "bytes": 113101,
+    "sha256": "2ffe74232fd42ae8fc496af4c6a8a5a20711250de2aec6b4a2f5e8f6a883ac22"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/06-nozzle-forces.png",
+    "bytes": 101499,
+    "sha256": "d037fcc80bbc90d9b61508fb5e9119ed4d85cd168ee86efdcdb70ac8d7121317"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/07-flow-curve.png",
+    "bytes": 95735,
+    "sha256": "4b946aeaa328c11295d5948bdf4dd9c9124e3006d68d9b101d44a8a5f373a233"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/08-breakup.png",
+    "bytes": 78823,
+    "sha256": "01848cd756a767ae4993754b13057f666b1cea065f4b3b3d54cdcf513d01423e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/09-viscosity.png",
+    "bytes": 90110,
+    "sha256": "095b9d98f6fe182f3426b9e73d690611fb281522b94ce1d18d7bdead4d08589b"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/10-deposition.png",
+    "bytes": 94638,
+    "sha256": "eb1fd935ce7a9e58d65d8f210f68bdec665071dca9cb7b6d20f6b0aaed8b98a6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/assets/11-voltage-stages.png",
+    "bytes": 103519,
+    "sha256": "30e218a39977fe7fb133908b393f8b294a945a92839d12b3221d259c3590574f"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/examples/build_figures.py",
+    "bytes": 14756,
+    "sha256": "68fd66d0047d179b1569a845d85f20835a792d94673f43975bd4a848286370cc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/examples/figure-metadata.json",
+    "bytes": 6241,
+    "sha256": "c51382a5ea568886952eb41c5c5286db92b560d248cedd29707c0b5d4ff45965"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/examples/results.json",
+    "bytes": 188162,
+    "sha256": "35deeaa6898a71bdbc9fccc416cbd94c76088eaf33a07eaa444cdaef518f25ef"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/examples/run_examples.py",
+    "bytes": 4609,
+    "sha256": "04bc317eff1f5d26887e779175105dee62bfe85349770baaba3effbfc9f735bd"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/ipj-bio/GPL-2.0.txt",
+    "bytes": 18047,
+    "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/ipj-bio/README.upstream.txt",
+    "bytes": 2242,
+    "sha256": "80fb6193a5ac6b6ddb9ed6229b81fb77487e6fa11a0391031f3a0a9dbcd326cf"
+  },
+  {
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/originals/photos/ipj-bio-assembled.jpg",
+    "bytes": 3740538,
+    "sha256": "5d3e9f186515a482d53fc84ca3c9d23f49d8dbee61602ff71ddcb4686fef9fbd"
+  },
+  {
     "path": "articles/2026-10-25-r1-quickselect-kth-selection/assets/00-cover.png",
     "bytes": 81363,
     "sha256": "d0e6593ce9af6f062a1816100373b3f0e15d2367037bf1dcae3e4b0010a87143"

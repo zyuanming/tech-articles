@@ -2997,6 +2997,19 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-piezo-inkjet-pressure",
+    "title": "【待补真实素材稿】电压怎样变成一滴墨水？从压电腔体的压力波到喷嘴断滴",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/read.md",
+    "public_sha256": "c79125666aa01522679245ff2eeab7ab7743e280d51ec3a2693a011f186f46c9",
+    "images": 13,
+    "status": "draft_pending_materials",
+    "related_versions": [],
+    "review_status": "HOLD_visual_evidence",
+    "collection": "drafts-pending-materials",
+    "draft_notice": "尚缺可合法复用的真实液滴形成、颈缩断裂或稳定单滴过程，以及实际沉积印迹。已有装配照片不能证明这些效果；未确认使用权的液滴样本未收录，断滴示意与模型曲线不是实拍或自由表面仿真。"
+  },
+  {
     "id": "2026-10-25-r1-quickselect-kth-selection",
     "title": "只想知道第六小，为什么要把所有数排好？Quickselect 的分区选择",
     "date": "2026-10-25",
