@@ -36,3 +36,4 @@
 
 - 原第 24 篇：[【待补真实素材稿】不再一行行乘：Babbage 差分机怎样只用加法造出数表？](../articles/2026-10-25-r1-babbage-finite-differences/read.md)。状态：待补真实素材。
 - 原第 27 篇：[【待补真实素材稿】电压怎样变成一滴墨水？从压电腔体的压力波到喷嘴断滴](../articles/2026-10-25-r1-piezo-inkjet-pressure/read.md)。状态：待补真实素材。
+- 原第 29 篇：[【待补真实素材稿】Sagnac 效应：两束光绕同一个圈，为什么能测出转动？](../articles/2026-10-25-r1-sagnac-rotation-light/read.md)。状态：待补真实素材。

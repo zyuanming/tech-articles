@@ -26385,6 +26385,111 @@
     "sha256": "567625fd7d4b5d3ebdd2aae948d968cb66885d83d718dfe37fa3557f6d1467c1"
   },
   {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/00-cover.png",
+    "bytes": 77464,
+    "sha256": "9fba898d137fefdd4926f84112669a614c13992e83af070c1fd837ece820d6b6"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/01-loop.png",
+    "bytes": 83428,
+    "sha256": "23c023c523bea51156385b6f86da432515a0b06aad7e44b7abbcda9813dc9e91"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/02-rest.png",
+    "bytes": 64913,
+    "sha256": "da2a5be03419e48df8e9c425caecde78139c1a33127df2ed35b407b0fe13be80"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/03-chase.png",
+    "bytes": 82385,
+    "sha256": "994f6db5c7fec177a2b51955957a1203a83b99f17a566bbac8443e7dc574f015"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/04-meet.png",
+    "bytes": 85364,
+    "sha256": "7ad19909431e8230ec9c5db633a3dbff5b30d4d73eaeb1d1f833456039565d94"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/05-spacetime.png",
+    "bytes": 88439,
+    "sha256": "2978e7778b13de71e1d97a76fede7d63260bada4acbad7d0ae662015a6860d65"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/06-phase.png",
+    "bytes": 106053,
+    "sha256": "d38791576e6f10d75b134a863b2f5859293f18e0938f11668e4fd0fc9431988e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/07-area.png",
+    "bytes": 64941,
+    "sha256": "deece465ea325f804bf9ed3ebf70663d957099b09493136e55e70dd242342292"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/08-projection.png",
+    "bytes": 101493,
+    "sha256": "bbc14c367bd0abc7484d505e52b217b0e6ed999f4ab8843257495e58b8ae3db9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/09-turns.png",
+    "bytes": 84385,
+    "sha256": "83e847bf8413e6a575c834cc21b93454a3d58d85c2f4feb0ea65792393a5818c"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/10-medium.png",
+    "bytes": 117937,
+    "sha256": "9137c0ba87f0da32e4f1fcdc46fb06ae098927cf8c6286bbf1362b69b8ae8b07"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/11-cosine.png",
+    "bytes": 81869,
+    "sha256": "fa72e070f16401c2e5e826a171c67d88db105c1a84b55f5eeb52de812014226e"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/12-bias.png",
+    "bytes": 86838,
+    "sha256": "e94c78a18ebbb817cf5f0b6f63a22856fd313c516a5f50c0e1c1cafc18e4e5a9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/13-ringlaser.png",
+    "bytes": 97979,
+    "sha256": "3ee8d782e13eec8ae72ca66a15f8e83f81e7a87e3b7f6fad1c01c155e4e7fc22"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/14-earth.png",
+    "bytes": 149241,
+    "sha256": "4b329ee4f21c99664f0205ae7344d440fcfc1dd9e33f02799812f28713c6e2a3"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/assets/15-drift.png",
+    "bytes": 88791,
+    "sha256": "b4e2e4d6d916017e029ee12b1932045bf3aea636046e371bdf43ac6b904eb9a9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/build_figures.py",
+    "bytes": 13601,
+    "sha256": "b60370cc314abb5727590c87f4025cc249efa98916a7d6c6dd98754c01800684"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/figure-metadata.json",
+    "bytes": 7972,
+    "sha256": "b9c1facb34a6f7b4bcd80f60740dfa66f5e0577884f103bd762b27ca3da143fc"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/figure_canvas.py",
+    "bytes": 2964,
+    "sha256": "0605bfa00fb12779be5ab72dfca4820e3f36dab238d90d7ee238c0ba1cbea32a"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/results.json",
+    "bytes": 44609,
+    "sha256": "ba21fd02f5d1c8b83974b16012c1e2434458e7922e316149153519fb0b9446c9"
+  },
+  {
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/examples/run_examples.py",
+    "bytes": 3762,
+    "sha256": "2abc2c632c4d8b3e64bce9ae8a2b72572982ffc1837898800e30176401985f5f"
+  },
+  {
     "path": "articles/2026-10-25-r1-srgb-linear-light/assets/00-cover.png",
     "bytes": 65949,
     "sha256": "ed5e44080d05c1225c0d197ed70bdd4b306d4d3c886be3e647ece7814148ce3f"

@@ -3032,6 +3032,19 @@
     "collection": "student-exploration-series-2026-10-11"
   },
   {
+    "id": "2026-10-25-r1-sagnac-rotation-light",
+    "title": "【待补真实素材稿】Sagnac 效应：两束光绕同一个圈，为什么能测出转动？",
+    "date": "2026-10-25",
+    "path": "articles/2026-10-25-r1-sagnac-rotation-light/read.md",
+    "public_sha256": "72a653c824244e2f9b01ffb70e3518bafddafd6e0c985f9c6443eb5f90349e5a",
+    "images": 16,
+    "status": "draft_pending_materials",
+    "related_versions": [],
+    "review_status": "HOLD_visual_evidence",
+    "collection": "drafts-pending-materials",
+    "draft_notice": "尚缺权利明确、可核原像素的真实 Sagnac 装置及实际干涉或旋转测量效果。现有布局、波形和曲线均为教学示意或模型计算，不是实机照片、实验干涉图或实测陀螺输出。"
+  },
+  {
     "id": "2026-10-25-r1-srgb-linear-light",
     "title": "sRGB 与线性光：黑白各取一半，为什么有时是128，有时是188？",
     "date": "2026-10-25",
