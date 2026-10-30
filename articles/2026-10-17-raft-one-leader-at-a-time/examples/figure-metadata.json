@@ -1,0 +1,200 @@
+[
+  {
+    "path": "assets/01-why-replicate.png",
+    "width": 1062,
+    "height": 1168,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "为什么需要复制",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-majority.png",
+    "width": 1062,
+    "height": 1196,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "多数派与可容忍故障数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-terms.png",
+    "width": 1062,
+    "height": 1122,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "任期是单调递增的编号",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-one-election.png",
+    "width": 1062,
+    "height": 744,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "一次选举的实际时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-heartbeat.png",
+    "width": 1062,
+    "height": 1128,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "心跳与选举超时",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-split-vote.png",
+    "width": 1062,
+    "height": 1136,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "固定超时导致永远分裂投票",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-random-timeout.png",
+    "width": 1062,
+    "height": 843,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "随机化超时的效果",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-the-log.png",
+    "width": 1062,
+    "height": 1124,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "日志的结构",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-round-trip.png",
+    "width": 1062,
+    "height": 1395,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "一次客户端写的完整往返",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-cost-of-scale.png",
+    "width": 1062,
+    "height": 999,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "集群规模对延迟与消息量的影响",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-leader-crash.png",
+    "width": 1062,
+    "height": 1154,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "领导崩溃后日志不丢",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-conflict-repair.png",
+    "width": 1062,
+    "height": 1459,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "日志冲突的修复",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-election-restriction.png",
+    "width": 1062,
+    "height": 1170,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "选举限制：日志不够新就选不上",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-commit-rule.png",
+    "width": 1062,
+    "height": 1125,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "提交规则：为什么必须是当前任期",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-figure-8.png",
+    "width": 1062,
+    "height": 1813,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "错误提交规则导致的已提交条目丢失",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-partition.png",
+    "width": 1062,
+    "height": 962,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "网络分区：少数派里的旧领导",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-heal.png",
+    "width": 1062,
+    "height": 1256,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "分区恢复：孤儿条目被覆盖",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-membership.png",
+    "width": 1062,
+    "height": 1170,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "成员变更：一次加一台",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-random-schedules.png",
+    "width": 1062,
+    "height": 1155,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "随机日程下的安全性检查",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/20-real-bug.png",
+    "width": 1062,
+    "height": 1310,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "检查器抓到的一个真实实现错误",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/21-where-it-runs.png",
+    "width": 1062,
+    "height": 1338,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Raft 的现实应用",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/22-try-it.png",
+    "width": 1062,
+    "height": 1539,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的六项实验",
+    "identity": "原创教学示意"
+  }
+]

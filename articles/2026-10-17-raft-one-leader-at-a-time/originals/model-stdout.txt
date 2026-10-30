@@ -1,0 +1,15 @@
+majority table: [{'n': 1, 'majority': 1, 'tolerated': 0, 'isolated': 0}, {'n': 2, 'majority': 2, 'tolerated': 0, 'isolated': 0}, {'n': 3, 'majority': 2, 'tolerated': 1, 'isolated': 1}, {'n': 4, 'majority': 3, 'tolerated': 1, 'isolated': 1}, {'n': 5, 'majority': 3, 'tolerated': 2, 'isolated': 2}, {'n': 6, 'majority': 4, 'tolerated': 2, 'isolated': 2}, {'n': 7, 'majority': 4, 'tolerated': 3, 'isolated': 3}]
+fixed timeout: 30 elections each, max term 30, leader=[]
+random timeout: first leader in 17.5..26.5 s (mean 19.79) over 40 runs
+round trip: committed after 2.0 s with 16 messages
+latency by size: [(3, 5.6), (5, 11.2), (7, 17.7)]
+crash: A -> C in 16.5 s, log preserved=True
+conflict: C discarded ['T1:e2', 'T1:e3'], repaired=True
+partition: old A kept 2 entries, orphans discarded ['orphan0', 'orphan1']
+figure 8: correct rule commits to 1, broken rule to 2, entry lost=True
+membership: 5 -> 7 nodes, majority 4
+sweep: 0 of 400 schedules broke an invariant ({'crashes': 2074, 'partitions': 803, 'restarts': 1680, 'commands': 3586})
+sweep_harsh: 0 of 400 schedules broke an invariant ({'crashes': 4437, 'partitions': 1704, 'restarts': 4036, 'commands': 3962})
+two rules: raft=0 violations, naive=0 violations of 400
+bug hunt: correct reply 0 violations, whole-log reply 1 violations of 400 schedules
+writes results.json

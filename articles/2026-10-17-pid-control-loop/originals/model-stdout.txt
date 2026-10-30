@@ -1,0 +1,32 @@
+on/off      overshoot 22.37%  ess -0.005
+  P  kp=0.002  rise None    overshoot   0.00%  offset  42.857
+  P  kp=0.008  rise None    overshoot   0.00%  offset  23.077
+  P  kp=0.02   rise 41.3    overshoot   0.00%  offset  12.000
+  P  kp=0.06   rise 27.9    overshoot  10.88%  offset   4.615
+  P  kp=0.15   rise 27.6    overshoot  17.63%  offset   1.935
+  只有 P     rise 27.9    overshoot  10.88%  offset   4.615  settle None
+  P 加 D    rise 34.2    overshoot   0.00%  offset   4.615  settle None
+  P 加 I    rise 27.9    overshoot  11.15%  offset   0.478  settle 486.1
+  PID      rise 44.8    overshoot   0.77%  offset  -0.005  settle 77.5
+  windup=none   overshoot  17.03%  settle 116.8   
+  windup=clamp  overshoot   9.21%  settle 458.5   
+  windup=back   overshoot   0.00%  settle 748.3   
+  ZN no delay: 没有极限增益：Kp 一直加到 4，回路仍然收敛
+  ZN dead=15: ku=3.311 tu=108.5
+    P    overshoot  60.22%  offset  -5.259
+    PI   overshoot  60.18%  offset  -5.267
+    PID  overshoot  26.22%  offset  -5.635
+  dead=0     overshoot   0.00%  settle 1099.4
+  dead=10    overshoot   8.21%  settle 1130.1
+  dead=25    overshoot  45.56%  settle None
+  dead=40    overshoot  79.60%  settle 1498.1
+  dead=60    overshoot 122.10%  settle None
+  noise kd=0    mean |du| 0.0243
+  noise kd=1    mean |du| 0.6225
+  noise kd=4    mean |du| 0.6542
+  disturbance 只有 P     dip 6.69  final 73.846  recovered None
+  disturbance PI       dip 2.58  final 79.902  recovered 688.3000000000001
+  disturbance PID      dip 1.84  final 79.922  recovered 670.8000000000001
+  cart-pole free: |theta| > 0.5 rad at t=0.75 s (start 0.05 rad)
+  cart-pole: fell=False max|theta|=0.0500 rad  final x=0.5002 m  max|F|=3.06 N
+  writes results.json

@@ -1,0 +1,218 @@
+[
+  {
+    "path": "assets/01-open-vs-closed.png",
+    "width": 1062,
+    "height": 1969,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "开环与闭环控制的差别",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-on-off.png",
+    "width": 1062,
+    "height": 1338,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "开关控制为什么必然震荡",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-the-plant.png",
+    "width": 1062,
+    "height": 1108,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "本文使用的加热模型",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-p-only.png",
+    "width": 1062,
+    "height": 1293,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "比例控制：越快越接近，但总差一点",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-steady-state-error.png",
+    "width": 1062,
+    "height": 1700,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "比例控制的稳态误差公式与实测",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-p-too-large.png",
+    "width": 1062,
+    "height": 1065,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Kp 过大带来的超调",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-add-integral.png",
+    "width": 1062,
+    "height": 1526,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "积分项消除稳态误差",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-ki-sweep.png",
+    "width": 1062,
+    "height": 1477,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "积分增益对超调的影响",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-kd-sweep.png",
+    "width": 1062,
+    "height": 1665,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "微分项压制超调",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-four-tunings.png",
+    "width": 1062,
+    "height": 971,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "P、PD、PI、PID 的指标对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-discrete-form.png",
+    "width": 1062,
+    "height": 1154,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "位置式 PID 的离散实现",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-three-terms.png",
+    "width": 1062,
+    "height": 2380,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "PID 三项在时间上的分工",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-windup.png",
+    "width": 1062,
+    "height": 866,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "积分饱和与三种处理方式",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-derivative-kick.png",
+    "width": 1062,
+    "height": 1310,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "微分踢与两种求导对象",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-sample-time.png",
+    "width": 1062,
+    "height": 1720,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "采样周期对控制质量的影响",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-dead-time.png",
+    "width": 1062,
+    "height": 3150,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "纯延迟如何毁掉一组好参数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-ziegler-nichols.png",
+    "width": 1062,
+    "height": 1626,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Ziegler-Nichols 整定法的实测结果",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-noise.png",
+    "width": 1062,
+    "height": 926,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "微分项对测量噪声的放大",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-disturbance.png",
+    "width": 1062,
+    "height": 1396,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三种控制器对持续扰动的反应",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/20-saturation.png",
+    "width": 1062,
+    "height": 925,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "执行器饱和下的稳态误差",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/21-cartpole.png",
+    "width": 1062,
+    "height": 1653,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "串级 PID 控制倒立摆",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/22-where-it-runs.png",
+    "width": 1062,
+    "height": 1284,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "PID 的现实应用",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/23-history.png",
+    "width": 1062,
+    "height": 1006,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "PID 的起源：1922 年的船舶舵机",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/24-try-it.png",
+    "width": 1062,
+    "height": 1290,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的六项实验",
+    "identity": "原创教学示意"
+  }
+]

@@ -1,0 +1,23 @@
+0.1 + 0.2 = 0.30000000000000004
+0.1 + 0.2 == 0.3 -> False
+difference      = 5.551115123125783e-17 ulp
+ulp(0.3)        = 5.551115123125783e-17
+0.1 stored as   = 0.1000000000000000055511151231257827021181583404541015625
+1/10 in binary  = 0.00011 cycle at 1 period 4
+1e16 + 1 == 1e16 -> True  ulp(1e16) = 2.0
+  sum 0.1 x100000 朴素从左到右         10000.000000018848  err +1.885e-08
+  sum 0.1 x100000 Kahan 补偿       10000.0  err -5.551e-13
+  sum 0.1 x100000 二分两两相加         10000.0  err -5.551e-13
+  sum 0.1 x100000 按绝对值从小到大       10000.000000018848  err +1.885e-08
+  mixed sum      朴素从左到右         err -4.365e-11
+  mixed sum      按绝对值从小到大       err -4.532e-13
+  mixed sum      Kahan 补偿       err +1.522e-15
+  mixed sum      二分两两相加         err +4.563e-13
+  1-cos(1e-04) naive 4.999999969612645e-09 (8.28 digits)  stable 4.999999995833334e-09 (16.12 digits)
+  1-cos(1e-06) naive 5.000444502911705e-13 (4.05 digits)  stable 4.999999999999583e-13 (18.02 digits)
+  1-cos(1e-08) naive 0.0 (0.00 digits)  stable 5.0000000000000005e-17 (16.16 digits)
+  1-cos(1e-09) naive 0.0 (0.00 digits)  stable 5e-19 (16.28 digits)
+  quadratic naive small root 7.450580596923828e-09, stable 1e-08, true 1e-8
+  fast inverse sqrt(0.5): ['1.4138600773966667', '1.4142134298529214', '1.4142135623730765'] truth 1.414213562373095
+  float32(0.1) = 0.10000000149011612 0x3DCCCCCD
+  writes results.json

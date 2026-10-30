@@ -29,6 +29,11 @@ def refresh(root=ROOT):
     (root/'catalog.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
     assets=[]
     for p in sorted((root/'articles').rglob('*')):
+        # __pycache__ is gitignored, so a fresh clone has none of it. Recording
+        # those .pyc files here would make validate_content.py fail on clone --
+        # it reads every manifest path back from disk.
+        if '__pycache__' in p.parts:
+            continue
         if p.is_file() and p.suffix!='.md':
             b=p.read_bytes();assets.append({'path':p.relative_to(root).as_posix(),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
     (root/'assets-manifest.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2)+'\n')

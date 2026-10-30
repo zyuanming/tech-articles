@@ -618,9 +618,7 @@
     "public_sha256": "97cbb76fc60abf29e575739eda52cdc9975acf96f8b345efca8a24b6c9fc4cd6",
     "images": 7,
     "status": "archived_article",
-    "related_versions": [
-      "2026-10-23-hopper-early-compilers"
-    ]
+    "related_versions": []
   },
   {
     "id": "2026-10-10-lamport-causal-clocks",
@@ -719,9 +717,7 @@
     "public_sha256": "11fd88b5ee1457a9a32f54fec1a51a4abdb2f287d3b88a38eeab7e2a925c6cc3",
     "images": 8,
     "status": "archived_article",
-    "related_versions": [
-      "2026-10-23-quaternion-rotation-steps"
-    ]
+    "related_versions": []
   },
   {
     "id": "2026-10-10-raft-shared-log",
@@ -977,9 +973,7 @@
     "public_sha256": "c277b909d3cddda34c83e3873c166503f649b3353883adcbf435f39c604f12d3",
     "images": 7,
     "status": "archived_article",
-    "related_versions": [
-      "2026-10-23-ccd-inverse-kinematics"
-    ]
+    "related_versions": []
   },
   {
     "id": "2026-10-11-kalman-trusting-noise",
@@ -1412,9 +1406,7 @@
     "series_order": 5,
     "batch": "student-exploration-30",
     "status": "archived_article",
-    "related_versions": [
-      "2026-10-23-fencing-stale-writers"
-    ],
+    "related_versions": [],
     "title": "锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-leases-fencing-old-worker/read.md",
@@ -2098,11 +2090,21 @@
     "related_versions": []
   },
   {
+    "id": "2026-10-17-float-0-1-plus-0-2",
+    "title": "0.1 + 0.2 为什么不等于 0.3？",
+    "date": "2026-10-17",
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/read.md",
+    "public_sha256": "041201c0bf21401b4a1b42b35a63b1f7a324f2f19ab9fb6764840ed8336c6557",
+    "images": 23,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-10-17-konigsberg-seven-bridges",
     "title": "七座桥，为什么一座都走不通？",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-konigsberg-seven-bridges/read.md",
-    "public_sha256": "a04c0daa3bc16704efc76001492257fef00fc137cddb1017fcc87ad8c15fef77",
+    "public_sha256": "cd8c5808eda854a6b833e1e1f44b2ce047a706cd88bc49fdde82704e004e1d1e",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2118,342 +2120,324 @@
     "related_versions": []
   },
   {
-    "id": "2026-10-23-aba-reused-address",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
+    "id": "2026-10-17-pid-control-loop",
+    "title": "为什么炉子总是差那一点点？PID 控制器怎样学会自己找目标",
+    "date": "2026-10-17",
+    "path": "articles/2026-10-17-pid-control-loop/read.md",
+    "public_sha256": "05a6e0967fd8f89ead38ac1a2607df8b7a0d793af933a3d0a86d9af040e3cbfc",
+    "images": 24,
     "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-17-raft-one-leader-at-a-time",
+    "title": "五台机器，怎么决定\"现在是什么\"？",
+    "date": "2026-10-17",
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/read.md",
+    "public_sha256": "ead58141000daf5dfe5062200e171502c664ad12829d6e72400f18e31ec24dcf",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-23-aba-reused-address",
     "title": "明明又是 A，为什么这次比较不算数？把 ABA 问题放慢到六步",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-aba-reused-address/read.md",
     "public_sha256": "8cf64019310579196056bd87e63c3e7258e973a3f4479593f00886d3bba3b06f",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-abrash-software-rendering",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "一面墙没变，为什么还要算第二遍？Abrash笔下的Quake表面缓存",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-abrash-software-rendering/read.md",
     "public_sha256": "d6f9c5bd76f2b65438310583c5cc6ca85ff25c619a783f3606a81e8cb4c30287",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-alias-weighted-sampling",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "先把概率摆整齐，抽签就只剩一步：Alias method 的整数实验",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-alias-weighted-sampling/read.md",
     "public_sha256": "81f10489a080fd55ba48dbd5bd646c1e8ff7bdc3592141375f2361a16f087905",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-arithmetic-coding-intervals",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "三个字母，为什么能变成一个小数？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-arithmetic-coding-intervals/read.md",
     "public_sha256": "36a8ebefe5f47267739da4fd6169c18a1ef94ea708df9a931ef26c8872b9f965",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-backus-fortran-history",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "写得像公式，还要跑得像手写：Backus 团队面对的那道难题",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-backus-fortran-history/read.md",
     "public_sha256": "aab2be82beb067155da36b106525424762dcbd27b83cf97e4942069fed492b75",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-ccd-inverse-kinematics",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [
-      "2026-10-11-inverse-kinematics-reaching"
-    ],
-    "status": "archived_article",
     "title": "手够不到那个点，为什么不让关节一个个试？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-ccd-inverse-kinematics/read.md",
     "public_sha256": "d3d7edbc3c81f6b3f6753e68806076e99ebdaafbf2f2445eb9c8ebb57f66a1ca",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-conjugate-gradient-directions",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "共轭梯度：每一步都下坡，为什么还要记住上一步的方向？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-conjugate-gradient-directions/read.md",
     "public_sha256": "d649ded0775fb6e3a4feb72b6e3de0e4959dc770e821de20b8cd1eea247f9364",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-delta-debugging",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "一万行输入出了错，先别盯一万行：把失败样例一点点缩小",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-delta-debugging/read.md",
     "public_sha256": "a8e51f4976d3f1e7b3b52740e0aa6218e4d3f161e7a312ada64a266ed2097ce6",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-dining-philosophers-progress",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "五个人都很守规矩，为什么谁也吃不上？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-dining-philosophers-progress/read.md",
     "public_sha256": "7a9eed4e6596f35f30a4a1428746b057219469861c1f6bb97a9321f4d31a9d9f",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-engelbart-nls-history",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "不只是鼠标：1968年的NLS，怎样让两个人谈同一处知识",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-engelbart-nls-history/read.md",
     "public_sha256": "94790d9efbb1cbd4eb772850dbfd3dba1f7bff8c97d3850ce10e2b88df4ca56f",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-event-sourcing-replay",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "库存只剩5件，能不能知道它是怎样变成5的？从一本事件账本讲起",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-event-sourcing-replay/read.md",
     "public_sha256": "364083f6bcab9f2653747a71506a5f5923b8e5664430b4554ffca0d80bbfdb04",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-fencing-stale-writers",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [
-      "2026-10-12-leases-fencing-old-worker"
-    ],
-    "status": "archived_article",
     "title": "旧领导者醒了，为什么不能让它继续写？租约与栅栏令牌",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-fencing-stale-writers/read.md",
     "public_sha256": "e7a2ea694761960895d55a3c4f6da01952584096a956ea9cc9239ab21087d87c",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-hazard-pointer-reclamation",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "节点已经删掉，为什么还不能free？用一台小状态机拆开Hazard Pointers",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-hazard-pointer-reclamation/read.md",
     "public_sha256": "fe44059ae3cc88c10d19a6b89376de009eafce5d9a819fcb261163cd78fb59eb",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-hopper-early-compilers",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [
-      "2026-10-10-hopper-compilers"
-    ],
-    "status": "archived_article",
     "title": "Grace Hopper与早期编译：让电脑替人搬代码，究竟改变了什么？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-hopper-early-compilers/read.md",
     "public_sha256": "b88fc8ff5b7f42f896afb026d34ce22d7afe8c9d07a7288b61538d082bbec540",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-incremental-build-dependencies",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "只改一行，为什么又构建一遍？把增量构建拆成可检查的计算",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-incremental-build-dependencies/read.md",
     "public_sha256": "f2657cfcb1e26231e5c1de1cd45ec979bb2658bc83cb77fb803320c98ffca07e",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-iterative-deepening-search",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "迭代加深搜索：为什么宁愿重走几遍，也不把路全记下来？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-iterative-deepening-search/read.md",
     "public_sha256": "7510869656424fc590cc7fd43feff65b44ff2e38fcd23e0c201d730a819ff9c6",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-karatsuba-three-products",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "乘法拆小以后，为什么反而少算了一次？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-karatsuba-three-products/read.md",
     "public_sha256": "e69699cb54762c3977b79dd5b71b2afedfd430590cc5c89ce4eaf69e8bdc0ffb",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-knuth-tex-line-breaking",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "Knuth 为什么停下写书，去研究一行字在哪里结束？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-knuth-tex-line-breaking/read.md",
     "public_sha256": "77d117e799e0d86e7c67a093891707b4abc14563957a21aa73e792d6810840f5",
-    "images": 11
+    "images": 11,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-liskov-clu-abstraction",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "Liskov与CLU：换掉数据结构，为什么调用者可以一行不改？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-liskov-clu-abstraction/read.md",
     "public_sha256": "3ee9a63b3db8c1165e779ae4fbac15e0cfae1bf82f39f4bf35ca888a331e38b5",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-newton-root-finding",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "切线明明指向答案，牛顿法为什么还会绕圈？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-newton-root-finding/read.md",
     "public_sha256": "d002c2052235c7a68e87b06d59faf5cdad09f5958cf2efabbe2196d8d77cc6bb",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-perspective-depth-buffer",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "一块屏幕位置，为什么只记一个深度？从遮挡到 Z-fighting",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-perspective-depth-buffer/read.md",
     "public_sha256": "cbe0b994531ba2d44c062a2149898095691a05bd2e850322734736fd28b2ef17",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-poisson-disk-sampling",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "泊松圆盘采样：随机撒点，怎样不挤成一团？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-poisson-disk-sampling/read.md",
     "public_sha256": "7ce5633dfa5a68e8fa28bbcb1fae7affc09fb697d445b89f490058a8cc4d12bf",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-quaternion-rotation-steps",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [
-      "2026-10-10-quaternion-rotation"
-    ],
-    "status": "archived_article",
     "title": "四元数旋转：相机抬到头顶，为什么两个旋钮突然像同一个？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-quaternion-rotation-steps/read.md",
     "public_sha256": "18aafe5e4add80702877235917fb7545031dd81fcc9c9d208b2bfd66f4c9b1ee",
-    "images": 15
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-raster-edge-functions",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "三角形里究竟哪些像素？从三个边测试到“这条边归谁”",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-raster-edge-functions/read.md",
     "public_sha256": "bdfb5fb2afefc7c4ede5a59ca65e9beff55d777239ba9fec802011da6079fdfe",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-robin-hood-probing",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "Robin Hood 哈希：把住得近的键请走，为什么查找反而更稳？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-robin-hood-probing/read.md",
     "public_sha256": "d88b4ffef24123af682cbfee4a151d6f1390a670b73f34ae24743de961908d7f",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-seam-carving-paths",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "把图片缩窄，却不把所有东西一起压扁：沿着一条像素缝，走进动态规划",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-seam-carving-paths/read.md",
     "public_sha256": "e6a2de77e85a68c8d814d0363c4ad5b3706588b69c4c69d27d0e997c843105cc",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-svd-low-rank",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "一张矩阵，怎样拆成一层层有用的结构？从方格到奇异值分解",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-svd-low-rank/read.md",
     "public_sha256": "b03ec7a2e2554bf17740a60aa7df84cf43755647d5d90655d56e66ce480b36fe",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-sweep-line-events",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "扫描线：一万个时间段，怎样找到最拥挤的那一刻？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-sweep-line-events/read.md",
     "public_sha256": "c486a3ce5b2eed41f2b47553493de9afbf324c41135150991ed1589aecf67004",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-treap-random-priorities",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "Treap：给搜索树一副骰子，为什么反而不容易长歪？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-treap-random-priorities/read.md",
     "public_sha256": "c70a09c3df72c000a08c384017e723b0bf74dfb08f38f1fa3eaf749318a146d9",
-    "images": 15
+    "images": 15,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-23-vector-clock-causality",
-    "collection": "student-exploration-series-2026-10-11",
-    "related_versions": [],
-    "status": "archived_article",
     "title": "三个数字，为什么比一个时间戳多知道这么多？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-vector-clock-causality/read.md",
     "public_sha256": "4b974d9f97f4d8fdf5eb6309ab9b9c5a3699ad1f445e04bfa107d6f5fcd1b15a",
-    "images": 16
+    "images": 16,
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-24-ambient-occlusion-visibility",
@@ -2463,8 +2447,7 @@
     "public_sha256": "212a20f33d6bb86ef8a980143caa89ab979eacf4d4139795d261f7fda84398b4",
     "images": 14,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-bang-bang-braking-switch",
@@ -2474,8 +2457,7 @@
     "public_sha256": "e3d13db319194e08bd78273463e1b5777b358c00b8f99d67ee5937377cff59cb",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-bwt-reversible-clustering",
@@ -2485,8 +2467,7 @@
     "public_sha256": "7914b7b411a03ebdc936eaba312ef557e238f123efbd74fb7db6e4b6863a0e5b",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-capability-authority-paths",
@@ -2496,8 +2477,7 @@
     "public_sha256": "a30cd63d76526d4c99e86149cc4f3d6e22b85f7e4a92138042b6a8cbc389c6a4",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-dancing-links-exact-cover",
@@ -2507,8 +2487,7 @@
     "public_sha256": "b264e4e293927949c54879409e200364214649403251e1dfeef28f87b4b90d48",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-dda-voxel-traversal",
@@ -2518,8 +2497,7 @@
     "public_sha256": "ba35fcdb28fc4df972c0a03651822a08aea84e748b27f25a0b3f3b05ee2d69a0",
     "images": 14,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-dijkstra-weakest-precondition",
@@ -2529,8 +2507,7 @@
     "public_sha256": "606b7de9f09a3a9d47a3993fca4ce34ff0056ab1793948926d992a188c6f03b8",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-discrete-event-calendar",
@@ -2540,8 +2517,7 @@
     "public_sha256": "6925ac21e1da3723c6c9add7e53c9a3cb5b96c00cff5e3a4ddd0291e15c1187e",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-dual-contouring-sharp-corners",
@@ -2551,8 +2527,7 @@
     "public_sha256": "7df711f5ff1e1717bc1ca768033a1d8197ba8f2d61a0edd5c6111d368b6f06f3",
     "images": 14,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-hyperloglog-distinct-count",
@@ -2562,8 +2537,7 @@
     "public_sha256": "d8ac1e1ab295c56bef20d9c0580d2f08059ea177ae1ccf059969b89cda3487fd",
     "images": 14,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-interval-arithmetic-enclosures",
@@ -2573,8 +2547,7 @@
     "public_sha256": "a5e1ec2477e8444124b6e8e1c9a99937baffab8370567abd333ddc3137f437c8",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-knuth-literate-programming",
@@ -2584,8 +2557,7 @@
     "public_sha256": "3b9772907753d6278d0383dcea2c135194ced512084d2710769f8f426b56c714",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-ligo-pendulum-isolation",
@@ -2595,8 +2567,7 @@
     "public_sha256": "ed2295eb87505db04c37de239bfa2eac26c81bf4e95ce14f60d38ba5aa9b498d",
     "images": 11,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-lyapunov-energy-certificate",
@@ -2606,8 +2577,7 @@
     "public_sha256": "67874974f475cb559447834e5eff7afdf2e97e76767bbfba586aebafe53d0ae9",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-majority-vote-cancellation",
@@ -2617,8 +2587,7 @@
     "public_sha256": "f94c118234c5984891157204af328a4d5e983b0b5cdd80b19aeb21eb13b07268",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-premultiplied-alpha-edges",
@@ -2628,8 +2597,7 @@
     "public_sha256": "b1b53e105c37ab671c04f1f211fa056bed4524a6303ef406debd731e9d177c6c",
     "images": 14,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-qr-orthogonal-fitting",
@@ -2639,8 +2607,7 @@
     "public_sha256": "d1273875706cfb9c35c0ec2af0bc21722bc82363949eb6c895a9edbc9a6aea5d",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-reaction-diffusion-patterns",
@@ -2650,8 +2617,7 @@
     "public_sha256": "3b37308209b250ff7228dccfded1207178c91f7920913dacac16afbf102747b8",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-resolver-angle-sensing",
@@ -2661,8 +2627,7 @@
     "public_sha256": "f291d7415b180fb2f76871aa6f397627f165e41837390a3a2c4adc6f8dff588a",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-rtg-thermoelectric-temperature",
@@ -2672,8 +2637,7 @@
     "public_sha256": "1c0faa695a9befbb6fc0d7b5653c85c411377413b6e5de114e67abece775a88c",
     "images": 11,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-seqlock-consistent-copy",
@@ -2683,8 +2647,7 @@
     "public_sha256": "fe8d5ff9a2f72ee77b5049fc6710079cd045a53c2058885a176f7f28cae20be4",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-shannon-relay-boolean",
@@ -2694,8 +2657,7 @@
     "public_sha256": "ef12c1efee8a1ea5a059712ebfd3b3699e44bce6b8085649449563e0a8bb6c4b",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-simpson-three-samples",
@@ -2705,8 +2667,7 @@
     "public_sha256": "2cd9757a831254ec9eba58311779c1148295f085f636f4122227dfb6f62be579",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-skip-list-express-lanes",
@@ -2716,8 +2677,7 @@
     "public_sha256": "a9aa4a6ed1063d9ae7e8b306f168ad008cb741329a9e0fe290305d272abe1438",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-sonar-delay-beamforming",
@@ -2727,8 +2687,7 @@
     "public_sha256": "a2be87c8eda14cc7da6392cafb10af3c4f1f3948fa67a0ad170baf039b61a06e",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-termination-dependency-tree",
@@ -2738,8 +2697,7 @@
     "public_sha256": "84f74b2783a2890c132ac09bcf07839b6bd63fa75bf4a0f5e4e69edf6fd94170",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-thompson-trusting-compiler",
@@ -2749,8 +2707,7 @@
     "public_sha256": "ff9368a89904180b2dc392fdc1db6caa054d34d32549dde05b27864fd1171fe4",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-webb-segments-phase-alignment",
@@ -2760,8 +2717,7 @@
     "public_sha256": "51105ce09a263204a7721f8b078653802ed5a84ccdf2fbe320f4d0831caf1276",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-wilkes-microprogram-control",
@@ -2771,8 +2727,7 @@
     "public_sha256": "d2185f56be60b32557e9ad74bdd98d5433c64ff8fc6768712ae9dec04b8fe5e0",
     "images": 13,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-24-work-stealing-deques",
@@ -2782,8 +2737,7 @@
     "public_sha256": "a28171bde20b8483f0b44a5ce33757abd93d95b618bcd27a2db0b08da7f31f37",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-aho-corasick-shared-search",
@@ -2793,8 +2747,7 @@
     "public_sha256": "cd2c1313cd2100d75f3e520815f85f62b3f80bf208eee601ade691b2948dd7ee",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-babbage-finite-differences",
@@ -2803,11 +2756,8 @@
     "path": "articles/2026-10-25-r1-babbage-finite-differences/read.md",
     "public_sha256": "0f3dbe5927c059883527d59cf6c73a513623c2633a8552dc297fe5579a065251",
     "images": 11,
-    "status": "draft_pending_materials",
-    "related_versions": [],
-    "review_status": "HOLD_visual_evidence",
-    "collection": "drafts-pending-materials",
-    "draft_notice": "尚缺可辨认的真实差分机整体、数位或机构局部及相关历史输出素材。现有图是数学与机械数位的教学表示，不是实机照片、原机构图纸或历史制表实物。"
+    "status": "archived_article",
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-buddy-allocator-coalescing",
@@ -2817,8 +2767,7 @@
     "public_sha256": "be92cff1828dfe5a76e8ae113c2fd433536ff4ab2c17585c3719b774a3e1c8cd",
     "images": 16,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-byzantine-oral-messages",
@@ -2828,8 +2777,7 @@
     "public_sha256": "5716e0d33942e90607ab2bb588cbfbebe1f80c815a739a5dcf57e3be4607c91b",
     "images": 17,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-catmull-rom-interpolation",
@@ -2839,8 +2787,7 @@
     "public_sha256": "e19a7483e60372187725d47b916c7e373fb0036a05aaf315eda20181636c17f1",
     "images": 23,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-chebyshev-equiripple",
@@ -2850,8 +2797,7 @@
     "public_sha256": "b1108c922de856b34aec87a8eef5fe781e68aa72572169011f3ac0f15c75491a",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-chinese-remainder-reconstruction",
@@ -2861,8 +2807,7 @@
     "public_sha256": "31a1b698b5fd3d6199ced5f7cd7398a55d87e19f8b30cd7070a4e1cf087ea28c",
     "images": 22,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-cobs-zero-byte-framing",
@@ -2872,8 +2817,7 @@
     "public_sha256": "9f3b9578946fe64c88f1b454ab8676820fa036c1b9f33d6ecd8039360ed66dbd",
     "images": 18,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-count-min-sketch-frequency",
@@ -2883,8 +2827,7 @@
     "public_sha256": "2b89cde66042f058330d6d4793b9fb30c538db945a87c031d0e2dee8a018005f",
     "images": 14,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-electrophoretic-display",
@@ -2894,8 +2837,7 @@
     "public_sha256": "1680a0a24ec23b0a26422ccf6b31247f4aa3a0b779d11e80e25b05ee431e5246",
     "images": 19,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-epoll-readiness-draining",
@@ -2905,8 +2847,7 @@
     "public_sha256": "3f33351b5e78fc7e2bb85423995ea7b57b59ccdb25a6528631dd16ca41d29d9a",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-external-merge-sort",
@@ -2916,8 +2857,7 @@
     "public_sha256": "d1f3b6ec9af3225328845fe4018a0c210bad3b8bf09197615ff3373cd75811c1",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-fresnel-stepped-lens",
@@ -2927,8 +2867,7 @@
     "public_sha256": "f6c13699c9713cd4c43347255cd7b10b01a089ad29347de85d7d46e56c8e5429",
     "images": 21,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-hoare-csp-rendezvous",
@@ -2938,8 +2877,7 @@
     "public_sha256": "596c52cf34eb7d594ac47b3309973c4d33f3cd181d9cc05134d972b188b853fc",
     "images": 11,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-karger-random-contraction",
@@ -2949,8 +2887,7 @@
     "public_sha256": "b8cb97d804c73734758d95ebafb51634888e8088013cd7858fbdc7219cc660a7",
     "images": 10,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-mccarthy-lisp-evaluator",
@@ -2960,8 +2897,7 @@
     "public_sha256": "37fed9d7527eaaa6c51b310c95f6ec07f0cc10114c3b4fb249e55dc90be8fa2b",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-multiple-importance-sampling",
@@ -2971,8 +2907,7 @@
     "public_sha256": "c2f47e4a77b16e229a286dc2e9c8f947d9ff6f5dc7627ad148625bd5b9f65887",
     "images": 22,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-normal-map-tangent-space",
@@ -2982,8 +2917,7 @@
     "public_sha256": "dee2d002154066b1ab251bc47236f50fbc98833ad50d3fa477d57853ac7b0b38",
     "images": 17,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-pid-integrator-windup",
@@ -2993,8 +2927,7 @@
     "public_sha256": "aa961b5f7825248b9b445b55a532c3b04d8f4589485101c2855c7be4827a95ae",
     "images": 25,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-piezo-inkjet-pressure",
@@ -3004,8 +2937,7 @@
     "public_sha256": "4032198fa65cb94c40a74e446d0570c8e69eda198fea9dbbb76dfd7ed0103f03",
     "images": 16,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-quickselect-kth-selection",
@@ -3015,8 +2947,7 @@
     "public_sha256": "76c7f118077f1db1e7317ecd9a39e6e9dbc346b8694cb67ee2a31112d686b276",
     "images": 12,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-ritchie-c-declarations",
@@ -3026,8 +2957,7 @@
     "public_sha256": "29d2f382e205abd592d511a378789eff332ac1ed8af2ae61f128ed19dd9407b4",
     "images": 16,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-sagnac-rotation-light",
@@ -3037,8 +2967,7 @@
     "public_sha256": "55fda352c46252710a0a1ebb47516d5f2db61eee12fea556e9a77507727d3335",
     "images": 18,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-srgb-linear-light",
@@ -3048,8 +2977,7 @@
     "public_sha256": "c9187ddbd85c0247c50a0d1503132c28325e6b06058749ba298e5f0d99a94e38",
     "images": 16,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-star-tracker-pattern-identification",
@@ -3059,8 +2987,7 @@
     "public_sha256": "3912d21d4d9bf1d7ea491ff1fecd04bd6257393eafab92b73d0ca0f656600a08",
     "images": 22,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-stencil-shadow-volumes",
@@ -3070,8 +2997,7 @@
     "public_sha256": "5573bf8ea6af89f2e403fb17f0ffc0dc1ff51701fc5e9943d2e8366f5a8c568c",
     "images": 18,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-sturm-real-root-count",
@@ -3081,8 +3007,7 @@
     "public_sha256": "c7211fa3b3fd86e60a71327704612a08f0019bd9edfeda6c32df8a2d86e9dcff",
     "images": 16,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-token-bucket-bursts",
@@ -3092,8 +3017,7 @@
     "public_sha256": "fec61a08509627307e2579c5e53dff79f9af52c066bd0a32816a7f3a6127489f",
     "images": 16,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-wirth-recursive-descent",
@@ -3103,8 +3027,7 @@
     "public_sha256": "6b7bb303681bd7789c782583ddbc1b4c1359ba0509180b84591c657829241945",
     "images": 15,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   },
   {
     "id": "2026-10-25-r1-z-transform-recurrence",
@@ -3114,7 +3037,6 @@
     "public_sha256": "04f0dbd52bde9f15c37773ead43c1450f60f0f9d981aa22d2197cf67d7df6ddb",
     "images": 22,
     "status": "archived_article",
-    "related_versions": [],
-    "collection": "student-exploration-series-2026-10-11"
+    "related_versions": []
   }
 ]

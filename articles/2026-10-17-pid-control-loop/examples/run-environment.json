@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-17",
+  "python": "3.14.7",
+  "implementation": "CPython",
+  "third_party_packages_for_numbers": [],
+  "third_party_packages_for_figures": [
+    "Pillow 12.3.0"
+  ],
+  "operating_system": "macOS (Darwin 27.0.0, arm64)",
+  "determinism": "全部结果确定：炉子按控制周期（默认 0.1 s，第 15 节扫描到 30 s）用显式欧拉法积分，倒立摆用 0.01 s；控制器是纯算术；只有噪声实验使用固定种子 7",
+  "font_for_figures": "/System/Library/Fonts/Hiragino Sans GB.ttc (index 0 regular / index 2 bold)",
+  "note": "不同字体或 Pillow 版本可能让 PNG 像素不同；数值结果不受影响"
+}

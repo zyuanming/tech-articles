@@ -1,0 +1,209 @@
+[
+  {
+    "path": "assets/01-the-symptom.png",
+    "width": 1062,
+    "height": 1011,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "现象：0.1 + 0.2 不等于 0.3",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-what-binary-can-hold.png",
+    "width": 1062,
+    "height": 994,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "哪些小数在二进制里是精确的",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-long-division.png",
+    "width": 1062,
+    "height": 1212,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "用长除法求 1/10 的二进制展开",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-the-cycle.png",
+    "width": 1062,
+    "height": 827,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "1/10 的二进制展开与循环节",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-cut-it-off.png",
+    "width": 1062,
+    "height": 883,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "53 位有效数字之外的位必须舍入",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-ieee-layout.png",
+    "width": 1062,
+    "height": 1405,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "IEEE 754 双精度的字段划分",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-decode-0-1.png",
+    "width": 1062,
+    "height": 1220,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "把 0.1 的位模式拆开并还原",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-what-is-stored.png",
+    "width": 1062,
+    "height": 1074,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "0.1 实际存储的精确十进制展开",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-not-even-spacing.png",
+    "width": 1062,
+    "height": 1332,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "浮点间隔随数量级变化",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-ulp-table.png",
+    "width": 1062,
+    "height": 1133,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "不同数量级上一个 ulp 的大小",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-alignment.png",
+    "width": 1062,
+    "height": 974,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "浮点加法前必须对齐小数点",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-the-sum.png",
+    "width": 1062,
+    "height": 1153,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "精确和、舍入后的和与 0.3 的逐位对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-rounding-tie.png",
+    "width": 1062,
+    "height": 1046,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "就近取偶规则如何决定 0.1+0.2 的结果",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-big-eats-small.png",
+    "width": 1062,
+    "height": 1005,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "大数量级下小增量被完全吃掉",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-cancellation.png",
+    "width": 1062,
+    "height": 994,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "灾难性抵消与等价改写",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-accumulate.png",
+    "width": 1062,
+    "height": 1321,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "累加误差随项数的增长曲线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-kahan.png",
+    "width": 1062,
+    "height": 860,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "同一列数的四种求和方式误差对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-quadratic.png",
+    "width": 1062,
+    "height": 742,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "二次方程求根的两种写法",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-special-values.png",
+    "width": 1062,
+    "height": 1259,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "0、负零、无穷与 NaN",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/20-subnormal.png",
+    "width": 1062,
+    "height": 951,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "次正规数与渐进下溢",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/21-fast-inv-sqrt.png",
+    "width": 1062,
+    "height": 1301,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "快平方根倒数的迭代收敛",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/22-compare-with-tolerance.png",
+    "width": 1062,
+    "height": 1008,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "绝对容差在不同数量级上的失效",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/23-try-it.png",
+    "width": 1062,
+    "height": 1290,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "读者可以自己改动的六项实验",
+    "identity": "原创教学示意"
+  }
+]

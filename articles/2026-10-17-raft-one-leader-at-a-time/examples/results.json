@@ -1,0 +1,1437 @@
+{
+  "majority": [
+    {
+      "n": 1,
+      "majority": 1,
+      "tolerated": 0,
+      "isolated": 0
+    },
+    {
+      "n": 2,
+      "majority": 2,
+      "tolerated": 0,
+      "isolated": 0
+    },
+    {
+      "n": 3,
+      "majority": 2,
+      "tolerated": 1,
+      "isolated": 1
+    },
+    {
+      "n": 4,
+      "majority": 3,
+      "tolerated": 1,
+      "isolated": 1
+    },
+    {
+      "n": 5,
+      "majority": 3,
+      "tolerated": 2,
+      "isolated": 2
+    },
+    {
+      "n": 6,
+      "majority": 4,
+      "tolerated": 2,
+      "isolated": 2
+    },
+    {
+      "n": 7,
+      "majority": 4,
+      "tolerated": 3,
+      "isolated": 3
+    }
+  ],
+  "timeline": {
+    "changes": [
+      {
+        "t": 24.5,
+        "node": "A",
+        "to": "candidate",
+        "term": 1
+      },
+      {
+        "t": 26.5,
+        "node": "A",
+        "to": "leader",
+        "term": 1
+      }
+    ],
+    "seconds": 70.0,
+    "final": {
+      "A": "leader",
+      "B": "follower",
+      "C": "follower",
+      "D": "follower",
+      "E": "follower"
+    },
+    "final_term": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1
+    },
+    "states": [
+      {
+        "t": 2.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 4.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 6.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 8.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 10.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 12.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 14.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 16.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 18.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 20.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 22.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 24.0,
+        "states": {
+          "A": "follower",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 0
+        }
+      },
+      {
+        "t": 26.0,
+        "states": {
+          "A": "candidate",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 28.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 30.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 32.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 34.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 36.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 38.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 40.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 42.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 44.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 46.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 48.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 50.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 52.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 54.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 56.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 58.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 60.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 62.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 64.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 66.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 68.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      },
+      {
+        "t": 70.0,
+        "states": {
+          "A": "leader",
+          "B": "follower",
+          "C": "follower",
+          "D": "follower",
+          "E": "follower"
+        },
+        "terms": {
+          "A": 1,
+          "B": 1,
+          "C": 1,
+          "D": 1,
+          "E": 1
+        }
+      }
+    ]
+  },
+  "fixed_timeout": {
+    "seconds": 600.0,
+    "timeout": 20.0,
+    "elections": {
+      "A": 30,
+      "B": 30,
+      "C": 30,
+      "D": 30,
+      "E": 30
+    },
+    "terms": {
+      "A": 30,
+      "B": 30,
+      "C": 30,
+      "D": 30,
+      "E": 30
+    },
+    "leaders": [],
+    "max_term": 30,
+    "still_no_leader": true
+  },
+  "random_timeout": {
+    "rows": [
+      {
+        "seed": 1,
+        "first_leader_at": 19.5,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 2,
+        "first_leader_at": 18.0,
+        "elections": 2,
+        "leader": "C"
+      },
+      {
+        "seed": 3,
+        "first_leader_at": 21.0,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 4,
+        "first_leader_at": 18.0,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 5,
+        "first_leader_at": 26.5,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 6,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 7,
+        "first_leader_at": 18.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 8,
+        "first_leader_at": 18.5,
+        "elections": 2,
+        "leader": "E"
+      },
+      {
+        "seed": 9,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 10,
+        "first_leader_at": 20.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 11,
+        "first_leader_at": 24.0,
+        "elections": 2,
+        "leader": "A"
+      },
+      {
+        "seed": 12,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 13,
+        "first_leader_at": 20.0,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 14,
+        "first_leader_at": 19.0,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 15,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "B"
+      },
+      {
+        "seed": 16,
+        "first_leader_at": 22.5,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 17,
+        "first_leader_at": 21.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 18,
+        "first_leader_at": 20.0,
+        "elections": 2,
+        "leader": "A"
+      },
+      {
+        "seed": 19,
+        "first_leader_at": 23.0,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 20,
+        "first_leader_at": 21.0,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 21,
+        "first_leader_at": 19.5,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 22,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "C"
+      },
+      {
+        "seed": 23,
+        "first_leader_at": 18.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 24,
+        "first_leader_at": 20.0,
+        "elections": 2,
+        "leader": "C"
+      },
+      {
+        "seed": 25,
+        "first_leader_at": 20.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 26,
+        "first_leader_at": 18.0,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 27,
+        "first_leader_at": 18.0,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 28,
+        "first_leader_at": 19.0,
+        "elections": 3,
+        "leader": "A"
+      },
+      {
+        "seed": 29,
+        "first_leader_at": 21.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 30,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "C"
+      },
+      {
+        "seed": 31,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 32,
+        "first_leader_at": 18.5,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 33,
+        "first_leader_at": 21.5,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 34,
+        "first_leader_at": 25.0,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 35,
+        "first_leader_at": 21.5,
+        "elections": 1,
+        "leader": "E"
+      },
+      {
+        "seed": 36,
+        "first_leader_at": 22.0,
+        "elections": 1,
+        "leader": "A"
+      },
+      {
+        "seed": 37,
+        "first_leader_at": 18.5,
+        "elections": 1,
+        "leader": "B"
+      },
+      {
+        "seed": 38,
+        "first_leader_at": 18.0,
+        "elections": 1,
+        "leader": "D"
+      },
+      {
+        "seed": 39,
+        "first_leader_at": 20.0,
+        "elections": 2,
+        "leader": "C"
+      },
+      {
+        "seed": 40,
+        "first_leader_at": 17.5,
+        "elections": 1,
+        "leader": "C"
+      }
+    ],
+    "runs": 40,
+    "worst": 26.5,
+    "best": 17.5,
+    "mean": 19.79,
+    "failed": []
+  },
+  "round_trip": {
+    "leader": "A",
+    "term": 1,
+    "started": 40.0,
+    "committed_after": 2.0,
+    "trace": [
+      {
+        "t": 41.0,
+        "src": "A",
+        "dst": "B",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 41.0,
+        "src": "A",
+        "dst": "C",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 41.0,
+        "src": "A",
+        "dst": "D",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 41.0,
+        "src": "A",
+        "dst": "E",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 42.0,
+        "src": "B",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 42.0,
+        "src": "C",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 42.0,
+        "src": "D",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 42.0,
+        "src": "E",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 44.0,
+        "src": "A",
+        "dst": "B",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 44.0,
+        "src": "A",
+        "dst": "C",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 44.0,
+        "src": "A",
+        "dst": "D",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 44.0,
+        "src": "A",
+        "dst": "E",
+        "kind": "append",
+        "term": 1
+      },
+      {
+        "t": 45.0,
+        "src": "B",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 45.0,
+        "src": "C",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 45.0,
+        "src": "D",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      },
+      {
+        "t": 45.0,
+        "src": "E",
+        "dst": "A",
+        "kind": "append_reply",
+        "term": 1
+      }
+    ],
+    "messages": 16,
+    "applied": {
+      "A": [
+        "x=1"
+      ],
+      "B": [
+        "x=1"
+      ],
+      "C": [
+        "x=1"
+      ],
+      "D": [
+        "x=1"
+      ],
+      "E": [
+        "x=1"
+      ]
+    },
+    "commit_index": 1
+  },
+  "latency": [
+    {
+      "n": 3,
+      "majority": 2,
+      "tolerated": 1,
+      "mean": 2.0,
+      "worst": 2.0,
+      "messages_per_write": 5.6
+    },
+    {
+      "n": 5,
+      "majority": 3,
+      "tolerated": 2,
+      "mean": 2.0,
+      "worst": 2.0,
+      "messages_per_write": 11.2
+    },
+    {
+      "n": 7,
+      "majority": 4,
+      "tolerated": 3,
+      "mean": 2.0,
+      "worst": 2.0,
+      "messages_per_write": 17.7
+    }
+  ],
+  "election_messages": [
+    {
+      "n": 3,
+      "majority": 2,
+      "messages": 24,
+      "leader": "A"
+    },
+    {
+      "n": 5,
+      "majority": 3,
+      "messages": 48,
+      "leader": "A"
+    },
+    {
+      "n": 7,
+      "majority": 4,
+      "messages": 84,
+      "leader": "G"
+    }
+  ],
+  "crash": {
+    "first_leader": "A",
+    "new_leader": "C",
+    "election_seconds": 16.5,
+    "new_term": 2,
+    "log_before": [
+      "T1:x=0",
+      "T1:x=1",
+      "T1:x=2"
+    ],
+    "log_after": [
+      "T1:x=0",
+      "T1:x=1",
+      "T1:x=2"
+    ],
+    "committed_before": 3,
+    "committed_after": 3,
+    "log_preserved": true
+  },
+  "conflict": {
+    "first_leader": "A",
+    "slow_follower": "B",
+    "new_leader": "C",
+    "new_term": 2,
+    "committed_before": 1,
+    "orphan_log": [
+      "T1:e1",
+      "T1:e2",
+      "T1:e3"
+    ],
+    "orphan_commit": 1,
+    "winner_log": [
+      "T1:e1",
+      "T2:e4"
+    ],
+    "follower_before_repair": [
+      "T1:e1",
+      "T2:e4"
+    ],
+    "follower_after_repair": [
+      "T1:e1",
+      "T2:e4"
+    ],
+    "repaired": true,
+    "discarded": [
+      "T1:e2",
+      "T1:e3"
+    ],
+    "final_commit": 2
+  },
+  "partition": {
+    "old_leader": "A",
+    "committed_before": 2,
+    "old_state": "leader",
+    "old_term": 1,
+    "old_log": [
+      "T1:before0",
+      "T1:before1",
+      "T1:orphan0",
+      "T1:orphan1"
+    ],
+    "old_commit": 2,
+    "new_leader": "C",
+    "elected_after": 16.5,
+    "new_term": 2,
+    "new_log": [
+      "T1:before0",
+      "T1:before1"
+    ],
+    "stale_writes": [
+      "orphan0",
+      "orphan1"
+    ],
+    "healed_leader": "C",
+    "healed_log": [
+      "T1:before0",
+      "T1:before1"
+    ],
+    "orphans_discarded": [
+      "orphan0",
+      "orphan1"
+    ],
+    "old_final_log": [
+      "T1:before0",
+      "T1:before1",
+      "T1:orphan0",
+      "T1:orphan1"
+    ],
+    "old_final_commit": 2,
+    "old_stepped_down": true
+  },
+  "figure8": {
+    "states_a": {
+      "S1": {
+        "term": 4,
+        "log": [
+          "T1:a",
+          "T2:b"
+        ]
+      },
+      "S2": {
+        "term": 4,
+        "log": [
+          "T1:a",
+          "T2:b"
+        ]
+      },
+      "S3": {
+        "term": 2,
+        "log": [
+          "T1:a"
+        ]
+      },
+      "S4": {
+        "term": 2,
+        "log": [
+          "T1:a"
+        ]
+      },
+      "S5": {
+        "term": 2,
+        "log": [
+          "T1:a"
+        ]
+      }
+    },
+    "states_c": {
+      "S1": {
+        "term": 6,
+        "log": [
+          "T1:a",
+          "T2:b"
+        ]
+      },
+      "S2": {
+        "term": 6,
+        "log": [
+          "T1:a",
+          "T2:b"
+        ]
+      },
+      "S3": {
+        "term": 6,
+        "log": [
+          "T1:a",
+          "T2:b"
+        ]
+      },
+      "S4": {
+        "term": 2,
+        "log": [
+          "T1:a"
+        ]
+      },
+      "S5": {
+        "term": 5,
+        "log": [
+          "T1:a",
+          "T5:c"
+        ]
+      }
+    },
+    "correct_commit_index": 1,
+    "correct_committed": false,
+    "broken_commit_index": 2,
+    "broken_committed": true,
+    "s3_before": [
+      "T1:a",
+      "T2:b"
+    ],
+    "s3_after": [
+      "T1:a",
+      "T5:c"
+    ],
+    "committed_entry_lost": true,
+    "index2_term": 2,
+    "leader_term": 6
+  },
+  "membership": {
+    "before": {
+      "n": 5,
+      "majority": 3,
+      "leader": "A",
+      "entries": 5
+    },
+    "steps": [
+      {
+        "added": "F",
+        "old_n": 5,
+        "new_n": 6,
+        "old_majority": 3,
+        "new_majority": 4,
+        "leader": "A",
+        "caught_at": 5,
+        "leader_log": 5,
+        "caught_up": true
+      },
+      {
+        "added": "G",
+        "old_n": 6,
+        "new_n": 7,
+        "old_majority": 4,
+        "new_majority": 4,
+        "leader": "A",
+        "caught_at": 5,
+        "leader_log": 5,
+        "caught_up": true
+      }
+    ],
+    "final_n": 7,
+    "final_majority": 4,
+    "final_leader": "A"
+  },
+  "sweep": {
+    "seeds": 400,
+    "commit_rule": "raft",
+    "seconds": 180.0,
+    "violated": 0,
+    "clean": 400,
+    "examples": [],
+    "totals": {
+      "crashes": 2074,
+      "partitions": 803,
+      "restarts": 1680,
+      "commands": 3586
+    }
+  },
+  "sweep_harsh": {
+    "seeds": 400,
+    "commit_rule": "raft",
+    "seconds": 400.0,
+    "violated": 0,
+    "clean": 400,
+    "examples": [],
+    "totals": {
+      "crashes": 4437,
+      "partitions": 1704,
+      "restarts": 4036,
+      "commands": 3962
+    }
+  },
+  "two_rules": {
+    "raft": {
+      "seeds": 400,
+      "commit_rule": "raft",
+      "seconds": 180.0,
+      "violated": 0,
+      "clean": 400,
+      "examples": [],
+      "totals": {
+        "crashes": 2074,
+        "partitions": 803,
+        "restarts": 1680,
+        "commands": 3586
+      }
+    },
+    "any": {
+      "seeds": 400,
+      "commit_rule": "any",
+      "seconds": 180.0,
+      "violated": 0,
+      "clean": 400,
+      "examples": [],
+      "totals": {
+        "crashes": 2074,
+        "partitions": 803,
+        "restarts": 1680,
+        "commands": 3586
+      }
+    }
+  },
+  "bug_hunt": {
+    "correct": {
+      "seeds": 400,
+      "commit_rule": "raft",
+      "seconds": 180.0,
+      "violated": 0,
+      "clean": 400,
+      "examples": [],
+      "totals": {
+        "crashes": 2074,
+        "partitions": 803,
+        "restarts": 1680,
+        "commands": 3586
+      }
+    },
+    "broken": {
+      "seeds": 400,
+      "commit_rule": "raft",
+      "seconds": 180.0,
+      "violated": 1,
+      "clean": 399,
+      "examples": [
+        {
+          "seed": 62,
+          "problems": [
+            "B 与 E 已应用的序列不同"
+          ]
+        }
+      ],
+      "totals": {
+        "crashes": 2074,
+        "partitions": 803,
+        "restarts": 1680,
+        "commands": 3586
+      }
+    }
+  }
+}

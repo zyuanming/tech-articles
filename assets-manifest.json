@@ -18375,6 +18375,171 @@
     "sha256": "a81e5ebf37523f95ff5020c4da3b613534ffd8b3374a803d38b59f03b8fb0b06"
   },
   {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/01-the-symptom.png",
+    "bytes": 176972,
+    "sha256": "8a457fb30e82549aa82de3ba416bc7beeb1cf5146a94a2d96a13a1699d680ce5"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/02-what-binary-can-hold.png",
+    "bytes": 180646,
+    "sha256": "d57f0b9acd211d14a7307447a51c1234b283ab0fa8609610a45a49ff9356f891"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/03-long-division.png",
+    "bytes": 143321,
+    "sha256": "318f0f2b687aea789c72990a2464e861eeba2e2f885d0ac7cefac03eb79bf59c"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/04-the-cycle.png",
+    "bytes": 131217,
+    "sha256": "d7cdd5a61052442d2d16a017788adab60710de7b52cdbe1bc8351e6e452a7fd5"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/05-cut-it-off.png",
+    "bytes": 167082,
+    "sha256": "e52adb9796bded70f863c7bbcb19b8b96c6d347302e57b25ae1607dd56ae5e4b"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/06-ieee-layout.png",
+    "bytes": 264337,
+    "sha256": "811c5291ced7d9affa6326297aaf9a1e39e6dc2e0de6a2ddc2fa2a3a2af33a38"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/07-decode-0-1.png",
+    "bytes": 176103,
+    "sha256": "53abd5f51cbdfa904590e7cd1b51f634f6dc9e51c2137686be261629589481b8"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/08-what-is-stored.png",
+    "bytes": 178043,
+    "sha256": "b59837403a1633cdd01b9828670a22918b31b1e6b480f5a098d259518dd5effd"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/09-not-even-spacing.png",
+    "bytes": 275326,
+    "sha256": "10bf775b829acf2babc031cbde9219487a6afa0d8bec36cb104e1f2e6d45abe1"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/10-ulp-table.png",
+    "bytes": 184777,
+    "sha256": "088847c6222d307bbe26b0e356c9c89f4bde6aab970974d1cc1d8e370a8fee70"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/11-alignment.png",
+    "bytes": 198476,
+    "sha256": "51efd6dddea13fc0813bc8e1ce1b242d413e4652f53d245516b2ba76a1792906"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/12-the-sum.png",
+    "bytes": 189552,
+    "sha256": "f628a4f63ae762ccb76116e88d0fd8c94f02af8275c081bce1eec0681d50a497"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/13-rounding-tie.png",
+    "bytes": 203569,
+    "sha256": "0653268ce61fcbb18d983bcb397a715b637e047ef671bb5798a03c4efc412cb6"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/14-big-eats-small.png",
+    "bytes": 167293,
+    "sha256": "7c859eabd14368e3b52c059d7df622dfe49b83e705ac6c23f7bfd13c35b100de"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/15-cancellation.png",
+    "bytes": 229132,
+    "sha256": "ebc6664de1f5809a9f041cbf7ad31a932f6d027ee5ecd3dec38abeb312e903ce"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/16-accumulate.png",
+    "bytes": 175022,
+    "sha256": "01d3470dbe1ff82bffc6ec3d9f9893c543e81c426ac5f0c61d0b92676d89580e"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/17-kahan.png",
+    "bytes": 147612,
+    "sha256": "4fe90124cb9ee29ac46a5d917500559a8cbe213cc95aac1c5d7fbd01e87d071c"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/18-quadratic.png",
+    "bytes": 159259,
+    "sha256": "0575d040b76ea0b140f5ac4781d1454354145ee8341c2d77b56f98b5bb3723aa"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/19-special-values.png",
+    "bytes": 220605,
+    "sha256": "cb95d2f0a8a1b1aa9bb34731808c9cd464ea0f45a3db968d1dd0bba63f3ef5d9"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/20-subnormal.png",
+    "bytes": 210341,
+    "sha256": "92ac1b53d6fa646fb13d762e195ade996e2645a519eb8dc447b61e0b98ad4d17"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/21-fast-inv-sqrt.png",
+    "bytes": 331532,
+    "sha256": "a13aba3d9cb2a42c8f2117143abd6cba57e78710ca9762ace01a3fad85c9ffb1"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/22-compare-with-tolerance.png",
+    "bytes": 200271,
+    "sha256": "d89eda40d30e2fbf8d92dfed8ed78f4859a07fde013032e55750456211755493"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/assets/23-try-it.png",
+    "bytes": 203169,
+    "sha256": "63bc9a619ad02189f729535bdea97bbd6fef445273ad2bd04b9d7714b8be8ed6"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/cover.png",
+    "bytes": 57589,
+    "sha256": "f08d1a0df373a217921846b670bd90d38be5a7b3a40ff5b1d38e03d7d408d936"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/build_figures.py",
+    "bytes": 36110,
+    "sha256": "d3243f47099ab05db962bbebb41935a5df2f43787150991111236a04f3b05986"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/figkit.py",
+    "bytes": 19968,
+    "sha256": "30019ae41f6d8956f85caf7277e2a5ad957a8d7611fc47e47c1bd14c6b05ee79"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/figure-metadata.json",
+    "bytes": 5592,
+    "sha256": "dc7d96e8be67d84e654076f9916fc57fc54a3724afb46d38018d0e406c623f87"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/floats.py",
+    "bytes": 19284,
+    "sha256": "38c3acd9d7f52cf91b4ebafbb0720f9b2398c1e899faa2675d4b7bdc92c1c3e5"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/results.json",
+    "bytes": 30039,
+    "sha256": "21ddc6387c8379494d3454eec3ead49ff52a8d1fa1a221409a3c86837b78c859"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/run-environment.json",
+    "bytes": 648,
+    "sha256": "4aa80c5c2a7d89ca47bd6b827e70f1abfe98adc3132b24973556df8e344d211d"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/examples/run_model.py",
+    "bytes": 7097,
+    "sha256": "22bcffa4c01754fa35037f6bdfedf2d61c8dbda31b29f9f6b89cc950d299efa8"
+  },
+  {
+    "path": "articles/2026-10-17-float-0-1-plus-0-2/originals/model-stdout.txt",
+    "bytes": 1452,
+    "sha256": "0951da75da480aa5fe14cb03c143dd5f70ba83bc1fea8fca5bb83ad5b1d3ea6f"
+  },
+  {
     "path": "articles/2026-10-17-konigsberg-seven-bridges/LICENSE-CODE.txt",
     "bytes": 1066,
     "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
@@ -18456,13 +18621,13 @@
   },
   {
     "path": "articles/2026-10-17-konigsberg-seven-bridges/cover.png",
-    "bytes": 44621,
-    "sha256": "862619f674c2b15196d90a8417ffd2ad69380ea456148ccd1476be4ef37d6a00"
+    "bytes": 42784,
+    "sha256": "055c859854704e79831514a432b5915515090ecaee65add441b5a23bd8ff063c"
   },
   {
     "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/build_figures.py",
     "bytes": 22516,
-    "sha256": "b39ece3678cda648dd034354dc359e4215af3d3d5eae268fe8b89ae1fcd21c3a"
+    "sha256": "55d11e7300fa8af6e8a284bf42a6df284827be1e50e859e751d0d3a086ae7f6d"
   },
   {
     "path": "articles/2026-10-17-konigsberg-seven-bridges/examples/figkit.py",
@@ -18633,6 +18798,336 @@
     "path": "articles/2026-10-17-monty-hall-switch-or-stay/originals/model-stdout.txt",
     "bytes": 1233,
     "sha256": "ef2980fe806b36e789d5bd35cca0f854b82bea4635ee5b299d7758530b005d3a"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/01-open-vs-closed.png",
+    "bytes": 275733,
+    "sha256": "8fdad544f86622d7f3b2782f1f5b86e0af9a8fb0f292a46c05e4ed3a45f31253"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/02-on-off.png",
+    "bytes": 171981,
+    "sha256": "9847cf65744b56ad7910943aeeb1edcb2c78b1936ae0732bb67fb6eb28709bc0"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/03-the-plant.png",
+    "bytes": 203038,
+    "sha256": "92ff80e5dbebfc5b6a30612feaf793fe82b26b0e546a354f2ae63c4252b8b213"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/04-p-only.png",
+    "bytes": 177560,
+    "sha256": "44f51ba257dab8890379c3ad107b81022312f3c43236fbf7b834b0c0566a1259"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/05-steady-state-error.png",
+    "bytes": 347585,
+    "sha256": "a125fea6be50615f7acc302183343d5e832d1821c0ad4bacb729adeec9d4d1e8"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/06-p-too-large.png",
+    "bytes": 192168,
+    "sha256": "0885b674755821a96072294347db4f0b567747b0333e4ff8181080d1c1060a81"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/07-add-integral.png",
+    "bytes": 205144,
+    "sha256": "d07cc295456e254bd705f0de35359fd6b39781c7aa983aa24f52e70514365d96"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/08-ki-sweep.png",
+    "bytes": 195873,
+    "sha256": "bdd81096b6118242b7bec0c41b3e46c954a36efbaffed59fc352c8062ecf5b81"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/09-kd-sweep.png",
+    "bytes": 232172,
+    "sha256": "d24f324da12868cf5f70c658699d98f31c3960b6c30746fcecce27a1792db1ee"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/10-four-tunings.png",
+    "bytes": 191440,
+    "sha256": "aee150c67ced4cadb22060d3171a7efba0122f414e4d8a2f913f63f6ec77d08b"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/11-discrete-form.png",
+    "bytes": 195420,
+    "sha256": "14e395b54bee8f5ae9ebf083a983f6147af83c8400586cc119c3c6331e203b02"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/12-three-terms.png",
+    "bytes": 309753,
+    "sha256": "53c8249db744039edbc654cbbb88f5b7ae1372ca2ed04b2cc4734e0add7d8903"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/13-windup.png",
+    "bytes": 215569,
+    "sha256": "5f543e486dc2011b786f39e976f5fc01bef51002278e63aad0d2e5e21f6beb4f"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/14-derivative-kick.png",
+    "bytes": 197736,
+    "sha256": "c55e42b497674d8f0cf397c6d22f026859bec41457c86f913cfada9a0c21a89d"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/15-sample-time.png",
+    "bytes": 271671,
+    "sha256": "dbdbb0616477a1d09719cd8ced82721e47f1296f2f720bd8baac778066704066"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/16-dead-time.png",
+    "bytes": 480401,
+    "sha256": "bb1525340dc21a777f8d87deaf23f2c2e95a28b6c619fdc1025509698f189bd5"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/17-ziegler-nichols.png",
+    "bytes": 355519,
+    "sha256": "c2935cfd341ffb0f84d36ea46479b66f017533e6bfd5c488d5a0fa3e3cdda0e9"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/18-noise.png",
+    "bytes": 205805,
+    "sha256": "01065ea10413c97f1f3e95530bd76a1e961141703250e492577467b92693bd1c"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/19-disturbance.png",
+    "bytes": 185261,
+    "sha256": "fbdc20ef7a7be53270624c9b5b35872643cade5c422e57ffda21c5843ee589ab"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/20-saturation.png",
+    "bytes": 203844,
+    "sha256": "383133f52dcb50d254918f046783564dc2a8db69e89db5a866eb3b4d95cb2c5d"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/21-cartpole.png",
+    "bytes": 261862,
+    "sha256": "bbf8423bc9576f851b5a9872eaac8f77f2456c2f31f062119b3f664d32f3a7f5"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/22-where-it-runs.png",
+    "bytes": 316720,
+    "sha256": "f61e590934080e4b1f051f7ead59f19d41b839d7b0cd835854a2e9e2bd83904f"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/23-history.png",
+    "bytes": 260969,
+    "sha256": "ee7306bf6fffb7054556c0240f832b5f0bc804c4f3250e1a020afc4361cd0965"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/assets/24-try-it.png",
+    "bytes": 262481,
+    "sha256": "74fe6aaaf3f17ead1b293aca57bb60e8928bdb3506d06f64d1803bc1db00ac75"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/cover.png",
+    "bytes": 91421,
+    "sha256": "fe8b4fc30c308d44cbc380badadce242147152af9e5cb6b384860e848fae32a8"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/build_figures.py",
+    "bytes": 44123,
+    "sha256": "8b93b4971b722ab7356264d2bcd3ea7b2ca84a35e6761bf36c2ce50b5eea529b"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/control.py",
+    "bytes": 12440,
+    "sha256": "960745e86fbb3d2cf7192fc87492fdff7336d97734ebcdde415a2be9095cacc7"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/figkit.py",
+    "bytes": 19968,
+    "sha256": "30019ae41f6d8956f85caf7277e2a5ad957a8d7611fc47e47c1bd14c6b05ee79"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/figure-metadata.json",
+    "bytes": 5701,
+    "sha256": "961ee5622bb8b60205a0c22b7edf13934ecd420177cbf26ebd344eac121f6b3a"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/results.json",
+    "bytes": 1382689,
+    "sha256": "fa9ea5e5d690f24d23c88a56aa8c56554074004ef52a92a715e37e37dbbe26e3"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/run-environment.json",
+    "bytes": 664,
+    "sha256": "58294d61aa0b37429c85d0009cf774af6439078eeb254b4fb8845dae00f2f4e1"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/examples/run_model.py",
+    "bytes": 10362,
+    "sha256": "aef9fd25d9b612b63445f3a292d2e0f452771acc80df2b86927b81d69d8dd46f"
+  },
+  {
+    "path": "articles/2026-10-17-pid-control-loop/originals/model-stdout.txt",
+    "bytes": 1740,
+    "sha256": "ef53a419fb831bcbc8aa4369951278c3e65823984eb8a4c8281eb1f5c2c4d18f"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/01-why-replicate.png",
+    "bytes": 242237,
+    "sha256": "f380358edeb200706d337c10eb0b85e20629b9c58cc2af1637656f72edaecf93"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/02-majority.png",
+    "bytes": 200007,
+    "sha256": "afcca507d10e82cc5b32d8fb5d681323ccc8bda14cb74f10f0c4b0ce8813d0be"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/03-terms.png",
+    "bytes": 215025,
+    "sha256": "d4315bd11fbbb752479c4f8d097ff070ff6293d43792a38ce499f5e8252ebbea"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/04-one-election.png",
+    "bytes": 145400,
+    "sha256": "94084a1c75f1288320ada225e471ff67d24aca63858e5e83135e59e569e31ce4"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/05-heartbeat.png",
+    "bytes": 241240,
+    "sha256": "ff674eb38c9c75afc0b7b3518229c54272c2cbb3634befd8147d98db0f1b8c82"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/06-split-vote.png",
+    "bytes": 199805,
+    "sha256": "2bc2c5486c409c714c74d2ea0be77645f58c3b842e7002b52474e58b1771415b"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/07-random-timeout.png",
+    "bytes": 192743,
+    "sha256": "09d46253615bb24209b59d5fa604f2a4f13c24597e5c1a221626fb5bb8e7243e"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/08-the-log.png",
+    "bytes": 251992,
+    "sha256": "1e6a11d71bb1d40915d68e27cf75ee24d7dec8dbbad0cb79c9d31c85f6764a7b"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/09-round-trip.png",
+    "bytes": 261285,
+    "sha256": "aaacd1a0e858bf35daaf8eab2d12b1042e3f261f22b70dbec56046e96990a5fe"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/10-cost-of-scale.png",
+    "bytes": 218701,
+    "sha256": "3cef927fa063654669815fa109f0a79d8a6727a6ddee483c9feb01404e9accef"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/11-leader-crash.png",
+    "bytes": 195599,
+    "sha256": "048aa52afb825d87ba6e91bb93c750312c2ab773532fd688d51267b5ee400eec"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/12-conflict-repair.png",
+    "bytes": 251877,
+    "sha256": "539e96c397438df0ecb86c0e50b0b265bc8d191a693d5a214340243bfbf191d9"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/13-election-restriction.png",
+    "bytes": 241318,
+    "sha256": "55a3519c4fa0cd9f5b38dd8bac9f43110e75e4c2cac324a46d93380d9f610947"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/14-commit-rule.png",
+    "bytes": 256838,
+    "sha256": "536125e99a18c13d823ed917a46d73f1592d9d22450dd12d65d2163bd323a5ab"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/15-figure-8.png",
+    "bytes": 335962,
+    "sha256": "718bbd4ffe7e6b6fec0e5c6c07e06eee60b707d405b38c3afc04db1485ae8dbe"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/16-partition.png",
+    "bytes": 218808,
+    "sha256": "00e92d9b2e67ce546084a6709bf9eb2e5ac421d8df3c925d9e05024973d8e45a"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/17-heal.png",
+    "bytes": 225626,
+    "sha256": "e2192d10f0e3278b8f6d36ed22dd1e544b7785ecbcd0ad41f9c9503762a2bb5e"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/18-membership.png",
+    "bytes": 263605,
+    "sha256": "bb33b77fad69a7974fe44dd57e8e6fd88ebf22de45198860d45a0bcf002aad94"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/19-random-schedules.png",
+    "bytes": 256196,
+    "sha256": "dbb92623390ae0c29b615c4f7798cd1e17be9d8230f0d780a61eca018cd2d444"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/20-real-bug.png",
+    "bytes": 317511,
+    "sha256": "265f1de3506e15888427e4ad3a56e00146beb4463681df7a3f1f8c0f835ac7aa"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/21-where-it-runs.png",
+    "bytes": 292151,
+    "sha256": "da342dfc6f6995220446b7599d98cd90f7469322986f0a6987f303694d51c225"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/assets/22-try-it.png",
+    "bytes": 350890,
+    "sha256": "804b141fb0f260df49b823299eb3b353ae7d08c39f49fda2f142bae3d69f5fe0"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/cover.png",
+    "bytes": 64408,
+    "sha256": "ae742c52297393ecb75b86d831b363b796de539742d0e0ea262e2f64e343e0a1"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/build_figures.py",
+    "bytes": 38419,
+    "sha256": "55a97a41093aaa481713ac17738758b99995cf58dca80cec1cbfa32d3a8ea058"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/figkit.py",
+    "bytes": 19968,
+    "sha256": "30019ae41f6d8956f85caf7277e2a5ad957a8d7611fc47e47c1bd14c6b05ee79"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/figure-metadata.json",
+    "bytes": 5226,
+    "sha256": "5a16ca6d5dc0b206b44f8fb831d4ef032c0eaef720aa327b26fc838d3492fef6"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/raft.py",
+    "bytes": 39584,
+    "sha256": "a8b72baab1f4e9ed8361c97d411e5c8c0d79d44d67184baa68f642795a28aa78"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/results.json",
+    "bytes": 25954,
+    "sha256": "ae87c4b83d21fa6fc78e959714ab80897805089177fc2a18b54075579c5ad755"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/run-environment.json",
+    "bytes": 690,
+    "sha256": "3c243144f09cf89fb5ccf47c94023c005a809d35061ce6034ffa7f1c78fac428"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/examples/run_model.py",
+    "bytes": 4316,
+    "sha256": "f5a18a6e4191d8f65d09f76e6ea2879167df1fa54e6ed767626451841d7fefc7"
+  },
+  {
+    "path": "articles/2026-10-17-raft-one-leader-at-a-time/originals/model-stdout.txt",
+    "bytes": 1327,
+    "sha256": "64d5c715d5333bfd3dc2f4540f659d1a7ef469e1271f9c8cd076fbe7e76b8df9"
   },
   {
     "path": "articles/2026-10-23-aba-reused-address/images/01.png",
