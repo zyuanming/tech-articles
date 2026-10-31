@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-11-02",
+  "python": "3.14.7",
+  "implementation": "CPython",
+  "third_party_packages_for_numbers": [],
+  "third_party_packages_for_figures": [
+    "Pillow 12.3.0"
+  ],
+  "third_party_packages_for_original_pdf": [
+    "PyMuPDF 1.28.2"
+  ],
+  "operating_system": "macOS (Darwin 27.0.0, arm64)",
+  "determinism": "全部结果确定：波形是解析式，FFT 是定点长度的 radix-2，贝塞尔函数用固定步长的 Simpson 积分。重跑得到同样的 results.json 与同样的 PNG。",
+  "font_for_figures": "/System/Library/Fonts/Hiragino Sans GB.ttc (index 0 regular / index 2 bold)",
+  "note": "专利附图是 originals/patent.pdf 第 2 页用 PyMuPDF 以 150 dpi 渲染的；换版本可能让像素略不同，不影响正文任何数字。"
+}

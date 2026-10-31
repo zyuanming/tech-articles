@@ -1,0 +1,176 @@
+[
+  {
+    "path": "assets/01-three-spectra.png",
+    "width": 1062,
+    "height": 1206,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "一个正弦、调幅、FM 的频谱对照",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-dx7.jpg",
+    "width": 1062,
+    "height": 684,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "Yamaha DX7 实物",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, doryfour, CC BY-SA 2.0"
+  },
+  {
+    "path": "assets/03-chowning.jpg",
+    "width": 1062,
+    "height": 740,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "John Chowning 肖像",
+    "identity": "真实照片（原图已放大）",
+    "source": "Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+    "path": "assets/04-patent-sheet.png",
+    "width": 1062,
+    "height": 1262,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "Chowning 的 FM 专利附图",
+    "identity": "真实文件（专利附图扫描）",
+    "source": "Wikimedia Commons, 公有领域"
+  },
+  {
+    "path": "assets/05-phase-modulation.png",
+    "width": 1062,
+    "height": 1410,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "载波、调制器与调相后的波形",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-am-vs-fm.png",
+    "width": 1062,
+    "height": 1456,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "调幅与调相的频谱对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-fm-spectrum.png",
+    "width": 1062,
+    "height": 1193,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "4:1 比率、I=2 的频谱",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-bessel.png",
+    "width": 1062,
+    "height": 1135,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "贝塞尔函数 J0/J1/J2 随调制指数的变化",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-index-ladder.png",
+    "width": 1062,
+    "height": 1125,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "调制指数与边带数量",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-bandwidth.png",
+    "width": 1062,
+    "height": 1060,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "调制指数、调制频率与带宽",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-ratio-integer.png",
+    "width": 1062,
+    "height": 1085,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "整数比率下的谐波频谱",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-ratio-inharmonic.png",
+    "width": 1062,
+    "height": 1373,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "非整数比率下的非谐波频谱",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-subtractive-vs-fm.png",
+    "width": 1062,
+    "height": 1073,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "减法合成与 FM 的思路对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-operators.png",
+    "width": 1062,
+    "height": 1168,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "DX7 的算子与两种算法接法",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-envelope.png",
+    "width": 1062,
+    "height": 1132,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "四段包络与它的两种接法",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-aliasing.png",
+    "width": 1062,
+    "height": 1347,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "数字 FM 的边带折叠",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-feedback.png",
+    "width": 1062,
+    "height": 1113,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "算子自反馈的频谱",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-timeline.png",
+    "width": 1062,
+    "height": 1410,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "FM 合成的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-three-lines.png",
+    "width": 1062,
+    "height": 924,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "三句话总结",
+    "identity": "原创教学示意"
+  }
+]

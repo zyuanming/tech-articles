@@ -1,0 +1,415 @@
+{
+  "aloha": [
+    {
+      "g": 0.05,
+      "measured": 0.0457,
+      "theory": 0.0452
+    },
+    {
+      "g": 0.1,
+      "measured": 0.0818,
+      "theory": 0.0819
+    },
+    {
+      "g": 0.2,
+      "measured": 0.1357,
+      "theory": 0.1341
+    },
+    {
+      "g": 0.3,
+      "measured": 0.1641,
+      "theory": 0.1646
+    },
+    {
+      "g": 0.4,
+      "measured": 0.178,
+      "theory": 0.1797
+    },
+    {
+      "g": 0.5,
+      "measured": 0.1815,
+      "theory": 0.1839
+    },
+    {
+      "g": 0.6,
+      "measured": 0.1785,
+      "theory": 0.1807
+    },
+    {
+      "g": 0.8,
+      "measured": 0.1594,
+      "theory": 0.1615
+    },
+    {
+      "g": 1.0,
+      "measured": 0.1355,
+      "theory": 0.1353
+    },
+    {
+      "g": 1.2,
+      "measured": 0.1101,
+      "theory": 0.1089
+    },
+    {
+      "g": 1.5,
+      "measured": 0.0769,
+      "theory": 0.0747
+    },
+    {
+      "g": 1.8,
+      "measured": 0.0525,
+      "theory": 0.0492
+    }
+  ],
+  "slotted": [
+    {
+      "g": 0.05,
+      "measured": 0.048,
+      "theory": 0.0476
+    },
+    {
+      "g": 0.1,
+      "measured": 0.092,
+      "theory": 0.0905
+    },
+    {
+      "g": 0.2,
+      "measured": 0.1697,
+      "theory": 0.1637
+    },
+    {
+      "g": 0.3,
+      "measured": 0.2283,
+      "theory": 0.2222
+    },
+    {
+      "g": 0.4,
+      "measured": 0.271,
+      "theory": 0.2681
+    },
+    {
+      "g": 0.5,
+      "measured": 0.3137,
+      "theory": 0.3033
+    },
+    {
+      "g": 0.6,
+      "measured": 0.3347,
+      "theory": 0.3293
+    },
+    {
+      "g": 0.8,
+      "measured": 0.3577,
+      "theory": 0.3595
+    },
+    {
+      "g": 1.0,
+      "measured": 0.3695,
+      "theory": 0.3679
+    },
+    {
+      "g": 1.2,
+      "measured": 0.3557,
+      "theory": 0.3614
+    },
+    {
+      "g": 1.5,
+      "measured": 0.3305,
+      "theory": 0.3347
+    },
+    {
+      "g": 1.8,
+      "measured": 0.3058,
+      "theory": 0.2975
+    }
+  ],
+  "backoff": [
+    {
+      "stations": 2,
+      "kind": "binary",
+      "mean": 1.626,
+      "worst": 5
+    },
+    {
+      "stations": 3,
+      "kind": "binary",
+      "mean": 1.868,
+      "worst": 5
+    },
+    {
+      "stations": 4,
+      "kind": "binary",
+      "mean": 2.155,
+      "worst": 6
+    },
+    {
+      "stations": 6,
+      "kind": "binary",
+      "mean": 2.65,
+      "worst": 7
+    },
+    {
+      "stations": 8,
+      "kind": "binary",
+      "mean": 3.033,
+      "worst": 6
+    },
+    {
+      "stations": 12,
+      "kind": "binary",
+      "mean": 3.609,
+      "worst": 7
+    },
+    {
+      "stations": 16,
+      "kind": "binary",
+      "mean": 3.945,
+      "worst": 7
+    },
+    {
+      "stations": 24,
+      "kind": "binary",
+      "mean": 4.575,
+      "worst": 9
+    },
+    {
+      "stations": 32,
+      "kind": "binary",
+      "mean": 4.945,
+      "worst": 9
+    },
+    {
+      "stations": 48,
+      "kind": "binary",
+      "mean": 5.473,
+      "worst": 9
+    },
+    {
+      "stations": 64,
+      "kind": "binary",
+      "mean": 5.925,
+      "worst": 9
+    }
+  ],
+  "controls": [
+    {
+      "stations": 2,
+      "kind": "fixed2",
+      "mean": 1.097,
+      "worst": 8
+    },
+    {
+      "stations": 2,
+      "kind": "fixedn",
+      "mean": 0.971,
+      "worst": 9
+    },
+    {
+      "stations": 4,
+      "kind": "fixed2",
+      "mean": 3.11,
+      "worst": 12
+    },
+    {
+      "stations": 4,
+      "kind": "fixedn",
+      "mean": 0.761,
+      "worst": 12
+    },
+    {
+      "stations": 8,
+      "kind": "fixed2",
+      "mean": 9.723,
+      "worst": 12
+    },
+    {
+      "stations": 8,
+      "kind": "fixedn",
+      "mean": 0.705,
+      "worst": 6
+    },
+    {
+      "stations": 16,
+      "kind": "fixed2",
+      "mean": 11.977,
+      "worst": 12
+    },
+    {
+      "stations": 16,
+      "kind": "fixedn",
+      "mean": 0.673,
+      "worst": 7
+    },
+    {
+      "stations": 32,
+      "kind": "fixed2",
+      "mean": 12.0,
+      "worst": 12
+    },
+    {
+      "stations": 32,
+      "kind": "fixedn",
+      "mean": 0.717,
+      "worst": 8
+    },
+    {
+      "stations": 64,
+      "kind": "fixed2",
+      "mean": 12.0,
+      "worst": 12
+    },
+    {
+      "stations": 64,
+      "kind": "fixedn",
+      "mean": 0.699,
+      "worst": 7
+    }
+  ],
+  "levers": [
+    {
+      "name": "ALOHA",
+      "collisions": 4.945,
+      "cost": 1.0,
+      "efficiency": 0.1682
+    },
+    {
+      "name": "CSMA/CD",
+      "collisions": 4.945,
+      "cost": 0.05,
+      "efficiency": 0.8018
+    }
+  ],
+  "ceiling": {
+    "aloha": 0.1839,
+    "slotted": 0.3679
+  },
+  "speeds": [
+    {
+      "mbps": 10,
+      "slot_us": 51.2,
+      "span_m": 5120
+    },
+    {
+      "mbps": 100,
+      "slot_us": 5.12,
+      "span_m": 512
+    },
+    {
+      "mbps": 1000,
+      "slot_us": 0.512,
+      "span_m": 51
+    },
+    {
+      "mbps": 10000,
+      "slot_us": 0.051,
+      "span_m": 5
+    }
+  ],
+  "reach": {
+    "m500": 5.0,
+    "m2500": 25.0
+  },
+  "overhead": [
+    {
+      "payload": 46,
+      "frame": 72,
+      "efficiency": 0.6389
+    },
+    {
+      "payload": 64,
+      "frame": 90,
+      "efficiency": 0.7111
+    },
+    {
+      "payload": 128,
+      "frame": 154,
+      "efficiency": 0.8312
+    },
+    {
+      "payload": 256,
+      "frame": 282,
+      "efficiency": 0.9078
+    },
+    {
+      "payload": 512,
+      "frame": 538,
+      "efficiency": 0.9517
+    },
+    {
+      "payload": 1024,
+      "frame": 1050,
+      "efficiency": 0.9752
+    },
+    {
+      "payload": 1500,
+      "frame": 1526,
+      "efficiency": 0.983
+    }
+  ],
+  "windows": [
+    {
+      "k": 0,
+      "window": 1,
+      "worst_ms": 0.05
+    },
+    {
+      "k": 1,
+      "window": 2,
+      "worst_ms": 0.1
+    },
+    {
+      "k": 2,
+      "window": 4,
+      "worst_ms": 0.2
+    },
+    {
+      "k": 3,
+      "window": 8,
+      "worst_ms": 0.41
+    },
+    {
+      "k": 4,
+      "window": 16,
+      "worst_ms": 0.82
+    },
+    {
+      "k": 5,
+      "window": 32,
+      "worst_ms": 1.64
+    },
+    {
+      "k": 6,
+      "window": 64,
+      "worst_ms": 3.28
+    },
+    {
+      "k": 7,
+      "window": 128,
+      "worst_ms": 6.55
+    },
+    {
+      "k": 8,
+      "window": 256,
+      "worst_ms": 13.11
+    },
+    {
+      "k": 9,
+      "window": 512,
+      "worst_ms": 26.21
+    },
+    {
+      "k": 10,
+      "window": 1024,
+      "worst_ms": 52.43
+    }
+  ],
+  "frame": {
+    "min_bytes": 64,
+    "max_bytes": 1518,
+    "preamble": 8,
+    "header": 14,
+    "fcs": 4,
+    "min_payload": 46,
+    "max_payload": 1500
+  }
+}
