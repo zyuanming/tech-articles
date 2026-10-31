@@ -7,7 +7,7 @@
 
 ```sh
 python3 examples/run_model.py       # 全部测量 -> examples/results.json
-python3 examples/build_figures.py   # 17 张正文图 + cover.png
+python3 examples/build_figures.py   # 17 张示意图 + cover.png
 python3 examples/photos.py          # 2 张肖像（需要 originals/）
 ```
 

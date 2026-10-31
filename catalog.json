@@ -3074,7 +3074,7 @@
     "title": "一根线上，怎么同时说话",
     "date": "2026-11-02",
     "path": "articles/2026-11-02-ethernet-collision-backoff/read.md",
-    "public_sha256": "85da7c5dded73f3081474130b148875da594d2305145d3c65e0c8776135777be",
+    "public_sha256": "e88b7e281f8bedcd83b2e42e652e6bb08b2d1b541e49c428878e25c3f61cb05f",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -3084,7 +3084,7 @@
     "title": "两个正弦，怎么造出一整片频谱",
     "date": "2026-11-02",
     "path": "articles/2026-11-02-fm-synthesis-dx7/read.md",
-    "public_sha256": "ac8e3156b585f2a127fe235f27eff29268ce1cdd5906ed1e8741ebee3e0c0a1d",
+    "public_sha256": "4b14479cc211f4257a0a6d1e4f521445e8ff1458714ac565bb39f7a73d929399",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3104,7 +3104,7 @@
     "title": "一个指针，替掉一段重复",
     "date": "2026-11-02",
     "path": "articles/2026-11-02-lz77-sliding-window/read.md",
-    "public_sha256": "a57c9af15f1f492a0f5e291a59a8e8b0cc3349d864806f42f6e0a38c96a7cc7e",
+    "public_sha256": "35e9dad042e182fec82d7588da00886842e3f842357a32ffff50fa2be5d920be",
     "images": 19,
     "status": "archived_article",
     "related_versions": []

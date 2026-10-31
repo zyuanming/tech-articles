@@ -9,6 +9,26 @@
     "identity": "原创教学示意"
   },
   {
+    "path": "assets/02-metcalfe-and-memo.jpg",
+    "width": 1062,
+    "height": 660,
+    "min_label_px": 34,
+    "effective_min_at_354px": 11.33,
+    "purpose": "梅特卡夫肖像与 1973 年以太网备忘录",
+    "identity": "真实照片（肖像原图 229×350 已放大）",
+    "source": "Wikimedia Commons, 公有领域"
+  },
+  {
+    "path": "assets/03-xerox-alto.jpg",
+    "width": 1062,
+    "height": 684,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "施乐 Alto 工作站",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, The wub, CC BY-SA 4.0"
+  },
+  {
     "path": "assets/04-collision.png",
     "width": 1062,
     "height": 761,
@@ -142,6 +162,16 @@
     "effective_min_at_354px": 13.33,
     "purpose": "帧头开销与载荷大小",
     "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-ethernet-connector.jpg",
+    "width": 1062,
+    "height": 684,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "早期以太网接头实物",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, Daderot, CC0"
   },
   {
     "path": "assets/20-switch.png",

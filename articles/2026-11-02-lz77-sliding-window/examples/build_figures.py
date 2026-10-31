@@ -535,15 +535,16 @@ def fig18():
     rows = [('1977', 'Lempel 与 Ziv 发表 LZ77', TEAL),
             ('1978', 'LZ78：不再回指，改用字典', TEAL),
             ('1984', 'LZW：字典法进入 UNIX compress', AMBER),
-            ('1991', 'LZMA 的前身开始出现（7z 用）', AMBER),
+            ('1988', 'LHA：LZ + 霍夫曼，LZMA 那条线的起点', AMBER),
             ('1992', 'gzip 发布，deflate 定型', BLUE),
             ('1996', 'PNG 采用 deflate 作图像压缩', BLUE),
+            ('1999', 'LZMA 随 7-Zip 出现', AMBER),
             ('2013', 'Brotli：更大的窗口 + 静态字典', GREEN),
             ('2016', 'Zstandard：为速度重新设计', GREEN)]
     for year, text, color in rows:
         f.text((70, y), year, 40, bold=True, color=color)
         f.text((240, y), text, 40)
-        y += 68
+        y += 62
     y += 10
     y = note(f, y, '四十年里，LZ77 的编码规则一个字都没改：距离 + 长度。'
                    '所有进步都在两件事上——找匹配更快（哈希、SIMD）、'
