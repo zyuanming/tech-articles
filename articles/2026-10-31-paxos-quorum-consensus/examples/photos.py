@@ -60,7 +60,7 @@ def main():
              'Leslie Lamport, 2006. 摄影：Leslie Lamport / Wikimedia Commons，'
              'Copyrighted free use',
              'Leslie Lamport 的肖像')
-    credited('paxos-island.jpg', '26-paxos-island.jpg',
+    credited('paxos-island.jpg', '24-paxos-island.jpg',
              '希腊帕克索斯岛（Paxos）。摄影：Arxoland / Wikimedia Commons，CC BY-SA 4.0',
              '论文得名的那座岛', crop=(0, 240, 5216, 1180))
     meta_path = HERE / 'figure-metadata.json'

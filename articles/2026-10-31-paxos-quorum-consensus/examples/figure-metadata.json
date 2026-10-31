@@ -18,21 +18,21 @@
     "identity": "原创教学示意"
   },
   {
-    "path": "assets/03-two-majorities.png",
-    "width": 1062,
-    "height": 1038,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "朴素投票会选出两个互相矛盾的值",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/04-quorums-intersect.png",
+    "path": "assets/03-quorums-intersect.png",
     "width": 1062,
     "height": 1193,
     "min_label_px": 40,
     "effective_min_at_354px": 13.33,
     "purpose": "任意两个多数派必然相交",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-two-majorities.png",
+    "width": 1062,
+    "height": 1038,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "朴素投票会选出两个互相矛盾的值",
     "identity": "原创教学示意"
   },
   {
@@ -90,115 +90,7 @@
     "identity": "原创教学示意"
   },
   {
-    "path": "assets/11-real-trace.png",
-    "width": 1062,
-    "height": 3115,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "一次真实运行的完整消息往返",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/12-race-adopts.png",
-    "width": 1062,
-    "height": 2055,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "竞争时，后到的提案者沿用已选定的值",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/13-without-the-rule.png",
-    "width": 1062,
-    "height": 1054,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "去掉继承规则会选出两个值",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/14-what-must-hit-disk.png",
-    "width": 1062,
-    "height": 912,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "接受者必须持久化的两个字段",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/15-livelock.png",
-    "width": 1062,
-    "height": 1766,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "活锁：互相抬价的提议者",
-    "identity": "原创教学示意（构造的调度）"
-  },
-  {
-    "path": "assets/16-contention-cost.png",
-    "width": 1062,
-    "height": 1360,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "竞争人数与所需编号数量（实测）",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/17-multi-paxos.png",
-    "width": 1062,
-    "height": 1838,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "Multi-Paxos 用一次第一阶段服务很多轮",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/18-log-holes.png",
-    "width": 1062,
-    "height": 903,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "日志并行提交会产生空洞",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/19-odd-numbers.png",
-    "width": 1062,
-    "height": 1380,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "副本数、多数派与可容忍故障数",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/20-paxos-vs-raft.png",
-    "width": 1062,
-    "height": 982,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "Paxos 与 Raft 的对照",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/21-where-it-runs.png",
-    "width": 1062,
-    "height": 1079,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "使用 Paxos 或其变体的系统",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/22-timeline.png",
-    "width": 1062,
-    "height": 998,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "Paxos 从写作到被理解的时间线",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/23-two-phases.png",
+    "path": "assets/11-two-phases.png",
     "width": 1062,
     "height": 1016,
     "min_label_px": 40,
@@ -207,13 +99,122 @@
     "identity": "原创教学示意"
   },
   {
-    "path": "assets/24-three-rules.png",
+    "path": "assets/12-real-trace.png",
     "width": 1062,
-    "height": 936,
+    "height": 3115,
     "min_label_px": 40,
     "effective_min_at_354px": 13.33,
-    "purpose": "Paxos 的三条规矩",
+    "purpose": "一次真实运行的完整消息往返",
     "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-race-adopts.png",
+    "width": 1062,
+    "height": 2055,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "竞争时，后到的提案者沿用已选定的值",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-without-the-rule.png",
+    "width": 1062,
+    "height": 1054,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "去掉继承规则会选出两个值",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-what-must-hit-disk.png",
+    "width": 1062,
+    "height": 912,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "接受者必须持久化的两个字段",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-livelock.png",
+    "width": 1062,
+    "height": 1766,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "活锁：互相抬价的提议者",
+    "identity": "原创教学示意（构造的调度）"
+  },
+  {
+    "path": "assets/17-contention-cost.png",
+    "width": 1062,
+    "height": 1360,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "竞争人数与所需编号数量（实测）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-multi-paxos.png",
+    "width": 1062,
+    "height": 1838,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Multi-Paxos 用一次第一阶段服务很多轮",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-log-holes.png",
+    "width": 1062,
+    "height": 903,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "日志并行提交会产生空洞",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/20-odd-numbers.png",
+    "width": 1062,
+    "height": 1380,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "副本数、多数派与可容忍故障数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/21-paxos-vs-raft.png",
+    "width": 1062,
+    "height": 982,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Paxos 与 Raft 的对照",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/22-where-it-runs.png",
+    "width": 1062,
+    "height": 1079,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "使用 Paxos 或其变体的系统",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/23-timeline.png",
+    "width": 1062,
+    "height": 998,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Paxos 从写作到被理解的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/24-paxos-island.jpg",
+    "width": 1062,
+    "height": 247,
+    "min_label_px": 34,
+    "effective_min_at_354px": 11.33,
+    "purpose": "论文得名的那座岛",
+    "identity": "真实照片",
+    "source": "希腊帕克索斯岛（Paxos）。摄影：Arxoland / Wikimedia Commons，CC BY-SA 4.0"
   },
   {
     "path": "assets/25-leslie-lamport.jpg",
@@ -226,13 +227,12 @@
     "source": "Leslie Lamport, 2006. 摄影：Leslie Lamport / Wikimedia Commons，Copyrighted free use"
   },
   {
-    "path": "assets/26-paxos-island.jpg",
+    "path": "assets/26-three-rules.png",
     "width": 1062,
-    "height": 247,
-    "min_label_px": 34,
-    "effective_min_at_354px": 11.33,
-    "purpose": "论文得名的那座岛",
-    "identity": "真实照片",
-    "source": "希腊帕克索斯岛（Paxos）。摄影：Arxoland / Wikimedia Commons，CC BY-SA 4.0"
+    "height": 936,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "Paxos 的三条规矩",
+    "identity": "原创教学示意"
   }
 ]

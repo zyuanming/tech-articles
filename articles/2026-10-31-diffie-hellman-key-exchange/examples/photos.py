@@ -63,16 +63,16 @@ def portraits():
     d.text((20, 496), 'Wikimedia Commons', font=credit, fill=GRAY)
     d.text((20, 540), '左：Duncan.Hull，CC BY-SA 4.0', font=credit, fill=GRAY)
     d.text((20, 584), '右：CC BY-SA 3.0，原图 240×280 已放大', font=credit, fill=GRAY)
-    path = ASSETS / '21-two-authors.jpg'
+    path = ASSETS / '20-two-authors.jpg'
     canvas.save(path, quality=92)
     assert path.stat().st_size <= 5_000_000
-    META.append(dict(path='assets/21-two-authors.jpg', width=canvas.width,
+    META.append(dict(path='assets/20-two-authors.jpg', width=canvas.width,
                      height=canvas.height, min_label_px=34,
                      effective_min_at_354px=round(34 * 354 / W, 2),
                      purpose='两位作者的肖像',
                      identity='真实照片（Hellman 那张经过放大）',
                      source='Wikimedia Commons, CC BY-SA 4.0 / CC BY-SA 3.0'))
-    print('   21-two-authors.jpg', canvas.size, path.stat().st_size)
+    print('   20-two-authors.jpg', canvas.size, path.stat().st_size)
 
 
 def main():

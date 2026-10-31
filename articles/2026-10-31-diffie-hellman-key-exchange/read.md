@@ -207,7 +207,7 @@ Alice 以为自己在和 Bob 说话。Bob 以为自己在和 Alice 说话。两�
 
 所以「谁先发明」这个问题有一个诚实的答案：**GCHQ 先，但世界是从 1976 年那篇论文里学到它的。** 一个想法被锁在保险柜里，等于没有发生。
 
-![Diffie 与 Hellman](assets/21-two-authors.jpg)
+![Diffie 与 Hellman](assets/20-two-authors.jpg)
 
 2015 年，Diffie 和 Hellman 拿到图灵奖。颁奖词里提到的是「公钥密码学与公钥交换」。Hellman 后来的工作方向变得有点意外：他转向核武器的风险分析，跟苏联科学家一起写减少误判的论文。一个人研究怎么让通信不被窃听，后半生研究怎么让世界不被误炸，两件事的内在逻辑其实有点像——都是关于「在互不信任的前提下怎么建立一点信任」。
 
@@ -225,7 +225,7 @@ Alice 以为自己在和 Bob 说话。Bob 以为自己在和 Alice 说话。两�
 
 ## 15. 三句话
 
-![三句话总结](assets/20-three-lines.png)
+![三句话总结](assets/21-three-lines.png)
 
 第一句：公开的数字可以很多，秘密的指数只能自己知道。
 
@@ -257,6 +257,6 @@ python3 examples/photos.py          # 两位作者的肖像版式
 
 20 张示意图与封面由 `examples/build_figures.py` 用 Python/Pillow 原创绘制。图里的幂表、交换值、步数、群阶全部读自 `examples/results.json`，没有手写数字。
 
-一张照片：`assets/21-two-authors.jpg` 是 Whitfield Diffie 与 Martin Hellman 的肖像合成。左图摄影 Duncan.Hull，CC BY-SA 4.0，[File:Whitfield Diffie Royal Society.jpg](https://commons.wikimedia.org/wiki/File:Whitfield_Diffie_Royal_Society.jpg)；右图 CC BY-SA 3.0，[File:Martin-Hellman.jpg](https://commons.wikimedia.org/wiki/File:Martin-Hellman.jpg)，原图只有 240×280 像素，已等比放大，细节有限。两张都只做了裁切、缩放与加注署名，未修改画面内容。原图在 `originals/`。
+一张照片：`assets/20-two-authors.jpg` 是 Whitfield Diffie 与 Martin Hellman 的肖像合成。左图摄影 Duncan.Hull，CC BY-SA 4.0，[File:Whitfield Diffie Royal Society.jpg](https://commons.wikimedia.org/wiki/File:Whitfield_Diffie_Royal_Society.jpg)；右图 CC BY-SA 3.0，[File:Martin-Hellman.jpg](https://commons.wikimedia.org/wiki/File:Martin-Hellman.jpg)，原图只有 240×280 像素，已等比放大，细节有限。两张都只做了裁切、缩放与加注署名，未修改画面内容。原图在 `originals/`。
 
 详细尺寸、最小字号与身份见 [examples/figure-metadata.json](examples/figure-metadata.json)。

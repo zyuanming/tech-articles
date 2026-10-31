@@ -231,7 +231,7 @@ LCD 屏幕上，每个像素不是一整块，而是并排的红、绿、蓝三�
 
 1982 年，Adobe 成立，PostScript 把字形描述成轮廓，让同一份字体文件可以输出到任何分辨率的打印机。1985 年 LaserWriter 上市，轮廓字体取代了点阵字体。同年 Adobe 用 Type 1 格式加密了轮廓数据，第三方拿不到——这个决定后来引发了字体行业最大的一场战争。
 
-![Knuth 与 NeXTstation](assets/22-knuth-and-next.jpg)
+![Knuth 与 NeXTstation](assets/21-knuth-and-next.jpg)
 
 1988 年的 NeXT 机器（图右）是另一个方向的里程碑：它的显示器不是黑白的，而是每个像素有 4 级灰度。有了灰度，抗锯齿才有意义——「一个像素装不下一个笔画」这件事，第一次成了必须面对的问题。两张照片放在一起没有因果关系，只代表 1980 年代同时推进的两条路线：一条在软件里用程序生成字形（Metafont），一条在硬件上让每个像素有灰度（NeXT 的显示器和 Display PostScript）。这两条路线要到 1990 年代才真正合流。
 
@@ -251,7 +251,7 @@ LCD 屏幕上，每个像素不是一整块，而是并排的红、绿、蓝三�
 
 ## 16. 三句话
 
-![三句话](assets/21-three-lines.png)
+![三句话](assets/22-three-lines.png)
 
 第一句：轮廓是连续的，像素是离散的，光栅化的全部工作就是把曲线切成格子、算出每格被盖住多少。
 
@@ -284,6 +284,6 @@ python3 examples/photos.py          # 两张照片的版式
 
 21 张正文示意图与 `cover.png` 由 `examples/build_figures.py` 用 Python/Pillow 原创绘制，像素面板是 `examples/glyph.py` 的真实渲染输出，不是从字体文件里截的图。图上的数字全部读自 `examples/results.json`。
 
-一张照片合成：`assets/22-knuth-and-next.jpg`。左为 Donald Knuth，[File:KnuthAtOpenContentAlliance.jpg](https://commons.wikimedia.org/wiki/File:KnuthAtOpenContentAlliance.jpg)，CC BY-SA 2.5；右为 NeXTstation，[File:NeXTstation.jpg](https://commons.wikimedia.org/wiki/File:NeXTstation.jpg)，CC BY-SA 3.0。两张都只做了等比缩放与加注署名，未修改画面内容。原图在 `originals/`。
+一张照片合成：`assets/21-knuth-and-next.jpg`。左为 Donald Knuth，[File:KnuthAtOpenContentAlliance.jpg](https://commons.wikimedia.org/wiki/File:KnuthAtOpenContentAlliance.jpg)，CC BY-SA 2.5；右为 NeXTstation，[File:NeXTstation.jpg](https://commons.wikimedia.org/wiki/File:NeXTstation.jpg)，CC BY-SA 3.0。两张都只做了等比缩放与加注署名，未修改画面内容。原图在 `originals/`。
 
 详细尺寸、最小字号与身份见 [examples/figure-metadata.json](examples/figure-metadata.json)。

@@ -255,7 +255,7 @@ def fig02():
 
 
 def fig03():
-    f, y = new(3, '各自投票，会投出两个结果',
+    f, y = new(4, '各自投票，会投出两个结果',
                '最直接的办法：谁先来就听谁的，五台机器各记各的。'
                '问题是三台机器就是一个多数派，而五台机器里有两个三台。')
     def row(title, group, value, color, top):
@@ -277,11 +277,11 @@ def fig03():
     y = note(f, y, 'A3 两个都收下了。现在任何两个读者去问多数派，都可能得到不同的答案：'
                    '问 {A1 A2 A3} 得到 X，问 {A3 A4 A5} 得到 Y，而两边都「合法」。',
              color=RED)
-    save(f, '03-two-majorities.png', '朴素投票会选出两个互相矛盾的值')
+    save(f, '04-two-majorities.png', '朴素投票会选出两个互相矛盾的值')
 
 
 def fig04():
-    f, y = new(4, '两个多数派一定重叠',
+    f, y = new(3, '两个多数派一定重叠',
                '五个位置里挑三个，剩下的只有两个。第二个三票组想完全不碰第一个，'
                '需要三个空位，可空位只有两个——所以它必然踩到第一个里的某一台。')
     f.text((44, y), '第一个多数派 {A1 A2 A3}', 42, bold=True, color=TEAL)
@@ -305,7 +305,7 @@ def fig04():
     y = note(f, y, '这一台重叠的机器，就是全部安全性的来源。它见过什么，'
                    '下一个提案者就必须知道什么——Paxos 的两个阶段，'
                    '做的事就是「先问它，再决定」。', color=TEAL)
-    save(f, '04-quorums-intersect.png', '任意两个多数派必然相交')
+    save(f, '03-quorums-intersect.png', '任意两个多数派必然相交')
 
 
 def fig05():
@@ -447,7 +447,7 @@ def fig10():
 
 
 def fig11():
-    f, y = new(11, '跑一遍：一次真实的往返',
+    f, y = new(12, '跑一遍：一次真实的往返',
                '下面是 examples/run_model.py 实际跑出来的消息，时间来自事件队列，'
                '不是画的。五台接受者、一个提议者，编号 1。')
     rows = [r for r in R['happy']['trace'] if r['dir'] == 'send']
@@ -470,11 +470,11 @@ def fig11():
         '%s promised=%s accepted=%s' % (row['acceptor'], row['promised'],
                                         row['accepted_value'])
         for row in h['state'][:3]) + '，其余相同。')
-    save(f, '11-real-trace.png', '一次真实运行的完整消息往返')
+    save(f, '12-real-trace.png', '一次真实运行的完整消息往返')
 
 
 def fig12():
-    f, y = new(12, '竞争：后来的人会捡起前人的值',
+    f, y = new(13, '竞争：后来的人会捡起前人的值',
                'P1 用编号 1 提出 X 并成功。稍后 P2 用编号 2 提出 Y，'
                '但它第一阶段的回复里带着 X——于是它放弃 Y，改提 X。')
     actors = [('P1', 170, 'P1'), ('P2', 300, 'P2'),
@@ -500,11 +500,11 @@ def fig12():
                    '{A1 A2 A3} 在 A2、A3 处重叠，而那两台机器记得 X。'
                    '重叠的那一台没有投票权，它只是把「已经发生的事」告诉了后来者。',
              color=TEAL)
-    save(f, '12-race-adopts.png', '竞争时，后到的提案者沿用已选定的值')
+    save(f, '13-race-adopts.png', '竞争时，后到的提案者沿用已选定的值')
 
 
 def fig13():
-    f, y = new(13, '把那条规则去掉会怎样',
+    f, y = new(14, '把那条规则去掉会怎样',
                '同一个场景，只删掉「取编号最大的已接受值」这一行代码。'
                'P2 照样拿到承诺，然后照样提它自己的 Y。')
     f.text((44, y), '遵守规则（真实运行）', 42, bold=True, color=TEAL)
@@ -530,11 +530,11 @@ def fig13():
              color=RED)
     y = note(f, y, '这就是 Paxos 全部的「魔法」：新提案必须继承旧结果。'
                    '规则不是为了公平，也不是为了性能，是因为不继承就会丢数据。')
-    save(f, '13-without-the-rule.png', '去掉继承规则会选出两个值')
+    save(f, '14-without-the-rule.png', '去掉继承规则会选出两个值')
 
 
 def fig14():
-    f, y = new(14, '哪个变量必须落盘',
+    f, y = new(15, '哪个变量必须落盘',
                '接受者的内存里只有两个字段。但崩溃重启之后，它们必须还在，'
                '否则它会答应一个自己早就拒绝过的编号。')
     rows = [[('promised', INK, True), ('见过的最大编号', INK_SOFT, False),
@@ -549,11 +549,11 @@ def fig14():
                    '然后接受一个更小的编号——这正是反例图里的那种事故。')
     y = note(f, y, '真实系统会把这一步做成一条日志记录，和业务日志一起复制，'
                    '于是「承诺」本身也变成了一条可以恢复的事实。', color=TEAL)
-    save(f, '14-what-must-hit-disk.png', '接受者必须持久化的两个字段')
+    save(f, '15-what-must-hit-disk.png', '接受者必须持久化的两个字段')
 
 
 def fig15():
-    f, y = new(15, '活锁：两个人都很有礼貌',
+    f, y = new(16, '活锁：两个人都很有礼貌',
                '编号只增不减，所以谁后说话谁赢。两个人轮流后说话，就谁也赢不了。'
                '这张图画的是一个构造出来的调度，不是模拟的输出。')
     actors = [('P1', 240, 'P1'), ('P2', 780, 'P2')]
@@ -573,12 +573,12 @@ def fig15():
     y = note(f, y, 'Paxos 只保证安全性（不会选出两个值），不保证活性（一定会选出值）。'
                    '工程上的补丁是随机化：被拒绝之后等一个随机的时间再抬价，'
                    '让两个人错开。')
-    save(f, '15-livelock.png', '活锁：互相抬价的提议者',
+    save(f, '16-livelock.png', '活锁：互相抬价的提议者',
          identity='原创教学示意（构造的调度）')
 
 
 def fig16():
-    f, y = new(16, '抢的人越多，编号涨得越快',
+    f, y = new(17, '抢的人越多，编号涨得越快',
                '同一份模拟，改同时竞争的提议者数量，每次跑 60 遍取平均。'
                '纵轴是「最后用到的最大编号」。')
     rows = R['contention']
@@ -597,11 +597,11 @@ def fig16():
     y = note(f, y, '另外一件在这次模拟里反复出现的事：最后胜出的是编号最大的提议者'
                    '带来的值。这不是巧合，是「后来者继承前者」规则的直接后果。',
              color=TEAL)
-    save(f, '16-contention-cost.png', '竞争人数与所需编号数量（实测）')
+    save(f, '17-contention-cost.png', '竞争人数与所需编号数量（实测）')
 
 
 def fig17():
-    f, y = new(17, 'Multi-Paxos：把第一阶段省掉',
+    f, y = new(18, 'Multi-Paxos：把第一阶段省掉',
                '如果只有一个人提案，第一阶段就白跑了。于是先选一个 leader，'
                '让它一次性做完第一阶段，之后每一轮只需要第二阶段。')
     actors = [('L', 170, 'leader'), ('A1', 430, 'A1'), ('A2', 620, 'A2'),
@@ -620,11 +620,11 @@ def fig17():
                    '接受者对 10 不会翻脸，只有更大的编号才会让它改口。')
     y = note(f, y, '省掉第一阶段之后，一轮从四条消息腿变成两条，'
                    '吞吐量翻倍。代价是：leader 挂了，要重新选，重新做第一阶段。', color=TEAL)
-    save(f, '17-multi-paxos.png', 'Multi-Paxos 用一次第一阶段服务很多轮')
+    save(f, '18-multi-paxos.png', 'Multi-Paxos 用一次第一阶段服务很多轮')
 
 
 def fig18():
-    f, y = new(18, '日志有空洞，也得先填上',
+    f, y = new(19, '日志有空洞，也得先填上',
                '真实的 Paxos 存的是日志：第 1 条、第 2 条……每条是一次独立的共识。'
                '它们可以并行提案，于是完成顺序是乱的。')
     slots = ['1', '2', '3', '4', '5', '6', '7', '8']
@@ -645,11 +645,11 @@ def fig18():
                    '所以已经选定的前缀才算数：读日志的一方只能读到第一个空洞之前。')
     y = note(f, y, '空洞本身也是要共识的内容：新 leader 上台后，'
                    '必须先把空洞填成「空操作」，才能继续往后写。', color=TEAL)
-    save(f, '18-log-holes.png', '日志并行提交会产生空洞')
+    save(f, '19-log-holes.png', '日志并行提交会产生空洞')
 
 
 def fig19():
-    f, y = new(19, '为什么是奇数台',
+    f, y = new(20, '为什么是奇数台',
                '多数派的大小和可容忍的故障数，都是 N 的函数。'
                '纵轴是「还能挂几台」，数据由 results.json 里的公式算出。')
     rows = R['tolerance']
@@ -668,11 +668,11 @@ def fig19():
                    '（青色是奇数，灰色是偶数。）')
     y = note(f, y, '跨机房时还有另一条约束：多数派必须能在一个机房整体掉线后仍然凑齐，'
                    '于是 3 个机房通常按 2 : 2 : 1 分配副本，而不是平均分。', color=TEAL)
-    save(f, '19-odd-numbers.png', '副本数、多数派与可容忍故障数')
+    save(f, '20-odd-numbers.png', '副本数、多数派与可容忍故障数')
 
 
 def fig20():
-    f, y = new(20, '和 Raft 比，差在哪',
+    f, y = new(21, '和 Raft 比，差在哪',
                '两套协议解决同一个问题，安全性的核心是同一条：多数派 + 继承。'
                '差别主要在「怎么组织讨论」。')
     rows = [[('项目', INK, True), ('Paxos', TEAL, True), ('Raft', BLUE, True)],
@@ -690,11 +690,11 @@ def fig20():
     y = table(f, y, [(70, 'la'), (380, 'la'), (720, 'la')], rows, row_h=74)
     y = note(f, y, 'Raft 常被描述成「可理解的 Paxos」，它的贡献不是更快，'
                    '而是把「选主 + 日志 + 成员变更」写成了可以直接实现的说明书。')
-    save(f, '20-paxos-vs-raft.png', 'Paxos 与 Raft 的对照')
+    save(f, '21-paxos-vs-raft.png', 'Paxos 与 Raft 的对照')
 
 
 def fig21():
-    f, y = new(21, '它在哪些系统里',
+    f, y = new(22, '它在哪些系统里',
                'Paxos 很少以「Paxos」的名字出现在用户面前，但很多系统的元数据'
                '都是它（或它的变体）在守着。')
     items = [('Chubby', 'Google 的锁服务，GFS 用它选主', TINT_B),
@@ -714,11 +714,11 @@ def fig21():
                    '一个 1 KB 的配置错一次，整个集群就会按错的地图走。')
     y = note(f, y, '也正因为如此，Paxos 的性能上限通常不是瓶颈——'
                    '每秒钟几次写，换来的是十年不出一次分叉。', color=TEAL)
-    save(f, '21-where-it-runs.png', '使用 Paxos 或其变体的系统')
+    save(f, '22-where-it-runs.png', '使用 Paxos 或其变体的系统')
 
 
 def fig22():
-    f, y = new(22, '一份被当成玩笑的论文',
+    f, y = new(23, '一份被当成玩笑的论文',
                'Paxos 的故事比算法本身还长：写好、被拒、搁置、再发表，前后十一年。')
     top = y + 20
     f.line((90, top + 120), (990, top + 120), color=INK, width=4)
@@ -737,11 +737,11 @@ def fig22():
                    '审稿人觉得这是个玩笑，编辑也没看出它是分布式共识的完整解。')
     y = note(f, y, '十一年后，Lamport 又写了一篇六页的 Paxos Made Simple，'
                    '开头第一句是：「Paxos 很简单。」')
-    save(f, '22-timeline.png', 'Paxos 从写作到被理解的时间线')
+    save(f, '23-timeline.png', 'Paxos 从写作到被理解的时间线')
 
 
 def fig23():
-    f, y = new(23, '两阶段的信息量',
+    f, y = new(11, '两阶段的信息量',
                '把两个阶段并排看，会发现它们问的是同一件事的两个方向：'
                '「过去有没有人做过决定」和「现在能不能定下来」。')
     left = [('1a', 'prepare(n)', '问：有没有人接受过比我更旧的？', TEAL),
@@ -765,11 +765,11 @@ def fig23():
     y = note(f, y, '第一阶段管「过去」，第二阶段管「现在」。'
                    '过去的信息只影响第二阶段提交什么值，不改变第二阶段的形式——'
                    '这也是 Multi-Paxos 能把它折叠掉的原因。')
-    save(f, '23-two-phases.png', '两个阶段各自回答的问题')
+    save(f, '11-two-phases.png', '两个阶段各自回答的问题')
 
 
 def fig24():
-    f, y = new(24, '回到那个问题',
+    f, y = new(26, '回到那个问题',
                '五个副本、一个客户端、一个会丢包的网。Paxos 的答案是三条规矩，'
                '每条都不长。')
     y = bullets(f, y, [
@@ -782,7 +782,7 @@ def fig24():
                    '而每个新提案者都必须先听到它。')
     y = note(f, y, '这就是为什么 Paxos 慢。它把「先问一句」变成了协议的一部分：'
                    '不先问，就可能覆盖别人已经做成的事。', color=AMBER)
-    save(f, '24-three-rules.png', 'Paxos 的三条规矩')
+    save(f, '26-three-rules.png', 'Paxos 的三条规矩')
 
 
 def make_cover():

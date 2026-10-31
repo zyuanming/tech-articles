@@ -171,16 +171,7 @@
     "identity": "原创教学示意"
   },
   {
-    "path": "assets/20-three-lines.png",
-    "width": 1062,
-    "height": 611,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "三句话总结",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/21-two-authors.jpg",
+    "path": "assets/20-two-authors.jpg",
     "width": 1062,
     "height": 650,
     "min_label_px": 34,
@@ -188,5 +179,14 @@
     "purpose": "两位作者的肖像",
     "identity": "真实照片（Hellman 那张经过放大）",
     "source": "Wikimedia Commons, CC BY-SA 4.0 / CC BY-SA 3.0"
+  },
+  {
+    "path": "assets/21-three-lines.png",
+    "width": 1062,
+    "height": 611,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三句话总结",
+    "identity": "原创教学示意"
   }
 ]

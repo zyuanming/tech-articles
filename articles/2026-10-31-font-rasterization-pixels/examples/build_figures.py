@@ -548,7 +548,7 @@ def fig20():
 
 
 def fig21():
-    fig, y = new(21, '三句话', None)
+    fig, y = new(22, '三句话', None)
     items = [('轮廓是连续的，像素是离散的。', '光栅化的全部工作，就是把曲线切成格子，算出每个格子被盖住多少。'),
              ('小字号不是「缩小的大字号」，','是另一个问题。一个像素宽的笔画没有中间值可用，只能靠 hinting 把边吸到格子上。'),
              ('清楚和忠实是两件事。', 'hinting 让字更清楚，代价是笔画粗细变了；SDF 让轮廓更平滑，代价是细节没了。')]
@@ -556,7 +556,7 @@ def fig21():
         fig.text((70, y), head, 44, bold=True, color=INK)
         y += 66
         y = note(fig, y, body, size=42) + 34
-    save(fig, '21-three-lines.png', '三句话总结')
+    save(fig, '22-three-lines.png', '三句话总结')
 
 
 def make_cover():

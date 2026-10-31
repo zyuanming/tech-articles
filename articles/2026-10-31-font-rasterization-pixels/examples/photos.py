@@ -51,7 +51,7 @@ def pair():
     d.text((20, 496), 'Wikimedia Commons，CC BY-SA 2.5 / 3.0', font=credit, fill=GRAY)
     d.text((20, 540), '左：Metafont 与 TeX 的作者。', font=credit, fill=GRAY)
     d.text((20, 584), '右：1988 年的机器，屏幕有 4 级灰度。', font=credit, fill=GRAY)
-    _save('22-knuth-and-next.jpg', canvas,
+    _save('21-knuth-and-next.jpg', canvas,
           'Donald Knuth 与 NeXTstation',
           'Wikimedia Commons, CC BY-SA 2.5 / CC BY-SA 3.0')
 

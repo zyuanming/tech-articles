@@ -180,16 +180,7 @@
     "identity": "原创教学示意"
   },
   {
-    "path": "assets/21-three-lines.png",
-    "width": 1062,
-    "height": 791,
-    "min_label_px": 40,
-    "effective_min_at_354px": 13.33,
-    "purpose": "三句话总结",
-    "identity": "原创教学示意"
-  },
-  {
-    "path": "assets/22-knuth-and-next.jpg",
+    "path": "assets/21-knuth-and-next.jpg",
     "width": 1062,
     "height": 630,
     "min_label_px": 34,
@@ -197,5 +188,14 @@
     "purpose": "Donald Knuth 与 NeXTstation",
     "identity": "真实照片",
     "source": "Wikimedia Commons, CC BY-SA 2.5 / CC BY-SA 3.0"
+  },
+  {
+    "path": "assets/22-three-lines.png",
+    "width": 1062,
+    "height": 791,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三句话总结",
+    "identity": "原创教学示意"
   }
 ]
