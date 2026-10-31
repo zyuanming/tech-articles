@@ -36,7 +36,7 @@
 
 | 文件 | 内容 | 作者 | 许可 | 原页 |
 | --- | --- | --- | --- | --- |
-| `assets/21-two-authors.jpg` | Diffie 与 Hellman 肖像（两张合成） | 左：Duncan.Hull；右：未署名（Commons 记录） | CC BY-SA 4.0 / CC BY-SA 3.0 | [Diffie](https://commons.wikimedia.org/wiki/File:Whitfield_Diffie_Royal_Society.jpg) · [Hellman](https://commons.wikimedia.org/wiki/File:Martin-Hellman.jpg) |
+| `assets/20-two-authors.jpg` | Diffie 与 Hellman 肖像（两张合成） | 左：Duncan.Hull；右：未署名（Commons 记录） | CC BY-SA 4.0 / CC BY-SA 3.0 | [Diffie](https://commons.wikimedia.org/wiki/File:Whitfield_Diffie_Royal_Society.jpg) · [Hellman](https://commons.wikimedia.org/wiki/File:Martin-Hellman.jpg) |
 
 处理方式：左图裁掉下方、等比缩放到 420 像素高；右图从 240×280 等比放大到 420 像素高，
 放大后细节有限，文中与图内均已注明。两张都未修改画面内容。原图在 `originals/`。

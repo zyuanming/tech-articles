@@ -31,7 +31,7 @@
 | 文件 | 内容 | 作者 | 许可 | 原页 |
 | --- | --- | --- | --- | --- |
 | `assets/25-leslie-lamport.jpg` | Leslie Lamport 肖像 | Leslie Lamport | Copyrighted free use | [File:Leslie Lamport.jpg](https://commons.wikimedia.org/wiki/File:Leslie_Lamport.jpg) |
-| `assets/26-paxos-island.jpg` | 帕克索斯岛全景 | Arxoland | CC BY-SA 4.0 | [File:Paxos island, Greece.JPG](https://commons.wikimedia.org/wiki/File:Paxos_island,_Greece.JPG) |
+| `assets/24-paxos-island.jpg` | 帕克索斯岛全景 | Arxoland | CC BY-SA 4.0 | [File:Paxos island, Greece.JPG](https://commons.wikimedia.org/wiki/File:Paxos_island,_Greece.JPG) |
 
 两张照片只做了等比缩放、裁切（岛景裁掉上下留白）与加注署名条，未修改画面内容。
 原图保存在 `originals/`，未做任何处理。

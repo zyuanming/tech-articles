@@ -35,7 +35,7 @@
 
 | 文件 | 内容 | 作者 | 许可 | 原页 |
 | --- | --- | --- | --- | --- |
-| `assets/22-knuth-and-next.jpg` | Donald Knuth 与 NeXTstation（两张合成） | 左：Flickr 用户（Commons 记录）；右：未署名（Commons 记录） | CC BY-SA 2.5 / CC BY-SA 3.0 | [Knuth](https://commons.wikimedia.org/wiki/File:KnuthAtOpenContentAlliance.jpg) · [NeXTstation](https://commons.wikimedia.org/wiki/File:NeXTstation.jpg) |
+| `assets/21-knuth-and-next.jpg` | Donald Knuth 与 NeXTstation（两张合成） | 左：Flickr 用户（Commons 记录）；右：未署名（Commons 记录） | CC BY-SA 2.5 / CC BY-SA 3.0 | [Knuth](https://commons.wikimedia.org/wiki/File:KnuthAtOpenContentAlliance.jpg) · [NeXTstation](https://commons.wikimedia.org/wiki/File:NeXTstation.jpg) |
 
 处理方式：两张都等比缩放到 420 像素高、底部加署名条，未修改画面内容。原图在 `originals/`。
 
