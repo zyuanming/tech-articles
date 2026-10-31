@@ -28080,6 +28080,531 @@
     "sha256": "ae710d0af70b5b6a3463d0d352d54f3341da0c9c8f235eead800268f3bfd2466"
   },
   {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/01-three-people.png",
+    "bytes": 84361,
+    "sha256": "0fdd0ebcd8caa903b8a37555f1b2eb19e83129831141a1d0b5f3ae15bca23136"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/02-one-key.png",
+    "bytes": 128711,
+    "sha256": "a294cef7b64916e64f5dcbf8077a0be5ed463fd632067c72b2a79775e60a1609"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/03-paint.png",
+    "bytes": 92935,
+    "sha256": "c1e8a25fc3954c70cc0cb2cd83f217336c0d74f6e94775f386a28068d69b4bdb"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/04-one-way.png",
+    "bytes": 152114,
+    "sha256": "5369506947b51558bb0f713e327caf6f85d459a62fd73b4698a9ed375db8cc15"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/05-clock.png",
+    "bytes": 120986,
+    "sha256": "45eac8477baa3909e85e7db7a26abf3e7cc59f3fa9a47d46dfcf9c5a2deb19dd"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/06-table.png",
+    "bytes": 114905,
+    "sha256": "02bb0a229ad503bebd428efd09e92bbfe608ed9555782f3ff2bb512b5b558449"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/07-exchange.png",
+    "bytes": 154526,
+    "sha256": "001584d6b9e74241abd0905ddbc084954ac5d7f8b51ef240637bc7b935e66575"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/08-commute.png",
+    "bytes": 126813,
+    "sha256": "4cd05e05e1c8e02c77396ec1262f707e16090122e93fec94cb9633fa58a9b3e8"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/09-eve-sees.png",
+    "bytes": 166301,
+    "sha256": "0cf9457d7640f2808cd82ec1e1fc2480819d503a087c85914ec6c2a48b47fba7"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/10-attack-cost.png",
+    "bytes": 148560,
+    "sha256": "31a92d586375c4b7f4065e3769cc42e493a988708b554dc17b2106dc847818d4"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/11-bit-length.png",
+    "bytes": 169625,
+    "sha256": "54e82d3746d0d2b5d28ea68a24b3f8c991870e5610fae2d02eb187b1648a9708"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/12-prime.png",
+    "bytes": 124187,
+    "sha256": "2e078283dc9f34d3bee25b1ddf03affcf23e65e6f7ad8aae47b234558c3408aa"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/13-man-in-the-middle.png",
+    "bytes": 109772,
+    "sha256": "e2206c18c4072832cfed8bf08b94692b66bf3a9e5540de78da3a211b2bd0378a"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/14-two-keys.png",
+    "bytes": 144989,
+    "sha256": "cf2bb0688e5cf368787663f2a68d2edaeb10bfb7f0e732cbf7eb13ac71f97ccc"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/15-certificate.png",
+    "bytes": 131006,
+    "sha256": "eb99ca5f87d59ccb09df7c6ff2660c63f127c7eaa3c29ac9c444258f889a9ed0"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/16-forward-secrecy.png",
+    "bytes": 153105,
+    "sha256": "11e45b6ac9dd2f1e9baf357ada7dbe5e400fdacc765114a1ff021d9246b77273"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/17-tls13.png",
+    "bytes": 164686,
+    "sha256": "6c75fb9051edf2cbebf1b96edf7a16a8c07bf1848ed4bae7fe36f1d5f34d19ba"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/18-elliptic-curve.png",
+    "bytes": 106498,
+    "sha256": "f700999eadd35ca3df6fbbca85938ed5bf0bb442c2d6c7fa76a233169e08954e"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/19-timeline.png",
+    "bytes": 186915,
+    "sha256": "555abf14469fa5c7584bd8bb6fb35fb0178843e187c2851e9bc6ed2f19f43036"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/20-three-lines.png",
+    "bytes": 92950,
+    "sha256": "572bf54e3a07316264125686d1ade7d35319cc02da9d395ce6091d900a1b014b"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/assets/21-two-authors.jpg",
+    "bytes": 130016,
+    "sha256": "b6676f490bf779d01a3daee6dc4e15718958b25f85485bcedf054669baeb541c"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/cover.png",
+    "bytes": 71045,
+    "sha256": "a5dac8afa183a41f49b9401581b04282ec164d24e7feeedd2f2682b9ff3ae804"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/build_figures.py",
+    "bytes": 32004,
+    "sha256": "6458c4bbbdf54dd4ef887a981ba409e900e0f2b165220490922fe309800408b7"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/dh.py",
+    "bytes": 6856,
+    "sha256": "2e75181142c69a8fe1fba6366b0d0e0c1e14cb7f89900642b8a166b8064b4963"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/figkit.py",
+    "bytes": 19968,
+    "sha256": "30019ae41f6d8956f85caf7277e2a5ad957a8d7611fc47e47c1bd14c6b05ee79"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/figure-metadata.json",
+    "bytes": 4905,
+    "sha256": "77fa171027449fe53f7f5709f53d24d62ab007edeb371280917aae0e6057a53a"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/photos.py",
+    "bytes": 3665,
+    "sha256": "a794a60da2d71e0a4b63fcff80779ff2908683957fe6d49a9e64acfd585c1dc4"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/results.json",
+    "bytes": 6198,
+    "sha256": "1112d2eb31ae3a6a0a3fb6605197519eb064ac8c2289f885d727d5cb80aa91a3"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/run-environment.json",
+    "bytes": 636,
+    "sha256": "699a9cf02741069fc5c9d54a6d3cef80b9cd7ee79391e97b2de07c751d4e2854"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/examples/run_model.py",
+    "bytes": 3683,
+    "sha256": "1c5d2866af0aa9c2e22989350e96544d856c9a4348bc91401bad7d14cf06906b"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/originals/diffie.jpg",
+    "bytes": 432263,
+    "sha256": "bf351cafaff5dc4ab832c3dda9b40bd29208a7a7f22b68179aa1617b4f242de2"
+  },
+  {
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/originals/hellman.jpg",
+    "bytes": 13237,
+    "sha256": "f8b10af2cf75e411559add6fc99764839a798d9f683fd2ac5b5a433b196cbd94"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/01-one-glyph.png",
+    "bytes": 111698,
+    "sha256": "2cd86fa98cfeb9b604304992ffee318137cc1b1496c284241c3cbbcee366bff6"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/02-outline-vs-pixels.png",
+    "bytes": 118220,
+    "sha256": "5cbd23f747506e40124a9e5895152555d666d77619fce7e8bd3d2a260c442458"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/03-quadratic.png",
+    "bytes": 104109,
+    "sha256": "aec0ec188a07a73cf5ac4f627e83cb8daa2490a61ac528074e3418b863d784e3"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/04-flatten.png",
+    "bytes": 191901,
+    "sha256": "32a441fdb368dbc56d961fdc59ada93df7ffcce68009767dd361509aea745c14"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/05-scanline.png",
+    "bytes": 135091,
+    "sha256": "cbb55ae534c6c4f4a5f2e924dc26c3bb93fb9a30816ecd51d401c60a45cbb5b8"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/06-winding.png",
+    "bytes": 134945,
+    "sha256": "d4a799490a6c3ebbe80dd0f8a912d68b14fe5a7c58af7c4b49cf818d447318cf"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/07-coverage.png",
+    "bytes": 134999,
+    "sha256": "8b42f006bc78c4b444dd1a2060a23be8f086dcf6137a6109fe336129aa6f0357"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/08-supersampling.png",
+    "bytes": 126443,
+    "sha256": "2971e14b4261a4db6b645177f1b36c1911f8b2c8e7c8e826fe028ceb6c1b4225"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/09-error.png",
+    "bytes": 165236,
+    "sha256": "ff6d27e179429a51616e6c1624ad03dc348e6a9aaa05b727ae380b90ee020c85"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/10-diagonal.png",
+    "bytes": 177161,
+    "sha256": "978a5de4f1f5294405693a5becc5f897065848b00a53c3ac529ff6400c426902"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/11-stem-sizes.png",
+    "bytes": 153651,
+    "sha256": "842340e08b37a8f54493811721bd4126cecb73a3f7336fb4f3cb06d049e8957d"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/12-hinting.png",
+    "bytes": 122878,
+    "sha256": "d35dea2e21032094f344a1396e7103313e82bf3e840ee06a974a7c05562531d0"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/13-hint-tradeoff.png",
+    "bytes": 165817,
+    "sha256": "0784c33d3d801a14df5b257abbae95c48c63f4137552ca253c3a916117e8656d"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/14-gamma.png",
+    "bytes": 183342,
+    "sha256": "89191979281fbdc75002bf56a9a569843b4e6f4531f07099ef0b6e18c06b5535"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/15-subpixel.png",
+    "bytes": 180109,
+    "sha256": "3e9e563847c156a0d5ef41fdb60fec07a105b08b30a4650d29517c6054707cee"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/16-subpixel-end.png",
+    "bytes": 215969,
+    "sha256": "ac6677a5217adeec1f602fd7a676ecd9d1db2bdb2891862d3f8e80005c65380f"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/17-sdf.png",
+    "bytes": 247902,
+    "sha256": "f8d1cfacead6927d6260f4c6bc37106d781fae39042aae294d5884e83bc10dec"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/18-two-routes.png",
+    "bytes": 166643,
+    "sha256": "49eb73ce8c5e3dd79ed0bb05e0c76c2562fd256b484640d11875985a7abd74bb"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/19-pipeline.png",
+    "bytes": 200784,
+    "sha256": "328567e6b15b6d30705c92c68fc24c39c8d154ea123164a05304e4c3106270fb"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/20-timeline.png",
+    "bytes": 239398,
+    "sha256": "98128df33825dd375bfbc894770deb25d76278430f4aec689c1ef4c74e374aa4"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/21-three-lines.png",
+    "bytes": 147687,
+    "sha256": "65f3fbd79027c9d55fd02dae074791b39eccb13decd03ab4b9d65b10919f49f9"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/assets/22-knuth-and-next.jpg",
+    "bytes": 109274,
+    "sha256": "5ff93cbf9196505a0cd878cba10eefae29083fef3e1a90efe31b093cccc97a76"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/cover.png",
+    "bytes": 44837,
+    "sha256": "81b157c3e8ab7cdf0b0d7122cdd109169845023550d87713f09b8e171f51918b"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/build_figures.py",
+    "bytes": 31164,
+    "sha256": "8574deea7ad1ec741021e88933531724e24fec255226e265a75356979b885de7"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/figkit.py",
+    "bytes": 19968,
+    "sha256": "30019ae41f6d8956f85caf7277e2a5ad957a8d7611fc47e47c1bd14c6b05ee79"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/figure-metadata.json",
+    "bytes": 5200,
+    "sha256": "e502492b6763ffea4733229c395e5e788231d471fd275632b5b50db8839ca0d9"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/glyph.py",
+    "bytes": 8383,
+    "sha256": "7b3edcc92c19941302907727efcd95a30b576b18051246c1b03b93f400780096"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/photos.py",
+    "bytes": 2662,
+    "sha256": "27aef7353f41c9f20b64e452b88f8a50d59bb911b90165bec9d6bb8859b7cc97"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/results.json",
+    "bytes": 9197,
+    "sha256": "519933924a98cf65d42892e858fe60b91d87a7cad22af3e012c2769a1f5ea631"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/run-environment.json",
+    "bytes": 631,
+    "sha256": "c2270cba58eb78e51be868a14810c23ec1a2fdc5cb4e7c73bdc84bddf188b6f1"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/examples/run_model.py",
+    "bytes": 5893,
+    "sha256": "491943e6e7f0cb178a3442c7d1443a58333ff417328beeb94fb65692cd506e34"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/originals/knuth.jpg",
+    "bytes": 44880,
+    "sha256": "9cda4576dafe8aeaed605f10b3842b6aff9fe04a501cfba7f7a288c3f7db8d48"
+  },
+  {
+    "path": "articles/2026-10-31-font-rasterization-pixels/originals/nextstation.jpg",
+    "bytes": 41526,
+    "sha256": "e4dfcf98974260d5490a3d16f44b0d517e0d3a16676d23b4563a532bf639feb0"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/01-five-replicas.png",
+    "bytes": 268236,
+    "sha256": "e7e8155c58054ea6fb180be2411c2859cc3078a731626627133952ce740465e4"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/02-network-reorders.png",
+    "bytes": 154660,
+    "sha256": "7b4a4b436e3228c5b9e9a4952bf03dbfe5f8f470b8dac74978df38b1c42c5163"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/03-two-majorities.png",
+    "bytes": 154655,
+    "sha256": "ca6975287b0ea3c93f03896ea7ec4f0c7514ab148305571a4c43b78544fce06a"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/04-quorums-intersect.png",
+    "bytes": 207821,
+    "sha256": "6e92673fc9bef94c3c10a448e2fce5e33b64550860b31c47aabf85e997ce6f2d"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/05-three-roles.png",
+    "bytes": 252551,
+    "sha256": "4cc5c36c6b8e130191d871c2921cf92a6f7e8baf1773e75143f332f12a6e5c73"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/06-ballot-order.png",
+    "bytes": 176352,
+    "sha256": "1bb7547aafe0c885077b0f479dbc82d988af287ea210c942255da36fc66765c1"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/07-phase-one.png",
+    "bytes": 153923,
+    "sha256": "fffee6f0df2540b4580701e06d51eac71647b2ef344c93428ca4a4f6ef853ad1"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/08-promise-blocks-older.png",
+    "bytes": 182746,
+    "sha256": "11c2a11f303bc4fe2bf619f136ea7e234d1769f7f2edec04abf1023d2a620bac"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/09-phase-two.png",
+    "bytes": 137304,
+    "sha256": "5804f00ee97a9e62a472d69036147ef223719c5118ce5bc49d574c475becac39"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/10-value-selection.png",
+    "bytes": 225676,
+    "sha256": "34077bf23034a5ac472e9f81d31a8dd0d690c37b0c096c55b0acb5f0b0246b1a"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/11-real-trace.png",
+    "bytes": 289644,
+    "sha256": "4994a2955c18593b90c973ae259c1feff7ea3df095246af414a7ee6b4aaff7bb"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/12-race-adopts.png",
+    "bytes": 256428,
+    "sha256": "eb2cb29d4d628e3f0446c944a52bcd8a65eff49ecf3eff30fa7b9252f3f36f25"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/13-without-the-rule.png",
+    "bytes": 252066,
+    "sha256": "14d23c27d5e8b454c53196c629428296449349ffcc16ed5cb9b59b580e19314b"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/14-what-must-hit-disk.png",
+    "bytes": 236554,
+    "sha256": "1d375d241cfa36305c8edba710b473d97b8d9c7c6d7a1a5788f9b13ff3b9ba1c"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/15-livelock.png",
+    "bytes": 281746,
+    "sha256": "780120ecb796e9b0c12f3c012c17d8021bb64625c42c8f4423dce0686ea6203d"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/16-contention-cost.png",
+    "bytes": 211401,
+    "sha256": "1dba5f9b01ba854335111ce91614eb78007e7b6ec3cf29fed71831fc6df76785"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/17-multi-paxos.png",
+    "bytes": 248018,
+    "sha256": "f2567bb23681cf7a9a58b0ab0ea78461312d337d23344e83f673b03426a71b07"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/18-log-holes.png",
+    "bytes": 187099,
+    "sha256": "821616c5d02e8d836c77eda457cffc2e6ffef2d3d7d0fcd503c97e1a138791d3"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/19-odd-numbers.png",
+    "bytes": 194868,
+    "sha256": "db0bacd4017e61b43ec7b35289d37bb817a92359f819c08df78d47acc0cdfbb7"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/20-paxos-vs-raft.png",
+    "bytes": 190351,
+    "sha256": "26f102085ad887f2f62d78895434e6838bd5f17f9389475e19525b60703e30e3"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/21-where-it-runs.png",
+    "bytes": 193966,
+    "sha256": "697bf593065fbf0ccba421dafef1c9a20f75ed117b911bb1bdfb82b1d3ff93fb"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/22-timeline.png",
+    "bytes": 204577,
+    "sha256": "6c19051c2045198226010da40928b8fd41ba3ee071a754886163261711942d61"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/23-two-phases.png",
+    "bytes": 189785,
+    "sha256": "03d2e490aa858d51f3f01b5def2358c050fc9b20251850ce2c921b2523fe7fad"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/24-three-rules.png",
+    "bytes": 228799,
+    "sha256": "7f361e25329d97c43475222fcb80052c33aa9dcd23368be4aedfe6e01ac8374e"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/25-leslie-lamport.jpg",
+    "bytes": 291862,
+    "sha256": "550d9b965fd2f32d526a3c580808a8640bf4123d62e0a8248b99562bcaf1d2ad"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/assets/26-paxos-island.jpg",
+    "bytes": 87249,
+    "sha256": "054511c9e236fffa025b1b8d5424e904e2aac2aff40dbfab9929478cec1586a4"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/cover.png",
+    "bytes": 87835,
+    "sha256": "43d974bad1902b441f325260d6cbebe88752f6a3a8550e7d405690119a80a064"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/build_figures.py",
+    "bytes": 43867,
+    "sha256": "5e1abb3f08a4d572a2d6eeffbb85e83c8c4d11e05038c7e674d344dde5e562bc"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/figkit.py",
+    "bytes": 19968,
+    "sha256": "30019ae41f6d8956f85caf7277e2a5ad957a8d7611fc47e47c1bd14c6b05ee79"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/figure-metadata.json",
+    "bytes": 6573,
+    "sha256": "08c7afc83c41bc6b648cafe3e15d2df7051516f33d818f76851603f726db00d9"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/paxos.py",
+    "bytes": 8701,
+    "sha256": "e72ef094950c988d0fd25b61e24eddb4d1d83273b112c08a5ca159547b282bff"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/photos.py",
+    "bytes": 2750,
+    "sha256": "6840976db739b57439c9bc19929d7d96cbd914085527597dbdf03f76427d3746"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/results.json",
+    "bytes": 52265,
+    "sha256": "ac04f77ff08f72a30de58e80f2c80864bb45322d37024aefd77950c5c560f2bc"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/run-environment.json",
+    "bytes": 697,
+    "sha256": "a411b09580bb3422e4ec260ad928b603ef20099559d90295eae8d761b336ee0e"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/examples/run_model.py",
+    "bytes": 4552,
+    "sha256": "ed39b01cd1df325327ac0f1868b43fdfee370591398f0b577de7468a75712e2f"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/originals/lamport.jpg",
+    "bytes": 39002,
+    "sha256": "a07f86a8b435c38eafbc945e4848ed4c2139e1aeb236518ea4a5fd6f4657e82a"
+  },
+  {
+    "path": "articles/2026-10-31-paxos-quorum-consensus/originals/paxos-island.jpg",
+    "bytes": 2336629,
+    "sha256": "7a3a73efc035688286193f75198d8b74defb615d4fc48bdc673b7ab8521f7fa2"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

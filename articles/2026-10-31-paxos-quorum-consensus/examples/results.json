@@ -1,0 +1,2661 @@
+{
+  "happy": {
+    "trace": [
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 1,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A1",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 1,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 1,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A3",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 1,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 1,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A5",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 1,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 2,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A4",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 2,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A2",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 3,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 3,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 4,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A1",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 4,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 4,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A2",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 4,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 4,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A4",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 4,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A3",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 5,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A5",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 5,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 6,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 7,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 7,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      }
+    ],
+    "state": [
+      {
+        "acceptor": "A1",
+        "promised": 1,
+        "accepted_ballot": 1,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A2",
+        "promised": 1,
+        "accepted_ballot": 1,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A3",
+        "promised": 1,
+        "accepted_ballot": 1,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A4",
+        "promised": 1,
+        "accepted_ballot": 1,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A5",
+        "promised": 1,
+        "accepted_ballot": 1,
+        "accepted_value": "X"
+      }
+    ],
+    "log": [
+      "chosen: X at ballot 1"
+    ],
+    "proposers": [
+      {
+        "name": "P1",
+        "phase": "done",
+        "ballot": 1,
+        "chosen": "X",
+        "log": [
+          "chosen: X at ballot 1"
+        ]
+      }
+    ]
+  },
+  "race": {
+    "trace": [
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 2,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A2",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 2,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 2,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A4",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 2,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A1",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A3",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A5",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 4,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 6,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A1",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A3",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A4",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A5",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 7,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A2",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 8,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 8,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 11,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 13,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A1",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 13,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 13,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A3",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 13,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 13,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A4",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 13,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 14,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A2",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 15,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A5",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 15,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 15,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 15,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 16,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 16,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A1",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 16,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 16,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A2",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 16,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 16,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A3",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 16,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 17,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 17,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 17,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 18,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A4",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 18,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 18,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A5",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 18,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 18,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 19,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 19,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "X",
+        "note": null,
+        "state": null
+      }
+    ],
+    "state": [
+      {
+        "acceptor": "A1",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A2",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A3",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A4",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "X"
+      },
+      {
+        "acceptor": "A5",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "X"
+      }
+    ],
+    "proposers": [
+      {
+        "name": "P1",
+        "phase": "done",
+        "ballot": 1,
+        "chosen": "X",
+        "log": [
+          "chosen: X at ballot 1"
+        ]
+      },
+      {
+        "name": "P2",
+        "phase": "done",
+        "ballot": 2,
+        "chosen": "X",
+        "log": [
+          "phase 1b carried value X from ballot 1; adopting it instead of Y",
+          "chosen: X at ballot 2"
+        ]
+      }
+    ]
+  },
+  "naive": {
+    "trace": [
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 0,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 2,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A2",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 2,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 2,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A4",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 2,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A1",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A3",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 3,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 1,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A5",
+          "promised": 1,
+          "accepted_ballot": null,
+          "accepted_value": null
+        }
+      },
+      {
+        "t": 3,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 4,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 5,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 6,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 1,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A1",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A3",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A4",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 6,
+        "src": "P1",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A5",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 6,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 7,
+        "src": "A4",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "P1",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 1,
+        "value": "X",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A2",
+          "promised": 1,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 8,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "carried": null
+      },
+      {
+        "t": 8,
+        "src": "A1",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "A3",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 8,
+        "src": "A5",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 11,
+        "src": "A2",
+        "dst": "P1",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 1,
+        "value": "X",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 12,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "carried": null
+      },
+      {
+        "t": 13,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A1",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 13,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 13,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A3",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 13,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 13,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A4",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 13,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 14,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A2",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 15,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "prepare",
+        "ballot": 2,
+        "value": null,
+        "note": "promised",
+        "state": {
+          "acceptor": "A5",
+          "promised": 2,
+          "accepted_ballot": 1,
+          "accepted_value": "X"
+        }
+      },
+      {
+        "t": 15,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "carried": [
+          1,
+          "X"
+        ]
+      },
+      {
+        "t": 15,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 15,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 15,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "send",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 16,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 16,
+        "src": "P2",
+        "dst": "A1",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A1",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "Y"
+        }
+      },
+      {
+        "t": 16,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 16,
+        "src": "P2",
+        "dst": "A2",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A2",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "Y"
+        }
+      },
+      {
+        "t": 16,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 16,
+        "src": "P2",
+        "dst": "A3",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A3",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "Y"
+        }
+      },
+      {
+        "t": 16,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 17,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "promise",
+        "ballot": 2,
+        "value": null,
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 17,
+        "src": "A2",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 17,
+        "src": "A3",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 18,
+        "src": "P2",
+        "dst": "A4",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A4",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "Y"
+        }
+      },
+      {
+        "t": 18,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 18,
+        "src": "P2",
+        "dst": "A5",
+        "dir": "recv",
+        "kind": "accept",
+        "ballot": 2,
+        "value": "Y",
+        "note": "accepted",
+        "state": {
+          "acceptor": "A5",
+          "promised": 2,
+          "accepted_ballot": 2,
+          "accepted_value": "Y"
+        }
+      },
+      {
+        "t": 18,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "send",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "carried": null
+      },
+      {
+        "t": 18,
+        "src": "A1",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 19,
+        "src": "A4",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "note": null,
+        "state": null
+      },
+      {
+        "t": 19,
+        "src": "A5",
+        "dst": "P2",
+        "dir": "recv",
+        "kind": "accepted",
+        "ballot": 2,
+        "value": "Y",
+        "note": null,
+        "state": null
+      }
+    ],
+    "state": [
+      {
+        "acceptor": "A1",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "Y"
+      },
+      {
+        "acceptor": "A2",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "Y"
+      },
+      {
+        "acceptor": "A3",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "Y"
+      },
+      {
+        "acceptor": "A4",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "Y"
+      },
+      {
+        "acceptor": "A5",
+        "promised": 2,
+        "accepted_ballot": 2,
+        "accepted_value": "Y"
+      }
+    ],
+    "proposers": [
+      {
+        "name": "P1",
+        "phase": "done",
+        "ballot": 1,
+        "chosen": "X",
+        "log": [
+          "chosen: X at ballot 1"
+        ]
+      },
+      {
+        "name": "P2",
+        "phase": "done",
+        "ballot": 2,
+        "chosen": "Y",
+        "log": [
+          "phase 1b carried [(1, 'X'), (1, 'X'), (1, 'X')]; ignoring it",
+          "chosen: Y at ballot 2"
+        ]
+      }
+    ]
+  },
+  "contention": [
+    {
+      "k": 1,
+      "runs": 60,
+      "settled": 60,
+      "mean": 1.0,
+      "p50": 1,
+      "max": 1,
+      "values": [
+        "X"
+      ]
+    },
+    {
+      "k": 2,
+      "runs": 60,
+      "settled": 60,
+      "mean": 4.433,
+      "p50": 5,
+      "max": 5,
+      "values": [
+        "Y"
+      ]
+    },
+    {
+      "k": 3,
+      "runs": 60,
+      "settled": 60,
+      "mean": 8.433,
+      "p50": 9,
+      "max": 10,
+      "values": [
+        "Z"
+      ]
+    },
+    {
+      "k": 4,
+      "runs": 60,
+      "settled": 60,
+      "mean": 10.0,
+      "p50": 10,
+      "max": 11,
+      "values": [
+        "W"
+      ]
+    },
+    {
+      "k": 5,
+      "runs": 60,
+      "settled": 60,
+      "mean": 11.0,
+      "p50": 11,
+      "max": 12,
+      "values": [
+        "U"
+      ]
+    },
+    {
+      "k": 6,
+      "runs": 60,
+      "settled": 60,
+      "mean": 12.133,
+      "p50": 12,
+      "max": 13,
+      "values": [
+        "V"
+      ]
+    }
+  ],
+  "tolerance": [
+    {
+      "n": 1,
+      "quorum": 1,
+      "tolerated": 0
+    },
+    {
+      "n": 2,
+      "quorum": 2,
+      "tolerated": 0
+    },
+    {
+      "n": 3,
+      "quorum": 2,
+      "tolerated": 1
+    },
+    {
+      "n": 4,
+      "quorum": 3,
+      "tolerated": 1
+    },
+    {
+      "n": 5,
+      "quorum": 3,
+      "tolerated": 2
+    },
+    {
+      "n": 6,
+      "quorum": 4,
+      "tolerated": 2
+    },
+    {
+      "n": 7,
+      "quorum": 4,
+      "tolerated": 3
+    },
+    {
+      "n": 8,
+      "quorum": 5,
+      "tolerated": 3
+    },
+    {
+      "n": 9,
+      "quorum": 5,
+      "tolerated": 4
+    }
+  ]
+}

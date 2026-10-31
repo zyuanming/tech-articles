@@ -1,0 +1,201 @@
+[
+  {
+    "path": "assets/01-one-glyph.png",
+    "width": 1062,
+    "height": 785,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "一个 11 像素的 O 放大 26 倍",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-outline-vs-pixels.png",
+    "width": 1062,
+    "height": 921,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "轮廓与像素两种表示",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-quadratic.png",
+    "width": 1062,
+    "height": 835,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "二次贝塞尔曲线的三点结构",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-flatten.png",
+    "width": 1062,
+    "height": 914,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "折线近似曲线的误差表",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-scanline.png",
+    "width": 1062,
+    "height": 906,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "扫描线求交与填充",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-winding.png",
+    "width": 1062,
+    "height": 882,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "内外轮廓的方向与非零环绕规则",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-coverage.png",
+    "width": 1062,
+    "height": 1324,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "单个像素的覆盖率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-supersampling.png",
+    "width": 1062,
+    "height": 909,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三种采样密度的实际渲染",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-error.png",
+    "width": 1062,
+    "height": 1048,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "最大覆盖率误差随采样数变化",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-diagonal.png",
+    "width": 1062,
+    "height": 845,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "斜边的灰阶数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-stem-sizes.png",
+    "width": 1062,
+    "height": 991,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "同一根竖笔在不同像素尺寸下的渲染",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-hinting.png",
+    "width": 1062,
+    "height": 1071,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "hinting 前后对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-hint-tradeoff.png",
+    "width": 1062,
+    "height": 793,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "hinting 在不同字号下的粗细变化",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-gamma.png",
+    "width": 1062,
+    "height": 1143,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "覆盖率与显示亮度的非线性关系",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-subpixel.png",
+    "width": 1062,
+    "height": 923,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "次像素渲染的物理基础",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-subpixel-end.png",
+    "width": 1062,
+    "height": 911,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "次像素渲染的退场",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-sdf.png",
+    "width": 1062,
+    "height": 1406,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "距离场的存储与重建",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-two-routes.png",
+    "width": 1062,
+    "height": 834,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "两条渲染路线的对照",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-pipeline.png",
+    "width": 1062,
+    "height": 1348,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "字体到屏幕的处理链",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/20-timeline.png",
+    "width": 1062,
+    "height": 1116,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "字体光栅化的五十年",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/21-three-lines.png",
+    "width": 1062,
+    "height": 791,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三句话总结",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/22-knuth-and-next.jpg",
+    "width": 1062,
+    "height": 630,
+    "min_label_px": 34,
+    "effective_min_at_354px": 11.33,
+    "purpose": "Donald Knuth 与 NeXTstation",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, CC BY-SA 2.5 / CC BY-SA 3.0"
+  }
+]

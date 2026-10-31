@@ -3038,5 +3038,35 @@
     "images": 22,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-10-31-diffie-hellman-key-exchange",
+    "title": "两个人，一条公开的线：Diffie–Hellman 怎样隔空造出一把钥匙",
+    "date": "2026-10-31",
+    "path": "articles/2026-10-31-diffie-hellman-key-exchange/read.md",
+    "public_sha256": "4a168a52c4c4d90962035eab498fc95b721dd1633989d7083d8912b6a506051f",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-31-font-rasterization-pixels",
+    "title": "一个像素能装下多少笔画：字体是怎样被画到屏幕上的",
+    "date": "2026-10-31",
+    "path": "articles/2026-10-31-font-rasterization-pixels/read.md",
+    "public_sha256": "f3701b336e525c381f6838b2744488e03515da84bb7e2da607c874aff3a4214b",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-10-31-paxos-quorum-consensus",
+    "title": "一座小岛上的议会：三台机器怎样对同一个值达成一致",
+    "date": "2026-10-31",
+    "path": "articles/2026-10-31-paxos-quorum-consensus/read.md",
+    "public_sha256": "04852c4cdefd4a2c58d3034da5efecd5b2b363801e2e147f6034d8ca24451c00",
+    "images": 26,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

@@ -1,0 +1,422 @@
+{
+  "table": [
+    {
+      "k": 0,
+      "value": 1
+    },
+    {
+      "k": 1,
+      "value": 5
+    },
+    {
+      "k": 2,
+      "value": 2
+    },
+    {
+      "k": 3,
+      "value": 10
+    },
+    {
+      "k": 4,
+      "value": 4
+    },
+    {
+      "k": 5,
+      "value": 20
+    },
+    {
+      "k": 6,
+      "value": 8
+    },
+    {
+      "k": 7,
+      "value": 17
+    },
+    {
+      "k": 8,
+      "value": 16
+    },
+    {
+      "k": 9,
+      "value": 11
+    },
+    {
+      "k": 10,
+      "value": 9
+    },
+    {
+      "k": 11,
+      "value": 22
+    },
+    {
+      "k": 12,
+      "value": 18
+    },
+    {
+      "k": 13,
+      "value": 21
+    },
+    {
+      "k": 14,
+      "value": 13
+    },
+    {
+      "k": 15,
+      "value": 19
+    },
+    {
+      "k": 16,
+      "value": 3
+    },
+    {
+      "k": 17,
+      "value": 15
+    },
+    {
+      "k": 18,
+      "value": 6
+    },
+    {
+      "k": 19,
+      "value": 7
+    },
+    {
+      "k": 20,
+      "value": 12
+    },
+    {
+      "k": 21,
+      "value": 14
+    }
+  ],
+  "demo": {
+    "p": 23,
+    "g": 5,
+    "a": 6,
+    "b": 15,
+    "A": 8,
+    "B": 19,
+    "s_alice": 2,
+    "s_bob": 2
+  },
+  "brute": [
+    {
+      "a": 2,
+      "A": 2,
+      "found": 2,
+      "steps": 2
+    },
+    {
+      "a": 3,
+      "A": 10,
+      "found": 3,
+      "steps": 3
+    },
+    {
+      "a": 4,
+      "A": 4,
+      "found": 4,
+      "steps": 4
+    },
+    {
+      "a": 5,
+      "A": 20,
+      "found": 5,
+      "steps": 5
+    },
+    {
+      "a": 6,
+      "A": 8,
+      "found": 6,
+      "steps": 6
+    },
+    {
+      "a": 7,
+      "A": 17,
+      "found": 7,
+      "steps": 7
+    }
+  ],
+  "mitm": {
+    "alice": {
+      "p": 23,
+      "g": 5,
+      "a": 6,
+      "b": 9,
+      "A": 8,
+      "B": 11,
+      "s_alice": 9,
+      "s_bob": 9
+    },
+    "bob": {
+      "p": 23,
+      "g": 5,
+      "a": 13,
+      "b": 15,
+      "A": 21,
+      "B": 19,
+      "s_alice": 7,
+      "s_bob": 7
+    },
+    "alice_to_mallory": 8,
+    "mallory_to_bob": 21
+  },
+  "cost": [
+    {
+      "bits": 16,
+      "p": 60611,
+      "p_digits": 5,
+      "a": 23694,
+      "brute_steps": 1654,
+      "brute_seconds": 8.7e-05,
+      "bsgs_steps": 254,
+      "bsgs_seconds": 2.8e-05,
+      "pow_seconds": 1.04e-06,
+      "bsgs_ok": true,
+      "brute_ok": true,
+      "sqrt_p": 246
+    },
+    {
+      "bits": 20,
+      "p": 679999,
+      "p_digits": 6,
+      "a": 158552,
+      "brute_steps": 158552,
+      "brute_seconds": 0.008386,
+      "bsgs_steps": 1018,
+      "bsgs_seconds": 0.000122,
+      "pow_seconds": 9.6e-07,
+      "bsgs_ok": true,
+      "brute_ok": true,
+      "sqrt_p": 824
+    },
+    {
+      "bits": 24,
+      "p": 8594603,
+      "p_digits": 7,
+      "a": 6423338,
+      "brute_steps": 6423338,
+      "brute_seconds": 0.320052,
+      "bsgs_steps": 5123,
+      "bsgs_seconds": 0.000525,
+      "pow_seconds": 8.7e-07,
+      "bsgs_ok": true,
+      "brute_ok": true,
+      "sqrt_p": 2931
+    },
+    {
+      "bits": 28,
+      "p": 232208783,
+      "p_digits": 9,
+      "a": 30321710,
+      "brute_steps": 30321710,
+      "brute_seconds": 1.512591,
+      "bsgs_steps": 17229,
+      "bsgs_seconds": 0.001881,
+      "pow_seconds": 1.12e-06,
+      "bsgs_ok": true,
+      "brute_ok": true,
+      "sqrt_p": 15238
+    }
+  ],
+  "real": {
+    "p_digits": 617,
+    "p_bits": 2048,
+    "g": 2,
+    "a_digits": 617,
+    "b_digits": 617,
+    "A_hex_digits": 512,
+    "shared_equal": true,
+    "shared_hex": "c9b7b347750cb0b99dada2fd84ce24dd…",
+    "p_hex_head": "FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74020BBEA63B139B22514A08798E3404DD",
+    "p_hex_tail": "15D2261898FA051015728E5A8AACAA68FFFFFFFFFFFFFFFF",
+    "p_hex_len": 512
+  },
+  "estimate": [
+    {
+      "bits": 16,
+      "steps_exponent": 8.0,
+      "log10_steps": 2.4,
+      "steps": "10^2.4",
+      "log10_years": -14.1,
+      "years": "10^-14.1"
+    },
+    {
+      "bits": 32,
+      "steps_exponent": 16.0,
+      "log10_steps": 4.8,
+      "steps": "10^4.8",
+      "log10_years": -11.7,
+      "years": "10^-11.7"
+    },
+    {
+      "bits": 64,
+      "steps_exponent": 32.0,
+      "log10_steps": 9.6,
+      "steps": "10^9.6",
+      "log10_years": -6.9,
+      "years": "10^-6.9"
+    },
+    {
+      "bits": 128,
+      "steps_exponent": 64.0,
+      "log10_steps": 19.3,
+      "steps": "10^19.3",
+      "log10_years": 2.8,
+      "years": "10^2.8"
+    },
+    {
+      "bits": 1024,
+      "steps_exponent": 512.0,
+      "log10_steps": 154.1,
+      "steps": "10^154.1",
+      "log10_years": 137.6,
+      "years": "10^137.6"
+    },
+    {
+      "bits": 2048,
+      "steps_exponent": 1024.0,
+      "log10_steps": 308.3,
+      "steps": "10^308.3",
+      "log10_years": 291.8,
+      "years": "10^291.8"
+    }
+  ],
+  "commute": [
+    {
+      "p": 23,
+      "g": 5,
+      "a": 6,
+      "b": 15,
+      "left": 2,
+      "right": 2,
+      "equal": true
+    },
+    {
+      "p": 23,
+      "g": 5,
+      "a": 2,
+      "b": 3,
+      "left": 8,
+      "right": 8,
+      "equal": true
+    },
+    {
+      "p": 101,
+      "g": 2,
+      "a": 7,
+      "b": 11,
+      "left": 61,
+      "right": 61,
+      "equal": true
+    },
+    {
+      "p": 10007,
+      "g": 5,
+      "a": 1234,
+      "b": 4321,
+      "left": 657,
+      "right": 657,
+      "equal": true
+    }
+  ],
+  "ecdh": {
+    "p": 17,
+    "a": 0,
+    "b": 7,
+    "points": [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        15,
+        4
+      ],
+      [
+        15,
+        13
+      ]
+    ],
+    "g": [
+      6,
+      6
+    ],
+    "ka": 5,
+    "kb": 7,
+    "A": [
+      10,
+      15
+    ],
+    "B": [
+      15,
+      4
+    ],
+    "s1": [
+      6,
+      11
+    ],
+    "s2": [
+      6,
+      11
+    ],
+    "equal": true,
+    "order": 18
+  }
+}
