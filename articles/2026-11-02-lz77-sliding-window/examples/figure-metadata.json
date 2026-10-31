@@ -1,0 +1,175 @@
+[
+  {
+    "path": "assets/01-pointer.png",
+    "width": 1062,
+    "height": 1039,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "LZ77 的基本动作：用指针代替重复",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-lempel.jpg",
+    "width": 1062,
+    "height": 756,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "Abraham Lempel 肖像",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, CC BY 3.0"
+  },
+  {
+    "path": "assets/03-ziv.jpg",
+    "width": 1062,
+    "height": 756,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "Jacob Ziv 肖像",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, 公有领域"
+  },
+  {
+    "path": "assets/04-sliding-window.png",
+    "width": 1062,
+    "height": 1046,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "滑动窗口与前瞻缓冲",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-token.png",
+    "width": 1062,
+    "height": 1383,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "LZ77 的两种 token 与位宽",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-decode-walk.png",
+    "width": 1062,
+    "height": 1197,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "逐 token 的解码过程",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-match-finding.png",
+    "width": 1062,
+    "height": 1230,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "前缀表与前缀链",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-window-curve.png",
+    "width": 1062,
+    "height": 1160,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "窗口大小与压缩率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-window-table.png",
+    "width": 1062,
+    "height": 1205,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "窗口翻倍带来的收益递减",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-corpora.png",
+    "width": 1062,
+    "height": 1200,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "三种语料下的压缩率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-match-lengths.png",
+    "width": 1062,
+    "height": 1126,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "匹配长度分布",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-coverage.png",
+    "width": 1062,
+    "height": 959,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "匹配覆盖的字节比例",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-distances.png",
+    "width": 1062,
+    "height": 1123,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "匹配距离分布",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-greedy-vs-lazy.png",
+    "width": 1062,
+    "height": 830,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "贪心匹配与懒匹配",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-runs.png",
+    "width": 1062,
+    "height": 998,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "全同字节的极端情况",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-incompressible.png",
+    "width": 1062,
+    "height": 1080,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "无重复数据的膨胀",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-deflate.png",
+    "width": 1062,
+    "height": 987,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "deflate 的两级结构",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-timeline.png",
+    "width": 1062,
+    "height": 1023,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "LZ 家族的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-three-lines.png",
+    "width": 1062,
+    "height": 738,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "三句话总结",
+    "identity": "原创教学示意"
+  }
+]

@@ -1,0 +1,349 @@
+{
+ "corpus_size": 102832,
+ "window_curve": [
+  {
+   "window": 64,
+   "tokens": 85973,
+   "bits": 815029,
+   "ratio": 1.0552,
+   "matches": 5896
+  },
+  {
+   "window": 256,
+   "tokens": 61932,
+   "bits": 672678,
+   "ratio": 0.9267,
+   "matches": 12810
+  },
+  {
+   "window": 1024,
+   "tokens": 41104,
+   "bits": 561358,
+   "ratio": 0.7881,
+   "matches": 17402
+  },
+  {
+   "window": 4096,
+   "tokens": 28019,
+   "bits": 488719,
+   "ratio": 0.6604,
+   "matches": 18196
+  },
+  {
+   "window": 16384,
+   "tokens": 20742,
+   "bits": 439668,
+   "ratio": 0.555,
+   "matches": 16866
+  },
+  {
+   "window": 32768,
+   "tokens": 18876,
+   "bits": 426716,
+   "ratio": 0.5187,
+   "matches": 16052
+  },
+  {
+   "window": 65536,
+   "tokens": 18014,
+   "bits": 426204,
+   "ratio": 0.4992,
+   "matches": 15534
+  },
+  {
+   "window": 262144,
+   "tokens": 17883,
+   "bits": 454383,
+   "ratio": 0.496,
+   "matches": 15444
+  }
+ ],
+ "corpora": [
+  {
+   "name": "Alice (英文散文)",
+   "size": 102832,
+   "entropy": 4.635,
+   "tokens": 18876,
+   "lz77": 0.5187,
+   "deflate": 0.3606,
+   "size_deflate": 37077
+  },
+  {
+   "name": "访问日志 (合成)",
+   "size": 24000,
+   "entropy": 4.74,
+   "tokens": 1585,
+   "lz77": 0.1629,
+   "deflate": 0.0969,
+   "size_deflate": 2326
+  },
+  {
+   "name": "随机字节 (合成)",
+   "size": 24000,
+   "entropy": 7.991,
+   "tokens": 23936,
+   "lz77": 1.1247,
+   "deflate": 1.0007,
+   "size_deflate": 24016
+  }
+ ],
+ "stats": {
+  "tokens": 18876,
+  "matches": 16052,
+  "literals": 2824,
+  "covered": 100008,
+  "total": 102832,
+  "coverage": 0.9725,
+  "mean_length": 6.23,
+  "median_length": 5,
+  "mean_distance": 7510.4,
+  "hist": [
+   [
+    "3",
+    2825
+   ],
+   [
+    "4-5",
+    5573
+   ],
+   [
+    "6-7",
+    3697
+   ],
+   [
+    "8-15",
+    3601
+   ],
+   [
+    "16-31",
+    337
+   ],
+   [
+    "32-63",
+    18
+   ],
+   [
+    "128-257",
+    1
+   ]
+  ],
+  "distances": [
+   [
+    1,
+    5
+   ],
+   [
+    4,
+    75
+   ],
+   [
+    16,
+    429
+   ],
+   [
+    64,
+    1230
+   ],
+   [
+    256,
+    2320
+   ],
+   [
+    1024,
+    3982
+   ],
+   [
+    4096,
+    5395
+   ],
+   [
+    16384,
+    2616
+   ],
+   [
+    65536,
+    0
+   ]
+  ]
+ },
+ "lazy": {
+  "greedy_ratio": 0.5187,
+  "lazy_ratio": 0.4926,
+  "greedy_tokens": 18876,
+  "lazy_tokens": 19938,
+  "same": true
+ },
+ "runs": {
+  "input": 400,
+  "tokens": 3,
+  "kinds": [
+   "lit",
+   "match",
+   "match"
+  ],
+  "lengths": [
+   258,
+   141
+  ],
+  "ratio": 0.0184
+ },
+ "repeat": {
+  "input": 228,
+  "tokens": 70,
+  "matches": [
+   [
+    29,
+    4
+   ],
+   [
+    15,
+    3
+   ],
+   [
+    7,
+    3
+   ],
+   [
+    76,
+    152
+   ]
+  ],
+  "literals": 66,
+  "ratio": 0.3805
+ },
+ "walk": [
+  {
+   "kind": "lit",
+   "text": "t",
+   "pos": 0,
+   "now": "t"
+  },
+  {
+   "kind": "lit",
+   "text": "h",
+   "pos": 1,
+   "now": "th"
+  },
+  {
+   "kind": "lit",
+   "text": "e",
+   "pos": 2,
+   "now": "the"
+  },
+  {
+   "kind": "lit",
+   "text": " ",
+   "pos": 3,
+   "now": "the "
+  },
+  {
+   "kind": "lit",
+   "text": "c",
+   "pos": 4,
+   "now": "the c"
+  },
+  {
+   "kind": "lit",
+   "text": "a",
+   "pos": 5,
+   "now": "the ca"
+  },
+  {
+   "kind": "lit",
+   "text": "t",
+   "pos": 6,
+   "now": "the cat"
+  },
+  {
+   "kind": "lit",
+   "text": " ",
+   "pos": 7,
+   "now": "the cat "
+  },
+  {
+   "kind": "lit",
+   "text": "s",
+   "pos": 8,
+   "now": "the cat s"
+  },
+  {
+   "kind": "match",
+   "dist": 4,
+   "length": 3,
+   "piece": "at ",
+   "now": "the cat sat "
+  },
+  {
+   "kind": "lit",
+   "text": "o",
+   "pos": 12,
+   "now": "the cat sat o"
+  },
+  {
+   "kind": "lit",
+   "text": "n",
+   "pos": 13,
+   "now": "the cat sat on"
+  },
+  {
+   "kind": "lit",
+   "text": " ",
+   "pos": 14,
+   "now": "the cat sat on "
+  },
+  {
+   "kind": "match",
+   "dist": 15,
+   "length": 4,
+   "piece": "the ",
+   "now": "the cat sat on the "
+  },
+  {
+   "kind": "lit",
+   "text": "m",
+   "pos": 19,
+   "now": "the cat sat on the m"
+  },
+  {
+   "kind": "lit",
+   "text": "a",
+   "pos": 20,
+   "now": "the cat sat on the ma"
+  },
+  {
+   "kind": "lit",
+   "text": "t",
+   "pos": 21,
+   "now": "the cat sat on the mat"
+  },
+  {
+   "kind": "lit",
+   "text": ",",
+   "pos": 22,
+   "now": "the cat sat on the mat,"
+  },
+  {
+   "kind": "match",
+   "dist": 9,
+   "length": 5,
+   "piece": " the ",
+   "now": "the cat sat on the mat, the "
+  },
+  {
+   "kind": "match",
+   "dist": 24,
+   "length": 7,
+   "piece": "cat sat",
+   "now": "the cat sat on the mat, the cat sat"
+  }
+ ],
+ "worst": {
+  "name": "随机 24000 字节",
+  "size": 24000,
+  "entropy": 7.991,
+  "tokens": 23936,
+  "lz77": 1.1247,
+  "deflate": 1.0007,
+  "size_deflate": 24016
+ }
+}
