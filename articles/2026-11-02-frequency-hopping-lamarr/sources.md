@@ -5,9 +5,16 @@
 - **US 2,292,387 B1**, *Secret Communication System*, Hedy Kiesler Markey and
   George Antheil. 申请日 1941-06-10（Serial No. 397,412），授权日 1942-08-11，
   6 项权利要求，分类号 250-2。
-  本文引用的三处原文（用途、88 行孔与 88 个载波频率、两种同步手段）都来自
-  这份文件，扫描件见 `originals/patent-front.jpg` 与 `originals/patent-sheet1.jpg`，
-  正文图片见 `assets/05-patent-front.jpg`、`assets/06-patent-sheet1.jpg`。
+  本文引用的五处原文都来自这份文件，逐字核对过扫描件的 OCR：
+  1. 用途（`This invention relates broadly …`）——说明书第 1 页；
+  2. 88 行孔与 88 个载波频率（`In a conventional player piano record …`）——同上；
+  3. 两种同步手段（`The two records may be synchronized …`）——同上；
+  4. 收发两端电容数不等与假指令（`It will be noted that whereas there are seven
+     tuning condensers 24 … to confuse the enemy`）——说明书第 3 页；
+  5. 同步脉冲在电报/电视里已成熟（`The use of synchronizing impulses …`）——第 1 页。
+  另外"起始孔 + 电磁铁 + 发射瞬间断线同时释放"的机构在第 3 页（附图 3 与 6）。
+  扫描件见 `originals/patent-front.jpg`（第 1 页）与 `originals/patent-sheet1.jpg`
+  （附图页），正文图片见 `assets/05-patent-front.jpg`、`assets/06-patent-sheet1.jpg`。
 - 专利附图第 1 张（发射端与接收端框图）与首页同属美国专利商标局的公开档案，
   在美国属公有领域。
 
@@ -25,6 +32,12 @@
 ## 事实核对说明
 
 - 专利授权日、申请日、权利要求数、发明人地址均以首页扫描件的 OCR 文本为准。
+- **这套机构实际是 7 路，不是 88 路。** 附图与说明书都写明：发端七个调谐电容
+  24a–24g，收端只有四个 24′d–24′g，A/B/C 三路专用于发假指令。专利里"88 个
+  载波频率"是从"钢琴卷纸有 88 行孔"推出的上限，不是画出来的实施方式。正文
+  把两者分开讲，模型的 88 个频点是参数化研究，不冒充这套机器的规格。
+- 处理增益的三个值（4 路 6.02 dB / 7 路 8.45 dB / 88 路 19.44 dB）由
+  `examples/fh.py::channel_counts()` 算出，写在 `results.json` 里。
 - 本文明确写出：专利有效期内（1942–1959）该系统没有实战使用；Lamarr 未从中
   获得报酬；"Wi-Fi 用了她的专利"是错误说法。这三条与流行的通稿相反，按档案写。
 - "从军火商丈夫的晚宴上听来机密"标注为传闻，没有档案支持。

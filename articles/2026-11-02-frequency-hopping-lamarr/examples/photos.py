@@ -25,18 +25,18 @@ def picture(name, src, height, title, lines, purpose, source, identity='真实�
     im = Image.open(ORIGINALS / src).convert('RGB')
     width = min(W, int(im.width * height / im.height))
     im = im.resize((width, height), Image.LANCZOS)
-    canvas = Image.new('RGB', (W, height + 24 + 50 * len(lines)), BG)
+    canvas = Image.new('RGB', (W, height + 28 + 54 * len(lines)), BG)
     canvas.paste(im, ((W - width) // 2, 0))
     d = ImageDraw.Draw(canvas)
-    d.text((24, height + 10), title, fill=INK, font=font(38))
+    d.text((24, height + 8), title, fill=INK, font=font(42))
     for i, text in enumerate(lines):
-        d.text((24, height + 62 + i * 50), text, fill=GRAY, font=font(32))
+        d.text((24, height + 66 + i * 54), text, fill=GRAY, font=font(36))
     path = ASSETS / name
     canvas.save(path, quality=92)
     assert path.stat().st_size <= 5_000_000, path
     META.append(dict(path='assets/' + name, width=canvas.width,
-                     height=canvas.height, min_label_px=32,
-                     effective_min_at_354px=round(32 * 354 / W, 2),
+                     height=canvas.height, min_label_px=36,
+                     effective_min_at_354px=round(36 * 354 / W, 2),
                      purpose=purpose, identity=identity, source=source))
     print('  ', name, canvas.size, path.stat().st_size)
 

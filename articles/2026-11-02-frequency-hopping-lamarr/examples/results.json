@@ -3,7 +3,6 @@
   "hops": 4000,
   "hop_rate": 1000.0,
   "jsr_limit": 10.0,
-  "jsr_total": 3.0,
   "sequence": {
     "hops": 4000,
     "used": 88,
@@ -896,43 +895,43 @@
     {
       "rate": 10,
       "hop_ms": 100.0,
-      "hops_in_reaction": 0.01,
+      "hops_in_reaction": 0.02,
       "caught": true
     },
     {
       "rate": 50,
       "hop_ms": 20.0,
-      "hops_in_reaction": 0.05,
+      "hops_in_reaction": 0.1,
       "caught": true
     },
     {
       "rate": 240,
       "hop_ms": 4.17,
-      "hops_in_reaction": 0.24,
+      "hops_in_reaction": 0.48,
       "caught": true
     },
     {
       "rate": 500,
       "hop_ms": 2.0,
-      "hops_in_reaction": 0.5,
+      "hops_in_reaction": 1.0,
       "caught": false
     },
     {
       "rate": 1000,
       "hop_ms": 1.0,
-      "hops_in_reaction": 1.0,
+      "hops_in_reaction": 2.0,
       "caught": false
     },
     {
       "rate": 2000,
       "hop_ms": 0.5,
-      "hops_in_reaction": 2.0,
+      "hops_in_reaction": 4.0,
       "caught": false
     },
     {
       "rate": 5000,
       "hop_ms": 0.2,
-      "hops_in_reaction": 5.0,
+      "hops_in_reaction": 10.0,
       "caught": false
     }
   ],
@@ -995,12 +994,64 @@
   ],
   "strip": [
     {
-      "row": "A–G",
-      "role": "七个调谐电容，决定这一跳的频率"
+      "row": "A",
+      "role": "发端电容 24a",
+      "rx": "收端没有"
+    },
+    {
+      "row": "B",
+      "role": "发端电容 24b",
+      "rx": "收端没有"
+    },
+    {
+      "row": "C",
+      "role": "发端电容 24c",
+      "rx": "收端没有"
+    },
+    {
+      "row": "D",
+      "role": "发端电容 24d",
+      "rx": "收端 24′d"
+    },
+    {
+      "row": "E",
+      "role": "发端电容 24e",
+      "rx": "收端 24′e"
+    },
+    {
+      "row": "F",
+      "role": "发端电容 24f",
+      "rx": "收端 24′f"
+    },
+    {
+      "row": "G",
+      "role": "发端电容 24g",
+      "rx": "收端 24′g"
     },
     {
       "row": "H",
-      "role": "同步脉冲，两边对齐用"
+      "role": "指示灯开关 42",
+      "rx": "指示灯 43"
+    }
+  ],
+  "channel_counts": [
+    {
+      "channels": 4,
+      "gain_db": 6.02,
+      "needed": 40.0,
+      "why": "收端能收到的频点数"
+    },
+    {
+      "channels": 7,
+      "gain_db": 8.45,
+      "needed": 70.0,
+      "why": "发端能发出的频点数"
+    },
+    {
+      "channels": 88,
+      "gain_db": 19.44,
+      "needed": 880.0,
+      "why": "专利从钢琴卷纸推到上限"
     }
   ]
 }

@@ -28961,33 +28961,33 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/02-hedy.jpg",
-    "bytes": 119025,
-    "sha256": "9d02f50f4f1f26125bd429ade7ad7c84347839cf93af5e8111dce60876c20622"
+    "bytes": 124122,
+    "sha256": "f26360abbc5d24958b4d236b5f6bda4b3493d27e4ef7896841119b853d5cc7fa"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/03-antheil.jpg",
-    "bytes": 104078,
-    "sha256": "f31202d6ff0ed3528415bb5d0171804d72df62f757310e060faffba001f938e7"
+    "bytes": 109543,
+    "sha256": "2c94da89fc37d72abba718ab1c236310f38b8bb207ddd877b2e9c2fd013cc424"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/04-piano-roll.jpg",
-    "bytes": 193522,
-    "sha256": "4e83e4778a3c521db2f41324f117abc986ec40b85e44dda3d1ac42bfd4068d2c"
+    "bytes": 199534,
+    "sha256": "d0e944e8088e8a3bfda38097076a2eed689caad523a18dd712e75d9c40f46f4f"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/05-patent-front.jpg",
-    "bytes": 432839,
-    "sha256": "dc4c88f3e9b3e0ae4f8e91f355d34a13662d3ee3d8491d5cf8654c3a415fb5f8"
+    "bytes": 439276,
+    "sha256": "f15be2c9e80ffaa494d60a0a2f91d72698c71726dad5130fc6081a513b73d98b"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/06-patent-sheet1.jpg",
-    "bytes": 246867,
-    "sha256": "1199dd28d42f65400002e713b3ff9ae3fd9bad0f2fa70d2a47013180fb6a22ef"
+    "bytes": 251065,
+    "sha256": "9c081f45a9af48f28052244264f7b16cc2f4e3cf39251c462d6ed88e7f536b86"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/07-strip.png",
-    "bytes": 160809,
-    "sha256": "4b10ce24e198f1127e90ebbd97f2acca7a1b2640b7a44dba1200134fb27a8ae5"
+    "bytes": 251307,
+    "sha256": "c32ff6e6d15237b30690e511072e55d130b4e9019a404cd3c3dd0b3f70606645"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/08-keys.png",
@@ -29026,8 +29026,8 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/15-rates.png",
-    "bytes": 150157,
-    "sha256": "2cb14fe57670df22ac064d12b48df4017aa40a82bf137da443de57f0699e1893"
+    "bytes": 154120,
+    "sha256": "ee194b4c9484e267ca26bd5aa9a29ee6a789e73f874cef5d6dd52601629d675f"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/16-sync.png",
@@ -29056,13 +29056,13 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/build_figures.py",
-    "bytes": 21026,
-    "sha256": "ae217305ead93f3f677ea372939c46046e40b2d1bb52a124c2d7d6d6ce655089"
+    "bytes": 21207,
+    "sha256": "b55a69e0d97beb4cd43eb61ad63c1728110be42a3e1c2487322d01530738917b"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/fh.py",
-    "bytes": 10256,
-    "sha256": "10efd1ce2b58aa98f1dcdef2e66366eeddfe060189f338ccc1647b2a3942bd91"
+    "bytes": 11783,
+    "sha256": "25cc453eafba94a15bd4857e4173a535844cdb7c7c4b468fa541f91156d0c8f8"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/figkit.py",
@@ -29071,18 +29071,18 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/figure-metadata.json",
-    "bytes": 4707,
-    "sha256": "e5b5f77d9fdc7c7336374fb2957d1f82bbbccbf2220261743557628ad6fdbdd7"
+    "bytes": 4732,
+    "sha256": "cbb27a8be9227a542154ea05aa011a1eb5409c5781ed4388665564e271bc7e22"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/photos.py",
-    "bytes": 3667,
-    "sha256": "900cd11aff6731b2b97b5eee85c11108d39e6584e06f33cd077f5d5987b708af"
+    "bytes": 3666,
+    "sha256": "4e9a81c98bc26d558263cf3c195730a906074e048906afcb0b02a56316cdb10a"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/results.json",
-    "bytes": 10981,
-    "sha256": "627b91a43bdaa0944ae6c1da33310936df8639f120746207b07cd168673d88ae"
+    "bytes": 11929,
+    "sha256": "cbadf4e8e830ca710a725f576bc2b04de7f03e09c48d59e70b5ca99ee53e7389"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/run-environment.json",

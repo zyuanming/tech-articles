@@ -196,16 +196,10 @@ def fig07():
 def fig08():
     fig, y = new(7, '一份卷纸决定下一跳', '纸上的孔位闭合一排开关，开关切换电容，'
                  '电容决定这一瞬间发射机停在哪。')
-    # strip
-    x0, w = 120, 660
+    rows = R['strip']
+    x0, w = 120, 780
     ytop = y
-    rows = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
-    per = 44
-    for i, r in enumerate(rows):
-        yy = ytop + i * per
-        fig.rect(x0, yy, x0 + w, yy + per - 4, fill=WHITE, outline=GRAY, width=2)
-        fig.text((x0 - 24, yy + 4), r, 40, color=INK if r != 'H' else AMBER,
-                 anchor='ra')
+    per = 46
     holes = {
         'A': [2, 3, 7, 8, 9, 13], 'B': [1, 5, 6, 10, 12],
         'C': [3, 4, 8, 11, 13], 'D': [2, 6, 7, 9, 12],
@@ -214,23 +208,29 @@ def fig08():
     }
     step = w / 15
     for i, r in enumerate(rows):
-        yy = ytop + i * per
-        for k in holes[r]:
-            fig.circle(x0 + k * step, yy + per / 2 - 2, 12,
-                       fill=AMBER if r == 'H' else INK,
-                       outline=AMBER if r == 'H' else INK)
-    # labels on the right
-    xr = x0 + w + 40
-    fig.text((xr, ytop), 'A–G', 40, bold=True, color=INK)
-    fig.text((xr, ytop + 46), '七个调谐电容', 38, color=INK_SOFT)
-    fig.text((xr, ytop + 4 * per + 10), 'H', 40, bold=True, color=AMBER)
-    fig.text((xr, ytop + 4 * per + 56), '同步脉冲', 38, color=INK_SOFT)
-    y = ytop + 8 * per + 40
-    y = note(fig, y, '卷纸由恒速电机拖动，发端和收端各一份。两边同速、同起点，'
-                     '就会在同一时刻读到同一行孔——这就是同步。')
-    y = note(fig, y, '对照品：1941 年的专利说，可以「定期从发射端发同步脉冲」'
-                     '把收端的相位拉回来。这句话是整份专利里最现代的一句。')
-    save(fig, '07-strip.png', '专利里的记录纸带与八行孔')
+        y0 = ytop + i * per
+        fig.rect(x0, y0, x0 + w, y0 + per - 6, fill=WHITE, outline=GRAY, width=2)
+        fig.text((x0 - 24, y0 + 4), r['row'], 40,
+                 color=AMBER if r['row'] == 'H' else INK, anchor='ra')
+        for k in holes[r['row']]:
+            fig.circle(x0 + k * step, y0 + per / 2 - 3, 12,
+                       fill=AMBER if r['row'] == 'H' else INK,
+                       outline=AMBER if r['row'] == 'H' else INK)
+    y = ytop + len(rows) * per + 34
+    # what each row actually drives, at each end
+    table_rows = [[('行', INK, True), ('发端', INK, True), ('收端', INK, True)]]
+    for r in rows:
+        missing = r['rx'].startswith('收端没有')
+        table_rows.append([(r['row'], INK, True), (r['role'], INK, False),
+                           (r['rx'] if not missing else '— 没有这一路', 
+                            RED if missing else TEAL, False)])
+    y = table(fig, y, [(60, 'la'), (280, 'la'), (660, 'la')], table_rows,
+              size=38, row_h=58)
+    y = note(fig, y, '发端 7 路，收端只有 4 路。A、B、C 发得出去，鱼雷听不到——'
+                     '专利原文说，这三路专门用来「发假指令迷惑敌人」。')
+    y = note(fig, y, '卷纸由恒速电机拖动，两端各一份。同速、同起点，就会在同一时刻'
+                     '读到同一行孔——这就是同步的全部秘密。')
+    save(fig, '07-strip.png', '专利里的记录纸带、八行孔与收发两端的电容分配')
 
 
 def fig09():
@@ -336,8 +336,8 @@ def fig14():
 
 
 def fig15():
-    fig, y = new(15, '多少次才算快', '一个 2 ms 的反应时间，在每秒 10 跳时是 0.02 跳，'
-                 '在每秒 5000 跳时是 10 跳。')
+    fig, y = new(15, '多少次才算快', '同样 2 ms 的反应时间，在每秒 10 跳时只占一跳的 2%，'
+                 '在每秒 5000 跳时已经是十跳。')
     rows = [[('跳速（跳/秒）', INK, True), ('一跳多长', INK, True),
              ('2 ms 内的跳数', INK, True)]]
     for r in R['rates']:

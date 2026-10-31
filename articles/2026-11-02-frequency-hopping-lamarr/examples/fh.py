@@ -193,12 +193,15 @@ def reaction_curve(delays=(0.00005, 0.0001, 0.0002, 0.0003, 0.0005, 0.0008,
 
 
 def hop_rate_table(rates=(10, 50, 240, 500, 1000, 2000, 5000),
-                   reaction: float = 0.001) -> list:
+                   reaction: float = 0.002) -> list:
+    """How many hops a 2 ms reaction time spans, at each hop rate. The
+    ratio d/T is what the reaction curve above is plotted against."""
     rows = []
     for r in rates:
+        share = reaction * r
         rows.append(dict(rate=r, hop_ms=round(1000 / r, 2),
-                         hops_in_reaction=round(reaction * r, 2),
-                         caught=reaction * r < 0.5))
+                         hops_in_reaction=round(share, 2),
+                         caught=share < 0.5))
     return rows
 
 
@@ -242,8 +245,34 @@ def gain_curve() -> list:
 
 
 def strip_rows() -> list:
-    return [dict(row='A–G', role='七个调谐电容，决定这一跳的频率'),
-            dict(row='H', role='同步脉冲，两边对齐用')]
+    """What the eight rows actually drive, per the patent's own description.
+
+    Row H is the indicator lamp. Rows A-G close seven switches at the
+    transmitter; the receiving station only has four condensers, D-G, so the
+    A/B/C channels are transmitted but never received -- that is the
+    deception channel the patent describes.
+    """
+    return [dict(row='A', role='发端电容 24a', rx='收端没有'),
+            dict(row='B', role='发端电容 24b', rx='收端没有'),
+            dict(row='C', role='发端电容 24c', rx='收端没有'),
+            dict(row='D', role='发端电容 24d', rx='收端 24′d'),
+            dict(row='E', role='发端电容 24e', rx='收端 24′e'),
+            dict(row='F', role='发端电容 24f', rx='收端 24′f'),
+            dict(row='G', role='发端电容 24g', rx='收端 24′g'),
+            dict(row='H', role='指示灯开关 42', rx='指示灯 43')]
+
+
+def channel_counts() -> list:
+    """Processing gain for the channel counts that actually appear: the four
+    the receiver can hear, the seven the transmitter can send, and the 88 the
+    patent extrapolates to from a player-piano roll."""
+    out = []
+    for n, why in ((4, '收端能收到的频点数'),
+                   (7, '发端能发出的频点数'),
+                   (88, '专利从钢琴卷纸推到上限')):
+        out.append(dict(channels=n, gain_db=round(10 * math.log10(n), 2),
+                        needed=round(JSR_LIMIT * n, 1), why=why))
+    return out
 
 
 def power_curve() -> list:
@@ -263,7 +292,6 @@ def measure() -> dict:
         hops=HOPS,
         hop_rate=1000.0,
         jsr_limit=JSR_LIMIT,
-        jsr_total=3.0,
         sequence=sequence_stats(seq),
         waterfall=waterfall(seq),
         waterfall_parked=[[i, ch, bool(j)] for (i, ch), j
@@ -277,4 +305,5 @@ def measure() -> dict:
         gain=round(10 * math.log10(CHANNELS), 2),
         gain_curve=gain_curve(),
         strip=strip_rows(),
+        channel_counts=channel_counts(),
     )
