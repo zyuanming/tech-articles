@@ -3068,5 +3068,45 @@
     "images": 26,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-11-02-ethernet-collision-backoff",
+    "title": "一根线上，怎么同时说话",
+    "date": "2026-11-02",
+    "path": "articles/2026-11-02-ethernet-collision-backoff/read.md",
+    "public_sha256": "85da7c5dded73f3081474130b148875da594d2305145d3c65e0c8776135777be",
+    "images": 22,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-11-02-fm-synthesis-dx7",
+    "title": "两个正弦，怎么造出一整片频谱",
+    "date": "2026-11-02",
+    "path": "articles/2026-11-02-fm-synthesis-dx7/read.md",
+    "public_sha256": "ac8e3156b585f2a127fe235f27eff29268ce1cdd5906ed1e8741ebee3e0c0a1d",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-11-02-frequency-hopping-lamarr",
+    "title": "每一跳换一个频率",
+    "date": "2026-11-02",
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/read.md",
+    "public_sha256": "1085ee6a9b429e744fd7d31823f0591e03db97493cecb860727bcf62814e2ac3",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-11-02-lz77-sliding-window",
+    "title": "一个指针，替掉一段重复",
+    "date": "2026-11-02",
+    "path": "articles/2026-11-02-lz77-sliding-window/read.md",
+    "public_sha256": "a57c9af15f1f492a0f5e291a59a8e8b0cc3349d864806f42f6e0a38c96a7cc7e",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

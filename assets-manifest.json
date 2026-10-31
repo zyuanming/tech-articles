@@ -28605,6 +28605,681 @@
     "sha256": "7a3a73efc035688286193f75198d8b74defb615d4fc48bdc673b7ab8521f7fa2"
   },
   {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/01-one-wire.png",
+    "bytes": 142657,
+    "sha256": "6a92f1c280f9742f2f2c0ab934060dc03fd92f20dcbb1051fa97d7c2e1d7a463"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/02-metcalfe-and-memo.jpg",
+    "bytes": 162996,
+    "sha256": "6587b73f6919ce4f67d941f49f53def9bfb07b9e81f3eeb51b54ed5eef6cd4c3"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/03-xerox-alto.jpg",
+    "bytes": 127940,
+    "sha256": "9541d934a1d52b3ea17cafea20309b86ead8674d9ec4c8690ffffb5bdc24637c"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/04-collision.png",
+    "bytes": 106508,
+    "sha256": "3c33d7281b5005e3c7cc978e5ba959d1a4578fa949487b1a3037344522564d17"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/05-vulnerable-window.png",
+    "bytes": 120930,
+    "sha256": "807e176d66c84453f487678afcef46e88cb1ee98f587cf337b6f158297babad1"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/06-aloha-ceiling.png",
+    "bytes": 137918,
+    "sha256": "d0546c290cebb773fe72497133ef1b93b9f93873cf57dcb63cd0f3c6e6b87530"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/07-slotted.png",
+    "bytes": 121898,
+    "sha256": "39eefbdec64037e13c03d108bed0c9d9f690eded0651bedaeb26a6dd4203898a"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/08-two-curves.png",
+    "bytes": 134367,
+    "sha256": "39ed5e7876402c7953d154d3c236a79300b4157e4e5cfc5919fb79aa2e49c2f0"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/09-listen-first.png",
+    "bytes": 145041,
+    "sha256": "bb3fd14d684a5b7aa3fd7ccddc1b3f07c7eb3d9abdc8d32bde97171cde60fae9"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/10-backoff-draw.png",
+    "bytes": 114062,
+    "sha256": "e1a2f823391da0866bb42f930f5c29249548ec75dd0a336a20b1adc8ee03ab38"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/11-window-table.png",
+    "bytes": 169536,
+    "sha256": "b90e5faeb6db5816e134fc9d66bd273cf3363190b5603e7889ee4b3d1e74f49b"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/12-backoff-growth.png",
+    "bytes": 164865,
+    "sha256": "8a4f8f1983a419cfe19dc1642583ccb837c0ce933d9afb3931de6874eac41fcd"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/13-fixed-window.png",
+    "bytes": 177114,
+    "sha256": "90fab3ac5634834957c9b3c100fe1e8ce99b723c3dbb0cc18ba3d74836e21214"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/14-two-levers.png",
+    "bytes": 161280,
+    "sha256": "905c4e2dc6066078c8d622085d5e37dd2efd3d05700163682c66d3bd8682642c"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/15-min-frame.png",
+    "bytes": 148521,
+    "sha256": "102e30ecd75d41265195c7262c4d42f62e1bb5570dd72e49bb215dcc061cc5a4"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/16-speed-vs-reach.png",
+    "bytes": 237686,
+    "sha256": "4092c98a581015847c00cf40758698d18d3b5de90ea1771dd5692a5eefcb9f60"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/17-frame-format.png",
+    "bytes": 156333,
+    "sha256": "971b3813c75ee9af9dc3f11825864bdf899e295ccf626f4f74a696eed7943f28"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/18-small-packets.png",
+    "bytes": 173698,
+    "sha256": "690e724538d0dc3ca4a7185624767ae8cea9fbfe3c05f48be547c61f5e94abdf"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/19-ethernet-connector.jpg",
+    "bytes": 252129,
+    "sha256": "4187db3aae18da4455d04c7bd3b8388e3ffd8a2a6c1cb7afe3056b3b62a1aafd"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/20-switch.png",
+    "bytes": 166877,
+    "sha256": "ff5e782a59e9b094519d1b6e61bc75dad4200328ae3dbbcc3cbb1b27e3040c96"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/21-timeline.png",
+    "bytes": 159732,
+    "sha256": "e78814e95b40b8c71beb481ddae3f8c2594f2349ab82215b7dd4f9f34f0ababb"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/assets/22-three-lines.png",
+    "bytes": 104862,
+    "sha256": "fd33b73c4c95339646b2220f2f1f1609f5c3991cbffa8f8fd8fc994323c91a7e"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/cover.png",
+    "bytes": 85118,
+    "sha256": "c2db3344b6caba17a842981e64eebf950f2aabbc6258aad4cbb4f46b8b7feddf"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/build_figures.py",
+    "bytes": 31109,
+    "sha256": "f6850da40f69fd84421a39883a6aa223ea00d69a061bd3129ebc9aa4954a62de"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/figure-metadata.json",
+    "bytes": 4577,
+    "sha256": "5ed9cbb2eeb7366c13b989c9521e49c7b56b4a93cf9450cc6ed319b1ecc4ea82"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/net.py",
+    "bytes": 7722,
+    "sha256": "3f55c4c781b76f09e6d8d3974e8ebdd0b05a2d7c338ac3b6e88f7864b51bccff"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/photos.py",
+    "bytes": 4405,
+    "sha256": "a8e5379ee4dc7ab198e56d8665fdfa3a73bf16da571c2766edb095a697783b6a"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/results.json",
+    "bytes": 6391,
+    "sha256": "67ac2e05bedd57de989186af2b39ed73cc8963418ce51a5c763135a776232e54"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/run-environment.json",
+    "bytes": 612,
+    "sha256": "6c6124ebeed85d68417e56283e567b09a81189ce9b0b28c3a982be9a236b8bc0"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/examples/run_model.py",
+    "bytes": 1035,
+    "sha256": "0ca71ec662472bc22cc9158837c78c2760e16a5d114376cbfa95ecd7ee5f55fa"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/originals/alto.jpg",
+    "bytes": 4918584,
+    "sha256": "f6659fec3a91f19204510c059cf631e6a029545510b56555d3067e2a8a1b1f4a"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/originals/connector.jpg",
+    "bytes": 3064136,
+    "sha256": "a6a1614a8dcb46ef41f16c3a5e6577c5f1a7a72a668e75d81333f56aac8f9635"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/originals/memo.jpg",
+    "bytes": 179443,
+    "sha256": "b03e34fb66d4d7278568ea111cdbd686b780f02f3b10d76db3470275245fee39"
+  },
+  {
+    "path": "articles/2026-11-02-ethernet-collision-backoff/originals/metcalfe.jpg",
+    "bytes": 18649,
+    "sha256": "8051e748604ab13e49ff4c63976dd9413d0415c7339141f73fabb87d9056803e"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/01-three-spectra.png",
+    "bytes": 120953,
+    "sha256": "f2dbcb462ebd7922eb6bdb01b5185e7b26453793554b0918c072695202ce309f"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/02-dx7.jpg",
+    "bytes": 166549,
+    "sha256": "13e4b31f3b46664ccfe9b4847a2fd15cf900184b5c73dc7431fcda6a16ecb749"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/03-chowning.jpg",
+    "bytes": 96345,
+    "sha256": "00027425dfb31c5f0b1e4e4236aa3dd4109c3e2591cbdc95fbcc1f100a8da8ed"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/04-patent-sheet.png",
+    "bytes": 231352,
+    "sha256": "8249a72ac88891bb9eaa795afef58c4705d12d3d50ac925f107821cbbba02b34"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/05-phase-modulation.png",
+    "bytes": 163577,
+    "sha256": "1c01fe661b82284b31695d764ffb82140d07257738e4b55133237e7799a8dbff"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/06-am-vs-fm.png",
+    "bytes": 196303,
+    "sha256": "66524380bf5e85ebb9db66441df262c518e1d07ec190e98ba60defdd59c2467b"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/07-fm-spectrum.png",
+    "bytes": 174389,
+    "sha256": "f71a495e8a2e8b689ea4bf55d9f9953b8786a7f2b67c31b5ce421b9669abb9cb"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/08-bessel.png",
+    "bytes": 163826,
+    "sha256": "8828ba6ad8bf1991db753cf2bd9ab1cf934f695d725aa9afa93630394ac93a03"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/09-index-ladder.png",
+    "bytes": 126261,
+    "sha256": "9561d0a7f81d079695a247590d1d30c76266a23b5c20139d1b2d356a9c82a199"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/10-bandwidth.png",
+    "bytes": 155200,
+    "sha256": "5b9765f5f726f30a90f6dc2c6a87688292c37cef1525ea2176d3e18bc089495a"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/11-ratio-integer.png",
+    "bytes": 148393,
+    "sha256": "3f439af5c42dafcdbb124b5f46aba98ed1f9fd38173940132c4eb9bddac1cd0f"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/12-ratio-inharmonic.png",
+    "bytes": 156031,
+    "sha256": "79efb02da1e295c6c0dbb99b8facb4bfa878ea17c843008458e51a00f84b3d61"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/13-subtractive-vs-fm.png",
+    "bytes": 212043,
+    "sha256": "58bb229b02f7bd6a55dca6c14022e503f1f65c808e6106d3a698ae11fdf28307"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/14-operators.png",
+    "bytes": 171632,
+    "sha256": "8dbc84f3f21d92b228218a815a911f922c015ef238bdc736cf67b87f0ea2909d"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/15-envelope.png",
+    "bytes": 139235,
+    "sha256": "80709f8a89299abbd16a82a76b145ec1341a46791463c8d3dd0677df2174fc55"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/16-aliasing.png",
+    "bytes": 222149,
+    "sha256": "9490ecfaade842180eeaafd42845025d44063b4b6e8dd717753afd47fd6a72d8"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/17-feedback.png",
+    "bytes": 146979,
+    "sha256": "f1b91195440ca201476bad2fa049f648845491cfae03dcfea249f48e7dead9c3"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/18-timeline.png",
+    "bytes": 274972,
+    "sha256": "59cf081c7ef7dd5a97732c9ac4bc9d5321b608d1f52c72527ed5b96364250d2d"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/assets/19-three-lines.png",
+    "bytes": 119117,
+    "sha256": "269ca46bb45a8484bd0e04bf6061f2de99aeed8a68fe6bbc67569662dd7d200f"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/cover.png",
+    "bytes": 77813,
+    "sha256": "b6eb0abe8139a24c7b0e320ec1ec998db364db14ec4afce17746fcdbd456e5f7"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/build_figures.py",
+    "bytes": 27936,
+    "sha256": "7aa1b87824685a2e99f60050336387aaf725ee71e4693465fb52b1e78da7a66a"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/figure-metadata.json",
+    "bytes": 4651,
+    "sha256": "f5140e947cb1126cffd5ce48fd11be5c899661dfd996190c4b9c71a883475cd8"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/fm.py",
+    "bytes": 11229,
+    "sha256": "ef2b6afc7162f1890d2682e14d3304280aee1738bf0619c4d91039c7bb5c7962"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/photos.py",
+    "bytes": 4642,
+    "sha256": "0a7ceaa1745d63bce8f48edb650b2d375e94ac30741de64937d997b972f092c6"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/results.json",
+    "bytes": 40423,
+    "sha256": "dbf240204badf001b4602c04448de96ac54bc4e7a32b457fe67b3c098221f842"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/run-environment.json",
+    "bytes": 783,
+    "sha256": "63b88cc729cf9564292879879073fdbe1259ae4ebd52f03575febe603aa02dc4"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/examples/run_model.py",
+    "bytes": 1603,
+    "sha256": "707cdce892eae46262915159315e61ff39e7a16d45b10ef5ca4866c45624fc71"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/originals/chowning.jpg",
+    "bytes": 61988,
+    "sha256": "165d67c52c0e019b03ce2718e28081e342c93cef23b128e18e4338bdacc59890"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/originals/dx7.jpg",
+    "bytes": 3260860,
+    "sha256": "96576e049c86a00d23619bfc8c6ffd3821a1c080a13d78b60787fbe274bc8fc7"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/originals/patent-sheet1.png",
+    "bytes": 128412,
+    "sha256": "ee8655183025c74cdb47b45df8b79d8b4ad6feb3d465951efe17f1a954b13dfc"
+  },
+  {
+    "path": "articles/2026-11-02-fm-synthesis-dx7/originals/patent.pdf",
+    "bytes": 2719655,
+    "sha256": "d774e01042d0d3eff62f364d9ceb1b6d43ec42aca5038be95cf9ea5f42e3c1c1"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/01-two-worlds.png",
+    "bytes": 148328,
+    "sha256": "af6e8d75106cfb41ec8ed38c06fea4c4950955a057fcff7da486d6119cb06249"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/02-hedy.jpg",
+    "bytes": 119025,
+    "sha256": "9d02f50f4f1f26125bd429ade7ad7c84347839cf93af5e8111dce60876c20622"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/03-antheil.jpg",
+    "bytes": 104078,
+    "sha256": "f31202d6ff0ed3528415bb5d0171804d72df62f757310e060faffba001f938e7"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/04-piano-roll.jpg",
+    "bytes": 193522,
+    "sha256": "4e83e4778a3c521db2f41324f117abc986ec40b85e44dda3d1ac42bfd4068d2c"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/05-patent-front.jpg",
+    "bytes": 432839,
+    "sha256": "dc4c88f3e9b3e0ae4f8e91f355d34a13662d3ee3d8491d5cf8654c3a415fb5f8"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/06-patent-sheet1.jpg",
+    "bytes": 246867,
+    "sha256": "1199dd28d42f65400002e713b3ff9ae3fd9bad0f2fa70d2a47013180fb6a22ef"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/07-strip.png",
+    "bytes": 160809,
+    "sha256": "4b10ce24e198f1127e90ebbd97f2acca7a1b2640b7a44dba1200134fb27a8ae5"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/08-keys.png",
+    "bytes": 141419,
+    "sha256": "8159dbad35e6fb3e9cb186a218295c0fc57802a16ea7de83deafe10beaa71ca3"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/09-sitting-duck.png",
+    "bytes": 82060,
+    "sha256": "204edb607f8af67c4a57913f92c84dcca399afa34b08d37420cf7063f197a901"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/10-hopping.png",
+    "bytes": 81589,
+    "sha256": "9d000afd5734bc5e86a40049cadb767ad00f27105db92b7506944a0bb0054ede"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/11-sequence.png",
+    "bytes": 136597,
+    "sha256": "9bf96571d808d5ce67677841ea4bea38f0a39753d6ccf91301cb33a53afc7e50"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/12-power.png",
+    "bytes": 117846,
+    "sha256": "6db65c7258df99e98a28d6715f54049e6ecff95b318708e6808580b488e3a371"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/13-table.png",
+    "bytes": 176041,
+    "sha256": "2862d55ad7c29b506b1c12c721aaa4d56dc6073570f61a13823e423ffc931baa"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/14-reaction.png",
+    "bytes": 107706,
+    "sha256": "4bc01dbfc169209d711420cbc56c279f666c15bc6a535a793f75b6a549f9f8c5"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/15-rates.png",
+    "bytes": 150157,
+    "sha256": "2cb14fe57670df22ac064d12b48df4017aa40a82bf137da443de57f0699e1893"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/16-sync.png",
+    "bytes": 129310,
+    "sha256": "b4ebd1fa26a5bb520d2f458af2113e82c67c7507710e89e5ba48fbf7ac4d5660"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/17-gain.png",
+    "bytes": 126019,
+    "sha256": "37b160be87bf44625a6fb70515d0d119bc7ee543a9ed7db0ae6597a8737027d9"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/18-timeline.png",
+    "bytes": 236232,
+    "sha256": "cf77909a7861cf9b94fccb9157fa42e76845e7beefe678c4148199b4d0bf9e0f"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/19-three-lines.png",
+    "bytes": 125713,
+    "sha256": "9e30152d1c11e2a7fcddab87665391eb194e5bcb5e7f3e0f1fba3f7b24052c04"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/cover.png",
+    "bytes": 76336,
+    "sha256": "f1257fe578fcdea4a1b44c037e2407e5d35c9d061ae83df2789960a391371045"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/build_figures.py",
+    "bytes": 21026,
+    "sha256": "ae217305ead93f3f677ea372939c46046e40b2d1bb52a124c2d7d6d6ce655089"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/fh.py",
+    "bytes": 10256,
+    "sha256": "10efd1ce2b58aa98f1dcdef2e66366eeddfe060189f338ccc1647b2a3942bd91"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/figure-metadata.json",
+    "bytes": 4707,
+    "sha256": "e5b5f77d9fdc7c7336374fb2957d1f82bbbccbf2220261743557628ad6fdbdd7"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/photos.py",
+    "bytes": 3667,
+    "sha256": "900cd11aff6731b2b97b5eee85c11108d39e6584e06f33cd077f5d5987b708af"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/results.json",
+    "bytes": 10981,
+    "sha256": "627b91a43bdaa0944ae6c1da33310936df8639f120746207b07cd168673d88ae"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/run-environment.json",
+    "bytes": 645,
+    "sha256": "2b2d3cb9a419f6869c61d0521786e308d7e6926bd1aa9431c10f099f6339eb58"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/run_model.py",
+    "bytes": 1330,
+    "sha256": "38f2fc59d5a9ebebe9cd002525ae922961329b3587018b8a6f2a9f9a4638a4dc"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/originals/antheil.jpg",
+    "bytes": 163070,
+    "sha256": "86bcf583ccf02a03756a580b5bad9d5154656677617a74454506447e6e1ca6fe"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/originals/hedy.jpg",
+    "bytes": 490413,
+    "sha256": "9cb5c7375ca19321d3d25d0b441a852b49467167a835e06c762f332602b5937e"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/originals/patent-front.jpg",
+    "bytes": 854629,
+    "sha256": "827f7829c198dbf383df09096515669f9716063cf81e35e415b3f0c005560260"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/originals/patent-sheet1.jpg",
+    "bytes": 397913,
+    "sha256": "e9a08d4e5ee34c7301f07552d505286f5eb81980503599d66e8b563234ba6c0b"
+  },
+  {
+    "path": "articles/2026-11-02-frequency-hopping-lamarr/originals/pianoroll.jpg",
+    "bytes": 523137,
+    "sha256": "d3c08737939572fe9e791fc182ed4bfc6f94fba4027e55ffcb4a0eeddbffaeba"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/01-pointer.png",
+    "bytes": 173791,
+    "sha256": "15f274b1f24900f589de3c6ea57e547cfbb838d8bad8b93c5ecd2060b5c9883d"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/02-lempel.jpg",
+    "bytes": 106466,
+    "sha256": "c2a45a2925a2542b5e070bf58a0fe47ed1ac20cc9a970f45ef28929e1cf338a9"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/03-ziv.jpg",
+    "bytes": 101221,
+    "sha256": "0aabae32b2029faa7d4c9a9f60094488b27dc0ff3e0697eb9ffd3bc47a59e44b"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/04-sliding-window.png",
+    "bytes": 198618,
+    "sha256": "e7882e83aa63d9666a2b9c3af0372861f37a0f772c1941ad51760fd3096965f0"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/05-token.png",
+    "bytes": 235922,
+    "sha256": "d82d04e898132b43ecdb66904fc48938075f154668d369da736967d922324836"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/06-decode-walk.png",
+    "bytes": 203583,
+    "sha256": "5a23daba8fcd0202bb8ec842c649bf1114bdaa500fc35600f192a3f9b5723bd1"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/07-match-finding.png",
+    "bytes": 271404,
+    "sha256": "389d4c20cfd8cb4423f082514560cda68fc3c0c74d3eb6df3d688ae7c757750f"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/08-window-curve.png",
+    "bytes": 193824,
+    "sha256": "018f4865b680dd66feef40ddac200a1e796566d1b8b59997b77ceedd99beddbf"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/09-window-table.png",
+    "bytes": 200174,
+    "sha256": "cfa2ba47c975bb5d30179b5463b67a06ccfb183704efb501866913503ac0204a"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/10-corpora.png",
+    "bytes": 181873,
+    "sha256": "ee2dcf646e9c0935515a38791f64e0c3bf99ccfc872ffbbc05ca2167eb0a56bf"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/11-match-lengths.png",
+    "bytes": 172554,
+    "sha256": "0d611bd3ddb6159c0546570c7477fc1332f5ed047ec4535a3350706989abe42f"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/12-coverage.png",
+    "bytes": 149001,
+    "sha256": "809275279d82fb7100e29c26d4d5b04d2a7d323f067270b4a5ade80a763a6230"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/13-distances.png",
+    "bytes": 177111,
+    "sha256": "e13b39d0f56ecd504121831ef66e52a04dc11fd7ea0c3bd0a1c3d25b9ab6a97a"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/14-greedy-vs-lazy.png",
+    "bytes": 172382,
+    "sha256": "6075c9644930034674332321a0fbb6bbffdc3e4c27caa90fd6aaa259c1ec1b89"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/15-runs.png",
+    "bytes": 179008,
+    "sha256": "26b88f748d799d78061e117f57817b01b5789a3ab1c9781c9ea5b7b8f45204f3"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/16-incompressible.png",
+    "bytes": 219491,
+    "sha256": "5731b0c7580c84ac1a353dbf4e73a8a8a3dc2f97536908a8bde1f8cf1abe3f2f"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/17-deflate.png",
+    "bytes": 190465,
+    "sha256": "ae99674151439ca5791816a6bc6fba99faa9ba5d90999d70690c53d94b95f28b"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/18-timeline.png",
+    "bytes": 212918,
+    "sha256": "b82c1816d698d472601ffe4834bf099854b4ef9916ed6edd31a30c30c52871a6"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/assets/19-three-lines.png",
+    "bytes": 103078,
+    "sha256": "64b139845e8f2a8959d34bbdfd4cad9ed7e5c6630ee6a024178a3776ca65ff28"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/cover.png",
+    "bytes": 82761,
+    "sha256": "54816f69738cc86ddb5abb1db411f9aff2297b07751e3f7b57fa4d6890aaeb8b"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/build_figures.py",
+    "bytes": 29667,
+    "sha256": "2a55652b598d45a675de69377448b4b5bfb36b601f82438fc6591c0c5d44d4c7"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/corpus/alice.txt",
+    "bytes": 102832,
+    "sha256": "81a6effcf28d81621d2b72d58902124fe41fe5e254c83cdbeb9eaf274715526b"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/figure-metadata.json",
+    "bytes": 4427,
+    "sha256": "a746dd1d8db5bcaf68c013f66ce362663e9fc826ec2e3fd4fc862f8ebeca1c0f"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/lz.py",
+    "bytes": 9057,
+    "sha256": "d80aa9880c9f371c4e2ab3060c3de47531532193834b4c61053f898006dcdc67"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/photos.py",
+    "bytes": 2440,
+    "sha256": "73351811ec07aec4dd718445204bf2e66ea80a04dab9d493f6082028b792312c"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/results.json",
+    "bytes": 4561,
+    "sha256": "9f69d1afae1b5963c778e76934bc8b166d7bf0db3d33e8f1fd9697d87996fcce"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/run-environment.json",
+    "bytes": 661,
+    "sha256": "e6fb01461da7049baadf92c8adb145dc99ce58ea29659cdde7c806a4e8a5ea07"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/examples/run_model.py",
+    "bytes": 2803,
+    "sha256": "7447655e9ee020dd7e14a180de10cee5ddc741fff97c47f022e05d30117df3bd"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/originals/lempel.jpg",
+    "bytes": 1215337,
+    "sha256": "22d1afc5aed747c34a19e10cd532925e4dfa7e6f576e991e2b28c5d0e3db8bac"
+  },
+  {
+    "path": "articles/2026-11-02-lz77-sliding-window/originals/ziv.jpg",
+    "bytes": 140433,
+    "sha256": "74054847655eb92ad223f035ce35903008e3461b0beeae406be3bf02f401f7d4"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

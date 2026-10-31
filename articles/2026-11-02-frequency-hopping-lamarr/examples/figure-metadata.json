@@ -1,0 +1,178 @@
+[
+  {
+    "path": "assets/01-two-worlds.png",
+    "width": 1062,
+    "height": 1445,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "定频与跳频在同一张时频图上的对比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-hedy.jpg",
+    "width": 1062,
+    "height": 764,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "Hedy Lamarr 肖像",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, 公有领域"
+  },
+  {
+    "path": "assets/03-antheil.jpg",
+    "width": 1062,
+    "height": 764,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "George Antheil 肖像",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, 公有领域"
+  },
+  {
+    "path": "assets/04-piano-roll.jpg",
+    "width": 1062,
+    "height": 824,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "自动钢琴纸卷",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons, CC BY 2.0, Shannon Prickett"
+  },
+  {
+    "path": "assets/05-patent-front.jpg",
+    "width": 1062,
+    "height": 1414,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "专利首页扫描",
+    "identity": "档案扫描件",
+    "source": "美国专利商标局，公有领域"
+  },
+  {
+    "path": "assets/06-patent-sheet1.jpg",
+    "width": 1062,
+    "height": 1364,
+    "min_label_px": 32,
+    "effective_min_at_354px": 10.67,
+    "purpose": "专利附图",
+    "identity": "档案扫描件",
+    "source": "美国专利商标局，公有领域"
+  },
+  {
+    "path": "assets/07-strip.png",
+    "width": 1062,
+    "height": 1026,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "专利里的记录纸带与八行孔",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-keys.png",
+    "width": 1062,
+    "height": 981,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "88 个钢琴键与 88 个频点的对应",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-sitting-duck.png",
+    "width": 1062,
+    "height": 1623,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "定频链路被窄带干扰全面压制",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-hopping.png",
+    "width": 1062,
+    "height": 1531,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "跳频链路对部分频带干扰的时频图",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-sequence.png",
+    "width": 1062,
+    "height": 1878,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "跳频序列与均匀性检查",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-power.png",
+    "width": 1062,
+    "height": 1036,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "干扰功率与覆盖频点数的关系",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-table.png",
+    "width": 1062,
+    "height": 867,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "七种干扰策略的功率代价与破坏率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-reaction.png",
+    "width": 1062,
+    "height": 970,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "跟随式干扰的成功率与反应时间的关系",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-rates.png",
+    "width": 1062,
+    "height": 1009,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "跳速与干扰者反应时间的对照表",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-sync.png",
+    "width": 1062,
+    "height": 1008,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "收发两端失步后的对齐率",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-gain.png",
+    "width": 1062,
+    "height": 971,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "处理增益随频点数增长",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-timeline.png",
+    "width": 1062,
+    "height": 1369,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "从 1914 到 2014 的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-three-lines.png",
+    "width": 1062,
+    "height": 679,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "全文的三句话总结",
+    "identity": "原创教学示意"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-02",
+  "python": "3.14.7",
+  "implementation": "CPython",
+  "third_party_packages_for_numbers": [],
+  "third_party_packages_for_figures": [
+    "Pillow 12.3.0"
+  ],
+  "operating_system": "macOS (Darwin 27.0.0, arm64)",
+  "determinism": "全部结果确定：跳频序列来自固定初值的 16 位移位寄存器，干扰机的抖动来自固定种子的线性同余生成器。重跑得到同样的 results.json 与同样的 PNG。",
+  "font_for_figures": "/System/Library/Fonts/Hiragino Sans GB.ttc (index 0 regular / index 2 bold)",
+  "timing": "整条流水线在 2 秒内跑完（4000 跳，纯 Python）。"
+}
