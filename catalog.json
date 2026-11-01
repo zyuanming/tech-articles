@@ -3158,5 +3158,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-11-16-quake-fast-inverse-sqrt",
+    "title": "一行代码算出 1/√x",
+    "date": "2026-11-16",
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/read.md",
+    "public_sha256": "087b44d1e115b3755e133362338295fd89027eb0dbb665f77ed8d9a9762ed766",
+    "images": 21,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

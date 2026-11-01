@@ -30030,6 +30030,176 @@
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/01-overview.png",
+    "bytes": 184082,
+    "sha256": "05b044143ff42d122f76b87c2fd8806be7174a7881b9cba37f58a1cb6bd738e8"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/02-carmack.jpg",
+    "bytes": 133053,
+    "sha256": "1373fa5bbde2c47f0e20cce16fa8212b95a3fefb97175ac58c80cd23aa79e7f6"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/03-float32.png",
+    "bytes": 208938,
+    "sha256": "3485f56689b20f5d059146db1be2b36db1db80ad9c28745861fb94d5634a6387"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/04-three-steps.png",
+    "bytes": 175684,
+    "sha256": "2f46ca964af14f905f24fc1edd2dd4eeb88dffa2f890f10a6d3b9fb0add2d774"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/05-shift-means.png",
+    "bytes": 193493,
+    "sha256": "b61f217ebe35dc97ef7acb9abcaa94dbaeb8c80d997e5fc6d84498f2c6a54738"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/06-log2-saw.png",
+    "bytes": 140753,
+    "sha256": "80c60065e7c8f8752e02a27757135522235bd190ded696e4a7ff898d7d7a7b1c"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/07-fit-error.png",
+    "bytes": 124754,
+    "sha256": "eecc616fc6f1ff91ae80f36d4b54720ae0496023d2c77cc8b2f8752e6e5aa631"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/08-derivation.png",
+    "bytes": 216059,
+    "sha256": "7dd3d3bd896ecf670c23251767b4a3aafcce6b56b76e872a52b7d3ad1dac1229"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/09-first-error.png",
+    "bytes": 177623,
+    "sha256": "24ce13e7b9022371d97d71b806baf7254ece586340b05df32903320e436de928"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/10-newton.png",
+    "bytes": 169459,
+    "sha256": "9afcc1f93089c66cd6f52a6053200bf7b435e4c9a64dce0134eb0bd9ddd2a718"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/11-iterations.png",
+    "bytes": 171355,
+    "sha256": "de60f04825672bcce6445fca90f277f84e1c4db1e429e37f2c99ffad37c0242b"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/12-error-map.png",
+    "bytes": 145825,
+    "sha256": "94cbbb7979f5efd27ed215ddfd7688d976e16ee9a81b8cd1f97c192370ffdcde"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/13-three-lines.png",
+    "bytes": 169102,
+    "sha256": "f0cfbeaaef00cf95b0f6748dab105888c2796872292d630612cf8d2e1bf78ced"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/14-pentium3.jpg",
+    "bytes": 111195,
+    "sha256": "3e1cb758adcdad3d9e067d4552aa5d79512febac2b6b37681badfc5497123a30"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/15-quakecon.jpg",
+    "bytes": 184018,
+    "sha256": "8bd1339a019c496f62c08f79d5c45f4714f41ad585d0a37b7d4f90cdb4a205a6"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/16-magics.png",
+    "bytes": 225926,
+    "sha256": "773a18a4c7aeeff93b3c6ce6615629722a61423b44e031ca9826f12edcea7016"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/17-examples.png",
+    "bytes": 172459,
+    "sha256": "9f7d0341d0ebbaacbed82b6c2d9a7c30eedfbbc2a961286b63477558395d6636"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/18-timeline.png",
+    "bytes": 207642,
+    "sha256": "4bd7b531992abad106cb78ca32ac6da9bb0739c51f4d1e5259db8d577488fbaf"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/19-sgi-indy.jpg",
+    "bytes": 105428,
+    "sha256": "a74bf22f8aca5d4b1490c6dfce07051dd54bf1c36aed764e087cd714879cea84"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/20-today.png",
+    "bytes": 181988,
+    "sha256": "c518a1d7f6eb22b72b0013d675ed5b8fdf720fa3dcd21e62d6ee7615adf0f1c8"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/assets/21-takeaways.png",
+    "bytes": 166882,
+    "sha256": "9bf58507a7bd26ccad46b2d154ee570970017920baf688617e34a22ff9551c5e"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/cover.png",
+    "bytes": 86789,
+    "sha256": "4b0a27c7fd908b22286f7a234a9678dc02346a9d5c3ad33dce8d148e101d11f9"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/build_figures.py",
+    "bytes": 31159,
+    "sha256": "8d2e18f09880e2320f7d79c1ae21825755270a64823c37374a95dbb5d52ef64f"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/figure-metadata.json",
+    "bytes": 5388,
+    "sha256": "f6ea7881b5ede197f6931649957750db1c5e4ff04a5810fbc3a8ce1e24181b29"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/results.json",
+    "bytes": 52807,
+    "sha256": "49032187b1026a6ad0682ab3c235d32a144b7b20af5330ab8414cbda43cd621f"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/rsqrt.py",
+    "bytes": 8094,
+    "sha256": "245ae9f354e9e3718fe8e2220f5864659f150c5a34a3f21c4eec66709e55a324"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/run-environment.json",
+    "bytes": 273,
+    "sha256": "e59bf3abef8167d393e02d7273b13346a4602b541079df62441521480fbfba0e"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/examples/run_model.py",
+    "bytes": 1602,
+    "sha256": "d0232f7a1f0d1a56ee50670e17c1aeafea6c51c729ae13a03aac02ce41c8c369"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/originals/Intel_Pentium_III_Coppermine_die.jpg",
+    "bytes": 111195,
+    "sha256": "3e1cb758adcdad3d9e067d4552aa5d79512febac2b6b37681badfc5497123a30"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/originals/John_Carmack_-_QuakeCon_2008_-_02.jpg",
+    "bytes": 2451019,
+    "sha256": "8dad72dcbc0247b883e01c05dd163802da9c956cb92addb9b9472a972f5688ba"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/originals/Quake_III_Arena_Duel_Finals_-_QuakeCon_2003_-_01.jpg",
+    "bytes": 776327,
+    "sha256": "f497007cfb26bfebceee80026787ffe5ee59cd58a8803b9f500288f05bee794a"
+  },
+  {
+    "path": "articles/2026-11-16-quake-fast-inverse-sqrt/originals/SGI_Indy_(1).jpg",
+    "bytes": 4246456,
+    "sha256": "f7be8d218b61ad06ffe6fcd0977079d0746e89b00d26245619825be241802e6a"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

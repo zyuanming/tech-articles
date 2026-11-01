@@ -1,0 +1,195 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 1186,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "光照公式里法线与光线的点积，以及为什么需要单位化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-carmack.jpg",
+  "width": 1062,
+  "height": 706,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "John Carmack，QuakeCon 2008",
+  "identity": "真实照片",
+  "source": "QuakeCon, CC BY 2.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/03-float32.png",
+  "width": 1062,
+  "height": 1176,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "float32 的字段布局，用 x = 4.0 的真实位模式标注",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-three-steps.png",
+  "width": 1062,
+  "height": 951,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "x = 4.0 经过移位、相减、得到近似值的三步位运算",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-shift-means.png",
+  "width": 1062,
+  "height": 1105,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "右移一位在位模式上的效果：指数被减半，尾数被推下去一位",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-log2-saw.png",
+  "width": 1062,
+  "height": 1135,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "从位模式读出的 log₂ 与真实 log₂ 的对照，呈锯齿状",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-fit-error.png",
+  "width": 1062,
+  "height": 1041,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "log₂(1+m) 与 m 的差随尾数的变化，以及水平近似线 σ",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-derivation.png",
+  "width": 1062,
+  "height": 1263,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "从 log₂ 近似式推出 0x5f3759df 的乘法与取整过程",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-first-error.png",
+  "width": 1062,
+  "height": 1250,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "只做位运算第一次近似的相对误差随 x 的变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-newton.png",
+  "width": 1062,
+  "height": 1304,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "牛顿迭代的几何：切线从 y₀ 落到 y₁，横线是目标值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-iterations.png",
+  "width": 1062,
+  "height": 1213,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "迭代 0 / 1 / 2 次后的相对误差，对数坐标",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-error-map.png",
+  "width": 1062,
+  "height": 996,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "指数 × 尾数网格上的一次迭代后相对误差热图",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-three-lines.png",
+  "width": 1062,
+  "height": 1065,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Quake III 快速平方根倒数的五行主干代码，等宽排版",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-pentium3.jpg",
+  "width": 924,
+  "height": 864,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Intel Pentium III (Coppermine) 芯片裸片",
+  "identity": "真实照片",
+  "source": "Lp, public domain, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/15-quakecon.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "QuakeCon 2003 的 Quake III Arena 决赛现场",
+  "identity": "真实照片",
+  "source": "QuakeCon, CC BY 2.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/16-magics.png",
+  "width": 1062,
+  "height": 980,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三个魔数常数对应的 σ 与迭代前后的最坏误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-examples.png",
+  "width": 1062,
+  "height": 1004,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "六个具体输入的近似值、两次迭代结果与真值对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-timeline.png",
+  "width": 1062,
+  "height": 1011,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "这条技巧从 1990 年代流传到 2005 年开源的时间线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/19-sgi-indy.jpg",
+  "width": 1062,
+  "height": 674,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "SGI Indy 工作站（1993），90 年代图形工作站的一台典型机器",
+  "identity": "真实照片",
+  "source": "Peter Wallén, CC BY 3.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/20-today.png",
+  "width": 1062,
+  "height": 822,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "今天各平台上的平方根倒数指令对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/21-takeaways.png",
+  "width": 1062,
+  "height": 828,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三条可以带走的想法",
+  "identity": "原创教学示意"
+ }
+]
