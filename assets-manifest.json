@@ -29280,6 +29280,301 @@
     "sha256": "74054847655eb92ad223f035ce35903008e3461b0beeae406be3bf02f401f7d4"
   },
   {
+    "path": "articles/2026-11-09-quartz-watch-32768/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/01-piezo.png",
+    "bytes": 106777,
+    "sha256": "0381d633dc62d747f9f00cf69a8fd30bbad22ebcb27e83f7eb4a9d7a1a34f69c"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/02-tuning-fork.jpg",
+    "bytes": 110812,
+    "sha256": "b6a6fde4569f48291b98ca0fe62630e032ff99b7164184e90e3d010d4569b7c3"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/03-model.png",
+    "bytes": 92444,
+    "sha256": "3f92a816645f2e879fcddf7b80ef2d9a42f53a194971c435370f5d99c19e9b05"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/04-resonance.png",
+    "bytes": 117883,
+    "sha256": "6e5b2ac3fe7b2c2ca6dc1aa4edd493b7a229a373719e1061bd4d6d81b8ba924f"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/05-divider.png",
+    "bytes": 129464,
+    "sha256": "52ab7f4e9ff8b65768e5ffcbca866ed7a6b5e907147b04ce8a9cb7c3a60395ad"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/06-waveforms.png",
+    "bytes": 117147,
+    "sha256": "e470e88a66996076c58241e4758271a8b63fd2b8433f9f8de0d9c9a47a671a15"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/07-why-32768.png",
+    "bytes": 187704,
+    "sha256": "341c53782182ef04f467e0404bfa96b440ad3baf97fac0d807af6b5cbb1eaef0"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/08-astron-watch.jpg",
+    "bytes": 190802,
+    "sha256": "9e679ccd3ee965699e3d484aadd27e94476091a6bc08860849d0c2f3eac08ada"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/09-movement.jpg",
+    "bytes": 34357,
+    "sha256": "bd519c890e6bee3a9f54d8bf89ec7fb196aed83b959a0819298a8ea536ff7b50"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/10-ladder.png",
+    "bytes": 180545,
+    "sha256": "9c1628c35e46157a286fde899b736b92192ddc8007abb0a86d3a701602389936"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/11-parabola.png",
+    "bytes": 131841,
+    "sha256": "acb60b9927e082c642efa189258ed30be99850b9fca587b1fb22809d4bb6f77c"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/12-month-drift.png",
+    "bytes": 150609,
+    "sha256": "50fa4f258b4c8a96cf399478a8a672837dc23ec9bef59fc025a955220042c384"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/13-error-budget.png",
+    "bytes": 135766,
+    "sha256": "36c67d7b520c660407319d65125ad52e15b8aa3ac1ff69a8e81c1bb6ff35d2a8"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/14-ppm-table.png",
+    "bytes": 127049,
+    "sha256": "6a5579105224a4e9d1d12d41220bf8f01a428a3456cfcee602f2a47d6864ab59"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/15-power.png",
+    "bytes": 127329,
+    "sha256": "d7f7fae1641972fc55697781a1f120dc93de8b30e3ff8c52fd8dfdd794f4d967"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/16-timeline.png",
+    "bytes": 159275,
+    "sha256": "f2f864a0ac728c7c5c74a44cf03a348ff6cfe8feee0c94ae48ea46bb5a06d6b4"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/17-tcxo.png",
+    "bytes": 117205,
+    "sha256": "6b7541798f3f3017e0c04f329c79e82c04eac64d9825186104dfe480e6def30c"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/18-errors.png",
+    "bytes": 217800,
+    "sha256": "6f8b4ddbd5d63ab6aed1ace977433fd18894d038e499e53904415af6cde3a24a"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/assets/19-chain.png",
+    "bytes": 149897,
+    "sha256": "f198a8d50480760da03978b01f752f77226e0d67d7b71a0c61bb84d0834bcd11"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/cover.png",
+    "bytes": 86869,
+    "sha256": "43519ef1103e021eb194c6317c74ff79857a9be91c2914aa5b619ae539a117b5"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/build_figures.py",
+    "bytes": 27162,
+    "sha256": "e592ac4963aa797ddfec36bdaf262f93141a091389497b0b69915d809e46d885"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/figure-metadata.json",
+    "bytes": 4529,
+    "sha256": "e02b590db1c352dfbe143b2fbfddf6eaa84e3822301a8fe9513993e364a1188e"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/quartz.py",
+    "bytes": 3810,
+    "sha256": "ce8071e232e0452aa861a2b72902a8bfabe0c406477bea0d45b095e531661c56"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/results.json",
+    "bytes": 10465,
+    "sha256": "bdf5b3d65d9b7e4e83970b15059644025e04b4dcedcbd11a740ebde000bc5dac"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/run-environment.json",
+    "bytes": 219,
+    "sha256": "8115fae9edbe47981cfffc84d7ac79fab3df8f7182852834a50fc315d67931ac"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/examples/run_model.py",
+    "bytes": 3170,
+    "sha256": "64a6cec943433049ad14329371b3e2befad1ef56a6d4b27f33838ad0192995e9"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/originals/quartz-tuning-fork.jpg",
+    "bytes": 110812,
+    "sha256": "b6a6fde4569f48291b98ca0fe62630e032ff99b7164184e90e3d010d4569b7c3"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/originals/seiko-35a.jpg",
+    "bytes": 34357,
+    "sha256": "bd519c890e6bee3a9f54d8bf89ec7fb196aed83b959a0819298a8ea536ff7b50"
+  },
+  {
+    "path": "articles/2026-11-09-quartz-watch-32768/originals/seiko-astron-1969.jpg",
+    "bytes": 126274,
+    "sha256": "091fc7889da7e6d5b5fa0b5c4ca6edfc5e875342c72feffeb3b847426f48eadc"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/01-two-recordings.png",
+    "bytes": 112389,
+    "sha256": "612a744d49d2c265b357da4cceebb72eb46906f92f1e24123c57c3bf35ba3e2d"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/02-waveform-vs-fingerprint.png",
+    "bytes": 144282,
+    "sha256": "efb059ae63323a9f2c7a7644b50a8da8d34a8d1a006e70ba7931883fcf595dff"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/03-framing.png",
+    "bytes": 125607,
+    "sha256": "ff4ea8361040db428628626eddf40a5c33cd1f3603e3c8af252fdf6359c9094a"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/04-spectrogram.png",
+    "bytes": 89506,
+    "sha256": "bdc7e981b0164e8809ec226d9ae851ddf117d215e93aefb81fc9eee314b3cf58"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/05-peaks.png",
+    "bytes": 91708,
+    "sha256": "0613628006d36689b384c7fd695c8072ce4061db8afd500709ca08234a5f88ca"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/06-local-max.png",
+    "bytes": 138200,
+    "sha256": "65a140b6a5371f62e8518d187d6e8eb93e003bb6a07f03ca97365330d7943322"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/07-pair-hash.png",
+    "bytes": 85056,
+    "sha256": "a584824e0963facd845de7bb28bbef8985d1a1a25f5ab5822abd94d56752cebe"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/08-hash-table.png",
+    "bytes": 140639,
+    "sha256": "1a85c3e6d631a98a4db99269f89b4503f05bccffd84065d449b3a44044fe3b05"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/09-query.png",
+    "bytes": 90551,
+    "sha256": "810da5e6bf8e0395c078e2125b4bf3674fe6693ca1b39410eadb7174816fe878"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/10-offset-votes.png",
+    "bytes": 118968,
+    "sha256": "fc02480fc029cb1d0b5d84dfe38fff62957fbc7a7078bcac7be4f18877740856"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/11-wrong-song.png",
+    "bytes": 96892,
+    "sha256": "8c956bb80f63844028d88fcc421d4ad55b432e96d0118b18c59d6e1afc3ad189"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/12-snr-curve.png",
+    "bytes": 102638,
+    "sha256": "09d764037d456d1be7d0b80a99d21a5ec46382fdf75cb72b6667f371cfa05e16"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/13-speed.png",
+    "bytes": 167791,
+    "sha256": "1ff2c7a66269023fb9a0e590ff5210df1d0de66023a76d6b20e82b276674bb21"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/14-library-size.png",
+    "bytes": 121542,
+    "sha256": "95f161a917b6fca832540b98b81d01340d5b358f4546b67110d9e2ed8b441048"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/15-timeline.png",
+    "bytes": 182213,
+    "sha256": "8f4f9d798cb6e73c20a05d94219f687a736ea3f32eac320aaf332b70225236ff"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/16-pipeline.png",
+    "bytes": 181819,
+    "sha256": "eb81c42f31e5996ddcf226ae839596a468f94a931296c1ec5a0d89c80b8439bf"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/17-limits.png",
+    "bytes": 131343,
+    "sha256": "cf1dbcc36376c14822c7e414a1c9668dfb4c76d0de3cd93db5a1a6ee76cdfc1f"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/assets/18-uses.png",
+    "bytes": 170002,
+    "sha256": "d9201e55ec4c72478448d2567a51cfab80453727c473e713b0a387b7aecb7247"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/cover.png",
+    "bytes": 50656,
+    "sha256": "6877f6256bf98327c0fd2966a2643847944524004f7adb685316b13d38498ff9"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/build_figures.py",
+    "bytes": 25045,
+    "sha256": "32019ccdd052cd1165c91fff64db36b7968f3fea69ce33cf3824397ea7e55c18"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/figure-metadata.json",
+    "bytes": 4162,
+    "sha256": "d4493d0573f36db8c190df0e06cc8c1750670e68607c4ff665327753c5c1e593"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/results.json",
+    "bytes": 52965,
+    "sha256": "7374056a3f95d5fac09d5845c1f2cd0a726219119ee47b6daca57dbb5034a14b"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/run-environment.json",
+    "bytes": 186,
+    "sha256": "5133623cfb587f1f3ba73c3b27bb44686a88957fc37de56e60440633348ee2dc"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/run_model.py",
+    "bytes": 6730,
+    "sha256": "e64f620fda2cbc01209e1a17959520f24c7828a6321844f8ff8d612a1c3c2373"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/examples/shazam.py",
+    "bytes": 7678,
+    "sha256": "cd0f3e7c5b85cabf218f9c7bb75e3353f9d61b3e60bb2731a8f36da53b6d12ed"
+  },
+  {
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/originals/.keep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

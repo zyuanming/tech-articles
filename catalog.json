@@ -3108,5 +3108,25 @@
     "images": 19,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-11-09-quartz-watch-32768",
+    "title": "数到 32768：石英表为什么用这个古怪的频率",
+    "date": "2026-11-09",
+    "path": "articles/2026-11-09-quartz-watch-32768/read.md",
+    "public_sha256": "f902ce0e8f9637252ed186c78d6d6bc6dbd736e9a64224a24035314e0dcbf486",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
+    "id": "2026-11-09-shazam-audio-fingerprint",
+    "title": "听歌识曲：它是怎么从三秒杂音里认出歌名的",
+    "date": "2026-11-09",
+    "path": "articles/2026-11-09-shazam-audio-fingerprint/read.md",
+    "public_sha256": "ca8a2f9164933b4721f7fdb4aff96ac9297b3c634f9ab9f6b13ea1ec3869ce59",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
