@@ -3110,6 +3110,16 @@
     "related_versions": []
   },
   {
+    "id": "2026-11-09-differential-gears",
+    "title": "两个轮子，为什么可以不一样快",
+    "date": "2026-11-09",
+    "path": "articles/2026-11-09-differential-gears/read.md",
+    "public_sha256": "5aeb5bfad82cff5ac93b3914f5a5446ca3fbee0248818363bd8fac9bd9c37808",
+    "images": 17,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-11-09-quartz-watch-32768",
     "title": "数到 32768：石英表为什么用这个古怪的频率",
     "date": "2026-11-09",

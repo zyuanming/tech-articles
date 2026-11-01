@@ -1,0 +1,158 @@
+[
+  {
+    "path": "assets/01-two-circles.png",
+    "width": 1062,
+    "height": 1011,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "转弯时内外轮的两条轨迹",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-cutaway.jpg",
+    "width": 1062,
+    "height": 796,
+    "min_label_px": 36,
+    "effective_min_at_354px": 12.0,
+    "purpose": "现代差速器（保时捷 Cayenne），剖开显示内部结构",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons，CC BY-SA 3.0，DrJunge"
+  },
+  {
+    "path": "assets/03-gears.png",
+    "width": 1062,
+    "height": 808,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "差速器的齿轮连接",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-hopkins.png",
+    "width": 1062,
+    "height": 976,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "差速器的平均性质",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-ratio.png",
+    "width": 1062,
+    "height": 924,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "转弯半径与轮速比",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-traction.png",
+    "width": 1062,
+    "height": 864,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "不同路面下的可用牵引力",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-table.png",
+    "width": 1062,
+    "height": 751,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "四种路面下的牵引力与加速度",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-path.png",
+    "width": 1062,
+    "height": 956,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "一条路线上的两轮速度",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-welded.png",
+    "width": 1062,
+    "height": 818,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "焊死差速器后的拖行距离",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-manual-1911.jpg",
+    "width": 790,
+    "height": 571,
+    "min_label_px": 36,
+    "effective_min_at_354px": 12.0,
+    "purpose": "1911 年英军机械运输教程里的差速器剖面图",
+    "identity": "档案扫描件",
+    "source": "Wikimedia Commons，公有领域（HMSO 1911 年扫描）"
+  },
+  {
+    "path": "assets/11-starley.jpg",
+    "width": 1062,
+    "height": 1047,
+    "min_label_px": 36,
+    "effective_min_at_354px": 12.0,
+    "purpose": "James Starley 1877 年的三轮车差速器（1889 年《Cycling》书中的图）",
+    "identity": "档案扫描件",
+    "source": "Wikimedia Commons，公有领域"
+  },
+  {
+    "path": "assets/12-timeline.png",
+    "width": 1062,
+    "height": 766,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "差速器的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-lsd.png",
+    "width": 1062,
+    "height": 829,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "限滑差速器的偏置比与加速度",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-clutch-lsd.png",
+    "width": 1062,
+    "height": 677,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "摩擦片式限滑差速器",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-brake-lsd.png",
+    "width": 1062,
+    "height": 692,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "电子限滑的控制回路",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-elsewhere.png",
+    "width": 1062,
+    "height": 1032,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "差速器的其他用途",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-chain.png",
+    "width": 1062,
+    "height": 827,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "从发动机到车轮的扭矩路径",
+    "identity": "原创教学示意"
+  }
+]

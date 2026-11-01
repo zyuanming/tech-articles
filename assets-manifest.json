@@ -29280,6 +29280,151 @@
     "sha256": "74054847655eb92ad223f035ce35903008e3461b0beeae406be3bf02f401f7d4"
   },
   {
+    "path": "articles/2026-11-09-differential-gears/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/01-two-circles.png",
+    "bytes": 100457,
+    "sha256": "8ac69e5a0b24c41d3f73f1561809898847d73b58dfa30d8ec01aff555d81ec74"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/02-cutaway.jpg",
+    "bytes": 179414,
+    "sha256": "7cbf9cf45d058aca07d34cfdf452abbb77ad2997cd5b8a6b5f01d581f7ea2b2c"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/03-gears.png",
+    "bytes": 115865,
+    "sha256": "319adffde098dcda2325ddabe91423e4a2bc0d0c5db0f9b8e29dade00faffb83"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/04-hopkins.png",
+    "bytes": 121001,
+    "sha256": "7c45b629218a50c2eb694dc17b16e434819b176182d2872abfc19bf1e5f8844e"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/05-ratio.png",
+    "bytes": 95244,
+    "sha256": "643c7be38f44399797aa255984b1344b73e6ffcc0140904d6b286c93fd3b9c31"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/06-traction.png",
+    "bytes": 127506,
+    "sha256": "14675dd57f28f8ddfe3a54e6019c12655432a0a92f6147b058848d05b9bd662d"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/07-table.png",
+    "bytes": 156217,
+    "sha256": "d4715becedfcc3ff490e61ba291d9e4733786c5a8e148d1736f68194f8fa33c0"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/08-path.png",
+    "bytes": 117123,
+    "sha256": "ca382c0ee71a6834c250ad1aca197095e338a73b300b08489633a188924d3a0d"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/09-welded.png",
+    "bytes": 147712,
+    "sha256": "e364927d5a49618f0bd5e2b64a4dac6fa65cbeb2c80af90493e54943c74956a9"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/10-manual-1911.jpg",
+    "bytes": 34311,
+    "sha256": "27c796de89f3e9fd0b3e9810c406c31d1d48f3e2ee8e1a22b47914c7c9c3f68f"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/11-starley.jpg",
+    "bytes": 248030,
+    "sha256": "b5aa82f6f3aae7fd7f6a2b317da238179bafdc7a76b96812eeb83d5126ec6528"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/12-timeline.png",
+    "bytes": 147631,
+    "sha256": "36203e189dddf5623c7c7ac581f91c83bd4580feab26a5d13cc6c27db4e22f8a"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/13-lsd.png",
+    "bytes": 114626,
+    "sha256": "50c030805b0440af9f2549187bdcebe2e8f652b60ab4cb54d66846ba4ed4acfd"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/14-clutch-lsd.png",
+    "bytes": 118692,
+    "sha256": "84655c7d65a3a41f7d78bb227f395b11744d95fd8ef5a892cd28772c158e8d44"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/15-brake-lsd.png",
+    "bytes": 130834,
+    "sha256": "17d81609494d1e18ded42c98f59592a0ae1427b0bf5ba1971f0fc239163b6ed0"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/16-elsewhere.png",
+    "bytes": 208609,
+    "sha256": "185d31d0be5a03bc655f20582c3a50f4064b856c23aced7181eaf8c5e3c07c34"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/assets/17-chain.png",
+    "bytes": 120653,
+    "sha256": "ce15a0d91d4e995ee85951bf0c35bc964d44d979cb80313693865cfd5df42e5a"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/cover.png",
+    "bytes": 60525,
+    "sha256": "02122a767b0fa7a0c6f472b842327b5bf1b07f63529fdf40e0b29ac3b42e6f5a"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/build_figures.py",
+    "bytes": 23465,
+    "sha256": "7d06e9f87fd12a29df8609aad7c195f2e2ec35ff550848df93ea80bf2b9625b9"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/diff.py",
+    "bytes": 5536,
+    "sha256": "1a6df2414b73010cbc1a91a9470a3a0b798499e4add21103da9d243aad81c4d1"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/figure-metadata.json",
+    "bytes": 4210,
+    "sha256": "f571b1d7946e9a83bc8145b3d7b6fdae0a61486f67f65132ec919169c6a5b4cc"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/results.json",
+    "bytes": 49521,
+    "sha256": "cc8399fd0af75943c159e9f0e4e5cc69e4886906ef0e0d24b5d524c9be6f2bdf"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/run-environment.json",
+    "bytes": 217,
+    "sha256": "08f1d9fb69a50da5c5b69b954cc91a487de67d7804de5cd036d5228aae4bef55"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/examples/run_model.py",
+    "bytes": 3582,
+    "sha256": "c695cab7f58f245edf3366b27ca0b830c0d2db8f02cfcd4410b2a0235e0462fa"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/originals/army-corps-1911.jpg",
+    "bytes": 34311,
+    "sha256": "27c796de89f3e9fd0b3e9810c406c31d1d48f3e2ee8e1a22b47914c7c9c3f68f"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/originals/differential-cutaway.jpg",
+    "bytes": 420684,
+    "sha256": "fc15abe9f08898b4e03557c51996afc5f1fcd28c4e5b9f2d80616e4f6c70a30f"
+  },
+  {
+    "path": "articles/2026-11-09-differential-gears/originals/starley-tricycle.jpg",
+    "bytes": 749419,
+    "sha256": "717805925dd0ff16c3a45ec7cfe07b64d15af0f766d99fe64eda7030f49c1520"
+  },
+  {
     "path": "articles/2026-11-09-quartz-watch-32768/LICENSE-CODE.txt",
     "bytes": 1083,
     "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
