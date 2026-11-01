@@ -1,0 +1,168 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 1086,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "整条链路的两个放大器，以及它们之间那道沟槽",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-lathe.jpg",
+  "width": 1062,
+  "height": 795,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Neumann VMS-70 刻片机，SAE Mastering（亚利桑那州凤凰城）",
+  "identity": "真实照片",
+  "source": "VACANT FEVER, CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/03-riaa-curve.png",
+  "width": 1062,
+  "height": 1221,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "RIAA 刻片与放音两条曲线，标出三个转折与两端的 dB 值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-amplitude.png",
+  "width": 1062,
+  "height": 1236,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "同一振速下沟槽振幅随频率的变化，有 / 无 RIAA 对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-grooves.png",
+  "width": 1062,
+  "height": 1618,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三条沟槽中心线的俯视示意，振幅按同一比例尺",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-groove.jpg",
+  "width": 1062,
+  "height": 991,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "LP 表面沟槽的近距离照片，反光处能看出螺旋的间距",
+  "identity": "真实照片",
+  "source": "Piano Piano!, CC BY 2.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/07-stylus.png",
+  "width": 1062,
+  "height": 845,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "唱针坐在 V 形槽里的截面示意，标出槽口、槽深与接触半径",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-wavelength.png",
+  "width": 1062,
+  "height": 1198,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三个半径上的沟槽波长随频率变化，与唱针接触尺寸比较",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-cartridge.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "动磁唱头与唱针（Ortofon 2M Black），旁边是针压计",
+  "identity": "真实照片",
+  "source": "Audiotecna Música, CC0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/10-stage.png",
+  "width": 1062,
+  "height": 1173,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "唱放的方块图：负载、RIAA 网络、增益，以及三个转折各管哪一段",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-tolerance.png",
+  "width": 1062,
+  "height": 1212,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "元件容差导致的曲线偏差：最坏一次、中位、以及 1% 件的对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-noise.png",
+  "width": 1062,
+  "height": 1218,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "白噪经过放音曲线后，各倍频程被放大或压低多少 dB",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-playing-time.png",
+  "width": 1062,
+  "height": 1303,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "有均衡与没有均衡时，一面 LP 能录多长时间",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-turntable.jpg",
+  "width": 1062,
+  "height": 817,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Technics SL-1200MK5 唱盘与 Ortofon 唱头",
+  "identity": "真实照片",
+  "source": "Unknown author, CC0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/15-warp.png",
+  "width": 1062,
+  "height": 1173,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "放音曲线在 50 Hz 以下的平台，与 33⅓ 转翘曲频率的位置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-slopes.png",
+  "width": 1062,
+  "height": 991,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "按频段拆开的斜率表：平、+6、平、−6",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-mismatch.png",
+  "width": 1062,
+  "height": 926,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种接错的均衡方式在两端的偏差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-today.png",
+  "width": 1062,
+  "height": 928,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "这条曲线今天还在的三处，以及它不改善音质这一点",
+  "identity": "原创教学示意"
+ }
+]

@@ -3140,6 +3140,16 @@
     "related_versions": []
   },
   {
+    "id": "2026-11-09-riaa-equalization",
+    "title": "先砍 19 dB，再加回来",
+    "date": "2026-11-09",
+    "path": "articles/2026-11-09-riaa-equalization/read.md",
+    "public_sha256": "258d2b707b1f56b7ee5102fd1494c1233ea08e7a421e3472fc3e1ff92cf27e84",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-11-09-shazam-audio-fingerprint",
     "title": "听歌识曲：它是怎么从三秒杂音里认出歌名的",
     "date": "2026-11-09",

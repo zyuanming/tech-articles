@@ -592,7 +592,7 @@ def make_cover():
     fig.text((620, 400), '触发', 44, color='#f2b134')
     fig.text((96, 800), '甩块、弹簧、楔块，和 230 毫秒', 44, color='#e8f0f6')
     fig.text((96, 930), 'tech-articles · 2026-11-09', 38, color='#7fa8c9')
-    fig.im.save(ART / 'cover.png')
+    fig.im.crop((0, 0, 1080, 1080)).save(ART / 'cover.png')
     print('   cover.png')
 
 

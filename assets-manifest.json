@@ -29521,13 +29521,13 @@
   },
   {
     "path": "articles/2026-11-09-elevator-governor/cover.png",
-    "bytes": 81088,
-    "sha256": "9941db4615b0016e2c1b92ed0849f14676437d41f052df7881b736b58a0dedf2"
+    "bytes": 64130,
+    "sha256": "cb96332a767371bccf67bd8a18f47f1846b4ad07909dc88c39c0ffcc10ef5fde"
   },
   {
     "path": "articles/2026-11-09-elevator-governor/examples/build_figures.py",
-    "bytes": 28663,
-    "sha256": "a94f19c005a3211105e8109d3769d2c94b55b4b3be16f87d74522ad42df72d1b"
+    "bytes": 28688,
+    "sha256": "1962d048928e63de45d6eced1235e4bb700805eefbe81af4857cf9a77b251151"
   },
   {
     "path": "articles/2026-11-09-elevator-governor/examples/elevator.py",
@@ -29681,13 +29681,13 @@
   },
   {
     "path": "articles/2026-11-09-quartz-watch-32768/cover.png",
-    "bytes": 86869,
-    "sha256": "43519ef1103e021eb194c6317c74ff79857a9be91c2914aa5b619ae539a117b5"
+    "bytes": 70365,
+    "sha256": "0fe78f0ef12d4cb7ac3f22ddbeebbe2b77bdf969f95ba617d3c026686b7e67d9"
   },
   {
     "path": "articles/2026-11-09-quartz-watch-32768/examples/build_figures.py",
-    "bytes": 27162,
-    "sha256": "e592ac4963aa797ddfec36bdaf262f93141a091389497b0b69915d809e46d885"
+    "bytes": 27187,
+    "sha256": "ab944c4d630006e22ac6c1ad3f8592c6b0764a04e809f1d9d1d0ed76714c4afb"
   },
   {
     "path": "articles/2026-11-09-quartz-watch-32768/examples/figkit.py",
@@ -29733,6 +29733,161 @@
     "path": "articles/2026-11-09-quartz-watch-32768/originals/seiko-astron-1969.jpg",
     "bytes": 126274,
     "sha256": "091fc7889da7e6d5b5fa0b5c4ca6edfc5e875342c72feffeb3b847426f48eadc"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/01-overview.png",
+    "bytes": 169575,
+    "sha256": "2605b8af2ce19ccaeef2672eedd89396b51b30fdae93f9c0de8ca19b0b06b5a2"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/02-lathe.jpg",
+    "bytes": 185850,
+    "sha256": "228abf67bf4fc5cb98d15ed88c9b1da8d87490f1a7ecbd8865dcc1cc5a0b2934"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/03-riaa-curve.png",
+    "bytes": 138403,
+    "sha256": "b035785de4743902f134813064250f889144b3fbc963dcd5b1f6b143d2b400ef"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/04-amplitude.png",
+    "bytes": 132490,
+    "sha256": "27fd59895aecaaedcfc23593bc166fef24ac1e745ae2949b79496367f4415d1a"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/05-grooves.png",
+    "bytes": 170724,
+    "sha256": "75b98dbb465ddff6f474ee0a277e043c3d78cadb231eca59006b832ac6744a4a"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/06-groove.jpg",
+    "bytes": 309115,
+    "sha256": "870c37b7e620786fae1534ec828953885dab7c92ec76e76419d7a9897fcfdfcf"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/07-stylus.png",
+    "bytes": 141587,
+    "sha256": "7c9eb70a0876cf2cf2bfe30066fdcb22819bfa8c46443711c10a344ba2a55287"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/08-wavelength.png",
+    "bytes": 165665,
+    "sha256": "87e39f38f804c17d77f17efbb462127693401091264d8c07c2ba1fc3f9c71859"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/09-cartridge.jpg",
+    "bytes": 154346,
+    "sha256": "9e5c1e841d0a7fc2b4b97c60594fd5a616ca03bb4439d31a3173ec2a34adffcf"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/10-stage.png",
+    "bytes": 206172,
+    "sha256": "90b546f8fb88ec81b6c22fc7a646732d0c997db757bbd2d3a167382daa553063"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/11-tolerance.png",
+    "bytes": 139107,
+    "sha256": "f98e4f12c26079452c1eb7feec312b206b848a28f407bc1cc75ab08a885ec805"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/12-noise.png",
+    "bytes": 149364,
+    "sha256": "42470b775e02dff3cf72b7b62670b67536b45d82f7b974cec3479ac845c040a0"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/13-playing-time.png",
+    "bytes": 142519,
+    "sha256": "d58c89af0dee0c914edeab92af73bb52da868778c01f9f8380f8781057876f1f"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/14-turntable.jpg",
+    "bytes": 141681,
+    "sha256": "fd63b22b13a4935207c35d1110b5cb1caa5f54b96fd312c0bacda90152efbfe7"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/15-warp.png",
+    "bytes": 150448,
+    "sha256": "187194c2ee4a81da3c3c2df551a54f1a045b08449d8e3926e2efdfa49083c0a9"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/16-slopes.png",
+    "bytes": 168618,
+    "sha256": "ed47ddb88eb07b31cb7042132516b7cd1dbd97e791182661d5c96c8370718ad7"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/17-mismatch.png",
+    "bytes": 167695,
+    "sha256": "3f94a75357adea6a6320c0b854689ed85bbabbefd1b0ec0ee06c15d1d5207369"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/assets/18-today.png",
+    "bytes": 180434,
+    "sha256": "c698e4d15287672b9e0dc8cd063194cd24a325d9cfb0d4070389ee1889e324bd"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/cover.png",
+    "bytes": 102749,
+    "sha256": "285d96e7eefdeadc593ede5fb5a61173fdb8334d6bdb04afd36e4ab5ea318181"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/build_figures.py",
+    "bytes": 31706,
+    "sha256": "cb0bfdffd89b1a66ecd6b8fb8f2a6079ff45e01ddafbe622f01a80d947a329fd"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/figure-metadata.json",
+    "bytes": 4770,
+    "sha256": "fcf914a977e915b1cf60ca9e9be6be035a1e89a1f8565f20af8cfc82eaa1b6ef"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/results.json",
+    "bytes": 9147,
+    "sha256": "436781ced305e447900dfece58e1ce38fdab5e840c7a4490e888b22922046f32"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/riaa.py",
+    "bytes": 8054,
+    "sha256": "1bfe5c2adb4e5202d6552bdae97e81596333a5b33a27fa4cb6bebdaf5883dc25"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/run-environment.json",
+    "bytes": 194,
+    "sha256": "a9d1d8e3494ae401b88add5de33b22630b7feb83f5631a8e7e1509c0fa2cbdab"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/examples/run_model.py",
+    "bytes": 3098,
+    "sha256": "ceadfb314483625ca7ca9a25b883cdd740cec134360080196a73dd3338964167"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/originals/cartridge.jpg",
+    "bytes": 2120704,
+    "sha256": "afdd684b10e81725efbbc1608a8f3f2283c608479474805f258f6a5302ac46be"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/originals/groove.jpg",
+    "bytes": 276997,
+    "sha256": "f536e4fb2f53a7ecf0bdaef589d97c25d89a72db039b9e3682564b2b76af9a4c"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/originals/lathe.jpg",
+    "bytes": 1457406,
+    "sha256": "ef1dcb53787113feb06968af05775e143b4774f420b62c0a4ecf6b1504efc44f"
+  },
+  {
+    "path": "articles/2026-11-09-riaa-equalization/originals/turntable.jpg",
+    "bytes": 386866,
+    "sha256": "d113ba7cb1614693859cc45640de4151e15d2c2a6d6681324cbb1cba013f3403"
   },
   {
     "path": "articles/2026-11-09-shazam-audio-fingerprint/LICENSE-CODE.txt",
