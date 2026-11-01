@@ -1,0 +1,177 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 958,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一位转换器的信号链：用密度而不是幅度表示信号",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-cdp101.jpg",
+  "width": 1062,
+  "height": 708,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Sony CDP-101，1982 年第一台量产 CD 机",
+  "identity": "真实照片",
+  "source": "Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/03-quantise.png",
+  "width": 1062,
+  "height": 1092,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "1 位与 3 位量化器的台阶与量化误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-sqnr.png",
+  "width": 1062,
+  "height": 1148,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "信噪比与量化位数的 6 dB 规律，标出一位的位置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-oversample.png",
+  "width": 1062,
+  "height": 1283,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "过采样把同样的噪声功率摊到更宽的频带上",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-osr.png",
+  "width": 1062,
+  "height": 1155,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "信噪比随过采样率上升：一阶每倍频程 9 dB，二阶 15 dB",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-loop.png",
+  "width": 1062,
+  "height": 940,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "一阶 delta-sigma 环路的三个组成部分与反馈路径",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-tracking.png",
+  "width": 1062,
+  "height": 961,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一阶环路前 40 个样点：输入、积分器状态与输出位",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-ntf.png",
+  "width": 1062,
+  "height": 1193,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一、二、三阶噪声传递函数的形状与带宽边界",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-density.png",
+  "width": 1062,
+  "height": 1077,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "实测噪声密度斜率与理论阶数的对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-dither.png",
+  "width": 1062,
+  "height": 978,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "直流输入下的空闲音：抖动前后带内最大杂散对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-stability.png",
+  "width": 1062,
+  "height": 1182,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "一阶与二阶环路的信噪比随输入电平变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-decimation.png",
+  "width": 1062,
+  "height": 976,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三级抽取链：2.82 MHz 一路降到 44.1 kHz",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-tda1541.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Philips TDA1541A：16 位多比特 DAC，1980 年代 CD 机里的另一条路",
+  "identity": "真实照片",
+  "source": "Cjp24, CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/15-cd472-board.jpg",
+  "width": 1062,
+  "height": 754,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Philips CD472 主板：中间那块 28 脚芯片就是 TDA1541",
+  "identity": "真实照片",
+  "source": "Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/16-bitbudget.png",
+  "width": 1062,
+  "height": 942,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "几种存储方式的比特率对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-korg.jpg",
+  "width": 1062,
+  "height": 711,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "KORG MR-2000S：把 1 bit / 5.6 MHz 直接录成文件的录音机",
+  "identity": "真实照片",
+  "source": "Brandon Daniel, CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/18-history.png",
+  "width": 1062,
+  "height": 943,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "delta-sigma 从 1962 年到今天的时间线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/19-takeaways.png",
+  "width": 1062,
+  "height": 608,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三条结论",
+  "identity": "原创教学示意"
+ }
+]

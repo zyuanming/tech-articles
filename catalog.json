@@ -3160,6 +3160,16 @@
     "related_versions": []
   },
   {
+    "id": "2026-11-16-delta-sigma-one-bit",
+    "title": "一位 DAC：把声音存进密度里",
+    "date": "2026-11-16",
+    "path": "articles/2026-11-16-delta-sigma-one-bit/read.md",
+    "public_sha256": "9bde27005591e33a15831e83b696b5a0b3bd3f64d6e0e7b5c107dda40a5ea1d5",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-11-16-quake-fast-inverse-sqrt",
     "title": "一行代码算出 1/√x",
     "date": "2026-11-16",

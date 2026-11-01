@@ -30030,6 +30030,166 @@
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/01-overview.png",
+    "bytes": 155860,
+    "sha256": "c90a4ad55f5d975ca4f86203cd3b244dffc5a65ae440aabad7118d366152b1cd"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/02-cdp101.jpg",
+    "bytes": 67564,
+    "sha256": "1c75b2b97fa91e2d53392b4efa2d817a89b6911bdf4e412394870161cd60ca62"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/03-quantise.png",
+    "bytes": 121781,
+    "sha256": "7cc1d01d62ed96503d999ca82938a8b41f2985a68951cdee8a5f5146ca1736db"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/04-sqnr.png",
+    "bytes": 132703,
+    "sha256": "a485d23964e5ec5ae2138989462ab445fe7dbc3fb1784e790726b51dc61d32ee"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/05-oversample.png",
+    "bytes": 142160,
+    "sha256": "2448b28d297ffcd09400f410903c61dc1d5ba572f7ada7f0018d9a1ce2ca69db"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/06-osr.png",
+    "bytes": 157070,
+    "sha256": "8c71cdf7714d8f947b8e25b77a27c4733e62e94b7d7dece6cf0dc6ce784a1a30"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/07-loop.png",
+    "bytes": 142078,
+    "sha256": "d06376af9f96a8b82c600a0553d1ac5b7cb7eec45970df8558ff7ac54f4089d1"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/08-tracking.png",
+    "bytes": 113706,
+    "sha256": "fb33d73c89db355d5c4e4fbc06dbee4ea65de471d9ab85cb1bab2484b4b62c40"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/09-ntf.png",
+    "bytes": 149272,
+    "sha256": "1e0cd92a2bfbacea7cb0020f783c45fdbee76dd95bf0ca6dea80b43989efde7a"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/10-density.png",
+    "bytes": 132557,
+    "sha256": "90a7de51eef868895ce899339c6c66c1182730ac22c5570c8d22513c47152d70"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/11-dither.png",
+    "bytes": 176602,
+    "sha256": "a0a35754ca84a658f0eb291dedf6cdc5b25add8cab8b6f495546165e3c137a8a"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/12-stability.png",
+    "bytes": 163976,
+    "sha256": "6a2b1a720a6f6d28f9c61a45643fd24b1a38a87e37a6f7c3a50f7cc701796a29"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/13-decimation.png",
+    "bytes": 160561,
+    "sha256": "f1d8a50b9acac645ede7da52be4e0f6a3c8993865e8a8957b881a2924d2dd13f"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/14-tda1541.jpg",
+    "bytes": 412872,
+    "sha256": "665af1255852b7561b395e72ecb6f284bbe38163ed4cd3caeea1340a461274e9"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/15-cd472-board.jpg",
+    "bytes": 316082,
+    "sha256": "301c997fdf9b363cc80590d0ca113a19ef38a2558e74ca91db23dee27a63416b"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/16-bitbudget.png",
+    "bytes": 171474,
+    "sha256": "db5fcad91ca198a74057d289cbb794cee066b04242e72c7bf46b305767076b5a"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/17-korg.jpg",
+    "bytes": 225294,
+    "sha256": "fd65e6504c1c969cdc63a8d6256beee7718660e52b3082319ac4030f8c44b704"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/18-history.png",
+    "bytes": 166842,
+    "sha256": "7bbdbcc1efedc534abfff9625e1a55e332d07094377d82589712080697492b02"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/assets/19-takeaways.png",
+    "bytes": 117362,
+    "sha256": "c787f98e11566b113c2695b4bfb47c96a86409197dd17f063fa1c7f6106e2bdb"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/cover.png",
+    "bytes": 36494,
+    "sha256": "7f691ed1902dfe003c9ed35678083655243752ffd9f742b109a1dc321e14d01f"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/build_figures.py",
+    "bytes": 28172,
+    "sha256": "f71c1d1c4987fdfbd08cad1b817873ab1bf1e6eaaddb541d9888f1d1959f0f35"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/dsigma.py",
+    "bytes": 15746,
+    "sha256": "8994e3082803c5c203c97bd223b963dce76e3b47bd57a0f6bcbff6806926404d"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/figure-metadata.json",
+    "bytes": 4849,
+    "sha256": "af0c071daf15a1fad1ba33bd87fae8f532cd55231ed3359e2342ff20921b0af3"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/results.json",
+    "bytes": 20182,
+    "sha256": "1c320944a1b748a7a76254097b9c0c27dcd2ede4db4950a0ac17f8c12dc85b30"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/run-environment.json",
+    "bytes": 311,
+    "sha256": "0253986ad0a3ca790021dcabac6c2293bd82e769b6f3bb8cf643864de9c78f03"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/examples/run_model.py",
+    "bytes": 867,
+    "sha256": "2784d97e2dc65fc848043e0713a26432df4cba44b9d7a59dd7d66bbba34d5fa4"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/originals/DAC_Philips_TDA1541A_S1.jpg",
+    "bytes": 2297005,
+    "sha256": "6bb0e14d9499181d64a7469b2fc5faf7377c23ad4ea462be7d052563b36e0996"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/originals/KORG_MR-2000S_1-Bit_Studio_Recorder.jpg",
+    "bytes": 7529724,
+    "sha256": "8ad821a6f9ee0674a3543ce8c1d91a15bb1782eb146cce8cc02071949fedee2d"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/originals/Philips_CD472_-_main_board-8122.jpg",
+    "bytes": 16132304,
+    "sha256": "a8daf7993d3f128735a81e4c7bef3e21d4d32a85ac67e28746ec8fa428788878"
+  },
+  {
+    "path": "articles/2026-11-16-delta-sigma-one-bit/originals/Sony-101_lettore-CD_Museo_scienza_tecnologia_Milano_08733.jpg",
+    "bytes": 417591,
+    "sha256": "1534d04f9067cbcba92044666bcff26948631220c9dd752f56d865c0dfde2138"
+  },
+  {
     "path": "articles/2026-11-16-quake-fast-inverse-sqrt/LICENSE-CODE.txt",
     "bytes": 1083,
     "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
