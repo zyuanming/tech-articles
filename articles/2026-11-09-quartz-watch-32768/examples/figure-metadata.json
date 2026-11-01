@@ -1,0 +1,176 @@
+[
+  {
+    "path": "assets/01-piezo.png",
+    "width": 1062,
+    "height": 872,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "压电效应的两个方向",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-tuning-fork.jpg",
+    "width": 640,
+    "height": 759,
+    "min_label_px": 36,
+    "effective_min_at_354px": 12.0,
+    "purpose": "音叉形石英振子（拆掉外壳）",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons，公有领域"
+  },
+  {
+    "path": "assets/03-model.png",
+    "width": 1062,
+    "height": 716,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "晶振的等效电路",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-resonance.png",
+    "width": 1062,
+    "height": 922,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "不同 Q 值下的谐振曲线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-divider.png",
+    "width": 1062,
+    "height": 916,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "十五级二分频链",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-waveforms.png",
+    "width": 1062,
+    "height": 1138,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "分频链各级的输出波形",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-why-32768.png",
+    "width": 1062,
+    "height": 945,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "为什么选 32768 Hz",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-astron-watch.jpg",
+    "width": 1062,
+    "height": 1383,
+    "min_label_px": 36,
+    "effective_min_at_354px": 12.0,
+    "purpose": "1969 年 Seiko Quartz Astron 石英表",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons，CC BY-SA 4.0，Deutsches Uhrenmuseum"
+  },
+  {
+    "path": "assets/09-movement.jpg",
+    "width": 456,
+    "height": 456,
+    "min_label_px": 36,
+    "effective_min_at_354px": 12.0,
+    "purpose": "精工 35A 机芯（第一块石英表的机芯）",
+    "identity": "真实照片",
+    "source": "Wikimedia Commons，CC BY 3.0 de，Deutsches Uhrenmuseum"
+  },
+  {
+    "path": "assets/10-ladder.png",
+    "width": 1062,
+    "height": 1164,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "各类计时器的精度",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-parabola.png",
+    "width": 1062,
+    "height": 978,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "音叉晶振的温度特性",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-month-drift.png",
+    "width": 1062,
+    "height": 979,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "一个月里的累计误差",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-error-budget.png",
+    "width": 1062,
+    "height": 750,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "月误差的来源分解",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-ppm-table.png",
+    "width": 1062,
+    "height": 749,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "ppm 与秒的换算",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-power.png",
+    "width": 1062,
+    "height": 806,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "功耗与电池寿命",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-timeline.png",
+    "width": 1062,
+    "height": 834,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "石英表的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-tcxo.png",
+    "width": 1062,
+    "height": 746,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "温度补偿振荡器的原理",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-errors.png",
+    "width": 1062,
+    "height": 1086,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "石英表的误差来源",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/19-chain.png",
+    "width": 1062,
+    "height": 892,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "从晶振到秒针",
+    "identity": "原创教学示意"
+  }
+]

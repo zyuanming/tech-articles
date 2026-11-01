@@ -1,0 +1,1 @@
+{"python":"3.14.7","third_party":["Pillow 12.3.0（仅 build_figures.py 用来缩放和保存图片）"],"note":"quartz.py 与 run_model.py 只用标准库；build_figures.py 需要 Pillow。","generated":"2026-11-09"}
