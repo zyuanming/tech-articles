@@ -1,0 +1,10 @@
+{
+ "python": "3.14.7",
+ "pillow": "12.3.0",
+ "numpy": null,
+ "fonts": [
+  "/System/Library/Fonts/Hiragino Sans GB.ttc",
+  "/System/Library/Fonts/Menlo.ttc"
+ ],
+ "notes": "pd.py 与 run_model.py 只用标准库（CRC-32、BMC 编解码、4b5b 查表、PD 报文组帧、功率规则表、PPS 量化、线损计算）；build_figures.py 需要 Pillow 与上述两款系统字体。"
+}

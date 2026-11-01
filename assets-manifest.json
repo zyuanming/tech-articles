@@ -31090,6 +31090,156 @@
     "sha256": "26a22c0c1715e90bdd4dce92dc5f77ceb96dc36cd349523d351693553e1f624c"
   },
   {
+    "path": "articles/2026-12-28-usb-c-power-delivery/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/01-plug.jpg",
+    "bytes": 205469,
+    "sha256": "b15a0fc6e3c1dc59669a5e2e2f1f4d6cf60587653a6bb3ade5b6c3031761b5a7"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/02-cc-circuit.png",
+    "bytes": 179987,
+    "sha256": "86a3d3fc8b8c3d0d8cc482e539eab0e449776070f5a42e70d4fb00234cf695c0"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/03-cc-levels.png",
+    "bytes": 178054,
+    "sha256": "1b16c3905bc195a5d36d560bd17ae235a57ace090fddea472d9df198bac6cfcd"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/04-flip.png",
+    "bytes": 194115,
+    "sha256": "8fd26da7686b2030406e6d82c7966be1a10cbe04dd6244a04357d70d44bc9f27"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/05-bmc.png",
+    "bytes": 113550,
+    "sha256": "0e0893aa2234d8448405c370bc929e3c5c38af4393c904bed399415a86c4a42f"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/06-window.png",
+    "bytes": 234817,
+    "sha256": "bc6ebd8524608a84db39b732ad6b39afe9121e67375c442b284d9a43f78a97f1"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/07-frame.png",
+    "bytes": 162088,
+    "sha256": "204fdf38a25ef5c219db740731f16fc46fb9622804ce2105bf14629542281a98"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/08-runlength.png",
+    "bytes": 224208,
+    "sha256": "bc7dc1acd4569620445fe5539173a2b9e3d793bdfcbef9ff9a13c5250f6b4384"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/09-header.png",
+    "bytes": 157423,
+    "sha256": "82e5b1bde84ca5230854a127048b53cae0b308a1afc66cc79b16eeefa4341a82"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/10-pdo.png",
+    "bytes": 179708,
+    "sha256": "0cf6c011d6a16b01b0f01daeb0ab1f851f77ec57ffa3377a141785c84af92166"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/11-trace.png",
+    "bytes": 120463,
+    "sha256": "b6ea14bf4381bd763bab24b15efd797852fe61f9f19ee8ec2bae74982599a09f"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/12-rules.png",
+    "bytes": 267835,
+    "sha256": "3a7258d426b97f9eb1112b7a4bdf75df4cf6b076f54f3eac2caba3f43bd646b8"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/13-cable.jpg",
+    "bytes": 208159,
+    "sha256": "5c12913fa9561846861b61aaf1dc2c93cb04349be7d94edc2a3e0c0c107fd63d"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/14-emarker.png",
+    "bytes": 213020,
+    "sha256": "54ea876cf00df4c5abafca89cabe56c9684de8fac9e644961e74fe4bba69bd12"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/15-loss.png",
+    "bytes": 191682,
+    "sha256": "248f4c6f5407e84ebc2b4ef0470766453996787136b2699f18e1beab975782bc"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/16-pps.png",
+    "bytes": 280623,
+    "sha256": "09269b2cf875881bc6d447bd83197a77c8c2899321cb2ee834ed349462b0dbba"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/17-port.jpg",
+    "bytes": 460794,
+    "sha256": "cef0ea9d06928de74cc62bc4415e51e05bce70d207b8c1bd2b7179c2c022cc31"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/assets/18-takeaways.png",
+    "bytes": 196107,
+    "sha256": "42737a19bf735860dc0e7b8c9e8b39044ef3db356e1226461e6479c89b5cc8f0"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/cover.png",
+    "bytes": 80421,
+    "sha256": "aa12eb6758d61326389dd06cc46122c70547d11971d242322d312d828ee47c55"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/build_figures.py",
+    "bytes": 34742,
+    "sha256": "b0c0ac4b193440d2202d187945af5df922440255f0a53fe8b4af1d8d3a451443"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/figure-metadata.json",
+    "bytes": 4702,
+    "sha256": "231de72fd8fa6687112d73d4e1dd5af45c1aca41996b533c0df0a364e484956d"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/pd.py",
+    "bytes": 20920,
+    "sha256": "00781910086f7c40d39cc7a290f49e77d18ace6141edfec09d185d3dca2859d3"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/results.json",
+    "bytes": 27559,
+    "sha256": "c0acc23b7aca52c6cbd8d7f5fc68863798e9ffd73397954a9f717a776891de68"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/run-environment.json",
+    "bytes": 383,
+    "sha256": "3f8e0619a2e452e4c5fd53d9a637f959a04fff9a4ed5924e8889d5aed568f8ac"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/examples/run_model.py",
+    "bytes": 400,
+    "sha256": "d16f263d26ef9232536dd5cedfaaf5887031bb91e13afbd36ba20ba053eefec2"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/originals/USB-C_cable_2017_A.jpg",
+    "bytes": 1578741,
+    "sha256": "82712f57b3037dee294d2ac0e213cf42b0988ac00acd715c5593a6a564813b66"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/originals/USB-C_connector_on_a_laptop.jpg",
+    "bytes": 3675036,
+    "sha256": "63b48585b9dd6c396997ebd5e0d43a413c787bde465c1f91a00e417eeebda0d7"
+  },
+  {
+    "path": "articles/2026-12-28-usb-c-power-delivery/originals/USB_Type-C_plug_20170626_crop.jpg",
+    "bytes": 1346470,
+    "sha256": "30e608fa2a7f62ed2636cafdf382177168fdfe1e4559442a1b17b582862c44b9"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

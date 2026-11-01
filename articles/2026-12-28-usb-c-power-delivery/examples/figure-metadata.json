@@ -1,0 +1,167 @@
+[
+ {
+  "path": "assets/01-plug.jpg",
+  "width": 1062,
+  "height": 1051,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "USB-C 插头实物：一个扁平的椭圆口，正反都能插",
+  "identity": "真实照片",
+  "source": "Santeri Viinamäki, CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/02-cc-circuit.png",
+  "width": 1062,
+  "height": 1108,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "CC 引脚上的恒流源与下拉电阻，以及它产生的电压",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-cc-levels.png",
+  "width": 1062,
+  "height": 1081,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三档 Rp 在 5.1 kΩ 上产生的 CC 电压，与三个合法区间",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-flip.png",
+  "width": 1062,
+  "height": 1029,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "正插与反插两种情形下，哪一脚被拉低以及供电端的读数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-bmc.png",
+  "width": 1062,
+  "height": 797,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "比特 1 0 1 1 0 0 1 0 的 BMC 波形、跳变次数与两个采样点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-window.png",
+  "width": 1062,
+  "height": 1535,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "比特错误数随采样相位偏差、随时钟频率差的实测曲线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-frame.png",
+  "width": 1062,
+  "height": 1058,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Source_Capabilities 帧的字段长度，以及 4b5b、BMC 之后的位数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-runlength.png",
+  "width": 1062,
+  "height": 1136,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "编码前后最长相同比特段的实测对比，以及全零负载的对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-header.png",
+  "width": 1062,
+  "height": 903,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一条 Source_Capabilities 消息的 16 位头逐字段解码",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-pdo.png",
+  "width": 1062,
+  "height": 1118,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "固定电压 PDO 的 32 位字段划分，以及 20 V / 3.25 A 的编码",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-trace.png",
+  "width": 1062,
+  "height": 885,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "插上之后 0 - 350 ms 内 Vbus 的变化与三次握手的位置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-rules.png",
+  "width": 1062,
+  "height": 1274,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "USB PD 的功率档位、电压电流上限与对应的线缆要求",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-cable.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "一根两端都是 USB-C 的线缆：两端插头一样，方向也一样",
+  "identity": "真实照片",
+  "source": "Fructibus, CC0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/14-emarker.png",
+  "width": 1062,
+  "height": 1103,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种线缆的身份、电流与电压上限，以及由此决定的最高功率",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-loss.png",
+  "width": 1062,
+  "height": 1284,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "同样 100 W 在 5 - 48 V 各档电压下的线缆损耗与电流",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-pps.png",
+  "width": 1062,
+  "height": 1536,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "PPS 的 20 mV 步长、量化误差，以及补偿线阻需要的步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-port.jpg",
+  "width": 1062,
+  "height": 1416,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "笔记本电脑侧面的 USB-C 母座：上下两排触点，正反都能对上",
+  "identity": "真实照片",
+  "source": "Logant547, CC BY 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 808,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文五个结论",
+  "identity": "原创教学示意"
+ }
+]
