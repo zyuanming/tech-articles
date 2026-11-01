@@ -30660,6 +30660,151 @@
     "sha256": "beca7bcafb63d46216de2fd2f1cb9aaef66322a0bb7bf9dcc26ca0d0782b1859"
   },
   {
+    "path": "articles/2026-12-07-dynamo-read-repair/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/01-overview.png",
+    "bytes": 158275,
+    "sha256": "d29e476034823dae7804f40a952e96a0b38e8b078f5e50d108e33e20944df772"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/02-rack.jpg",
+    "bytes": 546766,
+    "sha256": "06a0ea84e2f6426e9946f95041d6d5aaef4a26a4fcd1549b3e70870c66a9ee16"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/03-ring.png",
+    "bytes": 109409,
+    "sha256": "78001ae60a798a7bb687e2fc2669c4d0f4b0f9efde75148ed6c21e7377d7d568"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/04-quorum.png",
+    "bytes": 212970,
+    "sha256": "b1088bdedee3c18fad2f17276b999af727bb66085392f467242c7796d52d1ee9"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/05-quorum-table.png",
+    "bytes": 191592,
+    "sha256": "bb012aad81f3579e48f074a5b178d869eec814821db5d9f0bbf1ccc2e6af9926"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/06-stale-bars.png",
+    "bytes": 231710,
+    "sha256": "78152ff8582893be439d8dc95c305fc508febeff2180eaac33f287ba7d5a41ee"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/07-trace.png",
+    "bytes": 137938,
+    "sha256": "736f6349ac237ec7a7824a1457927d39590c91d58eb1b04f3dd52b01159ed3d2"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/08-repair-flow.png",
+    "bytes": 196961,
+    "sha256": "efb0e4d16c85ea370200b3bee743f7bf155a7937dff5e7501f7ee5797a3d47a3"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/09-converge.png",
+    "bytes": 196285,
+    "sha256": "0058a4c869628f72d5e7f36dcf7eeae74788f6019118da7dfe71f593c243f919"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/10-hints.png",
+    "bytes": 201141,
+    "sha256": "f45cf5ee48102904716464e6f4801791d6c15f976a43f9a1ef978b557d520ea0"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/11-hint-ttl.png",
+    "bytes": 181683,
+    "sha256": "81ca01699cf3dbd14db4ac1a83bde5a4daa484b229b52ba516bc4b67d3c2f35d"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/12-ages.png",
+    "bytes": 145754,
+    "sha256": "2d417e43dff7943ccbc04f5f247374e9b0e5868858cd56d6583bc79b21352bbd"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/13-merkle.png",
+    "bytes": 238450,
+    "sha256": "1e6f052b62d8e82967627280b39894491770e31e438bc0b4ac2d0615e222ed67"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/14-hdd.jpg",
+    "bytes": 121873,
+    "sha256": "1cd77f32f577317ce7ba64b35b4c867e5f138d6e0782e248c798889b5af7ab72"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/15-vector-clock.png",
+    "bytes": 183937,
+    "sha256": "240af199650d06b15c2661aa0e420bbd5ad600527f8d08844943653680540205"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/16-latency.png",
+    "bytes": 189093,
+    "sha256": "a06473ff67806c5822b3169a0c733722f1833156d1f34819e9906a400dcc6bec"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/17-timeline.png",
+    "bytes": 213940,
+    "sha256": "a47aa80b3f8bf75ab6ebc016c0e515ec00007de10fa07b04694f066966a932f3"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/assets/18-takeaways.png",
+    "bytes": 240730,
+    "sha256": "0558a70b4003ba1afd808031e812f98a7493bc939fe3e1a4f1c28536c9ab8469"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/cover.png",
+    "bytes": 59720,
+    "sha256": "ad7f6fb3ffdde5e86c228715117ec3a3819159a03c04a5c315f5fa99e24cdabc"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/build_figures.py",
+    "bytes": 34945,
+    "sha256": "6973a5cbe350a6425e3fa37c8106c9c64229e13d6ae6f4e3ebedec4a7a229c19"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/dynamo.py",
+    "bytes": 17170,
+    "sha256": "2e02d964a2c1822e12e207b98a5be2d741b5eccbf88be491c929aec87fa2f93d"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/figure-metadata.json",
+    "bytes": 4112,
+    "sha256": "298bfb0c03c9c7e43191470ff0cb1657cde5995923b7b3885e84e93a7b4356d3"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/results.json",
+    "bytes": 81373,
+    "sha256": "1a3f5688c2b70d39c1296d99c41d4971def41d092baebf3ee1d461ff3011c6aa"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/run-environment.json",
+    "bytes": 363,
+    "sha256": "0477b7b82b95bbe34fda650a488e6e136c5b4f4a135eff28dd80cc0dace58292"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/examples/run_model.py",
+    "bytes": 422,
+    "sha256": "dbdbad3ebe3e200b7b9f7bb2b77ada73472ccc484d8012af459c604f7c7ecb61"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/originals/Open_hard-drive.jpg",
+    "bytes": 760620,
+    "sha256": "d5d1fd7e0577364a4bde3d7c46aef148f896d94ca711b251fb9b23b19ea60069"
+  },
+  {
+    "path": "articles/2026-12-07-dynamo-read-repair/originals/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+    "bytes": 2776125,
+    "sha256": "5d4d383730b304c53e948f885a920ef524170023589391dbf0a1cfb27cd48e24"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

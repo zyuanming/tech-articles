@@ -1,0 +1,166 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 977,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三个副本中有一个落后一个版本",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-rack.jpg",
+  "width": 1062,
+  "height": 1598,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "机柜背面的网线与服务器",
+  "identity": "真实照片",
+  "source": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg"
+ },
+ {
+  "path": "assets/03-ring.png",
+  "width": 1062,
+  "height": 1068,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "一致性哈希环与一个键的三个副本",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-quorum.png",
+  "width": 1062,
+  "height": 1267,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "法定人数读写集的相交关系",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-quorum-table.png",
+  "width": 1062,
+  "height": 1001,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "法定人数相交概率表",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-stale-bars.png",
+  "width": 1062,
+  "height": 1243,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "七种策略的旧值读取比例",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-trace.png",
+  "width": 1062,
+  "height": 986,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一次运行中落后副本数随时间的变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-repair-flow.png",
+  "width": 1062,
+  "height": 1173,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "读修复的消息流程",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-converge.png",
+  "width": 1062,
+  "height": 1081,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "停止写入后三种修复策略的收敛速度",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-hints.png",
+  "width": 1062,
+  "height": 1196,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "暗示移交的四个步骤",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-hint-ttl.png",
+  "width": 1062,
+  "height": 941,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "暗示回放与丢掉的对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-ages.png",
+  "width": 1062,
+  "height": 1125,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "各方案结束时副本落后的版本数分布",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-merkle.png",
+  "width": 1062,
+  "height": 1205,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Merkle 树对比的代价",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-hdd.jpg",
+  "width": 1062,
+  "height": 926,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "拆开的机械硬盘",
+  "identity": "真实照片",
+  "source": "https://commons.wikimedia.org/wiki/File:Open_hard-drive.jpg"
+ },
+ {
+  "path": "assets/15-vector-clock.png",
+  "width": 1062,
+  "height": 1017,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "并发写产生的两个版本",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-latency.png",
+  "width": 1062,
+  "height": 1037,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "R 与延迟、旧值比例的权衡",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-timeline.png",
+  "width": 1062,
+  "height": 1106,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Dynamo 与后续系统的时间线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 944,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文结论",
+  "identity": "原创教学示意"
+ }
+]

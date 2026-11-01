@@ -3198,5 +3198,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-12-07-dynamo-read-repair",
+    "title": "三个副本，一个落后：读修复与暗示移交",
+    "date": "2026-12-07",
+    "path": "articles/2026-12-07-dynamo-read-repair/read.md",
+    "public_sha256": "916b7e3a86d36e8fdadda83f579133a35ec8f8873bc06ccf3803049ac41f9ccc",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
