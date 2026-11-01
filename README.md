@@ -1,81 +1,67 @@
 # tech-articles
 
-公开技术文章、科普长文与配图的独立存档。一份 Markdown 正文与相对路径素材同时服务微信公众号排版和网页阅读；公众号是主要发布渠道，网页是辅助展示。
+中文技术长文的公开存档。每篇都从一个人能想明白的问题出发，走到能手算、能跑代码、能说清边界的地方。
+
+## 在线阅读
+
+**https://zyuanming.github.io/tech-articles/**
+
+首页可按标题搜索、按日期筛选。单篇网页的地址形如：
+
+```
+https://zyuanming.github.io/tech-articles/articles/2026-11-02-lz77-sliding-window/read.html
+```
+
+也可以直接在 GitHub 里点 `articles/<slug>/read.md` 看 Markdown 原文，图片用相对路径，会正常显示。
+
+网站由 GitHub Pages 自动构建：push 到 `main` 后，`.github/workflows/pages.yml` 跑校验、生成 `_site/` 并发布。**网页是从 `read.md` 派生出来的，不是另一份要手工维护的正文。**
+
+全部篇目（标题、日期、图片数、正文 sha256）在 [catalog.json](catalog.json) 里。
+
+## 一篇长什么样
+
+```
+articles/2026-11-02-lz77-sliding-window/
+  read.md                正文。唯一的正文，网页和公众号都从它生成
+  sources.md             来源、引文位置、图片出处与许可、写明的缺口
+  review.md              审读记录：审的哪个版本、查了哪几条线、哪些没做（2026-11 起随文提交）
+  assets/                正文实际引用的图（相对路径）
+  originals/             未改动的原始下载文件（有第三方素材时才有）
+  cover.png              这篇文章自己的封面
+  examples/              可运行的模型：程序、results.json、绘图脚本、元数据
+  README.md              这篇怎么跑、踩了什么坑
+  LICENSE-CODE.txt       示例代码许可（带示例程序的文章才有，多为 MIT）
+```
+
+每篇都遵守三条：
+
+- **数字是跑出来的。** 正文里的数值由 `examples/` 下的程序实际算出并存进 `results.json`；图里的曲线从同一个文件读，不手画。改代码能让数字变，数字不能为了好看改。
+- **真实和示意分开标。** 照片写明谁拍的、什么许可；示意图标为原创示意；两者不混，也不拿生成图冒充现场、人物或设备。
+- **来源写到读到的程度。** 读了全文、只读到摘要、还是根本没有原始档案，`sources.md` 里逐条写；核不了的就写"没核"，不写成"已核实"。
 
 ## 许可
 
 除非另有说明，本仓库由 zyuanming 发布的原创文章正文采用 [Creative Commons Attribution 4.0 International（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/) 许可。转载、改编和商业使用均应按许可要求署名、链接原文及许可，并注明修改。完整条款见 [CC BY 4.0 法律文本](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)。
 
-第三方图片、原文引用、商标及其他第三方素材不适用上述统一授权；其权利仍归各自权利人，复用时须遵循每篇文章和素材来源中列明的许可、署名及其他要求。未标注开放许可的素材，不因收录在本仓库而获得再授权。
+第三方图片、原文引用、商标及其他第三方素材不适用上述统一授权；其权利仍归各自权利人，复用时须遵循每篇文章和素材来源中列明的许可、署名及其他要求。未标注开放许可的素材，不因收录在本仓库而获得再授权。带示例程序的文章在自己的目录里附 `LICENSE-CODE.txt`，代码许可以那份为准。
 
-## 内容组织
+## 在本地构建
 
-当前收录 269 份文章版本（含 1 份技术教学试稿及 1 份待补真实素材稿）；同题不同成稿保留相互链接，不把版本数当成独立选题数。文章目录见 [catalog.json](catalog.json)。
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements-site.txt
 
-每篇位于 `articles/YYYY-MM-DD-slug/read.md`，图片使用相对路径。正文中的原有来源与事实边界保持，额外许可信息见各篇 `sources.md`。CERN NeXT 照片因分发条款限制，仅链接官方原页。内部研究资料、审读记录、凭据、运行日志及公众号后台状态不属于这个公开存档。
+python3 tools/index_articles.py      # 刷新 catalog.json；改了 read.md 之后必须跑
+python3 tools/validate_content.py    # 离线校验：id 唯一、hash 对得上、本地链接不逃逸、拒绝私有产物
+python3 tools/build_site.py          # 生成 _site/，输出目录必须为空
+```
 
-这是全新的独立仓库，不包含写作工程的私有 Git 历史。
+`validate_content.py` 会拿 `catalog.json` 里冻结的 sha256 和实际正文比对——只改正文不重跑 `index_articles.py`，它会直接报 `Article hash mismatch`。这是有意的：网页、索引和正文必须是同一个版本。
 
-## 更新文章与阅读网站
+## 关于这个仓库
 
-1. 在对应文章目录修改 `read.md` 与配图；保留高清原件、署名和许可通知。
-2. 运行 `python tools/index_articles.py` 更新阅读目录及文件校验记录。
-3. 运行 `python tools/validate_content.py` 检查正文、相对链接与素材字节。
-4. 如需本地网站，安装 `requirements-site.txt` 后运行 `python tools/build_site.py`；静态输出位于 `_site/`。网站 HTML 完全由 Markdown 派生，不是第二份手工维护的正文。
+公众号是主要发布渠道，这里是同源的公开存档。本仓库**只放定稿**，不放草稿、内部研究资料、审读过程日志、公众号凭据或后台状态；也不包含写作工程的私有 Git 历史。
 
-公众号使用同一份 Markdown 和相对素材，在私有发布工程中加载真实 hash 绑定审读、视觉许可记录与独立封面。缺少这些输入时如实停在待补状态；公开归档或网站上线都不代表已经上传公众号。公开仓库不保存公众号凭据或后台状态。
+- 写作与配图规则：[AGENTS.md](AGENTS.md)
+- 2026 年 10 月各批次的目录页（历史归档，逐篇链接）：[docs/](docs/)
 
-受限图片的私有补充只放在私有工程，按各自许可使用；不扩大本仓库的素材授权。
-
-## 学生探索系列
-
-新增十篇由直觉问题逐步走到手算、实验与适用边界，覆盖游戏引擎、几何算法、信号与分布式系统，共184幅正文配图。阅读入口见 [学生探索系列](docs/student-exploration-2026-10-11.md)。教程代码与采样音频是相应文章的附属实验，使用限制见各篇说明。
-
-新的六条探索路线正逐篇增加，已入库文章见 [探索系列续篇](docs/student-exploration-series-2026-10-11.md)。目录只列实际可读的完整成稿。
-
-写作与配图约定见 [AGENTS.md](AGENTS.md)；它们约束后续新增内容，不回写历史成稿。
-
-
-## 新30篇探索文章已收录
-
-本批30篇完整成稿现已全部入库，保留原配图、出处及配套实验。最后七篇：
-
-- [都分到位置了，为什么还想偷偷换？稳定匹配先学会“暂时答应”](articles/2026-10-12-stable-matching-no-blocking-pair/read.md)
-- [已经显示“保存成功”，断电后还算数吗？WAL把承诺写在修改前面](articles/2026-10-12-wal-crash-recovery/read.md)
-- [两台数据库都说“准备好了”，为什么还不能各自决定？两阶段提交把一声YES变成承诺](articles/2026-10-12-two-phase-commit-prepared/read.md)
-- [锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”](articles/2026-10-12-leases-fencing-old-worker/read.md)
-- [只沿着边缘走一圈，仪器怎么知道里面有多大？](articles/2026-10-12-planimeter-area-from-boundary/read.md)
-- [让轮子压在圆盘上，怎么就开始解微分方程？](articles/2026-10-12-differential-analyzer-wheel-disc/read.md)
-- [一柜子齿轮，怎样提前画出明年的潮汐？](articles/2026-10-12-tide-predictor-harmonic-machine/read.md)
-
-## 继续给好奇心留台阶
-
-2026年10月13日起的新一批探索文章逐篇增加，完整成稿入口见[新一轮学生探索](docs/student-exploration-series-2026-10-13.md)。目录仅收录已完成的文章。
-
-## 写给高中生：三个反直觉的数学问题
-
-2026年10月17日完成三篇面向零基础读者的文章：蒙提霍尔问题、哥尼斯堡七桥、康托尔的无穷。三篇的结论都能用纸笔复核，代码用来把论证里能跑的部分实际跑出来。入口见[三篇目录](docs/student-exploration-series-2026-10-17.md)。
-
-## 三个可以自己跑起来的问题
-
-2026年10月17日完成的另外三篇，面向会写一点代码的读者：浮点数的 0.1 + 0.2、PID 控制器、Raft 共识。三篇都自带可运行的模型，正文里的每个数字都由模型实际跑出来。入口见[三篇目录](docs/student-exploration-series-2026-10-17-b.md)。
-
-## 从最短路径到电子束
-
-2026年10月16日完成三篇长文：用真实棋盘走通搜索与剪枝、用一套可运行的显示模型讲清 Atari 2600 为什么没有显存、用真实文件修订讲清 diff 的最短编辑路径。完整入口见[三篇长文目录](docs/student-exploration-series-2026-10-16.md)；程序绘图的自检要求见[技术图的生产与自检](docs/figure-production-2026-10-16.md)。
-
-## 从零看懂 Doom
-
-从真实游戏画面和基础对象开始，逐篇理解地图、屏幕与遮挡。已完成文章见[独立 Doom 入门系列](docs/doom-from-zero-2026-10-13.md)；旧有 Doom/BSP 文章保持原样。
-
-## 2026年10月23日：从算法到技术史
-
-新增30篇完整文章版本，含473张配图和1处受限原图的原站查看链接。算法、图形、并发与历史主题均保留来源和适用边界；相关旧版本继续保留并相互关联。入口见[本批文章目录](docs/student-exploration-series-2026-10-23.md)。
-
-## 2026年10月24日：再往原理里走一步
-
-新增30篇原创长文、378张正文配图，覆盖算法、图形、数学与控制、并行系统、技术人物和科学仪器。逐步算例、反例与模型范围随文保留，真实素材另列来源和许可。入口见[本批30篇目录](docs/student-exploration-series-2026-10-24.md)。
-
-## 2026年10月25日：逐篇重写 r1
-
-本批已有 29 篇正式审读通过稿；另先公开 1 篇标明具体缺口的待补真实素材稿，整体仍为 HOLD，不计入正式通过数。旧稿保持原样。正文与状态见[本批文章目录](docs/student-exploration-series-2026-10-25-r1.md)。
+发现错别字、事实错误、图片署名或许可问题，开一个 issue 就行，别客气——正文里的每个数字都有对应程序，改起来不难。
