@@ -28996,18 +28996,18 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/09-sitting-duck.png",
-    "bytes": 82060,
-    "sha256": "204edb607f8af67c4a57913f92c84dcca399afa34b08d37420cf7063f197a901"
+    "bytes": 149118,
+    "sha256": "d413a5745b117f3ef5b8e8f3d97f8ee3c4eb4913f63b6cc38ffd86a87c17b821"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/10-hopping.png",
-    "bytes": 81589,
-    "sha256": "9d000afd5734bc5e86a40049cadb767ad00f27105db92b7506944a0bb0054ede"
+    "bytes": 160186,
+    "sha256": "b3a4a96c918c27c440da5158eba0d60a21afc674daaefe75723079cae687941d"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/11-sequence.png",
-    "bytes": 136597,
-    "sha256": "9bf96571d808d5ce67677841ea4bea38f0a39753d6ccf91301cb33a53afc7e50"
+    "bytes": 188114,
+    "sha256": "26d514a850488fac6b3a81b873d290ecadf5a81a2c315aadf5998773c7912070"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/assets/12-power.png",
@@ -29056,13 +29056,13 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/build_figures.py",
-    "bytes": 21207,
-    "sha256": "b55a69e0d97beb4cd43eb61ad63c1728110be42a3e1c2487322d01530738917b"
+    "bytes": 23774,
+    "sha256": "63a2eeb586b433ee60a16a5a8a24174d722e959bda3ba57f54236b90b5f30677"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/fh.py",
-    "bytes": 11783,
-    "sha256": "25cc453eafba94a15bd4857e4173a535844cdb7c7c4b468fa541f91156d0c8f8"
+    "bytes": 12743,
+    "sha256": "ba2da784009bf4d2c66143b406154e2daa3997517411f822be229578849e0060"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/figkit.py",
@@ -29071,8 +29071,8 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/figure-metadata.json",
-    "bytes": 4732,
-    "sha256": "cbb27a8be9227a542154ea05aa011a1eb5409c5781ed4388665564e271bc7e22"
+    "bytes": 4756,
+    "sha256": "590a9db0c616f21df7271a120ccf7902b8720e39e101291873df8b259ab7d4e1"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/photos.py",
@@ -29081,8 +29081,8 @@
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/results.json",
-    "bytes": 11929,
-    "sha256": "cbadf4e8e830ca710a725f576bc2b04de7f03e09c48d59e70b5ca99ee53e7389"
+    "bytes": 21353,
+    "sha256": "c1f158e0110fdabfe7071ac73b61fc3b3ef7aaf70894f7a4487a2c6e44b087d6"
   },
   {
     "path": "articles/2026-11-02-frequency-hopping-lamarr/examples/run-environment.json",

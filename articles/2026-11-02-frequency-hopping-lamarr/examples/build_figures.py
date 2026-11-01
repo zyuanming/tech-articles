@@ -158,7 +158,7 @@ def fig01():
     save(fig, '01-two-worlds.png', '定频与跳频在同一张时频图上的对比')
 
 
-def fig07():
+def fig08():
     fig, y = new(8, '88 个键，88 个频率', '专利原文：一份钢琴卷纸上有 88 行孔，'
                  '在我们的系统里，它就对应 88 个不同的载波频率。')
     cell = 11
@@ -193,7 +193,7 @@ def fig07():
     save(fig, '08-keys.png', '88 个钢琴键与 88 个频点的对应')
 
 
-def fig08():
+def fig07():
     fig, y = new(7, '一份卷纸决定下一跳', '纸上的孔位闭合一排开关，开关切换电容，'
                  '电容决定这一瞬间发射机停在哪。')
     rows = R['strip']
@@ -234,59 +234,102 @@ def fig08():
 
 
 def fig09():
-    fig, y = new(11, '四千跳里，88 个频点都去过', '跳频序列不需要随机数发生器，'
-                 '一个 16 位移位寄存器就够了。')
-    hops = R['waterfall'][:64]
-    cell = 13
-    h = N * cell
-    x0 = 60
-    grid(fig, x0, y, cell, [(i, ch) for (i, ch) in hops], N,
-         lambda ch, j: TEAL if ch % 3 else BLUE)
-    y += h + 60
-    s = R['sequence']
-    cols = [(60, 'la'), (300, 'la'), (620, 'la')]
+    fig, y = new(9, '定频：坐在靶心上',
+                 '88 个频点，你一直用其中一个。干扰者知道是哪个，也不用再找。')
+    a = R['aimed']
+    cell = 10
+    x0 = 92
+    h = 150
+    hot = 22                      # where the slice sits on the drawing only
+    fig.text((x0 + N * cell / 2, y), '干扰者知道你在哪个频点，把 %.0f 倍功率'
+             '全放进去' % a['total'], 40, color=RED, anchor='ma')
+    fig.arrow((x0 + N * cell / 2 - 60, y + 62), (x0 + hot * cell + 4, y + h - 6),
+              color=RED, width=8, head=18)
+    ytop = y + h
+    fig.rect(x0, ytop, x0 + N * cell, ytop + h, fill=WHITE, outline=GRAY,
+             width=3)
+    for i in range(1, N):
+        fig.line((x0 + i * cell, ytop), (x0 + i * cell, ytop + h),
+                 color=LIGHT, width=2)
+    fig.rect(x0 + hot * cell, ytop - 26, x0 + (hot + 1) * cell, ytop + h,
+             fill=AMBER, outline=AMBER)
+    fig.text((x0, ytop + h + 16), 'f₁', 40, color=GRAY)
+    fig.text((x0 + N * cell, ytop + h + 16), 'f₈₈', 40, color=GRAY, anchor='ra')
+    y = ytop + h + 110
     rows = [
-        [('跳数', INK, False), ('用到的频点', INK, False), ('均匀性 χ²', INK, False)],
-        [('%d' % s['hops'], TEAL, True), ('%d / %d' % (s['used'], N), TEAL, True),
-         ('%.1f' % s['chi2'], TEAL, True)],
+        [('干扰机总功率', INK, False),
+         ('%.0f× 信号（%.1f dB）' % (a['total'], a['total_db']), TEAL, True)],
+        [('盖住的频带', INK, False), ('1 / %d' % N, TEAL, True)],
+        [('落进这一个频点', INK, False),
+         ('%.0f ÷ (1/%d × %d) = %.0f×' % (a['total'], N, N, a['per_channel']),
+          RED, True)],
+        [('本文的门槛（10 dB）', INK, False), ('%.0f×' % a['limit'], INK, False)],
     ]
-    y = table(fig, y, cols, rows)
-    y = note(fig, y, 'χ² 的理论期望值就是自由度 87。我这次算出 %.1f——看着很像随机，'
-                     '其实是确定性电路。' % s['chi2'])
-    y = note(fig, y, '四千跳里「和上一跳相同」出现 %d 次，预期的 1/88 是 %.0f 次。'
-              % (s['same_as_previous'], s['hops'] / N))
-    save(fig, '11-sequence.png', '跳频序列与均匀性检查')
+    y = table(fig, y, [(60, 'la'), (1014, 'ra')], rows)
+    y = note(fig, y, '干扰者不需要盖住全部时间，只要在某一跳上让 J/S 越过门槛。'
+                     '而它连猜都不用猜——你不会动。')
+    save(fig, '09-sitting-duck.png', '定频：干扰者把功率集中在一个频点上')
 
 
 def fig10():
-    fig, y = new(9, '定频：坐在靶心上', '发射机不动，干扰者也不需要动。')
-    cell = 13
-    x0 = 60
-    hops = [(i, 0, True) for i in range(60)]
-    grid(fig, x0, y, cell, hops, N, lambda ch, j: RED)
-    # the jammer band
-    fig.rect(x0 - 6, y + (N - 1) * cell - 6, x0 + 60 * cell,
-             y + N * cell, fill=None, outline=RED, width=4, radius=0)
-    y += N * cell + 60
-    y = bullets(fig, y, [
-        '60 跳全在同一个频点上，60 个格子全红。',
-        '要打断它，干扰功率只需要信号的 10 倍——本文模型里那个「10 dB」的门槛。',
-    ], accent=RED)
-    save(fig, '09-sitting-duck.png', '定频链路被窄带干扰全面压制')
+    fig, y = new(10, '跳起来之后',
+                 '干扰者还是盖住 18 个频点（88 的 20%），'
+                 '但它得先猜中你下一跳去哪。')
+    pk = R['parked']
+    hops = R['waterfall_parked']
+    n = len(hops)
+    box = (300, y + 40, 990, y + 400)
+    p = Plot(fig, box, (0, n), (0, N))
+    band_top = p.py(pk['band'])
+    fig.rect(box[0] + 2, band_top, box[2] - 2, box[3], fill=TINT_R, outline=None)
+    fig.line((box[0], band_top), (box[2], band_top), color=RED, width=5)
+    p.line([(i, ch) for (i, ch, _j) in hops], INK_SOFT, width=3)
+    for (i, ch, j) in hops:
+        if j:
+            p.dot(i, ch, RED, r=9)
+    p.axes(xticks=(0, 50, 100, 150, 200), yticks=(0, pk['band'], 44, 88),
+           xlab='跳数（前 %d 跳）' % n, ylab='频点编号')
+    fig.text((box[0] + 16, band_top + 14), '%d 个频点被盖住' % pk['band'],
+             40, color=RED)
+    y = box[3] + 132
+    hit = sum(1 for (_i, _c, j) in hops if j)
+    y = note(fig, y, '红点是这一跳被打断：前 %d 跳里 %d 次，%.0f%%。四千跳整体是 '
+                     '%.1f%%——%d 个样本的涨落就有这么大。'
+              % (n, hit, 100.0 * hit / n, 100 * pk['share'], n))
+    y = note(fig, y, '要盖住这 %d 个频点，每个频点还得留 %.0f 倍功率，总共 %.0f 倍。'
+                     '买到的就是上面那些红点。'
+              % (pk['band'], R['aimed']['limit'], pk['needed']))
+    save(fig, '10-hopping.png', '跳频链路的时频轨迹与部分频带干扰')
 
 
 def fig11():
-    fig, y = new(10, '跳频：干扰者得先猜中', '挡住 20% 的频点，'
-                 '打断的跳也只有 21%。')
-    cell = 13
-    x0 = 60
-    hops = R['waterfall_parked']
-    grid(fig, x0, y, cell, hops, N,
-         lambda ch, j: RED if j else (TINT_B if ch % 2 else TINT_T))
-    y += N * cell + 50
-    y = note(fig, y, '红格是「这一跳落在被挡的 18 个频点里」。'
-                     '干扰者付了 176 倍功率，换来 21% 的破坏率。')
-    save(fig, '10-hopping.png', '跳频链路对部分频带干扰的时频图')
+    fig, y = new(11, '四千跳，88 个频点各去了几次',
+                 '一个 16 位移位寄存器就够了：要的是收发两边算得一样，'
+                 '不是「真随机」。')
+    s = R['sequence']
+    hist = R['channel_hist']
+    exp = s['hops'] / N
+    box = (300, y + 40, 990, y + 340)
+    p = Plot(fig, box, (0, N), (0, 80))
+    p.line([(ch, cnt) for ch, cnt in hist], TEAL, width=4)
+    p.line([(0, exp), (N, exp)], RED, width=4, dash=13)
+    p.axes(xticks=(0, 22, 44, 66, 88), yticks=(0, 40, 80),
+           xlab='频点编号', ylab='被用到的次数')
+    y = box[3] + 150
+    rows = [
+        [('跳数', INK, False), ('用到的频点', INK, False),
+         ('均匀性 χ²', INK, False)],
+        [('%d' % s['hops'], TEAL, True), ('%d / %d' % (s['used'], N), TEAL, True),
+         ('%.1f' % s['chi2'], TEAL, True)],
+    ]
+    y = table(fig, y, [(60, 'la'), (420, 'la'), (760, 'la')], rows)
+    y = note(fig, y, '红线是期望值 %.1f（四千跳 ÷ %d）。曲线在它上下晃，最矮 %d 次、'
+                     '最高 %d 次，标准差 %.1f——看着像随机，其实是个确定性电路。'
+              % (exp, N, s['min'], s['max'], s['std']))
+    y = note(fig, y, 'χ² 的理论期望值就是自由度 87，这次算出 %.1f。「和上一跳相同」'
+                     '出现 %d 次，按 1/%d 预期是 %.0f 次。'
+              % (s['chi2'], s['same_as_previous'], N, s['hops'] / N))
+    save(fig, '11-sequence.png', '跳频序列每个频点的使用次数')
 
 
 def fig12():

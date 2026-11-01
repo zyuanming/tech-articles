@@ -283,6 +283,26 @@ def power_curve() -> list:
     return out
 
 
+AIMED_TOTAL = 30.0     # jammer power, x signal, in the worked example
+SHOWN_HOPS = 200       # hops drawn in the waterfall figure
+
+
+def aimed_case() -> dict:
+    """The concentrated jammer of section five: all of it on one channel."""
+    cov = 1 / CHANNELS
+    return dict(total=AIMED_TOTAL, coverage=round(cov, 6),
+                total_db=round(10 * math.log10(AIMED_TOTAL), 1),
+                per_channel=jsr(AIMED_TOTAL, cov), limit=JSR_LIMIT)
+
+
+def channel_hist(seq: list) -> list:
+    """How many times each channel came up, in channel order."""
+    counts = [0] * CHANNELS
+    for ch in seq:
+        counts[ch] += 1
+    return [[ch, counts[ch]] for ch in range(CHANNELS)]
+
+
 def measure() -> dict:
     seq = lfsr_channels()
     hop = seq
@@ -295,7 +315,12 @@ def measure() -> dict:
         sequence=sequence_stats(seq),
         waterfall=waterfall(seq),
         waterfall_parked=[[i, ch, bool(j)] for (i, ch), j
-                          in zip(waterfall(seq, 60), parked[:60])],
+                          in zip(waterfall(seq, SHOWN_HOPS), parked[:SHOWN_HOPS])],
+        channel_hist=channel_hist(seq),
+        aimed=aimed_case(),
+        parked=dict(band=int(round(0.2 * CHANNELS)), coverage=0.2,
+                    hits=sum(parked), share=round(sum(parked) / len(seq), 4),
+                    needed=power_needed(0.2)),
         compare=compare_modes(),
         power=power_table(),
         power_curve=power_curve(),

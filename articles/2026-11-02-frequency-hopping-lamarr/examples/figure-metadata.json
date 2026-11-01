@@ -79,28 +79,28 @@
   {
     "path": "assets/09-sitting-duck.png",
     "width": 1062,
-    "height": 1623,
+    "height": 1089,
     "min_label_px": 40,
     "effective_min_at_354px": 13.33,
-    "purpose": "定频链路被窄带干扰全面压制",
+    "purpose": "定频：干扰者把功率集中在一个频点上",
     "identity": "原创教学示意"
   },
   {
     "path": "assets/10-hopping.png",
     "width": 1062,
-    "height": 1531,
+    "height": 1109,
     "min_label_px": 40,
     "effective_min_at_354px": 13.33,
-    "purpose": "跳频链路对部分频带干扰的时频图",
+    "purpose": "跳频链路的时频轨迹与部分频带干扰",
     "identity": "原创教学示意"
   },
   {
     "path": "assets/11-sequence.png",
     "width": 1062,
-    "height": 1878,
+    "height": 1278,
     "min_label_px": 40,
     "effective_min_at_354px": 13.33,
-    "purpose": "跳频序列与均匀性检查",
+    "purpose": "跳频序列每个频点的使用次数",
     "identity": "原创教学示意"
   },
   {
