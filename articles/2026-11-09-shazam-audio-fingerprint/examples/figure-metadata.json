@@ -1,0 +1,164 @@
+[
+  {
+    "path": "assets/01-two-recordings.png",
+    "width": 1062,
+    "height": 1178,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "同一首歌的两次录音波形",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/02-waveform-vs-fingerprint.png",
+    "width": 1062,
+    "height": 804,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "波形比对对速度变化极敏感",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/03-framing.png",
+    "width": 1062,
+    "height": 825,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "分帧、加窗与傅里叶变换",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/04-spectrogram.png",
+    "width": 1062,
+    "height": 873,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "短时傅里叶谱图",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/05-peaks.png",
+    "width": 1062,
+    "height": 873,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "谱峰（constellation map）",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/06-local-max.png",
+    "width": 1062,
+    "height": 899,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "局部极大值判定",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/07-pair-hash.png",
+    "width": 1062,
+    "height": 923,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "组合哈希：锚点与目标区",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/08-hash-table.png",
+    "width": 1062,
+    "height": 804,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "哈希键与数据库记录",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/09-query.png",
+    "width": 1062,
+    "height": 825,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "查询片段的谱图",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/10-offset-votes.png",
+    "width": 1062,
+    "height": 920,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "偏移直方图：正确的那首歌",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/11-wrong-song.png",
+    "width": 1062,
+    "height": 918,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "偏移直方图：错误的那首歌",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/12-snr-curve.png",
+    "width": 1062,
+    "height": 827,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "信噪比与识别票数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/13-speed.png",
+    "width": 1062,
+    "height": 929,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "播放速度变化下的票数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/14-library-size.png",
+    "width": 1062,
+    "height": 846,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "库规模与指纹条数",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/15-timeline.png",
+    "width": 1062,
+    "height": 1005,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "音频指纹的时间线",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/16-pipeline.png",
+    "width": 1062,
+    "height": 1111,
+    "min_label_px": 38,
+    "effective_min_at_354px": 12.67,
+    "purpose": "识别的八个步骤",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/17-limits.png",
+    "width": 1062,
+    "height": 836,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "音频指纹的边界",
+    "identity": "原创教学示意"
+  },
+  {
+    "path": "assets/18-uses.png",
+    "width": 1062,
+    "height": 802,
+    "min_label_px": 40,
+    "effective_min_at_354px": 13.33,
+    "purpose": "音频指纹的其他用途",
+    "identity": "原创教学示意"
+  }
+]

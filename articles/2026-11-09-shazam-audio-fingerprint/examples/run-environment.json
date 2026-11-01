@@ -1,0 +1,6 @@
+{
+  "python": "3.14.7",
+  "third_party": [],
+  "note": "标准库 only：math / cmath / json / pathlib。图片用 figkit 内的 PIL，仅绘图需要。",
+  "generated": "2026-11-09"
+}
