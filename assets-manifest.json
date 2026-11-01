@@ -29425,6 +29425,161 @@
     "sha256": "717805925dd0ff16c3a45ec7cfe07b64d15af0f766d99fe64eda7030f49c1520"
   },
   {
+    "path": "articles/2026-11-09-elevator-governor/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/01-overview.png",
+    "bytes": 118276,
+    "sha256": "bb0d0f2a1b6569804462cdb3fd42e24568dfdb2856e0e71c25e65a5de9664238"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/02-governor.jpg",
+    "bytes": 163988,
+    "sha256": "dee0da422e3013ee9b3dd238da27124f7ba5a74dc93b64abebf7c3354e5d7568"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/03-ratchet.png",
+    "bytes": 99122,
+    "sha256": "80a05ef38ea40dc59dba43dfebf1a23549b8bf2c24784685e7d187c44ddf2ebf"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/04-three-curves.png",
+    "bytes": 138953,
+    "sha256": "f607ef51eaa5de1104dfc7484c05e28db685e3bf86a89a2004fe759b4d9ba5ac"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/05-flyweight.png",
+    "bytes": 196464,
+    "sha256": "346f9cbef96df29a70121510f7749d31d60a74f0471f7018839ff0cc5ca0db54"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/06-tolerance.png",
+    "bytes": 213088,
+    "sha256": "019c02198f84deaccfe1d0de155a1c25c5cd95e8e2a6b03745d0f1cb152a6911"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/07-chain.png",
+    "bytes": 178162,
+    "sha256": "d7461ad6b08178681bc86d0651ed88e3ae2bb58da1a67046d941c66e2b4675d2"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/08-sim.png",
+    "bytes": 112276,
+    "sha256": "9f1e401a193bd38b8881394d7457e69267a252a641e0f1b84798eb685d9a3a42"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/09-wedge.png",
+    "bytes": 124993,
+    "sha256": "9d2a9aa31ce9f391abcca04d7399d1b14b5eaa60800903bed05ea83c81f33260"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/10-selflock.png",
+    "bytes": 142276,
+    "sha256": "a9b0de87e895c29314b1003f3feee1dc2d2143f7e18caa4d96b6e02160cc0aab"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/11-safety-gear.jpg",
+    "bytes": 101314,
+    "sha256": "6408ab6ea15322551491de0f1ee046a1a4bbe29d4e9ec29a200813c8e51f4c49"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/12-forces.png",
+    "bytes": 195098,
+    "sha256": "c6cf6ac43b5d77fd483667335babdf01294e943da59a3cd164f8b5b9aaf57bc9"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/13-stops.png",
+    "bytes": 181942,
+    "sha256": "f752d6bb7331f0a663b30fe4763b55f361505bff29b3ace6980a29e9b569749a"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/14-energy.png",
+    "bytes": 124612,
+    "sha256": "d3e868e807125418cd4068987079ac5a29094e17bc4cc3f9a472265493d28006"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/15-otis-1854.jpg",
+    "bytes": 360105,
+    "sha256": "d625ee5925a7c6aa0c2832279e71bac1528d82a5f9b155cf9be539079a5354f1"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/16-eiffel-1892.jpg",
+    "bytes": 237409,
+    "sha256": "45a3f0756efb3221e219c5406467a50bf9dd8957335ca9c7558924129cb9c999"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/17-chain.png",
+    "bytes": 163912,
+    "sha256": "dc08864417adf74cc51b8116e6396f4ee1e9ff4116a0ad602532cf1329111df3"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/assets/18-rails.png",
+    "bytes": 213874,
+    "sha256": "8b49b9076c8e3d0ebe0dc65c24a118152851010106ba1bc753858e6c830675bd"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/cover.png",
+    "bytes": 81088,
+    "sha256": "9941db4615b0016e2c1b92ed0849f14676437d41f052df7881b736b58a0dedf2"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/build_figures.py",
+    "bytes": 28663,
+    "sha256": "a94f19c005a3211105e8109d3769d2c94b55b4b3be16f87d74522ad42df72d1b"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/elevator.py",
+    "bytes": 6047,
+    "sha256": "742d27ccccefd8cb79e00f9a75370702793051f13250db461ca8487f54e01f3a"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/figure-metadata.json",
+    "bytes": 4838,
+    "sha256": "0f92e9075890e3082aab4785cb9bcfb3a7347224d1937d69f8c232884a1b6773"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/results.json",
+    "bytes": 8210,
+    "sha256": "d2379f7266b28ee68ad9121f4703725a77f243230ac1cc775adca40c09bdf0e5"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/run-environment.json",
+    "bytes": 198,
+    "sha256": "2af56156d64decd19661a2a1909bf6a957ecb2df9128c4e9fb776a504087424b"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/examples/run_model.py",
+    "bytes": 3430,
+    "sha256": "6e473c006e3d02549ab8f2ab6c63f626b761f5e7303c74696c10bc1625ecd74a"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/originals/eiffel-governor.jpg",
+    "bytes": 198093,
+    "sha256": "0efa0ea3a37894e32bdc1bd6070849ffcf4c50d65ae77671dad0582defb47349"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/originals/governor.jpg",
+    "bytes": 127275,
+    "sha256": "bab1a0a8eb112796911fc4e3ad49592a8b4550994b47676d7e61a9880011f73f"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/originals/otis-1854.jpg",
+    "bytes": 2693440,
+    "sha256": "967de50669f986ed06cf125b75817d5c915b6f85b2169af8648b1280c0ac2588"
+  },
+  {
+    "path": "articles/2026-11-09-elevator-governor/originals/safety-gear.jpg",
+    "bytes": 101314,
+    "sha256": "6408ab6ea15322551491de0f1ee046a1a4bbe29d4e9ec29a200813c8e51f4c49"
+  },
+  {
     "path": "articles/2026-11-09-quartz-watch-32768/LICENSE-CODE.txt",
     "bytes": 1083,
     "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"

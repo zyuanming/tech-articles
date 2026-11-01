@@ -3120,6 +3120,16 @@
     "related_versions": []
   },
   {
+    "id": "2026-11-09-elevator-governor",
+    "title": "电梯怎么知道自己太快了",
+    "date": "2026-11-09",
+    "path": "articles/2026-11-09-elevator-governor/read.md",
+    "public_sha256": "d47dc7f291891201a6e45e743880b3a70e038a7e147d5b13d607e4723a642c20",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
+  },
+  {
     "id": "2026-11-09-quartz-watch-32768",
     "title": "数到 32768：石英表为什么用这个古怪的频率",
     "date": "2026-11-09",

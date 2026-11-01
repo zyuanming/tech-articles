@@ -1,0 +1,429 @@
+{
+ "governor": {
+  "rated": 1.75,
+  "trip": 2.0124999999999997,
+  "factor": 1.15,
+  "sheave_r": 0.1,
+  "pawl_m": 0.25,
+  "pawl_r": 0.06,
+  "spring": 6.075234374999997,
+  "trip_check": 2.0124999999999997,
+  "at_trip": {
+   "v": 2.0124999999999997,
+   "omega": 20.124999999999996,
+   "rpm": 192.1795937834636,
+   "fc": 6.075234374999997,
+   "a_cent": 24.30093749999999,
+   "a_cent_g": 2.4771597859327206,
+   "ratio": 1.0
+  },
+  "at_rated": {
+   "v": 1.75,
+   "omega": 17.5,
+   "rpm": 167.1126902464901,
+   "fc": 4.59375,
+   "a_cent": 18.375,
+   "a_cent_g": 1.8730886850152904,
+   "ratio": 0.7561436672967867
+  },
+  "tolerance": [
+   {
+    "scale": 0.9,
+    "force": 5.467710937499998,
+    "trip": 1.9092251373266587,
+    "ppm": -0.05131670194948623
+   },
+   {
+    "scale": 0.95,
+    "force": 5.771472656249997,
+    "trip": 1.9615423618928034,
+    "ppm": -0.025320565519103777
+   },
+   {
+    "scale": 1.0,
+    "force": 6.075234374999997,
+    "trip": 2.0124999999999997,
+    "ppm": 0.0
+   },
+   {
+    "scale": 1.05,
+    "force": 6.378996093749998,
+    "trip": 2.062198841649369,
+    "ppm": 0.02469507659595971
+   },
+   {
+    "scale": 1.1,
+    "force": 6.682757812499998,
+    "trip": 2.1107278069424296,
+    "ppm": 0.04880884817015141
+   }
+  ]
+ },
+ "scenarios": {
+  "from_rated": {
+   "summary": {
+    "v0": 1.75,
+    "brake": 6.0,
+    "delay": 0.15,
+    "ramp": 0.08,
+    "t_trip": 0.02679999999999995,
+    "v_trip": 2.0129080000000013,
+    "s_trip": 0.05044925800000003,
+    "t_brake": 0.176800000000003,
+    "v_brake": 3.484407999999849,
+    "s_brake": 0.46289510799998895,
+    "stop_t": 0.8631999999999376,
+    "stop_s": 1.8590467029999418,
+    "peak_decel": 6.0,
+    "mean_decel": 4.348059033826968,
+    "force": 18972.0,
+    "per_block": 9486.0,
+    "force_g": 1.6116207951070336
+   },
+   "trace": [
+    {
+     "t": 0.0,
+     "v": 1.752,
+     "s": 0.0,
+     "a": 9.81
+    }
+   ]
+  },
+  "from_rest": {
+   "summary": {
+    "v0": 0.0,
+    "brake": 6.0,
+    "delay": 0.15,
+    "ramp": 0.08,
+    "t_trip": 0.20520000000000382,
+    "v_trip": 2.0130120000000153,
+    "s_trip": 0.20673633240000147,
+    "t_brake": 0.3553999999999935,
+    "v_brake": 3.486473999999863,
+    "s_brake": 0.6198950771999922,
+    "stop_t": 1.0421999999999179,
+    "stop_s": 2.0174648766000103,
+    "peak_decel": 6.0,
+    "mean_decel": 4.348799236322024,
+    "force": 18972.0,
+    "per_block": 9486.0,
+    "force_g": 1.6116207951070336
+   },
+   "trace": [
+    {
+     "t": 0.0,
+     "v": 0.002,
+     "s": 0.0,
+     "a": 9.81
+    }
+   ]
+  }
+ },
+ "stops": [
+  {
+   "decel": 3,
+   "stop": 2.0235165184104917,
+   "time": 1.161469333333283,
+   "force": 15372.0
+  },
+  {
+   "decel": 6,
+   "stop": 1.0117582592052459,
+   "time": 0.5807346666666415,
+   "force": 18972.0
+  },
+  {
+   "decel": 9,
+   "stop": 0.6745055061368306,
+   "time": 0.3871564444444277,
+   "force": 22572.000000000004
+  },
+  {
+   "decel": 12,
+   "stop": 0.5058791296026229,
+   "time": 0.29036733333332077,
+   "force": 26172.000000000004
+  }
+ ],
+ "clamp": {
+  "total": 18972.0,
+  "per_block": 9486.0,
+  "normal": 63240.0,
+  "normal_total": 126480.0,
+  "stop": 1.0117582592052459,
+  "time": 0.5807346666666415
+ },
+ "wedge": {
+  "main": {
+   "alpha": 6.0,
+   "mu": 0.15,
+   "phi": 8.530765609948133,
+   "self_locking": true,
+   "gain": 3.858165520792411,
+   "pull_out": null,
+   "self_energising": true,
+   "alpha_crit": 8.168478624045488
+  },
+  "curve": [
+   {
+    "alpha": 2,
+    "gain": 5.379,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.1859
+   },
+   {
+    "alpha": 2.5,
+    "gain": 5.13,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.1949
+   },
+   {
+    "alpha": 3.0,
+    "gain": 4.902,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.204
+   },
+   {
+    "alpha": 3.5,
+    "gain": 4.692,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2131
+   },
+   {
+    "alpha": 4.0,
+    "gain": 4.499,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2223
+   },
+   {
+    "alpha": 4.5,
+    "gain": 4.321,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2314
+   },
+   {
+    "alpha": 5.0,
+    "gain": 4.155,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2406
+   },
+   {
+    "alpha": 5.5,
+    "gain": 4.002,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2499
+   },
+   {
+    "alpha": 6.0,
+    "gain": 3.858,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2592
+   },
+   {
+    "alpha": 6.5,
+    "gain": 3.724,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2685
+   },
+   {
+    "alpha": 7.0,
+    "gain": 3.598,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2779
+   },
+   {
+    "alpha": 7.5,
+    "gain": 3.48,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2873
+   },
+   {
+    "alpha": 8.0,
+    "gain": 3.369,
+    "self_locking": true,
+    "self_energising": true,
+    "need": 0.2968
+   },
+   {
+    "alpha": 8.5,
+    "gain": 3.265,
+    "self_locking": true,
+    "self_energising": false,
+    "need": 0.3063
+   },
+   {
+    "alpha": 9.0,
+    "gain": 3.166,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3159
+   },
+   {
+    "alpha": 9.5,
+    "gain": 3.072,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3255
+   },
+   {
+    "alpha": 10.0,
+    "gain": 2.983,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3352
+   },
+   {
+    "alpha": 10.5,
+    "gain": 2.899,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3449
+   },
+   {
+    "alpha": 11.0,
+    "gain": 2.819,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3547
+   },
+   {
+    "alpha": 11.5,
+    "gain": 2.743,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3646
+   },
+   {
+    "alpha": 12.0,
+    "gain": 2.67,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3745
+   },
+   {
+    "alpha": 12.5,
+    "gain": 2.601,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3845
+   },
+   {
+    "alpha": 13.0,
+    "gain": 2.535,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.3945
+   },
+   {
+    "alpha": 13.5,
+    "gain": 2.471,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.4047
+   },
+   {
+    "alpha": 14.0,
+    "gain": 2.411,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.4148
+   },
+   {
+    "alpha": 14.5,
+    "gain": 2.352,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.4251
+   },
+   {
+    "alpha": 15.0,
+    "gain": 2.296,
+    "self_locking": false,
+    "self_energising": false,
+    "need": 0.4355
+   }
+  ],
+  "alt": [
+   {
+    "alpha": 4.0,
+    "mu": 0.15,
+    "phi": 8.530765609948133,
+    "self_locking": true,
+    "gain": 4.499273960569372,
+    "pull_out": null,
+    "self_energising": true,
+    "alpha_crit": 8.168478624045488
+   },
+   {
+    "alpha": 6.0,
+    "mu": 0.15,
+    "phi": 8.530765609948133,
+    "self_locking": true,
+    "gain": 3.858165520792411,
+    "pull_out": null,
+    "self_energising": true,
+    "alpha_crit": 8.168478624045488
+   },
+   {
+    "alpha": 8.0,
+    "mu": 0.15,
+    "phi": 8.530765609948133,
+    "self_locking": true,
+    "gain": 3.369298762417935,
+    "pull_out": null,
+    "self_energising": true,
+    "alpha_crit": 8.168478624045488
+   },
+   {
+    "alpha": 10.0,
+    "mu": 0.15,
+    "phi": 8.530765609948133,
+    "self_locking": false,
+    "gain": 2.983360281090224,
+    "pull_out": 38.988483277774186,
+    "self_energising": false,
+    "alpha_crit": 8.168478624045488
+   }
+  ],
+  "critical_alpha": 8.168478624045488
+ },
+ "energy": {
+  "stop": {
+   "potential": 21884.697787715315,
+   "per_kg": 18.23724815642943,
+   "steel_dt": 1.1640796695593252
+  },
+  "free_fall": {
+   "potential": 353160.0,
+   "per_kg": 294.3,
+   "steel_dt": 18.785106382978725
+  },
+  "speed_30m": 24.261079942986875
+ },
+ "rope": {
+  "mass": 10.0,
+  "tension": 196.20000000000002,
+  "jerk": 696.8815999999698,
+  "jerk_g": 7.103787971457388
+ },
+ "free_fall_30m": {
+  "v": 24.261079942986875,
+  "v_kmh": 87.33988779475276,
+  "t": 2.4730968341474897
+ },
+ "mass": 1200.0,
+ "blocks": 2,
+ "mu": 0.15
+}

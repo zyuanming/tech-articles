@@ -1,0 +1,168 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 1106,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "井道全景：轿厢、两条导轨、顶上那台限速器、绕过底部的限速绳与张紧轮",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-governor.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "真实限速器：绳轮、两个甩块、中间的弹簧，装在机房一侧",
+  "identity": "真实照片",
+  "source": "Wikimedia Commons, File:Elevator speed governor.jpg, Darklanlan, CC BY 4.0"
+ },
+ {
+  "path": "assets/03-ratchet.png",
+  "width": 1062,
+  "height": 851,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "限速器内部：绳轮、甩块、弹簧与静止棘齿",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-three-curves.png",
+  "width": 1062,
+  "height": 1014,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三种速度曲线：额定运行、驱动失效、自由落体，以及限速器触发的那一点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-flyweight.png",
+  "width": 1062,
+  "height": 1399,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "离心力与弹簧力的交点决定触发速度",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-tolerance.png",
+  "width": 1062,
+  "height": 932,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "弹簧力偏差对触发速度的影响",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-chain.png",
+  "width": 1062,
+  "height": 1159,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "从超速到夹紧的四个阶段与各自的耗时",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-sim.png",
+  "width": 1062,
+  "height": 1005,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "仿真得到的速度曲线与三个阶段",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-wedge.png",
+  "width": 1062,
+  "height": 1035,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "楔块如何把竖直拖力转换成水平正压力",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-selflock.png",
+  "width": 1062,
+  "height": 1012,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "楔角、夹紧倍数、自锁与自激的边界",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-safety-gear.jpg",
+  "width": 640,
+  "height": 480,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "真实楔块式安全钳：两侧是碟簧组，用来限制夹紧力",
+  "identity": "真实照片",
+  "source": "Wikimedia Commons, File:Keilfangvorrichtung Aufzugsbau.jpg, public domain（Coptercam，own work）"
+ },
+ {
+  "path": "assets/12-forces.png",
+  "width": 1062,
+  "height": 858,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "不同减速度下的制动力、每块安全钳的力与正压力",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-stops.png",
+  "width": 1062,
+  "height": 858,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "减速度、停距、时间与重力加速度的对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-energy.png",
+  "width": 1062,
+  "height": 983,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一次制停与自由落体的能量对比，换算成钢的温升",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-otis-1854.jpg",
+  "width": 1062,
+  "height": 1046,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "1854 年 Otis 在纽约水晶宫演示安全装置：他让人砍断吊绳",
+  "identity": "档案扫描件",
+  "source": "Wikimedia Commons, File:Elisha OTIS 1854.jpg, public domain（佚名版画）"
+ },
+ {
+  "path": "assets/16-eiffel-1892.jpg",
+  "width": 1062,
+  "height": 765,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "1892 年工程期刊上的埃菲尔铁塔电梯限速器：甩块、弹簧、棘齿都在",
+  "identity": "档案扫描件",
+  "source": "Wikimedia Commons, File:Otis Wheel Governor, Eiffel Tower.jpg, public domain（Engineering News, 1892）"
+ },
+ {
+  "path": "assets/17-chain.png",
+  "width": 1062,
+  "height": 989,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "从测速到夹紧的四段链路",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-rails.png",
+  "width": 1062,
+  "height": 982,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "夹导轨与夹钢丝绳的对比",
+  "identity": "原创教学示意"
+ }
+]

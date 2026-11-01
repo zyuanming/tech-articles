@@ -1,0 +1,6 @@
+{
+  "python": "3.14.7",
+  "stdlib_only": ["elevator.py", "run_model.py"],
+  "third_party": {"Pillow": "12.3.0"},
+  "notes": "build_figures.py 需要 Pillow；其余两个脚本只用标准库。"
+}
