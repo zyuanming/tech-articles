@@ -30360,6 +30360,161 @@
     "sha256": "f7be8d218b61ad06ffe6fcd0977079d0746e89b00d26245619825be241802e6a"
   },
   {
+    "path": "articles/2026-11-23-crc32-error-detection/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/01-overview.png",
+    "bytes": 159288,
+    "sha256": "f9eae8e701fda14c3df9d429a0b4932b319b4210fb5bfc433adf71771f925b00"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/02-nic.jpg",
+    "bytes": 201370,
+    "sha256": "eeaa08ebf6992e4f80f720c3e8a230ac0a782532d326eb3c8a1ed61fab5e1cf9"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/03-weak.png",
+    "bytes": 198509,
+    "sha256": "742aea7d076debdc51ffbe6c4345766db3a5e07f4adef8a4e4f69a650c6a5642"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/04-division.png",
+    "bytes": 130199,
+    "sha256": "459a3c773a29ee1c7ff7bde3ade96be95cc64c755a171ede61a8e39e00030d3b"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/05-lfsr.png",
+    "bytes": 155186,
+    "sha256": "57a11ae5e771c62bb3fd68054bab123c7a13dc02ee7f672591f87a4837b57e39"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/06-trace.png",
+    "bytes": 199789,
+    "sha256": "4ce608dbc971b04ac95b34de4cc8d416a0a96171f9c0ee6d01bbfd70b226f855"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/07-table.png",
+    "bytes": 190766,
+    "sha256": "a23ff420de1e0dd2a45b9d617a95bbbe1fb82e132c0cd4a87db01457f33f7abf"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/08-lookup.png",
+    "bytes": 170204,
+    "sha256": "4d133605020ad326f04b57573c2dac3253a86408cea64f20c9bbac0bdea72b97"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/09-burst.png",
+    "bytes": 134639,
+    "sha256": "14d983dce129fe3ea05faecca3067b6d4561b8f323c669c705b967188c4f9c06"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/10-first-miss.png",
+    "bytes": 172500,
+    "sha256": "2255e1b9e184cee777416e9adcb7390853436837956a63cb324c0a1906a1db0d"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/11-xplus1.png",
+    "bytes": 206387,
+    "sha256": "65c12476c13e30f4817f0ee519b1a71b9ef69dda093b6921081bf202a6c281e6"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/12-narrow.png",
+    "bytes": 169326,
+    "sha256": "c402787085eb35e68160576b592b493d6c09b01f809c976014256de160998785"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/13-swap.png",
+    "bytes": 171337,
+    "sha256": "5f6a4d599df0f0e4c231d2dad6c35c840e522c5de8ffce59cafb0cad765ed61d"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/14-forge.png",
+    "bytes": 179151,
+    "sha256": "b94bd6ad2855effb0ea6810070b9d16ed1d04bb04c535fef3d8d370596df5db0"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/15-birthday.png",
+    "bytes": 152482,
+    "sha256": "403d6ca929b170deb8f840aa86a3893b84a6ece540fedd449229ab2fa8124603"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/16-polys.png",
+    "bytes": 187984,
+    "sha256": "d3df5b6920bc800605c330f4c6348c0485704cf2914edc2ed4ebd8487e20a83d"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/17-frame.png",
+    "bytes": 149806,
+    "sha256": "b6f70e58061429954d666ee02c0461058f1a3581123f453115fd3d82553501ed"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/18-zip.jpg",
+    "bytes": 72017,
+    "sha256": "b8394aa73bb52fffd8cc3c32e4131a5cc5550ede07b993ec837583d03fc6d191"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/19-timeline.png",
+    "bytes": 140813,
+    "sha256": "22a2456f8105b4f08a6d6cbd8a70616a9c19a56ac03c0214c8bf547ced404cf2"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/assets/20-takeaways.png",
+    "bytes": 87246,
+    "sha256": "ecfa9d00b3500a6c12372d4e9f28cb35da65647405c80c86e2c031cfac76ebfd"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/cover.png",
+    "bytes": 47979,
+    "sha256": "e1ded8a7ffbdb60e573f351583c21020b30b065abd4c40106ec04435f7ebbc82"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/build_figures.py",
+    "bytes": 28362,
+    "sha256": "c9fdc22eda9aa908c94e0545a3b51f208cd3dba923612af51a4e783bec2f2d31"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/crc.py",
+    "bytes": 17894,
+    "sha256": "d78fae14324cb19530aa8a7f290c5689e0c7d95a454beacdf9c58f278155e3bd"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/figure-metadata.json",
+    "bytes": 4827,
+    "sha256": "8ae374b64e62c7f44d102a38e381adf5ff24ec438d9c506669efab4012623082"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/results.json",
+    "bytes": 8624,
+    "sha256": "4715e0dd50ea664ad12995983f9aef53c35f9986aa84743ec3fda000dceb4c55"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/run-environment.json",
+    "bytes": 325,
+    "sha256": "7bd481f9d290cbb95da250b2c05f45084452cad7d4813d58e3b10a3d365cdba6"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/examples/run_model.py",
+    "bytes": 1268,
+    "sha256": "a88b00ea5faba6220a151bfc1b33018b2fab08e1df0f87b551e6efd138f1d04e"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/originals/Intel_PRO1000PT_Dual_GigE_front.jpg",
+    "bytes": 6780217,
+    "sha256": "6788c38773fb7319136e5b80ca35b22b19a84534767e9d937babe2e817f5fdaa"
+  },
+  {
+    "path": "articles/2026-11-23-crc32-error-detection/originals/Iomega_Zip_100_drive_with_a_disk.jpg",
+    "bytes": 5369391,
+    "sha256": "ba24200d2fc64c3edf3b2b208c2b2a5a53087e58c801f8a7d17748df59e67985"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

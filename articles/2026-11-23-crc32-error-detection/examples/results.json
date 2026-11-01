@@ -1,0 +1,612 @@
+{
+ "standards": [
+  {
+   "name": "CRC-32/ISO-HDLC",
+   "width": 32,
+   "poly": 79764919,
+   "check": 3421780262,
+   "expected": 3421780262,
+   "ok": true,
+   "where": "Ethernet, ZIP, PNG, gzip"
+  },
+  {
+   "name": "CRC-32/BZIP2",
+   "width": 32,
+   "poly": 79764919,
+   "check": 4236843288,
+   "expected": 4236843288,
+   "ok": true,
+   "where": "bzip2"
+  },
+  {
+   "name": "CRC-32/MPEG-2",
+   "width": 32,
+   "poly": 79764919,
+   "check": 58124007,
+   "expected": 58124007,
+   "ok": true,
+   "where": "MPEG-2 transport stream"
+  },
+  {
+   "name": "CRC-32C (Castagnoli)",
+   "width": 32,
+   "poly": 517762881,
+   "check": 3808858755,
+   "expected": 3808858755,
+   "ok": true,
+   "where": "iSCSI, ext4, SSE4.2"
+  },
+  {
+   "name": "CRC-32K (Koopman)",
+   "width": 32,
+   "poly": 1947962583,
+   "check": 759025838,
+   "expected": 759025838,
+   "ok": true,
+   "where": "research, strongest 32-bit"
+  },
+  {
+   "name": "CRC-16/ARC",
+   "width": 16,
+   "poly": 32773,
+   "check": 47933,
+   "expected": 47933,
+   "ok": true,
+   "where": "IBM bisync, modems"
+  },
+  {
+   "name": "CRC-16/CCITT-FALSE",
+   "width": 16,
+   "poly": 4129,
+   "check": 10673,
+   "expected": 10673,
+   "ok": true,
+   "where": "XMODEM, older protocols"
+  },
+  {
+   "name": "CRC-8",
+   "width": 8,
+   "poly": 7,
+   "check": 244,
+   "expected": 244,
+   "ok": true,
+   "where": "SMBus, 1-Wire, NFC"
+  }
+ ],
+ "demo": {
+  "message": 859,
+  "poly": 19,
+  "width": 4,
+  "dividend": 13744,
+  "quotient": 778,
+  "remainder": 14,
+  "steps": [
+   {
+    "before": 13744,
+    "sub": 9728,
+    "shift": 9,
+    "after": 5040
+   },
+   {
+    "before": 5040,
+    "sub": 4864,
+    "shift": 8,
+    "after": 176
+   },
+   {
+    "before": 176,
+    "sub": 152,
+    "shift": 3,
+    "after": 40
+   },
+   {
+    "before": 40,
+    "sub": 38,
+    "shift": 1,
+    "after": 14
+   }
+  ]
+ },
+ "trace": {
+  "byte": 211,
+  "rows": [
+   {
+    "bit": null,
+    "reg": 3539992576,
+    "xored": false
+   },
+   {
+    "bit": 1,
+    "reg": 2730565047,
+    "xored": true
+   },
+   {
+    "bit": 1,
+    "reg": 1094919897,
+    "xored": true
+   },
+   {
+    "bit": 0,
+    "reg": 2189839794,
+    "xored": false
+   },
+   {
+    "bit": 1,
+    "reg": 30246611,
+    "xored": true
+   },
+   {
+    "bit": 0,
+    "reg": 60493222,
+    "xored": false
+   },
+   {
+    "bit": 0,
+    "reg": 120986444,
+    "xored": false
+   },
+   {
+    "bit": 1,
+    "reg": 241972888,
+    "xored": false
+   },
+   {
+    "bit": 1,
+    "reg": 483945776,
+    "xored": false
+   }
+  ],
+  "final": 483945776
+ },
+ "table": [
+  0,
+  1996959894,
+  3993919788,
+  2567524794,
+  124634137,
+  1886057615,
+  3915621685,
+  2657392035,
+  249268274,
+  2044508324,
+  3772115230,
+  2547177864,
+  162941995,
+  2125561021,
+  3887607047,
+  2428444049
+ ],
+ "fox": {
+  "text": "The quick brown fox jumps over the lazy dog",
+  "crc": 1095738169,
+  "crc_hex": "414FA339",
+  "tablewise": 1095738169,
+  "remainder": 3376971646
+ },
+ "burst": [
+  {
+   "length": 1,
+   "patterns": 1,
+   "missed": 0
+  },
+  {
+   "length": 2,
+   "patterns": 1,
+   "missed": 0
+  },
+  {
+   "length": 3,
+   "patterns": 2,
+   "missed": 0
+  },
+  {
+   "length": 4,
+   "patterns": 4,
+   "missed": 0
+  },
+  {
+   "length": 5,
+   "patterns": 8,
+   "missed": 0
+  },
+  {
+   "length": 6,
+   "patterns": 16,
+   "missed": 0
+  },
+  {
+   "length": 7,
+   "patterns": 32,
+   "missed": 0
+  },
+  {
+   "length": 8,
+   "patterns": 64,
+   "missed": 0
+  },
+  {
+   "length": 9,
+   "patterns": 128,
+   "missed": 0
+  },
+  {
+   "length": 10,
+   "patterns": 256,
+   "missed": 0
+  },
+  {
+   "length": 11,
+   "patterns": 512,
+   "missed": 0
+  },
+  {
+   "length": 12,
+   "patterns": 1024,
+   "missed": 0
+  },
+  {
+   "length": 13,
+   "patterns": 2048,
+   "missed": 0
+  },
+  {
+   "length": 14,
+   "patterns": 4096,
+   "missed": 0
+  },
+  {
+   "length": 15,
+   "patterns": 8192,
+   "missed": 0
+  },
+  {
+   "length": 16,
+   "patterns": 16384,
+   "missed": 0
+  }
+ ],
+ "burst_min": {
+  "length": 33,
+  "hex": "104C11DB7",
+  "missed": true,
+  "weight": 15
+ },
+ "burst_examples": [
+  {
+   "shift": 0,
+   "length": 33,
+   "hex": "104C11DB7",
+   "remainder": 0
+  },
+  {
+   "shift": 1,
+   "length": 34,
+   "hex": "209823B6E",
+   "remainder": 0
+  },
+  {
+   "shift": 2,
+   "length": 35,
+   "hex": "4130476DC",
+   "remainder": 0
+  }
+ ],
+ "narrow": {
+  "missed": 64,
+  "trials": 20000,
+  "rate": 0.0032,
+  "predicted": 0.00390625
+ },
+ "small_width": [
+  {
+   "gen": "x^4+x^2+x+1",
+   "poly": 23,
+   "width": 4,
+   "has_x_plus_1": true,
+   "rows": [
+    {
+     "weight": 1,
+     "patterns": 10,
+     "missed": 0
+    },
+    {
+     "weight": 2,
+     "patterns": 45,
+     "missed": 3
+    },
+    {
+     "weight": 3,
+     "patterns": 120,
+     "missed": 0
+    },
+    {
+     "weight": 4,
+     "patterns": 210,
+     "missed": 29
+    },
+    {
+     "weight": 5,
+     "patterns": 252,
+     "missed": 0
+    },
+    {
+     "weight": 6,
+     "patterns": 210,
+     "missed": 25
+    },
+    {
+     "weight": 7,
+     "patterns": 120,
+     "missed": 0
+    },
+    {
+     "weight": 8,
+     "patterns": 45,
+     "missed": 6
+    },
+    {
+     "weight": 9,
+     "patterns": 10,
+     "missed": 0
+    },
+    {
+     "weight": 10,
+     "patterns": 1,
+     "missed": 0
+    }
+   ]
+  },
+  {
+   "gen": "x^4+x+1",
+   "poly": 19,
+   "width": 4,
+   "has_x_plus_1": false,
+   "rows": [
+    {
+     "weight": 1,
+     "patterns": 10,
+     "missed": 0
+    },
+    {
+     "weight": 2,
+     "patterns": 45,
+     "missed": 0
+    },
+    {
+     "weight": 3,
+     "patterns": 120,
+     "missed": 9
+    },
+    {
+     "weight": 4,
+     "patterns": 210,
+     "missed": 16
+    },
+    {
+     "weight": 5,
+     "patterns": 252,
+     "missed": 15
+    },
+    {
+     "weight": 6,
+     "patterns": 210,
+     "missed": 12
+    },
+    {
+     "weight": 7,
+     "patterns": 120,
+     "missed": 7
+    },
+    {
+     "weight": 8,
+     "patterns": 45,
+     "missed": 3
+    },
+    {
+     "weight": 9,
+     "patterns": 10,
+     "missed": 1
+    },
+    {
+     "weight": 10,
+     "patterns": 1,
+     "missed": 0
+    }
+   ]
+  }
+ ],
+ "factors": [
+  {
+   "name": "x+1",
+   "poly": 3,
+   "crc32": false,
+   "crc32c": true,
+   "crc32k": true
+  },
+  {
+   "name": "x^2+x+1",
+   "poly": 7,
+   "crc32": false,
+   "crc32c": false,
+   "crc32k": false
+  },
+  {
+   "name": "x^3+x+1",
+   "poly": 11,
+   "crc32": false,
+   "crc32c": false,
+   "crc32k": false
+  },
+  {
+   "name": "x^4+x+1",
+   "poly": 19,
+   "crc32": false,
+   "crc32c": false,
+   "crc32k": false
+  },
+  {
+   "name": "x^5+x^2+1",
+   "poly": 37,
+   "crc32": false,
+   "crc32c": false,
+   "crc32k": false
+  },
+  {
+   "name": "x^7+x^6+1",
+   "poly": 193,
+   "crc32": false,
+   "crc32c": false,
+   "crc32k": false
+  }
+ ],
+ "distance": [
+  {
+   "distance": 15,
+   "pair": [
+    0,
+    1
+   ],
+   "msglen": 2,
+   "width": 32
+  },
+  {
+   "distance": 15,
+   "pair": [
+    0,
+    1
+   ],
+   "msglen": 3,
+   "width": 32
+  },
+  {
+   "distance": 16,
+   "pair": [
+    0,
+    3
+   ],
+   "msglen": 3,
+   "width": 32
+  }
+ ],
+ "swap": [
+  {
+   "scheme": "8 位累加和",
+   "missed": 20000,
+   "trials": 20000,
+   "miss_rate": 1.0
+  },
+  {
+   "scheme": "8 位异或",
+   "missed": 20000,
+   "trials": 20000,
+   "miss_rate": 1.0
+  },
+  {
+   "scheme": "Fletcher-16",
+   "missed": 208,
+   "trials": 20000,
+   "miss_rate": 0.0104
+  },
+  {
+   "scheme": "CRC-16/CCITT",
+   "missed": 0,
+   "trials": 20000,
+   "miss_rate": 0.0
+  },
+  {
+   "scheme": "CRC-32",
+   "missed": 0,
+   "trials": 20000,
+   "miss_rate": 0.0
+  }
+ ],
+ "frame": {
+  "fields": [
+   {
+    "name": "前导码",
+    "bytes": 7,
+    "note": "SFD"
+   },
+   {
+    "name": "SFD",
+    "bytes": 1,
+    "note": ""
+   },
+   {
+    "name": "目的 MAC",
+    "bytes": 6,
+    "note": ""
+   },
+   {
+    "name": "源 MAC",
+    "bytes": 6,
+    "note": ""
+   },
+   {
+    "name": "类型",
+    "bytes": 2,
+    "note": "0x0800 = IPv4"
+   },
+   {
+    "name": "载荷",
+    "bytes": 64,
+    "note": "最小 46 字节"
+   },
+   {
+    "name": "FCS",
+    "bytes": 4,
+    "note": "CRC-32"
+   }
+  ],
+  "total": 90
+ },
+ "overhead": [
+  {
+   "payload": 64,
+   "overhead": 6.25
+  },
+  {
+   "payload": 512,
+   "overhead": 0.78125
+  },
+  {
+   "payload": 1500,
+   "overhead": 0.26666666666666666
+  },
+  {
+   "payload": 9000,
+   "overhead": 0.044444444444444446
+  }
+ ],
+ "birthday": [
+  {
+   "width": 8,
+   "half": 13
+  },
+  {
+   "width": 16,
+   "half": 213
+  },
+  {
+   "width": 32,
+   "half": 54562
+  },
+  {
+   "width": 64,
+   "half": 3575794827
+  }
+ ],
+ "forging": {
+  "text": "ATTACK AT DAWN",
+  "forged": "41 54 54 41 43 4b 20 41 54 61 42 30 8c 4f",
+  "span": 5,
+  "changed_bits": 15,
+  "crc": "89AB4265",
+  "forged_crc": "89AB4265",
+  "same": true
+ },
+ "polys": [
+  "00000100110000010001110110110111",
+  "00011110110111000110111101000001"
+ ]
+}

@@ -1,0 +1,184 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 922,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "CRC 的三个动作：算、附带、重算比较",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-nic.jpg",
+  "width": 1062,
+  "height": 926,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Intel PRO/1000 PT 双口千兆网卡：每收一帧都要验一次 CRC-32",
+  "identity": "真实照片",
+  "source": "Phiarc, CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/03-weak.png",
+  "width": 1062,
+  "height": 1168,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "累加和与异或对调换字节视而不见，CRC 不会",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-division.png",
+  "width": 1062,
+  "height": 1242,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "GF(2) 长除法：CRC 的全部运算",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-lfsr.png",
+  "width": 1062,
+  "height": 1030,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "移位寄存器形式的 CRC：一位进、一位出",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-trace.png",
+  "width": 1062,
+  "height": 1106,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一个字节经过 32 位移位寄存器的八步",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-table.png",
+  "width": 1062,
+  "height": 1170,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "查表法：256 项的表是八次移位的预先结果",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-lookup.png",
+  "width": 1062,
+  "height": 942,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "逐位法与查表法的成本对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-burst.png",
+  "width": 1062,
+  "height": 816,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "长度 1 到 16 的突发错误穷举，全部被抓住",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-first-miss.png",
+  "width": 1062,
+  "height": 938,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "最短的漏检突发：长度 33，恰好等于生成多项式",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-xplus1.png",
+  "width": 1062,
+  "height": 1125,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "小位宽穷举：x+1 因子与奇数位错误的关系",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-narrow.png",
+  "width": 1062,
+  "height": 970,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "八位 CRC 的实测漏检率与 2⁻⁸ 吻合",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-swap.png",
+  "width": 1062,
+  "height": 1263,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "五种校验方案对「对调两个字节」的漏检率",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-forge.png",
+  "width": 1062,
+  "height": 1036,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "利用线性，构造出 CRC 相同而内容不同的报文",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-birthday.png",
+  "width": 1062,
+  "height": 836,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "生日界：找到一次 CRC 碰撞所需的样本量",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-polys.png",
+  "width": 1062,
+  "height": 871,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "常见 32 位 CRC 多项式与它们的用途",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-frame.png",
+  "width": 1062,
+  "height": 1254,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "以太网帧布局与 4 字节 FCS 的位置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-zip.jpg",
+  "width": 1062,
+  "height": 708,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Iomega ZIP 驱动器与一张 100 MB 磁盘：ZIP 格式的每一块都带 CRC-32",
+  "identity": "真实照片",
+  "source": "Yuri Litvinenko / 30pin, CC BY 2.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/19-timeline.png",
+  "width": 1062,
+  "height": 912,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "CRC 从 1961 年到今天的几个节点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/20-takeaways.png",
+  "width": 1062,
+  "height": 514,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三条结论",
+  "identity": "原创教学示意"
+ }
+]

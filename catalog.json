@@ -3178,5 +3178,15 @@
     "images": 21,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-11-23-crc32-error-detection",
+    "title": "那条 4 字节的尾巴",
+    "date": "2026-11-23",
+    "path": "articles/2026-11-23-crc32-error-detection/read.md",
+    "public_sha256": "591852045d7ecaf8e936f6a80425472ab6c440f1eccd4237906eea03cdcb872e",
+    "images": 20,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
