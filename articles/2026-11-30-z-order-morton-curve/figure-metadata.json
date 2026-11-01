@@ -1,0 +1,166 @@
+[
+ {
+  "path": "assets/01-overview.png",
+  "width": 1062,
+  "height": 935,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Z 序的任务：把二维坐标压成单个整数键",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-gpu-die.jpg",
+  "width": 1062,
+  "height": 1060,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "ATI RV670 图形芯片裸片：显存里的纹理按 Z 序变体分块存放",
+  "identity": "真实照片",
+  "source": "Martijn Boer, public domain, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/03-interleave.png",
+  "width": 1062,
+  "height": 1010,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "位交错：x=5、y=3 如何变成编号 27",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-grid.png",
+  "width": 1062,
+  "height": 1107,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "8x8 网格的 Z 序编号与行走路线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-prefix.png",
+  "width": 1062,
+  "height": 1124,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "前缀长度与它覆盖的矩形形状",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-jumps.png",
+  "width": 1062,
+  "height": 1108,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "8x8 Z 序里跨格子的跳变（红色）",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-cost.png",
+  "width": 1062,
+  "height": 1047,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "逐行 / Z 序 / Hilbert 的相邻步长统计",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-hilbert.png",
+  "width": 1062,
+  "height": 1211,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "8x8 网格上的 Hilbert 曲线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-aligned.png",
+  "width": 1062,
+  "height": 1018,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "对齐方块在三种顺序下各占几段",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-unaligned.png",
+  "width": 1062,
+  "height": 1206,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "随机偏移的方块在三种顺序下各占几段",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-sweep.png",
+  "width": 1062,
+  "height": 1057,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "随机方块边长与读取段数的关系",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-sectors.png",
+  "width": 1062,
+  "height": 990,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "方块在三种排列下触碰的缓存线条数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-compression.png",
+  "width": 1062,
+  "height": 884,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种排序下相邻编号之差所需的位数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-3d.png",
+  "width": 1062,
+  "height": 979,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三维对齐立方体与随机立方体的读取段数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-swizzle.png",
+  "width": 1062,
+  "height": 1000,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "逐行排列与分块（tile）排列的对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-radeon.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Radeon HD 2400 Pro：这一代显卡的纹理单元已经在用分块寻址",
+  "identity": "真实照片",
+  "source": "Cjp24, CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/17-timeline.png",
+  "width": 1062,
+  "height": 759,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Z 序相关工作的四个时间点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 938,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文结论",
+  "identity": "原创教学示意"
+ }
+]

@@ -30515,6 +30515,151 @@
     "sha256": "ba24200d2fc64c3edf3b2b208c2b2a5a53087e58c801f8a7d17748df59e67985"
   },
   {
+    "path": "articles/2026-11-30-z-order-morton-curve/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/01-overview.png",
+    "bytes": 214327,
+    "sha256": "444c9032e5749f97af73203142b2df19352488414e2ff39904afaa736e85f254"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/02-gpu-die.jpg",
+    "bytes": 566173,
+    "sha256": "ed8f537f4fc503813d35fcfc544bd92888fe3953d67a707f719e52487a59768c"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/03-interleave.png",
+    "bytes": 164795,
+    "sha256": "18632c2dc3904b4faa2b8a41365834738da55e8264df33f3dc0cd7d5fcaed7d0"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/04-grid.png",
+    "bytes": 216818,
+    "sha256": "a3f55da2ffebd4afb0839254085cc0c98d79b899016e02df34fe1c24fda01157"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/05-prefix.png",
+    "bytes": 208970,
+    "sha256": "6534687c2748e2c19fe4d90e2e51e15a237c0d4c27052b828fb7997004ca8a22"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/06-jumps.png",
+    "bytes": 116461,
+    "sha256": "3284381c54965c541f865a288431fe2217d64226ff409a871846f602c4fe534f"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/07-cost.png",
+    "bytes": 217867,
+    "sha256": "62a759bdd9fd3e8bea0c2860cacb83fc5a50bc0ca12c15f61c2b093a65005337"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/08-hilbert.png",
+    "bytes": 122236,
+    "sha256": "7fe0bae5b2e3d5ee43eb1d99c91261cc6416ebaac859fabbed99b27e57a8bb7b"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/09-aligned.png",
+    "bytes": 172918,
+    "sha256": "379b1a0833bba608e9c89af3dac1089880e75db2e36f0c93f4810ffb0555587e"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/10-unaligned.png",
+    "bytes": 234754,
+    "sha256": "65eee4473be5931cdcf650d03b7eba91b1b743993facd5e3c2ffc7afeb8fd87f"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/11-sweep.png",
+    "bytes": 149314,
+    "sha256": "f13de9fb5ac7137a068ee6456de76f861b46720b7223b2c053c1a751724b4d15"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/12-sectors.png",
+    "bytes": 235321,
+    "sha256": "3ba4a2e1773b8139783309ee2796123497e4920ffe3bb82c9b6fb363dff0e5ca"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/13-compression.png",
+    "bytes": 120376,
+    "sha256": "943534216165bd5b2cad9f4ff0a560f7e7903784bac148225281148c32e2763a"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/14-3d.png",
+    "bytes": 223179,
+    "sha256": "4ed015fa58b50ba3bb6ebfbc65fadfe84d7cf5ac61272c3058d6534c1fe986c8"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/15-swizzle.png",
+    "bytes": 156071,
+    "sha256": "baac483314e393b8567f4cb54e5e22a2cc366a1524511414b8554dd5ef7a084e"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/16-radeon.jpg",
+    "bytes": 198214,
+    "sha256": "82b44e8a589e07dd915ed1f1af6c3d17735c769a2d6a58522a9c0fd889a4d8ab"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/17-timeline.png",
+    "bytes": 181153,
+    "sha256": "c7d5efa60e6d1542b1b5e5676a88cfe38246f8ec72e21b0356a98c7387f9db55"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/18-takeaways.png",
+    "bytes": 225056,
+    "sha256": "4620c6a0243d6f1725f139638a4e60a26869b5080bbd5e9f2ea4b414efb28fc6"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/assets/cover.png",
+    "bytes": 66705,
+    "sha256": "63b47cc94a687197e63d543c5f8eaeac1b9a7f176cc7067a34667de080a4bab7"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/examples/build_figures.py",
+    "bytes": 29844,
+    "sha256": "7fdc0c8ef367135233b333a0e647a63ec848567d2fe5618a86af9a064fb44f28"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/examples/results.json",
+    "bytes": 11273,
+    "sha256": "b6d04040d12ac20badb696f6a3a525fee8517d30aa7710a28b0e8b86d786b453"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/examples/run-environment.json",
+    "bytes": 325,
+    "sha256": "2badb3fdff1ae8cff6aed2ba3d020071824a871aadaec2958e25bb7edbc8e13a"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/examples/run_model.py",
+    "bytes": 2066,
+    "sha256": "7c3ba9a1551471836b4d984d4f119e9c606a26fb0698381add4d78cacd9ea121"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/examples/zorder.py",
+    "bytes": 11481,
+    "sha256": "c58b0ebdde2b99394922ef931f81a84f1a70b8544f7f4a7132b5a3104ed3c41f"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/figure-metadata.json",
+    "bytes": 4273,
+    "sha256": "38a7aa48469cc2b4011b3e5f8f3987b1b80f1bd1cc0eacc12b243d5678d6a4a6"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/originals/ATI_RV670_die_shot_-_27808926667.jpg",
+    "bytes": 17005343,
+    "sha256": "02437a2344447f80dd7e522f6044bfc427842707fdeff59379a2e4f131d13a86"
+  },
+  {
+    "path": "articles/2026-11-30-z-order-morton-curve/originals/ATI_Radeon_HD_2400_Pro,_128MB_(1).jpg",
+    "bytes": 911781,
+    "sha256": "beca7bcafb63d46216de2fd2f1cb9aaef66322a0bb7bf9dcc26ca0d0782b1859"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

@@ -3188,5 +3188,15 @@
     "images": 20,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-11-30-z-order-morton-curve",
+    "title": "一条线穿过六十四格：Z 序怎么把二维压成一维",
+    "date": "2026-11-30",
+    "path": "articles/2026-11-30-z-order-morton-curve/read.md",
+    "public_sha256": "1df9ebfefd856c37a53f6dd24bcac53aca0cf503cf5133b620d91e5715fd7de1",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
