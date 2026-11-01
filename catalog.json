@@ -3208,5 +3208,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-12-14-q15-fixed-point",
+    "title": "一个 16 位小数能装下多少误差",
+    "date": "2026-12-14",
+    "path": "articles/2026-12-14-q15-fixed-point/read.md",
+    "public_sha256": "e74a9afe5eaa29ee5d5290f672e2c3f430709d6dc316db1860be800ffc0a31cd",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

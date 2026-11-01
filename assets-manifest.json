@@ -30805,6 +30805,146 @@
     "sha256": "5d4d383730b304c53e948f885a920ef524170023589391dbf0a1cfb27cd48e24"
   },
   {
+    "path": "articles/2026-12-14-q15-fixed-point/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/01-bits.png",
+    "bytes": 142092,
+    "sha256": "0ad17ccc1eab2f9d6f9b070a69214e89a5d7354f31f1981529e3d228a1814b3d"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/02-grid.png",
+    "bytes": 153811,
+    "sha256": "b442ce0a7876c1b468bbdf38a7a3f90e6eb6056177ff62ce18fa1b7d7137f635"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/03-staircase.png",
+    "bytes": 161015,
+    "sha256": "6db0c58f5364ed2f13763cb376f720a10eb956db40f268e2d69ed7f6f8715220"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/04-mul-modes.png",
+    "bytes": 268300,
+    "sha256": "6b415f7800fa4d9cb913a028d82e5561426fb2008dc92a0b93f426074b7808c5"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/05-mul-error.png",
+    "bytes": 163605,
+    "sha256": "ac480336e0469070b5bffd701f272084df5bfacef757cb0fc097a63b6ee9df12"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/06-drift.png",
+    "bytes": 170093,
+    "sha256": "5d385897bd9841d1ce64e7f35315d9f5a1dba2758ddaedd45eccd3c20497bf8a"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/07-saturate.png",
+    "bytes": 186443,
+    "sha256": "f12cebb0d925e22f31c7bae39d17afe0600513dc3bd28977830c4a36085df3ff"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/08-acc-bits.png",
+    "bytes": 166562,
+    "sha256": "683ef7385b82e7b8219fee6346f81acbbbacbfed1d054a41ee93381ded526b54"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/09-coef.png",
+    "bytes": 263341,
+    "sha256": "2205de36ea3681d3979f1480c41e63aff6b5bf10e0cceeb26ad88458ed434ccd"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/10-pole.png",
+    "bytes": 242690,
+    "sha256": "f4478ac0915eab94e93c376de1fc9165029b88855882915fd04a5c5063f8acd0"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/11-deadband.png",
+    "bytes": 183375,
+    "sha256": "ad2cad34c9521037f6af249a2ac9196d2f0e754d6afe02c8029f73a94554c2fa"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/12-filter-err.png",
+    "bytes": 174668,
+    "sha256": "44b21249723396cd85a85fcb3bb697c4a857bc175fc48b099c0a0dc4fd9bdc55"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/13-filter-snr.png",
+    "bytes": 193017,
+    "sha256": "3a57cc2c08f59af2fb49417b170a645fcdb0dd7c65659a9593d2684f4d70335e"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/14-sin-lut.png",
+    "bytes": 183022,
+    "sha256": "3ea9f464bfd46b24d1124cbda5dcc15c5e7ff34d20e32596de0671710a11c2ad"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/15-sqnr.png",
+    "bytes": 152471,
+    "sha256": "a8c653c23f03e3f5538af2ba244f036ba3b789d4c9f82034cbad39ffc5920da8"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/16-word-sweep.png",
+    "bytes": 183171,
+    "sha256": "31968d02fdc1c996712f204948c69eb744ef4b117637369ed9e53a70e579e877"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/17-dsp56000.jpg",
+    "bytes": 196332,
+    "sha256": "40e70fdbc9056b62ff8b9a17d0498fc27a75821bd2ca98694ec90562dc8a2775"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/assets/18-takeaways.png",
+    "bytes": 251283,
+    "sha256": "9d6e05a7cfaaeea8982db53f48a61d8e889d340956871105c150747eb7a1f6e2"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/cover.png",
+    "bytes": 76125,
+    "sha256": "53fc106a7639158e41f73081f6ea5246769d52a27850ca1c3d854b41dc008768"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/build_figures.py",
+    "bytes": 36485,
+    "sha256": "4ba88b491144d3974005e74eccb0bad081678cbe6e273ec9cde00991cf967190"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/figure-metadata.json",
+    "bytes": 4182,
+    "sha256": "064a94183a51da4a16e4083d85a39c5ed9c6339268064af9932b5a7dd92ce1ed"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/q15.py",
+    "bytes": 16348,
+    "sha256": "7ac2c336101bb47c0f50814a12ca60ea89fa4709ec3de92e1faa9e0808a8ee70"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/results.json",
+    "bytes": 56816,
+    "sha256": "3e8b623c08ffa4a63118f956cfcf4f4f40e925eae4655f11d68f5d603375c2fd"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/run-environment.json",
+    "bytes": 378,
+    "sha256": "c4300c530c850d17f97e40aa4bd50ce22bd122f39840d04cd84bfe27c88e7dfe"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/examples/run_model.py",
+    "bytes": 378,
+    "sha256": "8bc16e5b82649663229132757909f46bdd650fbdcb251dae7811d2f2925ed1c0"
+  },
+  {
+    "path": "articles/2026-12-14-q15-fixed-point/originals/KL_Motorola_DSP_XSP56001ZL.jpg",
+    "bytes": 797727,
+    "sha256": "4f41b96739bb1f2fa6e1dedc3f744d3573e0fadf2542b240d60ed7c9402c0757"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

@@ -1,0 +1,10 @@
+{
+ "python": "3.14.7",
+ "pillow": "12.3.0",
+ "numpy": null,
+ "fonts": [
+  "/System/Library/Fonts/Hiragino Sans GB.ttc",
+  "/System/Library/Fonts/Menlo.ttc"
+ ],
+ "notes": "q15.py 与 run_model.py 只用标准库（自写 xorshift32 随机数、三种舍入、饱和/回绕、极点与系数换算、正弦表）；build_figures.py 需要 Pillow 与上述两款系统字体。"
+}

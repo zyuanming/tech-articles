@@ -1,0 +1,165 @@
+[
+ {
+  "path": "assets/01-bits.png",
+  "width": 1062,
+  "height": 922,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Q15 的位权与一个具体数值的拆解",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-grid.png",
+  "width": 1062,
+  "height": 1066,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Q15 的量化格与 0.3 的存储误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-staircase.png",
+  "width": 1062,
+  "height": 1217,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Q15 与 4 位定点量化同一条正弦的对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-mul-modes.png",
+  "width": 1062,
+  "height": 1216,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Q15 乘法的三种舍入做法与实测误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-mul-error.png",
+  "width": 1062,
+  "height": 1390,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种舍入做法的误差分布",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-drift.png",
+  "width": 1062,
+  "height": 1024,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "4096 次乘法后偏置的累积",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-saturate.png",
+  "width": 1062,
+  "height": 1391,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "定点加法溢出时饱和与回绕的两种结果",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-acc-bits.png",
+  "width": 1062,
+  "height": 1209,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "乘法的位数需求与 int32 溢出",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-coef.png",
+  "width": 1062,
+  "height": 1288,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "低通系数在 Q15 里的可表示值与截止频率偏移",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-pole.png",
+  "width": 1062,
+  "height": 1209,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "极点半径在 Q15 系数下的离散取值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-deadband.png",
+  "width": 1062,
+  "height": 1056,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "定点单极点滤波器的死区与偏置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-filter-err.png",
+  "width": 1062,
+  "height": 1017,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "定点低通与浮点参考的误差曲线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-filter-snr.png",
+  "width": 1062,
+  "height": 1274,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种舍入方式下端到端信噪比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-sin-lut.png",
+  "width": 1062,
+  "height": 1294,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "正弦查表的误差：最近点与线性插值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-sqnr.png",
+  "width": 1062,
+  "height": 1144,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "量化位数与实测信噪比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-word-sweep.png",
+  "width": 1062,
+  "height": 1230,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "定点字长与端到端信噪比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-dsp56000.jpg",
+  "width": 1062,
+  "height": 661,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "摩托罗拉 DSP56001：24 位定点的音频/通信 DSP，1980 年代后期的典型产品",
+  "identity": "真实照片",
+  "source": "Wikimedia Commons, Konstantin Lanzet, CC BY-SA 3.0"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 1035,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文结论",
+  "identity": "原创教学示意"
+ }
+]
