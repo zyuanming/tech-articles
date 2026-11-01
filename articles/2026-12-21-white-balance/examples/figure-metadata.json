@@ -1,0 +1,166 @@
+[
+ {
+  "path": "assets/01-planck.png",
+  "width": 1062,
+  "height": 1066,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "五个色温下的黑体光谱形状",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-filament.jpg",
+  "width": 1062,
+  "height": 813,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "白炽灯的钨丝通电发光，色温约 2856 K，是 A 光源的原型",
+  "identity": "真实照片",
+  "source": "Wikimedia Commons, Arnoldius, CC BY-SA 3.0"
+ },
+ {
+  "path": "assets/03-locus.png",
+  "width": 1062,
+  "height": 1024,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "黑体轨迹与单色光边界",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-white-rgb.png",
+  "width": 1062,
+  "height": 1128,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "白纸在七种色温下的相机读数与偏色角度",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-gray-world.png",
+  "width": 1062,
+  "height": 992,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "灰世界假设与它的破绽",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-dominance.png",
+  "width": 1062,
+  "height": 1262,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "绿色占比与三种方法的误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-with-white.png",
+  "width": 1062,
+  "height": 1204,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "有白纸场景下的四种方法误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-no-white.png",
+  "width": 1062,
+  "height": 1260,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "没有白纸场景下的四种方法误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-gain-range.png",
+  "width": 1062,
+  "height": 1071,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "七种光源下的红蓝比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-diagonal.png",
+  "width": 1062,
+  "height": 1315,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "对角校正的几何含义",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-matrix.png",
+  "width": 1062,
+  "height": 1054,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "对角模型与全矩阵的差别",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-metamer.png",
+  "width": 1062,
+  "height": 1044,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "同一相机读数对应的两条反射率",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-metamer-shift.png",
+  "width": 1062,
+  "height": 1192,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "元激发在不同光源下的分裂",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-jnd.png",
+  "width": 1062,
+  "height": 1053,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "元激发距离与刚可分辨阈值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-cct.png",
+  "width": 1062,
+  "height": 1249,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "两种色温估计法的差异",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-table.png",
+  "width": 1062,
+  "height": 1016,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "常见光源的色温与白纸读数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-colorchecker.jpg",
+  "width": 1062,
+  "height": 816,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "X-Rite ColorChecker 校色卡，24 个已知反射率的标准色块，第二行是六格灰阶，白平衡与色彩矩阵都靠它标定",
+  "identity": "真实照片",
+  "source": "Wikimedia Commons, Jacek Halicki, CC BY-SA 4.0"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 831,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "五条结论",
+  "identity": "原创教学示意"
+ }
+]

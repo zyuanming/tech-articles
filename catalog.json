@@ -3218,5 +3218,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2026-12-21-white-balance",
+    "title": "为什么白纸在照片里不是白的",
+    "date": "2026-12-21",
+    "path": "articles/2026-12-21-white-balance/read.md",
+    "public_sha256": "f458fe505e5daf4df6a903b1ed3a5e1171031ad003a9fed6a2914be20f5465dd",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

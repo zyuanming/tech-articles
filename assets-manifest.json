@@ -30945,6 +30945,151 @@
     "sha256": "4f41b96739bb1f2fa6e1dedc3f744d3573e0fadf2542b240d60ed7c9402c0757"
   },
   {
+    "path": "articles/2026-12-21-white-balance/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/01-planck.png",
+    "bytes": 154083,
+    "sha256": "6b0875ee6024c456c2248799486bd324c126a8a66a473e493924a628c3d561af"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/02-filament.jpg",
+    "bytes": 100747,
+    "sha256": "238cd0cebd709d14b7ce02d7030449f96355c472b9a5440091efada1d903adee"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/03-locus.png",
+    "bytes": 136412,
+    "sha256": "d9d237d8465ce1baaaf95f8ab5000437cd0aeb951d1892a116f6d1e596265662"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/04-white-rgb.png",
+    "bytes": 162308,
+    "sha256": "5974fe11c9f30ff66fa68277a6e94cb92ad52b472cea765a54789b3d0a257015"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/05-gray-world.png",
+    "bytes": 141437,
+    "sha256": "fd64735297598f5c8ad8934dce7671740d11c3e1c7ffb5f4f4bf00f057cc7f17"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/06-dominance.png",
+    "bytes": 212292,
+    "sha256": "e4d14da2fd4e3c068f995e46381cac5d54eea394ad3c420f6510ac9d5fa4bb9b"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/07-with-white.png",
+    "bytes": 251303,
+    "sha256": "df54445ea837d34c37bac0303f35af4d843ebcc37d352140ccfae5e361b56ca0"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/08-no-white.png",
+    "bytes": 261771,
+    "sha256": "260a811c53c2ed30e244979bacc0cc292fb0d27e40abe5c2775882b63bc916b2"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/09-gain-range.png",
+    "bytes": 171206,
+    "sha256": "c6e3145f5e6c583e718673ca46e55f445a10a6efb56302b4418e442c79122a00"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/10-diagonal.png",
+    "bytes": 215275,
+    "sha256": "4a8ec352384b8f42b4530cacea31407b27ee32062111bfd9e152777d6ec74a6d"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/11-matrix.png",
+    "bytes": 220953,
+    "sha256": "5d2be460a0f4fded439b37b763519e5cff35f7f417ba7b1ffa1994ded8acc475"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/12-metamer.png",
+    "bytes": 156176,
+    "sha256": "631c499141f6f4428c114cd015d00aa281ccb0eac426c34f128f1ad85968b20d"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/13-metamer-shift.png",
+    "bytes": 242843,
+    "sha256": "fca5d51bb3d1b2329b67b1eccd5f0a20b899422369a381caa04daba416acfa7f"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/14-jnd.png",
+    "bytes": 177777,
+    "sha256": "9269cfc610d30d76a770ae1a2a87c7bcc163565d67b21a3abfba9eb77102939a"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/15-cct.png",
+    "bytes": 274294,
+    "sha256": "f5445825223cf425ee482a4402195f4591fba32f676c65c0451a68f0b0bfafdc"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/16-table.png",
+    "bytes": 203193,
+    "sha256": "114528b97fb71739bb975ef68141fdb854c89884d98f825d59d70f6d9c25d80f"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/17-colorchecker.jpg",
+    "bytes": 134557,
+    "sha256": "734d95dfb07a899e2c5be40e1fe9112ee3dd66cf7dd8795ed42d36d6b4ee7f68"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/assets/18-takeaways.png",
+    "bytes": 175021,
+    "sha256": "66b1f2babed7ecca4c1083cc6e6f4cc4bca1262f683ae5bba0b0144f3a7be68f"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/cover.png",
+    "bytes": 76798,
+    "sha256": "409c7829aff39bfc87ba8cde916c6ca4d61abcacbe7696e18fa2f3278e13b13a"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/build_figures.py",
+    "bytes": 32642,
+    "sha256": "aac0be505740e5a3f83fb27e672d9b190b98845df78a1f643edd65a1221b3d4f"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/figure-metadata.json",
+    "bytes": 4224,
+    "sha256": "c27402d792c7c173557c267996af681014e247c40d7991fd059da982f54c9b3c"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/results.json",
+    "bytes": 47114,
+    "sha256": "92c961ab14a72670f6570205479e34f3e5df8de7f0339c704c0cbc6799085eaa"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/run-environment.json",
+    "bytes": 417,
+    "sha256": "7a7bb706bd5dfd4d0d6ccda32b1cb792b7ef816d09ed2b718473b2c230d72d2f"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/run_model.py",
+    "bytes": 400,
+    "sha256": "452b275c0af3af7a9e1f299b7625bb16ea19287ab3dccf7d9ce2044faee62c6d"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/examples/wb.py",
+    "bytes": 16599,
+    "sha256": "2ff89ccfbb613f9b22648adf4df0f63ae44faec7e11803c0d1ed01094eef97b3"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/originals/2024_X-Rite_ColorChecker_Passport_Photo_2_(1).jpg",
+    "bytes": 4624694,
+    "sha256": "32bfd52ef421a465a62990a534cbe7578d6272792adc822ce70cda436bf10103"
+  },
+  {
+    "path": "articles/2026-12-21-white-balance/originals/Electric_bulb_filament.jpg",
+    "bytes": 911248,
+    "sha256": "26a22c0c1715e90bdd4dce92dc5f77ceb96dc36cd349523d351693553e1f624c"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

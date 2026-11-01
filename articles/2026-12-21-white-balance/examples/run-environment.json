@@ -1,0 +1,10 @@
+{
+ "python": "3.14.7",
+ "pillow": "12.3.0",
+ "numpy": null,
+ "fonts": [
+  "/System/Library/Fonts/Hiragino Sans GB.ttc",
+  "/System/Library/Fonts/Menlo.ttc"
+ ],
+ "notes": "wb.py 与 run_model.py 只用标准库（自写普朗克光谱、CIE 1931 配色函数的多瓣高斯拟合、三条高斯感光曲线、xorshift32 随机数、零空间构造）；build_figures.py 需要 Pillow 与上述两款系统字体。"
+}
