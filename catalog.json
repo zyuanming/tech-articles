@@ -3114,7 +3114,7 @@
     "title": "两个轮子，为什么可以不一样快",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-differential-gears/read.md",
-    "public_sha256": "5aeb5bfad82cff5ac93b3914f5a5446ca3fbee0248818363bd8fac9bd9c37808",
+    "public_sha256": "46651287cbc204aeed4f18d703a0ae1cf9e4a71dd93eb7592dc4026fe308e277",
     "images": 17,
     "status": "archived_article",
     "related_versions": []
@@ -3134,7 +3134,7 @@
     "title": "数到 32768：石英表为什么用这个古怪的频率",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-quartz-watch-32768/read.md",
-    "public_sha256": "f902ce0e8f9637252ed186c78d6d6bc6dbd736e9a64224a24035314e0dcbf486",
+    "public_sha256": "c048d74f49a7597d3368173107bbe8c9340a895a7adc561549099d2a0bc6940a",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3144,7 +3144,7 @@
     "title": "先砍 19 dB，再加回来",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-riaa-equalization/read.md",
-    "public_sha256": "258d2b707b1f56b7ee5102fd1494c1233ea08e7a421e3472fc3e1ff92cf27e84",
+    "public_sha256": "57442b00bfc723ce61399034aa4a442375c13c7a5714935f3dfc752348fd173e",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3154,7 +3154,7 @@
     "title": "听歌识曲：它是怎么从三秒杂音里认出歌名的",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-shazam-audio-fingerprint/read.md",
-    "public_sha256": "ca8a2f9164933b4721f7fdb4aff96ac9297b3c634f9ab9f6b13ea1ec3869ce59",
+    "public_sha256": "028e6bc45b6be4e7a5bd00f52dc02b1008f5ac6c8e47f9b4f856858e321a851f",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3164,7 +3164,7 @@
     "title": "一位 DAC：把声音存进密度里",
     "date": "2026-11-16",
     "path": "articles/2026-11-16-delta-sigma-one-bit/read.md",
-    "public_sha256": "9bde27005591e33a15831e83b696b5a0b3bd3f64d6e0e7b5c107dda40a5ea1d5",
+    "public_sha256": "334d04a71ef4912307075d72d02e41ce6ad671c7041aab345ce8a59b346999ee",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3174,7 +3174,7 @@
     "title": "一行代码算出 1/√x",
     "date": "2026-11-16",
     "path": "articles/2026-11-16-quake-fast-inverse-sqrt/read.md",
-    "public_sha256": "087b44d1e115b3755e133362338295fd89027eb0dbb665f77ed8d9a9762ed766",
+    "public_sha256": "a182168847e10ca532e2d1327f4e4be9dc00c11ebea502154511e36682ddf042",
     "images": 21,
     "status": "archived_article",
     "related_versions": []
@@ -3184,7 +3184,7 @@
     "title": "那条 4 字节的尾巴",
     "date": "2026-11-23",
     "path": "articles/2026-11-23-crc32-error-detection/read.md",
-    "public_sha256": "591852045d7ecaf8e936f6a80425472ab6c440f1eccd4237906eea03cdcb872e",
+    "public_sha256": "9353aed94c8b62a0ad2c1aa88145058f27cb45100cf686dcc76ec6e9d074e2c2",
     "images": 20,
     "status": "archived_article",
     "related_versions": []
