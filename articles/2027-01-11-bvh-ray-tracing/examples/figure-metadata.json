@@ -1,0 +1,165 @@
+[
+ {
+  "path": "assets/01-tunnel-render.png",
+  "width": 1062,
+  "height": 1033,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "模型的输出：球阵隧道，每个像素的颜色由光线求交算出",
+  "identity": "原创教学示意（本文模型渲染输出）"
+ },
+ {
+  "path": "assets/02-loop.png",
+  "width": 1062,
+  "height": 1165,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "渲染循环：每个像素一条光线，关键是找最近的交点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-sphere-hit.png",
+  "width": 1062,
+  "height": 1180,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "光线与球求交：解一元二次方程，取近的那个根",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-naive.png",
+  "width": 1062,
+  "height": 837,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "朴素做法：每条光线把所有图元都测一遍",
+  "identity": "原创教学示意（示意图里的 4 条光线是编的，不是模型数据）"
+ },
+ {
+  "path": "assets/05-slab.png",
+  "width": 1062,
+  "height": 1325,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "包围盒的 slab 判定：三对平板各算一段参数区间，取交集",
+  "identity": "原创教学示意（坐标是示意图，不是模型数据）"
+ },
+ {
+  "path": "assets/06-tree.png",
+  "width": 1062,
+  "height": 1201,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "BVH 的递归结构：节点存包围盒，叶子存图元",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-topview.png",
+  "width": 1062,
+  "height": 1164,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "同一棵 BVH 前两层节点的包围盒，俯视图上看空间被切成几段",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-splits.png",
+  "width": 1062,
+  "height": 1134,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三种切分方式的建树统计与实测每光线求交次数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-sah.png",
+  "width": 1062,
+  "height": 1176,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "根节点上 11 个候选切点的 SAH 代价曲线，最低点在 6 号",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-identical.png",
+  "width": 1062,
+  "height": 852,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "同一场景分别用朴素遍历与 BVH 渲染，输出逐字节相同",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-compare.png",
+  "width": 1062,
+  "height": 1008,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "每光线求交次数对比（对数横轴）：朴素 vs 三种切分",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-where.png",
+  "width": 1062,
+  "height": 886,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "每条光线的开销分解：访盒数、剪掉比例、真实求交数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-scaling.png",
+  "width": 1062,
+  "height": 1160,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "图元数增加时每光线求交次数的增长：朴素线性，BVH 接近对数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-prune.png",
+  "width": 1062,
+  "height": 874,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "遍历的两个开关：先近后远、命中后按 tmax 剪枝",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-heatmap.png",
+  "width": 1062,
+  "height": 1196,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "逐像素求交次数热力图：场景里哪些地方最费",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-rays.png",
+  "width": 1062,
+  "height": 891,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "光线构成：主光线之外，阴影线与反射线各占多少",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-teapot.jpg",
+  "width": 1062,
+  "height": 796,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "计算机图形学界最有名的一把茶壶：1970 年代用来做曲面建模测试的那一只，现藏于山景城的计算机历史博物馆",
+  "identity": "真实照片",
+  "source": "The wub, CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 831,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文四条结论",
+  "identity": "原创教学示意"
+ }
+]

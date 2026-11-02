@@ -3248,5 +3248,15 @@
     "images": 19,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-01-11-bvh-ray-tracing",
+    "title": "一条光线，459 次白问",
+    "date": "2027-01-11",
+    "path": "articles/2027-01-11-bvh-ray-tracing/read.md",
+    "public_sha256": "b4eee5be73cadafe1655a3d4374926e1da909bf41e21288605baba8fc01c8a3b",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

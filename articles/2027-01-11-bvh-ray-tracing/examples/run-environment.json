@@ -1,0 +1,10 @@
+{
+ "python": "3.14.7",
+ "pillow": "12.3.0",
+ "numpy": null,
+ "fonts": [
+  "/System/Library/Fonts/Hiragino Sans GB.ttc",
+  "/System/Library/Fonts/Menlo.ttc"
+ ],
+ "notes": "bvh.py 与 run_model.py 只用标准库（向量、球与平面的求交、三种建树、遍历计数、Whitted 渲染、PPM 输出）。build_figures.py 需要 Pillow 与上述两款系统字体，并从 bvh.py 现场重渲染 160×90 与 320×180 两张图，断言其 sha256 与 results.json 一致。"
+}

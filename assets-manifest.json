@@ -31385,6 +31385,146 @@
     "sha256": "b4c71d472f576d32d99c1b2735cbacf2530258755414aa10a0d1a0738f83987c"
   },
   {
+    "path": "articles/2027-01-11-bvh-ray-tracing/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/01-tunnel-render.png",
+    "bytes": 369389,
+    "sha256": "34534662f1011bde3dde0f749a1b3b5c1ce2b04dec8f3f3599d343aa50dcb1cf"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/02-loop.png",
+    "bytes": 170310,
+    "sha256": "afb1036c3f6e2c28e2fff43fe87c90643cc5c46f1f53b94dac735cfa3f8d0e2f"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/03-sphere-hit.png",
+    "bytes": 151446,
+    "sha256": "6bfe7c3b71313aa7fe43420a9187c43ddfaa72ff61e51aade1b58afb152d87a0"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/04-naive.png",
+    "bytes": 122589,
+    "sha256": "a1822bb565e7300138fe5faf5d2b860c40d04242c8ee585142668268bd843e26"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/05-slab.png",
+    "bytes": 152498,
+    "sha256": "b9058968877915ee2620ff54121fa31561d52e9037b44e1f37923d12d40c8beb"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/06-tree.png",
+    "bytes": 153687,
+    "sha256": "5559bb9372ce7e83d145bcfc35dcabf10d4f5aedc881afcab2b77a16a7173016"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/07-topview.png",
+    "bytes": 168456,
+    "sha256": "fb327fbe8e723784fdebdf9ac3a05336f1be0e036c191296a9729e9fad9bd0b3"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/08-splits.png",
+    "bytes": 226231,
+    "sha256": "7f190063657cb673feece621e314be6b8634b72c3e77286b45411e4e9c10ce2b"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/09-sah.png",
+    "bytes": 157152,
+    "sha256": "f3964eb5289a8723594dfe2031e0495a22653dae8ab48f23859ca97aff0bd751"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/10-identical.png",
+    "bytes": 216033,
+    "sha256": "b2f528720026255b827303ab4aeeceb65c136e64145fccdef58d3b46a8935707"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/11-compare.png",
+    "bytes": 161487,
+    "sha256": "85167843c1b5f048106f01b17bbc1751e3ebd36c5ffdd4698a0ff9a7547f7171"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/12-where.png",
+    "bytes": 167757,
+    "sha256": "381cc81192775033d06bfdacbd3db8b6d005fd40f27aeae4a08ed1bc72fa7245"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/13-scaling.png",
+    "bytes": 156649,
+    "sha256": "896dd593ab9db9d0482996b60cdd52feb8411ca9e126511951dcd2ec23f484de"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/14-prune.png",
+    "bytes": 140309,
+    "sha256": "b60389b95c6209fc8bec42a1a08cd3546a485cdece1645ffd1728048dcc88f3b"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/15-heatmap.png",
+    "bytes": 378374,
+    "sha256": "1d47d2be647ed0330e9574a3ee2300ec3cda7a106995b222a2768773aa6b5b67"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/16-rays.png",
+    "bytes": 164224,
+    "sha256": "645bf8a9eeab88b028113406430e847c3b3d7c0c1a57379fb2ceae583c86d938"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/17-teapot.jpg",
+    "bytes": 108137,
+    "sha256": "a6212a3529c830f1193952521567707c9f73bb8fbb01ad581a1b5fe83372a789"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/assets/18-takeaways.png",
+    "bytes": 161793,
+    "sha256": "caa84e5fdc2f9e8a032362e806fb826eae92b82330805ada3fa432ce7d412cef"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/cover.png",
+    "bytes": 204109,
+    "sha256": "1380b978d77f03363879ea18bb6451471c029bdefdc582546d32b6ff47e83d3b"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/build_figures.py",
+    "bytes": 38613,
+    "sha256": "806b04481b95207297f8edfe03bf5a2f5576c4bb36156188d83abe109a7435eb"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/bvh.py",
+    "bytes": 16964,
+    "sha256": "44778174ef0688025f6fff69417d4bf1060eb897de28d9cc102262599b1d4189"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/figure-metadata.json",
+    "bytes": 4781,
+    "sha256": "5469949f61107948cb1cb7c3568a49d92e9e3bf00769ac65fc5dc7ea7b44c5a9"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/results.json",
+    "bytes": 129522,
+    "sha256": "ddff4176a5ee59d9f598615ab9055c98140032efa9f9926049e5801be6be8bac"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/run-environment.json",
+    "bytes": 480,
+    "sha256": "1918d5581c95349e4c76c92f3b5cde2fac3f475ffab179e126170de99ed304af"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/examples/run_model.py",
+    "bytes": 8984,
+    "sha256": "9a65d65981a08ccc6c1f6ec2087d308c750cdc9ea60279b1234c0d3a5d878991"
+  },
+  {
+    "path": "articles/2027-01-11-bvh-ray-tracing/originals/Utah_Teapot_circa_1974,_Computer_History_Museum.jpg",
+    "bytes": 5071046,
+    "sha256": "6366aef0b8af3e66a15fcbe73c5d08adfed0db58b72592b51731d66e014020e7"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
