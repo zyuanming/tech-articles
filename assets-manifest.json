@@ -31525,6 +31525,151 @@
     "sha256": "6366aef0b8af3e66a15fcbe73c5d08adfed0db58b72592b51731d66e014020e7"
   },
   {
+    "path": "articles/2027-01-18-consistent-hashing/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/01-modulo.png",
+    "bytes": 175386,
+    "sha256": "ddf96e52fbe03d0c9a822a34864183bf7d24d7c5fda0d99019944b1eb3d3ba83"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/02-migration.png",
+    "bytes": 162029,
+    "sha256": "97040114c0fb234047253e9ac6c6c2d7669aad888d0da16d4599055e3145dc78"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/03-ring.png",
+    "bytes": 118101,
+    "sha256": "74744a6a134d4eb0718ff10a9df79067f4a30fa0068d7e269dbcd860856acb54"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/04-walk.png",
+    "bytes": 145287,
+    "sha256": "fac038471b59c7a66e9f6ef65edb1a7e156222786ecb639f0ac2117010227cb1"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/05-strip.png",
+    "bytes": 121598,
+    "sha256": "21a7a14b925b22403e6733a5266b4cc2ceed39b5ab7384235d8bd112322fe4c8"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/06-per-node.png",
+    "bytes": 129927,
+    "sha256": "bf228eceb035561ab2ff8b7e9cf1e5d104355ba0492c1ba92a5354899ab841c5"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/07-vnodes.png",
+    "bytes": 100830,
+    "sha256": "2f3aff82243609e69b928e0165c44a891659ed7e07fa4ec00170f5a0cfba1fe3"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/08-balance.png",
+    "bytes": 114564,
+    "sha256": "a21e42c93fd017fea0410be237139c3e04d770b570dc909140120b2f4fa574fc"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/09-tradeoff.png",
+    "bytes": 141384,
+    "sha256": "d7e634e5b89d1dcd9f099b827aaf9cef44bb238953dea7570fb2c078b175ffed"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/10-lookup.png",
+    "bytes": 157276,
+    "sha256": "60ade5e332e5e6c20d613c75c89e60817502bbe2f3fe167520b2bda639533070"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/11-failure.png",
+    "bytes": 107819,
+    "sha256": "3110f2c3f52fdfe1330b639d5feb5733ae3108628097e38d573b658e8970cd69"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/12-grow-shrink.png",
+    "bytes": 140290,
+    "sha256": "8209fb5b40c4e5c004c8b23eb5f6a8174ce471396b5ed24019caaf5ade010183"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/13-jump-steps.png",
+    "bytes": 154125,
+    "sha256": "312cce134073250093e214192b97113230121d84d38d7861db3cd34428a40d22"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/14-jump-loop.png",
+    "bytes": 117036,
+    "sha256": "5f2131068139fd5ae189bc6e08edc6b872fdf1312ba3074456ec3a9575c4494f"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/15-jump-load.png",
+    "bytes": 94546,
+    "sha256": "e7c8d1abe1ac1f21767c9aefe98aff93c535ec2618fab8a8101451cea76c6b68"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/16-compare.png",
+    "bytes": 147751,
+    "sha256": "da2100739d3015901f2db3c34dda76d90e6ad06ce93f63454202a6b91f169ffb"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/17-karger.jpg",
+    "bytes": 315875,
+    "sha256": "dc55925a9418ac7f2b835713010ec5ebce62e3093f613d752d204c366282591a"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/18-who.png",
+    "bytes": 204074,
+    "sha256": "9996aa20240a37eb6737a70bb9b1e9b5c9f5593477d85b30a9a7c025962aad31"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/assets/19-takeaways.png",
+    "bytes": 182047,
+    "sha256": "e9e36e179f0e06516c0221bf6109262ce4a87b92367be90ab00c34ee16168077"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/cover.png",
+    "bytes": 92236,
+    "sha256": "fd73ac9f3f42bc8d8783c22be0e6d8e61c6c46736fde2f9c708291a0c94e08f2"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/build_figures.py",
+    "bytes": 32746,
+    "sha256": "99fcec2d9e1492fad2fdfcb212b1e3ac7fd2a2e1519689c901bb26b6ca7944bc"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/ch.py",
+    "bytes": 3743,
+    "sha256": "6dee7bfca77932bb55c6f01f67f97a9ceab1c768408e7d4ef1a010f9eb771e90"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/figure-metadata.json",
+    "bytes": 4568,
+    "sha256": "e931d0627dfec74e7260737c573f9861746ad37a48017bdbd18290f22e3c86c5"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/results.json",
+    "bytes": 23884,
+    "sha256": "86466a7e30d96e4e7b87a97b83ca80d383a1882ffd22a686e9d56ca5627c205d"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/run-environment.json",
+    "bytes": 402,
+    "sha256": "bc2fa10a2ba3275af48af7102b90350d7357f560ec2bccefba2a12cbdf068d06"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/examples/run_model.py",
+    "bytes": 6710,
+    "sha256": "8d54689517fa2c0449036782cf8897d4efe6ad6e7f4b23e0fbbff1d834a7d32b"
+  },
+  {
+    "path": "articles/2027-01-18-consistent-hashing/originals/David_Karger.jpg",
+    "bytes": 9721867,
+    "sha256": "58fa14a507f7b6e2011b58842e42f9ff9dc1939f68fa407fb2485c99767a1f82"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

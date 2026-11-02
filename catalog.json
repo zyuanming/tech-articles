@@ -3258,5 +3258,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-01-18-consistent-hashing",
+    "title": "多一台机器，要搬走多少钥匙",
+    "date": "2027-01-18",
+    "path": "articles/2027-01-18-consistent-hashing/read.md",
+    "public_sha256": "ad76a55ea7f11e4127d5ae28ffa4ac3cf02ef5ca24109ebc18dc407ed9d7fb94",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

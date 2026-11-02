@@ -1,0 +1,174 @@
+[
+ {
+  "path": "assets/01-modulo.png",
+  "width": 1062,
+  "height": 962,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "取模方案：除数变化导致大量 key 重新归属",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-migration.png",
+  "width": 1062,
+  "height": 1051,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "扩容时搬家比例：取模与三种一致性方案对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-ring.png",
+  "width": 1062,
+  "height": 972,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "哈希环：节点与 key 都钉在同一个圆上，key 顺时针找主人",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-walk.png",
+  "width": 1062,
+  "height": 976,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一个 key 顺时针找到主人的两种情况，含绕过 0 点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-strip.png",
+  "width": 1062,
+  "height": 908,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "把环拉直：每节点 1 个点与 16 个点的弧段宽窄对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-per-node.png",
+  "width": 1062,
+  "height": 1295,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "每节点实际负载：1 个点与 128 个点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-vnodes.png",
+  "width": 1062,
+  "height": 927,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "虚拟节点：一个物理节点在环上占据多个点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-balance.png",
+  "width": 1062,
+  "height": 995,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "虚拟节点数量与负载均衡的关系",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-tradeoff.png",
+  "width": 1062,
+  "height": 867,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "虚拟节点数的权衡：均衡度、查找步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-lookup.png",
+  "width": 1062,
+  "height": 899,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "二分查找的比较次数随环上点数增长（对数）",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-failure.png",
+  "width": 1062,
+  "height": 952,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "节点故障时只有相邻一段弧需要重新归属",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-grow-shrink.png",
+  "width": 1062,
+  "height": 1359,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "扩容与缩容时的搬家比例：三个方案对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-jump-steps.png",
+  "width": 1062,
+  "height": 1232,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "jump hash 的循环：一个 key 的真实演化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-jump-loop.png",
+  "width": 1062,
+  "height": 962,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "jump hash 的平均循环次数随桶数增长",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-jump-load.png",
+  "width": 1062,
+  "height": 827,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "jump hash 的桶分布：十个桶几乎等分",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-compare.png",
+  "width": 1062,
+  "height": 814,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "取模、环加虚拟节点、jump hash 的横向对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-karger.jpg",
+  "width": 1062,
+  "height": 1593,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "1997 年论文的第一作者 David Karger（2017 年摄）",
+  "identity": "真实照片",
+  "source": "Transclusion, Wikimedia Commons, CC BY 4.0"
+ },
+ {
+  "path": "assets/18-who.png",
+  "width": 1062,
+  "height": 1084,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "使用一致性哈希的代表性系统",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/19-takeaways.png",
+  "width": 1062,
+  "height": 861,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "四条结论",
+  "identity": "原创教学示意"
+ }
+]
