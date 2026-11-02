@@ -1,0 +1,174 @@
+[
+ {
+  "path": "assets/01-two-writes.png",
+  "width": 1062,
+  "height": 1001,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "两台机器并发写同一个值，合并时互相收到对方的更新",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-late-order.png",
+  "width": 1062,
+  "height": 815,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "后到覆盖在两种到达顺序下得到相反的值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-laws.png",
+  "width": 1062,
+  "height": 852,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "交换律、结合律、幂等律：合并必须满足的三条规矩",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-order-test.png",
+  "width": 1062,
+  "height": 1094,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "八种合并规则在 200 种随机合并顺序与重复投递下的表现",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-lww.png",
+  "width": 1062,
+  "height": 954,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "最后写入者胜：时间戳大的那次写覆盖小的",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-tiebreak.png",
+  "width": 1062,
+  "height": 898,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "时间戳相同时用节点名兜底，保证唯一的赢家",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-rmw.png",
+  "width": 1062,
+  "height": 885,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三台机器并发读改写，LWW 只剩一个 1",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-gcounter.png",
+  "width": 1062,
+  "height": 932,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "G-Counter 的三格状态与逐格取最大、读时求和",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-idempotent.png",
+  "width": 1062,
+  "height": 808,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "重复投递同一份状态：合并相加会翻倍，G-Counter 不变",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-pncounter.png",
+  "width": 1062,
+  "height": 1016,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "PN-Counter 的加减两本账与余额",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-partition.png",
+  "width": 1062,
+  "height": 868,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "分区愈合后各方案记住的增量总数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-gossip.png",
+  "width": 1062,
+  "height": 956,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "副本数 3 到 32 时达到全部一致所需的八卦轮数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-twopset.png",
+  "width": 1062,
+  "height": 894,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "2P-Set 的状态流转与「删掉就回不来」的限制",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-orset.png",
+  "width": 1062,
+  "height": 878,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "OR-Set 的标签集合与作废集合",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-add-wins.png",
+  "width": 1062,
+  "height": 842,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "并发加与删时 2P-Set 与 OR-Set 的不同结论",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-growth.png",
+  "width": 1062,
+  "height": 878,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种状态随操作数增长占用的字节数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-rr7506.png",
+  "width": 1062,
+  "height": 1522,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "2011 年 INRIA 研究报告 RR-7506 的封面：四位作者与报告编号",
+  "identity": "档案扫描件",
+  "source": "https://inria.hal.science/inria-00555588/file/techreport.pdf"
+ },
+ {
+  "path": "assets/18-who.png",
+  "width": 1062,
+  "height": 844,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "四类使用 CRDT 的系统及其侧重点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/19-takeaways.png",
+  "width": 1062,
+  "height": 692,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "四条结论",
+  "identity": "原创教学示意"
+ }
+]

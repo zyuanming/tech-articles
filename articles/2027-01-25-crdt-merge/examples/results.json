@@ -1,0 +1,489 @@
+{
+ "setup": {
+  "keys_note": "三台机器 A/B/C，互不通信",
+  "seed": 3
+ },
+ "merge_order": {
+  "lww": {
+   "label": "LWW 寄存器",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "42441b52fb8c"
+   ],
+   "states": [
+    "25e86761aee3",
+    "b561d000bc24",
+    "42441b52fb8c"
+   ]
+  },
+  "gcounter": {
+   "label": "G-Counter",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "324e8e4d79ed"
+   ],
+   "states": [
+    "bb14fc552b70",
+    "33b1ea8aada2",
+    "c228d6d54347"
+   ]
+  },
+  "pncounter": {
+   "label": "PN-Counter",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "1af317c79960"
+   ],
+   "states": [
+    "143e8c37293c",
+    "dd747f04eaf1",
+    "dee80fb5512d"
+   ]
+  },
+  "twopset": {
+   "label": "2P-Set",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "d9c43f7a3104"
+   ],
+   "states": [
+    "c04afe74604a",
+    "97f4aa179cdf",
+    "855184480994"
+   ]
+  },
+  "orset": {
+   "label": "OR-Set",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "38323a17c7cc"
+   ],
+   "states": [
+    "1f3504be83ce",
+    "62dba165ef0f",
+    "48c44b28ea23"
+   ]
+  },
+  "gset": {
+   "label": "G-Set",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "9d70c1ff6b1b"
+   ],
+   "states": [
+    "5ddf4f00011c",
+    "eb0461be3067",
+    "9c25d890cd70"
+   ]
+  },
+  "late": {
+   "label": "后到覆盖",
+   "distinct": 3,
+   "top": 79,
+   "fingerprints": [
+    "55f66626a0f4",
+    "8e015e50cc99",
+    "c7d59bb08afb"
+   ],
+   "states": [
+    "8e015e50cc99",
+    "c7d59bb08afb",
+    "55f66626a0f4"
+   ]
+  },
+  "sum": {
+   "label": "合并相加",
+   "distinct": 1,
+   "top": 200,
+   "fingerprints": [
+    "a4c13d3379e2"
+   ],
+   "states": [
+    "c65a5d4fe371",
+    "e9404b6b3532",
+    "99dd84a61d4e"
+   ]
+  }
+ },
+ "idempotence": {
+  "lww": {
+   "label": "LWW 寄存器",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "42441b52fb8c",
+     "value": "草稿 v3"
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "42441b52fb8c",
+     "value": "草稿 v3"
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "42441b52fb8c",
+     "value": "草稿 v3"
+    }
+   ]
+  },
+  "gcounter": {
+   "label": "G-Counter",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "324e8e4d79ed",
+     "value": 14
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "324e8e4d79ed",
+     "value": 14
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "324e8e4d79ed",
+     "value": 14
+    }
+   ]
+  },
+  "pncounter": {
+   "label": "PN-Counter",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "1af317c79960",
+     "value": 11
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "1af317c79960",
+     "value": 11
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "1af317c79960",
+     "value": 11
+    }
+   ]
+  },
+  "twopset": {
+   "label": "2P-Set",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "d9c43f7a3104",
+     "value": null
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "d9c43f7a3104",
+     "value": null
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "d9c43f7a3104",
+     "value": null
+    }
+   ]
+  },
+  "orset": {
+   "label": "OR-Set",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "38323a17c7cc",
+     "value": null
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "38323a17c7cc",
+     "value": null
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "38323a17c7cc",
+     "value": null
+    }
+   ]
+  },
+  "gset": {
+   "label": "G-Set",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "9d70c1ff6b1b",
+     "value": null
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "9d70c1ff6b1b",
+     "value": null
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "9d70c1ff6b1b",
+     "value": null
+    }
+   ]
+  },
+  "late": {
+   "label": "后到覆盖",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "55f66626a0f4",
+     "value": 2
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "55f66626a0f4",
+     "value": 2
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "55f66626a0f4",
+     "value": 2
+    }
+   ]
+  },
+  "sum": {
+   "label": "合并相加",
+   "runs": [
+    {
+     "repeats": 1,
+     "fingerprint": "a4c13d3379e2",
+     "value": 14
+    },
+    {
+     "repeats": 2,
+     "fingerprint": "e6a573821055",
+     "value": 28
+    },
+    {
+     "repeats": 5,
+     "fingerprint": "0b1b3719bd67",
+     "value": 70
+    }
+   ]
+  }
+ },
+ "gossip": {
+  "lww": {
+   "label": "LWW 寄存器",
+   "rounds": 7,
+   "value": 298,
+   "truth": 300,
+   "ops": 300
+  },
+  "gcounter": {
+   "label": "G-Counter",
+   "rounds": 11,
+   "value": 300,
+   "truth": 300,
+   "ops": 300
+  },
+  "pncounter": {
+   "label": "PN-Counter",
+   "rounds": 11,
+   "value": 300,
+   "truth": 300,
+   "ops": 300
+  },
+  "twopset": {
+   "label": "2P-Set",
+   "rounds": 11,
+   "value": 300,
+   "truth": 300,
+   "ops": 300
+  },
+  "orset": {
+   "label": "OR-Set",
+   "rounds": 11,
+   "value": 300,
+   "truth": 300,
+   "ops": 300
+  },
+  "gset": {
+   "label": "G-Set",
+   "rounds": 11,
+   "value": 300,
+   "truth": 300,
+   "ops": 300
+  },
+  "late": {
+   "label": "后到覆盖",
+   "rounds": 5,
+   "value": 296,
+   "truth": 300,
+   "ops": 300
+  },
+  "sum": {
+   "label": "合并相加",
+   "rounds": null,
+   "ops": 300
+  }
+ },
+ "gossip_scale": [
+  {
+   "nodes": 3,
+   "rounds": 3.75,
+   "log2": 1.58
+  },
+  {
+   "nodes": 4,
+   "rounds": 4.0,
+   "log2": 2.0
+  },
+  {
+   "nodes": 6,
+   "rounds": 5.75,
+   "log2": 2.58
+  },
+  {
+   "nodes": 8,
+   "rounds": 6.0,
+   "log2": 3.0
+  },
+  {
+   "nodes": 12,
+   "rounds": 7.5,
+   "log2": 3.58
+  },
+  {
+   "nodes": 16,
+   "rounds": 8.25,
+   "log2": 4.0
+  },
+  {
+   "nodes": 24,
+   "rounds": 9.25,
+   "log2": 4.58
+  },
+  {
+   "nodes": 32,
+   "rounds": 10.25,
+   "log2": 5.0
+  }
+ ],
+ "partition": {
+  "gcounter": {
+   "value": 300,
+   "truth": 300
+  },
+  "pncounter": {
+   "value": 300,
+   "truth": 300
+  },
+  "late": {
+   "value": 100,
+   "truth": 300
+  },
+  "sum": {
+   "value": 300,
+   "truth": 300
+  }
+ },
+ "add_wins": {
+  "orset_has": true,
+  "twopset_has": false,
+  "orset_tags": 2,
+  "orset_dead": 1
+ },
+ "growth": [
+  {
+   "ops": 10,
+   "gset_bytes": 50,
+   "twopset_bytes": 155,
+   "orset_bytes": 226,
+   "orset_tags": 10,
+   "orset_dead": 2
+  },
+  {
+   "ops": 50,
+   "gset_bytes": 270,
+   "twopset_bytes": 738,
+   "orset_bytes": 1146,
+   "orset_tags": 50,
+   "orset_dead": 12
+  },
+  {
+   "ops": 100,
+   "gset_bytes": 545,
+   "twopset_bytes": 1476,
+   "orset_bytes": 2303,
+   "orset_tags": 100,
+   "orset_dead": 25
+  },
+  {
+   "ops": 200,
+   "gset_bytes": 1145,
+   "twopset_bytes": 3072,
+   "orset_bytes": 4828,
+   "orset_tags": 200,
+   "orset_dead": 50
+  },
+  {
+   "ops": 500,
+   "gset_bytes": 2945,
+   "twopset_bytes": 7872,
+   "orset_bytes": 12403,
+   "orset_tags": 500,
+   "orset_dead": 125
+  },
+  {
+   "ops": 1000,
+   "gset_bytes": 5945,
+   "twopset_bytes": 15877,
+   "orset_bytes": 25031,
+   "orset_tags": 1000,
+   "orset_dead": 250
+  },
+  {
+   "ops": 2000,
+   "gset_bytes": 12445,
+   "twopset_bytes": 33206,
+   "orset_bytes": 52531,
+   "orset_tags": 2000,
+   "orset_dead": 500
+  }
+ ],
+ "tiebreak": {
+  "trials": 200,
+  "higher": 200,
+  "lower": 0,
+  "examples": [
+   {
+    "pair": [
+     "D",
+     "C"
+    ],
+    "winner": "D"
+   },
+   {
+    "pair": [
+     "C",
+     "B"
+    ],
+    "winner": "C"
+   },
+   {
+    "pair": [
+     "B",
+     "A"
+    ],
+    "winner": "B"
+   }
+  ]
+ },
+ "rmw": {
+  "final": 1,
+  "intended": 3,
+  "concurrent_writes": 3
+ }
+}

@@ -31670,6 +31670,166 @@
     "sha256": "58fa14a507f7b6e2011b58842e42f9ff9dc1939f68fa407fb2485c99767a1f82"
   },
   {
+    "path": "articles/2027-01-25-crdt-merge/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/01-two-writes.png",
+    "bytes": 139578,
+    "sha256": "b6580c07cba94bcd7a77f21f43aa835ad0faf1b600af0b3a77e4d8b1881431cb"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/02-late-order.png",
+    "bytes": 165736,
+    "sha256": "3c909d4d6c69905c2c9b354c28d3429ac9ad4ae60475fc5ecf7d3df4eff34071"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/03-laws.png",
+    "bytes": 177276,
+    "sha256": "13ec69714fa82f7a0f7c981d1765cdbb612c1f898c8abcef34c9cea6fcaeb132"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/04-order-test.png",
+    "bytes": 207017,
+    "sha256": "ca62f49959eaa50847398aec0c4b2c733c1899ba7572acb6f2ca6d4e61e3236c"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/05-lww.png",
+    "bytes": 159811,
+    "sha256": "09c42897a12b601358cf1636d5534cd3a881a2c63ab320e5c6b908543bded05f"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/06-tiebreak.png",
+    "bytes": 154713,
+    "sha256": "225de42cc141a791db39cc99bb82b2ce1c0a1c6b71130f20663c9d75b3b526ad"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/07-rmw.png",
+    "bytes": 132378,
+    "sha256": "418843d6e344496b5dabe9e8e870dd4863809a17f8b0d79b38d3f01f92488d1d"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/08-gcounter.png",
+    "bytes": 144885,
+    "sha256": "70baba404be1534b1963d4c1de984709e9d1959be0c0f8f5002c69cb98175f8d"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/09-idempotent.png",
+    "bytes": 152078,
+    "sha256": "686b9a6084fce62a5e76918d8a01ae61e9c899463cb5095b6065f979c669b1ea"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/10-pncounter.png",
+    "bytes": 140760,
+    "sha256": "b41e85a38ea0990b41eb8d1e4cb8616a520eb9731baa6284c555ad8d7614279b"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/11-partition.png",
+    "bytes": 128340,
+    "sha256": "7f1a3278af4cd76f2921e2cccaddc5f684e09d9f7ad72c979a55957a16090469"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/12-gossip.png",
+    "bytes": 143197,
+    "sha256": "45ab7d5225cd4a2b2dca8f97c800f9809a7e8da41c752e1ad143991868225bcf"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/13-twopset.png",
+    "bytes": 141085,
+    "sha256": "f90e937aa50d607f79ad1828f122462d584787d139844ef663acd89e93ac5175"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/14-orset.png",
+    "bytes": 153764,
+    "sha256": "f9b007d6a65bfb44664a1ef1c21de3087ac5f7b80bfd27dca142b5eac06478ba"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/15-add-wins.png",
+    "bytes": 176854,
+    "sha256": "69259090b4cfa889bb3af0260bea5675b148e5e48f0cb8819e15e71aa8e5097e"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/16-growth.png",
+    "bytes": 135972,
+    "sha256": "9e1bd7e9391d938a3930b31f74709d976a5591dab73ac408745c974cb2851560"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/17-rr7506.png",
+    "bytes": 167086,
+    "sha256": "4463c5db2f4bdbe8216dec5c444b8ceec757fdb7466b7dd7a80172cea0b6bcfa"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/18-who.png",
+    "bytes": 169494,
+    "sha256": "87391034b70476fd780ed2568cde8e3b2fc26b424f67859f4ea3a96522709e93"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/assets/19-takeaways.png",
+    "bytes": 149679,
+    "sha256": "848081d4e0f2e4d06f86f5c172011e01a9067c0d1a7aeb597dd3ca251d0c93ce"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/cover.png",
+    "bytes": 86902,
+    "sha256": "4c6a52365d9b32f7e360f2cd5defb45d8128c8ac31d6977831a55433650e7474"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/build_figures.py",
+    "bytes": 34223,
+    "sha256": "e57da3c1fb564cd1467e51f983d61d67315c7ad6adbc0098e1f2cb0b123ad36b"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/crdt.py",
+    "bytes": 6444,
+    "sha256": "e6eb2915ee92c89896e7810171b5f678bbabb9211dc74e668aeaa3464bab259b"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/figure-metadata.json",
+    "bytes": 4625,
+    "sha256": "fb18fbc4659e87658be6d505f71a872b761bf0b515538ba3c26546b118b4ae05"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/results.json",
+    "bytes": 7365,
+    "sha256": "0f40a68ef91b17ecb94fabe4ffbfe5e7838b1ecd5e6263d737bc559f36a50b6d"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/run-environment.json",
+    "bytes": 616,
+    "sha256": "a58565077dc0801cb1d812e0e25fb2444c37085e3e2f02b8276fdff2ee432670"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/examples/run_model.py",
+    "bytes": 12148,
+    "sha256": "09d391e9c8f8cc1927f2e0e1ddd960b267377cdc0858d9a3e2f2ee8a54dc454d"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/originals/rr7506-cover.png",
+    "bytes": 151866,
+    "sha256": "faa419253ad940c382e7e9645bb513a61ddf0c901e99781d45042d2f174df5d0"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/originals/rr7506-page1.png",
+    "bytes": 264393,
+    "sha256": "2fab14eb983be9010d2eeac84b66b0c329682a195a915b3c97f3ed6f49192ec2"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/originals/rr7506-page2.png",
+    "bytes": 149629,
+    "sha256": "e64b2cb336fe69ad098d06c345d3c3160ad95ad9452955671028158f6d9d3082"
+  },
+  {
+    "path": "articles/2027-01-25-crdt-merge/originals/rr7506.pdf",
+    "bytes": 1014719,
+    "sha256": "6b6532b83d7881cb5fbb3859a2f06271fbb04db695755c1393be71edf3153a2e"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

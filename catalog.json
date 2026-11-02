@@ -3268,5 +3268,15 @@
     "images": 19,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-01-25-crdt-merge",
+    "title": "三个节点吵架，最后谁说了算",
+    "date": "2027-01-25",
+    "path": "articles/2027-01-25-crdt-merge/read.md",
+    "public_sha256": "55676510705b38692adcd1d00d8125bb27096c767db5bf799a54a47b6db714fb",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
