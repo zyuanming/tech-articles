@@ -1,0 +1,517 @@
+{
+ "detail": {
+  "outcomes": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "preds": {
+   "1 位计数器表": {
+    "pred": [
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "miss_at": [
+     0,
+     5,
+     6,
+     11,
+     12,
+     17
+    ]
+   },
+   "2 位计数器表": {
+    "pred": [
+     0,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "miss_at": [
+     0,
+     1,
+     5,
+     11,
+     17
+    ]
+   }
+  }
+ },
+ "correlated_sample": {
+  "a": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1
+  ],
+  "b": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ "config": {
+  "width": 2.0,
+  "branch_density": 0.2,
+  "penalty": 15,
+  "base_cpi": 0.5,
+  "entries": 4096,
+  "local_hist_bits": 8,
+  "gshare_hist_bits": 12
+ },
+ "traces": {
+  "loop10": {
+   "length": 660,
+   "taken": 0.9091,
+   "note": "循环 10 次，退出一次"
+  },
+  "loop100": {
+   "length": 1212,
+   "taken": 0.9901,
+   "note": "循环 100 次，退出一次"
+  },
+  "nested": {
+   "length": 1680,
+   "taken": 0.8393,
+   "note": "内层 5 次套在外层 8 次里"
+  },
+  "random50": {
+   "length": 3000,
+   "taken": 0.5167,
+   "note": "每个分支各 50%，互不相关"
+  },
+  "correlated": {
+   "length": 3000,
+   "taken": 0.5,
+   "note": "B 总是跟着 A 走"
+  },
+  "period3": {
+   "length": 3000,
+   "taken": 0.6667,
+   "note": "T T N 周期重复"
+  },
+  "switch8": {
+   "length": 3200,
+   "taken": 0.125,
+   "note": "8 路 switch，每组一个 taken"
+  }
+ },
+ "predictors": [
+  "静态：从不 taken",
+  "静态：总是 taken",
+  "1 位计数器表",
+  "2 位计数器表",
+  "局部历史 8 位",
+  "gshare 12 位历史",
+  "锦标赛：2 位表 / gshare"
+ ],
+ "matrix": {
+  "loop10": {
+   "静态：从不 taken": 0.90909,
+   "静态：总是 taken": 0.09091,
+   "1 位计数器表": 0.18182,
+   "2 位计数器表": 0.09394,
+   "局部历史 8 位": 0.1303,
+   "gshare 12 位历史": 0.04545,
+   "锦标赛：2 位表 / gshare": 0.00909
+  },
+  "loop100": {
+   "静态：从不 taken": 0.9901,
+   "静态：总是 taken": 0.0099,
+   "1 位计数器表": 0.0198,
+   "2 位计数器表": 0.01155,
+   "局部历史 8 位": 0.03053,
+   "gshare 12 位历史": 0.04043,
+   "锦标赛：2 位表 / gshare": 0.01155
+  },
+  "nested": {
+   "静态：从不 taken": 0.83929,
+   "静态：总是 taken": 0.16071,
+   "1 位计数器表": 0.32143,
+   "2 位计数器表": 0.1631,
+   "局部历史 8 位": 0.03452,
+   "gshare 12 位历史": 0.04345,
+   "锦标赛：2 位表 / gshare": 0.02917
+  },
+  "random50": {
+   "静态：从不 taken": 0.51667,
+   "静态：总是 taken": 0.48333,
+   "1 位计数器表": 0.50133,
+   "2 位计数器表": 0.49933,
+   "局部历史 8 位": 0.51267,
+   "gshare 12 位历史": 0.52,
+   "锦标赛：2 位表 / gshare": 0.51433
+  },
+  "correlated": {
+   "静态：从不 taken": 0.5,
+   "静态：总是 taken": 0.5,
+   "1 位计数器表": 0.496,
+   "2 位计数器表": 0.506,
+   "局部历史 8 位": 0.44167,
+   "gshare 12 位历史": 0.30467,
+   "锦标赛：2 位表 / gshare": 0.307
+  },
+  "period3": {
+   "静态：从不 taken": 0.66667,
+   "静态：总是 taken": 0.33333,
+   "1 位计数器表": 0.66667,
+   "2 位计数器表": 0.33433,
+   "局部历史 8 位": 0.003,
+   "gshare 12 位历史": 0.004,
+   "锦标赛：2 位表 / gshare": 0.004
+  },
+  "switch8": {
+   "静态：从不 taken": 0.125,
+   "静态：总是 taken": 0.875,
+   "1 位计数器表": 0.21969,
+   "2 位计数器表": 0.14125,
+   "局部历史 8 位": 0.135,
+   "gshare 12 位历史": 0.1425,
+   "锦标赛：2 位表 / gshare": 0.13875
+  }
+ },
+ "ladder": {
+  "correlated": [
+   {
+    "hist": 1,
+    "miss": 0.27667
+   },
+   {
+    "hist": 2,
+    "miss": 0.28
+   },
+   {
+    "hist": 3,
+    "miss": 0.26
+   },
+   {
+    "hist": 4,
+    "miss": 0.26333
+   },
+   {
+    "hist": 6,
+    "miss": 0.26667
+   },
+   {
+    "hist": 8,
+    "miss": 0.272
+   },
+   {
+    "hist": 10,
+    "miss": 0.29067
+   },
+   {
+    "hist": 12,
+    "miss": 0.30467
+   },
+   {
+    "hist": 14,
+    "miss": 0.30467
+   },
+   {
+    "hist": 16,
+    "miss": 0.30467
+   }
+  ],
+  "period3": [
+   {
+    "hist": 1,
+    "miss": 0.334
+   },
+   {
+    "hist": 2,
+    "miss": 0.00167
+   },
+   {
+    "hist": 3,
+    "miss": 0.002
+   },
+   {
+    "hist": 4,
+    "miss": 0.002
+   },
+   {
+    "hist": 6,
+    "miss": 0.00267
+   },
+   {
+    "hist": 8,
+    "miss": 0.003
+   },
+   {
+    "hist": 10,
+    "miss": 0.00333
+   },
+   {
+    "hist": 12,
+    "miss": 0.004
+   },
+   {
+    "hist": 14,
+    "miss": 0.004
+   },
+   {
+    "hist": 16,
+    "miss": 0.004
+   }
+  ],
+  "loop10": [
+   {
+    "hist": 1,
+    "miss": 0.09697
+   },
+   {
+    "hist": 2,
+    "miss": 0.10152
+   },
+   {
+    "hist": 3,
+    "miss": 0.10606
+   },
+   {
+    "hist": 4,
+    "miss": 0.11061
+   },
+   {
+    "hist": 6,
+    "miss": 0.1197
+   },
+   {
+    "hist": 8,
+    "miss": 0.1303
+   },
+   {
+    "hist": 10,
+    "miss": 0.04394
+   },
+   {
+    "hist": 12,
+    "miss": 0.04545
+   },
+   {
+    "hist": 14,
+    "miss": 0.04545
+   },
+   {
+    "hist": 16,
+    "miss": 0.04545
+   }
+  ]
+ },
+ "alias": [
+  {
+   "log_entries": 2,
+   "entries": 4,
+   "working_set": 64,
+   "per_slot": 16,
+   "miss": 0.46901
+  },
+  {
+   "log_entries": 3,
+   "entries": 8,
+   "working_set": 64,
+   "per_slot": 8,
+   "miss": 0.40651
+  },
+  {
+   "log_entries": 4,
+   "entries": 16,
+   "working_set": 64,
+   "per_slot": 4,
+   "miss": 0.39245
+  },
+  {
+   "log_entries": 5,
+   "entries": 32,
+   "working_set": 64,
+   "per_slot": 2,
+   "miss": 0.25417
+  },
+  {
+   "log_entries": 6,
+   "entries": 64,
+   "working_set": 64,
+   "per_slot": 1,
+   "miss": 0.01667
+  },
+  {
+   "log_entries": 7,
+   "entries": 128,
+   "working_set": 64,
+   "per_slot": 0,
+   "miss": 0.01667
+  },
+  {
+   "log_entries": 8,
+   "entries": 256,
+   "working_set": 64,
+   "per_slot": 0,
+   "miss": 0.01667
+  }
+ ],
+ "loop_sweep": [
+  {
+   "iters": 2,
+   "static": 0.66667,
+   "one_bit": 0.66667,
+   "two_bit": 0.33408,
+   "gshare": 0.003
+  },
+  {
+   "iters": 3,
+   "static": 0.75,
+   "one_bit": 0.5,
+   "two_bit": 0.2505,
+   "gshare": 0.00375
+  },
+  {
+   "iters": 5,
+   "static": 0.83333,
+   "one_bit": 0.33333,
+   "two_bit": 0.16717,
+   "gshare": 0.00501
+  },
+  {
+   "iters": 10,
+   "static": 0.90909,
+   "one_bit": 0.18182,
+   "two_bit": 0.09141,
+   "gshare": 0.00751
+  },
+  {
+   "iters": 20,
+   "static": 0.95238,
+   "one_bit": 0.09524,
+   "two_bit": 0.04812,
+   "gshare": 0.05689
+  },
+  {
+   "iters": 50,
+   "static": 0.98039,
+   "one_bit": 0.03922,
+   "two_bit": 0.02011,
+   "gshare": 0.02891
+  },
+  {
+   "iters": 100,
+   "static": 0.9901,
+   "one_bit": 0.0198,
+   "two_bit": 0.01041,
+   "gshare": 0.01929
+  }
+ ],
+ "cost": [
+  {
+   "miss": 0.0,
+   "cpi": 0.5,
+   "ipc": 2.0,
+   "slowdown_vs_perfect": 1.0
+  },
+  {
+   "miss": 0.005,
+   "cpi": 0.515,
+   "ipc": 1.942,
+   "slowdown_vs_perfect": 1.03
+  },
+  {
+   "miss": 0.01,
+   "cpi": 0.53,
+   "ipc": 1.887,
+   "slowdown_vs_perfect": 1.06
+  },
+  {
+   "miss": 0.03,
+   "cpi": 0.59,
+   "ipc": 1.695,
+   "slowdown_vs_perfect": 1.18
+  },
+  {
+   "miss": 0.05,
+   "cpi": 0.65,
+   "ipc": 1.538,
+   "slowdown_vs_perfect": 1.3
+  },
+  {
+   "miss": 0.1,
+   "cpi": 0.8,
+   "ipc": 1.25,
+   "slowdown_vs_perfect": 1.6
+  },
+  {
+   "miss": 0.2,
+   "cpi": 1.1,
+   "ipc": 0.909,
+   "slowdown_vs_perfect": 2.2
+  },
+  {
+   "miss": 0.5,
+   "cpi": 2.0,
+   "ipc": 0.5,
+   "slowdown_vs_perfect": 4.0
+  }
+ ],
+ "stall_all_cpi": 3.5,
+ "stall_all_ipc": 0.286
+}

@@ -1,0 +1,174 @@
+[
+ {
+  "path": "assets/01-pipeline.png",
+  "width": 1062,
+  "height": 821,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "五级流水线上，分支在执行级才有答案，年轻指令被冲掉",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-wolfdale-die.jpg",
+  "width": 1062,
+  "height": 747,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "Intel Core 2 Duo（Wolfdale）裸片：分支预测器就在这块硅片上，和缓存、执行单元挤在一起",
+  "identity": "真实照片",
+  "source": "Martijn Boer, public domain, via Wikimedia Commons"
+ },
+ {
+  "path": "assets/03-lookup.png",
+  "width": 1062,
+  "height": 850,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "预测器的通用结构：地址与历史做索引，表里取出一位",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-one-bit.png",
+  "width": 1062,
+  "height": 791,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一位预测器的两个状态与迁移",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-two-bit.png",
+  "width": 1062,
+  "height": 835,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "两位饱和计数器的四个状态与迁移",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-loop-exit.png",
+  "width": 1062,
+  "height": 776,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "循环退出时一位与两位预测器的错判位置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-loop-length.png",
+  "width": 1062,
+  "height": 1116,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "错判率随循环长度变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-alias.png",
+  "width": 1062,
+  "height": 1065,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "索引位数不够时，多个分支共享同一个表项",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-alias-curve.png",
+  "width": 1062,
+  "height": 906,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "表项数从 4 到 256 时，64 个分支的错判率",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-correlated.png",
+  "width": 1062,
+  "height": 1026,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "两个结果完全相关的分支，单看各自都不可预测",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-gshare.png",
+  "width": 1062,
+  "height": 889,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "gshare 的索引构造：地址低 12 位与 12 位全局历史异或",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-history-ladder.png",
+  "width": 1062,
+  "height": 1069,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "gshare 的错判率随历史长度变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-local.png",
+  "width": 1062,
+  "height": 1034,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "局部历史预测器：每个 PC 一段历史寄存器，用它索引计数器表",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-tournament.png",
+  "width": 1062,
+  "height": 801,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "锦标赛预测器：两个预测器加一张选择表",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-matrix.png",
+  "width": 1062,
+  "height": 1006,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "七种预测器在七条合成 trace 上的错判率",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-cost.png",
+  "width": 1062,
+  "height": 960,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "IPC 随分支错判率下降",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-tage.png",
+  "width": 1062,
+  "height": 1392,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "TAGE 的结构：多级几何历史长度加标签",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-spectre.png",
+  "width": 1062,
+  "height": 836,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Spectre 的四步：训练、越界读、当索引、计时",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/19-takeaways.png",
+  "width": 1062,
+  "height": 848,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "四条结论",
+  "identity": "原创教学示意"
+ }
+]

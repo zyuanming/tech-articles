@@ -3238,5 +3238,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-01-04-branch-prediction",
+    "title": "一条 if 值多少拍",
+    "date": "2027-01-04",
+    "path": "articles/2027-01-04-branch-prediction/read.md",
+    "public_sha256": "d231dffac97d53f7183d8f2c9507680248a7cab26ab2b3986b45c94327c36e1c",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

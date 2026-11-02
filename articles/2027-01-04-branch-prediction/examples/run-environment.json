@@ -1,0 +1,10 @@
+{
+ "python": "3.14.7",
+ "pillow": "12.3.0",
+ "numpy": null,
+ "fonts": [
+  "/System/Library/Fonts/Hiragino Sans GB.ttc",
+  "/System/Library/Fonts/Menlo.ttc"
+ ],
+ "notes": "bp.py 与 run_model.py 只用标准库（trace 生成、七种预测器、历史阶梯、别名与成本模型）；build_figures.py 需要 Pillow 与上述两款系统字体。"
+}

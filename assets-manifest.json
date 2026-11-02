@@ -31240,6 +31240,151 @@
     "sha256": "30e608fa2a7f62ed2636cafdf382177168fdfe1e4559442a1b17b582862c44b9"
   },
   {
+    "path": "articles/2027-01-04-branch-prediction/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/01-pipeline.png",
+    "bytes": 145441,
+    "sha256": "346d1fb5a97a0308bb7a5fb75e4d06470c91c8a3dd78c979296194c4f51d5711"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/02-wolfdale-die.jpg",
+    "bytes": 415447,
+    "sha256": "b300949f6a5faf8652b3dd420f32808e5a7fcb13e5f049ca95b064a640423d04"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/03-lookup.png",
+    "bytes": 157129,
+    "sha256": "d0ca647b961644bfb9dd64f87e207cd48cd85cbe79c97eed7d0655c1a52d4bf7"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/04-one-bit.png",
+    "bytes": 107102,
+    "sha256": "8e043323b2a5b0c7de68c0391fbd71ee7e311f6c7bc9363a0fb407f6cf6650a2"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/05-two-bit.png",
+    "bytes": 138944,
+    "sha256": "c39ec38cad42a79747ed8d9164910484d15826c3ddb9a82bfe68b935d3f47456"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/06-loop-exit.png",
+    "bytes": 131596,
+    "sha256": "e8f6af5a8d9bd44f3ea877fe59eb923950948ad23d7b9892f9e62260f8dc51e6"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/07-loop-length.png",
+    "bytes": 142071,
+    "sha256": "4e68fad2e8a0b5b0e3218e5d64769a99e98c10bb7dc7e83a78028026a9ebac76"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/08-alias.png",
+    "bytes": 168070,
+    "sha256": "47cd7bb78b32d3f6fcd6d238ac93273d003474a704503b855bf5ab1520df7572"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/09-alias-curve.png",
+    "bytes": 151695,
+    "sha256": "963b0342b5a1c0d6b6fd9fb188fd8a7271e7354321214334e2c3cfb2b2c7c6af"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/10-correlated.png",
+    "bytes": 137933,
+    "sha256": "ba187ac88dc6ae4c4ed9fd3ffe601e70d39825e257b98ebf6dece4fce4e97926"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/11-gshare.png",
+    "bytes": 115731,
+    "sha256": "2df9927b3af20a9f666ed359227662dbeb6f4455b9eff58387a90b8b26f6923a"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/12-history-ladder.png",
+    "bytes": 153305,
+    "sha256": "b72e364edd577c65a88cf56b98adc0b197b4d656e58edddf4db7f7daedbbe225"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/13-local.png",
+    "bytes": 196340,
+    "sha256": "a9c4876e19848e7889333705c1e70edbe8d7c7142e31c9954221d579bb1161b3"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/14-tournament.png",
+    "bytes": 131505,
+    "sha256": "f52e328013998f2b196bb84029a6288ac895ceb95fad64c372e8c298daf3b4b3"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/15-matrix.png",
+    "bytes": 183026,
+    "sha256": "7cfbf25fdc147bf6c4c0cd34ec6562157b005477b01a5e043ebe2f432e61b657"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/16-cost.png",
+    "bytes": 118566,
+    "sha256": "223a843c1759e05f03b7b0a70f4034153e01146d255fee048a81cd9176bc538a"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/17-tage.png",
+    "bytes": 239227,
+    "sha256": "6c5111337d98b7786d14cff06ffaca1d58fda1201f3bef42c205ca9f4cb26263"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/18-spectre.png",
+    "bytes": 187850,
+    "sha256": "0fb451ca2ef305073d9bed4cc199e2b58fbf32e7a1510ac2b790c7c02faa479f"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/assets/19-takeaways.png",
+    "bytes": 162800,
+    "sha256": "e633f5a5fa81a6a8222084f7147c4999b6054d1025a1aa60822540a384a5db8a"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/cover.png",
+    "bytes": 94909,
+    "sha256": "be7a750a35aad2ce8f73ae6d49815cd2d02b5e80e60f4d9169140f7b1a595931"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/bp.py",
+    "bytes": 11085,
+    "sha256": "c9eb3a9db417fa9d24621ec9f3ae74e8543cfcfcac9cec509ea12121cb644039"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/build_figures.py",
+    "bytes": 38592,
+    "sha256": "68935211d3d7078ff26ac08fe6f78dd86e9443748fee2a7dd173260135acd2bb"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/figure-metadata.json",
+    "bytes": 4649,
+    "sha256": "daf4cf79596b47fa3c87b6086f5c86e21b108693d68699a4ef89361a03b46bd9"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/results.json",
+    "bytes": 7646,
+    "sha256": "8882c589f6cea3f61a3978c06cabd039de36d7a400a515c6e318c6a24201e605"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/run-environment.json",
+    "bytes": 352,
+    "sha256": "33db7c93f2255f54b2e39d0544b32a449035387088df17cdc714b2489509c6e0"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/examples/run_model.py",
+    "bytes": 399,
+    "sha256": "2faca58dc6925b503a5fb22ea4e0eb7960a91d8d1efb782bc41b27c301c285a3"
+  },
+  {
+    "path": "articles/2027-01-04-branch-prediction/originals/Intel_Wolfdale_die_shot_(E8400)_etched_-_29336152187.jpg",
+    "bytes": 7802849,
+    "sha256": "b4c71d472f576d32d99c1b2735cbacf2530258755414aa10a0d1a0738f83987c"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
