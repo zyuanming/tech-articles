@@ -3264,7 +3264,7 @@
     "title": "多一台机器，要搬走多少钥匙",
     "date": "2027-01-18",
     "path": "articles/2027-01-18-consistent-hashing/read.md",
-    "public_sha256": "ad76a55ea7f11e4127d5ae28ffa4ac3cf02ef5ca24109ebc18dc407ed9d7fb94",
+    "public_sha256": "883a76af37687cf98d7a13c055f54eb4b10fde80cd64058b47d3dc8460cab60c",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3274,7 +3274,7 @@
     "title": "三个节点吵架，最后谁说了算",
     "date": "2027-01-25",
     "path": "articles/2027-01-25-crdt-merge/read.md",
-    "public_sha256": "55676510705b38692adcd1d00d8125bb27096c767db5bf799a54a47b6db714fb",
+    "public_sha256": "2f19d015d8c9a0d40b151133f1bee0d2817a35e8891d99598fcfb87046eabf63",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
