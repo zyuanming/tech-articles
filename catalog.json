@@ -3194,7 +3194,7 @@
     "title": "一条线穿过六十四格：Z 序怎么把二维压成一维",
     "date": "2026-11-30",
     "path": "articles/2026-11-30-z-order-morton-curve/read.md",
-    "public_sha256": "1df9ebfefd856c37a53f6dd24bcac53aca0cf503cf5133b620d91e5715fd7de1",
+    "public_sha256": "79e7f91bf564bd52753dbebe6ffedda671345ad62ff9c4c1fd066e0c93188300",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3204,7 +3204,7 @@
     "title": "三个副本，一个落后：读修复与暗示移交",
     "date": "2026-12-07",
     "path": "articles/2026-12-07-dynamo-read-repair/read.md",
-    "public_sha256": "916b7e3a86d36e8fdadda83f579133a35ec8f8873bc06ccf3803049ac41f9ccc",
+    "public_sha256": "3cf9e1074ddfc71808e9df62d5cf8212c1702937cc50e824722766dacf46b6a2",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3214,7 +3214,7 @@
     "title": "一个 16 位小数能装下多少误差",
     "date": "2026-12-14",
     "path": "articles/2026-12-14-q15-fixed-point/read.md",
-    "public_sha256": "e74a9afe5eaa29ee5d5290f672e2c3f430709d6dc316db1860be800ffc0a31cd",
+    "public_sha256": "5a241300870b9a37752a4815442a8719614c01937d65070783334f4689549b16",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3224,7 +3224,7 @@
     "title": "为什么白纸在照片里不是白的",
     "date": "2026-12-21",
     "path": "articles/2026-12-21-white-balance/read.md",
-    "public_sha256": "f458fe505e5daf4df6a903b1ed3a5e1171031ad003a9fed6a2914be20f5465dd",
+    "public_sha256": "6f9a9e9e16b089403d0f2d22b83b954a86674fdda47b21463f3b5d49fce2a5ed",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3234,7 +3234,7 @@
     "title": "两根线怎么谈出 240 W",
     "date": "2026-12-28",
     "path": "articles/2026-12-28-usb-c-power-delivery/read.md",
-    "public_sha256": "b737156bafab4d00ed9741dfab15d1b4d31e3f4f02acc6f388ac20f613f38644",
+    "public_sha256": "71c774989246381580af20ef56e3da762812e81a17987d479693cd0a9180cd81",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3244,7 +3244,7 @@
     "title": "一条 if 值多少拍",
     "date": "2027-01-04",
     "path": "articles/2027-01-04-branch-prediction/read.md",
-    "public_sha256": "d231dffac97d53f7183d8f2c9507680248a7cab26ab2b3986b45c94327c36e1c",
+    "public_sha256": "3528ede7531630c83fbad90ccb659851397df2b487ecbba0f28e37b32e6ba660",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3254,7 +3254,7 @@
     "title": "一条光线，459 次白问",
     "date": "2027-01-11",
     "path": "articles/2027-01-11-bvh-ray-tracing/read.md",
-    "public_sha256": "b4eee5be73cadafe1655a3d4374926e1da909bf41e21288605baba8fc01c8a3b",
+    "public_sha256": "c405ea0cdff1ccaa904af512afca880e39931d9e7ef920cf9366fa2dda20b936",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
