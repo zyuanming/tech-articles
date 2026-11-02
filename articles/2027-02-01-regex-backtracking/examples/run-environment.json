@@ -1,0 +1,10 @@
+{
+ "python": "3.14.7",
+ "pillow": "12.3.0",
+ "numpy": null,
+ "fonts": [
+  "/System/Library/Fonts/Hiragino Sans GB.ttc",
+  "/System/Library/Fonts/Menlo.ttc"
+ ],
+ "notes": "rxe.py and run_model.py use only the standard library (json, math, sys). build_figures.py needs Pillow for the fonts, for the memo grid and for pasting originals/ken-thompson-dennis-ritchie-1973.jpg into figure 15. Both scripts are deterministic: results.json, assets/, figure-metadata.json and cover.png are byte-identical across runs (verified by rerunning in a directory outside the repo and comparing with cmp). run_model.py raises the recursion limit to 20000 because the backtracking executor recurses once per instruction; the longest backtracking run in results.json is the n=320 case of the linear experiment."
+}

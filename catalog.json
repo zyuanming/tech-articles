@@ -3278,5 +3278,15 @@
     "images": 19,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-02-01-regex-backtracking",
+    "title": "一条正则，怎么把 CPU 吃光",
+    "date": "2027-02-01",
+    "path": "articles/2027-02-01-regex-backtracking/read.md",
+    "public_sha256": "e88f4e06e35b6fb6edc86285760073147ce70a053ed60e705a5ebf89fcd4c237",
+    "images": 19,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

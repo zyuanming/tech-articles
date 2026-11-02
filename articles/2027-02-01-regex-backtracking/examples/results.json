@@ -1,0 +1,1049 @@
+{
+ "unit": "one step = one instruction executed by the executor",
+ "catastrophic": {
+  "pattern": "(a+)+b",
+  "rows": [
+   {
+    "len": 6,
+    "backtrack": 607,
+    "backtrack_matched": false,
+    "memo": 25,
+    "memo_matched": false,
+    "pike": 36,
+    "pike_matched": false,
+    "n": 6
+   },
+   {
+    "len": 8,
+    "backtrack": 2519,
+    "backtrack_matched": false,
+    "memo": 33,
+    "memo_matched": false,
+    "pike": 48,
+    "pike_matched": false,
+    "n": 8
+   },
+   {
+    "len": 10,
+    "backtrack": 10191,
+    "backtrack_matched": false,
+    "memo": 41,
+    "memo_matched": false,
+    "pike": 60,
+    "pike_matched": false,
+    "n": 10
+   },
+   {
+    "len": 12,
+    "backtrack": 40903,
+    "backtrack_matched": false,
+    "memo": 49,
+    "memo_matched": false,
+    "pike": 72,
+    "pike_matched": false,
+    "n": 12
+   },
+   {
+    "len": 14,
+    "backtrack": 163775,
+    "backtrack_matched": false,
+    "memo": 57,
+    "memo_matched": false,
+    "pike": 84,
+    "pike_matched": false,
+    "n": 14
+   },
+   {
+    "len": 16,
+    "backtrack": 655287,
+    "backtrack_matched": false,
+    "memo": 65,
+    "memo_matched": false,
+    "pike": 96,
+    "pike_matched": false,
+    "n": 16
+   },
+   {
+    "len": 18,
+    "backtrack": 2621359,
+    "backtrack_matched": false,
+    "memo": 73,
+    "memo_matched": false,
+    "pike": 108,
+    "pike_matched": false,
+    "n": 18
+   },
+   {
+    "len": 20,
+    "backtrack": 10485671,
+    "backtrack_matched": false,
+    "memo": 81,
+    "memo_matched": false,
+    "pike": 120,
+    "pike_matched": false,
+    "n": 20
+   }
+  ],
+  "note": "text is n copies of \"a\", there is no \"b\" in it, so it fails"
+ },
+ "alternation": {
+  "pattern": "(a|a)*b",
+  "rows": [
+   {
+    "len": 6,
+    "backtrack": 1235,
+    "backtrack_matched": false,
+    "memo": 35,
+    "memo_matched": false,
+    "pike": 53,
+    "pike_matched": false,
+    "n": 6
+   },
+   {
+    "len": 8,
+    "backtrack": 5065,
+    "backtrack_matched": false,
+    "memo": 45,
+    "memo_matched": false,
+    "pike": 69,
+    "pike_matched": false,
+    "n": 8
+   },
+   {
+    "len": 10,
+    "backtrack": 20415,
+    "backtrack_matched": false,
+    "memo": 55,
+    "memo_matched": false,
+    "pike": 85,
+    "pike_matched": false,
+    "n": 10
+   },
+   {
+    "len": 12,
+    "backtrack": 81845,
+    "backtrack_matched": false,
+    "memo": 65,
+    "memo_matched": false,
+    "pike": 101,
+    "pike_matched": false,
+    "n": 12
+   },
+   {
+    "len": 14,
+    "backtrack": 327595,
+    "backtrack_matched": false,
+    "memo": 75,
+    "memo_matched": false,
+    "pike": 117,
+    "pike_matched": false,
+    "n": 14
+   }
+  ]
+ },
+ "cox": {
+  "template": "a?^n a^n vs a^n, anchored",
+  "rows": [
+   {
+    "len": 4,
+    "backtrack": 78,
+    "backtrack_matched": true,
+    "memo": 35,
+    "memo_matched": true,
+    "pike": 55,
+    "pike_matched": true,
+    "n": 4,
+    "pattern_len": 12
+   },
+   {
+    "len": 6,
+    "backtrack": 382,
+    "backtrack_matched": true,
+    "memo": 70,
+    "memo_matched": true,
+    "pike": 112,
+    "pike_matched": true,
+    "n": 6,
+    "pattern_len": 18
+   },
+   {
+    "len": 8,
+    "backtrack": 1790,
+    "backtrack_matched": true,
+    "memo": 117,
+    "memo_matched": true,
+    "pike": 189,
+    "pike_matched": true,
+    "n": 8,
+    "pattern_len": 24
+   },
+   {
+    "len": 10,
+    "backtrack": 8190,
+    "backtrack_matched": true,
+    "memo": 176,
+    "memo_matched": true,
+    "pike": 286,
+    "pike_matched": true,
+    "n": 10,
+    "pattern_len": 30
+   },
+   {
+    "len": 12,
+    "backtrack": 36862,
+    "backtrack_matched": true,
+    "memo": 247,
+    "memo_matched": true,
+    "pike": 403,
+    "pike_matched": true,
+    "n": 12,
+    "pattern_len": 36
+   },
+   {
+    "len": 14,
+    "backtrack": 163838,
+    "backtrack_matched": true,
+    "memo": 330,
+    "memo_matched": true,
+    "pike": 540,
+    "pike_matched": true,
+    "n": 14,
+    "pattern_len": 42
+   }
+  ]
+ },
+ "cloudflare": {
+  "pattern": ".*.*=.*",
+  "match": [
+   {
+    "len": 2,
+    "backtrack": 18,
+    "backtrack_matched": true,
+    "memo": 15,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 0
+   },
+   {
+    "len": 4,
+    "backtrack": 47,
+    "backtrack_matched": true,
+    "memo": 29,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 2
+   },
+   {
+    "len": 6,
+    "backtrack": 88,
+    "backtrack_matched": true,
+    "memo": 43,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 4
+   },
+   {
+    "len": 8,
+    "backtrack": 141,
+    "backtrack_matched": true,
+    "memo": 57,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 6
+   },
+   {
+    "len": 10,
+    "backtrack": 206,
+    "backtrack_matched": true,
+    "memo": 71,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 8
+   },
+   {
+    "len": 12,
+    "backtrack": 283,
+    "backtrack_matched": true,
+    "memo": 85,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 10
+   },
+   {
+    "len": 14,
+    "backtrack": 372,
+    "backtrack_matched": true,
+    "memo": 99,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 12
+   },
+   {
+    "len": 16,
+    "backtrack": 473,
+    "backtrack_matched": true,
+    "memo": 113,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 14
+   },
+   {
+    "len": 18,
+    "backtrack": 586,
+    "backtrack_matched": true,
+    "memo": 127,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 16
+   },
+   {
+    "len": 20,
+    "backtrack": 711,
+    "backtrack_matched": true,
+    "memo": 141,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 18
+   },
+   {
+    "len": 22,
+    "backtrack": 848,
+    "backtrack_matched": true,
+    "memo": 155,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "k": 20
+   }
+  ],
+  "fail": {
+   "len": 20,
+   "backtrack": 5775,
+   "backtrack_matched": false,
+   "memo": 105,
+   "memo_matched": false,
+   "pike": 165,
+   "pike_matched": false,
+   "text": "twenty x, no equals sign"
+  },
+  "blog": {
+   "source": "blog.cloudflare.com, 2019-07-02 outage write-up",
+   "engine": "Perl Regexp::Debugger step counter",
+   "values": [
+    [
+     "x=x",
+     23
+    ],
+    [
+     "x=xx",
+     33
+    ],
+    [
+     "x=xxx",
+     45
+    ],
+    [
+     "x=xxxxxxxxxxxxxxxxxxxx",
+     555
+    ],
+    [
+     "xxxxxxxxxxxxxxxxxxxx (no match)",
+     4067
+    ],
+    [
+     "x=x  vs  .*.*=.*;",
+     90
+    ],
+    [
+     "x=xxxxxxxxxxxxxxxxxxxx  vs  .*.*=.*;",
+     5353
+    ]
+   ]
+  }
+ },
+ "rewrites": {
+  "cases": [
+   {
+    "len": 3,
+    "backtrack": 31,
+    "backtrack_matched": true,
+    "memo": 22,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "pattern": ".*.*=.*",
+    "label": "greedy",
+    "note": "short"
+   },
+   {
+    "len": 22,
+    "backtrack": 848,
+    "backtrack_matched": true,
+    "memo": 155,
+    "memo_matched": true,
+    "pike": 24,
+    "pike_matched": true,
+    "pattern": ".*.*=.*",
+    "label": "greedy",
+    "note": "20 x after ="
+   },
+   {
+    "len": 20,
+    "backtrack": 5775,
+    "backtrack_matched": false,
+    "memo": 105,
+    "memo_matched": false,
+    "pike": 165,
+    "pike_matched": false,
+    "pattern": ".*.*=.*",
+    "label": "greedy",
+    "note": "no equals sign"
+   },
+   {
+    "len": 3,
+    "backtrack": 11,
+    "backtrack_matched": true,
+    "memo": 11,
+    "memo_matched": true,
+    "pike": 17,
+    "pike_matched": true,
+    "pattern": ".*?.*?=.*",
+    "label": "lazy",
+    "note": "short"
+   },
+   {
+    "len": 22,
+    "backtrack": 49,
+    "backtrack_matched": true,
+    "memo": 49,
+    "memo_matched": true,
+    "pike": 17,
+    "pike_matched": true,
+    "pattern": ".*?.*?=.*",
+    "label": "lazy",
+    "note": "20 x after ="
+   },
+   {
+    "len": 20,
+    "backtrack": 5775,
+    "backtrack_matched": false,
+    "memo": 105,
+    "memo_matched": false,
+    "pike": 165,
+    "pike_matched": false,
+    "pattern": ".*?.*?=.*",
+    "label": "lazy",
+    "note": "no equals sign"
+   },
+   {
+    "len": 3,
+    "backtrack": 16,
+    "backtrack_matched": true,
+    "memo": 16,
+    "memo_matched": true,
+    "pike": 16,
+    "pike_matched": true,
+    "pattern": ".*=.*",
+    "label": "rewritten",
+    "note": "short"
+   },
+   {
+    "len": 22,
+    "backtrack": 111,
+    "backtrack_matched": true,
+    "memo": 111,
+    "memo_matched": true,
+    "pike": 16,
+    "pike_matched": true,
+    "pattern": ".*=.*",
+    "label": "rewritten",
+    "note": "20 x after ="
+   },
+   {
+    "len": 20,
+    "backtrack": 693,
+    "backtrack_matched": false,
+    "memo": 63,
+    "memo_matched": false,
+    "pike": 103,
+    "pike_matched": false,
+    "pattern": ".*=.*",
+    "label": "rewritten",
+    "note": "no equals sign"
+   }
+  ]
+ },
+ "linear": {
+  "pattern": ".*.*=.*",
+  "rows": [
+   {
+    "len": 20,
+    "backtrack": 5775,
+    "backtrack_matched": false,
+    "memo": 105,
+    "memo_matched": false,
+    "pike": 165,
+    "pike_matched": false,
+    "n": 20
+   },
+   {
+    "len": 80,
+    "backtrack": 282285,
+    "backtrack_matched": false,
+    "memo": 405,
+    "memo_matched": false,
+    "pike": 645,
+    "pike_matched": false,
+    "n": 80
+   },
+   {
+    "len": 320,
+    "backtrack": 16796325,
+    "backtrack_matched": false,
+    "memo": 1605,
+    "memo_matched": false,
+    "pike": 2565,
+    "pike_matched": false,
+    "n": 320
+   },
+   {
+    "len": 1280,
+    "memo": 6405,
+    "memo_matched": false,
+    "pike": 10245,
+    "pike_matched": false,
+    "n": 1280
+   },
+   {
+    "len": 5120,
+    "memo": 25605,
+    "memo_matched": false,
+    "pike": 40965,
+    "pike_matched": false,
+    "n": 5120
+   }
+  ],
+  "note": "backtrack is measured up to n=320 only: at n=1280 it takes 1,055,140,485 steps and 85 seconds, the other two go to 5120"
+ },
+ "anchor": {
+  "anchored": {
+   "len": 20,
+   "backtrack": 735,
+   "backtrack_matched": false,
+   "memo": 105,
+   "memo_matched": false,
+   "pike": 165,
+   "pike_matched": false
+  },
+  "unanchored": {
+   "len": 20,
+   "backtrack": 5775,
+   "backtrack_matched": false,
+   "memo": 105,
+   "memo_matched": false,
+   "pike": 165,
+   "pike_matched": false
+  }
+ },
+ "pattern_size": {
+  "rows": [
+   {
+    "len": 202,
+    "backtrack": 204,
+    "backtrack_matched": false,
+    "memo": 204,
+    "memo_matched": false,
+    "pike": 407,
+    "pike_matched": false,
+    "m": 1,
+    "pattern_len": 2
+   },
+   {
+    "len": 202,
+    "backtrack": 611,
+    "backtrack_matched": false,
+    "memo": 611,
+    "memo_matched": false,
+    "pike": 1017,
+    "pike_matched": false,
+    "m": 2,
+    "pattern_len": 5
+   },
+   {
+    "len": 202,
+    "backtrack": 1412,
+    "backtrack_matched": true,
+    "memo": 1412,
+    "memo_matched": true,
+    "pike": 2227,
+    "pike_matched": true,
+    "m": 4,
+    "pattern_len": 11
+   },
+   {
+    "len": 202,
+    "backtrack": 3016,
+    "backtrack_matched": true,
+    "memo": 3016,
+    "memo_matched": true,
+    "pike": 4651,
+    "pike_matched": true,
+    "m": 8,
+    "pattern_len": 23
+   },
+   {
+    "len": 202,
+    "backtrack": 6224,
+    "backtrack_matched": true,
+    "memo": 6224,
+    "memo_matched": true,
+    "pike": 9499,
+    "pike_matched": true,
+    "m": 16,
+    "pattern_len": 53
+   },
+   {
+    "len": 202,
+    "backtrack": 12640,
+    "backtrack_matched": true,
+    "memo": 12640,
+    "memo_matched": true,
+    "pike": 19195,
+    "pike_matched": true,
+    "m": 32,
+    "pattern_len": 117
+   }
+  ],
+  "text": "200 x then a3"
+ },
+ "splits": {
+  "rows": [
+   {
+    "n": 2,
+    "ways": 2
+   },
+   {
+    "n": 3,
+    "ways": 4
+   },
+   {
+    "n": 4,
+    "ways": 8
+   },
+   {
+    "n": 5,
+    "ways": 16
+   },
+   {
+    "n": 6,
+    "ways": 32
+   },
+   {
+    "n": 7,
+    "ways": 64
+   },
+   {
+    "n": 8,
+    "ways": 128
+   },
+   {
+    "n": 9,
+    "ways": 256
+   },
+   {
+    "n": 10,
+    "ways": 512
+   },
+   {
+    "n": 11,
+    "ways": 1024
+   },
+   {
+    "n": 12,
+    "ways": 2048
+   },
+   {
+    "n": 13,
+    "ways": 4096
+   },
+   {
+    "n": 14,
+    "ways": 8192
+   }
+  ],
+  "note": "cuts between adjacent characters, at least one group, groups may repeat a+ "
+ },
+ "memo_trace": {
+  "pattern": ".*.*=.*",
+  "text_len": 12,
+  "states": 8,
+  "matched": false,
+  "count": 65,
+  "visited": [
+   [
+    0,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    0,
+    9
+   ],
+   [
+    1,
+    9
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    1,
+    12
+   ],
+   [
+    2,
+    12
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    4,
+    0
+   ]
+  ]
+ },
+ "pike_threads": {
+  "ab*c": {
+   "text": "abbbc",
+   "matched": true,
+   "steps": 30,
+   "widths": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     3
+    ]
+   ]
+  },
+  ".*.*=.*": {
+   "text": "x=x",
+   "matched": true,
+   "steps": 24,
+   "widths": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ]
+   ]
+  }
+ },
+ "programs": {
+  "(a+)+b": {
+   "states": 5,
+   "start": 0,
+   "anchored": false
+  },
+  "(a|a)*b": {
+   "states": 6,
+   "start": 0,
+   "anchored": false
+  },
+  ".*.*=.*": {
+   "states": 8,
+   "start": 0,
+   "anchored": false
+  },
+  ".*=.*": {
+   "states": 6,
+   "start": 0,
+   "anchored": false
+  },
+  "a?b?c?": {
+   "states": 7,
+   "start": 0,
+   "anchored": false
+  }
+ },
+ "crosscheck": {
+  "patterns": [
+   "a",
+   "ab",
+   "ab*c",
+   "a?b?c?",
+   "(a|b)*c",
+   "(a+)+b",
+   "(a|a)*b",
+   ".*=.*",
+   ".*.*=.*",
+   "^ab*c$",
+   "[abc]+b",
+   "\\d+",
+   "\\w+=",
+   ".*?b",
+   "a*b*"
+  ],
+  "texts": 121,
+  "cases": 5445,
+  "mismatches": [],
+  "note": "compared against CPython re.search; only the yes/no answer, not the match span, because rxe.py does not report spans"
+ }
+}

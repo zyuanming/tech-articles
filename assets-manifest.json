@@ -31830,6 +31830,151 @@
     "sha256": "6b6532b83d7881cb5fbb3859a2f06271fbb04db695755c1393be71edf3153a2e"
   },
   {
+    "path": "articles/2027-02-01-regex-backtracking/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/01-two-ways.png",
+    "bytes": 160579,
+    "sha256": "b838511c0fe85dfd598c25f35c085e298d61a38ab99e3ba0a8131b7719f47307"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/02-catastrophic.png",
+    "bytes": 96178,
+    "sha256": "25b078db21cc70305025421625ebb552b56359ec8f5968dad9db5a1df32cf3be"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/03-splits.png",
+    "bytes": 131537,
+    "sha256": "b2524e4e57068ad62e54c2cc6b418c97ede8c429bfbbd2656d54b1c00be4d2ac"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/04-steps-table.png",
+    "bytes": 182966,
+    "sha256": "9ea63b09840689a59c512fc7d2629d42d96934827698f40caf6da2b36096c43c"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/05-cloudflare.png",
+    "bytes": 166677,
+    "sha256": "740bf9ae83f1d7d68c522a3ddb178fcf5413bde97998376f05fa946a96d7e5cd"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/06-fail-vs-match.png",
+    "bytes": 203741,
+    "sha256": "caf5dbb14f5c7c51b017fdb60bc3994e1a45c5b10cbc59876b5fb6979c611e86"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/07-rewrites.png",
+    "bytes": 159405,
+    "sha256": "feb26488c2404f7f846a48174aa7f5c6b61914dc42eba7b1b6b4bd4fe2843a50"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/08-pike-threads.png",
+    "bytes": 135850,
+    "sha256": "8d7b341aea01ebe58e254d5e7f2a5033e7f8fabb2eb6d7f2a31bc7067250f94e"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/09-linear.png",
+    "bytes": 232270,
+    "sha256": "0c93ac24a761b8a87deaa316e3247b6ad47eb084775e8027f177f7e48ca7447b"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/10-anchor.png",
+    "bytes": 143260,
+    "sha256": "7b4282d6efeea77d1ffa28cff9c8265e4199faf5772f534c36917ae7941ad97e"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/11-memo-grid.png",
+    "bytes": 157288,
+    "sha256": "832e193efe3d48cb8d27972ee597878429d0cfce4b611d733c81bbcef61c51a1"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/12-pattern-size.png",
+    "bytes": 157604,
+    "sha256": "930b36f42640f296e20ae8d8e5bde78bb7442a82bfc827cbb0b88ee36a9e1ca9"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/13-ledger.png",
+    "bytes": 174529,
+    "sha256": "1d6db24bc73edf1c8e710cb59df1c43e483581dd646dab8879ae293a8ba090ed"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/14-lineage.png",
+    "bytes": 166997,
+    "sha256": "0e3e11bb8fca21a2a25e8f10d989c2f4b832bda7205586c7b3845b65498cc4bc"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/15-thompson.png",
+    "bytes": 227576,
+    "sha256": "46dff31222b8c4d679af61ef856b040a59dea44720042535c29bf5c562ef36db"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/16-engines.png",
+    "bytes": 200457,
+    "sha256": "8699ac0c388ab71ebc5d90278d9a3d1eda722807fbab322f0aaaf61b4c1becfb"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/17-timeline.png",
+    "bytes": 246457,
+    "sha256": "c0fb8a4e9a9816896a32e63be7865e3b9099e613210b00086e6235d4eed7f331"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/18-regex-shape.png",
+    "bytes": 223014,
+    "sha256": "8efa22d06f17aa417f5a9fea2f28928d26c347be4b5bc7b4422f227d12c0bc87"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/assets/19-takeaways.png",
+    "bytes": 194303,
+    "sha256": "c2af4d0dc701b9705af5fafe1c7eb78e8bb7b0f5a7e362d1f6b45d7fcd746601"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/cover.png",
+    "bytes": 87069,
+    "sha256": "19f93efc1f39e84df158fd21ca72a358fc05d4057aa372be6a4586aa45ba29fe"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/build_figures.py",
+    "bytes": 36879,
+    "sha256": "94bc1f17723b8d25fbd5f338cd56e3ec18ab59d434ce9ac5748505597f2e448c"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/figure-metadata.json",
+    "bytes": 4403,
+    "sha256": "932e15a09cca7ef7ff076b36d1743f9745c397a398c1b2ca1aedf86a9e88e6af"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/results.json",
+    "bytes": 14897,
+    "sha256": "33ae3288db42babe157d6cbbe69eafe322500f579a01f3bf6d0cf5fa5dbcfbfd"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/run-environment.json",
+    "bytes": 793,
+    "sha256": "8b8916f7b2a2d1f11bfe561a959e73cecf921fa3400746ad5ebb0c00a800c0c4"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/run_model.py",
+    "bytes": 9133,
+    "sha256": "e70285661f745988cb898c1b2a3f2f7be2d13809fcae2193ac636ab70ef2da7d"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/examples/rxe.py",
+    "bytes": 13218,
+    "sha256": "df866264d81e34051dda652918528da6073f767b631ed104e172836fe278edbc"
+  },
+  {
+    "path": "articles/2027-02-01-regex-backtracking/originals/ken-thompson-dennis-ritchie-1973.jpg",
+    "bytes": 19590,
+    "sha256": "5e42baf9a36ab8ca1e22395487402c75265f54085d14be2cb73f3b910407f976"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

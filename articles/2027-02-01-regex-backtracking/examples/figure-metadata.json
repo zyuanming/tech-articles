@@ -1,0 +1,174 @@
+[
+ {
+  "path": "assets/01-two-ways.png",
+  "width": 1062,
+  "height": 1034,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "回溯与 NFA 两种执行方式的结构差别",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-catastrophic.png",
+  "width": 1062,
+  "height": 913,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": "(a+)+b 在纯 a 文本上的步数增长",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-splits.png",
+  "width": 1062,
+  "height": 1097,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "把一串 a 切成若干段的切法数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-steps-table.png",
+  "width": 1062,
+  "height": 1075,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种做法在 n=8/12/16/20 上的步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-cloudflare.png",
+  "width": 1062,
+  "height": 1127,
+  "min_label_px": 36,
+  "effective_min_at_354px": 12.0,
+  "purpose": ".*.*=.* 在 x= 加 k 个 x 上的步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-fail-vs-match.png",
+  "width": 1062,
+  "height": 1097,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "同一模式成功与失败的步数差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-rewrites.png",
+  "width": 1062,
+  "height": 1076,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "贪婪、惰性与改写后的步数对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-pike-threads.png",
+  "width": 1062,
+  "height": 1127,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "NFA 模拟每一步的线程数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-linear.png",
+  "width": 1062,
+  "height": 1174,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "记忆化与 NFA 的步数随长度线性增长",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-anchor.png",
+  "width": 1062,
+  "height": 833,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "锚定与不锚定的步数比较",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-memo-grid.png",
+  "width": 1062,
+  "height": 1264,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "记忆化引擎访问过的状态-位置格子",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-pattern-size.png",
+  "width": 1062,
+  "height": 1182,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "备选分支数与 NFA 步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-ledger.png",
+  "width": 1062,
+  "height": 1050,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种做法的代价与能力对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-lineage.png",
+  "width": 1062,
+  "height": 950,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "线性正则引擎的五十年谱系",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-thompson.png",
+  "width": 1062,
+  "height": 820,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Ken Thompson 与 Dennis Ritchie 的 1973 年照片",
+  "identity": "档案照片",
+  "source": "https://commons.wikimedia.org/wiki/File:Ken_Thompson_and_Dennis_Ritchie--1973.jpg"
+ },
+ {
+  "path": "assets/16-engines.png",
+  "width": 1062,
+  "height": 1103,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "主流正则引擎的实现与最坏情况",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-timeline.png",
+  "width": 1062,
+  "height": 1412,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Cloudflare 2019 年 7 月 2 日事故时间线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-regex-shape.png",
+  "width": 1062,
+  "height": 1232,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "事故正则的关键片段与其代价",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/19-takeaways.png",
+  "width": 1062,
+  "height": 923,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "四条可执行的做法",
+  "identity": "原创教学示意"
+ }
+]
