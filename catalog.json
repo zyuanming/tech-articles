@@ -3114,7 +3114,7 @@
     "title": "两个轮子，为什么可以不一样快",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-differential-gears/read.md",
-    "public_sha256": "46651287cbc204aeed4f18d703a0ae1cf9e4a71dd93eb7592dc4026fe308e277",
+    "public_sha256": "408a9faa13313a225883d694f4321f06ae2acdbef0f8b85e09b06354dbdc04ba",
     "images": 17,
     "status": "archived_article",
     "related_versions": []
@@ -3124,7 +3124,7 @@
     "title": "电梯怎么知道自己太快了",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-elevator-governor/read.md",
-    "public_sha256": "d47dc7f291891201a6e45e743880b3a70e038a7e147d5b13d607e4723a642c20",
+    "public_sha256": "d90eaa3a2ac9b469d6443004fa4bf16a09b5cec323d54fd32f0e5582d8c006cf",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3144,7 +3144,7 @@
     "title": "先砍 19 dB，再加回来",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-riaa-equalization/read.md",
-    "public_sha256": "57442b00bfc723ce61399034aa4a442375c13c7a5714935f3dfc752348fd173e",
+    "public_sha256": "9850f3d7f4664dec28ba9fa6e93fb9315cf2d44b241b33b690fd5b7cd93e67de",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3164,7 +3164,7 @@
     "title": "一位 DAC：把声音存进密度里",
     "date": "2026-11-16",
     "path": "articles/2026-11-16-delta-sigma-one-bit/read.md",
-    "public_sha256": "334d04a71ef4912307075d72d02e41ce6ad671c7041aab345ce8a59b346999ee",
+    "public_sha256": "948c46025a8f81a4a7b3ab13d5ae577d093adc0d529fc0bf2744888dfaa40486",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3174,7 +3174,7 @@
     "title": "一行代码算出 1/√x",
     "date": "2026-11-16",
     "path": "articles/2026-11-16-quake-fast-inverse-sqrt/read.md",
-    "public_sha256": "a182168847e10ca532e2d1327f4e4be9dc00c11ebea502154511e36682ddf042",
+    "public_sha256": "f0dcee54c89980c3ba5b833a440152eec95826b34b175645c2075fd70b3b59cc",
     "images": 21,
     "status": "archived_article",
     "related_versions": []
@@ -3184,7 +3184,7 @@
     "title": "那条 4 字节的尾巴",
     "date": "2026-11-23",
     "path": "articles/2026-11-23-crc32-error-detection/read.md",
-    "public_sha256": "9353aed94c8b62a0ad2c1aa88145058f27cb45100cf686dcc76ec6e9d074e2c2",
+    "public_sha256": "fefefb9228cd224e306f9e74c4f2f5d7fae084e0f8613f1fd8d4c23427a689dd",
     "images": 20,
     "status": "archived_article",
     "related_versions": []
