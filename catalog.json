@@ -3338,5 +3338,15 @@
     "images": 12,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-03-15-reversed-z-depth",
+    "title": "深度缓冲只记得住 48 厘米",
+    "date": "2027-03-15",
+    "path": "articles/2027-03-15-reversed-z-depth/read.md",
+    "public_sha256": "6b4c51b3fc29003f53b386d917724db5a6dabbc4ee2ce45f2c1fdd6a92cd945a",
+    "images": 12,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

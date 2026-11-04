@@ -1,0 +1,110 @@
+[
+ {
+  "path": "assets/01-decades.png",
+  "width": 1062,
+  "height": 960,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "前十年吃掉九成深度范围",
+  "identity": "原创示意，数值取自 results.json 的 depth_values"
+ },
+ {
+  "path": "assets/02-d-curve.png",
+  "width": 1062,
+  "height": 1060,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "标准映射下深度值随距离的变化",
+  "identity": "原创示意，曲线取自 results.json 的 curve"
+ },
+ {
+  "path": "assets/03-step-curves.png",
+  "width": 1062,
+  "height": 1170,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种近平面下 24 位定点的间隔曲线",
+  "identity": "原创示意，曲线取自 results.json 的 step_curves"
+ },
+ {
+  "path": "assets/04-near-sweep.png",
+  "width": 1062,
+  "height": 1184,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "近平面与 500 米处间隔的关系",
+  "identity": "原创示意，数值取自 results.json 的 near_sweep"
+ },
+ {
+  "path": "assets/05-far-sweep.png",
+  "width": 1062,
+  "height": 1054,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "远平面对 500 米处间隔几乎没有影响",
+  "identity": "原创示意，数值取自 results.json 的 far_sweep"
+ },
+ {
+  "path": "assets/06-float-vs-fixed.png",
+  "width": 1062,
+  "height": 1132,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "float32 标准映射与 24 位定点在远端完全重合",
+  "identity": "原创示意，数值取自 results.json 的 steps"
+ },
+ {
+  "path": "assets/07-reversed-curve.png",
+  "width": 1062,
+  "height": 1184,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "标准映射与反转映射互为镜像",
+  "identity": "原创示意，曲线取自 results.json 的 curve"
+ },
+ {
+  "path": "assets/08-reversed-vs-fixed.png",
+  "width": 1062,
+  "height": 1280,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "反转 float32 与 24 位定点的间隔对比",
+  "identity": "原创示意，曲线取自 results.json 的 step_curves 与 rev_curve"
+ },
+ {
+  "path": "assets/09-threshold.png",
+  "width": 1062,
+  "height": 1132,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "不同间隙被压成同一深度值的比例随距离的变化",
+  "identity": "原创示意，数值取自 results.json 的 merge_curves 与 threshold"
+ },
+ {
+  "path": "assets/10-subtract-trap.png",
+  "width": 1062,
+  "height": 1474,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "事后相减与矩阵直算的对比",
+  "identity": "原创示意，掩码取自 results.json 的 subtract_after"
+ },
+ {
+  "path": "assets/11-premultiply.png",
+  "width": 1062,
+  "height": 1080,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "预乘与分开乘的深度顺序误差",
+  "identity": "原创示意，数值取自 results.json 的 premultiply"
+ },
+ {
+  "path": "assets/12-takeaways.png",
+  "width": 1062,
+  "height": 544,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三句话总结",
+  "identity": "原创教学示意"
+ }
+]

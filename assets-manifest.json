@@ -32515,6 +32515,106 @@
     "sha256": "aa0ac23086c765d46a1f2bbdae7c3c58190d56756f7c22f8f7a2bbe1852aac84"
   },
   {
+    "path": "articles/2027-03-15-reversed-z-depth/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/01-decades.png",
+    "bytes": 176496,
+    "sha256": "60b86b34b04eea39308b69fb1a03585273ae8975e9061d92e96db1220e6103c5"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/02-d-curve.png",
+    "bytes": 137189,
+    "sha256": "4ba112e8884a5edffaa181263e7916a34465a0c2531c9fabb6d231ea436cc7aa"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/03-step-curves.png",
+    "bytes": 173392,
+    "sha256": "c710dbfd4a6ab47a02e070290d1e756705fc470e07fedfd6e9dcd7cb0a057ed9"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/04-near-sweep.png",
+    "bytes": 169032,
+    "sha256": "3418cc0515efd880cddea3238249a2da8d8e4b90a92381d29f8417fd3d504da8"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/05-far-sweep.png",
+    "bytes": 120482,
+    "sha256": "f107d5ea0b309c2bca3042e21063e5afd808cb17c766f506824351452142d49f"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/06-float-vs-fixed.png",
+    "bytes": 204882,
+    "sha256": "cbcaf3d74bd61f5c5bee99a439fe499060640ed9a11ad463b7e8932dc36c8233"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/07-reversed-curve.png",
+    "bytes": 160904,
+    "sha256": "fadf37626c663c7043a3ab75e337451e543dd2f098963e9128a46a52b82c670a"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/08-reversed-vs-fixed.png",
+    "bytes": 206023,
+    "sha256": "ac300670135c30222cac3aa38939040ad4bfebf5c840ed0a55686f9cf81c1ecf"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/09-threshold.png",
+    "bytes": 167229,
+    "sha256": "0154bc97c7c018fd727e09174517cc119b6e8a5e4d5556e5a1166544646524cf"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/10-subtract-trap.png",
+    "bytes": 169847,
+    "sha256": "f094a19245d5231c63e4b639fa47716b6c935bc1b6fb5ef8bf74cea14103a1c9"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/11-premultiply.png",
+    "bytes": 243607,
+    "sha256": "e7c75d4bf5b7dc66c0d5f19eb344db2b8422cb2c4ed01cc5b5386da0ec6421ea"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/assets/12-takeaways.png",
+    "bytes": 106955,
+    "sha256": "8b60db3b3d82d045a58ab59702741a4b55ee750d12c18e222afdc9b0aac0c29a"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/cover.png",
+    "bytes": 117228,
+    "sha256": "c8168d4c06728bbb533817d28317f8f9ccfe1f51e3abe3d4b5f0f0efcb59dc5a"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/examples/build_figures.py",
+    "bytes": 24880,
+    "sha256": "2d24ddf6447387bea1759031c17a6f22332c5e0f406baa1d6f1329ad8632db96"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/examples/depth.py",
+    "bytes": 7519,
+    "sha256": "4a1bac0cb73a9d1b644ee0252aec521187b963aeaee286cbf0516ae4aa5279a3"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/examples/figure-metadata.json",
+    "bytes": 3211,
+    "sha256": "f100a4a70a11b7bd5bea7ef69c8c6e4dd44606978c59c01203aa9efae1e7044c"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/examples/results.json",
+    "bytes": 46716,
+    "sha256": "caf5493f50a9fe56c2e0e5fb3fe143b5e57842630ceab64c3f4a7a2c0cb8df35"
+  },
+  {
+    "path": "articles/2027-03-15-reversed-z-depth/examples/run_model.py",
+    "bytes": 9283,
+    "sha256": "024383de51db9c163ed6de7798ac4ce8da7bdbe79804102581f9059061b96dd8"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
