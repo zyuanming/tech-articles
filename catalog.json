@@ -3348,5 +3348,15 @@
     "images": 12,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-03-22-runge-phenomenon",
+    "title": "多给几个点，为什么反而更歪",
+    "date": "2027-03-22",
+    "path": "articles/2027-03-22-runge-phenomenon/read.md",
+    "public_sha256": "1d508d1ccffc547f5a7c7b323b01502084e8a5e5a5e6d17aea9101724d22881b",
+    "images": 11,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

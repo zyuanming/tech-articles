@@ -32615,6 +32615,101 @@
     "sha256": "024383de51db9c163ed6de7798ac4ce8da7bdbe79804102581f9059061b96dd8"
   },
   {
+    "path": "articles/2027-03-22-runge-phenomenon/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/01-three-points.png",
+    "bytes": 137045,
+    "sha256": "64c6e6361b8f289dc1e08c4d136c8bcb588e7204f31547642ae797c33b736b2f"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/02-eleven-equi.png",
+    "bytes": 94368,
+    "sha256": "4358c7b3373c0ebff09b6113263aad483edea593a34652f29d567cd5ba9b7270"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/03-eleven-cheb.png",
+    "bytes": 86273,
+    "sha256": "d390c0784762e742cdb08f6284be7b9597411bf2b8b7b686c045def6dce09c93"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/04-error-vs-n.png",
+    "bytes": 142955,
+    "sha256": "691316c749ae4f0b41f22b7b5f4cdce53bffee817341e9eb787c4de17fff50dd"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/05-lebesgue.png",
+    "bytes": 119742,
+    "sha256": "ff3636c62847ff52236f9319eb9db629999cf69d7ce8f824aad42048819e3980"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/06-basis-peaks.png",
+    "bytes": 147152,
+    "sha256": "574f435469e4a39efa2f6dfb23285dbc1fd381fc2713876da13afec71619f89a"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/07-node-placement.png",
+    "bytes": 127963,
+    "sha256": "649c0063700f0b0eec766a59d6159963b2cdf7bab14467a1187cf49938c0152b"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/08-error-map.png",
+    "bytes": 119571,
+    "sha256": "ee8cfbed7e17b96e4de9ead15d8fe0da43e40922163b14a67a54b50c0d9ae2a6"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/09-rates.png",
+    "bytes": 131316,
+    "sha256": "fd076817bb4528c712c9c54b7fc18b18bd92d92b10255c266050fb52133dbd22"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/10-absx.png",
+    "bytes": 133987,
+    "sha256": "9ec5fa678a5516273af538bba54dcac04b1a2cef8333e99c74d991a7d930d314"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/assets/11-takeaways.png",
+    "bytes": 134709,
+    "sha256": "69b8e601b4a55e14a10146a139fed5ebabf99d4b2c47cf49a72f3209242258d9"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/cover.png",
+    "bytes": 134930,
+    "sha256": "1bbe399434655a436d236ea55812989e86cb0adce55faf090f87b88f11b12d52"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/examples/build_figures.py",
+    "bytes": 22144,
+    "sha256": "0312b53b252c0df8c85bcded204d13cd6b7763646ca2ccf3f7d6096f70ea3838"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/examples/figure-metadata.json",
+    "bytes": 3412,
+    "sha256": "ca2e8e16bddc961c732d7d084f54a0d62c7eb3f060509b6bddb0d0229acf4a5e"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/examples/interp.py",
+    "bytes": 6393,
+    "sha256": "b39da4a0836daadf811b5d811f302f573b36354b57e76aa912a6bc20139bc91d"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/examples/results.json",
+    "bytes": 276138,
+    "sha256": "56d97f814b18141bca3902090cff4bdc19830af5b13f434b8162a24011ab3d12"
+  },
+  {
+    "path": "articles/2027-03-22-runge-phenomenon/examples/run_model.py",
+    "bytes": 5952,
+    "sha256": "9ae41a366fc89fcda790c26b7f1bbcd58ec22fa5c3849aaaf998ffa96437cf86"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

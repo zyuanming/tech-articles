@@ -1,0 +1,101 @@
+[
+ {
+  "path": "assets/01-three-points.png",
+  "width": 1062,
+  "height": 1210,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u4e09\u70b9\u63d2\u503c\u7684\u624b\u7b97\u7ed3\u679c\u4e0e\u629b\u7269\u7ebf\u5f62\u72b6",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/02-eleven-equi.png",
+  "width": 1062,
+  "height": 1088,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "11 \u4e2a\u7b49\u8ddd\u8282\u70b9\u7684\u63d2\u503c\u66f2\u7ebf\uff1a\u7aef\u70b9\u632f\u8361",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/03-eleven-cheb.png",
+  "width": 1062,
+  "height": 1088,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "11 \u4e2a\u5207\u6bd4\u96ea\u592b\u8282\u70b9\u7684\u63d2\u503c\u66f2\u7ebf\uff1a\u8bef\u5dee\u88ab\u538b\u5230 0.1 \u91cf\u7ea7",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/04-error-vs-n.png",
+  "width": 1062,
+  "height": 1197,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u6700\u5927\u8bef\u5dee\u968f\u8282\u70b9\u6570\u7684\u53d8\u5316\uff1a\u7b49\u8ddd\u53d1\u6563\uff0c\u5207\u6bd4\u96ea\u592b\u6536\u655b",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/05-lebesgue.png",
+  "width": 1062,
+  "height": 1140,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Lebesgue \u5e38\u6570\u968f\u8282\u70b9\u6570\u589e\u957f\uff1a\u7b49\u8ddd\u6307\u6570\u3001\u5207\u6bd4\u96ea\u592b\u5bf9\u6570",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/06-basis-peaks.png",
+  "width": 1062,
+  "height": 1140,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u4e24\u79cd\u8282\u70b9\u4e0b\u6bcf\u4e2a\u62c9\u683c\u6717\u65e5\u57fa\u51fd\u6570\u7684\u6700\u5927\u632f\u5e45",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/07-node-placement.png",
+  "width": 1062,
+  "height": 870,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "11 \u4e2a\u7b49\u8ddd\u8282\u70b9\u4e0e 11 \u4e2a\u5207\u6bd4\u96ea\u592b\u8282\u70b9\u7684\u4f4d\u7f6e\u5bf9\u6bd4",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/08-error-map.png",
+  "width": 1062,
+  "height": 1184,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u8bef\u5dee\u968f x \u4e0e n \u7684\u5206\u5e03\uff1a\u4e24\u5757\u70ed\u56fe\u5bf9\u6bd4",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/09-rates.png",
+  "width": 1062,
+  "height": 1142,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u6536\u655b\u7387\u968f\u6781\u70b9\u4f4d\u7f6e\u53d8\u5316\uff1a\u4e09\u6761\u6307\u6570\u8870\u51cf\u66f2\u7ebf",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/10-absx.png",
+  "width": 1062,
+  "height": 1140,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "|x| \u7684\u5207\u6bd4\u96ea\u592b\u63d2\u503c\uff1a\u6ca1\u6709\u6781\u70b9\uff0c\u6536\u655b\u5f88\u6162",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/11-takeaways.png",
+  "width": 1062,
+  "height": 608,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "\u4e09\u6761\u7ed3\u8bba",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ }
+]
