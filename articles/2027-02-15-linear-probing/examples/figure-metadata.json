@@ -1,0 +1,110 @@
+[
+ {
+  "path": "assets/01-toy.png",
+  "width": 1062,
+  "height": 1318,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "手算例子：m=7 的表在五步插入与一次删除后的形态",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-clusters.png",
+  "width": 1062,
+  "height": 826,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "主聚集：同一张表在两个装载率下的簇长",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-curve.png",
+  "width": 1062,
+  "height": 1233,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "装载率与平均探测次数：实测与 Knuth 公式",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-formula.png",
+  "width": 1062,
+  "height": 1066,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种探测策略在不同装载率下的探测次数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-hist.png",
+  "width": 1062,
+  "height": 1082,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "探测长度分布：线性探测与双散列",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-cluster.png",
+  "width": 1062,
+  "height": 1010,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "最长簇的长度随装载率上升",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-robinhood.png",
+  "width": 1062,
+  "height": 1134,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Robin Hood 的让位规则：四次插入",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-tail.png",
+  "width": 1062,
+  "height": 1028,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "最长探测次数：线性探测与 Robin Hood",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-tomb.png",
+  "width": 1062,
+  "height": 1014,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "墓碑对失败探测的影响：三次独立实验",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-swiss.png",
+  "width": 1062,
+  "height": 754,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "SwissTable 的控制字节与批量比较（结构示意）",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-impl.png",
+  "width": 1062,
+  "height": 986,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "四种哈希表的冲突处理方式",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-takeaways.png",
+  "width": 1062,
+  "height": 850,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文三句话",
+  "identity": "原创教学示意"
+ }
+]

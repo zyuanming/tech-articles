@@ -3298,5 +3298,15 @@
     "images": 18,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-02-15-linear-probing",
+    "title": "下一个槽就在隔壁",
+    "date": "2027-02-15",
+    "path": "articles/2027-02-15-linear-probing/read.md",
+    "public_sha256": "07a090f52a197622e031a77cbd9e14cfb96a2ae4fde3a819eb7970fcc6d20279",
+    "images": 12,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
