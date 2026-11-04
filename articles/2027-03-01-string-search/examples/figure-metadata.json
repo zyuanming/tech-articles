@@ -1,0 +1,119 @@
+[
+ {
+  "path": "assets/01-naive-align.png",
+  "width": 1062,
+  "height": 1057,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "朴素匹配的四个窗口",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-prefix-table.png",
+  "width": 1062,
+  "height": 820,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "前缀函数表与跳转",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-tried-starts.png",
+  "width": 1062,
+  "height": 988,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种算法试过的起点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-bmh-table.png",
+  "width": 1062,
+  "height": 876,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "BMH 的坏字符表与两个窗口",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-english-bars.png",
+  "width": 1062,
+  "height": 1202,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "英文文本上的比较次数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-shift-hist.png",
+  "width": 1062,
+  "height": 882,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "BMH 的位移分布",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-dna-bars.png",
+  "width": 1062,
+  "height": 1056,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "DNA 文本上的比较次数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-two-numbers.png",
+  "width": 1062,
+  "height": 1188,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "窗口数与每窗口比较次数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-adversarial-a.png",
+  "width": 1062,
+  "height": 1066,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "朴素匹配的二次退化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-adversarial-b.png",
+  "width": 1062,
+  "height": 1118,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "BMH 的二次退化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-good-suffix.png",
+  "width": 1062,
+  "height": 1040,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "好后缀规则与坏字符规则的对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-utf8-bytes.png",
+  "width": 1062,
+  "height": 846,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "UTF-8 下的字节搜索与字符偏移",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-takeaways.png",
+  "width": 1062,
+  "height": 804,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三句话",
+  "identity": "原创教学示意"
+ }
+]

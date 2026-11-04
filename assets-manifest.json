@@ -32310,6 +32310,111 @@
     "sha256": "229ea1075d6b93eb4d594db026f6a47fb9b87f42614e85892fac6ad289135ca4"
   },
   {
+    "path": "articles/2027-03-01-string-search/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/01-naive-align.png",
+    "bytes": 111844,
+    "sha256": "3e4c500c6e0b087bb63bc7a6eb9f4d5ff46a7d649a34b6ee915bd91d0ace21ca"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/02-prefix-table.png",
+    "bytes": 130797,
+    "sha256": "5a08dea8f6bfc32b02d1ef48736eec4963b160e6bc68c62302f58634b158556e"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/03-tried-starts.png",
+    "bytes": 119878,
+    "sha256": "0aafe98dbf665349854a992e92abd831f2ed469636067e446e050c752890bee5"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/04-bmh-table.png",
+    "bytes": 129841,
+    "sha256": "d1940dc3538bf80c346a19077c2e859ec6ab85fcd7a1a41b910e00314a59379b"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/05-english-bars.png",
+    "bytes": 157395,
+    "sha256": "682737a404ddc40ef27c93fd28a07d9bed9d12d987dfda1641f024f0cccfb47e"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/06-shift-hist.png",
+    "bytes": 106909,
+    "sha256": "b8a2c2c786b64d68ea2f4115b5cc4e4003621b10d930dac82a84cfa6e7a68de4"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/07-dna-bars.png",
+    "bytes": 166871,
+    "sha256": "c8105a9ea83c4c8fc566d0478faa3512b763de2a359f89a608bc9bee23951972"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/08-two-numbers.png",
+    "bytes": 266731,
+    "sha256": "f6231ce2461b6e5b610e4e1b15ff927b8d9ad7ed669385f81e2d1bdcd85921bb"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/09-adversarial-a.png",
+    "bytes": 131950,
+    "sha256": "b12f580423867c0929a3016c64ce64ef231e4e45635330fdc0e117b734b7ce84"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/10-adversarial-b.png",
+    "bytes": 145447,
+    "sha256": "03d431972c96b9b629dc7d349ff1bbb6ecaffc7a7bd2d26d79014e589a49d980"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/11-good-suffix.png",
+    "bytes": 208641,
+    "sha256": "5417563379b131495d6d4e43375e59ffa252149d77c20763f62fc64cc9f5c145"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/12-utf8-bytes.png",
+    "bytes": 168702,
+    "sha256": "0ae9a8b3348d3ad0d166db6bbbfef88e6f6d8863c96a162bbdae99f152aa9dbd"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/assets/13-takeaways.png",
+    "bytes": 194761,
+    "sha256": "ef99f5202324fc483682a0bd51c0cd1f129712e3e658fb011039364cc8582ff2"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/cover.png",
+    "bytes": 123310,
+    "sha256": "3bec33949512305f69d93ce23cbc16a421d7d89b0797a99eb734b3ab15b0ec06"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/examples/build_figures.py",
+    "bytes": 27820,
+    "sha256": "cd92f8485318b7bd8dfd1246653ce07a3c2e859eff6a8c88a25c4465f0af6ba4"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/examples/figure-metadata.json",
+    "bytes": 2822,
+    "sha256": "29fd9b2c085a3476d56a57ece77b4f9036edc53c5a4320fa2cbaef0c29c6cdce"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/examples/results.json",
+    "bytes": 20632,
+    "sha256": "e7153ac49064128f3b4c2193e04e1c2a5106eb55fc9cb2bc6ab7b5ff9211e20d"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/examples/run_model.py",
+    "bytes": 6641,
+    "sha256": "1e923caa5e8939d77bc78b6b2753ee3212b6a470d26d9637b9fce3e787cbfccf"
+  },
+  {
+    "path": "articles/2027-03-01-string-search/examples/strsearch.py",
+    "bytes": 10239,
+    "sha256": "9573611f230c66926baeb3b55228b0e563eefe0dfcfed0676729afe3a222e539"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

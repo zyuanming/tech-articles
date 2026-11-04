@@ -1,0 +1,1333 @@
+{
+ "demo": {
+  "text": "abcabcabd",
+  "pattern": "abcabd",
+  "prefix": [
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  "naive": {
+   "comparisons": 14,
+   "windows": 4,
+   "matches": 1,
+   "positions": [
+    3
+   ],
+   "trace": [
+    {
+     "start": 0,
+     "matched": 5,
+     "fail": true
+    },
+    {
+     "start": 1,
+     "matched": 0,
+     "fail": true
+    },
+    {
+     "start": 2,
+     "matched": 0,
+     "fail": true
+    },
+    {
+     "start": 3,
+     "matched": 6,
+     "fail": false
+    }
+   ],
+   "shifts": [
+    1,
+    1,
+    1
+   ]
+  },
+  "kmp": {
+   "comparisons": 10,
+   "windows": 2,
+   "matches": 1,
+   "positions": [
+    3
+   ],
+   "trace": [
+    {
+     "start": 0,
+     "matched": 5,
+     "fail": true
+    },
+    {
+     "start": 3,
+     "matched": 6,
+     "fail": false
+    }
+   ],
+   "shifts": []
+  },
+  "bmh": {
+   "comparisons": 7,
+   "windows": 2,
+   "matches": 1,
+   "positions": [
+    3
+   ],
+   "trace": [
+    {
+     "start": 0,
+     "matched": 0,
+     "fail": true
+    },
+    {
+     "start": 3,
+     "matched": 6,
+     "fail": false
+    }
+   ],
+   "shifts": [
+    3,
+    6
+   ]
+  },
+  "bm": {
+   "comparisons": 7,
+   "windows": 2,
+   "matches": 1,
+   "positions": [
+    3
+   ],
+   "trace": [
+    {
+     "start": 0,
+     "matched": 0,
+     "fail": true
+    },
+    {
+     "start": 3,
+     "matched": 6,
+     "fail": false
+    }
+   ],
+   "shifts": [
+    3,
+    6
+   ]
+  },
+  "bmh_table": {
+   "a": 2,
+   "b": 1,
+   "c": 3
+  }
+ },
+ "english": {
+  "length": 1288,
+  "rows": [
+   {
+    "pattern": "the",
+    "kind": "hit",
+    "m": 3,
+    "naive": {
+     "comparisons": 1445,
+     "windows": 1286,
+     "matches": 25,
+     "positions": [
+      43,
+      71,
+      89,
+      145,
+      160,
+      190,
+      227,
+      293,
+      366,
+      381,
+      410,
+      426,
+      464,
+      564,
+      587,
+      722,
+      744,
+      775,
+      799,
+      867,
+      1121,
+      1138,
+      1168,
+      1173,
+      1209
+     ]
+    },
+    "kmp": {
+     "comparisons": 1384,
+     "windows": 1225,
+     "matches": 25,
+     "positions": [
+      43,
+      71,
+      89,
+      145,
+      160,
+      190,
+      227,
+      293,
+      366,
+      381,
+      410,
+      426,
+      464,
+      564,
+      587,
+      722,
+      744,
+      775,
+      799,
+      867,
+      1121,
+      1138,
+      1168,
+      1173,
+      1209
+     ]
+    },
+    "bmh": {
+     "comparisons": 551,
+     "windows": 461,
+     "matches": 25,
+     "positions": [
+      43,
+      71,
+      89,
+      145,
+      160,
+      190,
+      227,
+      293,
+      366,
+      381,
+      410,
+      426,
+      464,
+      564,
+      587,
+      722,
+      744,
+      775,
+      799,
+      867,
+      1121,
+      1138,
+      1168,
+      1173,
+      1209
+     ]
+    },
+    "bm": {
+     "comparisons": 551,
+     "windows": 461,
+     "matches": 25,
+     "positions": [
+      43,
+      71,
+      89,
+      145,
+      160,
+      190,
+      227,
+      293,
+      366,
+      381,
+      410,
+      426,
+      464,
+      564,
+      587,
+      722,
+      744,
+      775,
+      799,
+      867,
+      1121,
+      1138,
+      1168,
+      1173,
+      1209
+     ]
+    }
+   },
+   {
+    "pattern": "character",
+    "kind": "hit",
+    "m": 9,
+    "naive": {
+     "comparisons": 1377,
+     "windows": 1280,
+     "matches": 7,
+     "positions": [
+      107,
+      396,
+      452,
+      509,
+      731,
+      829,
+      999
+     ]
+    },
+    "kmp": {
+     "comparisons": 1314,
+     "windows": 1224,
+     "matches": 7,
+     "positions": [
+      107,
+      396,
+      452,
+      509,
+      731,
+      829,
+      999
+     ]
+    },
+    "bmh": {
+     "comparisons": 266,
+     "windows": 191,
+     "matches": 7,
+     "positions": [
+      107,
+      396,
+      452,
+      509,
+      731,
+      829,
+      999
+     ]
+    },
+    "bm": {
+     "comparisons": 262,
+     "windows": 183,
+     "matches": 7,
+     "positions": [
+      107,
+      396,
+      452,
+      509,
+      731,
+      829,
+      999
+     ]
+    }
+   },
+   {
+    "pattern": "string",
+    "kind": "hit",
+    "m": 6,
+    "naive": {
+     "comparisons": 1366,
+     "windows": 1283,
+     "matches": 1,
+     "positions": [
+      2
+     ]
+    },
+    "kmp": {
+     "comparisons": 1357,
+     "windows": 1272,
+     "matches": 1,
+     "positions": [
+      2
+     ]
+    },
+    "bmh": {
+     "comparisons": 267,
+     "windows": 247,
+     "matches": 1,
+     "positions": [
+      2
+     ]
+    },
+    "bm": {
+     "comparisons": 267,
+     "windows": 247,
+     "matches": 1,
+     "positions": [
+      2
+     ]
+    }
+   },
+   {
+    "pattern": "the quick",
+    "kind": "hit",
+    "m": 9,
+    "naive": {
+     "comparisons": 1484,
+     "windows": 1280,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 1409,
+     "windows": 1203,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 187,
+     "windows": 185,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 187,
+     "windows": 185,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "pattern": "quicksilver",
+    "kind": "miss",
+    "m": 11,
+    "naive": {
+     "comparisons": 1280,
+     "windows": 1278,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 1289,
+     "windows": 1287,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 169,
+     "windows": 148,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 169,
+     "windows": 148,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "pattern": "aaa",
+    "kind": "miss",
+    "m": 3,
+    "naive": {
+     "comparisons": 1385,
+     "windows": 1286,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 1387,
+     "windows": 1288,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 481,
+     "windows": 450,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 478,
+     "windows": 441,
+     "matches": 0,
+     "positions": []
+    }
+   }
+  ]
+ },
+ "dna": {
+  "length": 20000,
+  "rows": [
+   {
+    "pattern": "CTTATTTT",
+    "kind": "hit",
+    "m": 8,
+    "naive": {
+     "comparisons": 26542,
+     "windows": 19993,
+     "matches": 3,
+     "positions": [
+      2273,
+      5000,
+      11360
+     ]
+    },
+    "kmp": {
+     "comparisons": 24953,
+     "windows": 18401,
+     "matches": 3,
+     "positions": [
+      2273,
+      5000,
+      11360
+     ]
+    },
+    "bmh": {
+     "comparisons": 5925,
+     "windows": 4045,
+     "matches": 3,
+     "positions": [
+      2273,
+      5000,
+      11360
+     ]
+    },
+    "bm": {
+     "comparisons": 4530,
+     "windows": 3319,
+     "matches": 3,
+     "positions": [
+      2273,
+      5000,
+      11360
+     ]
+    }
+   },
+   {
+    "pattern": "GACTGATA",
+    "kind": "hit",
+    "m": 8,
+    "naive": {
+     "comparisons": 26630,
+     "windows": 19993,
+     "matches": 1,
+     "positions": [
+      12000
+     ]
+    },
+    "kmp": {
+     "comparisons": 24983,
+     "windows": 18362,
+     "matches": 1,
+     "positions": [
+      12000
+     ]
+    },
+    "bmh": {
+     "comparisons": 10257,
+     "windows": 7317,
+     "matches": 1,
+     "positions": [
+      12000
+     ]
+    },
+    "bm": {
+     "comparisons": 8106,
+     "windows": 5813,
+     "matches": 1,
+     "positions": [
+      12000
+     ]
+    }
+   },
+   {
+    "pattern": "CTTATTTTGAGGCTCA",
+    "kind": "hit",
+    "m": 16,
+    "naive": {
+     "comparisons": 26542,
+     "windows": 19985,
+     "matches": 1,
+     "positions": [
+      5000
+     ]
+    },
+    "kmp": {
+     "comparisons": 24953,
+     "windows": 18394,
+     "matches": 1,
+     "positions": [
+      5000
+     ]
+    },
+    "bmh": {
+     "comparisons": 8738,
+     "windows": 6151,
+     "matches": 1,
+     "positions": [
+      5000
+     ]
+    },
+    "bm": {
+     "comparisons": 6445,
+     "windows": 4511,
+     "matches": 1,
+     "positions": [
+      5000
+     ]
+    }
+   },
+   {
+    "pattern": "ACGTACGT",
+    "kind": "miss",
+    "m": 8,
+    "naive": {
+     "comparisons": 26580,
+     "windows": 19993,
+     "matches": 1,
+     "positions": [
+      6377
+     ]
+    },
+    "kmp": {
+     "comparisons": 25007,
+     "windows": 18444,
+     "matches": 1,
+     "positions": [
+      6377
+     ]
+    },
+    "bmh": {
+     "comparisons": 11278,
+     "windows": 8033,
+     "matches": 1,
+     "positions": [
+      6377
+     ]
+    },
+    "bm": {
+     "comparisons": 8103,
+     "windows": 5762,
+     "matches": 1,
+     "positions": [
+      6377
+     ]
+    }
+   },
+   {
+    "pattern": "GGGGGGGG",
+    "kind": "miss",
+    "m": 8,
+    "naive": {
+     "comparisons": 26652,
+     "windows": 19993,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 24984,
+     "windows": 19998,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 4543,
+     "windows": 3200,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 3505,
+     "windows": 2611,
+     "matches": 0,
+     "positions": []
+    }
+   }
+  ]
+ },
+ "adversarial_a": {
+  "rows": [
+   {
+    "n": 1000,
+    "m": 250,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 187750,
+     "windows": 751,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 1751,
+     "windows": 751,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 751,
+     "windows": 751,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 751,
+     "windows": 751,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 2000,
+    "m": 500,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 750500,
+     "windows": 1501,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 3501,
+     "windows": 1501,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 1501,
+     "windows": 1501,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 1501,
+     "windows": 1501,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 4000,
+    "m": 1000,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 3001000,
+     "windows": 3001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 7001,
+     "windows": 3001,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 3001,
+     "windows": 3001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 3001,
+     "windows": 3001,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 8000,
+    "m": 2000,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 12002000,
+     "windows": 6001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 14001,
+     "windows": 6001,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 6001,
+     "windows": 6001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 6001,
+     "windows": 6001,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 16000,
+    "m": 4000,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 48004000,
+     "windows": 12001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 28001,
+     "windows": 12001,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 12001,
+     "windows": 12001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 12001,
+     "windows": 12001,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 32000,
+    "m": 8000,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 192008000,
+     "windows": 24001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 56001,
+     "windows": 24001,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 24001,
+     "windows": 24001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 24001,
+     "windows": 24001,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 64000,
+    "m": 16000,
+    "note": "pattern = 'a'*(m-1)+'b', text = 'a'*n",
+    "naive": {
+     "comparisons": 768016000,
+     "windows": 48001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 112001,
+     "windows": 48001,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 48001,
+     "windows": 48001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 48001,
+     "windows": 48001,
+     "matches": 0,
+     "positions": []
+    }
+   }
+  ]
+ },
+ "adversarial_b": {
+  "rows": [
+   {
+    "n": 1000,
+    "m": 250,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 751,
+     "windows": 751,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 1000,
+     "windows": 1000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 187750,
+     "windows": 751,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 1000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 2000,
+    "m": 500,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 1501,
+     "windows": 1501,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 2000,
+     "windows": 2000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 750500,
+     "windows": 1501,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 2000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 4000,
+    "m": 1000,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 3001,
+     "windows": 3001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 4000,
+     "windows": 4000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 3001000,
+     "windows": 3001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 4000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 8000,
+    "m": 2000,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 6001,
+     "windows": 6001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 8000,
+     "windows": 8000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 12002000,
+     "windows": 6001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 8000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 16000,
+    "m": 4000,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 12001,
+     "windows": 12001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 16000,
+     "windows": 16000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 48004000,
+     "windows": 12001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 16000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 32000,
+    "m": 8000,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 24001,
+     "windows": 24001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 32000,
+     "windows": 32000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 192008000,
+     "windows": 24001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 32000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   },
+   {
+    "n": 64000,
+    "m": 16000,
+    "note": "pattern = 'b'+'a'*(m-1), text = 'a'*n",
+    "naive": {
+     "comparisons": 48001,
+     "windows": 48001,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 64000,
+     "windows": 64000,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 768016000,
+     "windows": 48001,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 64000,
+     "windows": 4,
+     "matches": 0,
+     "positions": []
+    }
+   }
+  ]
+ },
+ "shift_hist": {
+  "pattern": "the",
+  "counts": [
+   [
+    1,
+    28
+   ],
+   [
+    2,
+    39
+   ],
+   [
+    3,
+    394
+   ]
+  ],
+  "windows": 461,
+  "comparisons": 551,
+  "mean_shift": 2.7939262472885034,
+  "max_shift": 3
+ },
+ "overlap": {
+  "text": "aaaaa",
+  "pattern": "aa",
+  "matches": 4,
+  "positions": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "naive": {
+   "comparisons": 8,
+   "windows": 4,
+   "matches": 4,
+   "positions": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "kmp": {
+   "comparisons": 5,
+   "windows": 4,
+   "matches": 4,
+   "positions": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "bmh": {
+   "comparisons": 8,
+   "windows": 4,
+   "matches": 4,
+   "positions": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "bm": {
+   "comparisons": 8,
+   "windows": 4,
+   "matches": 4,
+   "positions": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ "perwindow": [
+  {
+   "corpus": "english",
+   "pattern": "the",
+   "n": 1288,
+   "naive": {
+    "comparisons": 1445,
+    "windows": 1286,
+    "per_window": 1.1236391912908243
+   },
+   "kmp": {
+    "comparisons": 1384,
+    "windows": 1225,
+    "per_window": 1.129795918367347
+   },
+   "bmh": {
+    "comparisons": 551,
+    "windows": 461,
+    "per_window": 1.1952277657266812
+   },
+   "bm": {
+    "comparisons": 551,
+    "windows": 461,
+    "per_window": 1.1952277657266812
+   }
+  },
+  {
+   "corpus": "dna",
+   "pattern": "ACGTACGT",
+   "n": 20000,
+   "naive": {
+    "comparisons": 26580,
+    "windows": 19993,
+    "per_window": 1.3294653128595009
+   },
+   "kmp": {
+    "comparisons": 25007,
+    "windows": 18444,
+    "per_window": 1.3558338755150727
+   },
+   "bmh": {
+    "comparisons": 11278,
+    "windows": 8033,
+    "per_window": 1.4039586704842524
+   },
+   "bm": {
+    "comparisons": 8103,
+    "windows": 5762,
+    "per_window": 1.40628254078445
+   }
+  },
+  {
+   "corpus": "runs",
+   "pattern": "aaaaaaab",
+   "n": 8000,
+   "naive": {
+    "comparisons": 63944,
+    "windows": 7993,
+    "per_window": 8.0
+   },
+   "kmp": {
+    "comparisons": 15993,
+    "windows": 7993,
+    "per_window": 2.0008757662955086
+   },
+   "bmh": {
+    "comparisons": 7993,
+    "windows": 7993,
+    "per_window": 1.0
+   },
+   "bm": {
+    "comparisons": 7993,
+    "windows": 7993,
+    "per_window": 1.0
+   }
+  }
+ ],
+ "runs_matches": {
+  "rows": [
+   {
+    "pattern": "aaaaaaa",
+    "n": 8000,
+    "naive": {
+     "comparisons": 55958,
+     "windows": 7994,
+     "matches": 7994,
+     "positions": [
+      0,
+      1,
+      2
+     ]
+    },
+    "kmp": {
+     "comparisons": 8000,
+     "windows": 7994,
+     "matches": 7994,
+     "positions": [
+      0,
+      1,
+      2
+     ]
+    },
+    "bmh": {
+     "comparisons": 55958,
+     "windows": 7994,
+     "matches": 7994,
+     "positions": [
+      0,
+      1,
+      2
+     ]
+    },
+    "bm": {
+     "comparisons": 55958,
+     "windows": 7994,
+     "matches": 7994,
+     "positions": [
+      0,
+      1,
+      2
+     ]
+    }
+   },
+   {
+    "pattern": "aaaaaaab",
+    "n": 8000,
+    "naive": {
+     "comparisons": 63944,
+     "windows": 7993,
+     "matches": 0,
+     "positions": []
+    },
+    "kmp": {
+     "comparisons": 15993,
+     "windows": 7993,
+     "matches": 0,
+     "positions": []
+    },
+    "bmh": {
+     "comparisons": 7993,
+     "windows": 7993,
+     "matches": 0,
+     "positions": []
+    },
+    "bm": {
+     "comparisons": 7993,
+     "windows": 7993,
+     "matches": 0,
+     "positions": []
+    }
+   }
+  ]
+ },
+ "goodsuffix": {
+  "pattern": "baaaaaaa",
+  "m": 8,
+  "good_suffix": [
+   8,
+   8,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "bad_char_at_0": 1,
+  "good_suffix_at_0": 8,
+  "occurrence_a": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ]
+ },
+ "utf8": {
+  "text": "naïve café — 中文也在这里，é 和 e 不是一回事。",
+  "needle": "é",
+  "text_bytes": 65,
+  "needle_bytes": 2,
+  "byte_matches": 2,
+  "byte_positions": [
+   10,
+   38
+  ],
+  "char_matches": 2,
+  "char_positions": [
+   9,
+   20
+  ]
+ },
+ "utf8_invalid": {
+  "text": "中文也在这里",
+  "text_bytes": 18,
+  "needle_hex": "96 87",
+  "byte_positions": [
+   4
+  ],
+  "byte_matches": 1,
+  "char_positions": [],
+  "note": "这个针不是合法 UTF-8，字符层没有任何位置能放它"
+ },
+ "selfcheck": true
+}
