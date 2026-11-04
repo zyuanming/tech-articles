@@ -3328,5 +3328,15 @@
     "images": 13,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-03-08-astar-heuristic",
+    "title": "A* 为什么会白忙一场",
+    "date": "2027-03-08",
+    "path": "articles/2027-03-08-astar-heuristic/read.md",
+    "public_sha256": "197c8c2b86e4cac54e1045553c74a5f96a661984645f04b908ee972c1d5b1ddd",
+    "images": 12,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

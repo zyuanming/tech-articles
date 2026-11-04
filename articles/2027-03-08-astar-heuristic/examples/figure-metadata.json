@@ -1,0 +1,110 @@
+[
+ {
+  "path": "assets/01-f-split.png",
+  "width": 1062,
+  "height": 866,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "f = g + h 的构成，沿一条直线走到底时 f 恒定",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-empty-four.png",
+  "width": 1062,
+  "height": 1458,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "空地上所有格子的 f 相等，A* 与 Dijkstra 展开数相同",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-tie-break.png",
+  "width": 1062,
+  "height": 1090,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "同分时按 h 优先，展开数从 36 降到 11",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-empty-eight.png",
+  "width": 1062,
+  "height": 1244,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "八方向空地上 A* 只展开对角线上的格子",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-wall.png",
+  "width": 1062,
+  "height": 988,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "同一道墙下四方向与八方向的展开数对比",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-map18.png",
+  "width": 1062,
+  "height": 1379,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "18% 障碍地图上 Dijkstra 与 A* 的展开范围",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-map25.png",
+  "width": 1062,
+  "height": 1453,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "25% 障碍地图上 A* 的收益缩水",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-weight-sweep.png",
+  "width": 1062,
+  "height": 1130,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "w 从 1 加到 5 时展开数的变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-two-bills.png",
+  "width": 1062,
+  "height": 1233,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "两种地图上四种配置的展开数、代价与开表峰值",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-overestimate.png",
+  "width": 1062,
+  "height": 1392,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "欧氏启发式在斜走同价网格上给出次优路径",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-consistency.png",
+  "width": 1062,
+  "height": 862,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种启发式在两种斜走定价下的一致性检查",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-takeaways.png",
+  "width": 1062,
+  "height": 662,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文三句话",
+  "identity": "原创教学示意"
+ }
+]
