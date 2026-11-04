@@ -29791,8 +29791,8 @@
   },
   {
     "path": "articles/2026-11-09-riaa-equalization/assets/11-tolerance.png",
-    "bytes": 139107,
-    "sha256": "f98e4f12c26079452c1eb7feec312b206b848a28f407bc1cc75ab08a885ec805"
+    "bytes": 146344,
+    "sha256": "92492e743d74e1d1bdcdf202b65a3cb0efc6c31dd7adf2db08129d21188fee27"
   },
   {
     "path": "articles/2026-11-09-riaa-equalization/assets/12-noise.png",
@@ -29836,8 +29836,8 @@
   },
   {
     "path": "articles/2026-11-09-riaa-equalization/examples/build_figures.py",
-    "bytes": 31706,
-    "sha256": "cb0bfdffd89b1a66ecd6b8fb8f2a6079ff45e01ddafbe622f01a80d947a329fd"
+    "bytes": 31740,
+    "sha256": "18e7b2a72fe917d8dd48acc5e64906e0dfe095e9a9e0a18664d35ee07af10aa5"
   },
   {
     "path": "articles/2026-11-09-riaa-equalization/examples/figkit.py",
@@ -29846,8 +29846,8 @@
   },
   {
     "path": "articles/2026-11-09-riaa-equalization/examples/figure-metadata.json",
-    "bytes": 4770,
-    "sha256": "fcf914a977e915b1cf60ca9e9be6be035a1e89a1f8565f20af8cfc82eaa1b6ef"
+    "bytes": 4775,
+    "sha256": "8abde120d3a213df080d307b2dc1aba1c5e86f79d6c09c64de89fcb5044caf6d"
   },
   {
     "path": "articles/2026-11-09-riaa-equalization/examples/results.json",

@@ -95,7 +95,7 @@ sha256 `fefefb9228cd224e306f9e74c4f2f5d7fae084e0f8613f1fd8d4c23427a689dd`，395 
 
 ## 核对过但没改的
 
-- 「Hello!」的 8 位累加和 0x15、异或 0x63：0x48+0x65+0x6C+0x6C+0x6F+0x21 = 0x115 → 0x15；异或逐字节算是 0x63，手算两遍都对。
+- 「Hello!」的 8 位累加和 0x15、异或 0x63：0x48+0x65+0x6C+0x6C+0x6F+0x21 = 533 = 0x215，取低字节 0x15；异或逐字节算是 0x63，手算两遍都对。
 - `0xD3` 的逐位轨迹末值 0x1CD86D30 = 483 945 776：`trace.final`；`table[1]` = 1 996 959 894 也与 CRC-32 表的第 1 项一致。
 - 「The quick brown fox…」的 414FA339 与查表实现同值：`fox.crc_hex`、`fox.tablewise`。
 - 生成多项式 0x104C11DB7 有 15 个 1、长度 33 位的突发被漏检：`burst_min` 的 weight 15 / length 33 / remainder 0。

@@ -451,14 +451,14 @@ def fig11():
              color=RED)
     fig.text((p.px(24), p.py(-0.30)), '中位那次', 38, color=TEAL)
     tight = R['tolerance_tight']['worst_db']
-    fig.text((p.px(24), p.py(-0.62)), '全用 1%% 件：%+.2f dB' % tight, 38,
+    fig.text((p.px(24), p.py(-0.62)), '0.1%% 电阻 + 1%% 电容：%+.2f dB' % tight, 38,
              color=BLUE)
 
     y = p.y1 + 150
     y = note(fig, y, '抽样 200 次，R 偏差 ±1%%、C 偏差 ±5%%。最坏 0.76 dB，'
                      '中位 0.28 dB。这个量级比房间和音箱造成的起伏小一个数量级，'
-                     '所以没人拿它当回事。')
-    save(fig, '11-tolerance.png', '元件容差导致的曲线偏差：最坏一次、中位、以及 1% 件的对照')
+                     '这一级在整条链路上几乎可以忽略。')
+    save(fig, '11-tolerance.png', '元件容差导致的曲线偏差：最坏一次、中位，以及更精密件的对照')
 
 
 def fig12():

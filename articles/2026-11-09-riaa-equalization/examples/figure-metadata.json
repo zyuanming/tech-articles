@@ -95,10 +95,10 @@
  {
   "path": "assets/11-tolerance.png",
   "width": 1062,
-  "height": 1212,
+  "height": 1213,
   "min_label_px": 38,
   "effective_min_at_354px": 12.67,
-  "purpose": "元件容差导致的曲线偏差：最坏一次、中位、以及 1% 件的对照",
+  "purpose": "元件容差导致的曲线偏差：最坏一次、中位，以及更精密件的对照",
   "identity": "原创教学示意"
  },
  {
