@@ -32205,6 +32205,111 @@
     "sha256": "b1eec93dc35da384b5aacce828ccf2d393ebb9df8bcde48dffe9a3e9c30cdd06"
   },
   {
+    "path": "articles/2027-02-22-fixed-timestep/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/01-jump-trace.png",
+    "bytes": 155190,
+    "sha256": "12cd7ee1c26b50f07d949e73de1db4463d7778f3836f3602e2db4d0cfb4070a7"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/02-apex-vs-fps.png",
+    "bytes": 167375,
+    "sha256": "d0d0f034bc4bcedfe30368f342a572fb392f8ff411e6b0c4370f9776e0a05adc"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/03-accumulator.png",
+    "bytes": 128044,
+    "sha256": "1587bd463cc47198d2495c66d7a594f9c5373799117e1e0176f6e71f3814c21c"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/04-hitch.png",
+    "bytes": 99348,
+    "sha256": "8a266d31c925aa0b95f5cfb13f21357d1e8d4f5c08caac123402c6f8ee5a43fc"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/05-spiral.png",
+    "bytes": 138945,
+    "sha256": "6898cc8e4d76884c60daae414dc6b205b301349df1c1be252d9929ded370b141"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/06-tunnel.png",
+    "bytes": 178501,
+    "sha256": "e34f342d853808907b13ce53726ddcc588587e941707c855cd82de241b72f8a1"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/07-substep.png",
+    "bytes": 172327,
+    "sha256": "4c4bf01be19b6c32474911f4de9d0e827eb533a51df7985a31fe7c2f53a37995"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/08-energy.png",
+    "bytes": 150496,
+    "sha256": "3f5c0929f052564edfc17db666cfb7c34c8b5845ec9953339393bb522df4d915"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/09-phase.png",
+    "bytes": 117638,
+    "sha256": "3a73b99b79043d3ace4d2b75882c523550f10f942a604097063465f9ddade754"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/10-float.png",
+    "bytes": 148720,
+    "sha256": "d7e8ce8f33bf13f052b37495f62d122b62ab6f058ee368c0745be59919d2f012"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/11-chaos.png",
+    "bytes": 180527,
+    "sha256": "857e7f1c07d68c17f6ab36c062e9a5e237e7920bf9e4e7efd4b0047cd6591f57"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/12-lerp.png",
+    "bytes": 139182,
+    "sha256": "2d0264309858a8064ed74e9a5e88def02b61a1ef7c80db0e9029a4fae4d92710"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/assets/13-takeaways.png",
+    "bytes": 174798,
+    "sha256": "6084a5ae915c447fa350d8fead08357afc4e64ba21bad7b63df9b7af94d5da61"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/cover.png",
+    "bytes": 117729,
+    "sha256": "8afbd4dfae6638ac7bd425552c79af69badde47cda00b1a01db934c3ce587e9f"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/examples/build_figures.py",
+    "bytes": 24221,
+    "sha256": "12e85b4d099ea3fe3b7331a3ae7afecad2a2f65dbfa32d18b32c1436348d8815"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/examples/figure-metadata.json",
+    "bytes": 2762,
+    "sha256": "73e1416e70cc0718ab8f597a8a0890cb20c425c9a7ecbd1df3ba0632a13a894a"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/examples/results.json",
+    "bytes": 192032,
+    "sha256": "440011abb50cc3c021dc6c0d98e7b42394ec17bca73ec0665eb416fe995b09cb"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/examples/run_model.py",
+    "bytes": 5255,
+    "sha256": "b5d60c283b87efd8778965a1546111127b1102098f835eeea4e27c69a4c5db16"
+  },
+  {
+    "path": "articles/2027-02-22-fixed-timestep/examples/timestep.py",
+    "bytes": 11061,
+    "sha256": "229ea1075d6b93eb4d594db026f6a47fb9b87f42614e85892fac6ad289135ca4"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

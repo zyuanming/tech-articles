@@ -1,0 +1,119 @@
+[
+ {
+  "path": "assets/01-jump-trace.png",
+  "width": 1062,
+  "height": 996,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "跳跃的离散采样与连续解",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-apex-vs-fps.png",
+  "width": 1062,
+  "height": 978,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "跳跃最高点误差随帧率变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-accumulator.png",
+  "width": 1062,
+  "height": 926,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "累加器每帧的步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-hitch.png",
+  "width": 1062,
+  "height": 898,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "卡顿帧的补帧与闸门",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-spiral.png",
+  "width": 1062,
+  "height": 966,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "补帧与每步开销的稳态关系",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-tunnel.png",
+  "width": 1062,
+  "height": 926,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "穿透率随速度变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-substep.png",
+  "width": 1062,
+  "height": 1000,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "不同速度需要的子步数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-energy.png",
+  "width": 1062,
+  "height": 916,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种积分器的能量偏差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-phase.png",
+  "width": 1062,
+  "height": 950,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "三种积分器的相图",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-float.png",
+  "width": 1062,
+  "height": 1058,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "时间累加的浮点误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-chaos.png",
+  "width": 1062,
+  "height": 968,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "双摆对初值的敏感",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-lerp.png",
+  "width": 1062,
+  "height": 882,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "每帧插值对帧率的依赖",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-takeaways.png",
+  "width": 1062,
+  "height": 778,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三句话",
+  "identity": "原创教学示意"
+ }
+]
