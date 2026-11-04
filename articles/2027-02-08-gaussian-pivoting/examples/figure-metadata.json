@@ -1,0 +1,164 @@
+[
+ {
+  "path": "assets/01-small-pivot.png",
+  "width": 1062,
+  "height": 978,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "小主元把舍入误差放大：三位有效数字的例子",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-two-lines.png",
+  "width": 1062,
+  "height": 1154,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "两个方程在平面上是两条线，解是交点",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-eliminate.png",
+  "width": 1062,
+  "height": 1158,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "一次消元的几何效果：第二条线绕交点变成水平线",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-ledger.png",
+  "width": 1062,
+  "height": 1322,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三阶方程组的消元过程，每一步的矩阵形态",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-backsub.png",
+  "width": 1062,
+  "height": 1051,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "回代过程：从上三角矩阵的最后一行往回解",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-zero-pivot.png",
+  "width": 1062,
+  "height": 870,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "主元为零时消元无法继续，而方程本身有解",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-row-swap.png",
+  "width": 1062,
+  "height": 846,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "行交换把 0 主元换成非零主元，解不变",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-partial-pivot.png",
+  "width": 1062,
+  "height": 1043,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "部分主元：每列挑绝对值最大的元素",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-doubling.png",
+  "width": 1062,
+  "height": 856,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "乘数有界时元素增长的 2 倍链条",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/10-growth.png",
+  "width": 1062,
+  "height": 1013,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Wilkinson 矩阵与随机矩阵的增长因子实测",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/11-float32.png",
+  "width": 1062,
+  "height": 1184,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "单精度下主元大小与解的误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/12-residual.png",
+  "width": 1062,
+  "height": 802,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "向后稳定：残差小不等于解正确",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/13-hilbert.png",
+  "width": 1062,
+  "height": 990,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Hilbert 矩阵的条件数与向前误差",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/14-angle.png",
+  "width": 1062,
+  "height": 1092,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "条件数的几何图像：夹角越小，交点越敏感",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/15-cost.png",
+  "width": 1062,
+  "height": 866,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "消元的浮点运算次数与选主元的开销",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/16-strategies.png",
+  "width": 1062,
+  "height": 1029,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "不选、部分、完全三种主元策略的对照",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/17-lapack.png",
+  "width": 1062,
+  "height": 1352,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "LAPACK dgesv 的分块流程",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/18-takeaways.png",
+  "width": 1062,
+  "height": 868,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "全文三句话总结",
+  "identity": "原创教学示意"
+ }
+]

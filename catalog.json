@@ -3288,5 +3288,15 @@
     "images": 19,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-02-08-gaussian-pivoting",
+    "title": "先拿哪个数当除数",
+    "date": "2027-02-08",
+    "path": "articles/2027-02-08-gaussian-pivoting/read.md",
+    "public_sha256": "5f16883131dc8394f47db8067f8d24052549e64bcdbfed590dee54c383ddc044",
+    "images": 18,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

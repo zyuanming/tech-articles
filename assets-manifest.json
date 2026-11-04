@@ -31975,6 +31975,136 @@
     "sha256": "5e42baf9a36ab8ca1e22395487402c75265f54085d14be2cb73f3b910407f976"
   },
   {
+    "path": "articles/2027-02-08-gaussian-pivoting/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/01-small-pivot.png",
+    "bytes": 140864,
+    "sha256": "02f2ef3ee01c0a0bbebf93ffa16fbc65f62f9208cfaf456d173990f733a155f2"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/02-two-lines.png",
+    "bytes": 137866,
+    "sha256": "c7a22297b42e089392c2aa758c6f0f868bccbb7015c27e5c06b6bf8aac6a5c01"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/03-eliminate.png",
+    "bytes": 157602,
+    "sha256": "fdef45c933f4ae169d05798bf26109259a48f7c57487cb49f319509f17df861f"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/04-ledger.png",
+    "bytes": 137521,
+    "sha256": "07eb34ab28487033cceffeea08ce6c6ccb163668d5417dc0f744999356d8ed54"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/05-backsub.png",
+    "bytes": 121206,
+    "sha256": "897abd3ed8077760c87b5cd6c2de08274497128acc92519152b81233ecf7133e"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/06-zero-pivot.png",
+    "bytes": 119692,
+    "sha256": "12a8724d2c120c2a3c86a7368f3bf3c2c802c869747bba533c83c377cd9828ab"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/07-row-swap.png",
+    "bytes": 117754,
+    "sha256": "855bb9b8b159cfc47f22fce4bcb6a02bc59da4a143a272f07a3b346a99955f67"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/08-partial-pivot.png",
+    "bytes": 158988,
+    "sha256": "a5a7d833824856a93afb2c9f313fb29666967003f0dec252690347e973e34f2c"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/09-doubling.png",
+    "bytes": 156745,
+    "sha256": "65a99aa32a0d33eef34216c1077acf0bc4354f3cd507672367f7f62f0e0d274b"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/10-growth.png",
+    "bytes": 124613,
+    "sha256": "6de5d50d783ec084e3f9b6be0d615aa8473377ad7b5bf9e5a4d5d02b9594405f"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/11-float32.png",
+    "bytes": 191651,
+    "sha256": "82b3b7401d49903e77d27491fc0366ae97f280e9875f29b643f81e4a4305ed4d"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/12-residual.png",
+    "bytes": 155746,
+    "sha256": "d1b1c986414dad8a5a25504bbfae08e84fd71f3190ef9a98a0423c0a83168823"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/13-hilbert.png",
+    "bytes": 147452,
+    "sha256": "57385d28aedf67f0ec683d7ef96108abb96d14d4e4c49a7676eab14d84d42f0c"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/14-angle.png",
+    "bytes": 129714,
+    "sha256": "93f3903e8188f22906a642fd85517145c5952dac27512dedfefe47aa3f459960"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/15-cost.png",
+    "bytes": 144123,
+    "sha256": "764e55a8225b6bfd40cabf9bcbcf47e9db8e6558efa1aca8a4cd003b2baa3baa"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/16-strategies.png",
+    "bytes": 237886,
+    "sha256": "d915d7a7093bcecbf9af267ec57b7bb23109415dbcb94554599df1de025ad1ca"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/17-lapack.png",
+    "bytes": 252620,
+    "sha256": "9f897afaa6379864ad7f118a12777acafb55f7aa71298f8f39184cd4870ab09f"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/assets/18-takeaways.png",
+    "bytes": 145959,
+    "sha256": "459fbfae61f535a319c26548c0c63e28cb3885db9a753dff70b2e2817495397f"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/cover.png",
+    "bytes": 85585,
+    "sha256": "0205ee12260333dcde430bc27f2488964c61e29ad54bad530dedfc3e473bacd8"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/examples/build_figures.py",
+    "bytes": 35474,
+    "sha256": "a944c339f16ffa4b50bf4ac6d83e14eed8ee17ed771beac3bb689c62cab1e154"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/examples/figure-metadata.json",
+    "bytes": 4228,
+    "sha256": "145e2ef718618b19a883a42525292595f190a8fdbf09d9acd078ca9d73725012"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/examples/ge.py",
+    "bytes": 6067,
+    "sha256": "f8188ed0be549be63a2da31f9876ba7f92d5bafa6c2e1dd5fd3501333a0bf952"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/examples/results.json",
+    "bytes": 8532,
+    "sha256": "ce48e116b43c36ce9552e2372db5f15c9c48968c9634ebb071d97064472526a9"
+  },
+  {
+    "path": "articles/2027-02-08-gaussian-pivoting/examples/run_model.py",
+    "bytes": 8374,
+    "sha256": "09948e169b02d257665574c2311b7b12798c3b67224e746f6009d859048fb408"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"
