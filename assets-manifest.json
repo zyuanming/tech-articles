@@ -32710,6 +32710,96 @@
     "sha256": "9ae41a366fc89fcda790c26b7f1bbcd58ec22fa5c3849aaaf998ffa96437cf86"
   },
   {
+    "path": "articles/2027-03-29-bresenham-line/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/01-hand-line.png",
+    "bytes": 103605,
+    "sha256": "f59b206f66bfe018e1eebdf7639129fcec94fb6e275752e984ac8a17f746307f"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/02-error-term.png",
+    "bytes": 121869,
+    "sha256": "e8f2c2e411bb27cbb9bcde08a62d636e992aa54431a6c84b08e608e8a3db1b84"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/03-diff-by-length.png",
+    "bytes": 138163,
+    "sha256": "64620b76140b0034ad76327c1dadb4409293cb026d5db7010ebe16efd9265763"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/04-one-pixel-diff.png",
+    "bytes": 118219,
+    "sha256": "177824cb0604c959bf8bc78e2503305cf98aece607b38edd284b8114d0f86e91"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/05-two-metrics.png",
+    "bytes": 167348,
+    "sha256": "4653bff0d90f8bcb95199eda93149328f36dceb20aa4e4f0f83a11152d274d46"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/06-reversed.png",
+    "bytes": 128480,
+    "sha256": "6946128ab1aa683ff2e3f541c86b9f55f8610b24e4bf1cb948ba63f26c99555f"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/07-midpoint-circle.png",
+    "bytes": 148388,
+    "sha256": "4c1b73bf2faef2b4f64ec420a1b2e6691182911f759b157813c0232ebb5ace2c"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/08-circle-count.png",
+    "bytes": 137753,
+    "sha256": "ff83ca81e8000c6c422a3cb7ffda41142fae012ecd0d55dff58155b3e9a439d9"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/09-antialias.png",
+    "bytes": 121121,
+    "sha256": "751fc79947892968e385b1876b19e7b1094487afcf4a9dc7401a07dfdf181570"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/assets/10-takeaways.png",
+    "bytes": 175614,
+    "sha256": "8eb308ea56b8ffb4ddf737997ddabc79ea3dd863a55b7f2205a05db7fe36aa4e"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/cover.png",
+    "bytes": 137629,
+    "sha256": "2b19a63cd49ca3df32be1b00510867561b2f5e2ce90e0e2cde2a887bc96f50fe"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/examples/bres.py",
+    "bytes": 6373,
+    "sha256": "51d66cfc972fcb982054751e2d0603121e5e3e0f39d94f16c46293f51a7b76f8"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/examples/build_figures.py",
+    "bytes": 21993,
+    "sha256": "1f679ae182bb6a6421c8856ffdcb1217bdf0746179257af6c05384c2dcc55eae"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/examples/figure-metadata.json",
+    "bytes": 3074,
+    "sha256": "b47bdc622504edb758c581255ed1d36f1ab0889bab38a00052b2ed8a88c838c1"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/examples/results.json",
+    "bytes": 21055,
+    "sha256": "d78fe094b89efd20f12933ad18cf4c65da9f51ac1c2c4174924941237193d359"
+  },
+  {
+    "path": "articles/2027-03-29-bresenham-line/examples/run_model.py",
+    "bytes": 8434,
+    "sha256": "685086595331886236b1c734c3988431e9a7d299fd8ebaa0aca167696bebdec6"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

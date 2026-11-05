@@ -1,0 +1,101 @@
+[
+ {
+  "path": "assets/01-hand-line.png",
+  "width": 1062,
+  "height": 1492,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u4ece (0,0) \u5230 (10,4) \u7684 Bresenham \u9010\u6b65\u53d6\u503c\u4e0e\u50cf\u7d20",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/02-error-term.png",
+  "width": 1062,
+  "height": 1063,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u8bef\u5dee\u9879 D \u5728 11 \u5217\u4e0a\u7684\u53d6\u503c",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/03-diff-by-length.png",
+  "width": 1062,
+  "height": 1040,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u4e0e\u56db\u820d\u4e94\u5165\u7684\u5206\u6b67\u6309\u4e3b\u8f74\u957f\u5ea6\u5206\u5e03",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/04-one-pixel-diff.png",
+  "width": 1062,
+  "height": 816,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Bresenham \u4e0e\u56db\u820d\u4e94\u5165\u5728\u4e00\u4e2a\u5e73\u5c40\u50cf\u7d20\u4e0a\u7684\u5206\u6b67",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/05-two-metrics.png",
+  "width": 1062,
+  "height": 1116,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u4e24\u79cd\u504f\u5dee\u5ea6\u91cf\u5728 65 \u6761\u659c\u7387\u4e0a\u7684\u5bf9\u6bd4",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/06-reversed.png",
+  "width": 1062,
+  "height": 1030,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u53cd\u5411\u7ed8\u5236\u65f6\u50cf\u7d20\u5dee\u5f02\u7684\u5206\u5e03",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/07-midpoint-circle.png",
+  "width": 1062,
+  "height": 1348,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "r = 13 \u7684\u4e2d\u70b9\u5706\u50cf\u7d20\u4e0e\u516b\u8def\u955c\u50cf",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/08-circle-count.png",
+  "width": 1062,
+  "height": 1050,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u4e2d\u70b9\u5706\u50cf\u7d20\u6570\u4e0e\u5468\u957f\u7684\u6bd4\u503c\u968f\u534a\u5f84\u53d8\u5316",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/09-antialias.png",
+  "width": 1062,
+  "height": 1705,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "Bresenham \u4e0e Wu \u6297\u952f\u9f7f\u753b\u7ebf\u7684\u5bf9\u7167",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/10-takeaways.png",
+  "width": 1062,
+  "height": 704,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "\u4e09\u6761\u7ed3\u8bba",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/cover.png",
+  "width": 1080,
+  "height": 1080,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.46,
+  "purpose": "\u6587\u7ae0\u5c01\u9762",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ }
+]

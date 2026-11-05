@@ -3358,5 +3358,15 @@
     "images": 11,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-03-29-bresenham-line",
+    "title": "半个像素算谁的",
+    "date": "2027-03-29",
+    "path": "articles/2027-03-29-bresenham-line/read.md",
+    "public_sha256": "d0e39055da2e7ad72e95806f23946e6a800ee41227d1e9c495f25b3a762e3ed9",
+    "images": 10,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
