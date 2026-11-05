@@ -32885,6 +32885,91 @@
     "sha256": "321ffdd79ae021a1b24a7c262035e0e38d1d040ee7139d1b71d4d91c56e1d03c"
   },
   {
+    "path": "articles/2027-04-12-low-discrepancy/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/01-vdc.png",
+    "bytes": 156864,
+    "sha256": "3f4fee5b9950e8f4c3bc7b61fd92a84e7bccf799998c904e7279d35e8f3d4641"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/02-scatter.png",
+    "bytes": 159195,
+    "sha256": "c7c098024ff15eaa0f4156921b60a434cac99fd689abbfcbb0c7b56e4cb39c56"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/03-gap.png",
+    "bytes": 169930,
+    "sha256": "bc760de0ee89fb7d89d3609fd2a14b39d003e718698f9287a53a26b7ac3ce0dc"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/04-error-vs-n.png",
+    "bytes": 186067,
+    "sha256": "69e4b14daddd3a8743ae4fc91d0a3a54c50c23c3e786e79297817f7570adcde0"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/05-exponent.png",
+    "bytes": 213855,
+    "sha256": "cc1dd74b355cd5bdc2943e7f22c1effc99dd044a2b708608605e66e852090f97"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/06-stuck.png",
+    "bytes": 246098,
+    "sha256": "2de3fb78fa38d90fdfcccf15e447c5fb742787966b8f8c233ea99989be28487b"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/07-errorbars.png",
+    "bytes": 179456,
+    "sha256": "3d9842e4aeb7e900caa575bbee4fbfd6fe5950c6afa5c6118b268118e6214d21"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/08-decide.png",
+    "bytes": 239604,
+    "sha256": "e021c25796ab48e5ce7ee1c1d6c770e2ddb0ea3af70f855d85a39299584a1c4d"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/assets/09-takeaways.png",
+    "bytes": 159027,
+    "sha256": "b6c6419bc308ec683b8f251fd910aab9a5893f2a1aa647432834491b5466ac20"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/cover.png",
+    "bytes": 108530,
+    "sha256": "70a58a22df39f69add4b3a20d599dab9ea18b55636b23540c5c170cbbde3a4f7"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/examples/build_figures.py",
+    "bytes": 19784,
+    "sha256": "c9a6d9417adc78ae37f1d427bb3acefbfd1a5b3e001dad3c877947333678d561"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/examples/figure-metadata.json",
+    "bytes": 2852,
+    "sha256": "04ac012c5bdc5ad874761740ccf05c7f430f83893070c8beeb6ac54aa257a714"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/examples/qmc.py",
+    "bytes": 3423,
+    "sha256": "a13303323e3aee47f820f71aa90b721f4978ab181db2ead8bc6dc2e817b317bd"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/examples/results.json",
+    "bytes": 43051,
+    "sha256": "5e1df23724c6e30125da81f95fb559805c57f17915d783769e6f5815038234f9"
+  },
+  {
+    "path": "articles/2027-04-12-low-discrepancy/examples/run_model.py",
+    "bytes": 8569,
+    "sha256": "569c71ff6e0c29bd1e0aae3e68b8917316cedbb4296f665bbd5e6d520a15aa88"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

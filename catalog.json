@@ -3378,5 +3378,15 @@
     "images": 9,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-04-12-low-discrepancy",
+    "title": "一千个点能有多准",
+    "date": "2027-04-12",
+    "path": "articles/2027-04-12-low-discrepancy/read.md",
+    "public_sha256": "49d2956d8292931cdb4a2c8793dc5aca08d396593bf461ff0dd597e885d74186",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]

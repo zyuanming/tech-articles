@@ -1,0 +1,92 @@
+[
+ {
+  "path": "assets/01-vdc.png",
+  "width": 1062,
+  "height": 1238,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "van der Corput \u5e8f\u5217\u524d 8 \u4e2a\u70b9\u7684\u4f4d\u7f6e\u4e0e\u5d4c\u5957\u7ed3\u6784",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/02-scatter.png",
+  "width": 1062,
+  "height": 1098,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "256 \u4e2a\u968f\u673a\u70b9\u4e0e 256 \u4e2a Halton \u70b9\u7684\u5206\u5e03\u5bf9\u6bd4",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/03-gap.png",
+  "width": 1062,
+  "height": 1110,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "van der Corput \u4e0e\u968f\u673a\u70b9\u5728\u4e00\u7ef4\u4e0a\u7684\u6700\u5927\u7a7a\u6d1e",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/04-error-vs-n.png",
+  "width": 1062,
+  "height": 1131,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u56db\u79cd\u91c7\u6837\u65b9\u5f0f\u4f30\u8ba1 \u03c0/4 \u7684\u8bef\u5dee\u968f\u70b9\u6570\u53d8\u5316",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/05-exponent.png",
+  "width": 1062,
+  "height": 1084,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "\u4e09\u79cd\u91c7\u6837\u65b9\u5f0f\u7684\u62df\u5408\u6536\u655b\u6307\u6570",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/06-stuck.png",
+  "width": 1062,
+  "height": 1371,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "Halton \u5728\u82e5\u5e72\u70b9\u6570\u4e0a\u7ed9\u51fa\u76f8\u540c\u4f30\u8ba1\u503c\uff0c\u4e14\u6807\u79f0\u70b9\u6570\u4e0e\u8bef\u5dee\u4e0d\u540c\u5411",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/07-errorbars.png",
+  "width": 1062,
+  "height": 1119,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u968f\u673a\u70b9\u4e0e Halton \u7684\u8bef\u5dee\u5206\u5e03\u5bf9\u6bd4",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/08-decide.png",
+  "width": 1062,
+  "height": 1184,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u6309\u60c5\u5f62\u9009\u62e9\u91c7\u6837\u65b9\u5f0f\u7684\u5bf9\u7167\u8868",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/09-takeaways.png",
+  "width": 1062,
+  "height": 706,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "\u4e09\u6761\u7ed3\u8bba",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/cover.png",
+  "width": 1080,
+  "height": 1080,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.46,
+  "purpose": "\u6587\u7ae0\u5c01\u9762",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ }
+]
