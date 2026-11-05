@@ -32970,6 +32970,91 @@
     "sha256": "569c71ff6e0c29bd1e0aae3e68b8917316cedbb4296f665bbd5e6d520a15aa88"
   },
   {
+    "path": "articles/2027-04-19-tone-mapping/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/01-curves.png",
+    "bytes": 134664,
+    "sha256": "ef6f0b835cf9e515623cf9e5e3a362a73fe28a63b5658827bf55fd97acd37946"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/02-swatches.png",
+    "bytes": 142964,
+    "sha256": "7aac07801df60e71e4be50030bf4344a928954958ea403f60fcfaff28e631a29"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/03-codes-per-stop.png",
+    "bytes": 172741,
+    "sha256": "14da3517cf53d81bf70972ddc476de4024f64a8a920bf5ec219758cb7f064f7a"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/04-slope.png",
+    "bytes": 165706,
+    "sha256": "4d2650b0cc30075404ab75779496d4a1c02d12d532de510fbbf607bd0809134d"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/05-shoulder.png",
+    "bytes": 154805,
+    "sha256": "723745b447c56269f711f14426f10f6fb6923d89e7dfaf5343aaa757292806b2"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/06-toe.png",
+    "bytes": 147686,
+    "sha256": "df96b1b1c26746a02e1b45c31332e885ec8bac9b0cc6c4d0dd82f437dce04efe"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/07-banding.png",
+    "bytes": 163098,
+    "sha256": "c50c1988fca325209471379466e5dbc93965f34dcd4fd292fa4984d629178849"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/08-decide.png",
+    "bytes": 185291,
+    "sha256": "ada3742152c1d9f3f8805e9019635f976d757afb0225f4eb4f25015058c614b2"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/assets/09-takeaways.png",
+    "bytes": 85275,
+    "sha256": "614e1775cee8ac9a5344626b070a32e9a03884ee1245b582d4d47c537435aea0"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/cover.png",
+    "bytes": 79299,
+    "sha256": "0b0de78046205b6b5d1b201eee67466fa21551bd4b593b56a000bd6f06f380f4"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/examples/build_figures.py",
+    "bytes": 20228,
+    "sha256": "1dff3ac70445c4bbfc7bff90e9b99110b030741e4d9c066ba466e03d8c81e4c7"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/examples/figure-metadata.json",
+    "bytes": 2209,
+    "sha256": "23d115e27c33d92e5e692b76e89e09cfd5466d2d9f1035571ec5b05176d3c94f"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/examples/results.json",
+    "bytes": 9536,
+    "sha256": "5175cfa4b78fc0bdb7c00049afa534fd9a11c4b7bdc84909c21ee42fda370c76"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/examples/run_model.py",
+    "bytes": 6343,
+    "sha256": "0a307d18ccc3ad10dfd55c395fd7b0ea3b63dc71b786be3634025e0f7bebcb91"
+  },
+  {
+    "path": "articles/2027-04-19-tone-mapping/examples/tone.py",
+    "bytes": 3465,
+    "sha256": "b0cfb8cf29e5fca5be185060cb32372bae8e901a17ae28363c7a1ba6763ca0f6"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

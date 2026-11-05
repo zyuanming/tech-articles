@@ -1,0 +1,92 @@
+[
+ {
+  "path": "assets/01-curves.png",
+  "width": 1062,
+  "height": 1230,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "四条色调映射曲线的整体形状",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/02-swatches.png",
+  "width": 1062,
+  "height": 1068,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "同一组输入在四条曲线下的显示颜色",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/03-codes-per-stop.png",
+  "width": 1062,
+  "height": 1286,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "每档曝光占用的 8 位码值个数",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/04-slope.png",
+  "width": 1062,
+  "height": 1374,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "对数斜率（局部对比度）随输入变化",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/05-shoulder.png",
+  "width": 1062,
+  "height": 1248,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "高光段：白点选择决定的截断位置",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/06-toe.png",
+  "width": 1062,
+  "height": 1100,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "暗部：ACES 拟合整体压暗",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/07-banding.png",
+  "width": 1062,
+  "height": 1092,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "连续渐变经过四条曲线后的实际色带",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/08-decide.png",
+  "width": 1062,
+  "height": 900,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "按情形选色调映射做法",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/09-takeaways.png",
+  "width": 1062,
+  "height": 552,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "三句话",
+  "identity": "原创教学示意"
+ },
+ {
+  "path": "assets/cover.png",
+  "width": 1080,
+  "height": 1080,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.46,
+  "purpose": "文章封面",
+  "identity": "原创教学示意"
+ }
+]

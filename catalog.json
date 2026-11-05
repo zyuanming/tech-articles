@@ -3388,5 +3388,15 @@
     "images": 9,
     "status": "archived_article",
     "related_versions": []
+  },
+  {
+    "id": "2027-04-19-tone-mapping",
+    "title": "太亮的地方，全挤在最后一格",
+    "date": "2027-04-19",
+    "path": "articles/2027-04-19-tone-mapping/read.md",
+    "public_sha256": "cdd293551932687c4b18619417e143c74403699a00a0cfd4feadd512808c9727",
+    "images": 9,
+    "status": "archived_article",
+    "related_versions": []
   }
 ]
