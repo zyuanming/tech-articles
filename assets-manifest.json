@@ -32800,6 +32800,91 @@
     "sha256": "685086595331886236b1c734c3988431e9a7d299fd8ebaa0aca167696bebdec6"
   },
   {
+    "path": "articles/2027-04-05-compensated-summation/LICENSE-CODE.txt",
+    "bytes": 1083,
+    "sha256": "2f2bddcc318c80b68093d0542d1e849bd0ddfd45defb8a280c817a3630948b5f"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/01-swallow.png",
+    "bytes": 164214,
+    "sha256": "d7f31873c5f6f70b910297ba2951d733645a0607d5f468582eb5885f6a987d1f"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/02-trace.png",
+    "bytes": 185450,
+    "sha256": "62d336e9cd4219bccf94115482c144ba47c8367fbc6b714c0585ec7613abdc3a"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/03-harmonic.png",
+    "bytes": 180568,
+    "sha256": "61a5647dc48cf0c61feb7d0eedaff68654ef5a81bf328d8c8b9ae7cb007e96fc"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/04-order.png",
+    "bytes": 160473,
+    "sha256": "7fbb57d2d4a1f5d167aeb65ec6aec37e58002ba993a7d7f7ecbc0872e0ac0983"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/05-cancel.png",
+    "bytes": 159414,
+    "sha256": "408e603564c8e218f5021991a3d5466b87f70addc700da4b00ab14350a38b878"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/06-cost.png",
+    "bytes": 188934,
+    "sha256": "1992d4faf21b2286fa0d551e0d92b07c695807ef2070e43f6691a71e046474a5"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/07-variance.png",
+    "bytes": 187363,
+    "sha256": "acda63135c01acc436f067a533d2c9d29d3ed41ce0897f254ac754c62b993a1b"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/08-decide.png",
+    "bytes": 184554,
+    "sha256": "3b06b359fde3c91bbd1c3ce973075ed0e01bab6ca048e4047e3a3025df94dc34"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/assets/09-takeaways.png",
+    "bytes": 149355,
+    "sha256": "e56c2a002af7e78e7ef4f2255d9c8107a17bbc43ddac8dd40faf8cffc4153c49"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/cover.png",
+    "bytes": 111507,
+    "sha256": "8bdf157718364b732374222b1b5e8d3048cdf608797dd0b10e007eac28103dcc"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/examples/build_figures.py",
+    "bytes": 20213,
+    "sha256": "982f754d3ac179c98e2ab112d64cbf5d33c7d2efc77c618d6644f83c5c25f23e"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/examples/figkit.py",
+    "bytes": 19975,
+    "sha256": "9ef02b53c4303c441b2bf8ec5ef9b1fea3f84ab9c9f6ba65570d3d6406cd62f4"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/examples/figure-metadata.json",
+    "bytes": 2760,
+    "sha256": "a4e5538ed6891a1d79113f023cec481936ed7d7a760040af3ee062248306334e"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/examples/kahan.py",
+    "bytes": 4693,
+    "sha256": "b51fef8ae6966c481bf30050bb19f72fb5589e51cb2ce55e8cce4d0ae11d9dc0"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/examples/results.json",
+    "bytes": 6968,
+    "sha256": "03103493930fd6b6f290e754fb0fe26661f22853772e44cc9bfc1c4c6618ad52"
+  },
+  {
+    "path": "articles/2027-04-05-compensated-summation/examples/run_model.py",
+    "bytes": 8849,
+    "sha256": "321ffdd79ae021a1b24a7c262035e0e38d1d040ee7139d1b71d4d91c56e1d03c"
+  },
+  {
     "path": "articles/dijkstra-astar-pathfinding/assets/02-dijkstra.jpg",
     "bytes": 179407,
     "sha256": "a3e383abee80105e4659fa6ac7567f63c7e046ed1ecca5c159fe72c2ad64ab7e"

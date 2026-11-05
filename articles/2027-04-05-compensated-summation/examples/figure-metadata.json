@@ -1,0 +1,92 @@
+[
+ {
+  "path": "assets/01-swallow.png",
+  "width": 1062,
+  "height": 816,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "2^53 \u5904\u52a0 1 \u4e0d\u6539\u53d8\u7ed3\u679c",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/02-trace.png",
+  "width": 1062,
+  "height": 1148,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "[1, 1e16, -1e16] \u4e0a\u4e24\u79cd\u8865\u507f\u7684\u9010\u6b65\u53d6\u503c",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/03-harmonic.png",
+  "width": 1062,
+  "height": 1184,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u8c03\u548c\u7ea7\u6570\u6c42\u548c\uff1a\u56db\u79cd\u65b9\u6cd5\u7684\u8bef\u5dee\u968f n \u53d8\u5316",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/04-order.png",
+  "width": 1062,
+  "height": 1029,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u540c\u4e00\u6279\u6570\u6362\u56db\u79cd\u52a0\u6cd5\u987a\u5e8f\u540e\u7684 naive \u8bef\u5dee",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/05-cancel.png",
+  "width": 1062,
+  "height": 1040,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u62b5\u6d88\u6d4b\u8bd5\u4e2d\u4e09\u79cd\u65b9\u6cd5\u7ed9\u51fa\u7cbe\u786e\u7ed3\u679c\u7684\u6bd4\u4f8b",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/06-cost.png",
+  "width": 1062,
+  "height": 1048,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u56db\u79cd\u6c42\u548c\u65b9\u5f0f\u6bcf\u4e2a\u6570\u7684\u8fd0\u7b97\u6b21\u6570",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/07-variance.png",
+  "width": 1062,
+  "height": 1022,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u504f\u79fb\u6570\u636e\u4e0a\u65b9\u5dee\u4e09\u79cd\u7b97\u6cd5\u7684\u8bef\u5dee",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/08-decide.png",
+  "width": 1062,
+  "height": 926,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.67,
+  "purpose": "\u6309\u60c5\u5f62\u9009\u62e9\u6c42\u548c\u65b9\u5f0f\u7684\u5bf9\u7167\u8868",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/09-takeaways.png",
+  "width": 1062,
+  "height": 706,
+  "min_label_px": 40,
+  "effective_min_at_354px": 13.33,
+  "purpose": "\u4e09\u6761\u7ed3\u8bba",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ },
+ {
+  "path": "assets/cover.png",
+  "width": 1080,
+  "height": 1080,
+  "min_label_px": 38,
+  "effective_min_at_354px": 12.46,
+  "purpose": "\u6587\u7ae0\u5c01\u9762",
+  "identity": "\u539f\u521b\u6559\u5b66\u793a\u610f"
+ }
+]

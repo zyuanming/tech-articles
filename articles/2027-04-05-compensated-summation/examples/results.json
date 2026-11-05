@@ -1,0 +1,338 @@
+{
+ "meta": {
+  "seed": 20270405,
+  "python": "stdlib only, float64"
+ },
+ "swallow": {
+  "base": 9007199254740992.0,
+  "base_plus_1": 9007199254740992.0,
+  "swallowed": true,
+  "plus_two": 9007199254740994.0,
+  "plus_two_moves_by": 2.0,
+  "ladder": [
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0,
+   9007199254740992.0
+  ],
+  "ladder_stuck": true,
+  "ulp_at_base": 2.0,
+  "epsilon": 2.220446049250313e-16,
+  "why": "2^53 处 ulp = 2，加 1 正好落在两个可表示数的正中间，取偶 → 不动"
+ },
+ "traces": {
+  "xs": [
+   1.0,
+   1e+16,
+   -1e+16
+  ],
+  "exact": 1.0,
+  "naive": 0.0,
+  "kahan": 0.0,
+  "neumaier": 1.0,
+  "kahan_steps": [
+   {
+    "x": 1.0,
+    "y": 1.0,
+    "t": 1.0,
+    "c": 0.0,
+    "s": 1.0
+   },
+   {
+    "x": 1e+16,
+    "y": 1e+16,
+    "t": 1e+16,
+    "c": 0.0,
+    "s": 1e+16
+   },
+   {
+    "x": -1e+16,
+    "y": -1e+16,
+    "t": 0.0,
+    "c": 0.0,
+    "s": 0.0
+   }
+  ],
+  "neumaier_steps": [
+   {
+    "x": 1.0,
+    "t": 1.0,
+    "c": 0.0,
+    "s": 1.0
+   },
+   {
+    "x": 1e+16,
+    "t": 1e+16,
+    "c": 1.0,
+    "s": 1e+16
+   },
+   {
+    "x": -1e+16,
+    "t": 0.0,
+    "c": 1.0,
+    "s": 0.0
+   }
+  ],
+  "loss_in_kahan": 1.0
+ },
+ "harmonic": [
+  {
+   "n": 1000,
+   "ref": 7.485470860550345,
+   "naive": 7.485470860550343,
+   "naive_err": 1.7763568394002505e-15,
+   "naive_rel": 2.373072946902968e-16,
+   "kahan": 7.485470860550345,
+   "kahan_err": 0.0,
+   "kahan_rel": 0.0,
+   "neumaier": 7.485470860550345,
+   "neumaier_err": 0.0,
+   "neumaier_rel": 0.0,
+   "pairwise": 7.485470860550343,
+   "pairwise_err": 1.7763568394002505e-15,
+   "pairwise_rel": 2.373072946902968e-16
+  },
+  {
+   "n": 10000,
+   "ref": 9.787606036044382,
+   "naive": 9.787606036044348,
+   "naive_err": 3.375077994860476e-14,
+   "naive_rel": 3.448318191834884e-15,
+   "kahan": 9.787606036044382,
+   "kahan_err": 0.0,
+   "kahan_rel": 0.0,
+   "neumaier": 9.787606036044382,
+   "neumaier_err": 0.0,
+   "neumaier_rel": 0.0,
+   "pairwise": 9.787606036044382,
+   "pairwise_err": 0.0,
+   "pairwise_rel": 0.0
+  },
+  {
+   "n": 100000,
+   "ref": 12.090146129863427,
+   "naive": 12.090146129863335,
+   "naive_err": 9.237055564881302e-14,
+   "naive_rel": 7.64015212526273e-15,
+   "kahan": 12.090146129863427,
+   "kahan_err": 0.0,
+   "kahan_rel": 0.0,
+   "neumaier": 12.090146129863427,
+   "neumaier_err": 0.0,
+   "neumaier_rel": 0.0,
+   "pairwise": 12.090146129863431,
+   "pairwise_err": 3.552713678800501e-15,
+   "pairwise_rel": 2.9385200481779726e-16
+  },
+  {
+   "n": 1000000,
+   "ref": 14.392726722865724,
+   "naive": 14.392726722864989,
+   "naive_err": 7.354117315117037e-13,
+   "naive_rel": 5.1096067178386365e-14,
+   "kahan": 14.392726722865724,
+   "kahan_err": 0.0,
+   "kahan_rel": 0.0,
+   "neumaier": 14.392726722865724,
+   "neumaier_err": 0.0,
+   "neumaier_rel": 0.0,
+   "pairwise": 14.392726722865723,
+   "pairwise_err": 1.7763568394002505e-15,
+   "pairwise_rel": 1.234204521217062e-16
+  }
+ ],
+ "representation": {
+  "start": 1e+16,
+  "delta": 1e-08,
+  "n": 1000000,
+  "exact_total": 1e+16,
+  "naive_total": 1e+16,
+  "kahan_total": 1e+16,
+  "neumaier_total": 1e+16,
+  "ulp_at_start": 2.0,
+  "rounds_to": 1e+16,
+  "representable": false,
+  "note": "0.01 远小于 ulp = 2，四种方法全都只能给出 1e16"
+ },
+ "order": [
+  {
+   "order": "原顺序 1 → 1/n",
+   "naive": 14.392726722864989,
+   "kahan": 14.392726722865724,
+   "ref": 14.392726722865724,
+   "naive_err": 7.354117315117037e-13,
+   "kahan_err": 0.0
+  },
+  {
+   "order": "倒过来 1/n → 1",
+   "naive": 14.392726722865772,
+   "kahan": 14.392726722865724,
+   "ref": 14.392726722865724,
+   "naive_err": 4.796163466380676e-14,
+   "kahan_err": 0.0
+  },
+  {
+   "order": "打乱",
+   "naive": 14.392726722865005,
+   "kahan": 14.392726722865724,
+   "ref": 14.392726722865724,
+   "naive_err": 7.194245199571014e-13,
+   "kahan_err": 0.0
+  },
+  {
+   "order": "按大小排序（小在前）",
+   "naive": 14.392726722865772,
+   "kahan": 14.392726722865724,
+   "ref": 14.392726722865724,
+   "naive_err": 4.796163466380676e-14,
+   "kahan_err": 0.0
+  }
+ ],
+ "cancel": {
+  "trials": 20000,
+  "skipped_zero": 0,
+  "naive_exact": 17249,
+  "kahan_exact": 18420,
+  "neumaier_exact": 19987,
+  "kahan_worse_than_naive": 263,
+  "naive_exact_share": 0.86245,
+  "kahan_exact_share": 0.921,
+  "neumaier_exact_share": 0.99935,
+  "kahan_worse_than_naive_share": 0.01315,
+  "worst": {
+   "xs": [
+    133538172.574049,
+    928400.3390022129,
+    -5.580968099802499e-13,
+    1363.8758480793952,
+    1735246091.8898466,
+    -6.381550304149232e-26,
+    -7.014671446121897e-12
+   ],
+   "ref": 1869714028.6787457,
+   "naive": 1869714028.6787457,
+   "kahan": 1869714028.678746,
+   "neumaier": 1869714028.6787457,
+   "ratio": Infinity
+  }
+ },
+ "ops": {
+  "naive": {
+   "add": 1,
+   "sub": 0,
+   "mul": 0,
+   "branch": 0,
+   "total": 1
+  },
+  "kahan": {
+   "add": 1,
+   "sub": 3,
+   "mul": 0,
+   "branch": 0,
+   "total": 4
+  },
+  "neumaier": {
+   "add": 2,
+   "sub": 2,
+   "mul": 0,
+   "branch": 1,
+   "total": 5
+  },
+  "pairwise": {
+   "add": 1,
+   "sub": 0,
+   "mul": 0,
+   "branch": 0,
+   "total": 1
+  }
+ },
+ "variance": [
+  {
+   "n": 1000,
+   "ref": 1.0273659761624987,
+   "onescan": 10.0,
+   "onescan_err": 8.972634023837502,
+   "onescan_rel": 8.733629721078382,
+   "twopass": 1.0273659761624987,
+   "twopass_err": 0.0,
+   "twopass_rel": 0.0,
+   "welford": 1.0273659787616063,
+   "welford_err": 2.599107595813166e-09,
+   "welford_rel": 2.5298750942887605e-09
+  },
+  {
+   "n": 100000,
+   "ref": 0.9999238453439466,
+   "onescan": 434.0,
+   "onescan_err": 433.000076154656,
+   "onescan_rel": 433.03305363791554,
+   "twopass": 0.9999238453439466,
+   "twopass_err": 0.0,
+   "twopass_rel": 0.0,
+   "welford": 0.9999238391562387,
+   "welford_err": 6.1877079016170455e-09,
+   "welford_rel": 6.188179160272593e-09
+  }
+ ],
+ "checks": [
+  {
+   "name": "2^53 加 1 被吞掉",
+   "ok": true
+  },
+  {
+   "name": "从 2^53 起加 1 每次都不动",
+   "ok": true
+  },
+  {
+   "name": "在 2^53 处加 2 才前进一步",
+   "ok": true
+  },
+  {
+   "name": "[1, 1e16, −1e16] 的精确和是 1",
+   "ok": true
+  },
+  {
+   "name": "Kahan 在这串上丢掉那个 1",
+   "ok": true
+  },
+  {
+   "name": "Neumaier 在这串上不出错",
+   "ok": true
+  },
+  {
+   "name": "百万项调和数：Kahan 误差小于 naive",
+   "ok": true
+  },
+  {
+   "name": "同一批数：换个顺序 naive 的结果就变",
+   "ok": true
+  },
+  {
+   "name": "抵消测试里 Neumaier 精确的次数最多",
+   "ok": true
+  },
+  {
+   "name": "Kahan 不是处处更好：确有比 naive 差的情况",
+   "ok": true
+  },
+  {
+   "name": "和本身存不下时，四种方法都给同一个数",
+   "ok": true
+  },
+  {
+   "name": "Welford 的方差误差小于一次扫",
+   "ok": true
+  },
+  {
+   "name": "Kahan 每次加法四次运算，naive 一次",
+   "ok": true
+  }
+ ],
+ "selfcheck": true
+}
