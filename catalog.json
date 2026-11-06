@@ -458,11 +458,11 @@
   },
   {
     "id": "2026-10-10-cellular-automata-life",
-    "title": "没有玩家的游戏，为什么能长出“会走路”的图案？",
+    "title": "没有玩家的游戏，为什么能长出「会走路」的图案？",
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-cellular-automata-life/read.md",
-    "public_sha256": "133c4b777c6409941a28fc89f69bb8a5530c5cdb70485dcfd2546d61a9786747",
+    "public_sha256": "0f76a49130b306c708c2913b7c30c53eb52d29713230defdbccdfda6ff9cfb7d",
     "images": 9,
     "status": "archived_article",
     "related_versions": [
@@ -475,7 +475,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-dijkstra-astar-pathfinding/read.md",
-    "public_sha256": "e04eedd5e7f0647f46f6059f3bdbf269b100e71315a9b73c26497ebe926bae83",
+    "public_sha256": "63b9a751504d11705ff23d5e7c68b69ad1d5a40a8e9ee05aa6815bce06b9bb03",
     "images": 9,
     "status": "archived_article",
     "related_versions": [
@@ -488,7 +488,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-doom-bsp-world/read.md",
-    "public_sha256": "e4f1b49eac67f9739cd830589e73aa710710a44126dca6813654d86d54f6d9e4",
+    "public_sha256": "0e351f174bc9525c4579fd8eae83c739eaa5f1339b8b216f928c7d0eb1f0755d",
     "images": 8,
     "status": "archived_article",
     "related_versions": [
@@ -497,11 +497,11 @@
   },
   {
     "id": "2026-10-10-fast-bullets-thin-walls",
-    "title": "墙明明在那里，游戏里的高速子弹为什么会穿过去？",
+    "title": "0.02 秒一步，子弹为什么会穿过一堵墙？",
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-fast-bullets-thin-walls/read.md",
-    "public_sha256": "79e16e34f17adfea556e14347509e27cfb47a470dbae154c67be094cb10d6f88",
+    "public_sha256": "27f378c037d71de4aa892180b35765601574ed212ca6e52dc027683884a826e5",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -512,7 +512,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-fft-divide-frequencies/read.md",
-    "public_sha256": "76c7e9288e96da1cd583df90985e05176291254063478f581fe846f15b8ac28c",
+    "public_sha256": "bb517d4f23af825403f85d8becbb2144f0fb034db1108cec02f9c9184eeff0d9",
     "images": 10,
     "status": "archived_article",
     "related_versions": [
@@ -525,7 +525,7 @@
     "date": "2026-10-10",
     "collection": "student-explorations",
     "path": "articles/2026-10-10-fiber-guiding-light/read.md",
-    "public_sha256": "0b33a5b2d56f985ac84833d4aa0615aaf78382c46789b8190409c259adcdb144",
+    "public_sha256": "e494057ee55628546c0d7ebcec0bd629b6fd424b85b474cb4f324075fd943717",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
@@ -536,7 +536,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-fixed-timestep-game-loop/read.md",
-    "public_sha256": "a013208fdc985b7fefd67e65dbae9fc5a588c891846918ee59d3f4023f26c1c9",
+    "public_sha256": "90d0d7b0dd4e8b2ea66401b5bad984d91b3c07c60b8d6094d0594068f085b8cf",
     "images": 7,
     "status": "archived_article",
     "related_versions": [
@@ -545,11 +545,11 @@
   },
   {
     "id": "2026-10-10-floating-point-moving-ruler",
-    "title": "0.1＋0.2为什么不正好等于0.3？这件事还会让游戏角色抖动",
+    "title": "0.1＋0.2 为什么不等于 0.3？游戏里还会抖动",
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-floating-point-moving-ruler/read.md",
-    "public_sha256": "b6b6bd05491785fe09acede16113ae3a8480484ae01f3e3442f1a2f5e252c5c0",
+    "public_sha256": "e331eb1d971e0135149c166e3b7d8a37e1968e839d29aa2504af237a5682c3a1",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -560,7 +560,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-garbage-collection-reachability/read.md",
-    "public_sha256": "c261b7c009054a8a81a8ad3b486ec7e761953da69beff1fbd9139840258287f1",
+    "public_sha256": "fe06c1f8d74bdf05830d6d570e9d8631666c13f0a5c9421e5efe17277efd8398",
     "images": 8,
     "status": "archived_article",
     "related_versions": []
@@ -571,40 +571,40 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-governor-pid-feedback/read.md",
-    "public_sha256": "5b51f461b77a27bd8f35304d8c926d5272151db02c18c4b005e70710cd8d10cc",
+    "public_sha256": "d9a9095a23f46181f17cd2ff2a6dc8de825e0fef4d1607937894da0d027ee2c4",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-10-gps-solving-time",
-    "title": "手机怎样从几声“报时”，算出你站在地球哪里？",
+    "title": "手机怎样从几声「报时」，算出你站在地球哪里？",
     "date": "2026-10-10",
     "collection": "student-explorations",
     "path": "articles/2026-10-10-gps-solving-time/read.md",
-    "public_sha256": "6d35f22b686c6eb808a280ef36bdef4e270801dd7b1cfdd9e040d49f8dda8e27",
+    "public_sha256": "b1bef1646da6755cb149aed359ae8b0c38747755487724849a67b98aab2668ba",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-10-hamming-correct-errors",
-    "title": "错了一位，机器为什么能自己找回来？跟 Hamming 做七张纸牌实验",
+    "title": "错了一位，Hamming 码怎么自己找回来",
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-hamming-correct-errors/read.md",
-    "public_sha256": "19f68529cebb8ba99967f829dd4691aa439fc3e201b77b405666436db0d32240",
+    "public_sha256": "0641bc2ade49172fdd574cee92e87986d4b47258b29a5be58f779374adff329e",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-10-hash-table-finding-keys",
-    "title": "字典里有一百万个键，电脑为什么不用挨个看，就能找到那一个？",
+    "title": "一百万个键，字典为什么能一次找到",
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-hash-table-finding-keys/read.md",
-    "public_sha256": "f7026e1cde743a308c724719da03bf3f154986151dc7e3816183001c3d7500a8",
+    "public_sha256": "143e6fc8688bae2ff8ce5daa64de1eb54e197901d898ba8b971d20f2b16554a9",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -615,29 +615,29 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-hopper-compilers/read.md",
-    "public_sha256": "97cbb76fc60abf29e575739eda52cdc9975acf96f8b345efca8a24b6c9fc4cd6",
+    "public_sha256": "acdf50e9bf34ee1d2ff14b078b4714d7a245810b9773e0cccc6ca976ba2fdc82",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-10-lamport-causal-clocks",
-    "title": "消息明明先发，为什么排在后面？Lamport 给分布式世界造了一种钟",
+    "title": "Lamport 时钟：先发出的消息为什么排在后面？",
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-lamport-causal-clocks/read.md",
-    "public_sha256": "ac3fb8a0a89e07dc3858f8d3fe43f796f7e06fe7eb2ca0f1a3587fab87935186",
+    "public_sha256": "68485c0c7847fd276eb24503779fd942cbb221b82eb362eefd32cfd97ee5a68d",
     "images": 6,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-10-merkle-git-history",
-    "title": "一个短编号，为什么能牵动整部代码历史？从 Merkle 树走进 Git",
+    "title": "Merkle 树：一个短编号牵动整部 Git 历史",
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-merkle-git-history/read.md",
-    "public_sha256": "30879f8f4cd9c792955472a55e5c7afad0e147f835b6b7cab30ebaf6682f6504",
+    "public_sha256": "f795a71ca901b21f7c9e24164bcd96455f95ca6e8deae4b84102b0b1127fff60",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -648,7 +648,7 @@
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-multiplayer-shared-time/read.md",
-    "public_sha256": "59d682480b8721d2c9c19bfbcde4d2d955ad076c6aeeacf6b4af86d447da3673",
+    "public_sha256": "f89106972de8e343547677eb5abbf6ffa0470e53f51fe0dfcc781a1298abefde",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -659,7 +659,7 @@
     "date": "2026-10-10",
     "collection": "student-explorations",
     "path": "articles/2026-10-10-noise-canceling-waves/read.md",
-    "public_sha256": "2f9d998cc97f54dec614615820cb5d9945e33d54d9edb90853f0660e9d042f0c",
+    "public_sha256": "e78843a5f69c53d671a27b8284b5af84cd2883f2fdb8472d0ae8425d8d6babac",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
@@ -670,7 +670,7 @@
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-noise-growing-mountains/read.md",
-    "public_sha256": "bf4694f484488e557140b3fcb56becc89bef121f9094b4c0dcc9b346e56a8e5f",
+    "public_sha256": "4280ac1e9d04d4436dd00dacedd4f3316572ef78fc8eee64e77ecf0e85f54d61",
     "images": 8,
     "status": "archived_article",
     "related_versions": []
@@ -681,7 +681,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-path-tracing-random-light/read.md",
-    "public_sha256": "a4dc63ca5cb8330258db31deab40376ce6a230ee4a09b03eaee873ac2b666b11",
+    "public_sha256": "ea9e22619d190e73ce2f7f9fdee1962a0fe1ae59e099e57331d1a21fc0732ba5",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
