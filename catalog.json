@@ -3204,7 +3204,7 @@
     "title": "三个副本，一个落后：读修复与暗示移交",
     "date": "2026-12-07",
     "path": "articles/2026-12-07-dynamo-read-repair/read.md",
-    "public_sha256": "3cf9e1074ddfc71808e9df62d5cf8212c1702937cc50e824722766dacf46b6a2",
+    "public_sha256": "5c5813a3fa1fb862303c0b15e9a65a4bb40d7e7a2eb37c3beb17c4572fd6944c",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3214,7 +3214,7 @@
     "title": "一个 16 位小数能装下多少误差",
     "date": "2026-12-14",
     "path": "articles/2026-12-14-q15-fixed-point/read.md",
-    "public_sha256": "5a241300870b9a37752a4815442a8719614c01937d65070783334f4689549b16",
+    "public_sha256": "8d16d2d7b3d3190beb4401922c2474096f498e759f8025374d67bcd587b32e5e",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3224,7 +3224,7 @@
     "title": "为什么白纸在照片里不是白的",
     "date": "2026-12-21",
     "path": "articles/2026-12-21-white-balance/read.md",
-    "public_sha256": "6f9a9e9e16b089403d0f2d22b83b954a86674fdda47b21463f3b5d49fce2a5ed",
+    "public_sha256": "9c6e02024adc9936af0b24f2edc97cce2a14d0fe15ea26e72129f3c5086a6708",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3234,7 +3234,7 @@
     "title": "两根线怎么谈出 240 W",
     "date": "2026-12-28",
     "path": "articles/2026-12-28-usb-c-power-delivery/read.md",
-    "public_sha256": "71c774989246381580af20ef56e3da762812e81a17987d479693cd0a9180cd81",
+    "public_sha256": "a270a4266788f36a858a9df62a4a8ce23149006da043b756f492081c4f3983bc",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3244,7 +3244,7 @@
     "title": "一条 if 值多少拍",
     "date": "2027-01-04",
     "path": "articles/2027-01-04-branch-prediction/read.md",
-    "public_sha256": "3528ede7531630c83fbad90ccb659851397df2b487ecbba0f28e37b32e6ba660",
+    "public_sha256": "36b5c99bc1b942ef15c4d6abc81b77d356f2d202c89e8ccbd5ff248efd9f0894",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3254,27 +3254,27 @@
     "title": "一条光线，459 次白问",
     "date": "2027-01-11",
     "path": "articles/2027-01-11-bvh-ray-tracing/read.md",
-    "public_sha256": "c405ea0cdff1ccaa904af512afca880e39931d9e7ef920cf9366fa2dda20b936",
+    "public_sha256": "69dc23642ed2ac6b758c12a53ce5321dce61223e0da3b4b67e798dd1e3cf1a81",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-01-18-consistent-hashing",
-    "title": "多一台机器，要搬走多少钥匙",
+    "title": "加一台机器，90.9% 的 key 都搬了家",
     "date": "2027-01-18",
     "path": "articles/2027-01-18-consistent-hashing/read.md",
-    "public_sha256": "883a76af37687cf98d7a13c055f54eb4b10fde80cd64058b47d3dc8460cab60c",
+    "public_sha256": "6d9f0fd24c4256850f2bc22766bf82aaf8e1dc8580e85c07c09785cd157becb9",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-01-25-crdt-merge",
-    "title": "三个节点吵架，最后谁说了算",
+    "title": "手机删、平板加，最后谁算数",
     "date": "2027-01-25",
     "path": "articles/2027-01-25-crdt-merge/read.md",
-    "public_sha256": "2f19d015d8c9a0d40b151133f1bee0d2817a35e8891d99598fcfb87046eabf63",
+    "public_sha256": "f6838305671a51cae30b4909561f2b0b3ffd6c11137571aa97d456082ea26145",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3284,37 +3284,37 @@
     "title": "一条正则，怎么把 CPU 吃光",
     "date": "2027-02-01",
     "path": "articles/2027-02-01-regex-backtracking/read.md",
-    "public_sha256": "69eb63474867e5e0a6450f0a28e0ec8dd61e5a4fcc48ceb1a7ee55b8782f49d5",
+    "public_sha256": "a5bb24d9fe4c2a3e155b26628efece0412a7e9bfc29e85051a95e83534d3db73",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-02-08-gaussian-pivoting",
-    "title": "先拿哪个数当除数",
+    "title": "一个 0.0001 的主元，把答案带偏了一倍",
     "date": "2027-02-08",
     "path": "articles/2027-02-08-gaussian-pivoting/read.md",
-    "public_sha256": "5f16883131dc8394f47db8067f8d24052549e64bcdbfed590dee54c383ddc044",
+    "public_sha256": "87983e66a932cfca935db81b6db0c794068c895886adbddd3d26be09f4edcb6c",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-02-15-linear-probing",
-    "title": "下一个槽就在隔壁",
+    "title": "九成满的表，查不到要走 56 步",
     "date": "2027-02-15",
     "path": "articles/2027-02-15-linear-probing/read.md",
-    "public_sha256": "07a090f52a197622e031a77cbd9e14cfb96a2ae4fde3a819eb7970fcc6d20279",
+    "public_sha256": "e018cf55ec527f40bfa563c41b0643092727f828410f89e264ccfd3272b58372",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-02-22-fixed-timestep",
-    "title": "一秒就是六十步",
+    "title": "同样的跳跃，30 帧跳矮了 13 厘米",
     "date": "2027-02-22",
     "path": "articles/2027-02-22-fixed-timestep/read.md",
-    "public_sha256": "893a2c8410a146182398d4bc553e4d76d78986f1b7c9fa7e3b228d24cbc174bf",
+    "public_sha256": "55c3bb8b42d5a8ea08b0f1e582204a800eab2b48bd706300073211f191cdf43f",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -3324,7 +3324,7 @@
     "title": "一次失败，不必从零开始",
     "date": "2027-03-01",
     "path": "articles/2027-03-01-string-search/read.md",
-    "public_sha256": "e67cb8d667586d5f27a17562169ef1ce4ee5dded439905173e292ad3d4c42b39",
+    "public_sha256": "b46cbec6fa98b20d6aae4d751a01e597c35d22efa928e96749ac412c0fa05606",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -3334,7 +3334,7 @@
     "title": "A* 为什么会白忙一场",
     "date": "2027-03-08",
     "path": "articles/2027-03-08-astar-heuristic/read.md",
-    "public_sha256": "197c8c2b86e4cac54e1045553c74a5f96a661984645f04b908ee972c1d5b1ddd",
+    "public_sha256": "a7311dffa661bc086f893edd440ebb2e8d62376d81f6fdba9a6ee6f2d315ca87",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -3344,7 +3344,7 @@
     "title": "深度缓冲只记得住 48 厘米",
     "date": "2027-03-15",
     "path": "articles/2027-03-15-reversed-z-depth/read.md",
-    "public_sha256": "6b4c51b3fc29003f53b386d917724db5a6dabbc4ee2ce45f2c1fdd6a92cd945a",
+    "public_sha256": "6ff3a4a1aac7d9b5de49349fabeaba3245b87b5068bcbcd0060e1ecbd40f3042",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -3354,37 +3354,37 @@
     "title": "多给几个点，为什么反而更歪",
     "date": "2027-03-22",
     "path": "articles/2027-03-22-runge-phenomenon/read.md",
-    "public_sha256": "1d508d1ccffc547f5a7c7b323b01502084e8a5e5a5e6d17aea9101724d22881b",
+    "public_sha256": "a0aeda31f4569bbad45174c1fdca0627bd06bea677803dd4b4970edd73753215",
     "images": 11,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-03-29-bresenham-line",
-    "title": "半个像素算谁的",
+    "title": "一条斜线里，半个像素算谁的",
     "date": "2027-03-29",
     "path": "articles/2027-03-29-bresenham-line/read.md",
-    "public_sha256": "d0e39055da2e7ad72e95806f23946e6a800ee41227d1e9c495f25b3a762e3ed9",
+    "public_sha256": "e5e324fd44fecd3e94dd5cfe941c7ff3ec5b0aad1ec0d10bf28849a65badc918",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-04-05-compensated-summation",
-    "title": "一亿次加法之后，和少了多少",
+    "title": "2^53 上再加 1，等于没加",
     "date": "2027-04-05",
     "path": "articles/2027-04-05-compensated-summation/read.md",
-    "public_sha256": "7c59c962ab6b474eeb876ef043e43d7148cb6608e81ca76bd4e507e55e6328f5",
+    "public_sha256": "15a7c139ed82ccc0dec7b4de59284cc12d18b7f9fd302db061b81c1b213977f1",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2027-04-12-low-discrepancy",
-    "title": "一千个点能有多准",
+    "title": "同样 16384 个点，误差差十倍",
     "date": "2027-04-12",
     "path": "articles/2027-04-12-low-discrepancy/read.md",
-    "public_sha256": "49d2956d8292931cdb4a2c8793dc5aca08d396593bf461ff0dd597e885d74186",
+    "public_sha256": "08eaa2740b1b205fb84b48c00d2cb050b6c0fb9a6b2739b5a26ac37cf4f96eb7",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
@@ -3394,7 +3394,7 @@
     "title": "太亮的地方，全挤在最后一格",
     "date": "2027-04-19",
     "path": "articles/2027-04-19-tone-mapping/read.md",
-    "public_sha256": "cdd293551932687c4b18619417e143c74403699a00a0cfd4feadd512808c9727",
+    "public_sha256": "7e118d62e8500959faba46bd80493710e82c23e5f15e534db55845472366a5c5",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
