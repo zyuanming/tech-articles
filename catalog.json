@@ -1148,18 +1148,18 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "不用电，两把尺子为什么会算乘法？把对数拿在手里的计算尺",
+    "title": "计算尺：不用电怎样算乘法",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-slide-rule-logarithmic-distance/read.md",
-    "public_sha256": "a101ad7026bf24c14810247c547d8b7dc999e0e8e144f4671b2b8cd0e76b88cb",
+    "public_sha256": "2b0aadf078e777453834a1a400327036fbbd01fec0ca6c48212632623e9e1b0a",
     "images": 25
   },
   {
     "id": "2026-10-11-snapshot-messages-in-flight",
-    "title": "给奔跑中的系统拍合影：Chandy–Lamport 快照怎样找回路上的消息",
+    "title": "分布式快照：消息还在路上怎么办",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-snapshot-messages-in-flight/read.md",
-    "public_sha256": "4be8226ccc4d38024facd8a397b3391949e848b9c978988fccce94b20418a163",
+    "public_sha256": "d7902db613868ce912a0f6335eb8f257ebb8fbdcdf0549b8684e05a1cae80f3a",
     "images": 20,
     "status": "archived_article",
     "related_versions": [],
@@ -1167,22 +1167,22 @@
   },
   {
     "id": "2026-10-11-tcp-congestion-feedback",
-    "title": "网线没有“还剩多少车道”的路牌，TCP 怎样决定发多快？",
+    "title": "网线没有「还剩多少车道」的路牌，TCP 怎样决定发多快？",
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-tcp-congestion-feedback/read.md",
-    "public_sha256": "4c31e8de5ad0be34b2c4ad0a707c0dd1415b981d67f11d88c2218ac09983e519",
+    "public_sha256": "aa7cf11123228dbb75152de14ebce89fdfc79c5223159ba2c89b88db21157023",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-11-union-find-connected-world",
-    "title": "两个岛已经连通了吗？并查集为什么只记“你归谁管”",
+    "title": "两个岛已经连通了吗？并查集为什么只记「你归谁管」",
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-union-find-connected-world/read.md",
-    "public_sha256": "f2b3ee8dfcccfb4bd8972a038cfcb8a442b1385fcd3f813bd9d3b3530f5850bd",
+    "public_sha256": "27b5d2f2103588d480b1c2654cac9865c12e2d2a8df3f00281957deda58dafe7",
     "images": 8,
     "status": "archived_article",
     "related_versions": []
@@ -1193,18 +1193,18 @@
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-unix-pipes-small-tools/read.md",
-    "public_sha256": "77efbec102c1cba7783ac39aa08a886bf322048b79ca0abe6da336fa3b56e4c5",
+    "public_sha256": "6b254b84b073922b9c79698d24e2b71dd94b23e62667ae8d4f05963709180b8d",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-11-virtual-memory-addresses",
-    "title": "两个程序用了同一个地址，为什么没有打起来？虚拟内存的翻译术",
+    "title": "虚拟内存：同一个地址为什么不打架",
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-virtual-memory-addresses/read.md",
-    "public_sha256": "f9e69b7ae28ac86114658e870ac845bb208975eaf2ab5712197e161db0698640",
+    "public_sha256": "16d04cf4b22a9aa01c70d37806578ee7cd1e161fd0265b5f178deda34ac5646f",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -1215,18 +1215,18 @@
     "date": "2026-10-11",
     "collection": "exploration-trio",
     "path": "articles/2026-10-11-voronoi-nearest-neighbor/read.md",
-    "public_sha256": "247825c172eddbc8a326e0453349b612f47df69539fea96c33697c8541dc0159",
+    "public_sha256": "37e4fb1fc0d09f0d3c3e15ec66961bb55a6f9ab9182b95a00fbaaa20405cbd7f",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
   },
   {
     "id": "2026-10-11-wfc-constraint-worlds",
-    "title": "世界不是一格格乱填出来的：WFC怎样用“排除不可能”拼地图",
+    "title": "WFC：怎样让程序自己拼出地图",
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-wfc-constraint-worlds/read.md",
-    "public_sha256": "9ecd59cfb6eb389947b2ea1fa137d6d994372b01814e2925c40551496225f487",
+    "public_sha256": "9c909348c7b7e6e70eab62e4a9b10a3c13fbeb0f0078ee94790b926b37267e5e",
     "images": 6,
     "status": "archived_article",
     "related_versions": []
@@ -1239,10 +1239,10 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "方向明明是纠偏，控制器为什么越帮越忙？Bode 图里藏着一张时间账单",
+    "title": "Bode 图：控制器为什么越帮越忙",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-bode-delay-feedback/read.md",
-    "public_sha256": "da2195e64270a741f55828d95d66a6543bb2e9a68c53f218d312fae6274d21df",
+    "public_sha256": "3f15812292d41cddd9b97c9bc90119c27278b59dc7036d148996843545fd0ea4",
     "images": 25
   },
   {
@@ -1256,7 +1256,7 @@
     "title": "一束光面对百万个三角形，怎样少问很多问题？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-bvh-boxes-before-triangles/read.md",
-    "public_sha256": "1c2353ff122b7a1ed1eb45f7e25fd36e1f67d8ed3961067d3ae1bb049caf1d46",
+    "public_sha256": "ffab1275dabd817a0e0ea364bf7c25ab65426075adf259cd58cb52f9e70a6147",
     "images": 28
   },
   {
@@ -1270,7 +1270,7 @@
     "title": "两个线程改不同变量，为什么还会互相拖慢？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-cache-coherence-false-sharing/read.md",
-    "public_sha256": "fa16735f9021dd252a7f4ca0e7c30711362dad8bda80bb819ee3ee969f4aface",
+    "public_sha256": "c24d91ec924d4610cedb17b16c392fc94735a4285449b6fa007c1a809eb93ef6",
     "images": 25
   },
   {
@@ -1284,7 +1284,7 @@
     "title": "一只方盒子，反复切几刀为什么会变圆？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-catmull-clark-subdivision/read.md",
-    "public_sha256": "8ac8fdef965790dca87b78baa4d4f4d32fd2f30d03050f6e64a3101934c241dc",
+    "public_sha256": "dfd3cd4c67bc55e485b059b3f2254a221420aea76b9f9fb4a70a5778f269e092",
     "images": 18
   },
   {
@@ -1295,10 +1295,10 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "函数已经返回，它为什么还记得那个变量？闭包把代码和来处装在一起",
+    "title": "闭包：函数返回后还记得什么",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-closures-remember-environments/read.md",
-    "public_sha256": "a3726a3e8cf5a21e72c677724116a40a656d686f32a347a9c83a549daa9368be",
+    "public_sha256": "7215e18a19271bd4d7a751757604bc6c64dfb56e0dec8d8a3f804d2a07d53e05",
     "images": 23
   },
   {
@@ -1309,10 +1309,10 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "只有一个油门，为什么能同时管位置和速度？从小车停车认识可控性",
+    "title": "可控性：一个油门怎样管两件事",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-controllability-reachable-states/read.md",
-    "public_sha256": "35b78aa2c7550eeed34217e16338d26cb575392947fcf37ef13e399830a11670",
+    "public_sha256": "7af3cad2a5f64be45cf43a7365f32a4b60b0185c4edde9908f847388a0a40ed4",
     "images": 26
   },
   {
@@ -1323,10 +1323,10 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "函数停在半路，下次怎么接着跑？协程保存的不只是一个数字",
+    "title": "协程：函数停在半路怎么接着跑",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-coroutines-save-continuations/read.md",
-    "public_sha256": "cd0e4bde1d0463c3701e6eee2e3e53c3c9bfdccdd63faa2c1c9e10f024ff2d45",
+    "public_sha256": "124e0f8a8578701f3c5bd6098f74e6a2de631df824fa4d91e5b394e1421e2c45",
     "images": 25
   },
   {
@@ -1340,7 +1340,7 @@
     "title": "让轮子压在圆盘上，怎么就开始解微分方程？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-differential-analyzer-wheel-disc/read.md",
-    "public_sha256": "4ea3979837c426efc16605e6d3a5739a5e3cd15e50739a09f3b2a7af806b46a8",
+    "public_sha256": "d4fcc4fdadf0669c2ed510af355a09210c0f32f8d60768e9b8bb097d46571e35",
     "images": 26
   },
   {
@@ -1354,7 +1354,7 @@
     "title": "把大数换成余数，为什么答案没有变？欧几里得的一本小账",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-euclid-continued-fractions/read.md",
-    "public_sha256": "34cf777ca9537132d3d9791adee86c855662a2430c0cdadff38e1c4aadd58128",
+    "public_sha256": "4555aa254ac376250bfec461fd840a402e895766db79a195e5e2e6d3dba4a21b",
     "images": 24
   },
   {
@@ -1365,10 +1365,10 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "改一个数，为什么不用重算后面的总和？Fenwick树把账本折成二进制",
+    "title": "Fenwick 树：改一个数为什么不用重算",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-fenwick-binary-ledger/read.md",
-    "public_sha256": "b4d0e7ec1f07592d59a6c31ff0ae52a464b934534f82bc0c56ece7518781ea7a",
+    "public_sha256": "13fb2d2d8047928fd7231549283d56616a217d19798f58085ebab1ae4d083c19",
     "images": 25
   },
   {
@@ -1382,7 +1382,7 @@
     "title": "每次只取最小的，为什么没必要把全班排好队？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-heap-smallest-at-top/read.md",
-    "public_sha256": "2824344156fb14ec8b48c6bb6156ab4be330fbf78f2d586460e4d901b11289d9",
+    "public_sha256": "f46d020db193fe17e73851a28915916b17e016f595c299ce9aabdd27345bac31",
     "images": 27
   },
   {
@@ -1393,10 +1393,10 @@
     "batch": "student-exploration-30",
     "status": "archived_article",
     "related_versions": [],
-    "title": "已经看过的字，为什么还要重看？KMP 把失败变成下一步的线索",
+    "title": "KMP：看过的字为什么还要重看",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-kmp-remember-the-match/read.md",
-    "public_sha256": "f8ad12e5118cf4e67a311e3a9292acf6c82d6e3cbc6a9eb963971ca02400d444",
+    "public_sha256": "0afeb67c65943f66cf26700b8a1abe24fed10b5b66a2722c317e81471de34e80",
     "images": 24
   },
   {
