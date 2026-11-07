@@ -2614,7 +2614,7 @@
     "title": "反应扩散：均匀的起点怎么长出斑纹？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-reaction-diffusion-patterns/read.md",
-    "public_sha256": "8bfb1b11deeff6c8012823e750db8846979a80b29eda54c5c18963421725aeed",
+    "public_sha256": "ff03e7fdeea484aef7196a32aaf1cd0f8ed01ccb7fd1ae10316fcb05177ec6db",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2634,7 +2634,7 @@
     "title": "RTG 没有转轴，太空里的电从哪来？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-rtg-thermoelectric-temperature/read.md",
-    "public_sha256": "3cf99d6c36f186809da917f5cc27f33de93bc7a76f62bd18216e56a58f88b687",
+    "public_sha256": "b69c9a02c761bc1ed9eada93ee0a0999bb7539c825893701993147e25bb0e7d6",
     "images": 11,
     "status": "archived_article",
     "related_versions": []
@@ -2664,7 +2664,7 @@
     "title": "辛普森公式：中间那次为什么算四份？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-simpson-three-samples/read.md",
-    "public_sha256": "51ac880c3ec79eeb734a95a5a1ccfd3e4fda20388fd15d420fa2b1942f928649",
+    "public_sha256": "ac86b65701512eff80000da85718cb2aee28fe6fa89584eb1b09d4f4ebafd532",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2804,7 +2804,7 @@
     "title": "中国剩余定理：只留下几次除法的余数，怎样把原数合回来？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-chinese-remainder-reconstruction/read.md",
-    "public_sha256": "24bcae1021ab271617612d3e8e41f61f884bb53bf8a9b6742a4c1f66dc0206a5",
+    "public_sha256": "d35f8217832c76c2061cfd3233075f4c3a4631680c7b05fc0246bc77bd0dccf9",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
