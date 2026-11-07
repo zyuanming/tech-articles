@@ -18,7 +18,9 @@
 
 ## 从一张很小的数表开始
 
-过去，航海、测量和工程中的计算常借助印好的数学表。一个结果从计算者的纸面到读者手中，还要经过誊写、排字和印刷；这些环节都可能引入错误。科学博物馆对差分机的介绍，把自动计算与自动输出放在同一条生产链上。这也是它与一台只回答单次加减题目的计算器不同的地方。[来源：Science Museum](https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum)我们不从复杂航海表入手，而做一张更小的教学表：
+过去，航海、测量和工程中的计算常借助印好的数学表。一个结果从计算者的纸面到读者手中，还要经过誊写、排字和印刷；这些环节都可能引入错误。科学博物馆对差分机的介绍，把自动计算与自动输出放在同一条生产链上。这也是它与一台只回答单次加减题目的计算器不同的地方。[来源：Science Museum](https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum)
+
+我们不从复杂航海表入手，而做一张更小的教学表：
 
 ```text
 y(n) = n³ + 2n + 1

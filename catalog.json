@@ -2614,7 +2614,7 @@
     "title": "反应扩散：均匀的起点怎么长出斑纹？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-reaction-diffusion-patterns/read.md",
-    "public_sha256": "d88d37b6dce4647fd1913b888c34b64bfca00564af2036550dc9ac01e4e734fe",
+    "public_sha256": "8bfb1b11deeff6c8012823e750db8846979a80b29eda54c5c18963421725aeed",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2754,7 +2754,7 @@
     "title": "Babbage 差分机：数表怎样只用加法算出来？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-babbage-finite-differences/read.md",
-    "public_sha256": "560662f710d65c7ce54f34c01b8f1fc0fa71ba99a006d789c4314d721313a04c",
+    "public_sha256": "2e15202a7b9103339941c0b0efc0ea512a625b0b4582f1fecf692fa96c935274",
     "images": 11,
     "status": "archived_article",
     "related_versions": []
@@ -2794,7 +2794,7 @@
     "title": "Chebyshev 等波纹：误差为何一上一下？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-chebyshev-equiripple/read.md",
-    "public_sha256": "dc001400ff9ab69f927ad5b0035dcf643179d7e0401fb0199c118ed064fc5456",
+    "public_sha256": "afc35e38fc2931c276179d2c635437ff7aab7ae242ac47cac588df0ec7210c6a",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
