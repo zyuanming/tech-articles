@@ -2674,7 +2674,7 @@
     "title": "有序链表加几层捷径，怎样少走路又容易插入？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-skip-list-express-lanes/read.md",
-    "public_sha256": "886caa4a7e0a07de1aab62a7f976fb1b6bb2740f5022a491cc1d5b5de339a642",
+    "public_sha256": "e183f5c73bd6cbd741f02935984fece3b6538febbfbc0598c0a65268fc1c7dc3",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -2764,7 +2764,7 @@
     "title": "Buddy 分配器：空闲内存明明挨着，为什么还不能合并？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-buddy-allocator-coalescing/read.md",
-    "public_sha256": "8e050d59d9a65f475cff9b742b04021159cdec4b8a3378a89c1060857a22fade",
+    "public_sha256": "0c3e41bc872ab5cf99b8c66c69819881988f0c8f6db9cd268ee3716d2e85c2b4",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2794,7 +2794,7 @@
     "title": "Chebyshev 等波纹：误差为何一上一下？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-chebyshev-equiripple/read.md",
-    "public_sha256": "afc35e38fc2931c276179d2c635437ff7aab7ae242ac47cac588df0ec7210c6a",
+    "public_sha256": "8620a5c36ed73863fbd40251504914cfa5f689521ba68247e3e1ebb60a614303",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
