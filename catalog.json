@@ -2704,7 +2704,7 @@
     "title": "Thompson：源码干净，程序为什么还会变？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-thompson-trusting-compiler/read.md",
-    "public_sha256": "6a3ed7dc708be1f0f70d6778390c0fd5804f7639b2ddb7ef1d2b0449a78b1e18",
+    "public_sha256": "92aaba6a7afa7e29e810cddb08794189f8b6a32d5462be08927458445c0f3631",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -2714,7 +2714,7 @@
     "title": "韦布望远镜：十八块镜子怎样调成一面？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-webb-segments-phase-alignment/read.md",
-    "public_sha256": "c344a464d0b04a368703551b227273bce150ed20073114ea055ed14b3a79def3",
+    "public_sha256": "be14f7d96deed3c5b5e5952ab0e011c002518e2c6c2e49151e1e2ca1009feca4",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2734,7 +2734,7 @@
     "title": "任务窃取：CPU 闲下来为什么去偷活？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-work-stealing-deques/read.md",
-    "public_sha256": "ad26a5ea1e14c464dbf1cb434796df1626388b58e757aeaa1d10411ada1054ba",
+    "public_sha256": "bd802122260ac3c59387ed596226fffb0c8cd36a42d020b7110244160a1be9e9",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
