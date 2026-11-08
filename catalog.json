@@ -1628,7 +1628,7 @@
     "title": "Doom 入门①：一张平面地图，怎样变成能走进去的房间？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-doom-01-map-to-room/read.md",
-    "public_sha256": "7d15e550213643c4a875cdabe23904cdaf0b2a11db43b7ec942b3096833bf197",
+    "public_sha256": "d6aed6ef8c924c1a279c9fde975264ce22bd52911aa4a47702763085eb45a46f",
     "images": 19,
     "status": "archived_article",
     "related_versions": [],
@@ -1661,7 +1661,7 @@
     "title": "Doom 入门④：砖纹和怪物，怎样变成屏幕上的小色块？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-doom-04-pictures-to-pixels/read.md",
-    "public_sha256": "e67cd70bdd9ce6fcab68f3390845650d9c9aadebdb819d966e7928cc0109e1e0",
+    "public_sha256": "ad475500ee6669c7f82b69e212328528ebcf7f7efaf3f066933d41c03223f4fb",
     "images": 22,
     "status": "archived_article",
     "related_versions": [],
@@ -1745,7 +1745,7 @@
     "title": "耳机只有左右两只喇叭，游戏里的声音为什么还有前后上下？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-hrtf-two-ears-many-directions/read.md",
-    "public_sha256": "07cbc17fa025f67547d0dfd5b941cac7afc252251a842cf1c82cd855d768c37d",
+    "public_sha256": "62d5b70a35f8ff6e7be79ba2d6c0a843d8e466dd046ec01599e2614a2af44809",
     "images": 30,
     "status": "archived_article",
     "related_versions": [],
@@ -1763,7 +1763,7 @@
     "title": "两个物体已经撞上，下一步往哪走？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-impulse-change-contact-motion/read.md",
-    "public_sha256": "f4da5a4e346e50e2a3485a58815b4f5eee6e2b4a900dc5a27536e68fdceb640e",
+    "public_sha256": "5116d790cd9dc0e6915776b1490482f04564151eef40e0bd1c2fbbdeef396ddb",
     "images": 34,
     "status": "archived_article",
     "related_versions": []
@@ -1799,7 +1799,7 @@
     "title": "没有括号，程序怎样知道先乘后加？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-pratt-build-expression-tree/read.md",
-    "public_sha256": "113ea731dbe73e9bd3ee4747dc2569adb8a14c3d9d66d4d56fa1aa75dc0a1272",
+    "public_sha256": "a0f182da8afc23dbabc730d5246dfd23f5b4c24942b8fad0c37a0b071e8f285b",
     "images": 28,
     "status": "archived_article",
     "related_versions": []
@@ -1815,7 +1815,7 @@
     "title": "删掉一半三角形，山峰为什么还能站住？QEM给形状做的误差账",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-qem-save-shape/read.md",
-    "public_sha256": "83055b66f7847f379c867d25509bad3f08a781810b7ac77ba8eea559349fc115",
+    "public_sha256": "a689d8d89fb0626dcba8edcebbdea40d44535a1182df0e23a94e299c314fa38f",
     "images": 32
   },
   {
@@ -1823,7 +1823,7 @@
     "title": "图片没变，只多了一个字节：rsync怎样找回错位后的旧片段？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-rsync-find-shifted-blocks/read.md",
-    "public_sha256": "4e88eb3e6318570d53c9636ad7ebc32d885604a2f6546c7e440b4c65cd3cd027",
+    "public_sha256": "300b072a9f2c8de78259220c57b34cbe4207bdb245d199416a867f4c45fac788",
     "images": 29,
     "status": "archived_article",
     "related_versions": [],
@@ -1933,7 +1933,7 @@
     "title": "一堆点里混了干扰，程序怎样找出直线？",
     "date": "2026-10-14",
     "path": "articles/2026-10-14-ransac-find-line/read.md",
-    "public_sha256": "165bac610abd063977cf1ce02e4bad670afa58863632d890c69e1a70b29fb7fc",
+    "public_sha256": "9b50c98bd5107324941c26125fb713114a5916a5a6f4c0763382c7c09772aa3c",
     "images": 14,
     "status": "archived_article",
     "related_versions": [],
@@ -2054,7 +2054,7 @@
     "title": "一盘棋有几十万种下法，电脑凭什么敢只看一小部分？",
     "date": "2026-10-16",
     "path": "articles/2026-10-16-chess-engine-alpha-beta/read.md",
-    "public_sha256": "2e0a7c9edd424a4ad212a0e1bc4ca89ee728ab51c6f3897051d2ca45c79b1e0e",
+    "public_sha256": "c9003a9392d0f6125f72022e0ba046777ef0ad26488e968a0c8d7e252aa8cd0b",
     "images": 23,
     "status": "archived_article",
     "related_versions": []
@@ -2234,7 +2234,7 @@
     "title": "不只是鼠标：1968年的NLS，怎样让两个人谈同一处知识",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-engelbart-nls-history/read.md",
-    "public_sha256": "94790d9efbb1cbd4eb772850dbfd3dba1f7bff8c97d3850ce10e2b88df4ca56f",
+    "public_sha256": "efe51e8853784f0f70f7fc9c25271b497d0710776585a06b6989149151e7b12e",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2274,7 +2274,7 @@
     "title": "Grace Hopper与早期编译：让电脑替人搬代码，究竟改变了什么？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-hopper-early-compilers/read.md",
-    "public_sha256": "b88fc8ff5b7f42f896afb026d34ce22d7afe8c9d07a7288b61538d082bbec540",
+    "public_sha256": "4828602874e02d7e8612b98422de094e1ab3573f620bc6b9a87ba41a988e94e9",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2314,7 +2314,7 @@
     "title": "Knuth 为什么停下写书，去研究一行字在哪里结束？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-knuth-tex-line-breaking/read.md",
-    "public_sha256": "77d117e799e0d86e7c67a093891707b4abc14563957a21aa73e792d6810840f5",
+    "public_sha256": "7fdc7dd33cadd65ff1831ba58b0a1a088390c78474001d547db073d6ec2f317c",
     "images": 11,
     "status": "archived_article",
     "related_versions": []
@@ -2324,7 +2324,7 @@
     "title": "Liskov与CLU：换掉数据结构，为什么调用者可以一行不改？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-liskov-clu-abstraction/read.md",
-    "public_sha256": "3ee9a63b3db8c1165e779ae4fbac15e0cfae1bf82f39f4bf35ca888a331e38b5",
+    "public_sha256": "d15a9fda7569988c959b05e4facb3bfb7bc29618cb285bb0077ef0041251d764",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2384,7 +2384,7 @@
     "title": "Robin Hood 哈希：把住得近的键请走，为什么查找反而更稳？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-robin-hood-probing/read.md",
-    "public_sha256": "d88b4ffef24123af682cbfee4a151d6f1390a670b73f34ae24743de961908d7f",
+    "public_sha256": "7458c27ddddad37437dfba2d5d627527fcf22eb1bcefb09356665b2daab56c54",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2394,7 +2394,7 @@
     "title": "把图片缩窄，却不把所有东西一起压扁：沿着一条像素缝，走进动态规划",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-seam-carving-paths/read.md",
-    "public_sha256": "e6a2de77e85a68c8d814d0363c4ad5b3706588b69c4c69d27d0e997c843105cc",
+    "public_sha256": "4b0ff37c37b3d0e83153538a3a759c7c84df2628dff249f3599f705ef599f1dd",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2424,7 +2424,7 @@
     "title": "Treap：给搜索树一副骰子，为什么反而不容易长歪？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-treap-random-priorities/read.md",
-    "public_sha256": "c70a09c3df72c000a08c384017e723b0bf74dfb08f38f1fa3eaf749318a146d9",
+    "public_sha256": "834cfdaf7d69a449277fee41aeb0f2a7799c7c3dfdb5ac0a9969b713b495b46b",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2814,7 +2814,7 @@
     "title": "数据里也有 00，怎样用 00 给包划边界？把 COBS 逐字节走一遍",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-cobs-zero-byte-framing/read.md",
-    "public_sha256": "9f3b9578946fe64c88f1b454ab8676820fa036c1b9f33d6ecd8039360ed66dbd",
+    "public_sha256": "1b89b1cd335179ae348eeca64513c32c9c843fb50d23be09902c2fd046d5bd5a",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -2894,7 +2894,7 @@
     "title": "一张表怎样成为程序？沿着 McCarthy 的 Lisp 求值器走完一次递归",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-mccarthy-lisp-evaluator/read.md",
-    "public_sha256": "37fed9d7527eaaa6c51b310c95f6ec07f0cc10114c3b4fb249e55dc90be8fa2b",
+    "public_sha256": "2d83bc1b4ee806199c27757bf82eaf8598293d4a2ec74967d8a9864c9bfeb23e",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2914,7 +2914,7 @@
     "title": "法线贴图与切线空间：一张紫蓝色图片，怎样让平面显出凹凸？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-normal-map-tangent-space/read.md",
-    "public_sha256": "dee2d002154066b1ab251bc47236f50fbc98833ad50d3fa477d57853ac7b0b38",
+    "public_sha256": "34c11e239abeb2fa5f2b2ab31d681d5c28fc7beb5145b1697a33a37801619255",
     "images": 17,
     "status": "archived_article",
     "related_versions": []
@@ -3004,7 +3004,7 @@
     "title": "Sturm 计数：曲线没变号，区间里却有根",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-sturm-real-root-count/read.md",
-    "public_sha256": "4c760ba8bb19111820abfc3cc50299b76ac2cdc3d11cf7af4d2b16078bb0d953",
+    "public_sha256": "b14e7a4217bcd54f0f5fb1a8d7f5466a8b755f23f83a5a10e3f8589572a3b376",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
