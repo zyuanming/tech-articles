@@ -2654,7 +2654,7 @@
     "title": "Shannon 怎样把继电器接成代数？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-shannon-relay-boolean/read.md",
-    "public_sha256": "4169f6183e35e8fc0ac19d135bc4c5051f4400443eca73a199f99287ef83789d",
+    "public_sha256": "a4363aa8ffcb4bf5f1bdab62b1151758c50fe8c19b4e0b140743bf4a2e7cf553",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -2774,7 +2774,7 @@
     "title": "拜占庭口信：有人说谎，还能达成一致吗？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-byzantine-oral-messages/read.md",
-    "public_sha256": "3765510944b4a3b11c7fe0f9fab108a5f173fa507a28e180aafe0b1263ae34c3",
+    "public_sha256": "d379e3d23613f1f4f1696c02d3245bdd5c1fc0a7248732b4c69e896e47448301",
     "images": 17,
     "status": "archived_article",
     "related_versions": []
@@ -2784,7 +2784,7 @@
     "title": "Catmull–Rom：怎样把几个点连成平滑曲线？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-catmull-rom-interpolation/read.md",
-    "public_sha256": "3a82017e3cbe9384f0ac3f4d22435be49b81d857f5b64da7afc5b6dda58aa087",
+    "public_sha256": "68d3497c8ceb4278ee2692e441f68809b82ebd39438721faad8b93d6310e2da5",
     "images": 23,
     "status": "archived_article",
     "related_versions": []
