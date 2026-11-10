@@ -451,7 +451,7 @@
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-cache-keeping-promises/read.md",
-    "public_sha256": "0ba9d3df71a4ab16c957105f64aebf78f297ef0e557307371b3a02f0cc534ccc",
+    "public_sha256": "8c1515d27ddf938642cc934ff0060335b4b1a176e7c47ac8142355a62f6cf40e",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -1424,7 +1424,7 @@
     "title": "队伍有多长，等待有多久？Little 定律把两本账变成同一张图",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-little-law-customer-time/read.md",
-    "public_sha256": "881e900626b93db5e132379d4870a833c30982980bfad5571cb3731044c43ec2",
+    "public_sha256": "a69dbd369418762b79e096115eb955179d8edc3b1fe34050469b773268123c3f",
     "images": 23
   },
   {
@@ -1878,7 +1878,7 @@
     "title": "点了“创建房间”却没回音，再点一次安全吗？",
     "date": "2026-10-14",
     "path": "articles/2026-10-14-idempotency-retry-room/read.md",
-    "public_sha256": "fc5a0311b834145c29aa3843ee027d419f97d6c1f3d24fae79f2a0d06e8c0382",
+    "public_sha256": "ad9c9bd077d30c51f40802570199494db1bba5d67f6e02c80f19b704d68d7d7c",
     "images": 14,
     "status": "archived_article",
     "related_versions": [],
@@ -2364,7 +2364,7 @@
     "title": "四元数旋转：相机抬到头顶，为什么两个旋钮突然像同一个？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-quaternion-rotation-steps/read.md",
-    "public_sha256": "18aafe5e4add80702877235917fb7545031dd81fcc9c9d208b2bfd66f4c9b1ee",
+    "public_sha256": "1c934113ab18d9d1db5ebc7960a42e698f9fe278ead01ec08da41a98ad870a25",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2414,7 +2414,7 @@
     "title": "扫描线：一万个时间段，怎样找到最拥挤的那一刻？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-sweep-line-events/read.md",
-    "public_sha256": "c486a3ce5b2eed41f2b47553493de9afbf324c41135150991ed1589aecf67004",
+    "public_sha256": "cecb8039cc28636f5c22df6bc84bce6c97baed943cd017a47befd48a5b79ce4d",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2454,7 +2454,7 @@
     "title": "油门踩到底，什么时候该换成刹车？一次最短时间控制的手算",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-bang-bang-braking-switch/read.md",
-    "public_sha256": "e3d13db319194e08bd78273463e1b5777b358c00b8f99d67ee5937377cff59cb",
+    "public_sha256": "19efbf273243d1dd9a903a51a422e63ff04a5e1b90976e60ed1fb3156a4de6a9",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2494,7 +2494,7 @@
     "title": "鼠标指向哪块石头？让射线沿着格子边界走，为什么不会跳过去",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-dda-voxel-traversal/read.md",
-    "public_sha256": "ba35fcdb28fc4df972c0a03651822a08aea84e748b27f25a0b3f3b05ee2d69a0",
+    "public_sha256": "47193483ff55658e4e249e76740bf35016c0c41382f0cb6569c7c537c28c3cba",
     "images": 14,
     "status": "archived_article",
     "related_versions": []
@@ -2544,7 +2544,7 @@
     "title": "算不出一个准数，能不能保证答案没有跑出这两条边？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-interval-arithmetic-enclosures/read.md",
-    "public_sha256": "a5e1ec2477e8444124b6e8e1c9a99937baffab8370567abd333ddc3137f437c8",
+    "public_sha256": "2a5671920be49e824b125e262175f70f53aa4b8f5fd94f370df96cc510c49c80",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2574,7 +2574,7 @@
     "title": "不把每一步都算出来，怎样知道系统最终会稳住？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-lyapunov-energy-certificate/read.md",
-    "public_sha256": "67874974f475cb559447834e5eff7afdf2e97e76767bbfba586aebafe53d0ae9",
+    "public_sha256": "8025a91e9fc235a21b55ab3f70f140bb92a10b2559c8bfc02edc8c3607744e80",
     "images": 12,
     "status": "archived_article",
     "related_versions": []

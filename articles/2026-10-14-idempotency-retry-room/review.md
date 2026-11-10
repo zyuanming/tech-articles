@@ -4,7 +4,7 @@ sha256 `ad9c9bd077d30c51f40802570199494db1bba5d67f6e02c80f19b704d68d7d7c` · 177
 
 ## 查证线
 
-`examples/run_experiment.py` 在仓库 venv 里真跑过（Python 标准库 `sqlite3`，无联网），`--output /tmp/idem_out` 新建目录后输出七个用例，全部断言通过，与正文逐条对得上：
+`examples/run_experiment.py` 在仓库 venv 里真跑过（Python 标准库 `sqlite3`，无联网），用 `--output` 指到一个新建目录后输出七个用例，全部断言通过，与正文逐条对得上：
 
 - `unsafe_response_ignored`：忽略返回值重试，库里两间 `R001`/`R002`、零回执——「两次创建」那段的数字。
 - `safe_response_ignored`：第二次得到 `replayed: true`、同一间 `R001`，回执里留着 `actor=p7`、`key=K17`、`status=201`、`response.room_id=R001`。
