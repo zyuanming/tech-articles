@@ -1410,7 +1410,7 @@
     "title": "锁已经过期，旧程序醒来为什么还能写坏数据？让资源认得“第几任管理员”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-leases-fencing-old-worker/read.md",
-    "public_sha256": "24ed33866608b4cf12123e3e81aca6cdc64535a9b03c280c081dcaf7660e0e6a",
+    "public_sha256": "edb730b514dc1720ae71c35f4ca4a0186986b8f35450fb332142d331d9c3f2f2",
     "images": 25
   },
   {
@@ -1452,7 +1452,7 @@
     "title": "计划了三步，为什么只走一步？MPC 怎样给未来留一条退路",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-mpc-plan-then-replan/read.md",
-    "public_sha256": "c91ea4986b4e9bdae427b8c2ffe24fb3cfb197e57647174aaf9ee8c5f246bac3",
+    "public_sha256": "ce9299e46959aeb5a3a49a8a31871ad620f7a0f8073a36a589169e8500aa8f36",
     "images": 24
   },
   {
@@ -1494,7 +1494,7 @@
     "title": "只沿着边缘走一圈，仪器怎么知道里面有多大？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-planimeter-area-from-boundary/read.md",
-    "public_sha256": "a45d9501e832c2584b3d129888666883b94f125d73c8d14363d621791d5423f0",
+    "public_sha256": "a1d72962565de0d74c73277f5ff325d13064ca5e40650e1436461a949de512af",
     "images": 26
   },
   {
@@ -1606,7 +1606,7 @@
     "title": "没有发动机，小球为什么越荡越高？Verlet 与模拟中的“假能量”",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-verlet-borrowed-energy/read.md",
-    "public_sha256": "8a7a7c2757235d47f53e7cacac7f7acc4857d80e2b63baf7fd49f6c043dd9cf4",
+    "public_sha256": "a3108bd27392389c3961f3549b826e44f556c559be61bdb5823cd26320beda5f",
     "images": 25
   },
   {
@@ -1639,7 +1639,7 @@
     "title": "Doom 入门②：墙上的一个点，该画在屏幕哪里？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-doom-02-wall-to-screen/read.md",
-    "public_sha256": "278f216e4ae802485b562fcd67e4facb8f5f3bfa0ea2a1368d60874dd114a75c",
+    "public_sha256": "f69c2587ffbf448f9264e203ddf82b121acc76cafeb4c1a43c46b33d9a25a621",
     "images": 23,
     "status": "archived_article",
     "related_versions": [],
@@ -1650,7 +1650,7 @@
     "title": "Doom 入门③：电脑怎样提前知道，后面的墙不用画？",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-doom-03-walls-to-skip/read.md",
-    "public_sha256": "8a9b167b635e1e2a58fcbf7cb880f012963acbcec4ec07965d8b7a2f6a4e35ae",
+    "public_sha256": "dd7f6fb3b4780007d09d258539b776fd00da5167c583eb88b673b4fa9e11574e",
     "images": 23,
     "status": "archived_article",
     "related_versions": [],
@@ -1737,7 +1737,7 @@
     "title": "旋钮只走一格，读数为什么跳了四格？Gray 码给现实留出的余地",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-gray-code-one-bit/read.md",
-    "public_sha256": "3d8e0b9ca21694dbd1111833c6382845ff35c7dd3165cb1ae6ec032a63aef0cc",
+    "public_sha256": "e0d9985ce153c42bed18e94342843e6bc034d345544f11e49f9b2d89c718112d",
     "images": 28
   },
   {
@@ -1843,7 +1843,7 @@
     "title": "只问八次，怎样把电压放进256个格子？逐次逼近ADC的猜数游戏",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-sar-adc-eight-questions/read.md",
-    "public_sha256": "baa642942182f3b42ac32bca0ca061a0c22f808e45a9f015a22b5672cf9dc298",
+    "public_sha256": "2d5acee7c4af6f43a121cb54740ca9ee8608da681dc9eab51785426ceb3b80eb",
     "images": 27
   },
   {
@@ -1977,7 +1977,7 @@
     "title": "不运行程序，怎样证明数组下标不会越界？",
     "date": "2026-10-15",
     "path": "articles/2026-10-15-abstract-interpretation-array-bounds/read.md",
-    "public_sha256": "5e4d171d6d9a1972586cfc1346cdf85c812df8c742b854cb831b4b5cc2eb5528",
+    "public_sha256": "2853461f10f2cad31e65b50337a9cef586a1df6030a22f9766a34ac429f3440a",
     "images": 14,
     "status": "archived_article",
     "related_versions": [],
@@ -2010,7 +2010,7 @@
     "title": "程序撞了一次墙，怎样把整类死路一起封掉？",
     "date": "2026-10-15",
     "path": "articles/2026-10-15-sat-learn-from-conflict/read.md",
-    "public_sha256": "c949aae15387afb7a9e64b3ae8f7ec13172721adf80a4dfbdc81dfd16da96add",
+    "public_sha256": "4121f7b669223b5aadf47f2cb5bc82ecd89521c44b3fbaf2255c06f79e2f738b",
     "images": 14,
     "status": "archived_article",
     "related_versions": [],
@@ -2064,7 +2064,7 @@
     "title": "改了三行，电脑怎样在十万行里找出它们？",
     "date": "2026-10-16",
     "path": "articles/2026-10-16-diff-edit-graph/read.md",
-    "public_sha256": "4a042728ec24b8ea5c4235f974846436a4d5de7df87467176f3b2e43895eb9e4",
+    "public_sha256": "a6173e11cde3389849789cc4ef03f6f865c4f63fa905cd9d6905890ef337bfda",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -2074,7 +2074,7 @@
     "title": "这台游戏机没有显存：画面是程序追着电子束，一行一行写出来的",
     "date": "2026-10-16",
     "path": "articles/2026-10-16-racing-the-beam-atari/read.md",
-    "public_sha256": "6f1f11ca3c28e179af4437b0c4490649a89e77a812ac4174b5c112f90efb7cff",
+    "public_sha256": "da04187f311dc79d0ecc9e86aabee195c87169e64ed15d559fad2cf05152bbc5",
     "images": 21,
     "status": "archived_article",
     "related_versions": []
@@ -2084,7 +2084,7 @@
     "title": "无穷也有大小：一条对角线怎样分出两种无穷",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-cantor-counting-infinity/read.md",
-    "public_sha256": "6c4bf892357f80a4d53189297b073b3e82dbc5fecbea4a00b64635a598c5ff14",
+    "public_sha256": "436918b6923e1b587499715cc2ea04c59106c80a94f8e0831f6d47b5f97b0222",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -2094,7 +2094,7 @@
     "title": "0.1 + 0.2 为什么不等于 0.3？",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-float-0-1-plus-0-2/read.md",
-    "public_sha256": "041201c0bf21401b4a1b42b35a63b1f7a324f2f19ab9fb6764840ed8336c6557",
+    "public_sha256": "f38e7ed9d486777bb59e7575f0e6da66ab354cb03e6bad5f337bcc2eac7bd21a",
     "images": 23,
     "status": "archived_article",
     "related_versions": []
@@ -2104,7 +2104,7 @@
     "title": "七座桥，为什么一座都走不通？",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-konigsberg-seven-bridges/read.md",
-    "public_sha256": "cd8c5808eda854a6b833e1e1f44b2ce047a706cd88bc49fdde82704e004e1d1e",
+    "public_sha256": "4fe670c056745d89f37af4f6f7365ee36cee524273d42ac11d58c1d062cedd43",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -2114,7 +2114,7 @@
     "title": "换，还是不换？",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-monty-hall-switch-or-stay/read.md",
-    "public_sha256": "44263b54123ed0d0a32b022953b39e11c74f2328d9f67f4a7e3510923d8407c9",
+    "public_sha256": "05a55b8d0af92a30612c579b68411c18a3a5c1f74eef9acd1733dc2e3cfe40bf",
     "images": 17,
     "status": "archived_article",
     "related_versions": []
@@ -2124,7 +2124,7 @@
     "title": "为什么炉子总是差那一点点？PID 控制器怎样学会自己找目标",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-pid-control-loop/read.md",
-    "public_sha256": "05a6e0967fd8f89ead38ac1a2607df8b7a0d793af933a3d0a86d9af040e3cbfc",
+    "public_sha256": "ac74bb3b353cb68d0cd6fa80e3576baca673be43cc2777a86a29293672296b33",
     "images": 24,
     "status": "archived_article",
     "related_versions": []
@@ -2134,7 +2134,7 @@
     "title": "五台机器，怎么决定\"现在是什么\"？",
     "date": "2026-10-17",
     "path": "articles/2026-10-17-raft-one-leader-at-a-time/read.md",
-    "public_sha256": "ead58141000daf5dfe5062200e171502c664ad12829d6e72400f18e31ec24dcf",
+    "public_sha256": "c1503378748d99770900831e3eb4c1fe2de83a8ae4192faa80fe2c240c6a84d1",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -2404,7 +2404,7 @@
     "title": "一张矩阵，怎样拆成一层层有用的结构？从方格到奇异值分解",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-svd-low-rank/read.md",
-    "public_sha256": "b03ec7a2e2554bf17740a60aa7df84cf43755647d5d90655d56e66ce480b36fe",
+    "public_sha256": "c834394223b7b9990f4ae103cf7ce6dc0336bcf10ea694841fa947443be375be",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2604,7 +2604,7 @@
     "title": "三份读数互相打架，怎样找出最合适的一条直线？把 QR 分解拆成一次投影",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-qr-orthogonal-fitting/read.md",
-    "public_sha256": "d1273875706cfb9c35c0ec2af0bc21722bc82363949eb6c895a9edbc9a6aea5d",
+    "public_sha256": "23c5ca906591a5e7e65ccab9cf2e7b78f55dd6d1df1ef47a233988ba76e3cdc0",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
