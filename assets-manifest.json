@@ -22831,8 +22831,8 @@
   },
   {
     "path": "articles/2026-10-24-majority-vote-cancellation/examples/results.json",
-    "bytes": 5618,
-    "sha256": "9cc065853dcb530c55ace61570fc63fb8a988c1e43d0fb3588f071ad9ffbd14d"
+    "bytes": 5617,
+    "sha256": "1ec5939d584084b981ec5900af32193aaf36d6b2ab40deab68cdd431e9392d66"
   },
   {
     "path": "articles/2026-10-24-majority-vote-cancellation/examples/verify.py",

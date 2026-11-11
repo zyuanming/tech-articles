@@ -5,7 +5,7 @@
     "date": "2026-10-08",
     "collection": "features",
     "path": "articles/2026-10-08-asml-larger-masks/read.md",
-    "public_sha256": "b35d5cf18d826c4f563ec9330ed3603b608f147beb249ed2bbe403f39d9aaf89",
+    "public_sha256": "35ad1251ed2edef1ffb5bac5767cbe0fd6909a90acb0db72bcb78fe24a0ba1bd",
     "images": 3,
     "status": "archived_article",
     "related_versions": [],
@@ -40,7 +40,7 @@
     "date": "2026-10-08",
     "collection": "features",
     "path": "articles/2026-10-08-passkeys-trust-boundary/read.md",
-    "public_sha256": "87d0be855d19fb68eea785a2592b8fa9343638297441c2abfe83197af5e99d5e",
+    "public_sha256": "d9774c81fa0ef4b56c4096e2b6fad2c1248d46876e705c9911fdc0cccba9ff12",
     "images": 3,
     "status": "archived_article",
     "related_versions": []
@@ -62,7 +62,7 @@
     "date": "2026-10-08",
     "collection": "features",
     "path": "articles/2026-10-08-sodium-battery-tradeoffs/read.md",
-    "public_sha256": "9d7a17267bdaa890ce79a98a287c3bbc7fd6a464aa4204a92f53c32d94c4fbe5",
+    "public_sha256": "8c59c6af5ae6db4feaed55d0c980a33d13760f95bb27046aed4a953e58d42c97",
     "images": 3,
     "status": "archived_article",
     "related_versions": []
@@ -107,7 +107,7 @@
     "date": "2026-10-09",
     "collection": "features",
     "path": "articles/2026-10-09-aerogel-catching-comet-dust/read.md",
-    "public_sha256": "4b722cd7af5e5dad7b6db9cc6aab50e5e0782f3d579f5d2bcd7f7a601c37af22",
+    "public_sha256": "762c51edb86f09743f9d26e5052fa5a7115472401d647704ad7ed15e33f079c3",
     "images": 8,
     "status": "archived_article",
     "related_versions": []
@@ -118,7 +118,7 @@
     "date": "2026-10-09",
     "collection": "visual-stories",
     "path": "articles/2026-10-09-antikythera-gears-of-time/read.md",
-    "public_sha256": "ec5f1e1e08629d0575b9647e7d164d46000639e8fc9637854dbf40f3c789c446",
+    "public_sha256": "a082b10107c3f01a17871adbba226322dbbd3162a8e4ca5fd2e1197128402c41",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -129,7 +129,7 @@
     "date": "2026-10-09",
     "collection": "features",
     "path": "articles/2026-10-09-argo-ocean-profiling-floats/read.md",
-    "public_sha256": "0d6878aa4169cc1d98c48cb9dbb48b7fb67f085a8f9811b6800bbe1534b8f03a",
+    "public_sha256": "e07073317c50fc3c2a04deb9e8c4eb64c87ac5e62ef19cb94bd0c0dff4f1cab6",
     "images": 8,
     "status": "archived_article",
     "related_versions": []
@@ -188,7 +188,7 @@
     "date": "2026-10-09",
     "collection": "features",
     "path": "articles/2026-10-09-dart-asteroid-deflection/read.md",
-    "public_sha256": "0c14c2eecfbd5908d494f4a565bb75ec5b7d44928d3ff7f7b4084de98148e416",
+    "public_sha256": "e7ca0375e12cee041a5fe0f2dcad23fc681f24a796650695da90c3e58fd52efd",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
@@ -199,7 +199,7 @@
     "date": "2026-10-09",
     "collection": "explainers",
     "path": "articles/2026-10-09-doom-bsp-visibility/read.md",
-    "public_sha256": "31625ef5a5b67fa48d0748d5ceb4805793d57dc0ec9ff23d83fe283c6aeb8228",
+    "public_sha256": "cd334c5020338a5eaae911ee424c7b280ddf41b6d93e27317849f12f0b4cf31c",
     "images": 7,
     "status": "archived_article",
     "related_versions": [
@@ -328,7 +328,7 @@
     "date": "2026-10-09",
     "collection": "features",
     "path": "articles/2026-10-09-moxie-mars-oxygen/read.md",
-    "public_sha256": "1ac47833d68b59c66b1fc8ec6a0a82cc73f954adc40b94a6a43f4f62be259666",
+    "public_sha256": "8a2f0b05c8ee2ece91cc0c3a89160b7a49b7a41952f4851500f672a7f05cf52e",
     "images": 6,
     "status": "archived_article",
     "related_versions": []
@@ -394,7 +394,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-apollo-priority-restart/read.md",
-    "public_sha256": "72f1e72d29df5b6238c11f90e547a61c929ab23789e69379848c2721848253a8",
+    "public_sha256": "8885956afbe6e6215d5da4fdebaee0c425d07c8235809a165c2d68bf7a9d18b0",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
@@ -429,7 +429,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-btree-disk-pages/read.md",
-    "public_sha256": "b9d14f322462d836d70961f5873bcffb2373200dc86587e26d585bbed7965461",
+    "public_sha256": "77996b58475f4af44fa94fea18f007ab05a53770178c3f7e20c1a46059414450",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -475,7 +475,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-dijkstra-astar-pathfinding/read.md",
-    "public_sha256": "63b9a751504d11705ff23d5e7c68b69ad1d5a40a8e9ee05aa6815bce06b9bb03",
+    "public_sha256": "c7a6c5eb472acdde5c258a97b152fc96473e8c1cf88b6e14a5575e85a0ac2f0e",
     "images": 9,
     "status": "archived_article",
     "related_versions": [
@@ -824,7 +824,7 @@
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-voxel-faces-worth-drawing/read.md",
-    "public_sha256": "a145321edeaf33e66a935a6c7d518ca709bdd1e93ba6ff6b3ab91d6199af25a8",
+    "public_sha256": "3bf5b6832fd862ad0047cf7f7ccb8c8007294d748e1363d413e7ef691f711169",
     "images": 8,
     "status": "archived_article",
     "related_versions": []
@@ -2474,7 +2474,7 @@
     "title": "一个文件名，怎么借走了服务的权限？从“混淆代理人”理解能力安全",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-capability-authority-paths/read.md",
-    "public_sha256": "a30cd63d76526d4c99e86149cc4f3d6e22b85f7e4a92138042b6a8cbc389c6a4",
+    "public_sha256": "cb3673b3a63cefcc75404b554ed4d803f8cd4c6da65ab2e8c8c60ff2ce8b11ba",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2524,7 +2524,7 @@
     "title": "从格子里长出模型，为什么拐角容易被削掉？Dual Contouring 多问了一个方向",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-dual-contouring-sharp-corners/read.md",
-    "public_sha256": "7df711f5ff1e1717bc1ca768033a1d8197ba8f2d61a0edd5c6111d368b6f06f3",
+    "public_sha256": "0cfda833ca6e71561ff3fea26486f783f4bbce8153408d66b21bffc83c61e4ef",
     "images": 14,
     "status": "archived_article",
     "related_versions": []
@@ -2584,7 +2584,7 @@
     "title": "只记一个名字，怎样找出过半的那一个？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-majority-vote-cancellation/read.md",
-    "public_sha256": "f94c118234c5984891157204af328a4d5e983b0b5cdd80b19aeb21eb13b07268",
+    "public_sha256": "e300a162ed6a1d32b1f1bc317470a1a4e32a0b32372f6faac7133c852fa8f641",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2834,7 +2834,7 @@
     "title": "关掉电，字为什么还在？电泳墨水把一页画面留在颜料的位置里",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-electrophoretic-display/read.md",
-    "public_sha256": "1680a0a24ec23b0a26422ccf6b31247f4aa3a0b779d11e80e25b05ee431e5246",
+    "public_sha256": "dae623a9d97988a8f99045cc520edf138b204f07003b34ef91b946ead2428654",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -2904,7 +2904,7 @@
     "title": "多重重要性采样：两种抽样办法各有盲区，怎样合起来减少噪点？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-multiple-importance-sampling/read.md",
-    "public_sha256": "c2f47e4a77b16e229a286dc2e9c8f947d9ff6f5dc7627ad148625bd5b9f65887",
+    "public_sha256": "54e7b8b7838ae13b3d350a57fe6fe247745f29333be965374179889072ed2d9e",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -2934,7 +2934,7 @@
     "title": "电压怎样变成一滴墨水？从压电腔体的压力波到喷嘴断滴",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-piezo-inkjet-pressure/read.md",
-    "public_sha256": "4032198fa65cb94c40a74e446d0570c8e69eda198fea9dbbb76dfd7ed0103f03",
+    "public_sha256": "b27cab7ac04057fff56c497900cba1f5a7d84171a95b612b2251ca108cf3119f",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2994,7 +2994,7 @@
     "title": "模板阴影体：不画一块黑贴纸，怎样用“进入和退出”找出阴影？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-stencil-shadow-volumes/read.md",
-    "public_sha256": "5573bf8ea6af89f2e403fb17f0ffc0dc1ff51701fc5e9943d2e8366f5a8c568c",
+    "public_sha256": "3576c1ab12287d7bf04611da1ba423fa64548371201dc891d9cc80abaae10d37",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
