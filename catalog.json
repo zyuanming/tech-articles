@@ -512,7 +512,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-fft-divide-frequencies/read.md",
-    "public_sha256": "bb517d4f23af825403f85d8becbb2144f0fb034db1108cec02f9c9184eeff0d9",
+    "public_sha256": "2fb67161e22068d5b5c5cf436ee6f01149a789690f9952a389a10bc768749ab8",
     "images": 10,
     "status": "archived_article",
     "related_versions": [
@@ -549,7 +549,7 @@
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-floating-point-moving-ruler/read.md",
-    "public_sha256": "e331eb1d971e0135149c166e3b7d8a37e1968e839d29aa2504af237a5682c3a1",
+    "public_sha256": "f17f82d4a025708d3e486ce7d72e2b6f39a1e5aae42a486ea05dfd6d273e28ef",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -648,7 +648,7 @@
     "date": "2026-10-10",
     "collection": "computing-explorations",
     "path": "articles/2026-10-10-multiplayer-shared-time/read.md",
-    "public_sha256": "f89106972de8e343547677eb5abbf6ffa0470e53f51fe0dfcc781a1298abefde",
+    "public_sha256": "7d15b880cb47105d487951ad7c9f413a3de222564d127e3baecb14b4cd14bab3",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -958,7 +958,7 @@
     "title": "GJK：不逐条查边，怎么知道形状撞上了",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-gjk-origin-collision/read.md",
-    "public_sha256": "d4fb7bc12df23d9f3d5eedf2e3a19ce118564e5ed1033a852d4afb91d7465cef",
+    "public_sha256": "c974e5352e3d930bb5239c1a9c355745370605f32546ed061830741185a757db",
     "images": 20,
     "status": "archived_article",
     "related_versions": [],
@@ -1014,7 +1014,7 @@
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-mandelbrot-infinite-boundary/read.md",
-    "public_sha256": "b6136f5ff4de11d1b9ca2bc24546d318542de3aa55c699a58d814981ba5f5f05",
+    "public_sha256": "6182a974fe1a77df80f368bc95566137fe1f6f1ee70385d9f1f902af422445c2",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -1046,7 +1046,7 @@
     "title": "Mipmap：地板为什么越远越闪",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-mipmaps-prefiltered-textures/read.md",
-    "public_sha256": "b1f886a6a91c2a490096241760535965b4401bfa180ac0287f3ba133a314d8f3",
+    "public_sha256": "118dde3a798ce7ccfbef663eb0078d9330283f4a2c26d56abf95894e8da644ee",
     "images": 21,
     "status": "archived_article",
     "related_versions": [],
@@ -1090,7 +1090,7 @@
     "title": "数据还没来完，怎样公平地抽出两条？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-reservoir-fair-stream/read.md",
-    "public_sha256": "a47a6bd35e0e55275e3dadc0cc723e92b3f767b8e1a84757a89c283a2a768683",
+    "public_sha256": "d4c7e3623202f93b1363eda3a528fd624c5ac369451cb4e14cf86796a051d34f",
     "images": 17,
     "status": "archived_article",
     "related_versions": [],
@@ -1112,7 +1112,7 @@
     "title": "车轮明明向前转，录像为什么能让它倒着走？",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-sampling-ambiguous-world/read.md",
-    "public_sha256": "8bede8449f77da5173adfdc48b1aff591d575c513f8ced36bdcfcff1f4ef9a7b",
+    "public_sha256": "ab5dbd12cb82db04d512cd30f2448a4463e683cb188736929c7187d04957377f",
     "images": 16,
     "status": "archived_article",
     "related_versions": [],
@@ -2344,7 +2344,7 @@
     "title": "一块屏幕位置，为什么只记一个深度？从遮挡到 Z-fighting",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-perspective-depth-buffer/read.md",
-    "public_sha256": "cbe0b994531ba2d44c062a2149898095691a05bd2e850322734736fd28b2ef17",
+    "public_sha256": "0767a927fbe8fb2b676d91dd7d33c8758d4bb53705540632fc11c70894d876dc",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2354,7 +2354,7 @@
     "title": "泊松圆盘采样：随机撒点，怎样不挤成一团？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-poisson-disk-sampling/read.md",
-    "public_sha256": "7ce5633dfa5a68e8fa28bbcb1fae7affc09fb697d445b89f490058a8cc4d12bf",
+    "public_sha256": "a80c3e41903ea7663f1bce56cd72a2a101ee1615881be0a6204990ebde6475b2",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2434,7 +2434,7 @@
     "title": "三个数字，为什么比一个时间戳多知道这么多？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-vector-clock-causality/read.md",
-    "public_sha256": "4b974d9f97f4d8fdf5eb6309ab9b9c5a3699ad1f445e04bfa107d6f5fcd1b15a",
+    "public_sha256": "0e48cc644cec47faaeb0083d70a80a497271e79cc7fdbf2d3205802b8da76a2d",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2564,7 +2564,7 @@
     "title": "把镜子吊起来，为什么反而更稳？LIGO 悬挂系统里的频率选择",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-ligo-pendulum-isolation/read.md",
-    "public_sha256": "ed2295eb87505db04c37de239bfa2eac26c81bf4e95ce14f60d38ba5aa9b498d",
+    "public_sha256": "4f49124c8351bf0be5982e0d189c7350f4a7c08e82df57499ee28c8aca5646a5",
     "images": 11,
     "status": "archived_article",
     "related_versions": []
@@ -2664,7 +2664,7 @@
     "title": "辛普森公式：中间那次为什么算四份？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-simpson-three-samples/read.md",
-    "public_sha256": "ac86b65701512eff80000da85718cb2aee28fe6fa89584eb1b09d4f4ebafd532",
+    "public_sha256": "5d387984ff2c843b0e9c5e58fa84f75f47a0294a53875c7bb21c795acf1641d9",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -2824,7 +2824,7 @@
     "title": "Count-Min Sketch：只留一张小表，怎样估计一个键出现了几次？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-count-min-sketch-frequency/read.md",
-    "public_sha256": "2b89cde66042f058330d6d4793b9fb30c538db945a87c031d0e2dee8a018005f",
+    "public_sha256": "b1162759678da7a874a1ea6206b124b7a5b3a9af5c3ec697645e4f48604c3eb5",
     "images": 14,
     "status": "archived_article",
     "related_versions": []
@@ -2854,7 +2854,7 @@
     "title": "外部归并排序：文件比内存大，怎样一块一块排成全局有序？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-external-merge-sort/read.md",
-    "public_sha256": "d1f3b6ec9af3225328845fe4018a0c210bad3b8bf09197615ff3373cd75811c1",
+    "public_sha256": "296475e43543bd5107cb9be2634b9fdd33ee8314ecb90325d4c09cbf64e225c9",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -3034,7 +3034,7 @@
     "title": "Z 变换：上一拍的影响写成一次乘法",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-z-transform-recurrence/read.md",
-    "public_sha256": "9cbe3dc620040794f5f57c14b01b18aac0db22b0ea6f2518ab290b7970a52ae9",
+    "public_sha256": "f7a85b958657043d953eb797bb94ba757e9b6bf996626fd22e7ae9b56190c242",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -3044,7 +3044,7 @@
     "title": "Diffie–Hellman：公开线路上的共同钥匙",
     "date": "2026-10-31",
     "path": "articles/2026-10-31-diffie-hellman-key-exchange/read.md",
-    "public_sha256": "1359f9968716d18d756e0b7f42ac155cb1cd952afc452ce0613cd36a0ccea6e0",
+    "public_sha256": "d56a61a827c051bfd64b01f76f8a378a287a9958e686fbe7bcb5f0f2817cd472",
     "images": 21,
     "status": "archived_article",
     "related_versions": []
@@ -3064,7 +3064,7 @@
     "title": "两个多数派必然重叠，所以没人事先知道谁说了算",
     "date": "2026-10-31",
     "path": "articles/2026-10-31-paxos-quorum-consensus/read.md",
-    "public_sha256": "fee0836dc2a463a6488b1f34d8cf23e9516404265cedc6f87e6a536232439327",
+    "public_sha256": "26246d99edd19ea5d8a87d7d4bef69aad568a8b9c68eea6eec13bfbe368d38dc",
     "images": 26,
     "status": "archived_article",
     "related_versions": []
@@ -3074,7 +3074,7 @@
     "title": "一根线上几台机器，怎么决定谁先说",
     "date": "2026-11-02",
     "path": "articles/2026-11-02-ethernet-collision-backoff/read.md",
-    "public_sha256": "024f3783903736026bd33463cf317dd40188f2203741b482da0f2fbda1cf5506",
+    "public_sha256": "4fb7cca8774fe38d7ff3046c247245ecdbff6acafebd05a6b4fc318799d6b864",
     "images": 22,
     "status": "archived_article",
     "related_versions": []
@@ -3084,7 +3084,7 @@
     "title": "DX7 的音色不是滤出来的，是推出来的",
     "date": "2026-11-02",
     "path": "articles/2026-11-02-fm-synthesis-dx7/read.md",
-    "public_sha256": "f6092d2c71014bb7dfd5a0ff3962ab35b99c2e76ebbdafbd0af5f1235f7e9758",
+    "public_sha256": "a7c9297263bc05d5bae9c2ed1900912da45ceda43b84226d04660f3f761b5537",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3134,7 +3134,7 @@
     "title": "为什么手表的晶振正好是 32768 赫兹",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-quartz-watch-32768/read.md",
-    "public_sha256": "1bf86e4d0963d1507c8a9cfba9c09dd2ea02577aeb3fde9923fd6c83b6c17678",
+    "public_sha256": "64f37b2f2d18889ff4e3d5d8e368ac27350cff310c9df2ccc544d8c1e30e228d",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3144,7 +3144,7 @@
     "title": "先砍 19 dB，再加回来",
     "date": "2026-11-09",
     "path": "articles/2026-11-09-riaa-equalization/read.md",
-    "public_sha256": "cefb35df1c784d0d02076425bd68d0009be77a6d1b0ec3f5ba58c54fa6a46426",
+    "public_sha256": "5cda48f4f74adae946096c3538c59498009fbafd63c4fe528455d8ad0800e340",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3174,7 +3174,7 @@
     "title": "魔数 0x5f3759df：把浮点当整数看",
     "date": "2026-11-16",
     "path": "articles/2026-11-16-quake-fast-inverse-sqrt/read.md",
-    "public_sha256": "3f3c782d1395a8a6b554ba48397fc37c0fef9b747ef66418da21d21c52bdf0cd",
+    "public_sha256": "dec920d8b25ac5dcb9d387a7d2f8c257997721122e8e0690a7ba42ec4c906c65",
     "images": 21,
     "status": "archived_article",
     "related_versions": []
