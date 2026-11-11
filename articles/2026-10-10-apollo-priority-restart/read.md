@@ -74,7 +74,7 @@
 
 如果新任务每两秒来一份，原本一秒半就能完成，工作台不会越堆越满。但有了额外打断之后，一份任务可能还没完成，下一份已经按时到来。两份占两个位置，三份占三个位置……
 
-这就是为什么一个首先表现为“计算时间被挤占”的问题，最后可能报成“没有可用工作区”。它们不是互相矛盾的诊断，而是同一条链上的不同阶段。
+这就是为什么一个首先表现为“计算时间被挤占”的问题，最后可能报成“没有可用工作区”。它们看起来像互相矛盾的诊断，实际是同一条链上的不同阶段。
 
 在阿波罗计算机的软件里，Executive 负责作业调度与临时存储分配。参与者 Peter Adler 的回顾解释了两个报警的直接含义：1202 表示没有可分配的 core set；1201 表示没有可分配的 VAC 区域。它们都是有限的临时工作资源。[Adler 的原始回顾](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html)也说明了核心工作区和较大的向量累加器工作区之间的差别。
 
@@ -116,7 +116,7 @@
 
 例如，早期 AGC 设计文件把原始的 Executive 与 Waitlist 例程贡献归于 J. Halcombe Laning。Adler 和 Don Eyles 等工程师参与了登月舱动力飞行软件；地面还需要能解读报警、判断任务状态的人。不同角色连起来，才构成最后那次判断的基础。
 
-在休斯敦，Jack Garman 向制导控制官 Steve Bales 提供了对报警的判断，信息再经过任务控制通信链传给机组。可以继续的依据，不是“相信电脑总会没事”，而是对报警类型、恢复机制和关键功能当前表现的理解。它也不代表所有报警都可以放任不管，或同一报警无论多密集都安全。
+在休斯敦，Jack Garman 向制导控制官 Steve Bales 提供了对报警的判断，信息再经过任务控制通信链传给机组。可以继续的依据是对报警类型、恢复机制和关键功能当前表现的理解，不能只靠“相信电脑总会没事”。它也不代表所有报警都可以放任不管，或同一报警无论多密集都安全。
 
 ![阿波罗11号任务结束时休斯敦任务控制室的全景](assets/08-mission-control.jpg)
 
@@ -169,6 +169,6 @@ print(one_cycle(35))
 
 阿波罗 11 号留下的启发，不是“只要有优先级，过载就不可怕”。它更具体，也更难：理解资源如何被消耗，识别故障如何传播，保住关键状态，安排可验证的恢复，并让人知道系统此刻还剩多少可信的能力。
 
-有时，一台计算机最重要的本领，不是永远不报警，而是在报警以后，仍然按照事先想清楚的规则工作。
+有时，一台计算机最重要的本领，是报警以后仍能按事先想清楚的规则工作。永远不报警不在此列。
 
 图片来源：[DSKY 实物](https://commons.wikimedia.org/wiki/File:Dsky.jpg)；[NASA 阿波罗 11 号任务报告，图 16-14](https://www.nasa.gov/wp-content/uploads/static/apollo50th/pdf/A11_MissionReport.pdf)；[汉密尔顿肖像](https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_1995.jpg)；[Garman 与 Kraft，NASA 历史通讯第 34 页](https://www.nasa.gov/wp-content/uploads/2023/01/NewsNotes-33-4-Winter-2016.pdf)；[任务控制室 S69-40301](https://commons.wikimedia.org/wiki/File:Mission_Operations_Control_Room_at_the_conclusion_of_Apollo_11.jpg)。其余图为本篇原创教学示意。参考阅读：[下降过程转录](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html)、[MIT 的 AGC 早期逻辑设计报告](https://web.mit.edu/digitalapollo/Documents/Chapter6/hopkinslogical.pdf)。本文采用 AI 辅助调研、撰写与编程制图。
