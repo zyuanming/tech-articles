@@ -593,7 +593,7 @@
     "date": "2026-10-10",
     "collection": "technology-history-explorations",
     "path": "articles/2026-10-10-hamming-correct-errors/read.md",
-    "public_sha256": "0641bc2ade49172fdd574cee92e87986d4b47258b29a5be58f779374adff329e",
+    "public_sha256": "e67ff13240b26fd847840ebf97f01e525130cdc1ce1b81f70450a48c1bcd68c9",
     "images": 7,
     "status": "archived_article",
     "related_versions": []
@@ -903,7 +903,7 @@
     "title": "不会乘法的机器，怎样算出 sin 30°",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-cordic-turns-and-shifts/read.md",
-    "public_sha256": "da186c1e78030008a5c9713a86b0bf91423d4ab1acaa4a82c14c6ce946c0d6b3",
+    "public_sha256": "3cc5ce60f8fd0e7c20c67200197a2b40cf2a5ef9d8bb6f296827a32d9689e0d3",
     "images": 18,
     "status": "archived_article",
     "related_versions": [],
@@ -1242,7 +1242,7 @@
     "title": "Bode 图：控制器为什么越帮越忙",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-bode-delay-feedback/read.md",
-    "public_sha256": "3f15812292d41cddd9b97c9bc90119c27278b59dc7036d148996843545fd0ea4",
+    "public_sha256": "bc549ac0c1f98a65eb1b7227ccc9efd792e5044d180760cb0bc4b17aa3b1d9f7",
     "images": 25
   },
   {
@@ -1452,7 +1452,7 @@
     "title": "计划了三步，为什么只走一步？MPC 怎样给未来留一条退路",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-mpc-plan-then-replan/read.md",
-    "public_sha256": "ce9299e46959aeb5a3a49a8a31871ad620f7a0f8073a36a589169e8500aa8f36",
+    "public_sha256": "0cc32fd70b8e69c3c967dc42a35eff6b2407d93ae3b4e5d6e0be32f826946e90",
     "images": 24
   },
   {
@@ -2204,7 +2204,7 @@
     "title": "共轭梯度：每一步都下坡，为什么还要记住上一步的方向？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-conjugate-gradient-directions/read.md",
-    "public_sha256": "d649ded0775fb6e3a4feb72b6e3de0e4959dc770e821de20b8cd1eea247f9364",
+    "public_sha256": "0cb13b803ec4fe8aca9c7d1b1710180c50898b2ed8f848e5a957fc22eba50fb3",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2434,7 +2434,7 @@
     "title": "三个数字，为什么比一个时间戳多知道这么多？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-vector-clock-causality/read.md",
-    "public_sha256": "0e48cc644cec47faaeb0083d70a80a497271e79cc7fdbf2d3205802b8da76a2d",
+    "public_sha256": "019bb5bdbb5d563da67eb6cef4b3115cb4f1e10ecd1b4f1a73aba9c646229a00",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2754,7 +2754,7 @@
     "title": "Babbage 差分机：数表怎样只用加法算出来？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-babbage-finite-differences/read.md",
-    "public_sha256": "2e15202a7b9103339941c0b0efc0ea512a625b0b4582f1fecf692fa96c935274",
+    "public_sha256": "0586dd4ce3de6bc34e7cb44d00240e77d086255bf4e6c856d93a29c9509d048e",
     "images": 11,
     "status": "archived_article",
     "related_versions": []
@@ -2964,7 +2964,7 @@
     "title": "Sagnac 效应：两束光绕同一个圈，为什么能测出转动？",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-sagnac-rotation-light/read.md",
-    "public_sha256": "55fda352c46252710a0a1ebb47516d5f2db61eee12fea556e9a77507727d3335",
+    "public_sha256": "5749d7f099f7ac2ee2c075c7ca2925fa174c87544416c8501bc09e2420eaf076",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3014,7 +3014,7 @@
     "title": "令牌桶：平均每秒两份，却能一次放行六份",
     "date": "2026-10-25",
     "path": "articles/2026-10-25-r1-token-bucket-bursts/read.md",
-    "public_sha256": "3727820bb917f29bb8749b21d468a3fe60589d169187bf0c6bc8a3a325406d2e",
+    "public_sha256": "ac7b75f2ef8e0b475e6eede16b952ce4a4218ef58f99a8e0de67af84d75b6070",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
