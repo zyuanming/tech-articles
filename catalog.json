@@ -873,7 +873,7 @@
     "title": "Bresenham：画一条直线为什么只要加减法",
     "date": "2026-10-11",
     "path": "articles/2026-10-11-bresenham-error-ledger/read.md",
-    "public_sha256": "2958401e33b72504a49f872b541c382149d24b13561d74cff0203753d4e74331",
+    "public_sha256": "c37529f3aec075c931cb91284b5c7ee5123a18cb2e990913a2e0fbf94c1a22e0",
     "images": 24
   },
   {
@@ -1102,7 +1102,7 @@
     "date": "2026-10-11",
     "collection": "student-depth",
     "path": "articles/2026-10-11-rsa-modular-keys/read.md",
-    "public_sha256": "146ca8816abe34cc6c4468e1e086aeaae7427237c6ad4ec4e09089482d0b280b",
+    "public_sha256": "d137ded750eec08b233cf317995fa81659f1fff572b92aeaefeef09fd035e32d",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
@@ -2674,7 +2674,7 @@
     "title": "有序链表加几层捷径，怎样少走路又容易插入？",
     "date": "2026-10-24",
     "path": "articles/2026-10-24-skip-list-express-lanes/read.md",
-    "public_sha256": "e183f5c73bd6cbd741f02935984fece3b6538febbfbc0598c0a65268fc1c7dc3",
+    "public_sha256": "b4c4721fe4394641831469f50edaaec37f78f99ae70277260cf163f2887eb27b",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -3184,7 +3184,7 @@
     "title": "CRC-32：32 位为什么刚好够用",
     "date": "2026-11-23",
     "path": "articles/2026-11-23-crc32-error-detection/read.md",
-    "public_sha256": "8151007630e7e2cf6ecf9c0428a0212ce3adb0cb1c62b9a3ebbead2972f00ec9",
+    "public_sha256": "2df698166e7e9f6f0c721a4f85ba9d2d999c6d0c10f03bee1fb23d75bc83f608",
     "images": 20,
     "status": "archived_article",
     "related_versions": []
@@ -3294,7 +3294,7 @@
     "title": "一个 0.0001 的主元，把答案带偏了一倍",
     "date": "2027-02-08",
     "path": "articles/2027-02-08-gaussian-pivoting/read.md",
-    "public_sha256": "87983e66a932cfca935db81b6db0c794068c895886adbddd3d26be09f4edcb6c",
+    "public_sha256": "a9383c9c2c86994a92da808ee2936a12139c409c78db8f26d231d80729b0e9f5",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3334,7 +3334,7 @@
     "title": "A* 为什么会白忙一场",
     "date": "2027-03-08",
     "path": "articles/2027-03-08-astar-heuristic/read.md",
-    "public_sha256": "a7311dffa661bc086f893edd440ebb2e8d62376d81f6fdba9a6ee6f2d315ca87",
+    "public_sha256": "18ec044163ce30a6aa7d6fc9cca3eacb17729b50cf158b2c6a41fd69c447a351",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
