@@ -2384,7 +2384,7 @@
     "title": "Robin Hood 哈希：把住得近的键请走，为什么查找反而更稳？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-robin-hood-probing/read.md",
-    "public_sha256": "7458c27ddddad37437dfba2d5d627527fcf22eb1bcefb09356665b2daab56c54",
+    "public_sha256": "c7efbb386085cb5fd699eb02e33dd6b533dadc3557b6ce56a5b2ec9514c46287",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -2424,7 +2424,7 @@
     "title": "Treap：给搜索树一副骰子，为什么反而不容易长歪？",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-treap-random-priorities/read.md",
-    "public_sha256": "834cfdaf7d69a449277fee41aeb0f2a7799c7c3dfdb5ac0a9969b713b495b46b",
+    "public_sha256": "f45c9de97dfc86c0214e51114984423d1a5eb51bbdcbe34af59b34af9fcfd15e",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -3164,7 +3164,7 @@
     "title": "一位 DAC：把声音存进密度里",
     "date": "2026-11-16",
     "path": "articles/2026-11-16-delta-sigma-one-bit/read.md",
-    "public_sha256": "b2898a3f4e991e1bde19393bb07f069fe11363bd1009e7bc18484f11db9a806d",
+    "public_sha256": "545ca20e15e9c3c8353be15ac7b245e02515ccb5a464293bfe8e1bf447d029f0",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3214,7 +3214,7 @@
     "title": "一个 16 位小数能装下多少误差",
     "date": "2026-12-14",
     "path": "articles/2026-12-14-q15-fixed-point/read.md",
-    "public_sha256": "8d16d2d7b3d3190beb4401922c2474096f498e759f8025374d67bcd587b32e5e",
+    "public_sha256": "48cf6013e89db842d412e9c1547395f9f1f28423404920024bda4b905ad8c071",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3234,7 +3234,7 @@
     "title": "两根线怎么谈出 240 W",
     "date": "2026-12-28",
     "path": "articles/2026-12-28-usb-c-power-delivery/read.md",
-    "public_sha256": "a270a4266788f36a858a9df62a4a8ce23149006da043b756f492081c4f3983bc",
+    "public_sha256": "98e8f59b6065bb21140300e2bbc4961566b4f3c9df7f2d5f8ebcb3c5611b561e",
     "images": 18,
     "status": "archived_article",
     "related_versions": []
@@ -3304,7 +3304,7 @@
     "title": "九成满的表，查不到要走 56 步",
     "date": "2027-02-15",
     "path": "articles/2027-02-15-linear-probing/read.md",
-    "public_sha256": "e018cf55ec527f40bfa563c41b0643092727f828410f89e264ccfd3272b58372",
+    "public_sha256": "7c3a825b1ee33177fbf688205983ad2275ad172f0d268e0dafc8186b42d1c0d8",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
@@ -3314,7 +3314,7 @@
     "title": "同样的跳跃，30 帧跳矮了 13 厘米",
     "date": "2027-02-22",
     "path": "articles/2027-02-22-fixed-timestep/read.md",
-    "public_sha256": "55c3bb8b42d5a8ea08b0f1e582204a800eab2b48bd706300073211f191cdf43f",
+    "public_sha256": "3b426e06a9e66eb8ca0b9870b961fdea2fe0d811926a14774d5e9a33911d5f0c",
     "images": 13,
     "status": "archived_article",
     "related_versions": []
@@ -3344,7 +3344,7 @@
     "title": "深度缓冲只记得住 48 厘米",
     "date": "2027-03-15",
     "path": "articles/2027-03-15-reversed-z-depth/read.md",
-    "public_sha256": "6ff3a4a1aac7d9b5de49349fabeaba3245b87b5068bcbcd0060e1ecbd40f3042",
+    "public_sha256": "5bbd2d70d799fa64262960573fb6a5f6d85e8a19bb0bf2ec8da447ffaff29124",
     "images": 12,
     "status": "archived_article",
     "related_versions": []
