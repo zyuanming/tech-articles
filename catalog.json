@@ -1368,7 +1368,7 @@
     "title": "Fenwick 树：改一个数为什么不用重算",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-fenwick-binary-ledger/read.md",
-    "public_sha256": "13fb2d2d8047928fd7231549283d56616a217d19798f58085ebab1ae4d083c19",
+    "public_sha256": "d3477e524cfc11cebb8595f77d78f328a809218642a61e288b5b25d1993c5391",
     "images": 25
   },
   {
@@ -1737,7 +1737,7 @@
     "title": "旋钮只走一格，读数为什么跳了四格？Gray 码给现实留出的余地",
     "date": "2026-10-13",
     "path": "articles/2026-10-13-gray-code-one-bit/read.md",
-    "public_sha256": "e0d9985ce153c42bed18e94342843e6bc034d345544f11e49f9b2d89c718112d",
+    "public_sha256": "0c720f3533e3eb362c1e15d4881ebb09f620d8e711152fee645b5026d3d7fcbe",
     "images": 28
   },
   {
@@ -1933,7 +1933,7 @@
     "title": "一堆点里混了干扰，程序怎样找出直线？",
     "date": "2026-10-14",
     "path": "articles/2026-10-14-ransac-find-line/read.md",
-    "public_sha256": "9b50c98bd5107324941c26125fb713114a5916a5a6f4c0763382c7c09772aa3c",
+    "public_sha256": "cb9fad9d9d3f6a710ead369265f1d4c8355c99d8cafc3932b836ef012f9ce69e",
     "images": 14,
     "status": "archived_article",
     "related_versions": [],
@@ -2404,7 +2404,7 @@
     "title": "一张矩阵，怎样拆成一层层有用的结构？从方格到奇异值分解",
     "date": "2026-10-23",
     "path": "articles/2026-10-23-svd-low-rank/read.md",
-    "public_sha256": "c834394223b7b9990f4ae103cf7ce6dc0336bcf10ea694841fa947443be375be",
+    "public_sha256": "c86c142af541885a03f0e97e2f3e8cb88177a7bf9f2a081b94708cdf8d0bd492",
     "images": 16,
     "status": "archived_article",
     "related_versions": []
@@ -3104,7 +3104,7 @@
     "title": "回头看一眼就能省一半：LZ77 的滑动窗口",
     "date": "2026-11-02",
     "path": "articles/2026-11-02-lz77-sliding-window/read.md",
-    "public_sha256": "8d0c8f9d55fedce51bc8e224234337a8a23e3f7a07e456f238060ce3e1bf8ce6",
+    "public_sha256": "c37284c8d13476e63999958478618b0aaa1c5636e89690e2dba8a1f828336eae",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3264,7 +3264,7 @@
     "title": "加一台机器，90.9% 的 key 都搬了家",
     "date": "2027-01-18",
     "path": "articles/2027-01-18-consistent-hashing/read.md",
-    "public_sha256": "6d9f0fd24c4256850f2bc22766bf82aaf8e1dc8580e85c07c09785cd157becb9",
+    "public_sha256": "88142f84d42e70580eca5e4aba823485c973d201f222c7387d7b2f6e5be92c45",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3284,7 +3284,7 @@
     "title": "一条正则，怎么把 CPU 吃光",
     "date": "2027-02-01",
     "path": "articles/2027-02-01-regex-backtracking/read.md",
-    "public_sha256": "a5bb24d9fe4c2a3e155b26628efece0412a7e9bfc29e85051a95e83534d3db73",
+    "public_sha256": "f292848634348769b416cfcba42fc52ad8d4c391c2a39fdd99cda4f0e7241797",
     "images": 19,
     "status": "archived_article",
     "related_versions": []
@@ -3364,7 +3364,7 @@
     "title": "一条斜线里，半个像素算谁的",
     "date": "2027-03-29",
     "path": "articles/2027-03-29-bresenham-line/read.md",
-    "public_sha256": "e5e324fd44fecd3e94dd5cfe941c7ff3ec5b0aad1ec0d10bf28849a65badc918",
+    "public_sha256": "729c516931bc72ccea66158016d0c4e7674734097f1b5d20377824e82d994ee8",
     "images": 10,
     "status": "archived_article",
     "related_versions": []
