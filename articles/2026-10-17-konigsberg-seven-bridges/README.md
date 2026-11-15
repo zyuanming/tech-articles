@@ -1,4 +1,4 @@
-# # 七座桥，为什么一座都走不通？
+# 七座桥，为什么一座都走不通？
 
 正文：[read.md](read.md)。来源与许可：[sources.md](sources.md)。
 
