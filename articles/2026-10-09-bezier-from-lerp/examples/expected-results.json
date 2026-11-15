@@ -1,0 +1,80 @@
+{
+  "environment": {
+    "python": "3.15.2",
+    "libraries": "仅在标准库内实现"
+  },
+  "points": {
+    "p0": [
+      0.0,
+      0.0
+    ],
+    "p1": [
+      2.0,
+      4.0
+    ],
+    "p2": [
+      6.0,
+      0.0
+    ]
+  },
+  "t_half": {
+    "casteljau": {
+      "t": 0.5,
+      "a": [
+        1.0,
+        2.0
+      ],
+      "b": [
+        4.0,
+        2.0
+      ],
+      "c": [
+        2.5,
+        2.0
+      ]
+    },
+    "polynomial": {
+      "t": 0.5,
+      "weights": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "weight_sum": 1.0,
+      "point": [
+        2.5,
+        2.0
+      ]
+    },
+    "coordinates_agree": true
+  },
+  "dt_equals_dp": {
+    "note": "t 均匀走，弧长不保证均匀：0→0.25 与 0.25→0.5 的弦长比较",
+    "chord_0_025": 1.875,
+    "chord_025_05": 1.4630874888399532
+  },
+  "mixed_ratio": {
+    "note": "第三次换比例就离开同一条曲线",
+    "point": [
+      3.25,
+      2.0
+    ],
+    "on_curve": false
+  },
+  "hull": {
+    "curve_samples": 101,
+    "all_inside": true
+  },
+  "svg": {
+    "command": "Q 2 4 6 0",
+    "control": [
+      2.0,
+      4.0
+    ],
+    "end": [
+      6.0,
+      0.0
+    ],
+    "matches_article_points": true
+  }
+}
