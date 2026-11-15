@@ -4,7 +4,7 @@
 
 多等一会儿，你会发现摆球经过的方向变了：最初朝着这个刻度，后来却对准了另一个。这叫傅科摆。它最有名的本领，是让我们不用望远镜、不看太阳星星，也能在室内观察到地球自转的效果。
 
-![巴黎先贤祠中的傅科摆与地面刻度](assets/pantheon-pendulum.jpg)
+![巴黎先贤祠中的傅科摆与地面刻度](originals/photos/pantheon-pendulum.jpg)
 
 这张照片拍于巴黎先贤祠。地面刻度提供了一个固定在建筑物上的参照；摆球相对这些刻度的变化，才是我们要追踪的线索。
 
@@ -50,11 +50,11 @@
 
 1851 年，法国物理学家莱昂·傅科在巴黎展示了这个实验。新南威尔士大学物理教学资料记载，他在先贤祠穹顶下悬挂了一根约 67 米长的线，以及约 28 千克的摆球。
 
-![莱昂·傅科的历史肖像](assets/leon-foucault.jpg)
+![莱昂·傅科的历史肖像](originals/photos/leon-foucault.jpg)
 
 这是莱昂·傅科的历史肖像版画，来自 1878 年出版的文集图像，不是实验现场照片。傅科摆以他命名，但现代博物馆里的装置也有自己的结构和维护设计。
 
-![巴黎先贤祠的穹顶内部，展示长摆所依托的建筑空间](assets/pantheon-hall.jpg)
+![巴黎先贤祠的穹顶内部，展示长摆所依托的建筑空间](originals/photos/pantheon-hall.jpg)
 
 长线首先使摆的节奏变慢。同样不大的左右位移，对于长摆来说，对应的摆角更小，更接近我们刚才讨论的理想小振幅条件。更大的装置也让持续观察方向变化更方便。人们需要的是一个能摆足够久、支点稳定、不同方向尽量对称的系统，才能把地球引起的慢变化，从其他小干扰里分出来。
 
@@ -90,4 +90,4 @@
 
 下次经过博物馆的一颗摆球，可以先选定一个地面标记，再隔一段时间回来比较。不要碰摆线、越过护栏，也别只追着球来回看。有意思的变化往往不在球走到了哪里：你脚下那个看似不动的世界，已经悄悄换了方向。
 
-图片来源：[先贤祠摆球与刻度](https://commons.wikimedia.org/wiki/File:Pendule_de_Foucault.jpg)，Arnaud 25，作者释入公有领域；[先贤祠穹顶](https://commons.wikimedia.org/wiki/File:Panth%C3%A9on_-_coupole.jpg)，Marianne Casamance，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)；[傅科历史肖像](https://commons.wikimedia.org/wiki/File:Portrait_Leon_Foucault_1860.jpg)，作者不详，1878 年文集收录，公有领域。以上画面未裁改；其余为原创教学示意。科学说明参考 [Smithsonian](https://www.si.edu/spotlight/foucault-pendulum) 与 [UNSW Physics](https://animations.physics.unsw.edu.au/jw/foucault_pendulum.html)。
+图片来源：[先贤祠摆球与刻度](https://commons.wikimedia.org/wiki/File:Pendule_de_Foucault.jpg)，Arnaud 25，作者释入公有领域；[先贤祠穹顶](https://commons.wikimedia.org/wiki/File:Panth%C3%A9on_-_coupole.jpg)，Marianne Casamance，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)；[傅科历史肖像](https://commons.wikimedia.org/wiki/File:Portrait_Leon_Foucault_1860.jpg)，作者不详，1878 年文集收录，公有领域。以上画面未裁改，字节未改动的原图存于 originals/photos/；其余为原创教学示意。科学说明参考 [Smithsonian](https://www.si.edu/spotlight/foucault-pendulum) 与 [UNSW Physics](https://animations.physics.unsw.edu.au/jw/foucault_pendulum.html)。

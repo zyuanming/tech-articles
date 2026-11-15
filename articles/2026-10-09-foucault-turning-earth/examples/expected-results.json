@@ -1,0 +1,81 @@
+{
+  "environment": {
+    "python": "3.15.2",
+    "libraries": "math/json"
+  },
+  "constants": {
+    "sidereal_day_seconds": 86164.0905,
+    "earth_rate_deg_per_hour": 15.0411,
+    "g": 9.81
+  },
+  "note": "理想小振幅模型：速率≈自转速率×|sin φ|，不含有限摆幅、椭圆轨道等修正",
+  "sites": [
+    {
+      "name": "北极",
+      "latitude": 90,
+      "hemisphere": "北",
+      "sin_abs_latitude": 1.0,
+      "rate_deg_per_hour": 15.04,
+      "period_hours": 23.93,
+      "period": {
+        "hours": 23.93,
+        "hhmm": "23 小时 56 分"
+      }
+    },
+    {
+      "name": "巴黎",
+      "latitude": 49,
+      "hemisphere": "北",
+      "sin_abs_latitude": 0.754709580222772,
+      "rate_deg_per_hour": 11.35,
+      "period_hours": 31.71,
+      "period": {
+        "hours": 31.71,
+        "hhmm": "31 小时 43 分"
+      }
+    },
+    {
+      "name": "北纬30°",
+      "latitude": 30,
+      "hemisphere": "北",
+      "sin_abs_latitude": 0.49999999999999994,
+      "rate_deg_per_hour": 7.52,
+      "period_hours": 47.87,
+      "period": {
+        "hours": 47.87,
+        "hhmm": "47 小时 52 分"
+      }
+    },
+    {
+      "name": "赤道",
+      "latitude": 0,
+      "hemisphere": "—",
+      "sin_abs_latitude": 0.0,
+      "rate_deg_per_hour": 0.0,
+      "period_hours": null,
+      "period": {
+        "hours": null,
+        "hhmm": "不适用（速率恰为零）"
+      }
+    },
+    {
+      "name": "悉尼",
+      "latitude": 34,
+      "hemisphere": "南",
+      "sin_abs_latitude": 0.5591929034707469,
+      "rate_deg_per_hour": 8.41,
+      "period_hours": 42.8,
+      "period": {
+        "hours": 42.8,
+        "hhmm": "42 小时 48 分"
+      }
+    }
+  ],
+  "pendulum": {
+    "length_m": 67,
+    "period_seconds": 16.42,
+    "mass_kg": 28,
+    "mass_in_period": false,
+    "note": "28 千克只影响实际装置的干扰与控制，不进入周期公式"
+  }
+}

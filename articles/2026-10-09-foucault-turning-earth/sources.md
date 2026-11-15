@@ -5,6 +5,10 @@
 ## 图片署名与许可
 
 - 先贤祠穹顶：Marianne Casamance，CC BY-SA 3.0；摆球照片：Arnaud 25，公有领域；Foucault历史版画：作者不详，1878年文集，按来源公有领域标记。
+  三张照片字节未改动，存于 `originals/photos/`，均与 Commons 原件 SHA-1 一致：
+  - pantheon-pendulum.jpg，1024×768，400,281 bytes，SHA-1 b35b0dae63b7778bc2e11fb2037d62dfc6496a1a
+  - pantheon-hall.jpg，3000×4000，2,286,559 bytes，SHA-1 4b745c5004c0a8e7b8e46eb7beb32da87e92a527
+  - leon-foucault.jpg，1024×1395，468,152 bytes，SHA-1 a1e439747a51b8821d7d5b7db536be5b5dce4a91
 
 ### 第三方CC BY-SA素材范围
 
