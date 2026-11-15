@@ -1,0 +1,106 @@
+{
+  "environment": {
+    "python": "3.15.2",
+    "libraries": "仅标准库"
+  },
+  "setup": {
+    "acceleration": 10.0,
+    "total_seconds": 1.0
+  },
+  "exact": {
+    "position": 5.0,
+    "velocity": 10.0
+  },
+  "euler": {
+    "1": {
+      "steps": 1,
+      "dt": 1.0,
+      "position": 0.0,
+      "velocity": 10.0
+    },
+    "2": {
+      "steps": 2,
+      "dt": 0.5,
+      "position": 2.5,
+      "velocity": 10.0
+    },
+    "10": {
+      "steps": 10,
+      "dt": 0.1,
+      "position": 4.500000000000001,
+      "velocity": 10.0
+    }
+  },
+  "euler_errors": {
+    "1": 5.0,
+    "2": 2.5,
+    "10": 0.5
+  },
+  "error_rule": {
+    "per_step": 0.05,
+    "total_for_ten_steps": 0.5
+  },
+  "accumulator": {
+    "step_ms": 10,
+    "elapsed_ms": [
+      6,
+      13,
+      8,
+      23
+    ],
+    "rows": [
+      {
+        "render": 1,
+        "elapsed": 6,
+        "steps": 0,
+        "simulated_ms_changed": 0,
+        "pending_ms": 6
+      },
+      {
+        "render": 2,
+        "elapsed": 13,
+        "steps": 1,
+        "simulated_ms_changed": 10,
+        "pending_ms": 9
+      },
+      {
+        "render": 3,
+        "elapsed": 8,
+        "steps": 1,
+        "simulated_ms_changed": 10,
+        "pending_ms": 7
+      },
+      {
+        "render": 4,
+        "elapsed": 23,
+        "steps": 3,
+        "simulated_ms_changed": 30,
+        "pending_ms": 0
+      }
+    ],
+    "total_elapsed_ms": 50,
+    "total_steps": 5
+  },
+  "interpolation_ms": {
+    "pending_ms": 7,
+    "alpha": 0.7,
+    "display_px": 1.7,
+    "display_time_ms": 17.0,
+    "latest_state_ms": 20,
+    "real_ms": 27,
+    "display_lag_ms": 10.0,
+    "latest_lag_ms": 7
+  },
+  "article_snippet": [
+    "0 0 6",
+    "1 10 9",
+    "1 20 7",
+    "3 50 0"
+  ],
+  "spiral": {
+    "cost_ms": 12,
+    "step_ms": 10,
+    "debt_ms_per_step": 2,
+    "steps_per_second_of_reality": 300
+  }
+}
