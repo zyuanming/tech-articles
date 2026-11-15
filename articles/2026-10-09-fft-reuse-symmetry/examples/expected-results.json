@@ -1,0 +1,138 @@
+{
+  "environment": {
+    "python": "3.15.2",
+    "libraries": "cmath/json/math/platform"
+  },
+  "walkthrough": {
+    "input": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "even": [
+      1.0,
+      3.0
+    ],
+    "odd": [
+      2.0,
+      4.0
+    ],
+    "even_dft": [
+      [
+        4.0,
+        0.0
+      ],
+      [
+        -2.0,
+        0.0
+      ]
+    ],
+    "odd_dft": [
+      [
+        6.0,
+        0.0
+      ],
+      [
+        -2.0,
+        0.0
+      ]
+    ],
+    "weight_k1": [
+      0.0,
+      -1.0
+    ],
+    "stitched": [
+      [
+        10.0,
+        0.0
+      ],
+      [
+        -2.0,
+        2.0
+      ],
+      [
+        -2.0,
+        0.0
+      ],
+      [
+        -2.0,
+        -2.0
+      ]
+    ],
+    "matches_direct_dft": true
+  },
+  "templates": {
+    "signal": [
+      1.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "matched": [
+      1.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "matched_sum": 2.0,
+    "alternating": [
+      1.0,
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    "alternating_sum": 0.0
+  },
+  "consistency": {
+    "input": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0
+    ],
+    "max_abs_diff_dft_vs_fft": 2.828607737245324e-14,
+    "multiplications_for_8_points": 12
+  },
+  "work": {
+    "8": {
+      "direct_products": 64,
+      "layers": 3,
+      "log2_exact": true,
+      "butterfly_multiplications_exact": 12,
+      "butterfly_additions": 24,
+      "formula_multiplications": 12
+    },
+    "1024": {
+      "direct_products": 1048576,
+      "layers": 10,
+      "log2_exact": true,
+      "butterfly_multiplications_exact": 5120,
+      "butterfly_additions": 10240,
+      "formula_multiplications": 5120
+    }
+  },
+  "counted_multiplications_1024": 5120,
+  "output_of_readme_example": [
+    [
+      10.0,
+      0.0
+    ],
+    [
+      -2.0,
+      2.0
+    ],
+    [
+      -2.0,
+      0.0
+    ],
+    [
+      -2.0,
+      -2.0
+    ]
+  ]
+}

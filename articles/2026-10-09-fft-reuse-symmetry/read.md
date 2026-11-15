@@ -89,7 +89,7 @@ for z in fft([1, 2, 3, 4]):
 
 Garwin 最初向 Cooley 描述的任务涉及氦-3 中自旋排列的三维变换。回顾文章同时说明，他还关心利用地震信号监测核试验所需的大量频谱计算。把这段历史缩成“为了某一个目的，两个人突然发明 FFT”，会漏掉应用需求、推广者和已有数学之间的联系。
 
-![IBM Thomas J. Watson研究中心入口](assets/watson-center.jpg)
+![IBM Thomas J. Watson研究中心入口](originals/photos/watson-center.jpg)
 *纽约州 Yorktown Heights 的 IBM Thomas J. Watson 研究中心，照片摄于 2010 年。这是后来拍摄的建筑实景，不是 1960 年代算法开发现场。*
 
 更有意思的是，论文发表后，人们陆续找到了更早的相关工作，包括 Danielson 与 Lanczos 的方法，以及高斯遗稿中的线索。Cooley 在[1987 年的亲历回顾](https://archive.computerhistory.org/resources/access/text/2024/06/102739347-05-0002-acc.pdf#page=114)里特别强调，算法传播跨过学科边界，才让许多人意识到它能解决自己手头的计算瓶颈。
@@ -105,4 +105,4 @@ Garwin 最初向 Cooley 描述的任务涉及氦-3 中自旋排列的三维变�
 
 另外，录音只截取有限时长，频率也未必刚好落在分析格点上，结果可能散到相邻频率位置。这类问题涉及采样、观察窗口和信号本身，不是“把算法换快一点”就会消失。FFT 真正了不起的地方，是在问题和答案都不变时，找到一种不重复劳动的计算秩序。它没有让声音变简单，而是让电脑不必为同一份结构付很多次钱。
 
-<small>图片来源：研究中心实景为 [Chris Samuel / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_Thomas_J_Watson_Research_Laboratory_and_outside_entrance.jpg)，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，原图未修改。其余为本文原创教学图。</small>
+<small>图片来源：研究中心实景为 [Chris Samuel / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:IBM_Thomas_J_Watson_Research_Laboratory_and_outside_entrance.jpg)，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，字节未改动的原图存于 originals/photos/。其余为本文原创教学图。</small>

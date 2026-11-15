@@ -4,7 +4,7 @@
 
 ## 图片署名与许可
 
-- IBM Watson研究中心照片：Chris Samuel，2010，CC BY 2.0；原图未修改。
+- IBM Watson研究中心照片：Chris Samuel，2010，CC BY 2.0。原图未修改：originals/photos/watson-center.jpg，1280×961，148,655 bytes，SHA-256 7c5ad12495325a02baa9e6e07b6009abde66afc556f47f6d8bb4a1dd5d127e69，与 Commons 原件 SHA-1 5e7ce252d12db37450d8e70b3affeebd55a641be 一致。
 
 ## 参考来源
 
