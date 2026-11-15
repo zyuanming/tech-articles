@@ -153,7 +153,7 @@
     "date": "2026-10-09",
     "collection": "explainers",
     "path": "articles/2026-10-09-bezier-from-lerp/read.md",
-    "public_sha256": "03f433e515579a319ec3427c7d08d78bce2c40ec4d2efd2d54fe65e193fdbe02",
+    "public_sha256": "a57546c25eafe16fdb375b8bf41150235b0118c839408169b09a72bdd54ad095",
     "images": 8,
     "status": "archived_article",
     "related_versions": [
@@ -212,7 +212,7 @@
     "date": "2026-10-09",
     "collection": "explainers",
     "path": "articles/2026-10-09-fft-reuse-symmetry/read.md",
-    "public_sha256": "57ce773d6c9d1b921c40304e6ef6c433f0e5caf1c568b86088b2d0183cb7ebe9",
+    "public_sha256": "9d1e1b181a680159a716d5beb6ab231aae64017ec67ea819a893f4ed589e7001",
     "images": 7,
     "status": "archived_article",
     "related_versions": [
@@ -238,7 +238,7 @@
     "date": "2026-10-09",
     "collection": "student-explorations",
     "path": "articles/2026-10-09-foucault-turning-earth/read.md",
-    "public_sha256": "31b7b346ae41b43116fa06f35b401a16a3e5710f10f35bd49d285ec4c1d5ae3d",
+    "public_sha256": "b0a673f591ae6e5f8853d79d805a11a6161988d74c63d91be90b7836d4b62867",
     "images": 9,
     "status": "archived_article",
     "related_versions": []

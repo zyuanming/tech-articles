@@ -310,6 +310,11 @@
     "sha256": "76525cdd65264f2dbfb47b0cb556465fec9bb420e39eef6d60708585536257ab"
   },
   {
+    "path": "articles/2026-10-09-bezier-from-lerp/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
     "path": "articles/2026-10-09-bezier-from-lerp/assets/convex-hull.png",
     "bytes": 47066,
     "sha256": "f7be12f1770ca29f873266a1d54b8692d1a2b105b5464a9b1fec884c77a329bd"
@@ -348,6 +353,31 @@
     "path": "articles/2026-10-09-bezier-from-lerp/assets/w3c-quad01.png",
     "bytes": 57457,
     "sha256": "69d2b5c79ddc779eafc1380214e39028b9b22941023e1b25d7a51f2de4117ee8"
+  },
+  {
+    "path": "articles/2026-10-09-bezier-from-lerp/examples/casteljau.py",
+    "bytes": 4002,
+    "sha256": "6de312e780dbfc8194aa9e9bb0a8caeb09e308cba5c0c0626479b694006aebbb"
+  },
+  {
+    "path": "articles/2026-10-09-bezier-from-lerp/examples/expected-results.json",
+    "bytes": 1212,
+    "sha256": "2c32140425cde0907b61beb95566148589225004ab3ab88921fadddfc8340601"
+  },
+  {
+    "path": "articles/2026-10-09-bezier-from-lerp/originals/w3c-cubic01.svg",
+    "bytes": 1819,
+    "sha256": "7fc7029447fd34f7005a1935fc76734ba4184c019668e7fee41beb83348b75cb"
+  },
+  {
+    "path": "articles/2026-10-09-bezier-from-lerp/originals/w3c-cubic02.svg",
+    "bytes": 4292,
+    "sha256": "4ad15bf6d09f318a380202a9d0e313974f52cde1c6f5747ac13dfdddd5df5e86"
+  },
+  {
+    "path": "articles/2026-10-09-bezier-from-lerp/originals/w3c-quad01.svg",
+    "bytes": 1033,
+    "sha256": "2f542b74ab59f6c769754f11f5f78a94b2bf5abf1448aec7b2269408bf15ac0b"
   },
   {
     "path": "articles/2026-10-09-core-memory-woven-bits/assets/bit-plane-stack.png",
@@ -560,6 +590,11 @@
     "sha256": "f44584ee063816e682b651eacbca1e1efea7b5c4a2b923d0c95b1f06154260a8"
   },
   {
+    "path": "articles/2026-10-09-fft-reuse-symmetry/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
     "path": "articles/2026-10-09-fft-reuse-symmetry/assets/aliasing.png",
     "bytes": 68690,
     "sha256": "070e0d2623ba950122a9069fe6971eda3b8ca9203eacfe5c12f9905246f9c237"
@@ -585,14 +620,29 @@
     "sha256": "412c250494627f95ac121bd3865c967c074b3d6ff9f85867e30ddaadd4795f52"
   },
   {
-    "path": "articles/2026-10-09-fft-reuse-symmetry/assets/watson-center.jpg",
+    "path": "articles/2026-10-09-fft-reuse-symmetry/assets/work-growth.png",
+    "bytes": 103205,
+    "sha256": "eb71b9a2511658b943abc459eba3e753617b5b443c0abfd6b0e3b78392c1afc0"
+  },
+  {
+    "path": "articles/2026-10-09-fft-reuse-symmetry/examples/butterfly.py",
+    "bytes": 4955,
+    "sha256": "85f84440dd4569e935a5032dfbd88276b86b99154f99d7efea30c210096bd933"
+  },
+  {
+    "path": "articles/2026-10-09-fft-reuse-symmetry/examples/expected-results.json",
+    "bytes": 1928,
+    "sha256": "29eb33b8fb15e2ceb29cd1aa1dfbe57f7d708d15ef6d5be1b322f1b572b642f0"
+  },
+  {
+    "path": "articles/2026-10-09-fft-reuse-symmetry/originals/photos/watson-center.jpg",
     "bytes": 148655,
     "sha256": "7c5ad12495325a02baa9e6e07b6009abde66afc556f47f6d8bb4a1dd5d127e69"
   },
   {
-    "path": "articles/2026-10-09-fft-reuse-symmetry/assets/work-growth.png",
-    "bytes": 103205,
-    "sha256": "eb71b9a2511658b943abc459eba3e753617b5b443c0abfd6b0e3b78392c1afc0"
+    "path": "articles/2026-10-09-fixed-timestep-two-clocks/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
   },
   {
     "path": "articles/2026-10-09-fixed-timestep-two-clocks/assets/accumulator.png",
@@ -620,6 +670,21 @@
     "sha256": "92a05889bea364a4677efe67e13dbb5f01098f6602d9cecb6db51e09778653e6"
   },
   {
+    "path": "articles/2026-10-09-fixed-timestep-two-clocks/examples/expected-results.json",
+    "bytes": 1844,
+    "sha256": "0a1808204b3a59d3393439bd24c79169c0573ed4cae5493150b00ff1abb64f08"
+  },
+  {
+    "path": "articles/2026-10-09-fixed-timestep-two-clocks/examples/step_clocks.py",
+    "bytes": 5368,
+    "sha256": "94fdf43aff83a6c8cbab41bf6a9a0dba213ef879a4e82376f7f6c9627c04fef9"
+  },
+  {
+    "path": "articles/2026-10-09-foucault-turning-earth/LICENSE-CODE.txt",
+    "bytes": 1066,
+    "sha256": "7e54e738e47aa7a8e48fb344bbcc1a1cfe70f7cb650db5109c0a5d45404085e1"
+  },
+  {
     "path": "articles/2026-10-09-foucault-turning-earth/assets/energy-and-errors.png",
     "bytes": 113356,
     "sha256": "067a18e3741759265970c74379cb53a4c022481cdd1480f5650fe5846e676ed8"
@@ -635,24 +700,9 @@
     "sha256": "6447018982de9f00b4b8f205189f8c7076fdb234bbbda588636fbf7869844672"
   },
   {
-    "path": "articles/2026-10-09-foucault-turning-earth/assets/leon-foucault.jpg",
-    "bytes": 468152,
-    "sha256": "491133edc1673e56f0a42f9e0edac1d8fa6b4a00e18b049c65eb27aaa6494fa0"
-  },
-  {
     "path": "articles/2026-10-09-foucault-turning-earth/assets/north-pole-reference.png",
     "bytes": 97778,
     "sha256": "d961c8f722a36bd6b5efd81777de7ec55aa2da87ba7ea18d215829ce5dced20a"
-  },
-  {
-    "path": "articles/2026-10-09-foucault-turning-earth/assets/pantheon-hall.jpg",
-    "bytes": 2286559,
-    "sha256": "f24c419afec87fa64fbe1c188baee207b29a94e1c62b4f82998c43053d482a6b"
-  },
-  {
-    "path": "articles/2026-10-09-foucault-turning-earth/assets/pantheon-pendulum.jpg",
-    "bytes": 400281,
-    "sha256": "424688c7bf20e21f0946984002c1f5d86d85cde05a33dab035c99cb4dcfd147a"
   },
   {
     "path": "articles/2026-10-09-foucault-turning-earth/assets/paper-reference-experiment.png",
@@ -663,6 +713,31 @@
     "path": "articles/2026-10-09-foucault-turning-earth/assets/two-timescales.png",
     "bytes": 78596,
     "sha256": "1e43f8c87c02f9fa47368e2f334227678b4972b74b95c9bb3055547453d191cd"
+  },
+  {
+    "path": "articles/2026-10-09-foucault-turning-earth/examples/expected-results.json",
+    "bytes": 1911,
+    "sha256": "96898536282e201bef3496a1f89ba2782824d8b0c0edbebb72e889997950e110"
+  },
+  {
+    "path": "articles/2026-10-09-foucault-turning-earth/examples/latitude_rates.py",
+    "bytes": 3811,
+    "sha256": "fef1a8ac9df6064d49c530ea4ed935b96858361d56a0500f7dcc1aef94cace62"
+  },
+  {
+    "path": "articles/2026-10-09-foucault-turning-earth/originals/photos/leon-foucault.jpg",
+    "bytes": 468152,
+    "sha256": "491133edc1673e56f0a42f9e0edac1d8fa6b4a00e18b049c65eb27aaa6494fa0"
+  },
+  {
+    "path": "articles/2026-10-09-foucault-turning-earth/originals/photos/pantheon-hall.jpg",
+    "bytes": 2286559,
+    "sha256": "f24c419afec87fa64fbe1c188baee207b29a94e1c62b4f82998c43053d482a6b"
+  },
+  {
+    "path": "articles/2026-10-09-foucault-turning-earth/originals/photos/pantheon-pendulum.jpg",
+    "bytes": 400281,
+    "sha256": "424688c7bf20e21f0946984002c1f5d86d85cde05a33dab035c99cb4dcfd147a"
   },
   {
     "path": "articles/2026-10-09-gecko-gripper-directional-adhesion/assets/astrobee-capture-2025.jpg",
