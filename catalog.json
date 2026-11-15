@@ -153,7 +153,7 @@
     "date": "2026-10-09",
     "collection": "explainers",
     "path": "articles/2026-10-09-bezier-from-lerp/read.md",
-    "public_sha256": "c5a9b914734dfae2927da4064b964110761467deb79c8da809f351f48f1f5a6f",
+    "public_sha256": "03f433e515579a319ec3427c7d08d78bce2c40ec4d2efd2d54fe65e193fdbe02",
     "images": 8,
     "status": "archived_article",
     "related_versions": [
@@ -212,7 +212,7 @@
     "date": "2026-10-09",
     "collection": "explainers",
     "path": "articles/2026-10-09-fft-reuse-symmetry/read.md",
-    "public_sha256": "c64835222211f4661de11c70b8a8e4accd4f40b4535000858dc8d29b177c1732",
+    "public_sha256": "57ce773d6c9d1b921c40304e6ef6c433f0e5caf1c568b86088b2d0183cb7ebe9",
     "images": 7,
     "status": "archived_article",
     "related_versions": [
@@ -225,7 +225,7 @@
     "date": "2026-10-09",
     "collection": "explainers",
     "path": "articles/2026-10-09-fixed-timestep-two-clocks/read.md",
-    "public_sha256": "cf42575b43a4864fa8baaba79798f0f1ab857af809d1e23a74320d0d9a3e68fc",
+    "public_sha256": "8eacd9aa14a5d237ed59236e9c47b113dcd56c483496451ede8fe101366279e2",
     "images": 5,
     "status": "archived_article",
     "related_versions": [
@@ -238,7 +238,7 @@
     "date": "2026-10-09",
     "collection": "student-explorations",
     "path": "articles/2026-10-09-foucault-turning-earth/read.md",
-    "public_sha256": "81017ed0bf4ca0f96b456b424b25a9a98b4c0ce2afb0a577e39962dfe8e65ccd",
+    "public_sha256": "31b7b346ae41b43116fa06f35b401a16a3e5710f10f35bd49d285ec4c1d5ae3d",
     "images": 9,
     "status": "archived_article",
     "related_versions": []
@@ -293,7 +293,7 @@
     "date": "2026-10-09",
     "collection": "student-explorations",
     "path": "articles/2026-10-09-ingenuity-thin-air-flight/read.md",
-    "public_sha256": "5e8e7c6268591702111329a0d73ddf275e17c62170d588d645d5cf981cdeaf25",
+    "public_sha256": "2f7858f64485b2ac233067deaa5be613cb4226533e907d0facb6efade60f5fe1",
     "images": 15,
     "status": "archived_article",
     "related_versions": []
@@ -304,7 +304,7 @@
     "date": "2026-10-09",
     "collection": "visual-stories",
     "path": "articles/2026-10-09-life-rules-growing-machines/read.md",
-    "public_sha256": "e7f4cdc6fbb8fc40630b4d8dce9140cddba504092ddfea8b5b90ab064dc6aca1",
+    "public_sha256": "8587c794fd7bdcf78486cde9dd602c53b24d0441e250f13eee69366f3acc0338",
     "images": 16,
     "status": "archived_article",
     "related_versions": [
@@ -1466,7 +1466,7 @@
     "title": "不移动刻度，一条直线为什么会算题？d’Ocagne 与印在纸上的方程",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-nomogram-straightedge-equations/read.md",
-    "public_sha256": "5d71bebbd5bb08f30786ba21b8c5b432dad34c4951f6b5aff0e3ca815b2d1f56",
+    "public_sha256": "ea5bd05a9a033e5d365779ac005e36d6d9a255cd2b5686d9336c2ca3ce7764da",
     "images": 26
   },
   {
@@ -1508,7 +1508,7 @@
     "title": "五个变量，两只抽屉：编译器怎样给寄存器排座位？",
     "date": "2026-10-12",
     "path": "articles/2026-10-12-register-allocation-colors/read.md",
-    "public_sha256": "2a2f6466b39ae289f8dc010003cd4d4d537ff1defe7f6d2fc0dad2f1c882c12b",
+    "public_sha256": "8bf347bfbe683e408816e5482a85f5a707fd109b6e2996dd39269735af4d1d37",
     "images": 24
   },
   {
